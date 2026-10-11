@@ -39,8 +39,8 @@ button{font-family:inherit}
 .refresh{margin-top:10px;background:var(--surface);border:1px solid var(--red-line);border-left:4px solid var(--red);border-radius:6px;padding:12px 14px;font-size:14px}
 .refresh .row input{flex:1 1 240px;min-width:0;font:12px var(--mono)}
 .sync{font-size:12px;color:var(--muted);margin-top:6px}
-.tabs{display:flex;gap:4px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:3px}
-.tab{border:0;background:none;padding:9px 14px;border-radius:6px;font:600 14px var(--body);color:var(--muted);cursor:pointer}
+.tabs{display:flex;gap:2px;overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:3px}
+.tab{border:0;background:none;white-space:nowrap;flex:none;padding:9px 12px;border-radius:6px;font:600 14px var(--body);color:var(--muted);cursor:pointer}
 .tab[aria-selected="true"]{background:var(--black);color:#fff}
 .tab .cnt{font:500 11px var(--mono);margin-left:4px;opacity:.8}
 
@@ -185,6 +185,13 @@ details.filters.active>summary{background:var(--red-soft);border-radius:6px 6px 
 details.filters:not([open]).active>summary{border-radius:6px}
 details.filters>summary .state{font-weight:500;color:var(--ink);font-size:13px}
 .fcount{background:var(--red-ink);color:#fff;border-radius:999px;font:700 12px var(--body);min-width:22px;height:22px;display:inline-flex;align-items:center;justify-content:center;padding:0 6px;margin-right:6px}
+ul.ev.films li{display:block;grid-template-columns:none}
+.films .tt{display:block;margin-bottom:2px}
+.films .show{white-space:nowrap}
+.films .shows{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.films .show{display:inline-flex;gap:6px;align-items:baseline;border:1px solid var(--line);border-radius:8px;padding:6px 9px;font-size:12px;color:var(--ink);text-decoration:none;background:#fff}
+.films .show b{font-weight:700}.films .show span{color:var(--muted)}
+.films .show:hover{border-color:var(--red-ink);color:var(--red-ink)}
 .linkbtn{font:inherit;color:var(--red-ink);background:none;border:0;padding:6px 0;text-decoration:underline;cursor:pointer}
 </style>
 </head>
@@ -199,6 +206,7 @@ details.filters>summary .state{font-weight:500;color:var(--ink);font-size:13px}
   <div class="sub">
     <div class="tabs" role="tablist">
       <button class="tab" role="tab" id="tab-agenda" aria-selected="true">Agenda</button>
+      <button class="tab" role="tab" id="tab-cin" aria-selected="false">Cinema<span class="cnt" id="cincnt"></span></button>
       <button class="tab" role="tab" id="tab-exh" aria-selected="false">Exhibitions<span class="cnt" id="exhcnt"></span></button>
       <button class="tab" role="tab" id="tab-want" aria-selected="false">Want to see<span class="cnt" id="wantcnt"></span></button>
     </div>
@@ -235,6 +243,10 @@ details.filters>summary .state{font-weight:500;color:var(--ink);font-size:13px}
     <main id="list"></main>
   </section>
 
+  <section id="view-cin" hidden>
+    <div id="cin"></div>
+  </section>
+
   <section id="view-exh" hidden>
     <div id="exh"></div>
   </section>
@@ -261,16 +273,19 @@ details.filters>summary .state{font-weight:500;color:var(--ink);font-size:13px}
 <script type="module">
 const CONTACT_EMAIL = "__CONTACT__";
 const DATA = await fetch("events.json", {cache:"no-cache"}).then(r=>r.json());
-const EVENTS = DATA.events.filter(e => /[\p{L}\p{N}]/u.test(e.t || ""));
+const ALLEV = DATA.events.filter(e => /[\p{L}\p{N}]/u.test(e.t || ""));
+const isScreening = e => e.c==="film" && !(e.ed && e.ed!==e.d && (new Date(e.ed)-new Date(e.d))/864e5>=2);
+const FILMS = ALLEV.filter(isScreening);          // single screenings live in the Cinema tab
+const EVENTS = ALLEV.filter(e=>!isScreening(e));
 const SOURCES = DATA.sources;
 const UPDATED = new Date(DATA.updated.replace("Z",":00Z"));
 const SNAP = `${UPDATED.getFullYear()}-${String(UPDATED.getMonth()+1).padStart(2,"0")}-${String(UPDATED.getDate()).padStart(2,"0")}`;
 const AREAS = ["Centrum","West","Noord","Oost","Zuid","Nieuw-West","Zuidoost","Weesp"];
 const CATS = [
-  ["music","Music","#E8EEFB","#2F55B8"],["club","Club","#F0E9F8","#6D3AA8"],["film","Film","#FDEBE3","#B8461F"],
-  ["talk","Talks","#E4F3EB","#1F7A50"],["theatre","Stage & comedy","#FBE7EF","#AD2D66"],["workshop","Workshops","#FBF1DA","#8A6100"],
+  ["music","Music","#E8EEFB","#2F55B8"],["club","Club","#F0E9F8","#6D3AA8"],  ["talk","Talks","#E4F3EB","#1F7A50"],["theatre","Stage & comedy","#FBE7EF","#AD2D66"],["workshop","Workshops","#FBF1DA","#8A6100"],
   ["exhibition","Exhibitions","#E1F1F4","#0F6F82"],["community","Community & food","#EAF2E0","#4A7422"],["protest","Protest & activism","#FADBD8","#9C1C14"],["other","Other","#EFEDED","#5F5758"]
 ];
+const FILM_TAG=["#FDEBE3","#B8461F"];
 const CATMAP = {comedy:"theatre",dance:"music",food:"community",kids:"community"};
 const catOf = e => CATMAP[e.c] || (CATS.some(c=>c[0]===e.c) ? e.c : "other");
 const TODS = [["all","Any time",""],["morning","Morning","before 12"],["afternoon","Afternoon","12–17"],["evening","Evening","17–22"],["late","Late","22+"]];
@@ -338,12 +353,14 @@ function saveWant(){ put("agenda-want",WANT); updateWantCount(); }
 
 /* ---------- Tabs ---------- */
 function showTab(which){
-  for(const k of ["agenda","exh","want"]){ $("#tab-"+k).setAttribute("aria-selected",which===k); $("#view-"+k).hidden=which!==k; }
+  for(const k of ["agenda","cin","exh","want"]){ $("#tab-"+k).setAttribute("aria-selected",which===k); $("#view-"+k).hidden=which!==k; }
   if(which==="agenda") render();
+  if(which==="cin") renderCin();
   if(which==="exh") renderExh();
   if(which==="want") renderWant();
 }
 $("#tab-agenda").onclick=()=>showTab("agenda");
+$("#tab-cin").onclick=()=>showTab("cin");
 $("#tab-exh").onclick=()=>showTab("exh");
 $("#tab-want").onclick=()=>showTab("want");
 
@@ -508,6 +525,30 @@ function bindRender(){
   const te=$("#toexh"); if(te) te.onclick=()=>showTab("exh");
 }
 
+/* ---------- Cinema tab: every screening, grouped by film ---------- */
+const filmKey = t => t.toLowerCase().replace(/\([^)]*\)|\[[^\]]*\]/g," ").replace(/[^\p{L}\p{N}]+/gu," ").trim();
+const CIN = FILMS.filter(e=>e.d>=todayIso);
+let cinState = {q:"", venue:"", day:""};
+function renderCin(){
+  const list=CIN.filter(e=>(!cinState.venue||e.v===cinState.venue)&&(!cinState.day||e.d===cinState.day)&&(!cinState.q||(e.t+" "+e.v).toLowerCase().includes(cinState.q.toLowerCase())));
+  const films=new Map();
+  list.forEach(e=>{ const k=filmKey(e.t)||e.t; if(!films.has(k)) films.set(k,{t:e.t,s:[]}); films.get(k).s.push(e); });
+  const arr=[...films.values()].sort((a,b)=>a.s[0].d.localeCompare(b.s[0].d)||(a.s[0].h||"99").localeCompare(b.s[0].h||"99")||a.t.localeCompare(b.t));
+  const cinemas=[...new Set(CIN.map(e=>e.v))].sort((a,b)=>a.localeCompare(b));
+  const days=[...new Set(CIN.map(e=>e.d))].sort();
+  $("#cin").innerHTML=`<div class="dayhead"><h2>Cinema</h2><span class="n">${films.size} films · ${list.length} screenings</span></div>
+    <p class="hint" style="margin-top:8px">Every screening from every cinema in the listings, grouped by film. Tap a time to open the cinema's page.</p>
+    <div class="row" style="margin:10px 0"><input type="search" id="cinq" placeholder="Search film or cinema…" aria-label="Search films" value="${esc(cinState.q)}">
+      <select id="cinv" aria-label="Cinema"><option value="">All cinemas</option>${cinemas.map(v=>`<option${v===cinState.venue?" selected":""}>${esc(v)}</option>`).join("")}</select>
+      <select id="cind" aria-label="Day"><option value="">Any day</option>${days.map(d=>{const x=parse(d);return `<option value="${d}"${d===cinState.day?" selected":""}>${DWL[x.getDay()].slice(0,3)} ${x.getDate()} ${MON[x.getMonth()]}</option>`;}).join("")}</select></div>
+    <ul class="ev films">${arr.map(f=>{
+      const shows=f.s.sort((a,b)=>a.d.localeCompare(b.d)||(a.h||"99").localeCompare(b.h||"99"));
+      return `<li><div><span class="tt" style="cursor:default">${esc(f.t)}</span><div class="shows">${shows.map(e=>{const x=parse(e.d);return `<a class="show" href="${esc(e.u||"#")}" target="_blank" rel="noopener"><b>${DWL[x.getDay()].slice(0,3)} ${x.getDate()} ${MON[x.getMonth()]}${e.h?" "+e.h:""}</b><span>${esc(e.v||"")}</span></a>`;}).join("")}</div></div></li>`;}).join("")||'<div class="empty">No screenings match.</div>'}</ul>`;
+  const q=$("#cinq"); q.oninput=()=>{ cinState.q=q.value; const p=q.selectionStart; renderCin(); const n=$("#cinq"); n.focus(); n.setSelectionRange(p,p); };
+  $("#cinv").onchange=ev=>{ cinState.venue=ev.target.value; renderCin(); };
+  $("#cind").onchange=ev=>{ cinState.day=ev.target.value; renderCin(); };
+}
+
 /* ---------- Exhibitions tab ---------- */
 const EXH = EVENTS.filter(e=>span(e) && (e.ed||e.d)>=todayIso);
 function renderExh(){
@@ -595,16 +636,17 @@ $("#loadcode").onclick=()=>{
 };
 
 $("#srcgrid").innerHTML=Object.entries(SOURCES).sort((a,b)=>a[1].name.localeCompare(b[1].name)).map(([k,s])=>{
-  const n=EVENTS.filter(e=>e.s===k).length;
+  const n=ALLEV.filter(e=>e.s===k).length;
   return `<div class="${n?"":"x"}"><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a> <b>${n?n+" events":esc(s.note||"no dated events found")}</b></div>`;
 }).join("");
 const hh=String(UPDATED.getHours()).padStart(2,"0")+":"+String(UPDATED.getMinutes()).padStart(2,"0");
 const age=Math.round((parse(todayIso)-parse(SNAP))/864e5);
-$("#stamp").textContent=`Updated ${age<=0?"today":age===1?"yesterday":age+" days ago"} at ${hh} · ${EVENTS.length.toLocaleString("en")} events`;
+$("#stamp").textContent=`Updated ${age<=0?"today":age===1?"yesterday":age+" days ago"} at ${hh} · ${ALLEV.length.toLocaleString("en")} events`;
 if(age>=3) $("#stamp").classList.add("old");
 if(CONTACT_EMAIL && !CONTACT_EMAIL.startsWith("__")) $("#contact").innerHTML=`Venue or organiser and want something changed or removed? Email <a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a>.`;
 updateWantCount();
 syncControls();
+$("#cincnt").textContent = CIN.length || "";
 $("#exhcnt").textContent = EXH.length || "";
 setDay(state.day);
 </script>
