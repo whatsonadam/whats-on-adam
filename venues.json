@@ -43,6 +43,12 @@
 "skip": true,
 "q": "not found"
 },
+"Academie van Bouwkunst Amsterdam": {
+"lat": 52.36754,
+"lon": 4.9032,
+"q": "name",
+"area": "Centrum"
+},
 "Affordable Art Fair Amsterdam": {
 "skip": true,
 "q": "not found"
@@ -54,6 +60,16 @@
 "Allard Pierson": {
 "lat": 52.36881,
 "lon": 4.89305,
+"q": "name",
+"area": "Centrum"
+},
+"Amstel1": {
+"skip": true,
+"q": "not found"
+},
+"Amstelkerk": {
+"lat": 52.36234,
+"lon": 4.89662,
 "q": "name",
 "area": "Centrum"
 },
@@ -109,6 +125,12 @@
 "lon": 4.89611,
 "q": "addr",
 "area": "Centrum"
+},
+"Atelier K84": {
+"lat": 52.35328,
+"lon": 4.89035,
+"q": "name",
+"area": "Zuid"
 },
 "Atelier Volten": {
 "lat": 52.35328,
@@ -317,6 +339,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"De Boshalte": {
+"lat": 52.32809,
+"lon": 4.85617,
+"q": "name",
+"area": null
+},
 "De Bouwput": {
 "lat": 52.38307,
 "lon": 4.8428,
@@ -328,6 +356,12 @@
 "lon": 4.91076,
 "q": "name",
 "area": "Noord"
+},
+"De Duif": {
+"lat": 52.36128,
+"lon": 4.89679,
+"q": "name",
+"area": "Centrum"
 },
 "De Engelse Kerk": {
 "lat": 52.36933,
@@ -371,6 +405,12 @@
 "q": "name",
 "area": "Zuidoost"
 },
+"De Nieuwe Liefde": {
+"lat": 52.36976,
+"lon": 4.87144,
+"q": "name",
+"area": "West"
+},
 "De Roode Remise": {
 "lat": 52.38419,
 "lon": 4.88397,
@@ -388,6 +428,12 @@
 "lon": 4.83225,
 "q": "name",
 "area": "Nieuw-West"
+},
+"De Trut": {
+"lat": 52.36775,
+"lon": 4.87213,
+"q": "name",
+"area": "West"
 },
 "De Tuinen Van": {
 "skip": true,
@@ -500,6 +546,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Forteiland Pampus": {
+"lat": 52.37828,
+"lon": 5.03602,
+"q": "name",
+"area": "Noord"
+},
 "Fosbury & Sons": {
 "lat": 52.36289,
 "lon": 4.91117,
@@ -555,6 +607,10 @@
 "lon": 4.86895,
 "q": "name",
 "area": "West"
+},
+"Gebouw Muntstaete, Depot de Munt": {
+"skip": true,
+"q": "not found"
 },
 "Geelvinck Pianola Museum": {
 "lat": 52.37862,
@@ -626,6 +682,10 @@
 "q": "name",
 "area": "Zuid"
 },
+"Het Muizenhuis - Mini museum & winkel": {
+"skip": true,
+"q": "not found"
+},
 "Het Open Huis": {
 "lat": 52.37637,
 "lon": 4.88745,
@@ -643,6 +703,10 @@
 "lon": 4.92073,
 "area": "Noord",
 "q": "manual: Gedempt Hamerkanaal 96, 1021KR Amsterdam"
+},
+"Het Vrijpaleis": {
+"skip": true,
+"q": "not found"
 },
 "Het Zonnehuis": {
 "lat": 52.29418,
@@ -664,6 +728,12 @@
 "lat": 52.36764,
 "lon": 4.88484,
 "q": "name",
+"area": "Centrum"
+},
+"Huis Vrederiks": {
+"lat": 52.35973,
+"lon": 4.89823,
+"q": "addr",
 "area": "Centrum"
 },
 "ICK Dans Amsterdam": {
@@ -693,6 +763,12 @@
 "lon": 4.85456,
 "q": "addr",
 "area": "Zuid"
+},
+"Ir Lely Lyceum": {
+"lat": 52.29734,
+"lon": 4.97867,
+"q": "name",
+"area": "Zuidoost"
 },
 "Jan van Galenstraat A10 snelweg": {
 "skip": true,
@@ -803,6 +879,12 @@
 "Madam": {
 "lat": 52.3746,
 "lon": 4.88877,
+"q": "name",
+"area": "Centrum"
+},
+"Maloe Melo": {
+"lat": 52.37006,
+"lon": 4.87772,
 "q": "name",
 "area": "Centrum"
 },
@@ -1004,6 +1086,10 @@
 "q": "name",
 "area": "Oost"
 },
+"Oedipus Craft Space": {
+"skip": true,
+"q": "not found"
+},
 "Olympisch Stadion Amsterdam": {
 "lat": 52.34344,
 "lon": 4.85405,
@@ -1196,6 +1282,12 @@
 "q": "name",
 "area": "Oost"
 },
+"SPUI25": {
+"lat": 52.36859,
+"lon": 4.88969,
+"q": "name",
+"area": "Centrum"
+},
 "STRAAT Museum – Street art en graffiti in Amsterdam": {
 "lat": 52.4001,
 "lon": 4.89373,
@@ -1205,6 +1297,12 @@
 "SUPPER Cruise": {
 "lat": 52.37868,
 "lon": 4.89717,
+"q": "name",
+"area": "Centrum"
+},
+"San Serriffe": {
+"lat": 52.37357,
+"lon": 4.89724,
 "q": "name",
 "area": "Centrum"
 },
@@ -1306,6 +1404,12 @@
 "q": "name",
 "area": "Nieuw-West"
 },
+"Studio K": {
+"lat": 52.31816,
+"lon": 4.98068,
+"q": "name",
+"area": "Zuidoost"
+},
 "SugarFactory": {
 "lat": 52.36481,
 "lon": 4.88183,
@@ -1351,6 +1455,10 @@
 "lon": 4.89623,
 "q": "name",
 "area": "Centrum"
+},
+"The Famous Boom Chicago Comedy Show": {
+"skip": true,
+"q": "not found"
 },
 "The Loft": {
 "lat": 52.3846,
@@ -1400,6 +1508,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Theater de Richel": {
+"lat": 52.37114,
+"lon": 4.89009,
+"q": "name",
+"area": "Centrum"
+},
 "Theater de Roode Bioscoop": {
 "lat": 52.38408,
 "lon": 4.88398,
@@ -1433,6 +1547,12 @@
 "lon": 4.89295,
 "q": "name",
 "area": "Noord"
+},
+"UGE Studio": {
+"lat": 52.31816,
+"lon": 4.98068,
+"q": "name",
+"area": "Zuidoost"
 },
 "VROG Trampoline, Parkour/freerun, Urban Dance": {
 "skip": true,
@@ -1560,6 +1680,12 @@
 "q": "name",
 "area": "West"
 },
+"Zaal 100": {
+"lat": 52.38303,
+"lon": 4.87816,
+"q": "name",
+"area": "West"
+},
 "Ziggo Dome": {
 "lat": 52.31341,
 "lon": 4.93712,
@@ -1575,6 +1701,12 @@
 "lon": 4.89717,
 "q": "name",
 "area": "Centrum"
+},
+"de Tanker in Noord": {
+"lat": 52.39415,
+"lon": 4.92298,
+"q": "name",
+"area": "Noord"
 },
 "het Rijk van de Keizer": {
 "lat": 52.38331,
