@@ -44,6 +44,7 @@ SOURCES = {
     "wethepeople": ("We The People", "https://www.wethepeopleamsterdam.nl/"),
     "dezwijger": ("Pakhuis de Zwijger", "https://dezwijger.nl/agenda"),
     "lab111": ("LAB111", "https://www.lab111.nl/programma/"),
+    "ade": ("Amsterdam Dance Event", "https://www.amsterdam-dance-event.nl/en/program/"),
     "tolhuistuin": ("Tolhuistuin", "https://tolhuistuin.nl/en/agenda"),
     "iamsterdam": ("I amsterdam Uitagenda", "https://www.iamsterdam.com/uit/agenda"),
     "artis": ("ARTIS-Micropia", "https://www.artis.nl/nl/artis-micropia"),
@@ -110,6 +111,11 @@ def collect(today):
     per["cinetol"] = run("cinetol", importlib.import_module("cinetol").parse, open(f, errors="ignore").read(), today) if os.path.exists(f) else []
     f = os.path.join(DATA, "radar.json")
     per["radar"] = run("radar", importlib.import_module("radar").parse_api, json.load(open(f)).get("result", {}), today) if os.path.exists(f) else []
+    ade_pages = []
+    for p in sorted(glob.glob(os.path.join(DATA, "ade", "p*.json"))):
+        try: ade_pages.append(json.load(open(p)))
+        except Exception: pass
+    per["ade"] = run("ade", importlib.import_module("ade").parse_pages, ade_pages, today)
     pages = [open(p, errors="ignore").read() for p in sorted(glob.glob(os.path.join(DATA, "iamsterdam", "p*.html")))]
     per["iamsterdam"] = run("iamsterdam", importlib.import_module("iamsterdam").parse_pages, pages, today)
     if not os.environ.get("NO_PAGE_TIMES"):

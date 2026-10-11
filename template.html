@@ -185,13 +185,18 @@ details.filters.active>summary{background:var(--red-soft);border-radius:6px 6px 
 details.filters:not([open]).active>summary{border-radius:6px}
 details.filters>summary .state{font-weight:500;color:var(--ink);font-size:13px}
 .fcount{background:var(--red-ink);color:#fff;border-radius:999px;font:700 12px var(--body);min-width:22px;height:22px;display:inline-flex;align-items:center;justify-content:center;padding:0 6px;margin-right:6px}
-ul.ev.films li{display:block;grid-template-columns:none}
+ul.ev.so{background:#2a2a2a;color:#fff;border-radius:4px;padding:1px 6px;font:700 10px var(--mono);text-transform:uppercase}
+#adedays{display:flex;gap:6px;overflow-x:auto;margin-top:10px}
+.films li{display:block;grid-template-columns:none}
 .films .tt{display:block;margin-bottom:2px}
 .films .show{white-space:nowrap}
 .films .shows{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
 .films .show{display:inline-flex;gap:6px;align-items:baseline;border:1px solid var(--line);border-radius:8px;padding:6px 9px;font-size:12px;color:var(--ink);text-decoration:none;background:#fff}
 .films .show b{font-weight:700}.films .show span{color:var(--muted)}
 .films .show:hover{border-color:var(--red-ink);color:var(--red-ink)}
+.so{background:#2a2a2a;color:#fff;border-radius:4px;padding:1px 6px;font:700 10px var(--mono);text-transform:uppercase}
+#adedays{display:flex;gap:6px;overflow-x:auto;margin-top:10px}
+#adedays .day{flex:none}
 .linkbtn{font:inherit;color:var(--red-ink);background:none;border:0;padding:6px 0;text-decoration:underline;cursor:pointer}
 </style>
 </head>
@@ -206,6 +211,7 @@ ul.ev.films li{display:block;grid-template-columns:none}
   <div class="sub">
     <div class="tabs" role="tablist">
       <button class="tab" role="tab" id="tab-agenda" aria-selected="true">Agenda</button>
+      <button class="tab" role="tab" id="tab-ade" aria-selected="false" hidden>ADE<span class="cnt" id="adecnt"></span></button>
       <button class="tab" role="tab" id="tab-cin" aria-selected="false">Cinema<span class="cnt" id="cincnt"></span></button>
       <button class="tab" role="tab" id="tab-exh" aria-selected="false">Exhibitions<span class="cnt" id="exhcnt"></span></button>
       <button class="tab" role="tab" id="tab-want" aria-selected="false">Want to see<span class="cnt" id="wantcnt"></span></button>
@@ -243,6 +249,10 @@ ul.ev.films li{display:block;grid-template-columns:none}
     <main id="list"></main>
   </section>
 
+  <section id="view-ade" hidden>
+    <div id="ade"></div>
+  </section>
+
   <section id="view-cin" hidden>
     <div id="cin"></div>
   </section>
@@ -276,7 +286,8 @@ const DATA = await fetch("events.json", {cache:"no-cache"}).then(r=>r.json());
 const ALLEV = DATA.events.filter(e => /[\p{L}\p{N}]/u.test(e.t || ""));
 const isScreening = e => e.c==="film" && !(e.ed && e.ed!==e.d && (new Date(e.ed)-new Date(e.d))/864e5>=2);
 const FILMS = ALLEV.filter(isScreening);          // single screenings live in the Cinema tab
-const EVENTS = ALLEV.filter(e=>!isScreening(e));
+const ADEV = ALLEV.filter(e=>e.ade && (e.ed||e.d)>=new Date().toISOString().slice(0,10));   // temporary ADE tab
+const EVENTS = ALLEV.filter(e=>!isScreening(e) && !e.ade);
 const SOURCES = DATA.sources;
 const UPDATED = new Date(DATA.updated.replace("Z",":00Z"));
 const SNAP = `${UPDATED.getFullYear()}-${String(UPDATED.getMonth()+1).padStart(2,"0")}-${String(UPDATED.getDate()).padStart(2,"0")}`;
@@ -353,13 +364,15 @@ function saveWant(){ put("agenda-want",WANT); updateWantCount(); }
 
 /* ---------- Tabs ---------- */
 function showTab(which){
-  for(const k of ["agenda","cin","exh","want"]){ $("#tab-"+k).setAttribute("aria-selected",which===k); $("#view-"+k).hidden=which!==k; }
+  for(const k of ["agenda","ade","cin","exh","want"]){ $("#tab-"+k).setAttribute("aria-selected",which===k); $("#view-"+k).hidden=which!==k; }
   if(which==="agenda") render();
+  if(which==="ade") renderAde();
   if(which==="cin") renderCin();
   if(which==="exh") renderExh();
   if(which==="want") renderWant();
 }
 $("#tab-agenda").onclick=()=>showTab("agenda");
+$("#tab-ade").onclick=()=>showTab("ade");
 $("#tab-cin").onclick=()=>showTab("cin");
 $("#tab-exh").onclick=()=>showTab("exh");
 $("#tab-want").onclick=()=>showTab("want");
@@ -491,7 +504,7 @@ function item(e, ws, opts){
     : `<a class="act cal" href="#" data-i="${i}" target="_blank" rel="noopener" title="Add to Apple Calendar">${CAL_ICON}Add to calendar</a>`;
   return `<li><div class="tm">${tm}</div><div>
     <a class="tt" href="${esc(e.u||src?.url||"#")}" target="_blank" rel="noopener">${esc(e.t)}</a>
-    <div class="meta"><span class="ven">${esc(e.v||"")}</span><span class="tag" style="--cbg:${c[2]};--cfg:${c[3]}">${esc(e.c)}</span>${e.nl?'<span class="nl" title="Looks Dutch-language">NL</span>':""}${e.p?`<span>${esc(e.p)}</span>`:""}${via?`<span class="src">${esc(via)}</span>`:""}${also.length?`<span class="src">also on ${esc(also.join(", "))}</span>`:""}</div>
+    <div class="meta"><span class="ven">${esc(e.v||"")}</span><span class="tag" style="--cbg:${c[2]};--cfg:${c[3]}">${esc(e.c)}</span>${e.so?'<span class="so">Sold out</span>':""}${e.nl?'<span class="nl" title="Looks Dutch-language">NL</span>':""}${e.p?`<span>${esc(e.p)}</span>`:""}${via?`<span class="src">${esc(via)}</span>`:""}${also.length?`<span class="src">also on ${esc(also.join(", "))}</span>`:""}</div>
     ${e.b?`<div class="bl">${esc(e.b)}</div>`:""}
   </div><div class="acts">${action}</div></li>`;
 }
@@ -523,6 +536,31 @@ function bindRender(){
   $("#list").querySelectorAll(".tod button").forEach(b=>b.onclick=()=>{ state.tod=b.dataset.tod; render(); });
   $("#list").querySelectorAll(".view button").forEach(b=>b.onclick=()=>{ state.view=b.dataset.view; render(); });
   const te=$("#toexh"); if(te) te.onclick=()=>showTab("exh");
+}
+
+/* ---------- ADE tab (Amsterdam Dance Event, straight from ADE's own programme) ---------- */
+let adeState = {day:"", q:"", venue:"", hideSold:false};
+function renderAde(){
+  VISIBLE=[]; const ws=wantSet();
+  const days=[...new Set(ADEV.map(e=>e.d))].sort();
+  if(!adeState.day || !days.includes(adeState.day)) adeState.day = days.find(d=>d>=todayIso) || days[0];
+  const venues=[...new Set(ADEV.map(e=>e.v).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
+  const q=adeState.q.toLowerCase();
+  const list=ADEV.filter(e=>onDay(e,adeState.day)&&(!adeState.hideSold||!e.so)&&(!adeState.venue||e.v===adeState.venue)&&(!q||(e.t+" "+e.v+" "+(e.b||"")).toLowerCase().includes(q)))
+    .sort((a,b)=>(a.h||"99").localeCompare(b.h||"99")||a.t.localeCompare(b.t));
+  const sold=ADEV.filter(e=>onDay(e,adeState.day)&&e.so).length;
+  const d0=parse(adeState.day);
+  $("#ade").innerHTML=`<div class="dayhead"><h2>Amsterdam Dance Event</h2><span class="n">${list.length} events on ${DWL[d0.getDay()].slice(0,3)} ${d0.getDate()} ${MON[d0.getMonth()]}</span></div>
+    <p class="hint" style="margin-top:8px">The festival programme, read from ADE's own site. Shown only around the festival.</p>
+    <div class="days" id="adedays" role="listbox" aria-label="Pick an ADE day">${days.map(d=>{const x=parse(d);return `<button class="day${d===adeState.day?" on":""}" data-d="${d}"><span class="dw">${DWL[x.getDay()].slice(0,3)}</span><span class="dc">${x.getDate()} ${MON[x.getMonth()]}</span></button>`;}).join("")}</div>
+    <div class="row" style="margin:10px 0"><input type="search" id="adeq" placeholder="Search event or venue…" aria-label="Search ADE" value="${esc(adeState.q)}">
+      <select id="adev" aria-label="Venue"><option value="">All venues</option>${venues.map(v=>`<option${v===adeState.venue?" selected":""}>${esc(v)}</option>`).join("")}</select>
+      <label class="toggle"><input type="checkbox" id="adesold"${adeState.hideSold?" checked":""}> Hide sold out${sold?` (${sold})`:""}</label></div>
+    <ul class="ev">${list.map(e=>item(e,ws)).join("")||'<div class="empty">Nothing matches.</div>'}</ul>`;
+  document.querySelectorAll("#adedays .day").forEach(b=>b.onclick=()=>{ adeState.day=b.dataset.d; renderAde(); window.scrollTo({top:0}); });
+  const qi=$("#adeq"); qi.oninput=()=>{ adeState.q=qi.value; const p=qi.selectionStart; renderAde(); const n=$("#adeq"); n.focus(); n.setSelectionRange(p,p); };
+  $("#adev").onchange=ev=>{ adeState.venue=ev.target.value; renderAde(); };
+  $("#adesold").onchange=ev=>{ adeState.hideSold=ev.target.checked; renderAde(); };
 }
 
 /* ---------- Cinema tab: every screening, grouped by film ---------- */
@@ -646,6 +684,7 @@ if(age>=3) $("#stamp").classList.add("old");
 if(CONTACT_EMAIL && !CONTACT_EMAIL.startsWith("__")) $("#contact").innerHTML=`Venue or organiser and want something changed or removed? Email <a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a>.`;
 updateWantCount();
 syncControls();
+if(ADEV.length){ $("#tab-ade").hidden=false; $("#adecnt").textContent=ADEV.length; }
 $("#cincnt").textContent = CIN.length || "";
 $("#exhcnt").textContent = EXH.length || "";
 setDay(state.day);

@@ -9,7 +9,7 @@ JSON API and I amsterdam from its listing pages. De Zwijger and The School of Li
 automated browsers: if their files come back as 'blocked', fetch them with WebFetch
 (see README).
 """
-import asyncio, datetime, json, os, re, subprocess, sys, concurrent.futures as cf
+import asyncio, datetime, json, os, re, subprocess, sys, time, concurrent.futures as cf
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "_data")
@@ -114,6 +114,23 @@ def fetch_radar(status):
     code = curl(url, os.path.join(DATA, "radar.json"))
     status["radar"] = "ok" if code == "200" else f"error {code}"
 
+def fetch_ade(status, today, max_pages=80):
+    """ADE's public programme listing (JSON, 40 per page). Politely: one page per second, stops at the first empty page."""
+    d = os.path.join(DATA, "ade"); os.makedirs(d, exist_ok=True)
+    for f in os.listdir(d): os.remove(os.path.join(d, f))
+    to = today + datetime.timedelta(days=60)
+    n = 0
+    for p in range(max_pages):
+        url = ("https://www.amsterdam-dance-event.nl/api/program/filter/?section=events&type=8262%2C8263"
+               f"&from={today.isoformat()}&to={to.isoformat()}&page={p}")
+        out = os.path.join(d, f"p{p:03d}.json")
+        if curl(url, out) != "200": status["ade"] = f"error on page {p}"; return
+        try: items = json.load(open(out)).get("data", [])
+        except Exception: status["ade"] = f"unreadable page {p}"; return
+        if not items: os.remove(out); break
+        n += len(items); time.sleep(1.0)
+    status["ade"] = f"ok ({n} listings)"
+
 def fetch_iamsterdam(status, max_pages=300):
     d = os.path.join(DATA, "iamsterdam"); os.makedirs(d, exist_ok=True)
     for f in os.listdir(d): os.remove(os.path.join(d, f))
@@ -143,6 +160,7 @@ def main():
     if pages: asyncio.run(render_all(pages, status))
     if not want or "radar" in want: fetch_radar(status)
     if not want or "iamsterdam" in want: fetch_iamsterdam(status)
+    if not want or "ade" in want: fetch_ade(status, today)
     json.dump({"fetched": today.isoformat(), "status": status}, open(os.path.join(DATA, "fetch_status.json"), "w"), indent=1)
     for k in sorted(status): print(f"{k:22} {status[k]}")
 
