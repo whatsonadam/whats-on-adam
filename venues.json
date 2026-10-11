@@ -443,6 +443,12 @@
 "skip": true,
 "q": "not found"
 },
+"De Uitkijk": {
+"lat": 52.36476,
+"lon": 4.88439,
+"q": "name",
+"area": "Centrum"
+},
 "De Verdieping (Kaboem)": {
 "lat": 52.36322,
 "lon": 4.86971,
