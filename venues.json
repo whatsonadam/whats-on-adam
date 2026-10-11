@@ -1178,6 +1178,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Perdu": {
+"lat": 52.36887,
+"lon": 4.89625,
+"q": "name",
+"area": "Centrum"
+},
 "Plantage": {
 "lat": 52.3683,
 "lon": 4.91117,
