@@ -321,6 +321,10 @@
 "q": "name",
 "area": null
 },
+"Contra": {
+"skip": true,
+"q": "not found"
+},
 "Crowne Plaza Amsterdam Zuid": {
 "lat": 52.33587,
 "lon": 4.87459,
@@ -901,6 +905,12 @@
 "Mediahaven": {
 "skip": true,
 "q": "not found"
+},
+"Mediamatic": {
+"lat": 52.37647,
+"lon": 4.91328,
+"q": "name",
+"area": "Centrum"
 },
 "Meervaart": {
 "lat": 52.35895,
