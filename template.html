@@ -40,23 +40,23 @@ button{font-family:inherit}
 .refresh .row input{flex:1 1 240px;min-width:0;font:12px var(--mono)}
 .sync{font-size:12px;color:var(--muted);margin-top:6px}
 .tabs{display:flex;gap:4px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:3px}
-.tab{border:0;background:none;padding:6px 14px;border-radius:6px;font:600 14px var(--body);color:var(--muted);cursor:pointer}
+.tab{border:0;background:none;padding:9px 14px;border-radius:6px;font:600 14px var(--body);color:var(--muted);cursor:pointer}
 .tab[aria-selected="true"]{background:var(--black);color:#fff}
 .tab .cnt{font:500 11px var(--mono);margin-left:4px;opacity:.8}
 
 .sticky{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:12px 10px;border-bottom:1px solid var(--line);margin-top:10px}
 .days{display:flex;gap:5px;overflow-x:auto;scrollbar-width:thin;padding-bottom:6px}
 .day{flex:0 0 auto;width:54px;border:1px solid var(--line);background:var(--surface);border-radius:6px;padding:6px 0 7px;text-align:center;cursor:pointer;color:var(--ink)}
-.day .dw{display:block;font:700 10px var(--body);text-transform:uppercase;letter-spacing:.09em;color:var(--muted)}
+.day .dw{display:block;font:700 11px var(--body);text-transform:uppercase;letter-spacing:.09em;color:var(--muted)}
 .day .dn{display:block;font:900 24px/1 var(--display)}
-.day .dc{display:block;font:500 10px var(--mono);color:var(--muted);margin-top:2px}
+.day .dc{display:block;font:500 11px var(--mono);color:var(--muted);margin-top:2px}
 .day.wk{background:var(--red-soft);border-color:var(--red-line)}
 .day.today .dw{color:var(--red-ink)}
-.day.on{background:var(--red);border-color:var(--red);color:#fff}
-.day.on .dw,.day.on .dc{color:#FFE3E0}
+.day.on{background:var(--red-ink);border-color:var(--red-ink);color:#fff}
+.day.on .dw,.day.on .dc{color:#fff}
 .mlabel{flex:0 0 auto;writing-mode:vertical-rl;transform:rotate(180deg);font:900 13px var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--red-ink);align-self:center}
 .row{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-top:8px}
-.pill{font:600 13px var(--body);border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:6px;padding:5px 12px;cursor:pointer}
+.pill{font:600 13px var(--body);border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:6px;padding:9px 14px;cursor:pointer}
 .pill:hover{border-color:var(--red)}
 input[type=search],input[type=date],input[type=text],select{font:14px var(--body);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:7px 10px}
 input[type=search]{flex:1 1 180px;min-width:0}
@@ -69,10 +69,10 @@ details.filters>summary .state{font-weight:500;color:var(--muted)}
 .fbody{padding:0 14px 12px;display:grid;gap:10px}
 .frow{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
 .flabel{font:700 11px var(--body);text-transform:uppercase;letter-spacing:.09em;color:var(--muted);width:56px;flex:0 0 auto}
-.chip{display:inline-flex;align-items:center;gap:6px;font:600 12.5px var(--body);border-radius:5px;padding:4px 10px;cursor:pointer;border:1px solid transparent;background:var(--cbg);color:var(--cfg)}
+.chip{display:inline-flex;align-items:center;gap:6px;font:600 13px var(--body);border-radius:6px;padding:8px 12px;cursor:pointer;border:1px solid transparent;background:var(--cbg);color:var(--cfg)}
 .chip[aria-pressed="false"]{background:transparent;border-color:var(--line);color:var(--muted)}
-.toggle{font-size:13px;display:inline-flex;gap:7px;align-items:center;cursor:pointer}
-.toggle input{accent-color:var(--red);width:16px;height:16px}
+.toggle{font-size:14px;display:inline-flex;gap:8px;align-items:center;cursor:pointer;padding:6px 4px}
+.toggle input{accent-color:var(--red-ink);width:20px;height:20px}
 .hint{font-size:12px;color:var(--muted);max-width:70ch}
 
 .dayhead{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-top:24px;flex-wrap:wrap}
@@ -103,12 +103,12 @@ ul.ev li:first-child{border-top:0}
 .tt:hover{color:var(--red-ink)}
 .meta{display:flex;flex-wrap:wrap;gap:4px 10px;font-size:13px;color:var(--muted);margin-top:3px;align-items:center}
 .meta .ven{color:var(--ink)}
-.tag{font:700 10.5px var(--body);letter-spacing:.05em;text-transform:uppercase;border-radius:4px;padding:1px 6px;background:var(--cbg);color:var(--cfg)}
-.nl{font:700 10px var(--body);border:1px solid var(--line);border-radius:4px;padding:0 5px;color:var(--muted)}
+.tag{font:700 11px var(--body);letter-spacing:.05em;text-transform:uppercase;border-radius:4px;padding:1px 6px;background:var(--cbg);color:var(--cfg)}
+.nl{font:700 11px var(--body);border:1px solid var(--line);border-radius:4px;padding:0 5px;color:var(--muted)}
 .bl{font-size:13px;color:var(--muted);margin-top:2px}
 .src{font-size:12px;color:var(--muted)}
-.act{display:inline-flex;align-items:center;gap:5px;font:700 12px var(--body);border-radius:6px;padding:5px 9px;text-decoration:none;white-space:nowrap;cursor:pointer;border:1px solid var(--red-line);background:var(--red-soft);color:var(--red-ink)}
-.act:hover{background:var(--red);border-color:var(--red);color:#fff}
+.act{display:inline-flex;align-items:center;gap:5px;font:700 13px var(--body);border-radius:6px;padding:9px 12px;text-decoration:none;white-space:nowrap;cursor:pointer;border:1px solid var(--red-line);background:var(--red-soft);color:var(--red-ink)}
+.act:hover{background:var(--red-ink);border-color:var(--red-ink);color:#fff}
 .act svg{width:14px;height:14px}
 .act.saved{background:var(--black);border-color:var(--black);color:#fff}
 .empty{padding:28px;text-align:center;color:var(--muted);background:var(--surface);border:1px dashed var(--line);border-radius:8px;margin-top:14px}
@@ -145,7 +145,8 @@ details.sources summary{cursor:pointer;font-weight:700}
 .srcgrid b{font:500 11px var(--mono);color:var(--muted)}
 .note{font-size:13px;color:var(--muted);margin-top:10px;max-width:68ch}
 @media (max-width:560px){
-  ul.ev li{grid-template-columns:46px 1fr;padding:11px 12px}
+  ul.ev li{grid-template-columns:58px 1fr;padding:11px 12px}
+  .tm{white-space:nowrap}
   ul.ev li .acts{grid-column:2}
   .day{width:48px}
   .tod .tr{display:none}
@@ -156,7 +157,7 @@ details.sources summary{cursor:pointer;font-weight:700}
 .fbody .frow{min-width:0}
 #map .leaflet-tile-pane{filter:grayscale(.85) contrast(.95) brightness(1.05)}
 .view{display:inline-flex;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:var(--surface)}
-.view button{border:0;background:none;padding:5px 12px;font:600 13px var(--body);cursor:pointer;color:var(--muted)}
+.view button{border:0;background:none;padding:9px 14px;font:600 13px var(--body);cursor:pointer;color:var(--muted)}
 .view button[aria-pressed="true"]{background:var(--black);color:#fff}
 #map{height:min(70vh,620px);border:1px solid var(--line);border-radius:8px;margin-top:14px;z-index:0}
 .pin{background:var(--red);color:#fff;border:2px solid #fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font:700 12px var(--body);box-shadow:0 1px 4px rgba(0,0,0,.35)}
@@ -168,6 +169,23 @@ details.sources summary{cursor:pointer;font-weight:700}
 .maphint{font-size:12px;color:var(--muted);margin-top:6px}
 footer.foot{margin-top:28px;font-size:13px;color:var(--muted);max-width:68ch}
 footer.foot a{color:var(--red-ink)}
+ul.ev li:nth-child(even){background:#F4EFEF}
+.chipbar{display:flex;gap:8px;align-items:center;margin-top:12px}
+.chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:thin;padding:2px 2px 6px}
+.chips .chip{flex:0 0 auto}
+.reset{flex:0 0 auto}
+details.filters{border:2px solid var(--black);margin-top:6px}
+details.filters>summary{font:700 14px var(--body);padding:12px 14px;align-items:center;justify-content:flex-start;gap:10px}
+details.filters>summary::after{content:"";width:8px;height:8px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg);margin-left:auto;margin-top:-3px}
+details.filters[open]>summary::after{transform:rotate(-135deg);margin-top:3px}
+details.filters .fl{display:inline-flex;gap:8px;align-items:center}
+details.filters .fl svg{width:16px;height:16px}
+details.filters.active{border-color:var(--red-ink)}
+details.filters.active>summary{background:var(--red-soft);border-radius:6px 6px 0 0}
+details.filters:not([open]).active>summary{border-radius:6px}
+details.filters>summary .state{font-weight:500;color:var(--ink);font-size:13px}
+.fcount{background:var(--red-ink);color:#fff;border-radius:999px;font:700 12px var(--body);min-width:22px;height:22px;display:inline-flex;align-items:center;justify-content:center;padding:0 6px;margin-right:6px}
+.linkbtn{font:inherit;color:var(--red-ink);background:none;border:0;padding:6px 0;text-decoration:underline;cursor:pointer}
 </style>
 </head>
 <body>
@@ -181,6 +199,7 @@ footer.foot a{color:var(--red-ink)}
   <div class="sub">
     <div class="tabs" role="tablist">
       <button class="tab" role="tab" id="tab-agenda" aria-selected="true">Agenda</button>
+      <button class="tab" role="tab" id="tab-exh" aria-selected="false">Exhibitions<span class="cnt" id="exhcnt"></span></button>
       <button class="tab" role="tab" id="tab-want" aria-selected="false">Want to see<span class="cnt" id="wantcnt"></span></button>
     </div>
     <div class="subr"><span class="stamp" id="stamp">Loading events…</span></div>
@@ -200,10 +219,10 @@ footer.foot a{color:var(--red-ink)}
       </div>
     </div>
 
+    <div class="chipbar"><span class="chips" id="cats" role="group" aria-label="Event type"></span><button class="pill reset" id="reset" hidden>Reset</button></div>
     <details class="filters" id="filters">
-      <summary>Filters <span class="state" id="fstate"></span></summary>
+      <summary><span class="fl"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M2 4h8M13 4h1M2 12h1M6 12h8"/><circle cx="11.5" cy="4" r="1.5"/><circle cx="4.5" cy="12" r="1.5"/></svg>Area, language, venue</span><span class="state" id="fstate"></span></summary>
       <div class="fbody">
-        <div class="frow"><span class="flabel">Type</span><span class="frow" id="cats"></span></div>
         <div class="frow"><span class="flabel">Area</span><span class="frow areas" id="areas"></span></div>
         <div class="frow"><span class="flabel">Show</span>
           <label class="toggle"><input type="checkbox" id="en"> English-friendly</label>
@@ -211,11 +230,15 @@ footer.foot a{color:var(--red-ink)}
           <label class="toggle"><input type="checkbox" id="nofilm"> Hide LAB111 screenings</label>
           <select id="venue" aria-label="Venue"><option value="">All venues</option></select>
         </div>
-        <div class="hint">English-friendly hides talks, stage shows and workshops that look Dutch-language (from the title or I amsterdam's language tag). Music, club nights, films and exhibitions always stay. Double-click a type or area to show only that one. Area is unknown for some venues; those only show when "Unknown" is on.</div>
+        <div class="hint">English-friendly hides talks, stage shows and workshops that look Dutch-language (from the title or I amsterdam's language tag). Music, club nights, films and exhibitions always stay. Double-click a type chip or an area to show only that one. Reset clears every filter. Area is unknown for some venues; those only show when "Unknown" is on.</div>
       </div>
     </details>
 
     <main id="list"></main>
+  </section>
+
+  <section id="view-exh" hidden>
+    <div id="exh"></div>
   </section>
 
   <section id="view-want" hidden>
@@ -320,12 +343,13 @@ function saveWant(){ put("agenda-want",WANT); updateWantCount(); }
 
 /* ---------- Tabs ---------- */
 function showTab(which){
-  const want = which==="want";
-  $("#tab-agenda").setAttribute("aria-selected",!want); $("#tab-want").setAttribute("aria-selected",want);
-  $("#view-agenda").hidden=want; $("#view-want").hidden=!want;
-  if(want) renderWant();
+  for(const k of ["agenda","exh","want"]){ $("#tab-"+k).setAttribute("aria-selected",which===k); $("#view-"+k).hidden=which!==k; }
+  if(which==="agenda") render();
+  if(which==="exh") renderExh();
+  if(which==="want") renderWant();
 }
 $("#tab-agenda").onclick=()=>showTab("agenda");
+$("#tab-exh").onclick=()=>showTab("exh");
 $("#tab-want").onclick=()=>showTab("want");
 
 /* ---------- Day strip ---------- */
@@ -383,15 +407,27 @@ AREAS.forEach(a=>{
 [...new Set(EVENTS.map(e=>e.v).filter(Boolean))].sort((a,b)=>a.localeCompare(b)).forEach(v=>{
   const o=document.createElement("option"); o.value=v; o.textContent=v; $("#venue").appendChild(o);
 });
+function syncControls(){
+  document.querySelectorAll("#cats .chip").forEach((c,i)=>c.setAttribute("aria-pressed",state.cats.has(CATS[i][0])));
+  document.querySelectorAll("#areas .chip").forEach((c,i)=>c.setAttribute("aria-pressed",state.areas.has(AREAS[i])));
+  for(const id of ["mine","nofilm","en"]) $("#"+id).checked=state[id];
+  $("#venue").value=state.venue;
+}
+$("#reset").onclick=()=>{
+  state.cats=new Set(CATS.map(c=>c[0])); state.areas=new Set(AREAS);
+  state.mine=state.nofilm=state.en=false; state.venue="";
+  save(); syncControls(); render();
+};
 function filterState(){
   const bits=[];
-  if(state.cats.size<CATS.length) bits.push(`${state.cats.size} of ${CATS.length} types`);
   if(state.areas.size<AREAS.length) bits.push(state.areas.size<=2?[...state.areas].join(", "):`${state.areas.size} areas`);
   if(state.en) bits.push("English-friendly");
   if(state.mine) bits.push("hand-picked venues");
   if(state.nofilm) bits.push("no LAB111");
   if(state.venue) bits.push(state.venue);
-  $("#fstate").textContent = bits.length ? bits.join(" · ") : "All events";
+  $("#fstate").innerHTML = bits.length ? `<span class="fcount">${bits.length}</span>${esc(bits.join(" · "))}` : "All areas and venues";
+  $("#filters").classList.toggle("active", bits.length>0);
+  $("#reset").hidden = !(bits.length || state.cats.size<CATS.length);
 }
 
 /* ---------- Calendar link (built only for the clicked event) ---------- */
@@ -429,13 +465,13 @@ const CAL_ICON='<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strok
 const X_ICON='<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8"/></svg>';
 const wantLabel = on => on ? `${X_ICON}On my list` : `${X_ICON}Want to see`;
 
-function item(e, ws){
+function item(e, ws, opts){
   const i=VISIBLE.push(e)-1;
   const c=CATS.find(c=>c[0]===catOf(e))||CATS[8];
   const src=SOURCES[e.s]; const also=(e.a||[]).map(s=>SOURCES[s]?.name||s);
   const via = AGG.has(e.s) ? `via ${src?.name||e.s}` : "";
   let tm = e.h ? `${e.h}${e.eh?`<small>– ${e.eh}</small>`:""}` : `<small>—</small>`;
-  if(span(e)) tm=`<small>until</small>${fmt(e.ed)}`;
+  if(span(e)) tm = (opts && opts.opens && e.d>todayIso) ? `<small>opens</small>${fmt(e.d)}` : `<small>until</small>${fmt(e.ed)}`;
   const on = ws.has(keyOf(e));
   const action = wantable(e)
     ? `<button class="act want${on?" saved":""}" data-i="${i}">${wantLabel(on)}</button>`
@@ -458,7 +494,7 @@ function render(){
   single.forEach(e=>tc[todOf(e)]++);
   if(state.tod!=="all" && !tc[state.tod]) state.tod="all";
   const shown = state.tod==="all" ? single : single.filter(e=>todOf(e)===state.tod);
-  let html=`<div class="dayhead"><h2>${DWL[d.getDay()]} ${d.getDate()} ${MON[d.getMonth()]}</h2><span class="n">${single.length} events${running.length?` · ${running.length} exhibitions running`:""}</span></div>`;
+  let html=`<div class="dayhead"><h2>${DWL[d.getDay()]} ${d.getDate()} ${MON[d.getMonth()]}</h2><span class="n">${single.length} events${running.length?` · <button class="linkbtn" id="toexh">${running.length} exhibitions and festivals running</button>`:""}</span></div>`;
   html+=`<div class="row" style="justify-content:space-between;margin-top:12px"><div class="view" role="group" aria-label="View"><button data-view="list" aria-pressed="${state.view==="list"}">List</button><button data-view="map" aria-pressed="${state.view==="map"}">Map</button></div></div>`;
   html+=`<div class="tod" role="group" aria-label="Time of day">${TODS.map(([k,l,r])=>`<button data-tod="${k}" aria-pressed="${state.tod===k}" ${k!=="all"&&!tc[k]?"disabled":""}><span class="tl">${l}</span><span class="tn">${tc[k]}</span><span class="tr">${r||"whole day"}</span></button>`).join("")}</div>`;
   if(state.view==="map"){
@@ -468,12 +504,26 @@ function render(){
   const by={}; shown.forEach(e=>(by[todOf(e)]=by[todOf(e)]||[]).push(e));
   for(const [k,label] of GROUPS){ const list=by[k]; if(list?.length) html+=`<h3><span class="x">×</span>${label} <span class="c">${list.length}</span></h3><ul class="ev">${list.map(e=>item(e,ws)).join("")}</ul>`; }
   if(!shown.length) html+=`<div class="empty">Nothing matches on this day. Try clearing the search or switching some filters back on.</div>`;
-  if(running.length) html+=`<h3><span class="x">×××</span>Exhibitions &amp; festivals running <span class="c">${running.length}</span></h3><ul class="ev">${running.map(e=>item(e,ws)).join("")}</ul>`;
   $("#list").innerHTML=html; bindRender();
 }
 function bindRender(){
   $("#list").querySelectorAll(".tod button").forEach(b=>b.onclick=()=>{ state.tod=b.dataset.tod; render(); });
   $("#list").querySelectorAll(".view button").forEach(b=>b.onclick=()=>{ state.view=b.dataset.view; render(); });
+  const te=$("#toexh"); if(te) te.onclick=()=>showTab("exh");
+}
+
+/* ---------- Exhibitions tab ---------- */
+const EXH = EVENTS.filter(e=>span(e) && (e.ed||e.d)>=todayIso);
+function renderExh(){
+  VISIBLE=[]; const ws=wantSet();
+  const soon=parse(todayIso); soon.setDate(soon.getDate()+14); const soonIso=iso(soon);
+  const byEnd=(a,b)=>a.ed.localeCompare(b.ed)||a.d.localeCompare(b.d);
+  const running=EXH.filter(e=>e.d<=todayIso);
+  const ending=running.filter(e=>e.ed<=soonIso).sort(byEnd), later=running.filter(e=>e.ed>soonIso).sort(byEnd);
+  const opening=EXH.filter(e=>e.d>todayIso).sort((a,b)=>a.d.localeCompare(b.d));
+  const grp=(title,list,opens)=>list.length?`<h3><span class="x">×</span>${title} <span class="c">${list.length}</span></h3><ul class="ev">${list.map(e=>item(e,ws,{opens})).join("")}</ul>`:"";
+  $("#exh").innerHTML=`<div class="dayhead"><h2>Exhibitions</h2><span class="n">${EXH.length} on now or opening soon</span></div><p class="hint" style="margin-top:8px">Exhibitions, festivals and anything else that runs for several days. Tap Want to see to keep one on your timeline.</p>`
+    + (EXH.length ? grp("Ending within two weeks",ending,false)+grp("Running",later,false)+grp("Opening soon",opening,true) : `<div class="empty">No exhibitions in the current listings.</div>`);
 }
 let MAP=null;
 function drawMap(list){
@@ -558,6 +608,7 @@ $("#stamp").textContent=`Updated ${age<=0?"today":age===1?"yesterday":age+" days
 if(age>=3) $("#stamp").classList.add("old");
 if(CONTACT_EMAIL && !CONTACT_EMAIL.startsWith("__")) $("#contact").innerHTML=`Venue or organiser and want something changed or removed? Email <a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a>.`;
 updateWantCount();
+$("#exhcnt").textContent = EXH.length || "";
 setDay(state.day);
 </script>
 </body>
