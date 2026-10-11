@@ -69,7 +69,8 @@ def clean(e):
 
 def run(key, fn, *args):
     try:
-        return [clean(e) for e in fn(*args) if e.get("d") and e.get("t")]
+        cleaned = [clean(e) for e in fn(*args) if e.get("d") and e.get("t")]
+        return [e for e in cleaned if re.search(r"\w", e.get("t", ""))]   # no empty or dash-only titles
     except Exception as ex:
         print(f"  !! parser {key} crashed: {ex}")
         return []

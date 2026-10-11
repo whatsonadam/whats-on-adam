@@ -11,7 +11,7 @@
 <style>
 :root{
   color-scheme:light;
-  --bg:#F7F4F4; --surface:#FFFFFF; --ink:#171314; --muted:#6E6567; --line:#ECE4E4;
+  --bg:#EEE8E8; --surface:#FFFFFF; --ink:#171314; --muted:#6A6163; --line:#E0D6D6;
   --red:#EA4A42; --red-ink:#C7261E; --red-soft:#FDE9E7; --red-line:#F6CFCB; --black:#161213;
   --display:"Big Shoulders Display","Oswald","Arial Narrow",sans-serif;
   --body:"Figtree",system-ui,-apple-system,sans-serif;
@@ -107,8 +107,8 @@ ul.ev li:first-child{border-top:0}
 .nl{font:700 11px var(--body);border:1px solid var(--line);border-radius:4px;padding:0 5px;color:var(--muted)}
 .bl{font-size:13px;color:var(--muted);margin-top:2px}
 .src{font-size:12px;color:var(--muted)}
-.act{display:inline-flex;align-items:center;gap:5px;font:700 13px var(--body);border-radius:6px;padding:9px 12px;text-decoration:none;white-space:nowrap;cursor:pointer;border:1px solid var(--red-line);background:var(--red-soft);color:var(--red-ink)}
-.act:hover{background:var(--red-ink);border-color:var(--red-ink);color:#fff}
+.act{display:inline-flex;align-items:center;gap:5px;font:600 13px var(--body);border-radius:6px;padding:9px 12px;text-decoration:none;white-space:nowrap;cursor:pointer;border:1px solid var(--line);background:transparent;color:var(--muted)}
+.act:hover{background:var(--red-soft);border-color:var(--red-ink);color:var(--red-ink)}
 .act svg{width:14px;height:14px}
 .act.saved{background:var(--black);border-color:var(--black);color:#fff}
 .empty{padding:28px;text-align:center;color:var(--muted);background:var(--surface);border:1px dashed var(--line);border-radius:8px;margin-top:14px}
@@ -169,7 +169,7 @@ details.sources summary{cursor:pointer;font-weight:700}
 .maphint{font-size:12px;color:var(--muted);margin-top:6px}
 footer.foot{margin-top:28px;font-size:13px;color:var(--muted);max-width:68ch}
 footer.foot a{color:var(--red-ink)}
-ul.ev li:nth-child(even){background:#F4EFEF}
+ul.ev li:nth-child(even){background:#F6F1F1}
 .chipbar{display:flex;gap:8px;align-items:center;margin-top:12px}
 .chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:thin;padding:2px 2px 6px}
 .chips .chip{flex:0 0 auto}
@@ -219,18 +219,16 @@ details.filters>summary .state{font-weight:500;color:var(--ink);font-size:13px}
       </div>
     </div>
 
-    <div class="chipbar"><span class="chips" id="cats" role="group" aria-label="Event type"></span><button class="pill reset" id="reset" hidden>Reset</button></div>
+    <div class="chipbar"><span class="chips" id="cats" role="group" aria-label="Event type"></span><button class="pill reset" id="reset" hidden>Reset all</button></div>
     <details class="filters" id="filters">
       <summary><span class="fl"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M2 4h8M13 4h1M2 12h1M6 12h8"/><circle cx="11.5" cy="4" r="1.5"/><circle cx="4.5" cy="12" r="1.5"/></svg>Area, language, venue</span><span class="state" id="fstate"></span></summary>
       <div class="fbody">
         <div class="frow"><span class="flabel">Area</span><span class="frow areas" id="areas"></span></div>
         <div class="frow"><span class="flabel">Show</span>
           <label class="toggle"><input type="checkbox" id="en"> English-friendly</label>
-          <label class="toggle"><input type="checkbox" id="mine"> Hand-picked venues only</label>
-          <label class="toggle"><input type="checkbox" id="nofilm"> Hide LAB111 screenings</label>
           <select id="venue" aria-label="Venue"><option value="">All venues</option></select>
         </div>
-        <div class="hint">English-friendly hides talks, stage shows and workshops that look Dutch-language (from the title or I amsterdam's language tag). Music, club nights, films and exhibitions always stay. Double-click a type chip or an area to show only that one. Reset clears every filter. Area is unknown for some venues; those only show when "Unknown" is on.</div>
+        <div class="hint">English-friendly hides talks, stage shows and workshops that look Dutch-language. Double-click a type chip or an area to show only that one.</div>
       </div>
     </details>
 
@@ -263,11 +261,11 @@ details.filters>summary .state{font-weight:500;color:var(--ink);font-size:13px}
 <script type="module">
 const CONTACT_EMAIL = "__CONTACT__";
 const DATA = await fetch("events.json", {cache:"no-cache"}).then(r=>r.json());
-const EVENTS = DATA.events;
+const EVENTS = DATA.events.filter(e => /[\p{L}\p{N}]/u.test(e.t || ""));
 const SOURCES = DATA.sources;
 const UPDATED = new Date(DATA.updated.replace("Z",":00Z"));
 const SNAP = `${UPDATED.getFullYear()}-${String(UPDATED.getMonth()+1).padStart(2,"0")}-${String(UPDATED.getDate()).padStart(2,"0")}`;
-const AREAS = ["Centrum","West","Noord","Oost","Zuid","Nieuw-West","Zuidoost","Weesp","Unknown"];
+const AREAS = ["Centrum","West","Noord","Oost","Zuid","Nieuw-West","Zuidoost","Weesp"];
 const CATS = [
   ["music","Music","#E8EEFB","#2F55B8"],["club","Club","#F0E9F8","#6D3AA8"],["film","Film","#FDEBE3","#B8461F"],
   ["talk","Talks","#E4F3EB","#1F7A50"],["theatre","Stage & comedy","#FBE7EF","#AD2D66"],["workshop","Workshops","#FBF1DA","#8A6100"],
@@ -277,7 +275,6 @@ const CATMAP = {comedy:"theatre",dance:"music",food:"community",kids:"community"
 const catOf = e => CATMAP[e.c] || (CATS.some(c=>c[0]===e.c) ? e.c : "other");
 const TODS = [["all","Any time",""],["morning","Morning","before 12"],["afternoon","Afternoon","12–17"],["evening","Evening","17–22"],["late","Late","22+"]];
 const AGG = new Set(["radar","offbeat","amsterdamalternative","iamsterdam"]);
-const MYKEYS = ["ot301","café gilde","cafe gilde","vrankrijk","vondelbunker","cavia","cinetol","cc amstel","mezrab","ceuvel","sering","nieuwe anita","garage noord","skatecafe","karin & yvonne","lab111","lab 111","tolhuistuin","zwijger","volkshotel","odessa","likeminds","wereldmuseum","verzetsmuseum","school of life","delamar","artis","micropia"];
 
 const $ = s => document.querySelector(s);
 const pad = n => String(n).padStart(2,"0");
@@ -291,19 +288,19 @@ function esc(s){ return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",
 
 function load(k,f){ try { const v=localStorage.getItem(k); return v?JSON.parse(v):f; } catch(e){ return f; } }
 function put(k,v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch(e){} }
-const store = load("agenda-prefs-v3", {});
-const save = () => put("agenda-prefs-v3",{cats:[...state.cats],areas:[...state.areas],mine:state.mine,nofilm:state.nofilm,en:state.en});
+const store = load("agenda-prefs-v4", {});
+const save = () => put("agenda-prefs-v4",{cats:[...state.cats],areas:[...state.areas],en:state.en});
 
+const okCats = (store.cats||[]).filter(k=>CATS.some(c=>c[0]===k)), okAreas = (store.areas||[]).filter(a=>AREAS.includes(a));
 const first = SNAP, last = EVENTS.reduce((m,e)=>e.d>m?e.d:m, SNAP);
 const todayIso = iso(new Date());
 const state = {
   day: (todayIso>=first && todayIso<=last) ? todayIso : first,
-  cats: new Set(store.cats || CATS.map(c=>c[0])),
-  areas: new Set(store.areas || AREAS),
-  tod: "all", view: "list", q:"", venue:"", mine:!!store.mine, nofilm:!!store.nofilm, en:!!store.en
+  cats: new Set(okCats.length ? okCats : CATS.map(c=>c[0])),
+  areas: new Set(okAreas.length ? okAreas : AREAS),
+  tod: "all", view: "list", q:"", venue:"", en:!!store.en
 };
 
-const isMine = e => { if(!AGG.has(e.s)) return true; const v=(e.v||"").toLowerCase(); return MYKEYS.some(k=>v.includes(k)); };
 const span = e => e.ed && (parse(e.ed)-parse(e.d))/864e5 >= 2;
 const onDay = (e,d) => span(e) ? (e.d<=d && e.ed>=d) : e.d===d;
 const wantable = e => span(e) || catOf(e)==="exhibition";
@@ -318,10 +315,8 @@ function todOf(e){
 function passes(e){
   if(!state.cats.has(catOf(e))) return false;
   if(state.en && e.nl) return false;
-  if(state.mine && !isMine(e)) return false;
-  if(state.nofilm && e.s==="lab111") return false;
   if(state.venue && e.v!==state.venue) return false;
-  if(state.areas.size<AREAS.length && !state.areas.has(e.ar||"Unknown")) return false;
+  if(state.areas.size<AREAS.length && !state.areas.has(e.ar||"")) return false;
   if(state.q){ const q=state.q.toLowerCase(); if(!(e.t+" "+e.v+" "+(e.b||"")+" "+e.c).toLowerCase().includes(q)) return false; }
   return true;
 }
@@ -387,7 +382,7 @@ $("#quick").addEventListener("click",ev=>{
 $("#pick").min=first; $("#pick").max=last;
 $("#pick").addEventListener("change",e=>e.target.value&&setDay(e.target.value));
 let qTimer; $("#q").addEventListener("input",e=>{clearTimeout(qTimer);qTimer=setTimeout(()=>{state.q=e.target.value.trim();render();},150);});
-for(const id of ["mine","nofilm","en"]){ const el=$("#"+id); el.checked=state[id]; el.addEventListener("change",()=>{state[id]=el.checked;save();render();}); }
+{ const el=$("#en"); el.checked=state.en; el.addEventListener("change",()=>{state.en=el.checked;save();render();}); }
 $("#venue").addEventListener("change",e=>{state.venue=e.target.value;render();});
 
 CATS.forEach(([k,label,bg,fg],idx)=>{
@@ -397,11 +392,15 @@ CATS.forEach(([k,label,bg,fg],idx)=>{
   el.ondblclick=()=>{ state.cats=new Set([k]); document.querySelectorAll("#cats .chip").forEach((c,i)=>c.setAttribute("aria-pressed",CATS[i][0]===k)); save(); render(); };
   $("#cats").appendChild(el);
 });
-AREAS.forEach(a=>{
-  const el=document.createElement("button"); el.className="chip"; el.textContent=a;
-  el.setAttribute("aria-pressed",state.areas.has(a));
-  el.onclick=()=>{ state.areas.has(a)?state.areas.delete(a):state.areas.add(a); el.setAttribute("aria-pressed",state.areas.has(a)); save(); render(); };
-  el.ondblclick=()=>{ state.areas=new Set([a]); document.querySelectorAll("#areas .chip").forEach((c,i)=>c.setAttribute("aria-pressed",AREAS[i]===a)); save(); render(); };
+["*",...AREAS].forEach(a=>{
+  const el=document.createElement("button"); el.className="chip"; el.dataset.a=a; el.textContent=a==="*"?"All areas":a;
+  el.onclick=()=>{
+    if(a==="*") state.areas=new Set(AREAS);
+    else if(state.areas.size===AREAS.length) state.areas=new Set([a]);
+    else { state.areas.has(a)?state.areas.delete(a):state.areas.add(a); if(!state.areas.size) state.areas=new Set(AREAS); }
+    syncControls(); save(); render();
+  };
+  el.ondblclick=()=>{ if(a!=="*"){ state.areas=new Set([a]); syncControls(); save(); render(); } };
   $("#areas").appendChild(el);
 });
 [...new Set(EVENTS.map(e=>e.v).filter(Boolean))].sort((a,b)=>a.localeCompare(b)).forEach(v=>{
@@ -409,21 +408,18 @@ AREAS.forEach(a=>{
 });
 function syncControls(){
   document.querySelectorAll("#cats .chip").forEach((c,i)=>c.setAttribute("aria-pressed",state.cats.has(CATS[i][0])));
-  document.querySelectorAll("#areas .chip").forEach((c,i)=>c.setAttribute("aria-pressed",state.areas.has(AREAS[i])));
-  for(const id of ["mine","nofilm","en"]) $("#"+id).checked=state[id];
-  $("#venue").value=state.venue;
+  document.querySelectorAll("#areas .chip").forEach(c=>c.setAttribute("aria-pressed", c.dataset.a==="*" ? state.areas.size===AREAS.length : state.areas.has(c.dataset.a)));
+  $("#en").checked=state.en; $("#venue").value=state.venue;
 }
 $("#reset").onclick=()=>{
   state.cats=new Set(CATS.map(c=>c[0])); state.areas=new Set(AREAS);
-  state.mine=state.nofilm=state.en=false; state.venue="";
+  state.en=false; state.venue="";
   save(); syncControls(); render();
 };
 function filterState(){
   const bits=[];
   if(state.areas.size<AREAS.length) bits.push(state.areas.size<=2?[...state.areas].join(", "):`${state.areas.size} areas`);
   if(state.en) bits.push("English-friendly");
-  if(state.mine) bits.push("hand-picked venues");
-  if(state.nofilm) bits.push("no LAB111");
   if(state.venue) bits.push(state.venue);
   $("#fstate").innerHTML = bits.length ? `<span class="fcount">${bits.length}</span>${esc(bits.join(" · "))}` : "All areas and venues";
   $("#filters").classList.toggle("active", bits.length>0);
@@ -470,7 +466,7 @@ function item(e, ws, opts){
   const c=CATS.find(c=>c[0]===catOf(e))||CATS[8];
   const src=SOURCES[e.s]; const also=(e.a||[]).map(s=>SOURCES[s]?.name||s);
   const via = AGG.has(e.s) ? `via ${src?.name||e.s}` : "";
-  let tm = e.h ? `${e.h}${e.eh?`<small>– ${e.eh}</small>`:""}` : `<small>—</small>`;
+  let tm = e.h ? `${e.h}${e.eh?`<small>– ${e.eh}</small>`:""}` : `<small>TBC</small>`;
   if(span(e)) tm = (opts && opts.opens && e.d>todayIso) ? `<small>opens</small>${fmt(e.d)}` : `<small>until</small>${fmt(e.ed)}`;
   const on = ws.has(keyOf(e));
   const action = wantable(e)
@@ -482,7 +478,7 @@ function item(e, ws, opts){
     ${e.b?`<div class="bl">${esc(e.b)}</div>`:""}
   </div><div class="acts">${action}</div></li>`;
 }
-const GROUPS=[["morning","Morning"],["afternoon","Afternoon"],["evening","Evening"],["late","Late night"],["notime","Time not listed"]];
+const GROUPS=[["morning","Morning"],["afternoon","Afternoon"],["evening","Evening"],["late","Late night"],["notime","Time to be confirmed"]];
 function render(){
   VISIBLE=[]; filterState();
   const ws=wantSet();
@@ -608,6 +604,7 @@ $("#stamp").textContent=`Updated ${age<=0?"today":age===1?"yesterday":age+" days
 if(age>=3) $("#stamp").classList.add("old");
 if(CONTACT_EMAIL && !CONTACT_EMAIL.startsWith("__")) $("#contact").innerHTML=`Venue or organiser and want something changed or removed? Email <a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a>.`;
 updateWantCount();
+syncControls();
 $("#exhcnt").textContent = EXH.length || "";
 setDay(state.day);
 </script>

@@ -17,6 +17,12 @@ def cards(html):
         tags=a.select_one('[data-testid=card-tags]')
         out.append((a.parent.get('href'), list(a.stripped_strings), tags.get_text() if tags else ''))
     return out
+def set_times(p, e):
+    if 'Datum en/of tijd' in p:
+        mm=re.match(r'(\d\d:\d\d)\s*-\s*(\d\d:\d\d)',p[p.index('Datum en/of tijd')+1])
+        if mm and mm.groups()!=('00:00','23:59'):
+            e['h']=mm.group(1)
+            if mm.group(2)!=mm.group(1): e['eh']=mm.group(2)
 def parse_pages(pages, today):
     seen=set(); out=[]; end=today+datetime.timedelta(days=120)
     for html in pages:
@@ -32,9 +38,18 @@ def parse_pages(pages, today):
             if not m or m.group(1) not in MON: continue
             try: d=datetime.date(2000+int(m.group(2)),MON[m.group(1)],int(p[i]))
             except ValueError: continue
+            # date ranges look like: 11 | okt '26 | - | 12 | okt '26 | Title
+            d2=None; ti=i+2
+            if not until and len(p)>=i+6 and p[i+2] in ('-','–') and re.fullmatch(r'\d{1,2}',p[i+3]):
+                m2=re.fullmatch(r"(\w+) '(\d\d)",p[i+4])
+                if m2 and m2.group(1) in MON:
+                    try: d2=datetime.date(2000+int(m2.group(2)),MON[m2.group(1)],int(p[i+3])); ti=i+5
+                    except ValueError: pass
+            title=p[ti].strip() if ti<len(p) else ''
+            if not re.search(r'\w',title): continue   # never publish an event without a real title
             c=cat(tags)
             if set(tags)&SKIPT and c=='other': continue
-            e={'t':p[i+2],'v':p[p.index('Locatie')+1] if 'Locatie' in p else '','s':'iamsterdam','u':'https://www.iamsterdam.com'+href,'c':c}
+            e={'t':title,'v':p[p.index('Locatie')+1] if 'Locatie' in p else '','s':'iamsterdam','u':'https://www.iamsterdam.com'+href,'c':c}
             e['tags']=tags
             if 'dutchlanguage' in tags: e['nl']=1
             if 'Gratis toegang' in p: e['p']='Free'
@@ -43,13 +58,21 @@ def parse_pages(pages, today):
                 if c!='exhibition' and 'festivals' not in tags: continue
                 if d<today: continue
                 e['d']=today.isoformat(); e['ed']=d.isoformat()
+            elif d2 and d2>d:
+                if c=='exhibition' or 'festivals' in tags:
+                    if d2<today or d>end: continue
+                    e['d']=d.isoformat(); e['ed']=d2.isoformat()
+                elif (d2-d).days<=7:
+                    # a short run (camp, theatre run): one entry per day
+                    set_times(p,e)
+                    for n in range((d2-d).days+1):
+                        x=d+datetime.timedelta(n)
+                        if today<=x<=end: out.append({**e,'d':x.isoformat(),'tags':list(tags)})
+                    continue
+                else: continue
             else:
                 if d<today or d>end: continue
                 e['d']=d.isoformat()
-                if 'Datum en/of tijd' in p:
-                    mm=re.match(r'(\d\d:\d\d)\s*-\s*(\d\d:\d\d)',p[p.index('Datum en/of tijd')+1])
-                    if mm and mm.groups()!=('00:00','23:59'):
-                        e['h']=mm.group(1)
-                        if mm.group(2)!=mm.group(1): e['eh']=mm.group(2)
+                set_times(p,e)
             out.append(e)
     return out
