@@ -283,10 +283,10 @@ const SNAP = `${UPDATED.getFullYear()}-${String(UPDATED.getMonth()+1).padStart(2
 const AREAS = ["Centrum","West","Noord","Oost","Zuid","Nieuw-West","Zuidoost","Weesp"];
 const CATS = [
   ["music","Music","#E8EEFB","#2F55B8"],["club","Club","#F0E9F8","#6D3AA8"],  ["talk","Talks","#E4F3EB","#1F7A50"],["theatre","Stage & comedy","#FBE7EF","#AD2D66"],["workshop","Workshops","#FBF1DA","#8A6100"],
-  ["exhibition","Exhibitions","#E1F1F4","#0F6F82"],["community","Community & food","#EAF2E0","#4A7422"],["protest","Protest & activism","#FADBD8","#9C1C14"],["other","Other","#EFEDED","#5F5758"]
+  ["community","Community, art & food","#EAF2E0","#4A7422"],["protest","Protest & activism","#FADBD8","#9C1C14"],["other","Other","#EFEDED","#5F5758"]
 ];
 const FILM_TAG=["#FDEBE3","#B8461F"];
-const CATMAP = {comedy:"theatre",dance:"music",food:"community",kids:"community"};
+const CATMAP = {exhibition:"community",comedy:"theatre",dance:"music",food:"community",kids:"community"};
 const catOf = e => CATMAP[e.c] || (CATS.some(c=>c[0]===e.c) ? e.c : "other");
 const TODS = [["all","Any time",""],["morning","Morning","before 12"],["afternoon","Afternoon","12–17"],["evening","Evening","17–22"],["late","Late","22+"]];
 const AGG = new Set(["radar","offbeat","amsterdamalternative","iamsterdam"]);
@@ -318,7 +318,7 @@ const state = {
 
 const span = e => e.ed && (parse(e.ed)-parse(e.d))/864e5 >= 2;
 const onDay = (e,d) => span(e) ? (e.d<=d && e.ed>=d) : e.d===d;
-const wantable = e => span(e) || catOf(e)==="exhibition";
+const wantable = e => span(e) || e.c==="exhibition";
 function todOf(e){
   if(!e.h) return "notime";
   const h=+e.h.slice(0,2);

@@ -57,6 +57,27 @@ NOTES = {"delamar": "dates load in their ticket app – check site", "artis": "n
 NL = set("de het een en van voor met over wat hoe waarom jouw je jij niet ook naar uit bij als wordt worden zijn onze ons wij we leer leren samen avond middag lezing gesprek voorstelling kinderen jeugd verhaal nieuwe zonder tegen door dan kan maar deze dit welkom spreekuur buurt".split())
 EN = set("the and of for with about what how why your you not to from at is are our we learn together evening night talk english".split())
 PROTEST = re.compile(r"\b(protest\w*|demonstratie\w*|demonstration\w*|vigil|betoging\w*|vlaggen voor)\b", re.I)
+
+# Last-chance classifier for events a source left as "other": venue first, then keywords in title and blurb.
+VENUE_CAT = [("de trut","club"),("paradiso","music"),("melkweg","music"),("de balie","talk"),("pakhuis de zwijger","talk"),("nieuwland","workshop"),("rapenburg 51","workshop"),("de hallen","community"),("molli chaoot","community"),("huis vrederiks","community"),("occii","music"),("joe's garage","music"),("griffioen","music"),("zaal 100","music"),("de nieuwe anita","community"),("verzetsmuseum","community"),("de ceuvel","community"),("lag","community"),("podium mozaïek","theatre"),("spui25","talk"),("ot301","music"),("volkshotel","community"),("camping","community"),("museumplein","community")]
+WORD_CAT = [
+    ("club", r"\b(party|techno|rave|dj set|club night|house night|disco|clubnacht|afterparty|dance floor)\b"),
+    ("music", r"\b(concert|live music|beats|gig|band|jam session|jazz|choir|koor|sessie|session|album|DJ|festival)\b"),
+    ("workshop", r"\b(workshop|course|cursus|yoga|workout|class|training|massage|treatment|meditation|circle|lesson|les|learn)\b"),
+    ("talk", r"\b(book club|talk|lecture|lezing|debate|debat|gesprek|discussion|presentation|panel|conversation|book launch|boekpresentatie|kennismakers|politics|cafe)\b"),
+    ("theatre", r"\b(theatre|theater|comedy|cabaret|show|performance|voorstelling|quiz|popquiz|open mic|stand-up|dance)\b"),
+    ("community", r"\b(market|markt|yard sale|dinner|diner|lunch|chef|taalcafé|speed|meet|swap|repair|exhibition|expositie|tentoonstelling|opening|gallery|art)\b"),
+]
+def classify_other(e):
+    ven = (e.get("v") or "").lower()
+    txt = (e["t"] + " " + (e.get("b") or ""))
+    for c, rx in WORD_CAT[:2]:                      # clear music words win over the venue
+        if re.search(rx, e["t"], re.I): return c
+    for k, c in VENUE_CAT:
+        if k in ven: return c
+    for c, rx in WORD_CAT:
+        if re.search(rx, txt, re.I): return c
+    return "other"
 LANGCATS = {"talk", "theatre", "comedy", "workshop", "community", "kids", "other"}
 DUTCH_VENUES = {"dezwijger", "schooloflife", "nieuweanita", "ccamstel", "verzetsmuseum"}
 
@@ -121,6 +142,8 @@ def merge(per):
             if e.get("nl"): s0["nl"] = 1
             continue
         seen.setdefault(k, e); out.append(e)
+    for e in out:
+        if e.get("c") in ("other", None, ""): e["c"] = classify_other(e)
     for e in out:
         if e.get("c") in ("community", "talk", "other", "kids") and PROTEST.search(e["t"]): e["c"] = "protest"
     for e in out:
