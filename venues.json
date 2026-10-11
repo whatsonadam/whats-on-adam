@@ -1,5 +1,13 @@
 {
+"50:HERTZ CLUB TRAIN 2026": {
+"skip": true,
+"q": "not found"
+},
 "50:HERTZ House & Techno Cafe Rembrandt Square": {
+"skip": true,
+"q": "not found"
+},
+"50:HERTZ House & Techno Club Rembrandt Square": {
 "skip": true,
 "q": "not found"
 },
@@ -17,6 +25,16 @@
 "q": "name",
 "area": "Centrum"
 },
+"A'DAM Toren": {
+"lat": 52.38377,
+"lon": 4.90214,
+"q": "name",
+"area": "Noord"
+},
+"ADE Lab Village Westergas": {
+"skip": true,
+"q": "not found"
+},
 "ADM Noord/Het Groene Veld": {
 "lat": 52.40944,
 "lon": 4.93729,
@@ -33,11 +51,33 @@
 "q": "name",
 "area": "Zuidoost"
 },
+"ANOTHER ROOM": {
+"lat": 52.38385,
+"lon": 4.77964,
+"q": "name",
+"area": "Nieuw-West"
+},
+"ARCA Bar @ art'otel Amsterdam": {
+"skip": true,
+"q": "not found"
+},
 "ARTIS Amsterdam Royal Zoo": {
 "lat": 52.36696,
 "lon": 4.91258,
 "area": "Centrum",
 "q": "manual: Plantage Kerklaan 38, 1018CZ Amsterdam"
+},
+"ARTIS Aquarium": {
+"lat": 52.36624,
+"lon": 4.91655,
+"q": "name",
+"area": "Centrum"
+},
+"ARTIS Planetarium": {
+"lat": 52.36745,
+"lon": 4.91326,
+"q": "name",
+"area": "Centrum"
 },
 "ARTIS-Groote Museum, hét interactieve natuurmuseum": {
 "skip": true,
@@ -98,6 +138,22 @@
 "q": "name",
 "area": "Centrum"
 },
+"Amsterdams Most Wanted Radio": {
+"skip": true,
+"q": "not found"
+},
+"Analogue Shop": {
+"lat": 52.37155,
+"lon": 4.90417,
+"q": "name",
+"area": "Centrum"
+},
+"Andaz Amsterdam": {
+"lat": 52.36791,
+"lon": 4.88288,
+"q": "name",
+"area": "Centrum"
+},
 "Arcam, het Architectuurcentrum van Amsterdam": {
 "skip": true,
 "q": "not found"
@@ -138,11 +194,23 @@
 "q": "name",
 "area": "Zuid"
 },
+"BASEMENT": {
+"lat": 52.36443,
+"lon": 4.89793,
+"q": "name",
+"area": "Centrum"
+},
 "BEARS Amsterdam": {
 "lat": 52.37651,
 "lon": 4.89574,
 "q": "name",
 "area": "Centrum"
+},
+"BRET": {
+"lat": 52.38985,
+"lon": 4.83676,
+"q": "name",
+"area": "Nieuw-West"
 },
 "BRET Craft Beer Café": {
 "skip": true,
@@ -160,9 +228,31 @@
 "q": "name",
 "area": "Oost"
 },
+"Bajes Amsterdam": {
+"skip": true,
+"q": "not found"
+},
+"Bar - Restaurant Van de Werf": {
+"lat": 52.36575,
+"lon": 4.90419,
+"q": "name",
+"area": "Centrum"
+},
+"Bar Bacan": {
+"lat": 52.36602,
+"lon": 4.89419,
+"q": "name",
+"area": "Centrum"
+},
 "Bar Blend": {
 "lat": 52.36647,
 "lon": 4.89083,
+"q": "name",
+"area": "Centrum"
+},
+"Bar Feijoa": {
+"lat": 52.36598,
+"lon": 4.8933,
 "q": "name",
 "area": "Centrum"
 },
@@ -172,9 +262,45 @@
 "q": "name",
 "area": "Centrum"
 },
+"Bar Rouge": {
+"lat": 52.36539,
+"lon": 4.89557,
+"q": "name",
+"area": "Centrum"
+},
+"Bar Theo": {
+"lat": 52.34979,
+"lon": 5.00673,
+"q": "name",
+"area": "Oost"
+},
 "Bar Twenty Two": {
 "lat": 52.37514,
 "lon": 4.89835,
+"q": "name",
+"area": "Centrum"
+},
+"Bears Amsterdam": {
+"lat": 52.37651,
+"lon": 4.89574,
+"q": "name",
+"area": "Centrum"
+},
+"Beest Boulders Amsterdam": {
+"lat": 52.38167,
+"lon": 4.85938,
+"q": "name",
+"area": "West"
+},
+"Benelux Bar": {
+"lat": 52.38391,
+"lon": 4.92175,
+"q": "name",
+"area": "Noord"
+},
+"Bierfabriek": {
+"lat": 52.37007,
+"lon": 4.89376,
 "q": "name",
 "area": "Centrum"
 },
@@ -214,6 +340,12 @@
 "q": "name",
 "area": "West"
 },
+"Blend XL": {
+"lat": 52.36622,
+"lon": 4.89149,
+"q": "name",
+"area": "Centrum"
+},
 "Body Worlds": {
 "lat": 52.37475,
 "lon": 4.89489,
@@ -231,6 +363,24 @@
 "lon": 4.87901,
 "q": "name",
 "area": "Centrum"
+},
+"Bordello Aperitivo": {
+"lat": 52.37586,
+"lon": 4.90084,
+"q": "name",
+"area": "Centrum"
+},
+"Bottleshop": {
+"lat": 52.35462,
+"lon": 4.91154,
+"q": "name",
+"area": "Oost"
+},
+"BounceSpace": {
+"lat": 52.36196,
+"lon": 4.87292,
+"q": "name",
+"area": "West"
 },
 "Broedplaats SUP": {
 "lat": 52.35594,
@@ -254,9 +404,25 @@
 "q": "name",
 "area": "Zuid"
 },
+"CUE Amsterdam": {
+"skip": true,
+"q": "not found"
+},
 "Cafe De Buurvrouw": {
 "lat": 52.37141,
 "lon": 4.8945,
+"q": "name",
+"area": "Centrum"
+},
+"Café Brandon": {
+"lat": 52.32356,
+"lon": 4.97121,
+"q": "name",
+"area": "Zuidoost"
+},
+"Café De Kroon": {
+"lat": 52.37598,
+"lon": 4.89599,
 "q": "name",
 "area": "Centrum"
 },
@@ -271,6 +437,12 @@
 "lon": 4.86821,
 "q": "name",
 "area": "West"
+},
+"Café Wu": {
+"lat": 52.36533,
+"lon": 4.92622,
+"q": "name",
+"area": "Oost"
 },
 "Camping Zeeburg Amsterdam": {
 "lat": 52.3645,
@@ -290,6 +462,18 @@
 "q": "name",
 "area": "West"
 },
+"Chicago Social Club": {
+"lat": 52.36466,
+"lon": 4.88256,
+"q": "name",
+"area": "Centrum"
+},
+"Chin Chin Club": {
+"lat": 52.37277,
+"lon": 4.87884,
+"q": "name",
+"area": "Centrum"
+},
 "Cinetol": {
 "lat": 52.35274,
 "lon": 4.90667,
@@ -299,6 +483,18 @@
 "Cinetol** // 20:00 // € €23,00\n\n## @\n\nLine up: @\n\nTickets](/agenda/22946/)\n\n---\n\n[**Plein Theater": {
 "skip": true,
 "q": "not found"
+},
+"ClinkNOORD": {
+"lat": 52.38418,
+"lon": 4.90367,
+"q": "name",
+"area": "Noord"
+},
+"Club Baggerbeest": {
+"lat": 52.37315,
+"lon": 4.96046,
+"q": "name",
+"area": "Oost"
 },
 "Club John Doe": {
 "lat": 52.36921,
@@ -312,8 +508,41 @@
 "q": "name",
 "area": "Centrum"
 },
+"Club Prime": {
+"lat": 52.40137,
+"lon": 4.7382,
+"q": "name",
+"area": "West"
+},
+"Club Royal": {
+"lat": 52.40137,
+"lon": 4.7382,
+"q": "name",
+"area": "West"
+},
+"Club UP": {
+"lat": 52.36384,
+"lon": 4.88378,
+"q": "name",
+"area": "Centrum"
+},
 "Coco's Outback": {
 "skip": true
+},
+"Coco’s Outback": {
+"skip": true
+},
+"Comedy Cafe Amsterdam": {
+"lat": 52.38442,
+"lon": 4.89488,
+"q": "name",
+"area": "Centrum"
+},
+"Concertgebouw": {
+"lat": 52.3562,
+"lon": 4.87904,
+"q": "name",
+"area": "Zuid"
 },
 "Conference Theater Amsterdam": {
 "lat": 52.30864,
@@ -331,11 +560,23 @@
 "q": "name",
 "area": "Zuid"
 },
+"Cut Throat Amsterdam": {
+"lat": 52.35661,
+"lon": 4.89199,
+"q": "name",
+"area": "Zuid"
+},
 "DAT!school": {
 "lat": 52.40005,
 "lon": 4.93543,
 "q": "name",
 "area": "Noord"
+},
+"DB55": {
+"lat": 52.39604,
+"lon": 4.87564,
+"q": "name",
+"area": "West"
 },
 "De Balie": {
 "lat": 52.36304,
@@ -372,6 +613,12 @@
 "lon": 4.89011,
 "q": "name",
 "area": "Centrum"
+},
+"De Fik Garden": {
+"lat": 52.33999,
+"lon": 4.83776,
+"q": "name",
+"area": "Nieuw-West"
 },
 "De Hallen Amsterdam": {
 "lat": 52.36695,
@@ -414,6 +661,12 @@
 "lon": 4.87144,
 "q": "name",
 "area": "West"
+},
+"De Rode Hoed": {
+"lat": 52.37734,
+"lon": 4.88726,
+"q": "name",
+"area": "Centrum"
 },
 "De Roode Remise": {
 "lat": 52.38419,
@@ -508,6 +761,12 @@
 "Diverse locaties in Amsterdam": {
 "skip": true
 },
+"Doka": {
+"lat": 52.35368,
+"lon": 4.91195,
+"q": "name",
+"area": "Oost"
+},
 "Doka - dé plek voor geluid en cultuur": {
 "skip": true,
 "q": "not found"
@@ -518,7 +777,17 @@
 "q": "addr",
 "area": "Centrum"
 },
+"Duke of Tokyo": {
+"lat": 52.36649,
+"lon": 4.89068,
+"q": "name",
+"area": "Centrum"
+},
 "ENTR": {
+"skip": true,
+"q": "not found"
+},
+"Eivissa Event Ship": {
 "skip": true,
 "q": "not found"
 },
@@ -543,6 +812,12 @@
 "lon": 4.87214,
 "q": "name",
 "area": "West"
+},
+"Faralda Crane Hotel": {
+"lat": 52.39941,
+"lon": 4.89484,
+"q": "name",
+"area": "Noord"
 },
 "Filmhuis Cavia": {
 "lat": 52.38197,
@@ -583,6 +858,16 @@
 "Frascati": {
 "lat": 52.37034,
 "lon": 4.89365,
+"q": "name",
+"area": "Centrum"
+},
+"Free Your Mind Club": {
+"skip": true,
+"q": "not found"
+},
+"G-Star RAW C.V": {
+"lat": 52.36821,
+"lon": 4.89157,
 "q": "name",
 "area": "Centrum"
 },
@@ -670,9 +955,31 @@
 "q": "name",
 "area": "Nieuw-West"
 },
+"Hearth": {
+"lat": 52.35846,
+"lon": 4.91293,
+"q": "name",
+"area": "Oost"
+},
+"Heineken Hoek": {
+"lat": 52.35784,
+"lon": 4.89178,
+"q": "name",
+"area": "Zuid"
+},
 "Helicopter Amsterdam": {
 "skip": true,
 "q": "not found"
+},
+"Hemkade 48": {
+"skip": true,
+"q": "not found"
+},
+"Het Dorp": {
+"lat": 52.38107,
+"lon": 4.91281,
+"q": "name",
+"area": "Noord"
 },
 "Het Groene Veld": {
 "lat": 52.40985,
@@ -714,6 +1021,12 @@
 "area": "Noord",
 "q": "manual: Gedempt Hamerkanaal 96, 1021KR Amsterdam"
 },
+"Het Veronica Schip": {
+"lat": 52.39049,
+"lon": 4.87373,
+"q": "name",
+"area": "West"
+},
 "Het Vrijpaleis": {
 "skip": true,
 "q": "not found"
@@ -734,11 +1047,23 @@
 "q": "name",
 "area": "Oost"
 },
+"House of Noa": {
+"lat": 52.37343,
+"lon": 4.89545,
+"q": "name",
+"area": "Centrum"
+},
 "Huis Marseille, Museum voor Fotografie": {
 "lat": 52.36764,
 "lon": 4.88484,
 "q": "name",
 "area": "Centrum"
+},
+"Huis Van Iemand Anders": {
+"lat": 52.35748,
+"lon": 4.89922,
+"q": "name",
+"area": "Zuid"
 },
 "Huis Vrederiks": {
 "lat": 52.35973,
@@ -752,6 +1077,10 @@
 "q": "name",
 "area": "Centrum"
 },
+"ICK Dans Amsterdam - Space for Dance Art": {
+"skip": true,
+"q": "not found"
+},
 "IJland": {
 "lat": 52.4112,
 "lon": 4.87728,
@@ -764,7 +1093,17 @@
 "q": "name",
 "area": "Noord"
 },
+"IJver Amsterdam NDSM": {
+"lat": 52.40137,
+"lon": 4.89512,
+"q": "name",
+"area": "Noord"
+},
 "If I can’t dance, I don’t want to be part of your revolution": {
+"skip": true,
+"q": "not found"
+},
+"InDeep'n'Dance Records": {
 "skip": true,
 "q": "not found"
 },
@@ -808,6 +1147,18 @@
 "q": "name",
 "area": "Centrum"
 },
+"KILLACUTZ": {
+"lat": 52.37527,
+"lon": 4.89329,
+"q": "name",
+"area": "Centrum"
+},
+"Kadinsky Cafe": {
+"lat": 52.37423,
+"lon": 4.8936,
+"q": "name",
+"area": "Centrum"
+},
 "Keizersgrachtkerk": {
 "lat": 52.36458,
 "lon": 4.88802,
@@ -820,7 +1171,19 @@
 "q": "name",
 "area": "Oost"
 },
+"Klaproos": {
+"lat": 52.39368,
+"lon": 4.91209,
+"q": "name",
+"area": "Noord"
+},
 "Koninklijk Theater Carré": {
+"lat": 52.36233,
+"lon": 4.90393,
+"q": "name",
+"area": "Centrum"
+},
+"Koninklijk Theater Tuschinski": {
 "lat": 52.36233,
 "lon": 4.90393,
 "q": "name",
@@ -848,6 +1211,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Le Flaneur": {
+"lat": 52.37147,
+"lon": 4.88247,
+"q": "name",
+"area": "Centrum"
+},
 "Levenslang Amsterdam": {
 "lat": 52.33725,
 "lon": 4.92533,
@@ -866,6 +1235,10 @@
 "q": "name",
 "area": "Noord"
 },
+"Lofi": {
+"skip": true,
+"q": "not found"
+},
 "Lofi Amsterdam": {
 "skip": true,
 "q": "not found"
@@ -875,6 +1248,20 @@
 "lon": 4.80521,
 "q": "name",
 "area": "Nieuw-West"
+},
+"Lombardo's": {
+"lat": 52.36355,
+"lon": 4.8887,
+"q": "name",
+"area": "Centrum"
+},
+"Loods6": {
+"skip": true,
+"q": "not found"
+},
+"Lotti's Bar @ The Hoxton": {
+"skip": true,
+"q": "not found"
 },
 "Luther Museum Amsterdam: Ontdek de Geschiedenis": {
 "skip": true,
@@ -924,6 +1311,12 @@
 "q": "name",
 "area": "Nieuw-West"
 },
+"Meet Berlage": {
+"lat": 52.37536,
+"lon": 4.89715,
+"q": "name",
+"area": "Centrum"
+},
 "Melkweg": {
 "lat": 52.36478,
 "lon": 4.88107,
@@ -939,6 +1332,12 @@
 "lon": 4.92759,
 "q": "name",
 "area": "Oost"
+},
+"Midi Amsterdam": {
+"lat": 52.3589,
+"lon": 4.86052,
+"q": "name",
+"area": "West"
 },
 "Moco Museum": {
 "lat": 52.35872,
@@ -957,6 +1356,12 @@
 "lon": 4.87707,
 "q": "name",
 "area": "Zuid"
+},
+"Mr Watson": {
+"lat": 52.35203,
+"lon": 4.91305,
+"q": "name",
+"area": "Oost"
 },
 "Museum Ons' Lieve Heer op Solder": {
 "lat": 52.37517,
@@ -1006,11 +1411,23 @@
 "q": "name",
 "area": "Noord"
 },
+"NDSM Warehouse": {
+"lat": 52.40037,
+"lon": 4.89295,
+"q": "name",
+"area": "Noord"
+},
 "NEMO Science Museum": {
 "lat": 52.37385,
 "lon": 4.91211,
 "q": "name",
 "area": "Centrum"
+},
+"NYX Hotel": {
+"lat": 52.34862,
+"lon": 4.8932,
+"q": "name",
+"area": "Zuid"
 },
 "Nannes": {
 "skip": true,
@@ -1034,6 +1451,12 @@
 "q": "name",
 "area": "Oost"
 },
+"Nicholas Groente & Fruit": {
+"lat": 52.40794,
+"lon": 4.91671,
+"q": "name",
+"area": "Noord"
+},
 "NieuwLand": {
 "lat": 52.36228,
 "lon": 4.92983,
@@ -1051,6 +1474,12 @@
 "lon": 4.92756,
 "q": "name",
 "area": "Oost"
+},
+"Noorderlicht": {
+"lat": 52.39957,
+"lon": 4.89698,
+"q": "name",
+"area": "Noord"
 },
 "Noorderlicht Café": {
 "lat": 52.39957,
@@ -1096,6 +1525,12 @@
 "skip": true,
 "q": "not found"
 },
+"Oceandiva Original": {
+"lat": 52.35585,
+"lon": 4.89502,
+"q": "name",
+"area": "Zuid"
+},
 "Odessa Amsterdam": {
 "lat": 52.37451,
 "lon": 4.93765,
@@ -1106,11 +1541,23 @@
 "skip": true,
 "q": "not found"
 },
+"Oliva": {
+"lat": 52.3767,
+"lon": 4.88224,
+"q": "name",
+"area": "Centrum"
+},
 "Olympisch Stadion Amsterdam": {
 "lat": 52.34344,
 "lon": 4.85405,
 "q": "name",
 "area": "Zuid"
+},
+"Onder Hans": {
+"lat": 52.37166,
+"lon": 4.77467,
+"q": "name",
+"area": "Nieuw-West"
 },
 "Op de brug": {
 "lat": 52.35546,
@@ -1124,9 +1571,21 @@
 "q": "name",
 "area": "West"
 },
+"Oude Kerk Amsterdam": {
+"lat": 52.37436,
+"lon": 4.89807,
+"q": "name",
+"area": "Centrum"
+},
 "PAN Amsterdam": {
 "lat": 52.37817,
 "lon": 4.88134,
+"q": "name",
+"area": "Centrum"
+},
+"PRIK": {
+"lat": 52.37471,
+"lon": 4.89084,
 "q": "name",
 "area": "Centrum"
 },
@@ -1147,6 +1606,12 @@
 "lon": 4.92206,
 "q": "name",
 "area": "Oost"
+},
+"Palladium Amsterdam": {
+"lat": 52.36358,
+"lon": 4.88353,
+"q": "name",
+"area": "Centrum"
 },
 "Panama": {
 "lat": 52.37494,
@@ -1252,6 +1717,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Prinsengracht Pop-up": {
+"lat": 52.37432,
+"lon": 4.89284,
+"q": "name",
+"area": "Centrum"
+},
 "Q-Factory": {
 "lat": 52.35767,
 "lon": 4.9305,
@@ -1273,6 +1744,12 @@
 "Raadhuis Hilversum": {
 "skip": true,
 "q": "not found"
+},
+"Radio Radio": {
+"lat": 52.38607,
+"lon": 4.87405,
+"q": "name",
+"area": "West"
 },
 "Rapenburg 51": {
 "lat": 52.37125,
@@ -1298,11 +1775,23 @@
 "q": "name",
 "area": "Zuid"
 },
+"Royal Room": {
+"skip": true,
+"q": "not found"
+},
 "Ruby Emma Hotel & Bar": {
 "lat": 52.33825,
 "lon": 4.92098,
 "q": "name",
 "area": "Oost"
+},
+"S-Bahn": {
+"skip": true,
+"q": "not found"
+},
+"SPRMRKT": {
+"skip": true,
+"q": "not found"
 },
 "SPUI25": {
 "lat": 52.36859,
@@ -1310,11 +1799,19 @@
 "q": "name",
 "area": "Centrum"
 },
+"STMPD Recording Studios": {
+"skip": true,
+"q": "not found"
+},
 "STRAAT Museum – Street art en graffiti in Amsterdam": {
 "lat": 52.4001,
 "lon": 4.89373,
 "area": "Noord",
 "q": "manual: NDSM-plein, Amsterdam"
+},
+"SUPPER": {
+"skip": true,
+"q": "not found"
 },
 "SUPPER Cruise": {
 "lat": 52.37868,
@@ -1332,6 +1829,12 @@
 "skip": true,
 "q": "not found"
 },
+"Schout-bij-nacht": {
+"lat": 52.37869,
+"lon": 4.88418,
+"q": "name",
+"area": "Centrum"
+},
 "Shelter": {
 "lat": 52.38366,
 "lon": 4.90248,
@@ -1348,6 +1851,12 @@
 "skip": true,
 "q": "not found"
 },
+"Skatecafe": {
+"lat": 52.38542,
+"lon": 4.92559,
+"q": "name",
+"area": "Noord"
+},
 "Skatecafe Karin & Yvonne": {
 "lat": 52.38412,
 "lon": 4.92073,
@@ -1359,6 +1868,10 @@
 "lon": 4.79784,
 "q": "name",
 "area": "Nieuw-West"
+},
+"Soulkitchen Amsterdam": {
+"skip": true,
+"q": "not found"
 },
 "Splendor": {
 "lat": 52.36982,
@@ -1432,21 +1945,47 @@
 "q": "name",
 "area": "Zuidoost"
 },
+"Studio Zeedijk": {
+"lat": 52.37534,
+"lon": 4.90099,
+"q": "name",
+"area": "Centrum"
+},
+"Studio/K": {
+"lat": 52.36515,
+"lon": 4.93615,
+"q": "name",
+"area": "Oost"
+},
 "SugarFactory": {
 "lat": 52.36481,
 "lon": 4.88183,
 "area": "Centrum",
 "q": "manual: Lijnbaansgracht 238, 1017PH Amsterdam"
 },
+"Sugarfactory": {
+"skip": true,
+"q": "not found"
+},
 "Synestheet": {
 "skip": true,
 "q": "not found"
+},
+"THE OTHER SIDE": {
+"lat": 52.39565,
+"lon": 4.87536,
+"q": "name",
+"area": "West"
 },
 "TILLATEC": {
 "lat": 52.36995,
 "lon": 4.84371,
 "q": "name",
 "area": "West"
+},
+"Taets Art and Event Park": {
+"skip": true,
+"q": "not found"
 },
 "Takland": {
 "lat": 52.36928,
@@ -1459,6 +1998,14 @@
 "lon": 4.85403,
 "q": "name",
 "area": "Zuid"
+},
+"Tha Dogg House by Snoop Dogg": {
+"skip": true,
+"q": "not found"
+},
+"The Bas[s]ment": {
+"skip": true,
+"q": "not found"
 },
 "The Black Archives": {
 "lat": 52.31433,
@@ -1478,6 +2025,10 @@
 "q": "name",
 "area": "Centrum"
 },
+"The Cristel Ballroom Gallery": {
+"skip": true,
+"q": "not found"
+},
 "The Famous Boom Chicago Comedy Show": {
 "skip": true,
 "q": "not found"
@@ -1487,6 +2038,16 @@
 "lon": 4.88585,
 "q": "name",
 "area": "Centrum"
+},
+"The Loft Amsterdam": {
+"lat": 52.3846,
+"lon": 4.88585,
+"q": "name",
+"area": "Centrum"
+},
+"The Node North": {
+"skip": true,
+"q": "not found"
 },
 "The Open Space Contemporary Art Museum": {
 "lat": 52.31417,
@@ -1505,6 +2066,28 @@
 "lon": 4.89827,
 "q": "name",
 "area": "Centrum"
+},
+"The Stargate": {
+"skip": true,
+"q": "not found"
+},
+"The Tequila Club": {
+"lat": 52.39614,
+"lon": 4.91071,
+"q": "name",
+"area": "Noord"
+},
+"The Workout Lab De Pijp": {
+"lat": 52.35523,
+"lon": 4.89233,
+"q": "name",
+"area": "Zuid"
+},
+"The Workout Lab West": {
+"lat": 52.35523,
+"lon": 4.89233,
+"q": "name",
+"area": "Zuid"
 },
 "Theater Amsterdam": {
 "lat": 52.39703,
@@ -1580,6 +2163,12 @@
 "skip": true,
 "q": "not found"
 },
+"Van Eesteren Museum": {
+"lat": 52.37301,
+"lon": 4.82625,
+"q": "name",
+"area": "Nieuw-West"
+},
 "Van Gogh Museum": {
 "lat": 52.35837,
 "lon": 4.88109,
@@ -1611,6 +2200,12 @@
 "lon": 4.91273,
 "q": "name",
 "area": "Centrum"
+},
+"Vic's Bar": {
+"lat": 52.37051,
+"lon": 4.85394,
+"q": "name",
+"area": "West"
 },
 "Vitti Barberia": {
 "skip": true,
@@ -1656,6 +2251,10 @@
 "skip": true,
 "q": "not found"
 },
+"Wanakam": {
+"skip": true,
+"q": "not found"
+},
 "Warehouse Elementenstraat": {
 "lat": 52.39336,
 "lon": 4.85207,
@@ -1668,17 +2267,35 @@
 "q": "name",
 "area": "Oost"
 },
+"Waterhouse Studios": {
+"lat": 52.39967,
+"lon": 4.93194,
+"q": "name",
+"area": "Noord"
+},
 "Wereldmuseum Amsterdam": {
 "lat": 52.36269,
 "lon": 4.92244,
 "q": "name",
 "area": "Oost"
 },
+"Werkplaats": {
+"lat": 52.33721,
+"lon": 4.80003,
+"q": "name",
+"area": "Nieuw-West"
+},
 "WestWeelde": {
 "lat": 52.38713,
 "lon": 4.86999,
 "q": "name",
 "area": "West"
+},
+"Westerkerk": {
+"lat": 52.37455,
+"lon": 4.88399,
+"q": "name",
+"area": "Centrum"
 },
 "Westerpark": {
 "lat": 52.38723,
@@ -1687,6 +2304,10 @@
 "area": "West"
 },
 "What you see Festival": {
+"skip": true,
+"q": "not found"
+},
+"When Nature Calls Biohacking Center": {
 "skip": true,
 "q": "not found"
 },
@@ -1714,9 +2335,27 @@
 "q": "name",
 "area": "Zuidoost"
 },
+"Zone2Source": {
+"lat": 52.32866,
+"lon": 4.89289,
+"q": "name",
+"area": "Zuid"
+},
+"Zwart Goud": {
+"lat": 52.3548,
+"lon": 4.7696,
+"q": "name",
+"area": "Nieuw-West"
+},
 "[ woonruimte coöperatief ]": {
 "skip": true,
 "q": "not found"
+},
+"a Sense of Place": {
+"lat": 52.38088,
+"lon": 4.88262,
+"q": "name",
+"area": "Centrum"
 },
 "art’otel amsterdam": {
 "lat": 52.37764,
@@ -1730,14 +2369,34 @@
 "q": "name",
 "area": "Noord"
 },
+"de Thomaskerk": {
+"lat": 52.34209,
+"lon": 4.87483,
+"q": "name",
+"area": "Zuid"
+},
+"got.drip": {
+"skip": true,
+"q": "not found"
+},
 "het Rijk van de Keizer": {
 "lat": 52.38331,
 "lon": 4.77996,
 "q": "name",
 "area": "Nieuw-West"
 },
+"nachbar": {
+"skip": true,
+"q": "not found"
+},
 "pos (possibilities open studio)": {
 "skip": true,
 "q": "not found"
+},
+"t' Blauwe Theehuis": {
+"lat": 52.35884,
+"lon": 4.87258,
+"q": "name",
+"area": "Zuid"
 }
 }
