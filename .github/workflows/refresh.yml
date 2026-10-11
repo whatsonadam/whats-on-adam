@@ -47,13 +47,15 @@ jobs:
           if [ "${REPO,,}" = "${OWNER}.github.io" ]; then SITE="https://${OWNER}.github.io"; else SITE="https://${OWNER}.github.io/${REPO}"; fi
           python build.py --out public --previous "${SITE}/events.json"
 
-      - name: Save new venue locations
+      - name: Save new venue locations and start times
         run: |
-          if ! git diff --quiet venues.json; then
+          git add venues.json
+          [ -f times.json ] && git add times.json || true
+          if ! git diff --cached --quiet; then
             git config user.name "agenda-bot"
             git config user.email "agenda-bot@users.noreply.github.com"
-            git add venues.json
-            git commit -m "Add new venue locations [skip ci]"
+            git commit -m "Update venue locations and start times [skip ci]"
+            git pull --rebase origin main
             git push
           fi
 

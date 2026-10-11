@@ -90,6 +90,12 @@ def collect(today):
     per["radar"] = run("radar", importlib.import_module("radar").parse_api, json.load(open(f)).get("result", {}), today) if os.path.exists(f) else []
     pages = [open(p, errors="ignore").read() for p in sorted(glob.glob(os.path.join(DATA, "iamsterdam", "p*.html")))]
     per["iamsterdam"] = run("iamsterdam", importlib.import_module("iamsterdam").parse_pages, pages, today)
+    if not os.environ.get("NO_PAGE_TIMES"):
+        try:
+            import pagetimes
+            pagetimes.enrich(per, today)
+        except Exception as ex:
+            print(f"  !! start-time lookup skipped: {ex}")
     return per
 
 def norm(s): return re.sub(r"[^a-z0-9]", "", s.lower())[:22]

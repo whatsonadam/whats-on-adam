@@ -13,6 +13,10 @@ Twice a day GitHub runs `.github/workflows/refresh.yml`:
 
 If a source fails or is blocked on a run, the site keeps that source's events from the previous run.
 
+Some agenda pages list no start time. `pagetimes.py` opens those events' own pages once (Tolhuistuin, Cinetol,
+I amsterdam), reads the time and remembers it in `times.json`, so later runs only visit new events. At most 300
+pages per run, one per second. Events whose page has no time stay as "Time to be confirmed".
+
 ## Maintaining it
 
 - **A source stopped working** (the build log says "nothing parsed" or "kept previous data"): the venue changed its website. Adjust `parsers/<source>.py`.
