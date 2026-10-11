@@ -1,0 +1,150 @@
+"""Step 1 of a refresh: download every source into _data/ (no AI involved).
+
+    python3 fetch.py            # everything
+    python3 fetch.py mezrab ot301   # only some keys
+
+Venue pages are rendered in headless Chromium (Playwright) and saved as markdown
+(_data/<key>.md); Cinetol is also saved as raw HTML. radar.squat.net comes from its
+JSON API and I amsterdam from its listing pages. De Zwijger and The School of Life block
+automated browsers: if their files come back as 'blocked', fetch them with WebFetch
+(see README).
+"""
+import asyncio, datetime, json, os, re, subprocess, sys, concurrent.futures as cf
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+DATA = os.path.join(HERE, "_data")
+UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36"
+NL_MONTHS = ["januari","februari","maart","april","mei","juni","juli","augustus","september","oktober","november","december"]
+
+def cavia_urls(today):
+    urls = {}
+    for i in range(3):
+        m = (today.month - 1 + i) % 12; y = today.year + (today.month - 1 + i) // 12
+        urls[f"cavia_{i}"] = f"https://www.filmhuiscavia.nl/programma/{NL_MONTHS[m]}-{y}"
+    return urls
+
+PAGES = {
+    "mezrab": "https://mezrab.nl/full-program/",
+    "vrankrijk": "https://vrankrijk.org/events/",
+    "aralez": "https://stichtingaralez.com/events/",
+    "desering": "https://desering.org/events",
+    "amsterdamalternative": "https://www.amsterdamalternative.nl/agenda",
+    "offbeat": "https://offbeat.amsterdam/",
+    "likeminds": "https://likeminds.nl/agenda/",
+    "garagenoord": "https://www.garagenoord.com/club/9-lives-of-garage-noord",
+    "skatecafe": "https://skatecafe.weticket.io/",
+    "deceuvel": "https://deceuvel.nl/en/events/",
+    "nieuweanita": "https://denieuweanita.nl/",
+    "verzetsmuseum": "https://www.verzetsmuseum.org/nl/agenda",
+    "wereldmuseum": "https://amsterdam.wereldmuseum.nl/",
+    "odessa": "https://www.odessa.amsterdam/",
+    "ot301": "https://ot301.nl/agenda",
+    "cinetol": "https://www.cinetol.nl/programma",
+    "ccamstel": "https://ccamstel.nl/programma",
+    "volkshotel": "https://www.volkshotel.nl/en/agenda/",
+    "lab111": "https://www.lab111.nl/programma/",
+    "tolhuistuin": "https://tolhuistuin.nl/en/agenda",
+    "dezwijger": "https://dezwijger.nl/agenda",
+    "schooloflife": "https://www.theschooloflife.com/amsterdam/agenda/",
+}
+KEEP_HTML = {"cinetol"}
+LOAD_MORE = {"tolhuistuin"}
+BLOCKED_OK = {"schooloflife"}  # Claude writes this file via WebFetch, keep it
+EMPTY_HINTS = ["Sorry, no events right now"]
+
+def to_md(html):
+    from bs4 import BeautifulSoup
+    from markdownify import markdownify as md
+    s = BeautifulSoup(html, "html.parser")
+    for t in s(["script", "style", "noscript", "svg", "iframe", "header", "footer"]): t.decompose()
+    return re.sub(r"\n\s*\n+", "\n\n", md(str(s), strip=["img"], heading_style="ATX"))
+
+async def render_one(browser, key, url, sem, status):
+    async with sem:
+        ctx = await browser.new_context(user_agent=UA, locale="en-GB")
+        page = await ctx.new_page()
+        try:
+            r = await page.goto(url, timeout=45000, wait_until="domcontentloaded")
+            code = r.status if r else 0
+            await page.wait_for_timeout(4000)
+            for _ in range(4):
+                await page.mouse.wheel(0, 4000); await page.wait_for_timeout(700)
+            # some sites fill their agenda widget late; give them up to 20 more seconds
+            for _ in range(10):
+                body = await page.inner_text("body")
+                if not any(s in body for s in EMPTY_HINTS): break
+                await page.wait_for_timeout(2000)
+            if key in LOAD_MORE:
+                for _ in range(15):
+                    btn = page.get_by_text(re.compile(r"(load more|meer laden|show more|toon meer)", re.I))
+                    if await btn.count() == 0: break
+                    try: await btn.last.click(timeout=4000); await page.wait_for_timeout(1800)
+                    except Exception: break
+            html = await page.content()
+            if code >= 400:
+                # drop any older copy so build.py never parses stale data
+                for ext in (".md", ".html"):
+                    f = os.path.join(DATA, key + ext)
+                    if os.path.exists(f) and not (key in BLOCKED_OK and ext == ".md"): os.remove(f)
+                status[key] = f"blocked ({code})"; return
+            if key in KEEP_HTML:
+                open(os.path.join(DATA, f"{key}.html"), "w").write(html)
+            open(os.path.join(DATA, f"{key}.md"), "w").write(f"SOURCE: {url}\n\n" + to_md(html))
+            status[key] = "ok"
+        except Exception as e:
+            status[key] = f"error: {str(e)[:80]}"
+        finally:
+            await ctx.close()
+
+async def render_all(pages, status):
+    from playwright.async_api import async_playwright
+    async with async_playwright() as pw:
+        browser = await pw.chromium.launch()
+        sem = asyncio.Semaphore(6)
+        await asyncio.gather(*[render_one(browser, k, u, sem, status) for k, u in pages.items()])
+        await browser.close()
+
+def curl(url, out):
+    r = subprocess.run(["curl", "-sS", "-g", "-m", "60", "-A", UA, "-o", out, "-w", "%{http_code}", url], capture_output=True, text=True)
+    return r.stdout.strip()
+
+def fetch_radar(status):
+    url = ("https://radar.squat.net/api/1.2/search/events.json?facets[city][]=Amsterdam"
+           "&fields=title,date_time,offline,url,category&limit=500")
+    code = curl(url, os.path.join(DATA, "radar.json"))
+    status["radar"] = "ok" if code == "200" else f"error {code}"
+
+def fetch_iamsterdam(status, max_pages=300):
+    d = os.path.join(DATA, "iamsterdam"); os.makedirs(d, exist_ok=True)
+    for f in os.listdir(d): os.remove(os.path.join(d, f))
+    def get(p):
+        out = os.path.join(d, f"p{p:03d}.html")
+        return p, curl(f"https://www.iamsterdam.com/uit/agenda?page={p}", out), out
+    # probe the first page for the result count so we only fetch what exists
+    _, code, first = get(1)
+    total = 4200
+    try:
+        m = re.search(r"([\d.]+) resultaten", open(first, errors="ignore").read())
+        if m: total = int(m.group(1).replace(".", ""))
+    except Exception: pass
+    pages = min(max_pages, total // 16 + 2)
+    with cf.ThreadPoolExecutor(6) as ex:
+        res = list(ex.map(get, range(2, pages + 1)))
+    bad = [p for p, c, _ in res if c != "200"]
+    status["iamsterdam"] = f"ok ({pages} pages{', %d failed' % len(bad) if bad else ''})"
+
+def main():
+    os.makedirs(DATA, exist_ok=True)
+    today = datetime.date.today()
+    want = set(sys.argv[1:])
+    pages = dict(PAGES); pages.update(cavia_urls(today))
+    if want: pages = {k: v for k, v in pages.items() if k in want or (k.startswith("cavia") and "cavia" in want)}
+    status = {}
+    if pages: asyncio.run(render_all(pages, status))
+    if not want or "radar" in want: fetch_radar(status)
+    if not want or "iamsterdam" in want: fetch_iamsterdam(status)
+    json.dump({"fetched": today.isoformat(), "status": status}, open(os.path.join(DATA, "fetch_status.json"), "w"), indent=1)
+    for k in sorted(status): print(f"{k:22} {status[k]}")
+
+if __name__ == "__main__":
+    main()

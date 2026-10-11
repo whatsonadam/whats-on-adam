@@ -1,0 +1,70 @@
+name: Refresh agenda
+
+on:
+  schedule:
+    - cron: "0 5 * * *"    # ~07:00 Amsterdam (06:00 in winter)
+    - cron: "0 14 * * *"   # ~16:00 Amsterdam (15:00 in winter)
+  workflow_dispatch: {}     # "Run workflow" button for a manual refresh
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install tools
+        run: |
+          pip install playwright beautifulsoup4 markdownify
+          python -m playwright install --with-deps chromium
+
+      - name: Fetch listings
+        run: python fetch.py
+
+      - name: Build site
+        env:
+          CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
+        run: |
+          OWNER="${GITHUB_REPOSITORY_OWNER,,}"
+          REPO="${GITHUB_REPOSITORY#*/}"
+          if [ "${REPO,,}" = "${OWNER}.github.io" ]; then SITE="https://${OWNER}.github.io"; else SITE="https://${OWNER}.github.io/${REPO}"; fi
+          python build.py --out public --previous "${SITE}/events.json"
+
+      - name: Save new venue locations
+        run: |
+          if ! git diff --quiet venues.json; then
+            git config user.name "agenda-bot"
+            git config user.email "agenda-bot@users.noreply.github.com"
+            git add venues.json
+            git commit -m "Add new venue locations [skip ci]"
+            git push
+          fi
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
