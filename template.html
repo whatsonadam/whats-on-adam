@@ -269,7 +269,7 @@ const AREAS = ["Centrum","West","Noord","Oost","Zuid","Nieuw-West","Zuidoost","W
 const CATS = [
   ["music","Music","#E8EEFB","#2F55B8"],["club","Club","#F0E9F8","#6D3AA8"],["film","Film","#FDEBE3","#B8461F"],
   ["talk","Talks","#E4F3EB","#1F7A50"],["theatre","Stage & comedy","#FBE7EF","#AD2D66"],["workshop","Workshops","#FBF1DA","#8A6100"],
-  ["exhibition","Exhibitions","#E1F1F4","#0F6F82"],["community","Community & food","#EAF2E0","#4A7422"],["other","Other","#EFEDED","#5F5758"]
+  ["exhibition","Exhibitions","#E1F1F4","#0F6F82"],["community","Community & food","#EAF2E0","#4A7422"],["protest","Protest & activism","#FADBD8","#9C1C14"],["other","Other","#EFEDED","#5F5758"]
 ];
 const CATMAP = {comedy:"theatre",dance:"music",food:"community",kids:"community"};
 const catOf = e => CATMAP[e.c] || (CATS.some(c=>c[0]===e.c) ? e.c : "other");
@@ -463,7 +463,7 @@ const wantLabel = on => on ? `${X_ICON}On my list` : `${X_ICON}Want to see`;
 
 function item(e, ws, opts){
   const i=VISIBLE.push(e)-1;
-  const c=CATS.find(c=>c[0]===catOf(e))||CATS[8];
+  const c=CATS.find(c=>c[0]===catOf(e))||CATS[CATS.length-1];
   const src=SOURCES[e.s]; const also=(e.a||[]).map(s=>SOURCES[s]?.name||s);
   const via = AGG.has(e.s) ? `via ${src?.name||e.s}` : "";
   let tm = e.h ? `${e.h}${e.eh?`<small>– ${e.eh}</small>`:""}` : `<small>TBC</small>`;

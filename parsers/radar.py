@@ -1,7 +1,7 @@
 """radar.squat.net public API (JSON), city = Amsterdam. Bar/food/office-hours-only listings are skipped."""
 import datetime, re
 SKIP={'bar/cafe','food','advice/help/office hours','work space/diy','book shop/info shop/library','meeting','(free) shop/market'}
-CAT=[('party','club'),('music/concert','music'),('film','film'),('discussion/presentation','talk'),('course/workshop','workshop'),('exhibition','exhibition'),('theater','theatre'),('action/protest/camp','community'),("children's activity",'kids')]
+CAT=[('party','club'),('music/concert','music'),('film','film'),('discussion/presentation','talk'),('course/workshop','workshop'),('exhibition','exhibition'),('theater','theatre'),('action/protest/camp','protest'),("children's activity",'kids')]
 FIX={'Astaro Theatro Sint':'Astaro Theatro','AstaroTheatro Sint':'Astaro Theatro','Boedapest Pesthuislaan By the Buddha statue':'Boedapest (Pesthuislaan)','Budapest Pesthuislaan':'Boedapest (Pesthuislaan)','De Hoek Joan':'De Hoek','De Nieuwe Anita Frederik':'De Nieuwe Anita','De Verdieping (bij Kaboem) Anna':'De Verdieping (Kaboem)','Dokhuis Galerie Plantage':'Dokhuis Galerie','Dokhuis Plantage':'Dokhuis Galerie','Filmhuis Cavia Van':'Filmhuis Cavia','Het Groene Veld / ADM Noord':'ADM Noord/Het Groene Veld','Huis de Pinto St.':'Huis de Pinto','Mime Fabriek Burgemeester de':'Mime Fabriek','Molli Chaoot Van':'Molli Chaoot','Nassaukerk De':'Nassaukerk','NieuwLand Pieter':'NieuwLand','Amsterdam':'Amsterdam (various)','FC':'FC Kraak',"Joe's":"Joe's Garage",'Villa':'Villa Kamal','Huis':'Huis Vrederiks','Café':'Café Gilde'}
 def venue(t):
     s=re.split(r'\s+Amsterdam\b',t)[0].strip()

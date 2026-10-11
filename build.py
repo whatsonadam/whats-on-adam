@@ -56,6 +56,7 @@ NOTES = {"delamar": "dates load in their ticket app – check site", "artis": "n
 
 NL = set("de het een en van voor met over wat hoe waarom jouw je jij niet ook naar uit bij als wordt worden zijn onze ons wij we leer leren samen avond middag lezing gesprek voorstelling kinderen jeugd verhaal nieuwe zonder tegen door dan kan maar deze dit welkom spreekuur buurt".split())
 EN = set("the and of for with about what how why your you not to from at is are our we learn together evening night talk english".split())
+PROTEST = re.compile(r"\b(protest\w*|demonstratie\w*|demonstration\w*|vigil|betoging\w*|vlaggen voor)\b", re.I)
 LANGCATS = {"talk", "theatre", "comedy", "workshop", "community", "kids", "other"}
 DUTCH_VENUES = {"dezwijger", "schooloflife", "nieuweanita", "ccamstel", "verzetsmuseum"}
 
@@ -120,6 +121,8 @@ def merge(per):
             if e.get("nl"): s0["nl"] = 1
             continue
         seen.setdefault(k, e); out.append(e)
+    for e in out:
+        if e.get("c") in ("community", "talk", "other", "kids") and PROTEST.search(e["t"]): e["c"] = "protest"
     for e in out:
         if e.get("nl") or e.pop("en", None) or e.get("c") not in LANGCATS: continue
         words = re.findall(r"[a-zà-ÿ']+", (e["t"] + " " + e.get("b", "")).lower())
