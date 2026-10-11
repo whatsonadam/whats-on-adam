@@ -641,7 +641,7 @@ $("#srcgrid").innerHTML=Object.entries(SOURCES).sort((a,b)=>a[1].name.localeComp
 }).join("");
 const hh=String(UPDATED.getHours()).padStart(2,"0")+":"+String(UPDATED.getMinutes()).padStart(2,"0");
 const age=Math.round((parse(todayIso)-parse(SNAP))/864e5);
-$("#stamp").textContent=`Updated ${age<=0?"today":age===1?"yesterday":age+" days ago"} at ${hh} · ${ALLEV.length.toLocaleString("en")} events`;
+$("#stamp").textContent=`Updated ${age<=0?"today":age===1?"yesterday":age+" days ago"} at ${hh}`;
 if(age>=3) $("#stamp").classList.add("old");
 if(CONTACT_EMAIL && !CONTACT_EMAIL.startsWith("__")) $("#contact").innerHTML=`Venue or organiser and want something changed or removed? Email <a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a>.`;
 updateWantCount();
