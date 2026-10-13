@@ -2311,9 +2311,33 @@
 "q": "name",
 "area": "West"
 },
+"Pathé Amsterdam Noord": {
+"lat": 52.40086,
+"lon": 4.93442,
+"q": "name",
+"area": "Noord"
+},
+"Pathé Arena": {
+"lat": 52.31236,
+"lon": 4.94571,
+"q": "name",
+"area": "Zuidoost"
+},
+"Pathé City": {
+"lat": 52.36338,
+"lon": 4.88384,
+"q": "name",
+"area": "Centrum"
+},
 "Pathé Tuschinski": {
 "lat": 52.36651,
 "lon": 4.89471,
+"q": "name",
+"area": "Centrum"
+},
+"Pathé de Munt": {
+"lat": 52.36645,
+"lon": 4.89347,
 "q": "name",
 "area": "Centrum"
 },
@@ -3260,6 +3284,10 @@
 "lon": 4.8826,
 "q": "name",
 "area": "Zuid"
+},
+"Vue Amsterdam": {
+"skip": true,
+"q": "not found"
 },
 "W139": {
 "lat": 52.37375,
