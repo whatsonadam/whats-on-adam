@@ -152,6 +152,7 @@ def fetch_cinemas(status, today):
         "hyena": lambda p: curl("https://tickets.fchyena.nl/fchyena/nl/flow_configs/1/z_events_list", p),
         "cinecenter": lambda p: curl("https://www.cinecenter.nl/programma", p),
         "melkwegcinema": lambda p: curl("https://www.melkweg.nl/nl/agenda/", p),
+        "filmladder": lambda p: curl("https://www.filmladder.nl/amsterdam/bioscopen", p),
     }
     for k in ("amstelveen", "devlugt", "thepulse", "omval", "docpaviljoen", "kriterion"):
         jobs[k] = (lambda kk: lambda p: cineville_common.fetch_venue(kk, today, p))(k)

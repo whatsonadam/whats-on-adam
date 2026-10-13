@@ -566,19 +566,20 @@ function renderAde(){
 const LN=(()=>{ try{ return new Intl.DisplayNames(["en"],{type:"language"}); }catch(e){ return null; } })();
 const langNames=a=>a.map(c=>{ try{ return (LN&&LN.of(c))||c; }catch(e){ return c; } }).join(", ");
 const filmKey = t => t.toLowerCase().replace(/\([^)]*\)|\[[^\]]*\]/g," ").replace(/[^\p{L}\p{N}]+/gu," ").trim();
-const CINEMA_RX = /cinema|film|kino|lab111|kriterion|rialto|\beye\b|uitkijk|studio\/?k|cavia|ventilator|cinetol|the movies|path[eé]|bioscoop|movie|bijlmerbios|cinecenter|vlugt|pulse|omval|hyena|ketelhuis|documentaire paviljoen|melkweg cinema/i;
+const CINEMA_RX = /cinema|film|kino|lab111|kriterion|rialto|\beye\b|uitkijk|studio\/?k|cavia|ventilator|cinetol|the movies|path[eé]|\bvue\b|bioscoop|movie|bijlmerbios|cinecenter|vlugt|pulse|omval|hyena|ketelhuis|documentaire paviljoen|melkweg cinema/i;
 // Cineville pass: Amsterdam partner cinemas (list supplied by Gil)
 const CINEVILLE_RX = /bijlmerbios|cinecenter|cinema amstelveen|de vlugt|the pulse|de balie|omval|uitkijk|\beye\b|hyena|filmhallen|cavia|documentaire paviljoen|ketelhuis|kriterion|lab111|melkweg cinema|rialto|studio\/?k|the movies|ventilator/i;
 const isCinemaVenue = v => CINEMA_RX.test(v||"");
 const OTHER_PLACES = "Other places (occasional screenings)";
 const CIN = FILMS.filter(e=>e.d>=todayIso);
-let cinState = {day:"", q:"", venues:new Set(), cv:false, en:false, gn:new Set(), age:"", len:""};
+let cinState = {day:"", q:"", venues:new Set(), cv:false, en:false, ch:false, gn:new Set(), age:"", len:""};
 const GMAP={"Drama":"Drama","Comedy":"Comedy","Horror":"Horror","Thriller":"Thriller","Crime":"Thriller","Mystery":"Thriller","Documentary":"Documentary","Animation":"Animation","Family":"Family","Science Fiction":"Sci-fi","Fantasy":"Sci-fi","Romance":"Romance","Music":"Music","War":"History","History":"History","Action":"Action","Adventure":"Action","Western":"Action"};
 const gOf=e=>new Set((e.gn||[]).map(g=>GMAP[g]).filter(Boolean));
 const NEWY=new Date().getFullYear()-1, OLDY=new Date().getFullYear()-11;
 function cinOk(e, ignoreQ){
   if(cinState.cv && !CINEVILLE_RX.test(e.v||"")) return false;
   if(cinState.en && e.nl) return false;
+  if(e.ch && !cinState.ch) return false;
   if(cinState.gn.size){ const g=gOf(e); if(![...cinState.gn].some(x=>g.has(x))) return false; }
   if(cinState.age==="new" && !(e.yr>=NEWY)) return false;
   if(cinState.age==="old" && !(e.yr&&e.yr<=OLDY)) return false;
@@ -593,7 +594,7 @@ function renderCin(){
   const days=[...new Set(CIN.map(e=>e.d))].sort();
   if(!days.length){ $("#cin").innerHTML=`<div class="dayhead"><h2>Cinema</h2></div><div class="empty">No screenings in the current listings.</div>`; return; }
   if(!cinState.day || !days.includes(cinState.day)) cinState.day=days[0];
-  const cinemas=[...new Set(CIN.filter(e=>isCinemaVenue(e.v)).map(e=>e.v))].sort((a,b)=>a.localeCompare(b));
+  const cinemas=[...new Set(CIN.filter(e=>isCinemaVenue(e.v)&&(cinState.ch||!e.ch)).map(e=>e.v))].sort((a,b)=>a.localeCompare(b));
   const hasOther=CIN.some(e=>!isCinemaVenue(e.v));
   const gc={}; CIN.forEach(e=>gOf(e).forEach(g=>gc[g]=(gc[g]||0)+1));
   const genres=Object.keys(gc).sort((a,b)=>gc[b]-gc[a]).slice(0,10);
@@ -608,6 +609,7 @@ function renderCin(){
     <div class="days" id="cindays" role="listbox" aria-label="Pick a day">${dayStripHtml(countsBy(CIN.filter(e=>cinOk(e,true))),cinState.day)}</div>
     <div class="row" style="margin:10px 0"><input type="search" id="cinq" placeholder="Search film or cinema…" aria-label="Search films" value="${esc(cinState.q)}">
       <label class="toggle"><input type="checkbox" id="cinen"${cinState.en?" checked":""}> English-friendly</label>
+      <label class="toggle"><input type="checkbox" id="cinch"${cinState.ch?" checked":""}> Include big chains (Pathé, Vue)</label>
       <label class="toggle"><input type="checkbox" id="cincv"${cinState.cv?" checked":""}> Cineville cinemas only</label></div>
     <div class="row" style="margin:0 0 10px;gap:12px">
       <label class="toggle">Released <select id="cinage" aria-label="New or classic"><option value="">Any time</option><option value="new"${cinState.age==="new"?" selected":""}>New (${NEWY} or later)</option><option value="old"${cinState.age==="old"?" selected":""}>Classics (${OLDY} or earlier)</option></select></label>
@@ -625,6 +627,7 @@ function renderCin(){
   $("#cinage").onchange=ev=>{ cinState.age=ev.target.value; renderCin(); };
   $("#cinlen").onchange=ev=>{ cinState.len=ev.target.value; renderCin(); };
   document.querySelectorAll("#cingen .chip").forEach(c=>c.onclick=()=>{ const g=c.dataset.g; cinState.gn.has(g)?cinState.gn.delete(g):cinState.gn.add(g); renderCin(); });
+  $("#cinch").onchange=ev=>{ cinState.ch=ev.target.checked; renderCin(); };
   $("#cinen").onchange=ev=>{ cinState.en=ev.target.checked; renderCin(); };
   $("#cincv").onchange=ev=>{ cinState.cv=ev.target.checked; renderCin(); };
   const on=$("#cindays .day.on"); if(on) on.scrollIntoView({block:"nearest",inline:"center"});
@@ -717,7 +720,7 @@ if(CONTACT_EMAIL && !CONTACT_EMAIL.startsWith("__")) $("#contact").innerHTML=`Ve
 updateWantCount();
 syncControls();
 if(ADEV.length){ $("#tab-ade").hidden=false; $("#adecnt").textContent=ADEV.length; }
-$("#cincnt").textContent = CIN.length || "";
+$("#cincnt").textContent = CIN.filter(e=>!e.ch).length || "";
 $("#exhcnt").textContent = EXH.length || "";
 setDay(state.day);
 </script>

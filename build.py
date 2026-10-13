@@ -13,7 +13,7 @@ DATA = os.path.join(HERE, "_data")
 sys.path.insert(0, os.path.join(HERE, "parsers"))
 
 CINEMA_KEYS = ["eye", "rialto", "uitkijk", "themovies", "studiok", "ketelhuis", "hyena", "filmhallen", "cinecenter",
-               "melkwegcinema", "amstelveen", "devlugt", "thepulse", "omval", "docpaviljoen", "kriterion"]
+               "melkwegcinema", "amstelveen", "devlugt", "thepulse", "omval", "docpaviljoen", "kriterion", "filmladder"]
 AGG = {"radar", "offbeat", "amsterdamalternative", "iamsterdam"}
 # Page keys whose markdown feeds a parser of the same name
 MD_KEYS = ["mezrab", "vrankrijk", "aralez", "desering", "amsterdamalternative", "offbeat", "likeminds",
@@ -62,6 +62,7 @@ SOURCES = {
     "omval": ("De Omval", "https://www.cineville.nl/"),
     "docpaviljoen": ("Het Documentaire Paviljoen", "https://www.idfa.nl/vondelpark/agenda-het-documentaire-paviljoen"),
     "kriterion": ("Kriterion", "https://www.cineville.nl/nl-NL/theaters/kriterion"),
+    "filmladder": ("Pathé and Vue (via Filmladder)", "https://www.filmladder.nl/amsterdam/bioscopen"),
     "ade": ("Amsterdam Dance Event", "https://www.amsterdam-dance-event.nl/en/program/"),
     "tolhuistuin": ("Tolhuistuin", "https://tolhuistuin.nl/en/agenda"),
     "iamsterdam": ("I amsterdam Uitagenda", "https://www.iamsterdam.com/uit/agenda"),
@@ -69,7 +70,7 @@ SOURCES = {
     "schooloflife": ("The School of Life", "https://www.theschooloflife.com/amsterdam/agenda/"),
     "offlineclub": ("The Offline Club", "https://www.theoffline-club.com/city-chapters/amsterdam-chapter"),
 }
-NOTES = {"kriterion": "via Cineville, only a week or two ahead", "delamar": "dates load in their ticket app – check site", "artis": "no dated events, daily programme",
+NOTES = {"filmladder": "big chains, a week ahead; hidden in the Cinema tab until you tick the box","kriterion": "via Cineville, only a week or two ahead", "delamar": "dates load in their ticket app – check site", "artis": "no dated events, daily programme",
          "wethepeople": "check site for next event", "offlineclub": "calendar is a widget – check site",
          "vondelbunker": "included via radar.squat.net"}
 
