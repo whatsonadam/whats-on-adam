@@ -25,22 +25,43 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
+          fetch-depth: 0
+
+      # Quick path: a push that only touches the page design (template.html) reuses the events from the
+      # last full refresh instead of downloading every source again. Scheduled and manual runs, and
+      # pushes that change anything else, always do the full refresh.
+      - name: Decide quick or full
+        id: mode
+        run: |
+          fast=false
+          if [ "${{ github.event_name }}" = "push" ] && [ -n "${{ github.event.before }}" ] && git cat-file -e "${{ github.event.before }}^{commit}" 2>/dev/null; then
+            changed=$(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}")
+            echo "$changed"
+            if [ -n "$changed" ] && ! echo "$changed" | grep -qvE '^(template\.html|README\.md)$'; then fast=true; fi
+          fi
+          echo "fast=$fast" >> "$GITHUB_OUTPUT"
+          echo "Quick path: $fast"
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
       - name: Install tools
-        run: |
-          pip install playwright beautifulsoup4 markdownify
-          python -m playwright install --with-deps chromium
+        run: pip install playwright beautifulsoup4 markdownify
+
+      - name: Install browser
+        if: steps.mode.outputs.fast != 'true'
+        run: python -m playwright install --with-deps chromium
 
       - name: Fetch listings
+        if: steps.mode.outputs.fast != 'true'
         run: python fetch.py
 
       - name: Build site
         env:
           CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          FILMMETA_MAX: ${{ steps.mode.outputs.fast == 'true' && '0' || '400' }}
         run: |
           OWNER="${GITHUB_REPOSITORY_OWNER,,}"
           REPO="${GITHUB_REPOSITORY#*/}"
@@ -51,6 +72,7 @@ jobs:
         run: |
           git add venues.json
           [ -f times.json ] && git add times.json || true
+          [ -f filmmeta.json ] && git add filmmeta.json || true
           if ! git diff --cached --quiet; then
             git config user.name "agenda-bot"
             git config user.email "agenda-bot@users.noreply.github.com"

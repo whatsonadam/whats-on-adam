@@ -216,6 +216,10 @@ def main():
                 for f in ("la", "lo", "ar", "a"): e.pop(f, None)
             kept.append(k)
     events = merge(per)
+    try:
+        import filmmeta
+        filmmeta.enrich(events, today)
+    except Exception as ex: print(f"  !! film info lookup failed ({ex}); continuing without it")
     import geo
     looked = geo.enrich(events)
     src = {k: {"name": n, "url": u, "agg": k in AGG, **({"note": NOTES[k]} if k in NOTES else {})} for k, (n, u) in SOURCES.items()}
