@@ -198,9 +198,9 @@ ul.ev.films li{display:block;grid-template-columns:none}
   <div class="sub">
     <div class="tabs" role="tablist">
       <button class="tab" role="tab" id="tab-agenda" aria-selected="true">Agenda</button>
-      <button class="tab" role="tab" id="tab-cin" aria-selected="false">Cinema<span class="cnt" id="cincnt"></span></button>
-      <button class="tab" role="tab" id="tab-exh" aria-selected="false">Exhibitions<span class="cnt" id="exhcnt"></span></button>
-      <button class="tab" role="tab" id="tab-ade" aria-selected="false" hidden>ADE<span class="cnt" id="adecnt"></span></button>
+      <button class="tab" role="tab" id="tab-cin" aria-selected="false">Cinema</button>
+      <button class="tab" role="tab" id="tab-exh" aria-selected="false">Exhibitions</button>
+      <button class="tab" role="tab" id="tab-ade" aria-selected="false" hidden>ADE</button>
       <button class="tab" role="tab" id="tab-want" aria-selected="false">Want to see<span class="cnt" id="wantcnt"></span></button>
     </div>
     <div class="subr"><span class="stamp" id="stamp">Loading events…</span></div>
@@ -719,9 +719,7 @@ if(age>=3) $("#stamp").classList.add("old");
 if(CONTACT_EMAIL && !CONTACT_EMAIL.startsWith("__")) $("#contact").innerHTML=`Venue or organiser and want something changed or removed? Email <a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a>.`;
 updateWantCount();
 syncControls();
-if(ADEV.length){ $("#tab-ade").hidden=false; $("#adecnt").textContent=ADEV.length; }
-$("#cincnt").textContent = CIN.filter(e=>!e.ch).length || "";
-$("#exhcnt").textContent = EXH.length || "";
+if(ADEV.length){ $("#tab-ade").hidden=false; }
 setDay(state.day);
 </script>
 </body>
