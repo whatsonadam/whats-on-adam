@@ -544,11 +544,13 @@ function renderAde(){
 
 /* ---------- Cinema tab: one day at a time, grouped by film ---------- */
 const filmKey = t => t.toLowerCase().replace(/\([^)]*\)|\[[^\]]*\]/g," ").replace(/[^\p{L}\p{N}]+/gu," ").trim();
-const CINEMA_RX = /cinema|film|kino|lab111|kriterion|rialto|\beye\b|uitkijk|studio\/?k|cavia|ventilator|cinetol|the movies|path[eé]|bioscoop|movie/i;
+const CINEMA_RX = /cinema|film|kino|lab111|kriterion|rialto|\beye\b|uitkijk|studio\/?k|cavia|ventilator|cinetol|the movies|path[eé]|bioscoop|movie|bijlmerbios|cinecenter|vlugt|pulse|omval|hyena|ketelhuis|documentaire paviljoen|melkweg cinema/i;
+// Cineville pass: Amsterdam partner cinemas (list supplied by Gil)
+const CINEVILLE_RX = /bijlmerbios|cinecenter|cinema amstelveen|de vlugt|the pulse|de balie|omval|uitkijk|\beye\b|hyena|filmhallen|cavia|documentaire paviljoen|ketelhuis|kriterion|lab111|melkweg cinema|rialto|studio\/?k|the movies|ventilator/i;
 const isCinemaVenue = v => CINEMA_RX.test(v||"");
 const OTHER_PLACES = "Other places (occasional screenings)";
 const CIN = FILMS.filter(e=>e.d>=todayIso);
-let cinState = {day:"", q:"", venue:""};
+let cinState = {day:"", q:"", venue:"", cv:false};
 let cinTimer = null;
 function renderCin(){
   const days=[...new Set(CIN.map(e=>e.d))].sort();
@@ -559,6 +561,7 @@ function renderCin(){
   const q=cinState.q.toLowerCase();
   const list=CIN.filter(e=>e.d===cinState.day
     && (!cinState.venue || (cinState.venue===OTHER_PLACES ? !isCinemaVenue(e.v) : e.v===cinState.venue))
+    && (!cinState.cv || CINEVILLE_RX.test(e.v||""))
     && (!q || (e.t+" "+e.v).toLowerCase().includes(q)));
   const films=new Map();
   list.forEach(e=>{ const k=filmKey(e.t)||e.t; if(!films.has(k)) films.set(k,{t:e.t,s:[]}); films.get(k).s.push(e); });
@@ -569,11 +572,13 @@ function renderCin(){
   $("#cin").innerHTML=`<div class="dayhead"><h2>Cinema</h2><span class="n">${arr.length} films · ${list.length} screenings on ${DWL[d0.getDay()].slice(0,3)} ${d0.getDate()} ${MON[d0.getMonth()]}</span></div>
     <div class="days" id="cindays" role="listbox" aria-label="Pick a day">${days.slice(0,30).map(d=>{const x=parse(d);return `<button class="day${d===cinState.day?" on":""}" data-d="${d}"><span class="dw">${DWL[x.getDay()].slice(0,3)}</span><span class="dc">${x.getDate()} ${MON[x.getMonth()]}</span></button>`;}).join("")}</div>
     <div class="row" style="margin:10px 0"><input type="search" id="cinq" placeholder="Search film or cinema…" aria-label="Search films" value="${esc(cinState.q)}">
-      <select id="cinv" aria-label="Cinema"><option value="">All cinemas</option>${cinemas.map(v=>`<option${v===cinState.venue?" selected":""}>${esc(v)}</option>`).join("")}${hasOther?`<option${cinState.venue===OTHER_PLACES?" selected":""}>${OTHER_PLACES}</option>`:""}</select></div>
+      <select id="cinv" aria-label="Cinema"><option value="">All cinemas</option>${cinemas.map(v=>`<option${v===cinState.venue?" selected":""}>${esc(v)}</option>`).join("")}${hasOther?`<option${cinState.venue===OTHER_PLACES?" selected":""}>${OTHER_PLACES}</option>`:""}</select>
+      <label class="toggle"><input type="checkbox" id="cincv"${cinState.cv?" checked":""}> Cineville cinemas only</label></div>
     <ul class="ev films">${arr.map(f=>`<li><div class="fl"><span class="tt">${esc(f.t)}</span><div class="shows">${f.s.map(e=>`<a class="show" href="${esc(e.u||"#")}" target="_blank" rel="noopener"><b>${e.h||"TBC"}</b><span>${esc(e.v||"")}</span></a>`).join("")}</div></div></li>`).join("")||'<div class="empty">Nothing matches on this day. Try another day or clear the search.</div>'}</ul>`;
   document.querySelectorAll("#cindays .day").forEach(b=>b.onclick=()=>{ cinState.day=b.dataset.d; renderCin(); });
   const qi=$("#cinq"); qi.oninput=()=>{ clearTimeout(cinTimer); cinTimer=setTimeout(()=>{ cinState.q=qi.value; const p=qi.selectionStart; renderCin(); const n=$("#cinq"); n.focus(); n.setSelectionRange(p,p); },250); };
   $("#cinv").onchange=ev=>{ cinState.venue=ev.target.value; renderCin(); };
+  $("#cincv").onchange=ev=>{ cinState.cv=ev.target.checked; renderCin(); };
   const on=$("#cindays .day.on"); if(on) on.scrollIntoView({block:"nearest",inline:"center"});
 }
 
