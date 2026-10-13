@@ -3023,6 +3023,12 @@
 "skip": true,
 "q": "not found"
 },
+"VOX-POP": {
+"lat": 52.37405,
+"lon": 4.89325,
+"q": "name",
+"area": "Centrum"
+},
 "VROG Trampoline, Parkour/freerun, Urban Dance": {
 "skip": true,
 "q": "not found"
