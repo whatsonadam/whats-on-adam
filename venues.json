@@ -776,6 +776,12 @@
 "q": "name",
 "area": "West"
 },
+"Club Raum": {
+"lat": 52.39113,
+"lon": 4.83097,
+"q": "name",
+"area": "Nieuw-West"
+},
 "Club Royal": {
 "lat": 52.40137,
 "lon": 4.7382,
@@ -2443,6 +2449,12 @@
 "q": "name",
 "area": "West"
 },
+"Radion": {
+"lat": 52.34574,
+"lon": 4.82551,
+"q": "name",
+"area": "Nieuw-West"
+},
 "Rapenburg 51": {
 "lat": 52.37125,
 "lon": 4.9088,
@@ -2632,6 +2644,12 @@
 "lon": 4.90214,
 "q": "name",
 "area": "Noord"
+},
+"Sissi's": {
+"lat": 52.34483,
+"lon": 4.84258,
+"q": "name",
+"area": "Zuid"
 },
 "Sissi's Amsterdam": {
 "lat": 52.34483,
