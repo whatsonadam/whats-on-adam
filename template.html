@@ -130,7 +130,7 @@ details.sources summary{cursor:pointer;font-weight:700}
   .tod .tr{display:none}
   .flabel{width:100%}
 }
-.areas .chip{--cbg:var(--black);--cfg:#fff}
+.areas .chip,#cinchips .chip{--cbg:var(--black);--cfg:#fff}
 #cats,#areas{flex:1 1 0;min-width:0}
 .fbody .frow{min-width:0}
 #map .leaflet-tile-pane{filter:grayscale(.85) contrast(.95) brightness(1.05)}
@@ -356,7 +356,19 @@ $("#tab-cin").onclick=()=>showTab("cin");
 $("#tab-exh").onclick=()=>showTab("exh");
 $("#tab-want").onclick=()=>showTab("want");
 
-/* ---------- Day strip ---------- */
+/* ---------- Day strip (same look in Agenda, ADE and Cinema) ---------- */
+function dayStripHtml(counts, current){
+  let lastM=-1, html="";
+  Object.keys(counts).sort().forEach(k=>{
+    const d=parse(k);
+    if(d.getMonth()!==lastM){ lastM=d.getMonth(); html+=`<span class="mlabel">${MON[lastM]}</span>`; }
+    const cls="day"+([5,6,0].includes(d.getDay())?" wk":"")+(k===todayIso?" today":"")+(k===current?" on":"");
+    html+=`<button class="${cls}" data-d="${k}" role="option" aria-selected="${k===current}"><span class="dw">${k===todayIso?"Today":DW[d.getDay()]}</span><span class="dn">${d.getDate()}</span><span class="dc">${counts[k]||"–"}</span></button>`;
+  });
+  return html;
+}
+function countsBy(list){ const c={}; list.forEach(e=>{ if(!span(e)) c[e.d]=(c[e.d]||0)+1; }); return c; }
+/* ---------- Day strip (Agenda) ---------- */
 const counts = {};
 for(let d=parse(first); iso(d)<=last; d.setDate(d.getDate()+1)) counts[iso(d)] = 0;
 EVENTS.forEach(e=>{ if(!span(e) && counts[e.d]!==undefined) counts[e.d]++; });
@@ -531,7 +543,7 @@ function renderAde(){
   const d0=parse(adeState.day);
   $("#ade").innerHTML=`<div class="dayhead"><h2>Amsterdam Dance Event</h2><span class="n">${list.length} events on ${DWL[d0.getDay()].slice(0,3)} ${d0.getDate()} ${MON[d0.getMonth()]}</span></div>
     <p class="hint" style="margin-top:8px">The festival programme, read from ADE's own site. Shown only around the festival.</p>
-    <div class="days" id="adedays" role="listbox" aria-label="Pick an ADE day">${days.map(d=>{const x=parse(d);return `<button class="day${d===adeState.day?" on":""}" data-d="${d}"><span class="dw">${DWL[x.getDay()].slice(0,3)}</span><span class="dc">${x.getDate()} ${MON[x.getMonth()]}</span></button>`;}).join("")}</div>
+    <div class="days" id="adedays" role="listbox" aria-label="Pick an ADE day">${dayStripHtml(countsBy(ADEV.filter(e=>(!adeState.hideSold||!e.so))),adeState.day)}</div>
     <div class="row" style="margin:10px 0"><input type="search" id="adeq" placeholder="Search event or venue…" aria-label="Search ADE" value="${esc(adeState.q)}">
       <select id="adev" aria-label="Venue"><option value="">All venues</option>${venues.map(v=>`<option${v===adeState.venue?" selected":""}>${esc(v)}</option>`).join("")}</select>
       <label class="toggle"><input type="checkbox" id="adesold"${adeState.hideSold?" checked":""}> Hide sold out${sold?` (${sold})`:""}</label></div>
@@ -550,7 +562,13 @@ const CINEVILLE_RX = /bijlmerbios|cinecenter|cinema amstelveen|de vlugt|the puls
 const isCinemaVenue = v => CINEMA_RX.test(v||"");
 const OTHER_PLACES = "Other places (occasional screenings)";
 const CIN = FILMS.filter(e=>e.d>=todayIso);
-let cinState = {day:"", q:"", venue:"", cv:false};
+let cinState = {day:"", q:"", venues:new Set(), cv:false};
+function cinOk(e, ignoreQ){
+  if(cinState.cv && !CINEVILLE_RX.test(e.v||"")) return false;
+  if(cinState.venues.size){ const key=isCinemaVenue(e.v)?e.v:OTHER_PLACES; if(!cinState.venues.has(key)) return false; }
+  if(!ignoreQ && cinState.q && !(e.t+" "+e.v).toLowerCase().includes(cinState.q.toLowerCase())) return false;
+  return true;
+}
 let cinTimer = null;
 function renderCin(){
   const days=[...new Set(CIN.map(e=>e.d))].sort();
@@ -558,11 +576,7 @@ function renderCin(){
   if(!cinState.day || !days.includes(cinState.day)) cinState.day=days[0];
   const cinemas=[...new Set(CIN.filter(e=>isCinemaVenue(e.v)).map(e=>e.v))].sort((a,b)=>a.localeCompare(b));
   const hasOther=CIN.some(e=>!isCinemaVenue(e.v));
-  const q=cinState.q.toLowerCase();
-  const list=CIN.filter(e=>e.d===cinState.day
-    && (!cinState.venue || (cinState.venue===OTHER_PLACES ? !isCinemaVenue(e.v) : e.v===cinState.venue))
-    && (!cinState.cv || CINEVILLE_RX.test(e.v||""))
-    && (!q || (e.t+" "+e.v).toLowerCase().includes(q)));
+  const list=CIN.filter(e=>e.d===cinState.day && cinOk(e));
   const films=new Map();
   list.forEach(e=>{ const k=filmKey(e.t)||e.t; if(!films.has(k)) films.set(k,{t:e.t,s:[]}); films.get(k).s.push(e); });
   const arr=[...films.values()].map(f=>({...f,s:f.s.sort((a,b)=>(a.h||"99").localeCompare(b.h||"99"))}))
@@ -570,14 +584,14 @@ function renderCin(){
   const d0=parse(cinState.day);
   const cnt=d=>CIN.filter(e=>e.d===d).length;
   $("#cin").innerHTML=`<div class="dayhead"><h2>Cinema</h2><span class="n">${arr.length} films · ${list.length} screenings on ${DWL[d0.getDay()].slice(0,3)} ${d0.getDate()} ${MON[d0.getMonth()]}</span></div>
-    <div class="days" id="cindays" role="listbox" aria-label="Pick a day">${days.slice(0,30).map(d=>{const x=parse(d);return `<button class="day${d===cinState.day?" on":""}" data-d="${d}"><span class="dw">${DWL[x.getDay()].slice(0,3)}</span><span class="dc">${x.getDate()} ${MON[x.getMonth()]}</span></button>`;}).join("")}</div>
+    <div class="days" id="cindays" role="listbox" aria-label="Pick a day">${dayStripHtml(countsBy(CIN.filter(e=>cinOk(e,true))),cinState.day)}</div>
     <div class="row" style="margin:10px 0"><input type="search" id="cinq" placeholder="Search film or cinema…" aria-label="Search films" value="${esc(cinState.q)}">
-      <select id="cinv" aria-label="Cinema"><option value="">All cinemas</option>${cinemas.map(v=>`<option${v===cinState.venue?" selected":""}>${esc(v)}</option>`).join("")}${hasOther?`<option${cinState.venue===OTHER_PLACES?" selected":""}>${OTHER_PLACES}</option>`:""}</select>
       <label class="toggle"><input type="checkbox" id="cincv"${cinState.cv?" checked":""}> Cineville cinemas only</label></div>
+    <div class="chips" id="cinchips" role="group" aria-label="Cinemas">${[...cinemas,...(hasOther?[OTHER_PLACES]:[])].map(v=>`<button class="chip" data-v="${esc(v)}" aria-pressed="${cinState.venues.has(v)}">${esc(v===OTHER_PLACES?"Other places":v)}</button>`).join("")}</div>
     <ul class="ev films">${arr.map(f=>`<li><div class="fl"><span class="tt">${esc(f.t)}</span><div class="shows">${f.s.map(e=>`<a class="show" href="${esc(e.u||"#")}" target="_blank" rel="noopener"><b>${e.h||"TBC"}</b><span>${esc(e.v||"")}</span></a>`).join("")}</div></div></li>`).join("")||'<div class="empty">Nothing matches on this day. Try another day or clear the search.</div>'}</ul>`;
   document.querySelectorAll("#cindays .day").forEach(b=>b.onclick=()=>{ cinState.day=b.dataset.d; renderCin(); });
   const qi=$("#cinq"); qi.oninput=()=>{ clearTimeout(cinTimer); cinTimer=setTimeout(()=>{ cinState.q=qi.value; const p=qi.selectionStart; renderCin(); const n=$("#cinq"); n.focus(); n.setSelectionRange(p,p); },250); };
-  $("#cinv").onchange=ev=>{ cinState.venue=ev.target.value; renderCin(); };
+  document.querySelectorAll("#cinchips .chip").forEach(b=>b.onclick=()=>{ const v=b.dataset.v; cinState.venues.has(v)?cinState.venues.delete(v):cinState.venues.add(v); renderCin(); });
   $("#cincv").onchange=ev=>{ cinState.cv=ev.target.checked; renderCin(); };
   const on=$("#cindays .day.on"); if(on) on.scrollIntoView({block:"nearest",inline:"center"});
 }

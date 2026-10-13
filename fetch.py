@@ -153,7 +153,7 @@ def fetch_cinemas(status, today):
         "cinecenter": lambda p: curl("https://www.cinecenter.nl/programma", p),
         "melkwegcinema": lambda p: curl("https://www.melkweg.nl/nl/agenda/", p),
     }
-    for k in ("amstelveen", "devlugt", "thepulse", "omval", "docpaviljoen"):
+    for k in ("amstelveen", "devlugt", "thepulse", "omval", "docpaviljoen", "kriterion"):
         jobs[k] = (lambda kk: lambda p: cineville_common.fetch_venue(kk, today, p))(k)
     for k, job in jobs.items():
         out = os.path.join(DATA, f"{k}.cin")

@@ -16,6 +16,7 @@ VENUE_IDS = {  # Cineville venue ids (api.cineville.nl/venues)
     "thepulse": "e2a2875a-1662-4d54-a834-634e30fe6ca2",
     "omval": "b9b8bf97-36d2-41d1-af98-ce65da2b6948",
     "bijlmerbios": "6b921d7e-4973-45a1-b6a2-20337c7aceb9",
+    "kriterion": "d3a2eac6-6b6f-4f46-8a25-4a78a6774587",
     "docpaviljoen": "ae505216-9654-439b-8f0e-50f61288d934",
 }
 
