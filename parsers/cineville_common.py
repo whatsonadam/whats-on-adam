@@ -63,7 +63,5 @@ def parse_venue(text, today, venue, key):
         url = e.get("ticketingUrl") or (f"https://www.cineville.nl/nl-NL/films/{slug}" if slug else "https://www.cineville.nl/nl-NL/filmagenda")
         ev = {"t": title, "d": dt.date().isoformat(), "h": dt.strftime("%H:%M"), "v": venue,
               "u": url, "c": "film", "s": key}
-        img = (((p.get("assets") or {}).get("cover")) or {}).get("url")
-        if img: ev["img"] = img          # poster, shown small in the Cinema tab
         out.append(ev)
     return out

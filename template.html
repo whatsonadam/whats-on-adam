@@ -165,9 +165,7 @@ details.filters>summary .state{font-weight:500;color:var(--ink);font-size:13px}
 .fcount{background:var(--red-ink);color:#fff;border-radius:999px;font:700 12px var(--body);min-width:22px;height:22px;display:inline-flex;align-items:center;justify-content:center;padding:0 6px;margin-right:6px}
 ul.ev.so{background:#2a2a2a;color:#fff;border-radius:4px;padding:1px 6px;font:700 10px var(--mono);text-transform:uppercase}
 #adedays{display:flex;gap:6px;overflow-x:auto;margin-top:10px}
-ul.ev.films li{display:flex;gap:12px;align-items:flex-start;grid-template-columns:none}
-.poster{flex:none;width:48px;height:68px;border-radius:4px;object-fit:cover;background:var(--line)}
-.poster.none{display:block}
+ul.ev.films li{display:block;grid-template-columns:none}
 .films .fl{min-width:0}
 .films .tt{display:block;margin-bottom:2px;text-decoration:none;font-weight:700}
 .films .show{white-space:nowrap}
@@ -590,7 +588,7 @@ function renderCin(){
     <div class="row" style="margin:10px 0"><input type="search" id="cinq" placeholder="Search film or cinema…" aria-label="Search films" value="${esc(cinState.q)}">
       <label class="toggle"><input type="checkbox" id="cincv"${cinState.cv?" checked":""}> Cineville cinemas only</label></div>
     <div class="chips" id="cinchips" role="group" aria-label="Cinemas">${[...cinemas,...(hasOther?[OTHER_PLACES]:[])].map(v=>`<button class="chip" data-v="${esc(v)}" aria-pressed="${cinState.venues.has(v)}">${esc(v===OTHER_PLACES?"Other places":v)}</button>`).join("")}</div>
-    <ul class="ev films">${arr.map(f=>`<li>${(()=>{const im=f.s.find(e=>e.img)?.img; return im?`<img class="poster" src="${esc(im)}?w=120&h=170&fit=crop" width="48" height="68" alt="" loading="lazy" referrerpolicy="no-referrer">`:'<span class="poster none" aria-hidden="true"></span>';})()}<div class="fl"><span class="tt">${esc(f.t)}</span><div class="shows">${f.s.map(e=>`<a class="show" href="${esc(e.u||"#")}" target="_blank" rel="noopener"><b>${e.h||"TBC"}</b><span>${esc(e.v||"")}</span></a>`).join("")}</div></div></li>`).join("")||'<div class="empty">Nothing matches on this day. Try another day or clear the search.</div>'}</ul>`;
+    <ul class="ev films">${arr.map(f=>`<li><div class="fl"><span class="tt">${esc(f.t)}</span><div class="shows">${f.s.map(e=>`<a class="show" href="${esc(e.u||"#")}" target="_blank" rel="noopener"><b>${e.h||"TBC"}</b><span>${esc(e.v||"")}</span></a>`).join("")}</div></div></li>`).join("")||'<div class="empty">Nothing matches on this day. Try another day or clear the search.</div>'}</ul>`;
   document.querySelectorAll("#cindays .day").forEach(b=>b.onclick=()=>{ cinState.day=b.dataset.d; renderCin(); });
   const qi=$("#cinq"); qi.oninput=()=>{ clearTimeout(cinTimer); cinTimer=setTimeout(()=>{ cinState.q=qi.value; const p=qi.selectionStart; renderCin(); const n=$("#cinq"); n.focus(); n.setSelectionRange(p,p); },250); };
   document.querySelectorAll("#cinchips .chip").forEach(b=>b.onclick=()=>{ const v=b.dataset.v; cinState.venues.has(v)?cinState.venues.delete(v):cinState.venues.add(v); renderCin(); });
