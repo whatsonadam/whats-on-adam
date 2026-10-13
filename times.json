@@ -189,6 +189,10 @@
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/het-mannengesprek-echte-mannen-praten": {
+"none": true,
+"chk": "2026-10-13"
+},
 "https://tolhuistuin.nl/en/events/hey-nothing-hound-world-tour": {
 "h": "20:30",
 "eh": null,
@@ -432,6 +436,10 @@
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/the-dance-club-2": {
+"none": true,
+"chk": "2026-10-13"
+},
 "https://tolhuistuin.nl/en/events/the-meltdown-2": {
 "h": "20:30",
 "eh": null,
@@ -665,6 +673,10 @@
 "h": "20:00",
 "chk": "2026-10-11"
 },
+"https://www.cinetol.nl/events/automatic-noise-festival-vii": {
+"h": "19:00",
+"chk": "2026-10-13"
+},
 "https://www.cinetol.nl/events/camille-jansen": {
 "h": "20:00",
 "chk": "2026-10-11"
@@ -716,6 +728,10 @@
 "https://www.cinetol.nl/events/free-finga-extra-show": {
 "h": "20:30",
 "chk": "2026-10-11"
+},
+"https://www.cinetol.nl/events/goblyns": {
+"h": "20:30",
+"chk": "2026-10-13"
 },
 "https://www.cinetol.nl/events/horse-jumper-of-love": {
 "h": "20:00",
@@ -1341,6 +1357,15 @@
 },
 "chk": "2026-10-11"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/ade-x-whynot-x-stadsherstel-disambiguation-by-elisa-zuppini": {
+"dates": {
+"2026-10-21": {
+"h": "19:00",
+"eh": "19:50"
+}
+},
+"chk": "2026-10-13"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/black-cat-theatre-ahoi-2-6-jaar": {
 "dates": {
 "2026-12-12": {
@@ -1493,6 +1518,15 @@
 },
 "chk": "2026-10-11"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/muziek-voor-babys-en-peuters": {
+"dates": {
+"2026-10-18": {
+"h": "10:15",
+"eh": "11:15"
+}
+},
+"chk": "2026-10-13"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/najib-en-roue-alles-is-comedy": {
 "dates": {
 "2026-10-23": {
@@ -1519,6 +1553,23 @@
 },
 "chk": "2026-10-11"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/out-of-the-stillness": {
+"dates": {
+"2026-10-15": {
+"h": "20:00",
+"eh": "21:30"
+},
+"2026-10-16": {
+"h": "20:00",
+"eh": "21:30"
+},
+"2026-10-17": {
+"h": "20:00",
+"eh": "21:30"
+}
+},
+"chk": "2026-10-13"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/selma-visscher-trekvogel": {
 "dates": {
 "2026-10-31": {
@@ -1529,6 +1580,23 @@
 }
 },
 "chk": "2026-10-11"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/then-now-next": {
+"dates": {
+"2026-10-23": {
+"h": "20:00",
+"eh": "22:30"
+},
+"2026-10-24": {
+"h": "20:00",
+"eh": "22:30"
+},
+"2026-10-25": {
+"h": "14:00",
+"eh": "16:30"
+}
+},
+"chk": "2026-10-13"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/tulip-town": {
 "dates": {
