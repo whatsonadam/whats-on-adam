@@ -61,7 +61,7 @@ jobs:
         env:
           CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-          FILMMETA_MAX: ${{ steps.mode.outputs.fast == 'true' && '0' || '400' }}
+          FILMMETA_MAX: ${{ steps.mode.outputs.fast == 'true' && '0' || '500' }}
         run: |
           OWNER="${GITHUB_REPOSITORY_OWNER,,}"
           REPO="${GITHUB_REPOSITORY#*/}"

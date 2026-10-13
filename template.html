@@ -130,7 +130,7 @@ details.sources summary{cursor:pointer;font-weight:700}
   .tod .tr{display:none}
   .flabel{width:100%}
 }
-.areas .chip,#cinchips .chip{--cbg:var(--black);--cfg:#fff}
+.areas .chip,#cingen .chip{--cbg:var(--black);--cfg:#fff}
 #cats,#areas{flex:1 1 0;min-width:0}
 .fbody .frow{min-width:0}
 #map .leaflet-tile-pane{filter:grayscale(.85) contrast(.95) brightness(1.05)}
@@ -572,10 +572,18 @@ const CINEVILLE_RX = /bijlmerbios|cinecenter|cinema amstelveen|de vlugt|the puls
 const isCinemaVenue = v => CINEMA_RX.test(v||"");
 const OTHER_PLACES = "Other places (occasional screenings)";
 const CIN = FILMS.filter(e=>e.d>=todayIso);
-let cinState = {day:"", q:"", venues:new Set(), cv:false, en:false};
+let cinState = {day:"", q:"", venues:new Set(), cv:false, en:false, gn:new Set(), age:"", len:""};
+const GMAP={"Drama":"Drama","Comedy":"Comedy","Horror":"Horror","Thriller":"Thriller","Crime":"Thriller","Mystery":"Thriller","Documentary":"Documentary","Animation":"Animation","Family":"Family","Science Fiction":"Sci-fi","Fantasy":"Sci-fi","Romance":"Romance","Music":"Music","War":"History","History":"History","Action":"Action","Adventure":"Action","Western":"Action"};
+const gOf=e=>new Set((e.gn||[]).map(g=>GMAP[g]).filter(Boolean));
+const NEWY=new Date().getFullYear()-1, OLDY=new Date().getFullYear()-11;
 function cinOk(e, ignoreQ){
   if(cinState.cv && !CINEVILLE_RX.test(e.v||"")) return false;
   if(cinState.en && e.nl) return false;
+  if(cinState.gn.size){ const g=gOf(e); if(![...cinState.gn].some(x=>g.has(x))) return false; }
+  if(cinState.age==="new" && !(e.yr>=NEWY)) return false;
+  if(cinState.age==="old" && !(e.yr&&e.yr<=OLDY)) return false;
+  if(cinState.len==="short" && !(e.du&&e.du<90)) return false;
+  if(cinState.len==="long" && !(e.du&&e.du>=130)) return false;
   if(cinState.venues.size){ const key=isCinemaVenue(e.v)?e.v:OTHER_PLACES; if(!cinState.venues.has(key)) return false; }
   if(!ignoreQ && cinState.q && !(e.t+" "+e.v).toLowerCase().includes(cinState.q.toLowerCase())) return false;
   return true;
@@ -587,6 +595,8 @@ function renderCin(){
   if(!cinState.day || !days.includes(cinState.day)) cinState.day=days[0];
   const cinemas=[...new Set(CIN.filter(e=>isCinemaVenue(e.v)).map(e=>e.v))].sort((a,b)=>a.localeCompare(b));
   const hasOther=CIN.some(e=>!isCinemaVenue(e.v));
+  const gc={}; CIN.forEach(e=>gOf(e).forEach(g=>gc[g]=(gc[g]||0)+1));
+  const genres=Object.keys(gc).sort((a,b)=>gc[b]-gc[a]).slice(0,10);
   const list=CIN.filter(e=>e.d===cinState.day && cinOk(e));
   const films=new Map();
   list.forEach(e=>{ const k=filmKey(e.t)||e.t; if(!films.has(k)) films.set(k,{t:e.t,s:[]}); const f=films.get(k); f.s.push(e); for(const x of ["yr","du","dr","lg"]) if(e[x]&&!f[x]) f[x]=e[x]; if(e.ef) f.ef=1; });
@@ -599,6 +609,11 @@ function renderCin(){
     <div class="row" style="margin:10px 0"><input type="search" id="cinq" placeholder="Search film or cinema…" aria-label="Search films" value="${esc(cinState.q)}">
       <label class="toggle"><input type="checkbox" id="cinen"${cinState.en?" checked":""}> English-friendly</label>
       <label class="toggle"><input type="checkbox" id="cincv"${cinState.cv?" checked":""}> Cineville cinemas only</label></div>
+    <div class="row" style="margin:0 0 10px;gap:12px">
+      <label class="toggle">Released <select id="cinage" aria-label="New or classic"><option value="">Any time</option><option value="new"${cinState.age==="new"?" selected":""}>New (${NEWY} or later)</option><option value="old"${cinState.age==="old"?" selected":""}>Classics (${OLDY} or earlier)</option></select></label>
+      <label class="toggle">Length <select id="cinlen" aria-label="Film length"><option value="">Any length</option><option value="short"${cinState.len==="short"?" selected":""}>Under 90 min</option><option value="long"${cinState.len==="long"?" selected":""}>2 h 10 or longer</option></select></label>
+    </div>
+    ${genres.length?`<div class="chips" id="cingen" role="group" aria-label="Genre" style="margin:0 0 10px">${genres.map(g=>`<button class="chip" data-g="${esc(g)}" aria-pressed="${cinState.gn.has(g)}">${esc(g)}</button>`).join("")}</div>`:""}
     <details class="cinsel" id="cinsel"><summary>${cinState.venues.size?`${cinState.venues.size} cinema${cinState.venues.size>1?"s":""} selected`:"All cinemas"}</summary><div class="cinlist">${[...cinemas,...(hasOther?[OTHER_PLACES]:[])].map(v=>`<label><input type="checkbox" data-v="${esc(v)}"${cinState.venues.has(v)?" checked":""}> ${esc(v===OTHER_PLACES?"Other places (occasional screenings)":v)}</label>`).join("")}${cinState.venues.size?'<button class="linkbtn" id="cinclear">Clear selection</button>':""}</div></details>
     <ul class="ev films">${arr.map(f=>`<li><div class="fl"><span class="tt">${esc(f.t)}</span>${(()=>{const m=[f.yr,f.du?f.du+" min":"",f.dr,f.lg?langNames(f.lg):""].filter(Boolean);return m.length?`<span class="fmeta">${esc(m.join(" · "))}</span>`:""})()}<div class="shows">${f.s.map(e=>`<a class="show" href="${esc(e.u||"#")}" target="_blank" rel="noopener"><b>${e.h||"TBC"}</b><span>${esc(e.v||"")}</span>${e.sb&&e.sb.length?`<i class="sub">${esc(e.sb.map(x=>x.toUpperCase()).join("/"))} subs</i>`:""}</a>`).join("")}</div></div></li>`).join("")||'<div class="empty">Nothing matches on this day. Try another day or clear the search.</div>'}</ul>`;
   document.querySelectorAll("#cindays .day").forEach(b=>b.onclick=()=>{ cinState.day=b.dataset.d; renderCin(); });
@@ -607,6 +622,9 @@ function renderCin(){
   sel.addEventListener("toggle",()=>{ window._cinOpen=sel.open; });
   sel.querySelectorAll("input[type=checkbox]").forEach(b=>b.onchange=()=>{ const v=b.dataset.v; b.checked?cinState.venues.add(v):cinState.venues.delete(v); renderCin(); });
   const cl=$("#cinclear"); if(cl) cl.onclick=()=>{ cinState.venues.clear(); renderCin(); };
+  $("#cinage").onchange=ev=>{ cinState.age=ev.target.value; renderCin(); };
+  $("#cinlen").onchange=ev=>{ cinState.len=ev.target.value; renderCin(); };
+  document.querySelectorAll("#cingen .chip").forEach(c=>c.onclick=()=>{ const g=c.dataset.g; cinState.gn.has(g)?cinState.gn.delete(g):cinState.gn.add(g); renderCin(); });
   $("#cinen").onchange=ev=>{ cinState.en=ev.target.checked; renderCin(); };
   $("#cincv").onchange=ev=>{ cinState.cv=ev.target.checked; renderCin(); };
   const on=$("#cindays .day.on"); if(on) on.scrollIntoView({block:"nearest",inline:"center"});

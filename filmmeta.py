@@ -11,7 +11,7 @@ import datetime, json, os, re, subprocess, time, urllib.parse
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 CACHE = os.path.join(HERE, "filmmeta.json")
-MAX_LOOKUPS = int(os.environ.get("FILMMETA_MAX", "400"))
+MAX_LOOKUPS = int(os.environ.get("FILMMETA_MAX", "500"))
 RETRY_AFTER_DAYS = 14
 CINEVILLE = "https://api.cineville.nl/productions/search"
 UA = "whatsonadam-agenda (non-commercial hobby site; github.com/whatsonadam/whats-on-adam)"
@@ -79,38 +79,51 @@ def from_tmdb(title, key):
         dirs = [c["name"] for c in (d.get("credits") or {}).get("crew", []) if c.get("job") == "Director"][:2]
         if d.get("runtime") and yr:
             return {"yr": int(yr), "du": d["runtime"], "dr": ", ".join(dirs),
-                    "lg": [l["iso_639_1"] for l in (d.get("spoken_languages") or []) if l.get("iso_639_1")][:3]}
+                    "lg": [l["iso_639_1"] for l in (d.get("spoken_languages") or []) if l.get("iso_639_1")][:3],
+                    "gn": [g["name"] for g in (d.get("genres") or [])][:3]}
         time.sleep(0.25)
     return None
 
 
+FIELDS = ("yr", "du", "dr", "lg", "gn")
+
+
 def enrich(events, today):
+    """Cache entry per normalized title: {yr, du, dr, lg, gn, tried, tmdb, v}. v=3 means fully looked up."""
     try: cache = json.load(open(CACHE))
     except Exception: cache = {}
     key = os.environ.get("TMDB_API_KEY", "").strip()
     now = today.isoformat()
     todo, seen = [], set()
     for e in events:
-        if e.get("c") != "film" or e.get("yr"): continue
+        if e.get("c") != "film": continue
         k = norm(e["t"])
+        if k in seen: continue
         c = cache.get(k)
-        if c and c.get("yr") and c.get("v") == 2: continue
-        if c and (today - datetime.date.fromisoformat(c.get("tried", now))).days < RETRY_AFTER_DAYS and bool(c.get("tmdb")) == bool(key): continue
-        if k not in seen: seen.add(k); todo.append((k, e["t"]))
+        if c and c.get("v") == 3 and (c.get("gn") or not key or c.get("tmdb")): 
+            if c.get("yr") or (today - datetime.date.fromisoformat(c.get("tried", now))).days < RETRY_AFTER_DAYS: continue
+        seen.add(k); todo.append((k, e["t"]))
     done = 0
     for k, title in todo[:MAX_LOOKUPS]:
-        m = from_cineville(title) or (from_tmdb(title, key) if key else None)
-        cache[k] = {**(m or {}), "tried": now, "tmdb": bool(key), "v": 2}
+        c = dict(cache.get(k) or {})
+        if not c.get("yr"):
+            c.update(from_cineville(title) or {})
+            time.sleep(0.25)
+        if key and not c.get("gn"):
+            m = from_tmdb(title, key)
+            if m:
+                for f in FIELDS:
+                    if m.get(f) and not c.get(f): c[f] = m[f]
+        c.update({"tried": now, "tmdb": bool(key), "v": 3})
+        cache[k] = c
         done += 1
-        time.sleep(0.25)
     for e in events:
-        if e.get("c") == "film" and not e.get("yr"):
-            c = cache.get(norm(e["t"]))
-            if c and c.get("yr"):
-                e["yr"], e["du"] = c["yr"], c["du"]
-                if c.get("dr"): e["dr"] = c["dr"]
-                if c.get("lg") and not e.get("lg"): e["lg"] = c["lg"]
+        if e.get("c") != "film": continue
+        c = cache.get(norm(e["t"]))
+        if not c: continue
+        for f in FIELDS:
+            if c.get(f) and not e.get(f): e[f] = c[f]
     json.dump(cache, open(CACHE, "w"), ensure_ascii=False, indent=0, sort_keys=True)
     films = [e for e in events if e.get("c") == "film"]
-    print(f"film info: {sum(1 for e in films if e.get('yr'))} of {len(films)} screenings have year and length "
-          f"({done} new titles looked up, {max(0, len(todo) - done)} left for next run, TMDB {'on' if key else 'off'})")
+    print(f"film info: {sum(1 for e in films if e.get('yr'))} of {len(films)} screenings have year and length, "
+          f"{sum(1 for e in films if e.get('gn'))} have genres ({done} titles looked up, {max(0, len(todo) - done)} left for next run, TMDB {'on' if key else 'off'})")
