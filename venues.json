@@ -196,6 +196,12 @@
 "skip": true,
 "q": "not found"
 },
+"Amsterdam Noord": {
+"lat": 52.40257,
+"lon": 4.93533,
+"q": "name",
+"area": "Noord"
+},
 "Amsterdam in Motion": {
 "lat": 52.38613,
 "lon": 4.87316,
@@ -529,6 +535,12 @@
 "lon": 4.87292,
 "q": "name",
 "area": "West"
+},
+"Bret": {
+"lat": 52.38985,
+"lon": 4.83676,
+"q": "name",
+"area": "Nieuw-West"
 },
 "Broedplaats SUP": {
 "lat": 52.35594,
@@ -3062,6 +3074,10 @@
 "lon": 4.85658,
 "q": "name",
 "area": "West"
+},
+"Tilla Tec": {
+"skip": true,
+"q": "not found"
 },
 "Toekomstmuziek": {
 "lat": 52.39663,
