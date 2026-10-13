@@ -700,6 +700,24 @@
 "q": "name",
 "area": "Centrum"
 },
+"Cinecenter": {
+"lat": 52.365,
+"lon": 4.88168,
+"q": "name",
+"area": "Centrum"
+},
+"Cinema Amstelveen": {
+"lat": 52.30265,
+"lon": 4.85901,
+"q": "name",
+"area": null
+},
+"Cinema De Vlugt": {
+"lat": 52.37992,
+"lon": 4.82728,
+"q": "name",
+"area": "Nieuw-West"
+},
 "Cinema The Pulse": {
 "lat": 52.33764,
 "lon": 4.86625,
@@ -964,6 +982,12 @@
 "q": "name",
 "area": "West"
 },
+"De Omval": {
+"lat": 52.34501,
+"lon": 4.9164,
+"q": "name",
+"area": "Oost"
+},
 "De Rietvinck": {
 "lat": 52.38367,
 "lon": 4.88349,
@@ -1151,11 +1175,23 @@
 "skip": true,
 "q": "not found"
 },
+"Eye Filmmuseum": {
+"lat": 52.38434,
+"lon": 4.90081,
+"q": "name",
+"area": "Noord"
+},
 "FAC SHOP": {
 "lat": 52.37239,
 "lon": 4.90198,
 "q": "name",
 "area": "Centrum"
+},
+"FC Hyena": {
+"lat": 52.38341,
+"lon": 4.92893,
+"q": "name",
+"area": "Noord"
 },
 "FC Kraak": {
 "lat": 52.34683,
@@ -1174,6 +1210,12 @@
 "lon": 4.89484,
 "q": "name",
 "area": "Noord"
+},
+"Filmhallen": {
+"lat": 52.36682,
+"lon": 4.8686,
+"q": "name",
+"area": "West"
 },
 "Filmhuis Cavia": {
 "lat": 52.38197,
@@ -1388,6 +1430,12 @@
 "Hemkade 48": {
 "skip": true,
 "q": "not found"
+},
+"Het Documentaire Paviljoen": {
+"lat": 52.32622,
+"lon": 5.07981,
+"q": "name",
+"area": null
 },
 "Het Dorp": {
 "lat": 52.38107,
@@ -1836,6 +1884,12 @@
 "area": "Centrum"
 },
 "Melkweg": {
+"lat": 52.36478,
+"lon": 4.88107,
+"q": "name",
+"area": "Centrum"
+},
+"Melkweg Cinema": {
 "lat": 52.36478,
 "lon": 4.88107,
 "q": "name",
@@ -2403,6 +2457,18 @@
 "skip": true,
 "q": "not found"
 },
+"Rialto De Pijp": {
+"lat": 52.35335,
+"lon": 4.89696,
+"q": "name",
+"area": "Zuid"
+},
+"Rialto VU Griffioen": {
+"lat": 52.33475,
+"lon": 4.86499,
+"q": "name",
+"area": "Zuid"
+},
 "Rijksakademie": {
 "lat": 52.36294,
 "lon": 4.91779,
@@ -2882,6 +2948,12 @@
 "The Loft Amsterdam": {
 "lat": 52.3846,
 "lon": 4.88585,
+"q": "name",
+"area": "Centrum"
+},
+"The Movies": {
+"lat": 52.38401,
+"lon": 4.88461,
 "q": "name",
 "area": "Centrum"
 },
