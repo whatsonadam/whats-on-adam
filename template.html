@@ -113,28 +113,6 @@ ul.ev li:first-child{border-top:0}
 .act.saved{background:var(--black);border-color:var(--black);color:#fff}
 .empty{padding:28px;text-align:center;color:var(--muted);background:var(--surface);border:1px dashed var(--line);border-radius:8px;margin-top:14px}
 
-/* Want-to-see timeline */
-.tl-wrap{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px 16px 10px;margin-top:18px}
-.tl-axis{position:relative;height:22px;margin-left:0;border-bottom:1px solid var(--line)}
-.tl-axis span{position:absolute;bottom:4px;transform:translateX(-50%);font:500 11px var(--mono);color:var(--muted);white-space:nowrap}
-.tl-rows{position:relative}
-.tl-grid{position:absolute;inset:0;pointer-events:none}
-.tl-grid i{position:absolute;top:0;bottom:0;width:1px;background:var(--line)}
-.tl-grid .now{background:var(--red);width:2px}
-.tl-row{position:relative;padding:10px 0 8px;border-bottom:1px solid var(--line)}
-.tl-row:last-child{border-bottom:0}
-.tl-top{display:flex;justify-content:space-between;gap:10px;align-items:baseline;position:relative;z-index:1}
-.tl-title{font-weight:700;text-decoration:none;font-size:14px;line-height:1.3}
-.tl-title:hover{color:var(--red-ink)}
-.tl-ven{font-size:12px;color:var(--muted)}
-.tl-left{font:500 12px var(--mono);color:var(--muted);white-space:nowrap}
-.tl-left.soon{color:var(--red-ink);font-weight:700}
-.tl-track{position:relative;height:10px;margin-top:6px}
-.tl-bar{position:absolute;top:0;height:10px;border-radius:4px;background:var(--black)}
-.tl-bar.soon{background:var(--red)}
-.tl-bar.more{border-top-right-radius:0;border-bottom-right-radius:0}
-.tl-x{border:0;background:none;color:var(--muted);cursor:pointer;font-size:16px;line-height:1;padding:0 2px}
-.tl-x:hover{color:var(--red-ink)}
 .move{margin-top:16px;font-size:13px;color:var(--muted)}
 .move .row input{flex:1 1 200px;min-width:0}
 
@@ -625,35 +603,24 @@ function drawMap(list){
 function renderWant(){
   const box=$("#want");
   const t0=parse(todayIso);
-  const items=WANT.map(w=>({...w, end:parse(w.ed)})).sort((a,b)=>a.end-b.end);
-  const upcoming=items.filter(w=>w.end>=t0), past=items.filter(w=>w.end<t0);
+  const soon=new Date(t0.getTime()+14*864e5);
+  const items=WANT.map(w=>({...w, end:parse(w.ed)})).sort((a,b)=>a.end-b.end||a.t.localeCompare(b.t));
   if(!items.length){
-    box.innerHTML=`<div class="empty">Nothing saved yet. In the agenda, tap <strong>Want to see</strong> on any exhibition and it shows up here on a timeline, sorted by when it closes.</div>`;
+    box.innerHTML=`<div class="dayhead"><h2>Want to see</h2></div><div class="empty">Nothing saved yet. Tap <strong>Want to see</strong> on an exhibition in the Exhibitions tab and it shows up here, soonest closing first.</div>`;
     return;
   }
-  // Axis: today → latest end, at least 2 months, capped at 9 months
-  const maxEnd=upcoming.reduce((m,w)=>w.end>m?w.end:m, new Date(t0.getTime()+60*864e5));
-  const cap=new Date(t0); cap.setMonth(cap.getMonth()+9);
-  const tEnd = maxEnd>cap ? cap : maxEnd;
-  const total=(tEnd-t0)||1;
-  const pct = d => Math.max(0,Math.min(100,(d-t0)/total*100));
-  const ticks=[]; const m=new Date(t0.getFullYear(), t0.getMonth()+1, 1);
-  while(m<=tEnd){ ticks.push(new Date(m)); m.setMonth(m.getMonth()+1); }
-  const grid=`<div class="tl-grid"><i class="now" style="left:0"></i>${ticks.map(t=>`<i style="left:${pct(t)}%"></i>`).join("")}</div>`;
-  let html=`<div class="dayhead"><h2>Want to see</h2><span class="n">${upcoming.length} running · sorted by closing date</span></div>`;
-  html+=`<div class="tl-wrap"><div class="tl-axis"><span style="left:0;transform:none;color:var(--red-ink);font-weight:700">Today</span>${ticks.map(t=>`<span style="left:${pct(t)}%">${MON[t.getMonth()]}${t.getMonth()===0?" ’"+String(t.getFullYear()).slice(2):""}</span>`).join("")}</div><div class="tl-rows">${grid}`;
-  html+=upcoming.map(w=>{
+  const row=w=>{
     const days=Math.round((w.end-t0)/864e5);
-    const soon=days<=14; const more=w.end>tEnd;
-    const one = w.d===w.ed;
-    const left = one ? (days===0?"today":days===1?"tomorrow":`in ${days} days`) : days===0 ? "closes today" : days===1 ? "closes tomorrow" : `${days} days left`;
-    return `<div class="tl-row"><div class="tl-top"><div><a class="tl-title" href="${esc(w.u||"#")}" target="_blank" rel="noopener">${esc(w.t)}</a> <span class="tl-ven">${esc(w.v)}</span></div>
-      <div style="display:flex;gap:8px;align-items:baseline"><span class="tl-left${soon?" soon":""}" title="Runs until ${fmt(w.ed)}">${one?"on":"until"} ${fmt(w.ed)} · ${left}</span><button class="tl-x" data-k="${esc(w.k)}" aria-label="Remove ${esc(w.t)}">×</button></div></div>
-      <div class="tl-track"><div class="tl-bar${soon?" soon":""}${more?" more":""}" style="left:0;width:${Math.max(1.5,pct(w.end))}%" title="${esc(w.t)} — until ${fmt(w.ed)}"></div></div></div>`;
-  }).join("");
-  html+=`</div></div>`;
-  if(past.length) html+=`<h3><span class="x">×</span>Already closed <span class="c">${past.length}</span></h3><ul class="ev">${past.map(w=>`<li><div class="tm"><small>closed</small>${fmt(w.ed)}</div><div><a class="tt" href="${esc(w.u||"#")}" target="_blank" rel="noopener">${esc(w.t)}</a><div class="meta"><span class="ven">${esc(w.v)}</span></div></div><div class="acts"><button class="act tl-x" data-k="${esc(w.k)}">Remove</button></div></li>`).join("")}</ul>`;
-  box.innerHTML=html;
+    const left = w.end<t0 ? "closed" : days===0 ? "closes today" : days===1 ? "closes tomorrow" : `${days} days left`;
+    return `<li><div class="tm"><small>${w.end<t0?"closed":"until"}</small>${fmt(w.ed)}</div><div>
+      <a class="tt" href="${esc(w.u||"#")}" target="_blank" rel="noopener">${esc(w.t)}</a>
+      <div class="meta"><span class="ven">${esc(w.v||"")}</span>${w.end<t0?"":`<span>${left}</span>`}</div>
+    </div><div class="acts"><button class="act tl-x" data-k="${esc(w.k)}" aria-label="Remove ${esc(w.t)} from my list">${X_ICON}Remove</button></div></li>`;
+  };
+  const grp=(title,list)=>list.length?`<h3><span class="x">×</span>${title} <span class="c">${list.length}</span></h3><ul class="ev">${list.map(row).join("")}</ul>`:"";
+  const closing=items.filter(w=>w.end>=t0&&w.end<=soon), later=items.filter(w=>w.end>soon), past=items.filter(w=>w.end<t0);
+  box.innerHTML=`<div class="dayhead"><h2>Want to see</h2><span class="n">${items.length} saved · soonest closing first</span></div>`
+    + grp("Closing within two weeks",closing)+grp("Later",later)+grp("Already closed",past);
   box.querySelectorAll(".tl-x").forEach(b=>b.onclick=()=>{ WANT=WANT.filter(w=>w.k!==b.dataset.k); saveWant(); renderWant(); });
 }
 $("#copycode").onclick=async()=>{
