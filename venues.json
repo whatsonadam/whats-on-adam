@@ -498,6 +498,10 @@
 "q": "name",
 "area": "West"
 },
+"Bols Cocktail Experience": {
+"skip": true,
+"q": "not found"
+},
 "Boom Chicago": {
 "lat": 52.37281,
 "lon": 4.87901,
@@ -841,6 +845,10 @@
 "lon": 4.87564,
 "q": "name",
 "area": "West"
+},
+"Daily Paper Flagship Store": {
+"skip": true,
+"q": "not found"
 },
 "Dak Showroom": {
 "lat": 52.36841,
@@ -2419,6 +2427,10 @@
 "q": "name",
 "area": "Zuid"
 },
+"Rokin 75": {
+"skip": true,
+"q": "not found"
+},
 "Rosti": {
 "lat": 52.36391,
 "lon": 4.86307,
@@ -3260,6 +3272,12 @@
 "lon": 4.87816,
 "q": "name",
 "area": "West"
+},
+"Zero Zero": {
+"lat": 52.3651,
+"lon": 4.89036,
+"q": "name",
+"area": "Centrum"
 },
 "Ziggo Dome": {
 "lat": 52.31341,
