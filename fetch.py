@@ -137,6 +137,33 @@ def fetch_ade(status, today, max_pages=80):
         n += len(items); time.sleep(1.0)
     status["ade"] = f"ok ({n} listings)"
 
+def fetch_cinemas(status, today):
+    """Cinemas whose programme comes from an API or per-day request. Each writes one file in _data/ for its parser."""
+    sys.path.insert(0, os.path.join(HERE, "parsers"))
+    import eye, rialto, uitkijk, studiok, ketelhuis, cineville_common
+    jobs = {
+        "eye": lambda p: eye.fetch_json(today, p),
+        "rialto": lambda p: rialto.fetch_text(today, p),
+        "uitkijk": lambda p: uitkijk.fetch(p),
+        "studiok": lambda p: studiok.fetch(p, today),
+        "ketelhuis": lambda p: ketelhuis.fetch(p, today),
+        "themovies": lambda p: curl("https://themovies.nl/fk-feed/agenda", p),
+        "filmhallen": lambda p: curl("https://filmhallen.nl/fk-feed/agenda", p),
+        "hyena": lambda p: curl("https://tickets.fchyena.nl/fchyena/nl/flow_configs/1/z_events_list", p),
+        "cinecenter": lambda p: curl("https://www.cinecenter.nl/programma", p),
+        "melkwegcinema": lambda p: curl("https://www.melkweg.nl/nl/agenda/", p),
+    }
+    for k in ("amstelveen", "devlugt", "thepulse", "omval", "docpaviljoen"):
+        jobs[k] = (lambda kk: lambda p: cineville_common.fetch_venue(kk, today, p))(k)
+    for k, job in jobs.items():
+        out = os.path.join(DATA, f"{k}.cin")
+        try:
+            job(out)
+            status[k] = "ok" if os.path.exists(out) and os.path.getsize(out) > 20 else "empty"
+        except Exception as ex:
+            status[k] = f"error {str(ex)[:60]}"
+        time.sleep(1.0)
+
 def fetch_iamsterdam(status, max_pages=300):
     d = os.path.join(DATA, "iamsterdam"); os.makedirs(d, exist_ok=True)
     for f in os.listdir(d): os.remove(os.path.join(d, f))
@@ -167,6 +194,7 @@ def main():
     if not want or "radar" in want: fetch_radar(status)
     if not want or "iamsterdam" in want: fetch_iamsterdam(status)
     if not want or "ade" in want: fetch_ade(status, today)
+    if not want or "cinemas" in want: fetch_cinemas(status, today)
     json.dump({"fetched": today.isoformat(), "status": status}, open(os.path.join(DATA, "fetch_status.json"), "w"), indent=1)
     for k in sorted(status): print(f"{k:22} {status[k]}")
 

@@ -12,6 +12,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "_data")
 sys.path.insert(0, os.path.join(HERE, "parsers"))
 
+CINEMA_KEYS = ["eye", "rialto", "uitkijk", "themovies", "studiok", "ketelhuis", "hyena", "filmhallen", "cinecenter",
+               "melkwegcinema", "amstelveen", "devlugt", "thepulse", "omval", "docpaviljoen"]
 AGG = {"radar", "offbeat", "amsterdamalternative", "iamsterdam"}
 # Page keys whose markdown feeds a parser of the same name
 MD_KEYS = ["mezrab", "vrankrijk", "aralez", "desering", "amsterdamalternative", "offbeat", "likeminds",
@@ -44,6 +46,22 @@ SOURCES = {
     "wethepeople": ("We The People", "https://www.wethepeopleamsterdam.nl/"),
     "dezwijger": ("Pakhuis de Zwijger", "https://dezwijger.nl/agenda"),
     "lab111": ("LAB111", "https://www.lab111.nl/programma/"),
+    "eye": ("Eye Filmmuseum", "https://www.eyefilm.nl/en/whats-on"),
+    "rialto": ("Rialto", "https://depijp.rialtofilm.nl/nl/agenda"),
+    "uitkijk": ("De Uitkijk", "https://www.uitkijk.nl/"),
+    "themovies": ("The Movies", "https://themovies.nl/"),
+    "studiok": ("Studio/K", "https://studio-k.nu/"),
+    "ketelhuis": ("Het Ketelhuis", "https://www.ketelhuis.nl/"),
+    "hyena": ("FC Hyena", "https://fchyena.nl/"),
+    "filmhallen": ("Filmhallen", "https://filmhallen.nl/"),
+    "cinecenter": ("Cinecenter", "https://www.cinecenter.nl/programma"),
+    "melkwegcinema": ("Melkweg Cinema", "https://www.melkweg.nl/nl/agenda"),
+    "amstelveen": ("Cinema Amstelveen", "https://www.cineville.nl/"),
+    "devlugt": ("Cinema De Vlugt", "https://www.cineville.nl/"),
+    "thepulse": ("Cinema The Pulse", "https://www.cineville.nl/"),
+    "omval": ("De Omval", "https://www.cineville.nl/"),
+    "docpaviljoen": ("Het Documentaire Paviljoen", "https://www.idfa.nl/vondelpark/agenda-het-documentaire-paviljoen"),
+    "kriterion": ("Kriterion", "https://www.kriterion.nl/"),
     "ade": ("Amsterdam Dance Event", "https://www.amsterdam-dance-event.nl/en/program/"),
     "tolhuistuin": ("Tolhuistuin", "https://tolhuistuin.nl/en/agenda"),
     "iamsterdam": ("I amsterdam Uitagenda", "https://www.iamsterdam.com/uit/agenda"),
@@ -51,7 +69,7 @@ SOURCES = {
     "schooloflife": ("The School of Life", "https://www.theschooloflife.com/amsterdam/agenda/"),
     "offlineclub": ("The Offline Club", "https://www.theoffline-club.com/city-chapters/amsterdam-chapter"),
 }
-NOTES = {"delamar": "dates load in their ticket app – check site", "artis": "no dated events, daily programme",
+NOTES = {"kriterion": "blocks automated readers – check site", "delamar": "dates load in their ticket app – check site", "artis": "no dated events, daily programme",
          "wethepeople": "check site for next event", "offlineclub": "calendar is a widget – check site",
          "vondelbunker": "included via radar.squat.net"}
 
@@ -114,6 +132,9 @@ def collect(today):
     try: radar = json.load(open(f)).get("result", {}) if os.path.exists(f) else {}
     except Exception as ex: print(f"  !! radar.json unreadable ({ex}); keeping the previous radar events")
     per["radar"] = run("radar", importlib.import_module("radar").parse_api, radar, today) if radar else []
+    for key in CINEMA_KEYS:
+        f = os.path.join(DATA, f"{key}.cin")
+        per[key] = run(key, importlib.import_module(key).parse, open(f, errors="ignore").read(), today) if os.path.exists(f) else []
     ade_pages = []
     for p in sorted(glob.glob(os.path.join(DATA, "ade", "p*.json"))):
         try: ade_pages.append(json.load(open(p)))
@@ -144,7 +165,7 @@ def merge(per):
     allev.sort(key=lambda e: order.get(e["s"], 0))
     seen, out = {}, []
     for e in allev:
-        k = (e["d"], norm(e["t"]))
+        k = (e["d"], norm(e["t"])) if e.get("c") != "film" else (e["d"], norm(e["t"]), norm(e.get("v", ""))[:10], e.get("h") or "")
         if k in seen and seen[k]["s"] != e["s"]:
             s0 = seen[k]; a = s0.setdefault("a", [])
             if e["s"] not in a: a.append(e["s"])
