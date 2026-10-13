@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What we're working on · What's on A'dam</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Figtree:wght@400;500;600;700&display=swap">
+<style>
+:root{color-scheme:light;--bg:#EEE8E8;--surface:#fff;--ink:#171314;--muted:#6A6163;--line:#E0D6D6;--red:#EA4A42;--red-ink:#C7261E;--black:#161213}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 Figtree,system-ui,sans-serif;padding:0 16px 56px}
+.wrap{max-width:760px;margin:0 auto}
+.flag{margin:18px 0 0;border-radius:6px;overflow:hidden;display:grid;grid-template-rows:14px auto 14px}
+.flag .r{background:var(--red)}
+.flag .b{background:var(--black);color:#fff;padding:14px 18px}
+h1{margin:0;font:900 clamp(26px,6vw,40px)/1 "Big Shoulders Display",Arial Narrow,sans-serif;text-transform:uppercase}
+h1 em{color:var(--red);font-style:normal}
+a.back{display:inline-block;margin:14px 0 4px;color:var(--red-ink);font-weight:600}
+p.lead{color:var(--muted);margin:6px 0 14px}
+.bar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:10px 0 4px}
+.bar label{display:inline-flex;gap:6px;align-items:center;font-weight:600}
+.count{color:var(--muted);font-size:13px}
+h2{font:900 22px/1 "Big Shoulders Display",Arial Narrow,sans-serif;text-transform:uppercase;margin:26px 0 8px}
+ul{list-style:none;margin:0;padding:0;background:var(--surface);border:1px solid var(--line);border-radius:8px}
+li{padding:10px 14px;border-top:1px solid var(--line);display:flex;gap:10px;align-items:flex-start}
+li:first-child{border-top:0}
+li:nth-child(even){background:#F6F1F1}
+.box{flex:none;width:18px;height:18px;margin-top:2px;border:2px solid var(--ink);border-radius:4px;display:grid;place-items:center;font-size:12px;line-height:1}
+.done .box{background:var(--ink);color:#fff;border-color:var(--ink)}
+.doing .box{border-color:var(--red-ink);background:#FDE9E7}
+.done .t{text-decoration:line-through;color:var(--muted)}
+.n{color:var(--muted);font-size:13px;display:block}
+.tag{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--red-ink);margin-left:6px}
+.hide-done li.done{display:none}
+footer{margin-top:28px;color:var(--muted);font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="flag"><div class="r"></div><div class="b"><h1>What we're <em>working on</em></h1></div><div class="r"></div></div>
+  <a class="back" href="./">&larr; Back to the agenda</a>
+  <p class="lead">The running list of what is done (crossed out), what is being built, and what is still to do. Updated as we go.</p>
+  <div class="bar"><label><input type="checkbox" id="hd"> Hide finished</label><span class="count" id="count"></span></div>
+  <div id="list"></div>
+  <footer>A small non-commercial hobby project. Ideas or suggestions are welcome.</footer>
+</div>
+<script>
+// s: done | doing | todo     p: "now" marks the next things to pick up
+const GROUPS = [
+ ["Fix first", [
+  ["todo","Want to see tab is messy and not working properly","now"],
+  ["todo","Cinema tab is messy and not intuitive","now"],
+  ["todo","Events with no start time (especially ADE): read each event page","now"],
+  ["todo","Duplicates: match on venue and start time as well as the title"],
+  ["todo","Tab order: Agenda, Cinema, Exhibitions first, then ADE and Want to see"],
+  ["todo","Remove \"via …\" and \"also on …\" source labels; the venue name is enough"],
+  ["todo","Background contrast still too flat; wider layout on laptops (now feels like a phone)"],
+  ["done","Refresh failed twice when the Radar API timed out: retry and keep last good data"],
+  ["todo","Keep an eye on the twice-daily refresh staying green"]
+ ]],
+ ["Design", [
+  ["todo","Make it look less \"AI\": more alternative, local, zine-like; keep the red and black Amsterdam look"],
+  ["todo","Rethink fonts"],
+  ["todo","ADE tab should stand out (yellow banner or logo)"],
+  ["todo","Time rail down the side of the day so you see time move"],
+  ["todo","Simple on top, deep underneath: instant to use, no learning"],
+  ["done","Design pass: clearer filters button, row shading, accessibility, calendar button less loud"],
+  ["done","Own tab for exhibitions (not a type chip)"]
+ ]],
+ ["Categories and filters", [
+  ["todo","Rethink the type categories so they are intentional"],
+  ["todo","Food as its own category (cheap food, donation dinners); handle places that serve daily, like De Sering"],
+  ["todo","Price filter, or at least a Free toggle"],
+  ["todo","English-only filter: measure and improve accuracy (Gil guides the thinking)"],
+  ["todo","Star favourite venues"],
+  ["done","All areas chip, one Reset all, removed Unknown area and the two awkward toggles"],
+  ["done","Leftover \"Other\" events sorted automatically (about 200 down to about 12)"],
+  ["done","Protest and activism type chip"]
+ ]],
+ ["Content and sources", [
+  ["todo","Protest and activism sources: activist groups, citizens' associations, organisers (Gil and Claude both look)"],
+  ["todo","Resident Advisor for nightlife"],
+  ["todo","Build from the venues behind I amsterdam, not only the aggregator"],
+  ["todo","Uncovered: DeLaMar, The Offline Club, ARTIS, We The People"],
+  ["todo","Thin coverage: Odessa, Volkshotel, offbeat, radar, Filmhuis Cavia"],
+  ["todo","More venues and agendas, with more small and alternative ones (and more alternative cinemas), without overwhelming"],
+  ["todo","ADE conference programme (Pro)"],
+  ["todo","Event descriptions (low priority)"],
+  ["done","Fixed \"-\" and empty titles"],
+  ["done","Start times read from event pages for Tolhuistuin, Cinetol and I amsterdam"],
+  ["done","Temporary ADE tab from ADE's own programme, with sold-out toggle"],
+  ["done","Cinema tab (first version)"]
+ ]],
+ ["Features", [
+  ["todo","Map rework and a \"my location\" button"],
+  ["todo","Refresh hourly or more often than twice a day"],
+  ["todo","Contact and suggestions form in the footer: suggest events and venues, reviewed before going live"]
+ ]],
+ ["Research and decisions", [
+  ["todo","Look at other cultural agendas together and pick features and design choices"],
+  ["todo","Research on good agenda and interface design"],
+  ["todo","Final site name and GitHub username"],
+  ["todo","Parked: asking sources for permission"]
+ ]]
+];
+const list = document.getElementById("list");
+let total = 0, done = 0;
+list.innerHTML = GROUPS.map(([g, items]) => {
+  const order = {doing:0, todo:1, done:2};
+  const sorted = items.map((x,i)=>[x,i]).sort((a,b)=>order[a[0][0]]-order[b[0][0]]||a[1]-b[1]).map(x=>x[0]);
+  sorted.forEach(i => { total++; if (i[0] === "done") done++; });
+  return `<h2>${g}</h2><ul>${sorted.map(([s,t,p]) => `<li class="${s}"><span class="box" aria-hidden="true">${s==="done"?"✓":""}</span><span><span class="t">${t}</span>${p==="now"?'<span class="tag">Next</span>':""}<span class="sr" hidden>${s}</span></span></li>`).join("")}</ul>`;
+}).join("");
+document.getElementById("count").textContent = `${done} of ${total} done`;
+document.getElementById("hd").onchange = e => list.classList.toggle("hide-done", e.target.checked);
+</script>
+</body>
+</html>

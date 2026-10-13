@@ -111,8 +111,14 @@ def curl(url, out):
 def fetch_radar(status):
     url = ("https://radar.squat.net/api/1.2/search/events.json?facets[city][]=Amsterdam"
            "&fields=title,date_time,offline,url,category&limit=500")
-    code = curl(url, os.path.join(DATA, "radar.json"))
-    status["radar"] = "ok" if code == "200" else f"error {code}"
+    out = os.path.join(DATA, "radar.json")
+    for attempt in range(3):                      # the radar API sometimes times out; try a few times
+        code = curl(url, out)
+        try:
+            json.load(open(out)); status["radar"] = "ok"; return
+        except Exception:
+            status["radar"] = f"error {code} (not valid data)"; time.sleep(5)
+    os.remove(out)                                # build.py then keeps the previous radar events
 
 def fetch_ade(status, today, max_pages=80):
     """ADE's public programme listing (JSON, 40 per page). Politely: one page per second, stops at the first empty page."""

@@ -110,7 +110,10 @@ def collect(today):
     f = os.path.join(DATA, "cinetol.html")
     per["cinetol"] = run("cinetol", importlib.import_module("cinetol").parse, open(f, errors="ignore").read(), today) if os.path.exists(f) else []
     f = os.path.join(DATA, "radar.json")
-    per["radar"] = run("radar", importlib.import_module("radar").parse_api, json.load(open(f)).get("result", {}), today) if os.path.exists(f) else []
+    radar = {}
+    try: radar = json.load(open(f)).get("result", {}) if os.path.exists(f) else {}
+    except Exception as ex: print(f"  !! radar.json unreadable ({ex}); keeping the previous radar events")
+    per["radar"] = run("radar", importlib.import_module("radar").parse_api, radar, today) if radar else []
     ade_pages = []
     for p in sorted(glob.glob(os.path.join(DATA, "ade", "p*.json"))):
         try: ade_pages.append(json.load(open(p)))
@@ -196,6 +199,7 @@ def main():
     stamp = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
     json.dump({"updated": stamp, "events": events, "sources": src}, open(os.path.join(out, "events.json"), "w"),
               ensure_ascii=False, separators=(",", ":"))
+    if os.path.exists(os.path.join(HERE, "plan.html")): open(os.path.join(out, "plan.html"), "w").write(open(os.path.join(HERE, "plan.html")).read())
     open(os.path.join(out, "index.html"), "w").write(open(os.path.join(HERE, "template.html")).read().replace("__CONTACT__", os.environ.get("CONTACT_EMAIL", "")))
 
     final = {}
