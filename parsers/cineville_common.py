@@ -63,5 +63,13 @@ def parse_venue(text, today, venue, key):
         url = e.get("ticketingUrl") or (f"https://www.cineville.nl/nl-NL/films/{slug}" if slug else "https://www.cineville.nl/nl-NL/filmagenda")
         ev = {"t": title, "d": dt.date().isoformat(), "h": dt.strftime("%H:%M"), "v": venue,
               "u": url, "c": "film", "s": key}
+        spoken = [str(x).lower() for x in ((p.get("attributes") or {}).get("spokenLanguages") or [])]
+        subs = [str(x).lower() for x in ((e.get("attributes") or {}).get("subtitles") or [])]
+        if any(x.startswith("en") for x in spoken + subs): ev["ef"] = 1     # English spoken or English subtitles
+        elif spoken or subs: ev["nl"] = 1                                   # known, and no English
+        pa = p.get("attributes") or {}
+        if pa.get("releaseYear"): ev["yr"] = pa["releaseYear"]
+        if pa.get("duration"): ev["du"] = pa["duration"]
+        if pa.get("directors"): ev["dr"] = ", ".join(pa["directors"][:2])
         out.append(ev)
     return out

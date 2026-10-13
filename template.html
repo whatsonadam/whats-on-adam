@@ -169,6 +169,7 @@ ul.ev.films li{display:block;grid-template-columns:none}
 .films .fl{min-width:0}
 .films .tt{display:block;margin-bottom:2px;text-decoration:none;font-weight:700}
 .films .show{white-space:nowrap}
+.films .fmeta{display:block;font-size:12px;color:var(--muted);margin-top:1px}
 .films .shows{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
 .films .show{display:inline-flex;gap:6px;align-items:baseline;border:1px solid var(--line);border-radius:8px;padding:6px 9px;font-size:12px;color:var(--ink);text-decoration:none;background:#fff}
 .films .show b{font-weight:700}.films .show span{color:var(--muted)}
@@ -176,6 +177,12 @@ ul.ev.films li{display:block;grid-template-columns:none}
 .so{background:#2a2a2a;color:#fff;border-radius:4px;padding:1px 6px;font:700 10px var(--mono);text-transform:uppercase}
 #adedays,#cindays{display:flex;gap:6px;overflow-x:auto;margin-top:10px}
 #adedays .day,#cindays .day{flex:none}
+.cinsel{position:relative;margin:0 0 10px}
+.cinsel summary{list-style:none;cursor:pointer;display:inline-block;border:1px solid var(--line);background:var(--surface);border-radius:6px;padding:9px 14px;font-weight:700}
+.cinsel summary::-webkit-details-marker{display:none}
+.cinsel summary::after{content:" \25BE"}
+.cinlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:2px 14px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px 14px;margin-top:6px}
+.cinlist label{padding:6px 0;display:flex;gap:8px;align-items:center;cursor:pointer}
 .linkbtn{font:inherit;color:var(--red-ink);background:none;border:0;padding:6px 0;text-decoration:underline;cursor:pointer}
 </style>
 </head>
@@ -562,9 +569,10 @@ const CINEVILLE_RX = /bijlmerbios|cinecenter|cinema amstelveen|de vlugt|the puls
 const isCinemaVenue = v => CINEMA_RX.test(v||"");
 const OTHER_PLACES = "Other places (occasional screenings)";
 const CIN = FILMS.filter(e=>e.d>=todayIso);
-let cinState = {day:"", q:"", venues:new Set(), cv:false};
+let cinState = {day:"", q:"", venues:new Set(), cv:false, en:false};
 function cinOk(e, ignoreQ){
   if(cinState.cv && !CINEVILLE_RX.test(e.v||"")) return false;
+  if(cinState.en && e.nl) return false;
   if(cinState.venues.size){ const key=isCinemaVenue(e.v)?e.v:OTHER_PLACES; if(!cinState.venues.has(key)) return false; }
   if(!ignoreQ && cinState.q && !(e.t+" "+e.v).toLowerCase().includes(cinState.q.toLowerCase())) return false;
   return true;
@@ -578,7 +586,7 @@ function renderCin(){
   const hasOther=CIN.some(e=>!isCinemaVenue(e.v));
   const list=CIN.filter(e=>e.d===cinState.day && cinOk(e));
   const films=new Map();
-  list.forEach(e=>{ const k=filmKey(e.t)||e.t; if(!films.has(k)) films.set(k,{t:e.t,s:[]}); films.get(k).s.push(e); });
+  list.forEach(e=>{ const k=filmKey(e.t)||e.t; if(!films.has(k)) films.set(k,{t:e.t,s:[]}); const f=films.get(k); f.s.push(e); for(const x of ["yr","du","dr"]) if(e[x]&&!f[x]) f[x]=e[x]; if(e.ef) f.ef=1; });
   const arr=[...films.values()].map(f=>({...f,s:f.s.sort((a,b)=>(a.h||"99").localeCompare(b.h||"99"))}))
     .sort((a,b)=>(a.s[0].h||"99").localeCompare(b.s[0].h||"99")||a.t.localeCompare(b.t));
   const d0=parse(cinState.day);
@@ -586,12 +594,17 @@ function renderCin(){
   $("#cin").innerHTML=`<div class="dayhead"><h2>Cinema</h2><span class="n">${arr.length} films · ${list.length} screenings on ${DWL[d0.getDay()].slice(0,3)} ${d0.getDate()} ${MON[d0.getMonth()]}</span></div>
     <div class="days" id="cindays" role="listbox" aria-label="Pick a day">${dayStripHtml(countsBy(CIN.filter(e=>cinOk(e,true))),cinState.day)}</div>
     <div class="row" style="margin:10px 0"><input type="search" id="cinq" placeholder="Search film or cinema…" aria-label="Search films" value="${esc(cinState.q)}">
+      <label class="toggle"><input type="checkbox" id="cinen"${cinState.en?" checked":""}> English-friendly</label>
       <label class="toggle"><input type="checkbox" id="cincv"${cinState.cv?" checked":""}> Cineville cinemas only</label></div>
-    <div class="chips" id="cinchips" role="group" aria-label="Cinemas">${[...cinemas,...(hasOther?[OTHER_PLACES]:[])].map(v=>`<button class="chip" data-v="${esc(v)}" aria-pressed="${cinState.venues.has(v)}">${esc(v===OTHER_PLACES?"Other places":v)}</button>`).join("")}</div>
-    <ul class="ev films">${arr.map(f=>`<li><div class="fl"><span class="tt">${esc(f.t)}</span><div class="shows">${f.s.map(e=>`<a class="show" href="${esc(e.u||"#")}" target="_blank" rel="noopener"><b>${e.h||"TBC"}</b><span>${esc(e.v||"")}</span></a>`).join("")}</div></div></li>`).join("")||'<div class="empty">Nothing matches on this day. Try another day or clear the search.</div>'}</ul>`;
+    <details class="cinsel" id="cinsel"><summary>${cinState.venues.size?`${cinState.venues.size} cinema${cinState.venues.size>1?"s":""} selected`:"All cinemas"}</summary><div class="cinlist">${[...cinemas,...(hasOther?[OTHER_PLACES]:[])].map(v=>`<label><input type="checkbox" data-v="${esc(v)}"${cinState.venues.has(v)?" checked":""}> ${esc(v===OTHER_PLACES?"Other places (occasional screenings)":v)}</label>`).join("")}${cinState.venues.size?'<button class="linkbtn" id="cinclear">Clear selection</button>':""}</div></details>
+    <ul class="ev films">${arr.map(f=>`<li><div class="fl"><span class="tt">${esc(f.t)}</span>${(()=>{const m=[f.yr,f.du?f.du+" min":"",f.dr,f.ef?"English-friendly":""].filter(Boolean);return m.length?`<span class="fmeta">${esc(m.join(" · "))}</span>`:""})()}<div class="shows">${f.s.map(e=>`<a class="show" href="${esc(e.u||"#")}" target="_blank" rel="noopener"><b>${e.h||"TBC"}</b><span>${esc(e.v||"")}</span></a>`).join("")}</div></div></li>`).join("")||'<div class="empty">Nothing matches on this day. Try another day or clear the search.</div>'}</ul>`;
   document.querySelectorAll("#cindays .day").forEach(b=>b.onclick=()=>{ cinState.day=b.dataset.d; renderCin(); });
   const qi=$("#cinq"); qi.oninput=()=>{ clearTimeout(cinTimer); cinTimer=setTimeout(()=>{ cinState.q=qi.value; const p=qi.selectionStart; renderCin(); const n=$("#cinq"); n.focus(); n.setSelectionRange(p,p); },250); };
-  document.querySelectorAll("#cinchips .chip").forEach(b=>b.onclick=()=>{ const v=b.dataset.v; cinState.venues.has(v)?cinState.venues.delete(v):cinState.venues.add(v); renderCin(); });
+  const sel=$("#cinsel"); if(window._cinOpen) sel.open=true;
+  sel.addEventListener("toggle",()=>{ window._cinOpen=sel.open; });
+  sel.querySelectorAll("input[type=checkbox]").forEach(b=>b.onchange=()=>{ const v=b.dataset.v; b.checked?cinState.venues.add(v):cinState.venues.delete(v); renderCin(); });
+  const cl=$("#cinclear"); if(cl) cl.onclick=()=>{ cinState.venues.clear(); renderCin(); };
+  $("#cinen").onchange=ev=>{ cinState.en=ev.target.checked; renderCin(); };
   $("#cincv").onchange=ev=>{ cinState.cv=ev.target.checked; renderCin(); };
   const on=$("#cindays .day.on"); if(on) on.scrollIntoView({block:"nearest",inline:"center"});
 }

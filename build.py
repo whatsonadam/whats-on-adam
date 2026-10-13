@@ -172,6 +172,8 @@ def merge(per):
             if e.get("nl"): s0["nl"] = 1
             continue
         seen.setdefault(k, e); out.append(e)
+    for e in out:                                   # films: English signals in the title when the cinema gives no language data
+        if e.get("c") == "film" and not e.get("ef") and not e.get("nl") and re.search(r"eng(?:lish)?\.? ?subs?|english sub|\bOV\b|english spoken", e["t"], re.I): e["ef"] = 1
     for e in out:
         if e.get("c") in ("other", None, ""): e["c"] = classify_other(e)
     for e in out:
