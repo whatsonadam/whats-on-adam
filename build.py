@@ -199,7 +199,6 @@ def main():
     stamp = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
     json.dump({"updated": stamp, "events": events, "sources": src}, open(os.path.join(out, "events.json"), "w"),
               ensure_ascii=False, separators=(",", ":"))
-    if os.path.exists(os.path.join(HERE, "plan.html")): open(os.path.join(out, "plan.html"), "w").write(open(os.path.join(HERE, "plan.html")).read())
     open(os.path.join(out, "index.html"), "w").write(open(os.path.join(HERE, "template.html")).read().replace("__CONTACT__", os.environ.get("CONTACT_EMAIL", "")))
 
     final = {}
