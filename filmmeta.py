@@ -59,7 +59,8 @@ def from_cineville(title):
         for p in (d.get("_embedded") or {}).get("productions", []):
             a = p.get("attributes") or {}
             if a.get("duration") and a.get("releaseYear"):
-                return {"yr": a["releaseYear"], "du": a["duration"], "dr": ", ".join((a.get("directors") or [])[:2])}
+                return {"yr": a["releaseYear"], "du": a["duration"], "dr": ", ".join((a.get("directors") or [])[:2]),
+                        "lg": sorted({str(x).lower().split("-")[0] for x in (a.get("spokenLanguages") or [])})[:3]}
         time.sleep(0.25)
     return None
 
@@ -77,7 +78,8 @@ def from_tmdb(title, key):
         yr = (d.get("release_date") or "")[:4]
         dirs = [c["name"] for c in (d.get("credits") or {}).get("crew", []) if c.get("job") == "Director"][:2]
         if d.get("runtime") and yr:
-            return {"yr": int(yr), "du": d["runtime"], "dr": ", ".join(dirs)}
+            return {"yr": int(yr), "du": d["runtime"], "dr": ", ".join(dirs),
+                    "lg": [l["iso_639_1"] for l in (d.get("spoken_languages") or []) if l.get("iso_639_1")][:3]}
         time.sleep(0.25)
     return None
 
@@ -92,13 +94,13 @@ def enrich(events, today):
         if e.get("c") != "film" or e.get("yr"): continue
         k = norm(e["t"])
         c = cache.get(k)
-        if c and c.get("yr"): continue
+        if c and c.get("yr") and c.get("v") == 2: continue
         if c and (today - datetime.date.fromisoformat(c.get("tried", now))).days < RETRY_AFTER_DAYS and bool(c.get("tmdb")) == bool(key): continue
         if k not in seen: seen.add(k); todo.append((k, e["t"]))
     done = 0
     for k, title in todo[:MAX_LOOKUPS]:
         m = from_cineville(title) or (from_tmdb(title, key) if key else None)
-        cache[k] = {**(m or {}), "tried": now, "tmdb": bool(key)}
+        cache[k] = {**(m or {}), "tried": now, "tmdb": bool(key), "v": 2}
         done += 1
         time.sleep(0.25)
     for e in events:
@@ -107,6 +109,7 @@ def enrich(events, today):
             if c and c.get("yr"):
                 e["yr"], e["du"] = c["yr"], c["du"]
                 if c.get("dr"): e["dr"] = c["dr"]
+                if c.get("lg") and not e.get("lg"): e["lg"] = c["lg"]
     json.dump(cache, open(CACHE, "w"), ensure_ascii=False, indent=0, sort_keys=True)
     films = [e for e in events if e.get("c") == "film"]
     print(f"film info: {sum(1 for e in films if e.get('yr'))} of {len(films)} screenings have year and length "

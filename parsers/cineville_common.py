@@ -70,6 +70,8 @@ def parse_venue(text, today, venue, key):
         pa = p.get("attributes") or {}
         if pa.get("releaseYear"): ev["yr"] = pa["releaseYear"]
         if pa.get("duration"): ev["du"] = pa["duration"]
+        if spoken: ev["lg"] = sorted({x.split("-")[0] for x in spoken})[:3]
+        if subs: ev["sb"] = sorted({x.split("-")[0] for x in subs})[:3]
         if pa.get("directors"): ev["dr"] = ", ".join(pa["directors"][:2])
         out.append(ev)
     return out
