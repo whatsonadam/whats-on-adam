@@ -165,16 +165,17 @@ details.filters>summary .state{font-weight:500;color:var(--ink);font-size:13px}
 .fcount{background:var(--red-ink);color:#fff;border-radius:999px;font:700 12px var(--body);min-width:22px;height:22px;display:inline-flex;align-items:center;justify-content:center;padding:0 6px;margin-right:6px}
 ul.ev.so{background:#2a2a2a;color:#fff;border-radius:4px;padding:1px 6px;font:700 10px var(--mono);text-transform:uppercase}
 #adedays{display:flex;gap:6px;overflow-x:auto;margin-top:10px}
-.films li{display:block;grid-template-columns:none}
-.films .tt{display:block;margin-bottom:2px}
+ul.ev.films li{display:block;grid-template-columns:none}
+.films .fl{min-width:0}
+.films .tt{display:block;margin-bottom:2px;text-decoration:none;font-weight:700}
 .films .show{white-space:nowrap}
 .films .shows{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
 .films .show{display:inline-flex;gap:6px;align-items:baseline;border:1px solid var(--line);border-radius:8px;padding:6px 9px;font-size:12px;color:var(--ink);text-decoration:none;background:#fff}
 .films .show b{font-weight:700}.films .show span{color:var(--muted)}
 .films .show:hover{border-color:var(--red-ink);color:var(--red-ink)}
 .so{background:#2a2a2a;color:#fff;border-radius:4px;padding:1px 6px;font:700 10px var(--mono);text-transform:uppercase}
-#adedays{display:flex;gap:6px;overflow-x:auto;margin-top:10px}
-#adedays .day{flex:none}
+#adedays,#cindays{display:flex;gap:6px;overflow-x:auto;margin-top:10px}
+#adedays .day,#cindays .day{flex:none}
 .linkbtn{font:inherit;color:var(--red-ink);background:none;border:0;padding:6px 0;text-decoration:underline;cursor:pointer}
 </style>
 </head>
@@ -541,28 +542,39 @@ function renderAde(){
   $("#adesold").onchange=ev=>{ adeState.hideSold=ev.target.checked; renderAde(); };
 }
 
-/* ---------- Cinema tab: every screening, grouped by film ---------- */
+/* ---------- Cinema tab: one day at a time, grouped by film ---------- */
 const filmKey = t => t.toLowerCase().replace(/\([^)]*\)|\[[^\]]*\]/g," ").replace(/[^\p{L}\p{N}]+/gu," ").trim();
+const CINEMA_RX = /cinema|film|kino|lab111|kriterion|rialto|\beye\b|uitkijk|studio\/?k|cavia|ventilator|cinetol|the movies|path[eé]|bioscoop|movie/i;
+const isCinemaVenue = v => CINEMA_RX.test(v||"");
+const OTHER_PLACES = "Other places (occasional screenings)";
 const CIN = FILMS.filter(e=>e.d>=todayIso);
-let cinState = {q:"", venue:"", day:""};
+let cinState = {day:"", q:"", venue:""};
+let cinTimer = null;
 function renderCin(){
-  const list=CIN.filter(e=>(!cinState.venue||e.v===cinState.venue)&&(!cinState.day||e.d===cinState.day)&&(!cinState.q||(e.t+" "+e.v).toLowerCase().includes(cinState.q.toLowerCase())));
+  const days=[...new Set(CIN.map(e=>e.d))].sort();
+  if(!days.length){ $("#cin").innerHTML=`<div class="dayhead"><h2>Cinema</h2></div><div class="empty">No screenings in the current listings.</div>`; return; }
+  if(!cinState.day || !days.includes(cinState.day)) cinState.day=days[0];
+  const cinemas=[...new Set(CIN.filter(e=>isCinemaVenue(e.v)).map(e=>e.v))].sort((a,b)=>a.localeCompare(b));
+  const hasOther=CIN.some(e=>!isCinemaVenue(e.v));
+  const q=cinState.q.toLowerCase();
+  const list=CIN.filter(e=>e.d===cinState.day
+    && (!cinState.venue || (cinState.venue===OTHER_PLACES ? !isCinemaVenue(e.v) : e.v===cinState.venue))
+    && (!q || (e.t+" "+e.v).toLowerCase().includes(q)));
   const films=new Map();
   list.forEach(e=>{ const k=filmKey(e.t)||e.t; if(!films.has(k)) films.set(k,{t:e.t,s:[]}); films.get(k).s.push(e); });
-  const arr=[...films.values()].sort((a,b)=>a.s[0].d.localeCompare(b.s[0].d)||(a.s[0].h||"99").localeCompare(b.s[0].h||"99")||a.t.localeCompare(b.t));
-  const cinemas=[...new Set(CIN.map(e=>e.v))].sort((a,b)=>a.localeCompare(b));
-  const days=[...new Set(CIN.map(e=>e.d))].sort();
-  $("#cin").innerHTML=`<div class="dayhead"><h2>Cinema</h2><span class="n">${films.size} films · ${list.length} screenings</span></div>
-    <p class="hint" style="margin-top:8px">Every screening from every cinema in the listings, grouped by film. Tap a time to open the cinema's page.</p>
+  const arr=[...films.values()].map(f=>({...f,s:f.s.sort((a,b)=>(a.h||"99").localeCompare(b.h||"99"))}))
+    .sort((a,b)=>(a.s[0].h||"99").localeCompare(b.s[0].h||"99")||a.t.localeCompare(b.t));
+  const d0=parse(cinState.day);
+  const cnt=d=>CIN.filter(e=>e.d===d).length;
+  $("#cin").innerHTML=`<div class="dayhead"><h2>Cinema</h2><span class="n">${arr.length} films · ${list.length} screenings on ${DWL[d0.getDay()].slice(0,3)} ${d0.getDate()} ${MON[d0.getMonth()]}</span></div>
+    <div class="days" id="cindays" role="listbox" aria-label="Pick a day">${days.slice(0,30).map(d=>{const x=parse(d);return `<button class="day${d===cinState.day?" on":""}" data-d="${d}"><span class="dw">${DWL[x.getDay()].slice(0,3)}</span><span class="dc">${x.getDate()} ${MON[x.getMonth()]}</span></button>`;}).join("")}</div>
     <div class="row" style="margin:10px 0"><input type="search" id="cinq" placeholder="Search film or cinema…" aria-label="Search films" value="${esc(cinState.q)}">
-      <select id="cinv" aria-label="Cinema"><option value="">All cinemas</option>${cinemas.map(v=>`<option${v===cinState.venue?" selected":""}>${esc(v)}</option>`).join("")}</select>
-      <select id="cind" aria-label="Day"><option value="">Any day</option>${days.map(d=>{const x=parse(d);return `<option value="${d}"${d===cinState.day?" selected":""}>${DWL[x.getDay()].slice(0,3)} ${x.getDate()} ${MON[x.getMonth()]}</option>`;}).join("")}</select></div>
-    <ul class="ev films">${arr.map(f=>{
-      const shows=f.s.sort((a,b)=>a.d.localeCompare(b.d)||(a.h||"99").localeCompare(b.h||"99"));
-      return `<li><div><span class="tt" style="cursor:default">${esc(f.t)}</span><div class="shows">${shows.map(e=>{const x=parse(e.d);return `<a class="show" href="${esc(e.u||"#")}" target="_blank" rel="noopener"><b>${DWL[x.getDay()].slice(0,3)} ${x.getDate()} ${MON[x.getMonth()]}${e.h?" "+e.h:""}</b><span>${esc(e.v||"")}</span></a>`;}).join("")}</div></div></li>`;}).join("")||'<div class="empty">No screenings match.</div>'}</ul>`;
-  const q=$("#cinq"); q.oninput=()=>{ cinState.q=q.value; const p=q.selectionStart; renderCin(); const n=$("#cinq"); n.focus(); n.setSelectionRange(p,p); };
+      <select id="cinv" aria-label="Cinema"><option value="">All cinemas</option>${cinemas.map(v=>`<option${v===cinState.venue?" selected":""}>${esc(v)}</option>`).join("")}${hasOther?`<option${cinState.venue===OTHER_PLACES?" selected":""}>${OTHER_PLACES}</option>`:""}</select></div>
+    <ul class="ev films">${arr.map(f=>`<li><div class="fl"><span class="tt">${esc(f.t)}</span><div class="shows">${f.s.map(e=>`<a class="show" href="${esc(e.u||"#")}" target="_blank" rel="noopener"><b>${e.h||"TBC"}</b><span>${esc(e.v||"")}</span></a>`).join("")}</div></div></li>`).join("")||'<div class="empty">Nothing matches on this day. Try another day or clear the search.</div>'}</ul>`;
+  document.querySelectorAll("#cindays .day").forEach(b=>b.onclick=()=>{ cinState.day=b.dataset.d; renderCin(); });
+  const qi=$("#cinq"); qi.oninput=()=>{ clearTimeout(cinTimer); cinTimer=setTimeout(()=>{ cinState.q=qi.value; const p=qi.selectionStart; renderCin(); const n=$("#cinq"); n.focus(); n.setSelectionRange(p,p); },250); };
   $("#cinv").onchange=ev=>{ cinState.venue=ev.target.value; renderCin(); };
-  $("#cind").onchange=ev=>{ cinState.day=ev.target.value; renderCin(); };
+  const on=$("#cindays .day.on"); if(on) on.scrollIntoView({block:"nearest",inline:"center"});
 }
 
 /* ---------- Exhibitions tab ---------- */
