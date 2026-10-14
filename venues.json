@@ -1573,6 +1573,12 @@
 "skip": true,
 "q": "not found"
 },
+"IISG": {
+"lat": 52.369,
+"lon": 4.93938,
+"q": "addr",
+"area": "Oost"
+},
 "IJ-zijde achter het Centraal Station": {
 "skip": true,
 "q": "not found"
@@ -1970,6 +1976,12 @@
 "lon": 4.93831,
 "q": "name",
 "area": "Oost"
+},
+"Museum of the Canals": {
+"lat": 52.36789,
+"lon": 4.88622,
+"q": "addr",
+"area": "Centrum"
 },
 "Museumplein": {
 "lat": 52.35871,
@@ -3198,6 +3210,12 @@
 "lon": 4.88129,
 "q": "name",
 "area": "Centrum"
+},
+"Vereniging De Trut": {
+"lat": 52.36775,
+"lon": 4.87213,
+"q": "addr",
+"area": "West"
 },
 "Vermeers Wijnkamer": {
 "skip": true,

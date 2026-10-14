@@ -18,7 +18,9 @@ AGG = {"radar", "offbeat", "amsterdamalternative", "iamsterdam"}
 # Page keys whose markdown feeds a parser of the same name
 MD_KEYS = ["mezrab", "vrankrijk", "aralez", "desering", "amsterdamalternative", "offbeat", "likeminds",
            "garagenoord", "skatecafe", "deceuvel", "nieuweanita", "verzetsmuseum", "wereldmuseum", "odessa",
-           "ot301", "ccamstel", "volkshotel", "lab111", "tolhuistuin", "dezwijger", "schooloflife"]
+           "ot301", "ccamstel", "volkshotel", "lab111", "tolhuistuin", "dezwijger", "schooloflife",
+           "verbroederij", "radion", "parallel", "opsolder", "grachten", "dehallen", "waterkant", "brecht", "iisg",
+           "frascati", "amsterdammuseum", "marineterrein"]
 
 SOURCES = {
     "mezrab": ("Mezrab", "https://mezrab.nl/full-program/"),
@@ -70,9 +72,24 @@ SOURCES = {
     "schooloflife": ("The School of Life", "https://www.theschooloflife.com/amsterdam/agenda/"),
     "offlineclub": ("The Offline Club", "https://luma.com/theofflineclubamsterdam"),
     "ra": ("Resident Advisor", "https://ra.co/events/nl/amsterdam"),
+    "verbroederij": ("De VerbroederIJ", "https://deverbroederij.nl/"),
+    "ruigoord": ("Ruigoord", "https://ruigoord.nl/programma/"),
+    "radion": ("RADION", "https://radion.amsterdam/program"),
+    "parallel": ("Parallel", "https://parallel.am/"),
+    "opsolder": ("Museum Ons' Lieve Heer op Solder", "https://opsolder.nl/agenda/"),
+    "grachten": ("Museum of the Canals", "https://grachten.museum/en/temporary-exhibitions/"),
+    "dehallen": ("De Hallen", "https://www.dehallen-amsterdam.nl/en/agenda"),
+    "waterkant": ("Waterkant", "https://www.waterkantamsterdam.nl/agenda"),
+    "brecht": ("Café Brecht", "https://www.cafebrecht.nl/agenda"),
+    "iisg": ("IISG", "https://iisg.amsterdam/nl/events"),
+    "frascati": ("Frascati", "https://www.frascatitheater.nl/nl/agenda"),
+    "amsterdammuseum": ("Amsterdam Museum", "https://www.amsterdammuseum.nl/en/see-and-do/agenda"),
+    "marineterrein": ("Marineterrein", "https://www.marineterrein.nl/agenda"),
+    "weekly": ("Weekly nights (entered by hand)", "https://github.com/whatsonadam/whats-on-adam/blob/main/parsers/weekly.py"),
 }
 NOTES = {"filmladder": "big chains, a week ahead; hidden in the Cinema tab until you tick the box","kriterion": "via Cineville, only a week or two ahead", "artis": "no dated events, daily programme",
-         "wethepeople": "check site for next event",         "vondelbunker": "included via radar.squat.net"}
+         "wethepeople": "check site for next event",         "vondelbunker": "included via radar.squat.net",
+         "weekly": "De Trut, Robin Food Kollektief and The Queen's Head: standing nights from each venue's site, check before you go"}
 
 NL = set("de het een en van voor met over wat hoe waarom jouw je jij niet ook naar uit bij als wordt worden zijn onze ons wij we leer leren samen avond middag lezing gesprek voorstelling kinderen jeugd verhaal nieuwe zonder tegen door dan kan maar deze dit welkom spreekuur buurt".split())
 EN = set("the and of for with about what how why your you not to from at is are our we learn together evening night talk english".split())
@@ -123,6 +140,9 @@ def collect(today):
         f = os.path.join(DATA, f"{key}.md")
         if not os.path.exists(f): per[key] = []; continue
         per[key] = run(key, importlib.import_module(key).parse, open(f, errors="ignore").read(), today)
+    f = os.path.join(DATA, "ruigoord.ics")
+    per["ruigoord"] = run("ruigoord", importlib.import_module("ruigoord").parse, open(f, errors="ignore").read(), today) if os.path.exists(f) else []
+    per["weekly"] = run("weekly", importlib.import_module("weekly").parse, "", today)   # standing nights entered by hand
     cav = importlib.import_module("cavia"); per["cavia"] = []
     for f in sorted(glob.glob(os.path.join(DATA, "cavia_*.md"))):
         per["cavia"] += run("cavia", cav.parse, open(f, errors="ignore").read(), today)

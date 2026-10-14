@@ -46,9 +46,21 @@ PAGES = {
     "tolhuistuin": "https://tolhuistuin.nl/en/agenda",
     "dezwijger": "https://dezwijger.nl/agenda",
     "schooloflife": "https://www.theschooloflife.com/amsterdam/agenda/",
+    "verbroederij": "https://deverbroederij.nl/",
+    "radion": "https://radion.amsterdam/program",
+    "parallel": "https://parallel.am/",
+    "opsolder": "https://opsolder.nl/agenda/",
+    "grachten": "https://grachten.museum/en/temporary-exhibitions/",
+    "dehallen": "https://www.dehallen-amsterdam.nl/en/agenda",
+    "waterkant": "https://www.waterkantamsterdam.nl/agenda",
+    "brecht": "https://www.cafebrecht.nl/agenda",
+    "iisg": "https://iisg.amsterdam/nl/events",
+    "frascati": "https://www.frascatitheater.nl/nl/agenda",
+    "amsterdammuseum": "https://www.amsterdammuseum.nl/en/see-and-do/agenda",
+    "marineterrein": "https://www.marineterrein.nl/agenda",
 }
 KEEP_HTML = {"cinetol"}
-LOAD_MORE = {"tolhuistuin"}
+LOAD_MORE = {"tolhuistuin", "dehallen", "frascati"}
 BLOCKED_OK = {"schooloflife"}  # Claude writes this file via WebFetch, keep it
 EMPTY_HINTS = ["Sorry, no events right now"]
 
@@ -107,6 +119,17 @@ async def render_all(pages, status):
 def curl(url, out):
     r = subprocess.run(["curl", "-sS", "-g", "-m", "60", "-A", UA, "-o", out, "-w", "%{http_code}", url], capture_output=True, text=True)
     return r.stdout.strip()
+
+def fetch_ruigoord(status):
+    """Ruigoord's calendar feed (iCal). One request per refresh; their robots.txt asks for a crawl delay."""
+    out = os.path.join(DATA, "ruigoord.ics")
+    code = curl("https://ruigoord.nl/programma/lijst/?ical=1", out)
+    try:
+        ok = "BEGIN:VCALENDAR" in open(out, errors="ignore").read()[:200]
+    except Exception:
+        ok = False
+    status["ruigoord"] = "ok" if ok else f"error {code} (not a calendar)"
+    if not ok and os.path.exists(out): os.remove(out)   # build.py then keeps the previous Ruigoord events
 
 def fetch_radar(status):
     url = ("https://radar.squat.net/api/1.2/search/events.json?facets[city][]=Amsterdam"
@@ -216,6 +239,7 @@ def main():
     if want: pages = {k: v for k, v in pages.items() if k in want or (k.startswith("cavia") and "cavia" in want)}
     status = {}
     if pages: asyncio.run(render_all(pages, status))
+    if not want or "ruigoord" in want: fetch_ruigoord(status)
     if not want or "radar" in want: fetch_radar(status)
     if not want or "iamsterdam" in want: fetch_iamsterdam(status)
     if not want or "ade" in want: fetch_ade(status, today)
