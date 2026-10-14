@@ -38,15 +38,14 @@ a{color:inherit}
 .tabs button[hidden]{display:none}
 
 /* connected day strip */
-.daybar{display:flex;border:var(--bw) solid var(--ink);background:var(--card)}
+.daybar{position:relative;display:flex;border:var(--bw) solid var(--ink);background:var(--card)}
 .daybar:has(.days:empty){display:none}
 .days{display:flex;flex:1;min-width:0;overflow-x:auto;scrollbar-width:none}
 .days::-webkit-scrollbar{display:none}
-.arr{flex:none;width:40px;border:0;background:transparent;color:var(--ink);font:800 30px/1 var(--body);cursor:pointer;border-radius:0;padding:0 0 4px}
-.arr:first-child{border-right:var(--bw) solid var(--ink)}
-.arr:last-child{border-left:var(--bw) solid var(--ink)}
-.arr:hover{background:var(--card2)}
-.arr:disabled{display:none}
+.arr{position:absolute;top:0;bottom:0;z-index:2;width:46px;border:0;color:var(--ink);font:800 30px/1 var(--body);cursor:pointer;border-radius:0;padding:0 0 4px;background:transparent}
+.arr:first-child{left:0;background:linear-gradient(to right,#fff 45%,rgba(255,255,255,0));text-align:left;padding-left:10px}
+.arr:last-child{right:0;background:linear-gradient(to left,#fff 45%,rgba(255,255,255,0));text-align:right;padding-right:10px}
+.arr:disabled{visibility:hidden}
 .mon{writing-mode:vertical-rl;transform:rotate(180deg);font:400 18px var(--display);letter-spacing:.14em;padding:6px 6px;background:var(--ink);color:#fff;text-transform:uppercase;flex:none}
 .e{display:grid;place-items:center;flex:1 0 92px;padding:8px 4px;border:0;border-left:var(--bw) solid var(--ink);font:800 12px var(--body);letter-spacing:.04em;text-transform:uppercase;background:var(--card);cursor:pointer}
 .e i{font:400 32px/1.1 var(--display);font-style:normal}
@@ -213,7 +212,7 @@ a{color:inherit}
   .xr .act{grid-column:2;grid-row:2;justify-self:start}
   .xr .tag{display:none}
   .dayhead h2{font-size:28px}
-  .e{flex:0 0 66px}.e i{font-size:28px}.arr{width:32px}
+  .e{flex:0 0 66px}.e i{font-size:28px}.arr{width:36px}
   .hr{margin-left:0;flex-wrap:wrap;white-space:normal}
   .sw{margin-left:4px}
   .cin{grid-template-columns:1fr}.cin b{padding-top:0}
