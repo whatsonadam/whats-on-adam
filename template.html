@@ -126,6 +126,7 @@ a{color:inherit}
 .ev .mid{min-width:0}
 .ev.soldout{opacity:.55}
 .sold{display:inline-block;margin-left:8px;font:800 10px var(--body);text-transform:uppercase;letter-spacing:.06em;border:var(--bw) solid var(--ink);padding:0 5px;vertical-align:middle}
+.fest{display:inline-block;margin-left:8px;font:700 10px var(--body);text-transform:uppercase;letter-spacing:.05em;color:#6b6760;border:1px solid #b3ada5;padding:0 5px;vertical-align:middle}
 .nl{font:700 10px var(--body);border:1px solid #888;padding:0 4px;color:#666;margin-left:6px}
 .tag{display:inline-block;color:#fff;font:800 11px var(--body);padding:2px 7px;text-transform:uppercase;letter-spacing:.05em;white-space:nowrap}
 .ib{width:34px;height:34px;border:var(--bw) solid #8a8683;background:transparent;color:#8a8683;display:grid;place-items:center;cursor:pointer;padding:0;opacity:.85;text-decoration:none}
@@ -190,8 +191,8 @@ a{color:inherit}
 .src-note{font-size:13px;color:#333;max-width:72ch}
 
 /* map */
-#map{height:min(60vh,460px);border:var(--bw) solid var(--ink);z-index:0;background:#E6E2D8}
-#map .leaflet-tile-pane{filter:grayscale(.85) contrast(.95) brightness(1.05)}
+#map,#exmap{height:min(60vh,460px);border:var(--bw) solid var(--ink);z-index:0;background:#E6E2D8}
+#map .leaflet-tile-pane,#exmap .leaflet-tile-pane{filter:grayscale(.85) contrast(.95) brightness(1.05)}
 .pin{background:var(--hred);color:#fff;border:2px solid #151213;border-radius:50%;display:flex;align-items:center;justify-content:center;font:800 12px var(--body)}
 .leaflet-popup-content{font:13px/1.4 var(--body);margin:10px 12px}
 .leaflet-popup-content ul{margin:6px 0 0;padding:0;list-style:none;max-height:220px;overflow:auto}
@@ -254,8 +255,8 @@ a{color:inherit}
 
   <section id="view-exh" hidden>
     <div class="dayhead"><h2>Exhibitions</h2><span class="hr"><span class="n" id="excount"></span><input type="search" id="exq" placeholder="Search" aria-label="Search exhibitions"></span></div>
-    <div id="exfilters"></div>
     <div class="viewsw" id="exsw" role="group" aria-label="Show"><button data-a="ex.view" data-v="all" class="on"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="square"><path d="M4 6h16M4 12h16M4 18h16"/></svg>All</button><button data-a="ex.view" data-v="mine"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square"><path d="M6 3h12v18l-6-4.5L6 21z"/></svg>My list (<span id="wantcnt">0</span>)</button></div>
+    <div id="exfilters"></div>
     <div id="exlist"></div>
   </section>
 
@@ -289,7 +290,7 @@ const ALLEV = DATA.events.filter(e => /[\p{L}\p{N}]/u.test(e.t || ""));
 const isScreening = e => e.c==="film" && !(e.ed && e.ed!==e.d && (new Date(e.ed)-new Date(e.d))/864e5>=2);
 const FILMS = ALLEV.filter(isScreening);          // single screenings live in the Cinema tab
 const ADEV = ALLEV.filter(e=>e.ade && (e.ed||e.d)>=new Date().toISOString().slice(0,10));   // temporary ADE tab
-const EVENTS = ALLEV.filter(e=>!isScreening(e) && !e.ade);
+const EVENTS0 = ALLEV.filter(e=>!isScreening(e) && !e.ade);
 const SOURCES = DATA.sources;
 const UPDATED = new Date(DATA.updated.replace("Z",":00Z"));
 const SNAP = `${UPDATED.getFullYear()}-${String(UPDATED.getMonth()+1).padStart(2,"0")}-${String(UPDATED.getDate()).padStart(2,"0")}`;
@@ -303,7 +304,6 @@ const CATMAP = {exhibition:"community",comedy:"theatre",dance:"music",kids:"comm
 const QUEER_RX = /queer|lgbt|lhbt|hbtq|\bgay\b|lesbi|\bpride\b|\bdrag\b|\broze\b|pink dance|dyke|sapphic|transgender|\btrans (rights|pride|day|women|people)|non-?binary/i;
 const isQueer = e => QUEER_RX.test((e.t||"")+" "+(e.b||""));
 const catOf = e => (e.c!=="film" && isQueer(e)) ? "queer" : CATMAP[e.c] || (CATS.some(c=>c[0]===e.c) ? e.c : "other");
-const PRES = new Set(EVENTS.map(catOf));
 const TODS = [["all","Any"],["morning","Morning"],["afternoon","Afternoon"],["evening","Evening"],["late","Late"]];
 const GROUPS = [["morning","Morning","until 12:00"],["afternoon","Afternoon","12:00 – 17:00"],["evening","Evening","17:00 – 22:00"],["late","Late night","from 22:00"],["notime","Time to be confirmed",""]];
 const FREE_RX = /^\s*(free|gratis)\b/i;
@@ -320,6 +320,18 @@ function esc(s){ return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",
 function load(k,f){ try { const v=localStorage.getItem(k); return v?JSON.parse(v):f; } catch(e){ return f; } }
 function put(k,v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch(e){} }
 const todayIso = iso(new Date());
+
+/* Rule of thumb: anything you can add to a calendar is an event (Agenda), anything you add to a list is an exhibition.
+   Festival umbrella entries are not events, their own shows are; long unexplained runs are hidden for now. */
+const runLen = e => e.ed ? Math.round((parse(e.ed)-parse(e.d))/864e5)+1 : 1;
+const isRun = e => runLen(e)>=3;
+const HIDDEN = new Set();
+EVENTS0.filter(u=>isRun(u) && u.c!=="exhibition" && runLen(u)<=14 && /festival|fest\b|hellfest/i.test(u.t)).forEach(u=>{
+  const kids=EVENTS0.filter(k=>k!==u && !isRun(k) && k.v===u.v && k.d>=u.d && k.d<=u.ed && k.c!=="exhibition");
+  if(kids.length>=2){ kids.forEach(k=>{ k.fest=u.t.replace(/\s*20\d\d$/,""); }); HIDDEN.add(u); }
+});
+const EVENTS = EVENTS0.filter(e=>!HIDDEN.has(e) && !(isRun(e) && e.c!=="exhibition" && runLen(e)>4));
+const PRES = new Set(EVENTS.map(catOf));
 
 /* ---------- small UI pieces ---------- */
 const chipH = (label,on,a,v,color) => `<button class="chip${on?" on":""}" style="--c:${color}" data-a="${a}" data-v="${esc(v)}" aria-pressed="${on}">${esc(label)}</button>`;
@@ -452,7 +464,7 @@ function calUrl(e){
     if(en<=s) en=new Date(en.getTime()+864e5);
     p.set("dtstart",z(s)); p.set("dtend",z(en));
   } else {
-    const n=parse(e.d); n.setDate(n.getDate()+1);
+    const n=parse(e.ed||e.d); n.setDate(n.getDate()+1);
     p.set("dtstart",e.d); p.set("dtend",iso(n)); p.set("allday","true");
   }
   return "https://ics.agical.io/?"+p.toString();
@@ -468,13 +480,14 @@ const wantLabel = on => on ? "✓ On my list" : "+ Want to see";
 /* ---------- Event rows ---------- */
 function metaLine(e){
   const bits=[e.v, e.ar, e.p].filter(Boolean).map(esc);
-  return bits.join(" · ") + (e.nl?'<span class="nl" title="Looks Dutch-language">NL</span>':"");
+  return bits.join(" · ") + (e.fest?`<span class="fest">Part of ${esc(e.fest)}</span>`:"") + (e.nl?'<span class="nl" title="Looks Dutch-language">NL</span>':"");
 }
 function rowEv(e){
   const i=VISIBLE.push(e)-1; const src=SOURCES[e.s];
-  let tm = e.h ? `${e.h}${e.eh?`<small>– ${e.eh}</small>`:""}` : `<small>TBC</small>`;
-  if(span(e)) tm=`<small>until</small>${fmt(e.ed)}`;
-  return `<div class="ev${e.so?" soldout":""}"><div class="t${span(e)?" sp":""}">${tm}</div><div class="mid"><a class="tt" href="${esc(e.u||src?.url||"#")}" target="_blank" rel="noopener">${esc(e.t)}</a>${e.so?'<span class="sold">Sold out</span>':""}<p>${metaLine(e)}</p>${e.b?`<p class="bl">${esc(e.b)}</p>`:""}</div>${tagH(tagFor(e))}<a class="ib cal" href="#" data-i="${i}" target="_blank" rel="noopener" title="Add to calendar" aria-label="Add to calendar">${CAL_ICON}</a></div>`;
+  let tm = e.h ? `${e.h}${e.eh&&!span(e)?`<small>– ${e.eh}</small>`:""}` : `<small>TBC</small>`;
+  if(span(e) && !e.h) tm=`<small>until</small>${fmt(e.ed)}`;
+  else if(span(e)) tm+=`<small>until ${fmt(e.ed)}</small>`;
+  return `<div class="ev${e.so?" soldout":""}"><div class="t${span(e)&&!e.h?" sp":""}">${tm}</div><div class="mid"><a class="tt" href="${esc(e.u||src?.url||"#")}" target="_blank" rel="noopener">${esc(e.t)}</a>${e.so?'<span class="sold">Sold out</span>':""}<p>${metaLine(e)}</p>${e.b?`<p class="bl">${esc(e.b)}</p>`:""}</div>${tagH(tagFor(e))}<a class="ib cal" href="#" data-i="${i}" target="_blank" rel="noopener" title="Add to calendar" aria-label="Add to calendar">${CAL_ICON}</a></div>`;
 }
 const daysLeft = (endIso) => Math.round((parse(endIso)-parse(todayIso))/864e5);
 function leftText(e){
@@ -489,7 +502,10 @@ function rowX(e,ws,opens){
 /* ---------- Agenda ---------- */
 const counts = {};
 for(let d=parse(first); iso(d)<=last; d.setDate(d.getDate()+1)) counts[iso(d)] = 0;
-EVENTS.forEach(e=>{ if(!span(e) && counts[e.d]!==undefined) counts[e.d]++; });
+EVENTS.forEach(e=>{
+  if(!span(e)){ if(counts[e.d]!==undefined) counts[e.d]++; }
+  else if(e.c!=="exhibition") for(const k of Object.keys(counts)) if(k>=e.d && k<=e.ed) counts[k]++;
+});
 function setDay(k){
   if(k<first) k=first; if(k>last) k=last;
   state.day=k; $("#days").innerHTML=dayStripHtml(counts,k,"ag.day"); scrollDay("#days"); render();
@@ -519,15 +535,15 @@ function render(){
   VISIBLE=[];
   const d=parse(state.day);
   const todays=EVENTS.filter(e=>onDay(e,state.day)&&passes(e));
-  const single=todays.filter(e=>!span(e)).sort((a,b)=>(a.h||"99").localeCompare(b.h||"99"));
-  const running=todays.filter(span);
+  const single=todays.filter(e=>!span(e)||e.c!=="exhibition").sort((a,b)=>(a.h||"99").localeCompare(b.h||"99"));
+  const running=todays.filter(e=>span(e)&&e.c==="exhibition");
   const tc={all:single.length,morning:0,afternoon:0,evening:0,late:0,notime:0};
   single.forEach(e=>tc[todOf(e)]++);
   if(state.tod!=="all" && !tc[state.tod]) state.tod="all";
   lastTc=tc;
   const shown = state.tod==="all" ? single : single.filter(e=>todOf(e)===state.tod);
   $("#agtitle").textContent=`${DWL[d.getDay()]} ${d.getDate()} ${MON[d.getMonth()]}`;
-  $("#agcount").innerHTML=`${single.length} events${running.length?` · <button class="linkbtn" data-a="go.exh">${running.length} exhibitions and festivals running</button>`:""}`;
+  $("#agcount").innerHTML=`${single.length} events${running.length?` · <button class="linkbtn" data-a="go.exh">${running.length} exhibitions running</button>`:""}`;
   drawAgFilters();
   if(state.view==="map"){
     $("#aglist").innerHTML=`<div id="map"></div><div class="maphint">${shown.filter(e=>e.la).length} of ${shown.length} events have a known location. Tap a pin for what's on there.</div>`;
@@ -542,10 +558,10 @@ function render(){
 let qTimer; $("#q").addEventListener("input",e=>{clearTimeout(qTimer);qTimer=setTimeout(()=>{state.q=e.target.value.trim();render();},150);});
 
 let MAP=null;
-function drawMap(list){
+function drawMap(list,id="map"){
   if(MAP){ MAP.remove(); MAP=null; }
-  if(!window.L){ $("#map").innerHTML='<div class="empty">The map could not load. Check your connection.</div>'; return; }
-  MAP=L.map("map",{scrollWheelZoom:false}).setView([52.3676,4.9041],13);
+  if(!window.L){ $("#"+id).innerHTML='<div class="empty">The map could not load. Check your connection.</div>'; return; }
+  MAP=L.map(id,{scrollWheelZoom:false}).setView([52.3676,4.9041],13);
   L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,
     attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(MAP);
   const groups={};
@@ -556,7 +572,7 @@ function drawMap(list){
     const n=evs.length, size=n>9?34:n>1?28:22;
     const icon=L.divIcon({className:"",html:`<div class="pin" style="width:${size}px;height:${size}px">${n>1?n:""}</div>`,iconSize:[size,size],iconAnchor:[size/2,size/2]});
     const venue=evs[0].v.split(" · ")[0];
-    const items=evs.sort((a,b)=>(a.h||"99").localeCompare(b.h||"99")).map(e=>`<li><span>${e.h||"–"}</span><a href="${esc(e.u||"#")}" target="_blank" rel="noopener">${esc(e.t)}</a></li>`).join("");
+    const items=evs.sort((a,b)=>(a.h||"99").localeCompare(b.h||"99")).map(e=>`<li><span>${e.h||(span(e)?"until "+fmt(e.ed):"–")}</span><a href="${esc(e.u||"#")}" target="_blank" rel="noopener">${esc(e.t)}</a></li>`).join("");
     L.marker([la,lo],{icon}).addTo(MAP).bindPopup(`<b>${esc(venue)}</b>${evs[0].ar?` · ${esc(evs[0].ar)}`:""}<ul>${items}</ul>`);
   }
   if(pts.length>1) MAP.fitBounds(pts,{padding:[30,30],maxZoom:14});
@@ -722,7 +738,7 @@ function renderCin(){
 let cinTimer; $("#cinq").addEventListener("input",e=>{ clearTimeout(cinTimer); cinTimer=setTimeout(()=>{ cinState.q=e.target.value.trim(); renderCin(); },200); });
 
 /* ---------- Exhibitions tab (All | My list) ---------- */
-const EXH = EVENTS.filter(e=>span(e) && (e.ed||e.d)>=todayIso);
+const EXH = EVENTS.filter(e=>span(e) && e.c==="exhibition" && (e.ed||e.d)>=todayIso);
 const EX_SUBJ = [["Art","#A8504B"],["Photography","#46698F"],["Design","#775A8E"],["Science","#45808A"],["History","#7A6A3F"],["Other","#8A857F"]];
 const EX_RX = [
   ["Photography", /fotograf|photo|\bfoam\b|\bfoto/i],
@@ -738,7 +754,7 @@ function exSubject(e){
   return e.c==="exhibition" ? "Art" : "Other";
 }
 const EX_STATUS = [["any","Any"],["ending","Ending within two weeks"],["running","Running"],["opening","Opening soon"]];
-const exState = {view:"all", q:"", status:"any", sub:null};
+const exState = {view:"all", q:"", status:"any", sub:null, map:false};
 EXH.forEach(e=>{ e.exs=exSubject(e); });
 const exMatch = e => !exState.q || (e.t+" "+(e.v||"")).toLowerCase().includes(exState.q.toLowerCase());
 function renderExh(){
@@ -750,7 +766,8 @@ function renderExh(){
   const subs=EX_SUBJ.filter(([k])=>EXH.some(e=>e.exs===k)), sOn=exState.sub||new Set(subs.map(x=>x[0]));
   $("#exfilters").innerHTML=`<div class="fpanel">
     <div class="row"><span class="lab">Status</span>${segH("ex.status",EX_STATUS,exState.status)}</div>
-    <div class="row"><span class="lab">Subject</span>${subs.map(([k,c])=>chipH(k,sOn.has(k),"ex.sub",k,c)).join("")}${allNoneH("ex.suball",subs.every(([k])=>sOn.has(k)))}</div></div>`;
+    <div class="row"><span class="lab">Subject</span>${subs.map(([k,c])=>chipH(k,sOn.has(k),"ex.sub",k,c)).join("")}${allNoneH("ex.suball",subs.every(([k])=>sOn.has(k)))}</div></div>
+    <div class="viewsw" role="group" aria-label="View"><button data-a="ex.map" data-v="list" class="${exState.map?"":"on"}" aria-pressed="${!exState.map}">${VIEW_ICONS.list}List</button><button data-a="ex.map" data-v="map" class="${exState.map?"on":""}" aria-pressed="${exState.map}">${VIEW_ICONS.map}Map</button></div>`;
   const ex=EXH.filter(e=>exMatch(e)&&(!exState.sub||exState.sub.has(e.exs)));
   const running=ex.filter(e=>e.d<=todayIso);
   const st=exState.status;
@@ -760,6 +777,11 @@ function renderExh(){
   const grp=(title,list,opens)=>list.length?grpH(title,"",list.length)+`<div class="evl">${list.map(e=>rowX(e,ws,opens)).join("")}</div>`:"";
   const n=ending.length+later.length+opening.length;
   $("#excount").textContent=`${n} on now or opening soon`;
+  if(exState.map){
+    const all=[...ending,...later,...opening];
+    $("#exlist").innerHTML=`<div id="exmap" class="mapbox"></div><div class="maphint">${all.filter(e=>e.la).length} of ${all.length} exhibitions have a known location. Tap a pin for what's on there.</div>`;
+    drawMap(all,"exmap"); return;
+  }
   $("#exlist").innerHTML = n ? grp("Ending within two weeks",ending,false)+grp("Running",later,false)+grp("Opening soon",opening,true) : `<div class="empty">No exhibitions match.</div>`;
 }
 function renderMine(){
@@ -826,6 +848,7 @@ const ACT = {
   "cin.more":v=>{ cinState.exp.add(v); swapCard(v); },
   "cin.open":v=>{ toggleIn(cinState.open,v); swapCard(v); },
 
+  "ex.map":v=>{ exState.map=v==="map"; renderExh(); },
   "ex.status":v=>{ exState.status=v; renderExh(); },
   "ex.sub":v=>{ const all=EX_SUBJ.map(x=>x[0]).filter(k=>EXH.some(e=>e.exs===k)); const t=new Set(exState.sub||all); toggleIn(t,v); exState.sub=all.every(k=>t.has(k))?null:t; renderExh(); },
   "ex.suball":()=>{ exState.sub=exState.sub?null:new Set(); renderExh(); },
