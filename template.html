@@ -217,6 +217,22 @@ a{color:inherit}
   .sw{margin-left:4px}
   .cin{grid-template-columns:1fr}.cin b{padding-top:0}
 }
+
+/* ADE glitch strobe: see-through flashes over the page, never blocks clicks */
+#adefx{position:fixed;inset:0;z-index:90;display:none;place-items:center;pointer-events:none;overflow:hidden}
+#adefx.on{display:grid;animation:adestrobe .95s steps(1) both}
+#adefx b{position:relative;font:400 clamp(90px,28vw,260px)/1 Anton,Impact,sans-serif;color:#fff;text-transform:uppercase;opacity:.9;animation:adejit .12s steps(2) infinite,adefade .95s linear forwards}
+#adefx b:before,#adefx b:after{content:attr(data-t);position:absolute;left:0;top:0;mix-blend-mode:screen}
+#adefx b:before{color:#ff2d2d;transform:translate(-8px,0);animation:adesl .5s steps(3) infinite}
+#adefx b:after{color:#19e3ff;transform:translate(8px,0);animation:adesl .4s steps(3) infinite reverse}
+#adefx i{position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(255,255,255,.07) 0 2px,transparent 2px 5px)}
+#view-ade.glitchin{animation:adeshake .95s steps(1)}
+@keyframes adestrobe{0%{background:rgba(17,17,17,.55)}15%{background:rgba(255,213,0,.5)}30%{background:rgba(17,17,17,.4)}45%{background:rgba(194,58,53,.5)}60%{background:rgba(17,17,17,.3)}75%{background:rgba(255,213,0,.35)}100%{background:transparent}}
+@keyframes adeshake{0%{transform:translate(-6px,2px);filter:hue-rotate(40deg)}12%{transform:translate(5px,-3px) skewX(3deg)}25%{transform:translate(-3px,0);filter:none}40%{transform:translate(6px,3px) skewX(-4deg);filter:hue-rotate(-60deg)}55%{transform:translate(-2px,-2px);filter:none}70%{transform:translate(3px,1px)}85%{transform:translate(-1px,0)}100%{transform:none}}
+@keyframes adejit{0%{transform:translate(0,0)}50%{transform:translate(3px,-2px)}}
+@keyframes adefade{0%,60%{opacity:.9}100%{opacity:0}}
+@keyframes adesl{0%{clip-path:inset(10% 0 55% 0)}33%{clip-path:inset(60% 0 12% 0)}66%{clip-path:inset(30% 0 40% 0)}100%{clip-path:inset(5% 0 80% 0)}}
+@media(prefers-reduced-motion:reduce){#adefx,#adefx *,#view-ade.glitchin{animation:none!important}#adefx{display:none!important}}
 </style>
 </head>
 <body>
@@ -239,6 +255,7 @@ a{color:inherit}
     <button role="tab" id="tab-ade" class="ade" aria-selected="false" hidden>ADE</button>
   </nav>
 
+  <div id="adefx" aria-hidden="true"><b data-t="ADE">ADE</b><i></i></div>
   <section id="view-agenda">
     <div class="daybar"><button class="arr" data-a="day.prev" data-for="days" aria-label="Earlier days">‹</button><div class="days" id="days" role="listbox" aria-label="Pick a day"></div><button class="arr" data-a="day.next" data-for="days" aria-label="Later days">›</button></div>
     <div class="dayhead"><h2 id="agtitle"></h2><span class="hr"><span class="n" id="agcount"></span><input type="search" id="q" placeholder="Search" aria-label="Search events"></span></div>
@@ -442,7 +459,14 @@ function showTab(which){
   ({agenda:render,ade:renderAde,cin:renderCin,exh:renderExh,src:()=>{}})[which]();
   positionThumbs();
 }
-VIEWS.slice(0,4).forEach(k=>$("#tab-"+k).onclick=()=>showTab(k));
+let adeTimer;
+function adeGlitch(){
+  const fx=$("#adefx"),v=$("#view-ade");
+  clearTimeout(adeTimer); fx.classList.remove("on"); v.classList.remove("glitchin"); void fx.offsetWidth;
+  fx.classList.add("on"); v.classList.add("glitchin");
+  adeTimer=setTimeout(()=>{fx.classList.remove("on"); v.classList.remove("glitchin")},1000);
+}
+VIEWS.slice(0,4).forEach(k=>$("#tab-"+k).onclick=()=>{ const was=$("#tab-"+k).getAttribute("aria-selected")==="true"; showTab(k); if(k==="ade"&&!was) adeGlitch(); });
 $("#srclink").onclick=ev=>{ ev.preventDefault(); showTab("src"); window.scrollTo({top:0}); };
 
 /* ---------- Calendar link (built only for the clicked event) ---------- */
