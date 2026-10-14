@@ -922,6 +922,14 @@
 },
 "chk": "2026-10-11"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/adult-dvd": {
+"dates": {
+"2026-11-12": {
+"h": "19:30"
+}
+},
+"chk": "2026-10-14"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/authentieke-uitvoering-van-handels-messiah": {
 "dates": {
 "2026-12-22": {
@@ -1237,6 +1245,14 @@
 }
 },
 "chk": "2026-10-11"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/the-chameleons": {
+"dates": {
+"2026-12-01": {
+"h": "18:30"
+}
+},
+"chk": "2026-10-14"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/the-clockworks": {
 "dates": {
