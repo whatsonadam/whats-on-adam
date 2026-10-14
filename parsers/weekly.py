@@ -22,6 +22,11 @@ RULES = [
      "u": "https://queenshead.nl/events", "nth": 1},
     {"title": "Showdown Monday", "venue": "The Queen's Head", "days": [0], "h": None, "c": "other",
      "u": "https://queenshead.nl/events", "nth": -1},
+    # jazzcafealto.nl: live music every night, doors 20:30 (hours given by Gil from the venue)
+    {"title": "Live jazz and blues", "venue": "Jazz Café Alto", "days": [0, 1, 2, 3, 6], "h": "21:30", "eh": "01:30",
+     "c": "music", "u": "https://www.jazzcafealto.nl/", "nth": None, "b": "Doors 20:30. Different musicians every night, check the venue for who plays"},
+    {"title": "Live jazz and blues", "venue": "Jazz Café Alto", "days": [4, 5], "h": "21:30", "eh": "02:30",
+     "c": "music", "u": "https://www.jazzcafealto.nl/", "nth": None, "b": "Doors 20:30. Different musicians every night, check the venue for who plays"},
     # trutfonds.nl: party every Sunday night since 1985
     {"title": "Sunday night party", "venue": "Vereniging De Trut", "days": [6], "h": "22:00", "eh": "03:00", "c": "club",
      "u": "http://www.trutfonds.nl/", "nth": None},

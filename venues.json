@@ -4350,5 +4350,11 @@
 "lon": 4.88548,
 "q": "name",
 "area": "Centrum"
+},
+"Jazz Café Alto": {
+"lat": 52.3644,
+"lon": 4.8832,
+"q": "addr",
+"area": "Centrum"
 }
 }

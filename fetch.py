@@ -102,7 +102,7 @@ async def render_one(browser, key, url, sem, status):
             if key in KEEP_HTML:
                 open(os.path.join(DATA, f"{key}.html"), "w").write(html)
             open(os.path.join(DATA, f"{key}.md"), "w").write(f"SOURCE: {url}\n\n" + to_md(html))
-            status[key] = "ok"
+            status[key] = f"ok ({len(html)//1000}k html)"
         except Exception as e:
             status[key] = f"error: {str(e)[:80]}"
         finally:
