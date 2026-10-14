@@ -229,6 +229,7 @@ a{color:inherit}
 #adefx b:before,#adefx b:after{content:attr(data-t);position:absolute;left:0;top:0;mix-blend-mode:screen}
 #adefx b:before{color:#ff2d2d;transform:translate(-8px,0);animation:adesl .5s steps(3) infinite}
 #adefx b:after{color:#19e3ff;transform:translate(8px,0);animation:adesl .4s steps(3) infinite reverse}
+#adefx em{position:absolute;left:50%;top:50%;margin-top:clamp(40px,13vw,120px);font:400 clamp(30px,9vw,64px)/1 Anton,Impact,sans-serif;font-style:normal;text-transform:uppercase;background:#FFD500;color:#151213;padding:4px 14px;box-shadow:5px 5px 0 #151213;transform:translateX(-50%) rotate(-4deg);animation:adefade .95s linear forwards;white-space:nowrap}
 #adefx i{position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(255,255,255,.07) 0 2px,transparent 2px 5px)}
 #view-ade.glitchin{animation:adeshake .95s steps(1)}
 @keyframes adestrobe{0%{background:rgba(17,17,17,.55)}15%{background:rgba(255,213,0,.5)}30%{background:rgba(17,17,17,.4)}45%{background:rgba(194,58,53,.5)}60%{background:rgba(17,17,17,.3)}75%{background:rgba(255,213,0,.35)}100%{background:transparent}}
@@ -259,7 +260,7 @@ a{color:inherit}
     <button role="tab" id="tab-ade" class="ade" aria-selected="false" hidden>ADE</button>
   </nav>
 
-  <div id="adefx" aria-hidden="true"><b data-t="ADE">ADE</b><i></i></div>
+  <div id="adefx" aria-hidden="true"><b data-t="ADE">ADE</b><em>30 YEARS</em><i></i></div>
   <section id="view-agenda">
     <div class="daybar"><button class="arr" data-a="day.prev" data-for="days" aria-label="Earlier days">‹</button><div class="days" id="days" role="listbox" aria-label="Pick a day"></div><button class="arr" data-a="day.next" data-for="days" aria-label="Later days">›</button></div>
     <div class="dayhead"><h2 id="agtitle"></h2><span class="hr"><span class="n" id="agcount"></span><input type="search" id="q" placeholder="Search" aria-label="Search events"></span></div>
