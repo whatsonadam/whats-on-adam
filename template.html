@@ -238,6 +238,12 @@ a{color:inherit}
 @keyframes adefade{0%,60%{opacity:.9}100%{opacity:0}}
 @keyframes adesl{0%{clip-path:inset(10% 0 55% 0)}33%{clip-path:inset(60% 0 12% 0)}66%{clip-path:inset(30% 0 40% 0)}100%{clip-path:inset(5% 0 80% 0)}}
 @media(prefers-reduced-motion:reduce){#adefx,#adefx *,#view-ade.glitchin{animation:none!important}#adefx{display:none!important}}
+/* Easter egg: Queer as the only type on. Heading prints out of register (pink and cyan plates), then settles. */
+.mp{display:inline-block;animation:mis 1.3s steps(1,end) forwards}
+.mps{display:inline-block;text-shadow:2px 0 #FF4FA3,-1px 0 var(--yel)}
+.eggd{font:800 13px var(--body);text-transform:uppercase;letter-spacing:.08em;color:#555;margin-left:10px;vertical-align:middle}
+@keyframes mis{0%{text-shadow:-7px 0 #FF4FA3,7px 0 #19C3E6}18%{text-shadow:6px 1px #FF4FA3,-6px -1px #19C3E6}36%{text-shadow:-4px 0 #FF4FA3,5px 1px #19C3E6}55%{text-shadow:3px 0 #FF4FA3,-3px 0 #19C3E6}75%{text-shadow:-2px 0 #FF4FA3,2px 0 #19C3E6}100%{text-shadow:2px 0 #FF4FA3,-1px 0 var(--yel)}}
+@media(prefers-reduced-motion:reduce){.mp{animation:none;text-shadow:2px 0 #FF4FA3,-1px 0 var(--yel)}}
 </style>
 </head>
 <body>
@@ -420,6 +426,7 @@ const state = {
 const span = e => e.ed && (parse(e.ed)-parse(e.d))/864e5 >= 2;
 const onDay = (e,d) => span(e) ? (e.d<=d && e.ed>=d) : e.d===d;
 const wantable = e => span(e) || e.c==="exhibition";
+let egg=false, eggFresh=false;   // easter egg: set only by tapping a type chip so Queer is the only one on, never from saved filters
 function todOf(e){
   if(!e.h) return e.ad ? "allday" : "notime";
   const h=+e.h.slice(0,2);
@@ -573,7 +580,9 @@ function render(){
   if(state.tod!=="all" && !tc[state.tod]) state.tod="all";
   lastTc=tc;
   const shown = state.tod==="all" ? single : single.filter(e=>todOf(e)===state.tod);
-  $("#agtitle").textContent=`${DWL[d.getDay()]} ${d.getDate()} ${MON[d.getMonth()]}`;
+  if(egg && state.cats.size===1 && state.cats.has("queer")){
+    $("#agtitle").innerHTML=`<span class="${eggFresh?"mp":"mps"}">The gay agenda</span> <small class="eggd">${DW[d.getDay()]} ${d.getDate()} ${MON[d.getMonth()]}</small>`; eggFresh=false;
+  } else { egg=false; $("#agtitle").textContent=`${DWL[d.getDay()]} ${d.getDate()} ${MON[d.getMonth()]}`; }
   $("#agcount").innerHTML=`${single.length} events${running.length?` · <button class="linkbtn" data-a="go.exh">${running.length} exhibitions running</button>`:""}`;
   drawAgFilters();
   if(state.view==="map"){
@@ -843,7 +852,7 @@ const ACT = {
   "go.exh":()=>showTab("exh"),
   "ag.day":v=>setDay(v),
   "ag.tod":v=>{ state.tod=v; render(); },
-  "ag.cat":v=>{ toggleIn(state.cats,v); save(); render(); },
+  "ag.cat":v=>{ toggleIn(state.cats,v); egg=eggFresh=state.cats.size===1 && state.cats.has("queer"); save(); render(); },
   "ag.catall":()=>{ const sh=CATS.filter(c=>PRES.has(c[0])); const all=sh.every(c=>state.cats.has(c[0])); state.cats=all?new Set():new Set(CATS.map(c=>c[0])); save(); render(); },
   "ag.panel":v=>{ state.panel=state.panel===v?"":v; drawAgFilters(); },
   "ag.area":v=>{ toggleIn(state.areas,v); save(); render(); },
