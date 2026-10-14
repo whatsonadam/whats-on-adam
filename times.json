@@ -867,6 +867,10 @@
 "h": "20:30",
 "chk": "2026-10-11"
 },
+"https://www.cinetol.nl/events/otto-club": {
+"h": "20:00",
+"chk": "2026-10-14"
+},
 "https://www.cinetol.nl/events/pulso-ade": {
 "h": "15:00",
 "chk": "2026-10-11"
@@ -1389,6 +1393,19 @@
 },
 "chk": "2026-10-11"
 },
+"https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/for-love-and-health-of-house": {
+"dates": {
+"2026-10-22": {
+"h": "10:00",
+"eh": "19:00"
+},
+"2026-10-23": {
+"h": "09:00",
+"eh": "12:00"
+}
+},
+"chk": "2026-10-14"
+},
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/goldfish": {
 "dates": {
 "2026-10-24": {
@@ -1648,6 +1665,19 @@
 }
 },
 "chk": "2026-10-11"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/nun-the-wiser": {
+"dates": {
+"2026-11-13": {
+"h": "20:00",
+"eh": "22:00"
+},
+"2026-11-14": {
+"h": "14:00",
+"eh": "16:00"
+}
+},
+"chk": "2026-10-14"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/out-of-the-stillness": {
 "dates": {
