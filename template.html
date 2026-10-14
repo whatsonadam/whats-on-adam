@@ -16,8 +16,8 @@ button,select,input,textarea{color:#151213;font-family:inherit}
 input::placeholder{color:#777}
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--ink);font:15px/1.5 var(--body);margin:0;padding:20px 16px 56px}
-.wrap{max-width:1100px;margin:0 auto;display:grid;gap:12px}
-section{display:grid;gap:12px}section[hidden]{display:none}
+.wrap{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr);gap:12px}
+section{display:grid;grid-template-columns:minmax(0,1fr);gap:12px}section[hidden]{display:none}
 a{color:inherit}
 :focus-visible{outline:3px solid var(--ink);outline-offset:2px}
 
@@ -38,11 +38,16 @@ a{color:inherit}
 .tabs button[hidden]{display:none}
 
 /* connected day strip */
-.days{display:flex;border:var(--bw) solid var(--ink);background:var(--card);overflow-x:auto}
-.days:empty{display:none}
-.mon{writing-mode:vertical-rl;transform:rotate(180deg);font:400 16px var(--display);letter-spacing:.14em;padding:6px 4px;background:var(--ink);color:#fff;text-transform:uppercase;flex:none}
-.e{display:grid;place-items:center;flex:1 0 58px;padding:6px 4px;border:0;border-left:var(--bw) solid var(--ink);font:800 11px var(--body);text-transform:uppercase;background:var(--card);cursor:pointer}
-.e i{font:400 24px/1.1 var(--display);font-style:normal}
+.daybar{display:flex;border:var(--bw) solid var(--ink);background:var(--card)}
+.daybar:has(.days:empty){display:none}
+.days{display:flex;flex:1;min-width:0;overflow-x:auto;scrollbar-width:none}
+.days::-webkit-scrollbar{display:none}
+.arr{flex:none;width:40px;border:0;background:var(--ink);color:#fff;font:800 30px/1 var(--body);cursor:pointer;border-radius:0;padding:0 0 4px}
+.arr:first-child{border-right:var(--bw) solid var(--ink)}
+.arr:disabled{opacity:.25;cursor:default}
+.mon{writing-mode:vertical-rl;transform:rotate(180deg);font:400 18px var(--display);letter-spacing:.14em;padding:6px 6px;background:var(--ink);color:#fff;text-transform:uppercase;flex:none}
+.e{display:grid;place-items:center;flex:1 0 92px;padding:8px 4px;border:0;border-left:var(--bw) solid var(--ink);font:800 12px var(--body);letter-spacing:.04em;text-transform:uppercase;background:var(--card);cursor:pointer}
+.e i{font:400 32px/1.1 var(--display);font-style:normal}
 .e.we{background:var(--wk)}
 .e.on{background:var(--hred);color:#fff}
 .mon+.e{border-left:0}
@@ -205,6 +210,7 @@ a{color:inherit}
   .xr .act{grid-column:2;grid-row:2;justify-self:start}
   .xr .tag{display:none}
   .dayhead h2{font-size:28px}
+  .e{flex:0 0 66px}.e i{font-size:28px}.arr{width:32px}
   .hr{margin-left:0;flex-wrap:wrap;white-space:normal}
   .sw{margin-left:4px}
   .cin{grid-template-columns:1fr}.cin b{padding-top:0}
@@ -232,14 +238,14 @@ a{color:inherit}
   </nav>
 
   <section id="view-agenda">
-    <div class="days" id="days" role="listbox" aria-label="Pick a day"></div>
+    <div class="daybar"><button class="arr" data-a="day.prev" data-for="days" aria-label="Earlier days">‹</button><div class="days" id="days" role="listbox" aria-label="Pick a day"></div><button class="arr" data-a="day.next" data-for="days" aria-label="Later days">›</button></div>
     <div class="dayhead"><h2 id="agtitle"></h2><span class="hr"><span class="n" id="agcount"></span><input type="search" id="q" placeholder="Search" aria-label="Search events"></span></div>
     <div id="agfilters"></div>
     <div id="aglist"></div>
   </section>
 
   <section id="view-cin" hidden>
-    <div class="days" id="cindays" role="listbox" aria-label="Pick a day"></div>
+    <div class="daybar"><button class="arr" data-a="day.prev" data-for="cindays" aria-label="Earlier days">‹</button><div class="days" id="cindays" role="listbox" aria-label="Pick a day"></div><button class="arr" data-a="day.next" data-for="cindays" aria-label="Later days">›</button></div>
     <div class="dayhead"><h2>Cinema</h2><span class="hr"><span class="n" id="cincount"></span><input type="search" id="cinq" placeholder="Search" aria-label="Search films"></span></div>
     <div id="cinfilters"></div>
     <div id="cinpicks"></div>
@@ -255,7 +261,7 @@ a{color:inherit}
 
   <section id="view-ade" hidden>
     <div class="dayhead"><h2>Amsterdam Dance Event</h2><span class="hr"><span class="n" id="adecount"></span><input type="search" id="adeq" placeholder="Search" aria-label="Search ADE"></span></div>
-    <div class="days" id="adedays" role="listbox" aria-label="Pick an ADE day"></div>
+    <div class="daybar"><button class="arr" data-a="day.prev" data-for="adedays" aria-label="Earlier days">‹</button><div class="days" id="adedays" role="listbox" aria-label="Pick an ADE day"></div><button class="arr" data-a="day.next" data-for="adedays" aria-label="Later days">›</button></div>
     <div id="adefilters"></div>
     <div id="adelist"></div>
   </section>
@@ -341,9 +347,14 @@ function dayStripHtml(counts, current, act){
   });
   return html;
 }
+function updArrows(box){
+  const bar=box.parentElement; if(!bar||!box.clientWidth) return;
+  const [a,b]=bar.querySelectorAll(".arr"); a.disabled=box.scrollLeft<=1; b.disabled=box.scrollLeft+box.clientWidth>=box.scrollWidth-1;
+}
 function scrollDay(sel){   // scroll only the strip sideways, never the page
-  const box=document.querySelector(sel), el=box&&box.querySelector(".e.on"); if(!el) return;
-  box.scrollLeft=el.offsetLeft-(box.clientWidth-el.offsetWidth)/2;
+  const box=document.querySelector(sel), el=box&&box.querySelector(".e.on"); if(!box) return;
+  if(el) box.scrollLeft=el.offsetLeft-(box.clientWidth-el.offsetWidth)/2;
+  updArrows(box);
 }
 const THUMBS={};
 function positionThumbs(){
@@ -774,6 +785,8 @@ $("#exq").addEventListener("input",e=>{ exState.q=e.target.value.trim(); renderE
 const clearPanel = s => { s.panel=""; };
 const ACT = {
   "noop":()=>{},
+  "day.prev":(v,el)=>{ const b=$("#"+el.dataset.for); b.scrollBy({left:-b.clientWidth*.7,behavior:"smooth"}); },
+  "day.next":(v,el)=>{ const b=$("#"+el.dataset.for); b.scrollBy({left:b.clientWidth*.7,behavior:"smooth"}); },
   "go.exh":()=>showTab("exh"),
   "ag.day":v=>setDay(v),
   "ag.tod":v=>{ state.tod=v; render(); },
@@ -859,7 +872,8 @@ if(CONTACT_EMAIL && !CONTACT_EMAIL.startsWith("__")){
 }
 updateWantCount();
 if(ADEV.length){ $("#tab-ade").hidden=false; }
-addEventListener("resize",positionThumbs);
+document.querySelectorAll(".days").forEach(d=>d.addEventListener("scroll",()=>updArrows(d)));
+addEventListener("resize",()=>{ positionThumbs(); document.querySelectorAll(".days").forEach(updArrows); });
 document.fonts?.ready.then(positionThumbs);
 setDay(state.day);
 if(location.hash==="#sources") showTab("src");
