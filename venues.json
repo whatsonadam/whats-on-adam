@@ -2043,6 +2043,12 @@
 "skip": true,
 "q": "not found"
 },
+"Jazz Café Alto": {
+"lat": 52.3644,
+"lon": 4.8832,
+"q": "addr",
+"area": "Centrum"
+},
 "Jekkah": {
 "lat": 52.31354,
 "lon": 4.95068,
@@ -4401,12 +4407,6 @@
 "lat": 52.37894,
 "lon": 4.88548,
 "q": "name",
-"area": "Centrum"
-},
-"Jazz Café Alto": {
-"lat": 52.3644,
-"lon": 4.8832,
-"q": "addr",
 "area": "Centrum"
 }
 }
