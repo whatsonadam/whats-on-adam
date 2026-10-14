@@ -68,11 +68,11 @@ SOURCES = {
     "iamsterdam": ("I amsterdam Uitagenda", "https://www.iamsterdam.com/uit/agenda"),
     "artis": ("ARTIS-Micropia", "https://www.artis.nl/nl/artis-micropia"),
     "schooloflife": ("The School of Life", "https://www.theschooloflife.com/amsterdam/agenda/"),
-    "offlineclub": ("The Offline Club", "https://www.theoffline-club.com/city-chapters/amsterdam-chapter"),
+    "offlineclub": ("The Offline Club", "https://luma.com/theofflineclubamsterdam"),
+    "ra": ("Resident Advisor", "https://ra.co/events/nl/amsterdam"),
 }
-NOTES = {"filmladder": "big chains, a week ahead; hidden in the Cinema tab until you tick the box","kriterion": "via Cineville, only a week or two ahead", "delamar": "dates load in their ticket app – check site", "artis": "no dated events, daily programme",
-         "wethepeople": "check site for next event", "offlineclub": "calendar is a widget – check site",
-         "vondelbunker": "included via radar.squat.net"}
+NOTES = {"filmladder": "big chains, a week ahead; hidden in the Cinema tab until you tick the box","kriterion": "via Cineville, only a week or two ahead", "artis": "no dated events, daily programme",
+         "wethepeople": "check site for next event",         "vondelbunker": "included via radar.squat.net"}
 
 NL = set("de het een en van voor met over wat hoe waarom jouw je jij niet ook naar uit bij als wordt worden zijn onze ons wij we leer leren samen avond middag lezing gesprek voorstelling kinderen jeugd verhaal nieuwe zonder tegen door dan kan maar deze dit welkom spreekuur buurt".split())
 EN = set("the and of for with about what how why your you not to from at is are our we learn together evening night talk english".split())
@@ -141,6 +141,16 @@ def collect(today):
         try: ade_pages.append(json.load(open(p)))
         except Exception: pass
     per["ade"] = run("ade", importlib.import_module("ade").parse_pages, ade_pages, today)
+    ra_pages = []
+    for p in sorted(glob.glob(os.path.join(DATA, "ra", "p*.json"))):
+        try: ra_pages.append(json.load(open(p)))
+        except Exception: pass
+    per["ra"] = run("ra", importlib.import_module("ra").parse_pages, ra_pages, today)
+    dl = [("https://delamar.nl/voorstellingen/" + os.path.basename(p)[:-5] + "/", open(p, errors="ignore").read())
+          for p in sorted(glob.glob(os.path.join(DATA, "delamar", "*.html")))]
+    per["delamar"] = run("delamar", importlib.import_module("delamar").parse_pages, dl, today)
+    f = os.path.join(DATA, "offlineclub.html")
+    per["offlineclub"] = run("offlineclub", importlib.import_module("offlineclub").parse, open(f, errors="ignore").read(), today) if os.path.exists(f) else []
     pages = [open(p, errors="ignore").read() for p in sorted(glob.glob(os.path.join(DATA, "iamsterdam", "p*.html")))]
     per["iamsterdam"] = run("iamsterdam", importlib.import_module("iamsterdam").parse_pages, pages, today)
     if not os.environ.get("NO_PAGE_TIMES"):

@@ -184,6 +184,30 @@ def fetch_iamsterdam(status, max_pages=300):
     bad = [p for p, c, _ in res if c != "200"]
     status["iamsterdam"] = f"ok ({pages} pages{', %d failed' % len(bad) if bad else ''})"
 
+def fetch_extras(status, today, want):
+    """Sources read from an API or a plain page, no browser needed. Each failure keeps the previous data (see build.py)."""
+    sys.path.insert(0, os.path.join(HERE, "parsers"))
+    if not want or "ra" in want:
+        import ra
+        try: status["ra"] = f"ok ({ra.fetch(os.path.join(DATA, 'ra'), today)} listings)"
+        except Exception as ex:
+            status["ra"] = f"error {str(ex)[:60]}"
+            import shutil; shutil.rmtree(os.path.join(DATA, "ra"), ignore_errors=True)   # build.py then keeps the previous RA events
+    if not want or "delamar" in want:
+        import delamar
+        try: status["delamar"] = f"ok ({delamar.fetch(os.path.join(DATA, 'delamar'))} show pages)"
+        except Exception as ex:
+            status["delamar"] = f"error {str(ex)[:60]}"
+            import shutil; shutil.rmtree(os.path.join(DATA, "delamar"), ignore_errors=True)   # build.py then keeps the previous events
+    if not want or "offlineclub" in want:
+        import offlineclub
+        out = os.path.join(DATA, "offlineclub.html")
+        code = offlineclub.fetch(out)
+        if code != "200":
+            status["offlineclub"] = f"error {code}"
+            if os.path.exists(out): os.remove(out)
+        else: status["offlineclub"] = "ok"
+
 def main():
     os.makedirs(DATA, exist_ok=True)
     today = datetime.date.today()
@@ -196,6 +220,7 @@ def main():
     if not want or "iamsterdam" in want: fetch_iamsterdam(status)
     if not want or "ade" in want: fetch_ade(status, today)
     if not want or "cinemas" in want: fetch_cinemas(status, today)
+    fetch_extras(status, today, want)
     json.dump({"fetched": today.isoformat(), "status": status}, open(os.path.join(DATA, "fetch_status.json"), "w"), indent=1)
     for k in sorted(status): print(f"{k:22} {status[k]}")
 
