@@ -58,6 +58,7 @@ def parse_pages(pages, today):
             if v.get("show_start_date_time") and hs not in ("", "00:00"):
                 ev["h"] = hs
                 if he and he not in ("23:59", hs) and ed == d: ev["eh"] = he
+            if hs == "00:00" and he == "23:59" and ed == d: ev["ad"] = 1   # open all day (installations), not "time unknown"
             if (ed - d).days >= 2: ev["ed"] = ed.isoformat()
             out.append(ev)
     return out

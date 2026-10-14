@@ -153,6 +153,35 @@ def collect(today):
 
 def norm(s): return re.sub(r"[^a-z0-9]", "", s.lower())[:22]
 
+# Words that say nothing about which event it is, ignored when comparing titles across sources
+TITLE_NOISE = set("ade amsterdam dance event special the a de het een van pres presents x w with at in met bij live 2025 2026".split())
+def title_words(t): return {w for w in re.findall(r"[a-z0-9]+", t.lower()) if w not in TITLE_NOISE and len(w) > 1}
+def same_event(t1, t2):
+    """Clearly the same event: one title's words all appear in the other ('Malugi' and 'Malugi - ADE')."""
+    a, b = title_words(t1), title_words(t2)
+    if not a or not b: return False
+    small, big = (a, b) if len(a) <= len(b) else (b, a)
+    if not small <= big: return False
+    return len(small) > 1 or len(next(iter(small))) >= 4
+
+def merge_doubles(out):
+    """Same date, start time and venue plus clearly the same title = one event listed twice."""
+    groups, keep, merged = {}, [], 0
+    for e in out:
+        if e.get("c") == "film" or not e.get("h") or not e.get("v"): keep.append(e); continue
+        k = (e["d"], e["h"], norm(e["v"])[:8])
+        hit = next((x for x in groups.get(k, []) if same_event(x["t"], e["t"])), None)
+        if hit:
+            if e["s"] != hit["s"]:
+                a = hit.setdefault("a", [])
+                if e["s"] not in a: a.append(e["s"])
+            if e.get("nl"): hit["nl"] = 1
+            merged += 1
+            continue
+        groups.setdefault(k, []).append(e); keep.append(e)
+    if merged: print(f"  merged {merged} double listings (same date, time, venue, clearly the same title)")
+    return keep
+
 def merge(per):
     order = {"iamsterdam": 3, "radar": 2, "amsterdamalternative": 1, "offbeat": 1}
     allev = [e for k in per for e in per[k]]
@@ -173,6 +202,7 @@ def merge(per):
             if e.get("nl"): s0["nl"] = 1
             continue
         seen.setdefault(k, e); out.append(e)
+    out = merge_doubles(out)
     for e in out:                                   # films: English signals in the title when the cinema gives no language data
         if e.get("c") == "film" and not e.get("ef") and not e.get("nl") and re.search(r"eng(?:lish)?\.? ?subs?|english sub|\bOV\b|english spoken", e["t"], re.I): e["ef"] = 1
         if e.get("c") == "film" and not e.get("sb") and re.search(r"eng(?:lish)?\.? ?subs?|english sub", e["t"], re.I): e["sb"] = ["en"]

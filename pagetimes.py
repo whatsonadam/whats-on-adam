@@ -12,7 +12,7 @@ import datetime, html as _html, json, os, re, subprocess, time
 HERE = os.path.dirname(os.path.abspath(__file__))
 CACHE = os.path.join(HERE, "times.json")
 UA = "whatsonadam-agenda (non-commercial hobby site; github.com/whatsonadam/whats-on-adam)"
-SOURCES = ("tolhuistuin", "cinetol", "iamsterdam")
+SOURCES = ("tolhuistuin", "cinetol", "iamsterdam", "odessa")
 MAX_FETCH = int(os.environ.get("PAGE_TIMES_MAX", "300"))
 RETRY_AFTER_DAYS = 7
 HM = re.compile(r"\b([01]?\d|2[0-3]):([0-5]\d)\b")
@@ -94,7 +94,16 @@ def read_iamsterdam(page, today):
     return {"dates": out} if out else None
 
 
-READERS = {"tolhuistuin": read_tolhuistuin, "cinetol": read_cinetol, "iamsterdam": read_iamsterdam}
+def read_odessa(page, today):
+    """hipsy.nl event page: the event's own range comes first ('17:00 tot 22:00'); later ranges belong to other events."""
+    for l in _lines(page):
+        m = re.fullmatch(r"(\d{1,2}:\d{2})\s*(?:tot|to|-|\u2013)\s*(\d{1,2}:\d{2})", l)
+        if m:
+            return {"h": _hm(m.group(1)), "eh": _hm(m.group(2))}
+    return None
+
+
+READERS = {"tolhuistuin": read_tolhuistuin, "cinetol": read_cinetol, "iamsterdam": read_iamsterdam, "odessa": read_odessa}
 
 
 def _fetch(url):

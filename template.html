@@ -327,7 +327,7 @@ const QUEER_RX = /queer|lgbt|lhbt|hbtq|\bgay\b|lesbi|\bpride\b|\bdrag\b|\broze\b
 const isQueer = e => QUEER_RX.test((e.t||"")+" "+(e.b||""));
 const catOf = e => (e.c!=="film" && isQueer(e)) ? "queer" : CATMAP[e.c] || (CATS.some(c=>c[0]===e.c) ? e.c : "other");
 const TODS = [["all","Any"],["morning","Morning"],["afternoon","Afternoon"],["evening","Evening"],["late","Late"]];
-const GROUPS = [["morning","Morning","until 12:00"],["afternoon","Afternoon","12:00 – 17:00"],["evening","Evening","17:00 – 22:00"],["late","Late night","from 22:00"],["notime","Time to be confirmed",""]];
+const GROUPS = [["morning","Morning","until 12:00"],["afternoon","Afternoon","12:00 – 17:00"],["evening","Evening","17:00 – 22:00"],["late","Late night","from 22:00"],["allday","All day",""],["notime","Time to be confirmed",""]];
 const FREE_RX = /^\s*(free|gratis)\b/i;
 
 const $ = s => document.querySelector(s);
@@ -420,7 +420,7 @@ const span = e => e.ed && (parse(e.ed)-parse(e.d))/864e5 >= 2;
 const onDay = (e,d) => span(e) ? (e.d<=d && e.ed>=d) : e.d===d;
 const wantable = e => span(e) || e.c==="exhibition";
 function todOf(e){
-  if(!e.h) return "notime";
+  if(!e.h) return e.ad ? "allday" : "notime";
   const h=+e.h.slice(0,2);
   if(h<5||h>=22) return "late";
   if(h<12) return "morning";
@@ -513,7 +513,7 @@ function metaLine(e){
 }
 function rowEv(e){
   const i=VISIBLE.push(e)-1; const src=SOURCES[e.s];
-  let tm = e.h ? `${e.h}${e.eh&&!span(e)?`<small>– ${e.eh}</small>`:""}` : `<small>TBC</small>`;
+  let tm = e.h ? `${e.h}${e.eh&&!span(e)?`<small>– ${e.eh}</small>`:""}` : (e.ad ? `<small>All day</small>` : `<small>TBC</small>`);
   if(span(e) && !e.h) tm=`<small>until</small>${fmt(e.ed)}`;
   else if(span(e)) tm+=`<small>until ${fmt(e.ed)}</small>`;
   return `<div class="ev${e.so?" soldout":""}"><div class="t${span(e)&&!e.h?" sp":""}">${tm}</div><div class="mid"><a class="tt" href="${esc(e.u||src?.url||"#")}" target="_blank" rel="noopener">${esc(e.t)}</a>${e.so?'<span class="sold">Sold out</span>':""}<p>${metaLine(e)}</p>${e.b?`<p class="bl">${esc(e.b)}</p>`:""}</div>${tagH(tagFor(e))}<a class="ib cal" href="#" data-i="${i}" target="_blank" rel="noopener" title="Add to calendar" aria-label="Add to calendar">${CAL_ICON}</a></div>`;
@@ -544,7 +544,7 @@ const VIEW_ICONS = {
   mine:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square"><path d="M6 3h12v18l-6-4.5L6 21z"/></svg>',
   map:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>'
 };
-let lastTc = {all:0,morning:0,afternoon:0,evening:0,late:0,notime:0};
+let lastTc = {all:0,morning:0,afternoon:0,evening:0,late:0,allday:0,notime:0};
 function areaGroups(){ return [["",AREAS]]; }
 function venueGroups(){
   const by={}; EVENTS.forEach(e=>{ if(e.v){ const a=e.ar||"Other"; (by[a]=by[a]||new Set()).add(e.v); } });
@@ -567,7 +567,7 @@ function render(){
   const todays=EVENTS.filter(e=>onDay(e,state.day)&&passes(e));
   const single=todays.filter(e=>!span(e)||e.c!=="exhibition").sort((a,b)=>(a.h||"99").localeCompare(b.h||"99"));
   const running=todays.filter(e=>span(e)&&e.c==="exhibition");
-  const tc={all:single.length,morning:0,afternoon:0,evening:0,late:0,notime:0};
+  const tc={all:single.length,morning:0,afternoon:0,evening:0,late:0,allday:0,notime:0};
   single.forEach(e=>tc[todOf(e)]++);
   if(state.tod!=="all" && !tc[state.tod]) state.tod="all";
   lastTc=tc;
@@ -647,7 +647,7 @@ function renderAde(){
   </div>`);
   const by={}; list.forEach(e=>{ const k=adeTod(e); (by[k]=by[k]||[]).push(e); });
   let html="";
-  for(const [k,label,hours] of [["daytime","Daytime","until 17:00"],["evening","Evening","17:00 – 22:00"],["late","Late night","from 22:00"],["notime","Time to be confirmed",""]]){
+  for(const [k,label,hours] of [["daytime","Daytime","until 17:00"],["evening","Evening","17:00 – 22:00"],["late","Late night","from 22:00"],["allday","All day",""],["notime","Time to be confirmed",""]]){
     if(by[k]?.length) html+=grpH(label,hours,by[k].length)+`<div class="evl">${by[k].map(rowEv).join("")}</div>`;
   }
   $("#adelist").innerHTML=html||'<div class="empty">Nothing matches.</div>';
