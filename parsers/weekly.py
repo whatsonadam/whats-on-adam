@@ -30,6 +30,10 @@ RULES = [
     # trutfonds.nl: party every Sunday night since 1985
     {"title": "Sunday night party", "venue": "Vereniging De Trut", "days": [6], "h": "22:00", "eh": "03:00", "c": "club",
      "u": "http://www.trutfonds.nl/", "nth": None},
+    # MKZ Community Kitchen (Binnenpret): vegan three-course dinner every Thursday, EUR 5, doors 19:00. Active on Instagram only.
+    {"title": "MKZ vegan community dinner", "venue": "MKZ (Binnenpret)", "days": [3], "h": "19:00", "c": "food",
+     "u": "https://www.instagram.com/mkz_amsterdam/", "nth": None, "p": "€5",
+     "b": "Three-course vegan meal, shared tables. Reservations: 020 679 0712"},
     # robinfoodkollektief.nl: community dinners
     {"title": "Community dinner", "venue": "Robin Food Kollektief", "days": [0, 1, 3], "h": "18:00", "eh": "21:00",
      "c": "food", "u": "https://www.robinfoodkollektief.nl", "nth": None},
@@ -57,6 +61,8 @@ def parse(text, today):
                         e["h"] = r["h"]
                     if r.get("eh"):
                         e["eh"] = r["eh"]
+                    if r.get("p"):
+                        e["p"] = r["p"]
                     if r.get("b"):
                         e["b"] = r["b"]
                     out.append(e)

@@ -89,7 +89,7 @@ SOURCES = {
 }
 NOTES = {"filmladder": "big chains, a week ahead; hidden in the Cinema tab until you tick the box","kriterion": "via Cineville, only a week or two ahead", "artis": "no dated events, daily programme",
          "wethepeople": "check site for next event",         "vondelbunker": "included via radar.squat.net",
-         "weekly": "Jazz Café Alto, De Trut, Robin Food Kollektief and The Queen's Head: standing nights from each venue's site, check before you go"}
+         "weekly": "Jazz Café Alto, MKZ, De Trut, Robin Food Kollektief and The Queen's Head: standing nights from each venue's site, check before you go"}
 
 NL = set("de het een en van voor met over wat hoe waarom jouw je jij niet ook naar uit bij als wordt worden zijn onze ons wij we leer leren samen avond middag lezing gesprek voorstelling kinderen jeugd verhaal nieuwe zonder tegen door dan kan maar deze dit welkom spreekuur buurt".split())
 EN = set("the and of for with about what how why your you not to from at is are our we learn together evening night talk english".split())
