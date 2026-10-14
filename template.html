@@ -107,7 +107,7 @@ a{color:inherit}
 .kind-wrap{display:inline-flex;align-items:center;gap:14px;flex-wrap:wrap}
 
 /* list | map switch */
-.viewsw{display:inline-grid;grid-template-columns:auto auto;justify-self:start;border:1.5px solid var(--ink);background:#fff}
+.viewsw{display:inline-grid;grid-auto-flow:column;justify-self:start;border:1.5px solid var(--ink);background:#fff}
 .viewsw button{display:flex;gap:6px;align-items:center;justify-content:center;font:800 13px var(--body);text-transform:uppercase;letter-spacing:.06em;padding:7px 16px;border:0;background:#fff;cursor:pointer;border-radius:0}
 .viewsw button+button{border-left:1.5px solid var(--ink)}
 .viewsw svg{width:17px;height:17px}
@@ -256,14 +256,14 @@ a{color:inherit}
 
   <section id="view-exh" hidden>
     <div class="dayhead"><h2>Exhibitions</h2><span class="hr"><span class="n" id="excount"></span><input type="search" id="exq" placeholder="Search" aria-label="Search exhibitions"></span></div>
-    <div class="viewsw" id="exsw" role="group" aria-label="Show"><button data-a="ex.view" data-v="all" class="on"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="square"><path d="M4 6h16M4 12h16M4 18h16"/></svg>All</button><button data-a="ex.view" data-v="mine"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square"><path d="M6 3h12v18l-6-4.5L6 21z"/></svg>My list (<span id="wantcnt">0</span>)</button></div>
     <div id="exfilters"></div>
+    <div id="exsw"></div>
     <div id="exlist"></div>
   </section>
 
   <section id="view-ade" hidden>
-    <div class="dayhead"><h2>Amsterdam Dance Event</h2><span class="hr"><span class="n" id="adecount"></span><input type="search" id="adeq" placeholder="Search" aria-label="Search ADE"></span></div>
     <div class="daybar"><button class="arr" data-a="day.prev" data-for="adedays" aria-label="Earlier days">‹</button><div class="days" id="adedays" role="listbox" aria-label="Pick an ADE day"></div><button class="arr" data-a="day.next" data-for="adedays" aria-label="Later days">›</button></div>
+    <div class="dayhead"><h2>Amsterdam Dance Event</h2><span class="hr"><span class="n" id="adecount"></span><input type="search" id="adeq" placeholder="Search" aria-label="Search ADE"></span></div>
     <div id="adefilters"></div>
     <div id="adelist"></div>
   </section>
@@ -433,7 +433,7 @@ function toggleWant(e){
   saveWant();
 }
 function saveWant(){ put("agenda-want",WANT); updateWantCount(); }
-function updateWantCount(){ $("#wantcnt").textContent = WANT.length; positionThumbs(); }
+function updateWantCount(){ const c=$("#wantcnt"); if(c) c.textContent=WANT.length; }
 
 /* ---------- Tabs ---------- */
 const VIEWS = ["agenda","cin","exh","ade","src"];
@@ -513,6 +513,7 @@ function setDay(k){
 }
 const VIEW_ICONS = {
   list:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="square"><path d="M4 6h16M4 12h16M4 18h16"/></svg>',
+  mine:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square"><path d="M6 3h12v18l-6-4.5L6 21z"/></svg>',
   map:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>'
 };
 let lastTc = {all:0,morning:0,afternoon:0,evening:0,late:0,notime:0};
@@ -760,15 +761,15 @@ EXH.forEach(e=>{ e.exs=exSubject(e); });
 const exMatch = e => !exState.q || (e.t+" "+(e.v||"")).toLowerCase().includes(exState.q.toLowerCase());
 function renderExh(){
   VISIBLE=[]; const ws=wantSet();
-  document.querySelectorAll("#exsw button").forEach(b=>b.classList.toggle("on",b.dataset.v===exState.view));
+  const mode=exState.view==="mine"?"mine":exState.map?"map":"list";
+  $("#exsw").innerHTML=`<div class="viewsw" role="group" aria-label="View"><button data-a="ex.mode" data-v="list" class="${mode==="list"?"on":""}" aria-pressed="${mode==="list"}">${VIEW_ICONS.list}List</button><button data-a="ex.mode" data-v="map" class="${mode==="map"?"on":""}" aria-pressed="${mode==="map"}">${VIEW_ICONS.map}Map</button><button data-a="ex.mode" data-v="mine" class="${mode==="mine"?"on":""}" aria-pressed="${mode==="mine"}">${VIEW_ICONS.mine}My list (<span id="wantcnt">${WANT.length}</span>)</button></div>`;
   if(exState.view==="mine"){ $("#exfilters").innerHTML=""; return renderMine(); }
   const soon=parse(todayIso); soon.setDate(soon.getDate()+14); const soonIso=iso(soon);
   const byEnd=(a,b)=>a.ed.localeCompare(b.ed)||a.d.localeCompare(b.d);
   const subs=EX_SUBJ.filter(([k])=>EXH.some(e=>e.exs===k)), sOn=exState.sub||new Set(subs.map(x=>x[0]));
   $("#exfilters").innerHTML=`<div class="fpanel">
     <div class="row"><span class="lab">Status</span>${segH("ex.status",EX_STATUS,exState.status)}</div>
-    <div class="row"><span class="lab">Subject</span>${subs.map(([k,c])=>chipH(k,sOn.has(k),"ex.sub",k,c)).join("")}${allNoneH("ex.suball",subs.every(([k])=>sOn.has(k)))}</div></div>
-    <div class="viewsw" role="group" aria-label="View"><button data-a="ex.map" data-v="list" class="${exState.map?"":"on"}" aria-pressed="${!exState.map}">${VIEW_ICONS.list}List</button><button data-a="ex.map" data-v="map" class="${exState.map?"on":""}" aria-pressed="${exState.map}">${VIEW_ICONS.map}Map</button></div>`;
+    <div class="row"><span class="lab">Subject</span>${subs.map(([k,c])=>chipH(k,sOn.has(k),"ex.sub",k,c)).join("")}${allNoneH("ex.suball",subs.every(([k])=>sOn.has(k)))}</div></div>`;
   const ex=EXH.filter(e=>exMatch(e)&&(!exState.sub||exState.sub.has(e.exs)));
   const running=ex.filter(e=>e.d<=todayIso);
   const st=exState.status;
@@ -849,11 +850,10 @@ const ACT = {
   "cin.more":v=>{ cinState.exp.add(v); swapCard(v); },
   "cin.open":v=>{ toggleIn(cinState.open,v); swapCard(v); },
 
-  "ex.map":v=>{ exState.map=v==="map"; renderExh(); },
+  "ex.mode":v=>{ exState.view=v==="mine"?"mine":"all"; exState.map=v==="map"; renderExh(); },
   "ex.status":v=>{ exState.status=v; renderExh(); },
   "ex.sub":v=>{ const all=EX_SUBJ.map(x=>x[0]).filter(k=>EXH.some(e=>e.exs===k)); const t=new Set(exState.sub||all); toggleIn(t,v); exState.sub=all.every(k=>t.has(k))?null:t; renderExh(); },
   "ex.suball":()=>{ exState.sub=exState.sub?null:new Set(); renderExh(); },
-  "ex.view":v=>{ exState.view=v; renderExh(); positionThumbs(); },
   "ex.rm":v=>{ WANT=WANT.filter(w=>w.k!==v); saveWant(); renderExh(); },
   "ex.copy":async()=>{
     const code=btoa(unescape(encodeURIComponent(JSON.stringify(WANT))));
