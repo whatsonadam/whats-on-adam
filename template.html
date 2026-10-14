@@ -42,10 +42,11 @@ a{color:inherit}
 .daybar:has(.days:empty){display:none}
 .days{display:flex;flex:1;min-width:0;overflow-x:auto;scrollbar-width:none}
 .days::-webkit-scrollbar{display:none}
-.arr{flex:none;width:40px;border:0;background:#C9C3BA;color:#3b3835;font:800 30px/1 var(--body);cursor:pointer;border-radius:0;padding:0 0 4px}
+.arr{flex:none;width:40px;border:0;background:transparent;color:var(--ink);font:800 30px/1 var(--body);cursor:pointer;border-radius:0;padding:0 0 4px}
 .arr:first-child{border-right:var(--bw) solid var(--ink)}
-.arr:hover{background:#b3ada5}
-.arr:disabled{visibility:hidden}
+.arr:last-child{border-left:var(--bw) solid var(--ink)}
+.arr:hover{background:var(--card2)}
+.arr:disabled{display:none}
 .mon{writing-mode:vertical-rl;transform:rotate(180deg);font:400 18px var(--display);letter-spacing:.14em;padding:6px 6px;background:var(--ink);color:#fff;text-transform:uppercase;flex:none}
 .e{display:grid;place-items:center;flex:1 0 92px;padding:8px 4px;border:0;border-left:var(--bw) solid var(--ink);font:800 12px var(--body);letter-spacing:.04em;text-transform:uppercase;background:var(--card);cursor:pointer}
 .e i{font:400 32px/1.1 var(--display);font-style:normal}
