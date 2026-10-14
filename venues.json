@@ -242,6 +242,12 @@
 "skip": true,
 "q": "not found"
 },
+"Amsterdam Museum": {
+"lat": 52.37043,
+"lon": 4.89043,
+"q": "name",
+"area": "Centrum"
+},
 "Amsterdam Noord": {
 "lat": 52.40257,
 "lon": 4.93533,
@@ -1180,6 +1186,12 @@
 "q": "name",
 "area": "Nieuw-West"
 },
+"De Hallen": {
+"lat": 52.36695,
+"lon": 4.8682,
+"q": "name",
+"area": "West"
+},
 "De Hallen Amsterdam": {
 "lat": 52.36695,
 "lon": 4.8682,
@@ -1291,6 +1303,12 @@
 "lon": 4.88439,
 "q": "name",
 "area": "Centrum"
+},
+"De VerbroederIJ": {
+"lat": 52.38482,
+"lon": 4.93001,
+"q": "name",
+"area": "Noord"
 },
 "De Verdieping (Kaboem)": {
 "lat": 52.36322,
@@ -2273,6 +2291,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Marineterrein": {
+"lat": 52.37372,
+"lon": 4.9158,
+"q": "name",
+"area": "Centrum"
+},
 "Mastercard Hotelnacht": {
 "skip": true,
 "q": "not found"
@@ -2284,6 +2308,12 @@
 "Mediahaven": {
 "skip": true,
 "q": "not found"
+},
+"Mediahaven - Minervahaven": {
+"lat": 52.39842,
+"lon": 4.87671,
+"q": "name",
+"area": "West"
 },
 "Mediamatic": {
 "lat": 52.37647,
@@ -3041,6 +3071,12 @@
 "q": "name",
 "area": "Zuid"
 },
+"Robin Food Kollektief": {
+"lat": 52.37421,
+"lon": 4.87272,
+"q": "name",
+"area": "West"
+},
 "Rokin 75": {
 "skip": true,
 "q": "not found"
@@ -3064,6 +3100,12 @@
 "lon": 4.92098,
 "q": "name",
 "area": "Oost"
+},
+"Ruigoord": {
+"lat": 52.40992,
+"lon": 4.74942,
+"q": "name",
+"area": "West"
 },
 "Ruimte 59-61": {
 "skip": true,
@@ -3713,6 +3755,12 @@
 "q": "name",
 "area": "West"
 },
+"The Queen's Head": {
+"lat": 52.37567,
+"lon": 4.9007,
+"q": "name",
+"area": "Centrum"
+},
 "The School of Life Amsterdam": {
 "lat": 52.35967,
 "lon": 4.89827,
@@ -4060,6 +4108,12 @@
 "lon": 4.93194,
 "q": "name",
 "area": "Noord"
+},
+"Waterkant": {
+"lat": 52.36972,
+"lon": 4.87619,
+"q": "name",
+"area": "Centrum"
 },
 "Wereldmuseum Amsterdam": {
 "lat": 52.36269,
