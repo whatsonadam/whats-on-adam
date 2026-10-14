@@ -341,7 +341,7 @@ const segH = (a,items,cur) => `<div class="seg">${items.map(([v,l,dis])=>`<butto
 const swH = (a,label,on,cls="") => `<label class="sw ${cls}"><input type="checkbox" data-a="${a}"${on?" checked":""}><span class="trk"><i></i></span>${label}</label>`;
 const ddH = (a,key,label,n,open) => `<button class="ddb${open?" on":""}" data-a="${a}" data-v="${key}" aria-expanded="${open}">${label}${n?` (${n})`:""} <b>▾</b></button>`;
 const panelH = (a,clearA,groups,sel,open) => `<div class="ddp${open?" on":""}">${groups.map(([h,vals])=>(h?`<div class="gh">${esc(h)}</div>`:"")+vals.map(v=>`<label class="tog"><input type="checkbox" data-a="${a}" data-v="${esc(v)}"${sel.has(v)?" checked":""}> ${esc(v)}</label>`).join("")).join("")}${sel.size?`<button class="mini tg" data-a="${clearA}">Clear</button>`:""}</div>`;
-const grpH = (label,hours,count) => `<h3 class="grp">${esc(label)}${hours?`<span>${hours}</span>`:""}<span>${count}</span></h3>`;
+const grpH = (label,hours) => `<h3 class="grp">${esc(label)}${hours?`<span>${hours}</span>`:""}</h3>`;
 const tagH = ([l,c]) => `<span class="tag" style="background:${c}">${esc(l)}</span>`;
 function setFilters(sel,html){
   const p=document.querySelector(sel+" .ddp.on"), st=p?p.scrollTop:0;
