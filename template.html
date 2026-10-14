@@ -338,7 +338,10 @@ function dayStripHtml(counts, current, act){
   });
   return html;
 }
-function scrollDay(sel){ const el=document.querySelector(sel+" .e.on"); if(el) el.scrollIntoView({block:"nearest",inline:"center"}); }
+function scrollDay(sel){   // scroll only the strip sideways, never the page
+  const box=document.querySelector(sel), el=box&&box.querySelector(".e.on"); if(!el) return;
+  box.scrollLeft=el.offsetLeft-(box.clientWidth-el.offsetWidth)/2;
+}
 const THUMBS={};
 function positionThumbs(){
   document.querySelectorAll(".kind").forEach(k=>{
@@ -651,10 +654,15 @@ function showsH(f){
   const row=([v,list])=>`<div class="cin"><b>${esc(v)}</b><div>${list.map(e=>`<a href="${esc(e.u||"#")}" target="_blank" rel="noopener">${e.h||"TBC"}${e.sb&&e.sb.length?`<em>${esc(e.sb.map(x=>x.toUpperCase()).join("/"))} subs</em>`:""}</a>`).join("")}</div></div>`;
   return `<div class="shows2">${vis.map(row).join("")}</div>${!exp&&rows.length>CIN_SHOWN?`<button class="morec" data-a="cin.more" data-v="${esc(f.k)}">+ ${rows.length-CIN_SHOWN} more cinemas</button>`:""}`;
 }
+let lastFilms=new Map();
+function swapCard(k){   // redraw one card in place so the page does not jump
+  const f=lastFilms.get(k); if(!f) return;
+  for(const a of document.querySelectorAll("#cinlist .film")) if(a.dataset.k===k){ a.outerHTML=filmCard(f); break; }
+}
 function filmCard(f){
   const open=cinState.open.has(f.k), m=[f.yr,f.du?f.du+" min":"",f.dr,f.lg?langNames(f.lg):""].filter(Boolean);
   const g=[...(f.g||[])][0];
-  return `<article class="film${open?" open":""}"><button class="ttl${f.sy?"":" nochev"}" data-a="${f.sy?"cin.open":"noop"}" data-v="${esc(f.k)}" aria-expanded="${open}"><h3>${esc(f.t)}${f.rt?`<span class="rt">${f.rt}</span>`:""}${f.sy?'<span class="chev">▾</span>':""}</h3></button>
+  return `<article class="film${open?" open":""}" data-k="${esc(f.k)}"><button class="ttl${f.sy?"":" nochev"}" data-a="${f.sy?"cin.open":"noop"}" data-v="${esc(f.k)}" aria-expanded="${open}"><h3>${esc(f.t)}${f.rt?`<span class="rt">${f.rt}</span>`:""}${f.sy?'<span class="chev">▾</span>':""}</h3></button>
     ${m.length?`<p class="fm">${esc(m.join(" · "))}</p>`:""}${g?tagH([g,GCOL[g]||"#55524F"]):""}
     ${f.sy?`<p class="syn">${esc(f.sy)}</p>`:""}
     ${showsH(f)}</article>`;
@@ -686,6 +694,7 @@ function renderCin(){
     ${panelH("cin.venue","cin.clrvenue",cinVenueGroups(),cinState.venues,cinState.panel==="venue")}
     <div class="row"><span class="lab">Show</span>${swH("cin.en","English-friendly",cinState.en)}${swH("cin.cv","Cineville only",cinState.cv,"yel")}</div>
   </div>`);
+  lastFilms=new Map(arr.map(f=>[f.k,f]));
   const picks=cinPicks(arr,weekCount);
   $("#cinpicks").innerHTML=picks.length?`<div class="pickbox"><h3>Top picks</h3><div class="picks">${picks.map(({label,f})=>`<div class="pick"><span class="why">${esc(label)}</span><h4>${esc(f.t)}</h4><p>${f.s.slice(0,3).map(e=>`<a href="${esc(e.u||"#")}" target="_blank" rel="noopener">${e.h||"TBC"} ${esc((e.v||"").split(" · ")[0])}</a>`).join(" · ")}</p></div>`).join("")}</div></div>`:"";
   $("#cinlist").innerHTML=`<div class="films">${arr.map(filmCard).join("")||'<div class="empty">Nothing matches on this day. Try another day or clear the filters.</div>'}</div>`;
@@ -771,8 +780,8 @@ const ACT = {
   "cin.clrvenue":()=>{ cinState.venues.clear(); renderCin(); },
   "cin.en":(v,el)=>{ cinState.en=el.checked; renderCin(); },
   "cin.cv":(v,el)=>{ cinState.cv=el.checked; renderCin(); },
-  "cin.more":v=>{ cinState.exp.add(v); renderCin(); },
-  "cin.open":v=>{ toggleIn(cinState.open,v); renderCin(); },
+  "cin.more":v=>{ cinState.exp.add(v); swapCard(v); },
+  "cin.open":v=>{ toggleIn(cinState.open,v); swapCard(v); },
 
   "ex.view":v=>{ exState.view=v; renderExh(); positionThumbs(); },
   "ex.rm":v=>{ WANT=WANT.filter(w=>w.k!==v); saveWant(); renderExh(); },
