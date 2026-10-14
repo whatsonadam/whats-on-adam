@@ -2301,6 +2301,12 @@
 "q": "name",
 "area": "Nieuw-West"
 },
+"MKZ (Binnenpret)": {
+"lat": 52.3537,
+"lon": 4.8573,
+"q": "addr",
+"area": "Zuid"
+},
 "MUD Jeans Brandstore": {
 "lat": 52.37443,
 "lon": 4.88993,
@@ -4408,11 +4414,5 @@
 "lon": 4.88548,
 "q": "name",
 "area": "Centrum"
-},
-"MKZ (Binnenpret)": {
-"lat": 52.3537,
-"lon": 4.8573,
-"q": "addr",
-"area": "Zuid"
 }
 }
