@@ -65,6 +65,15 @@ def from_cineville(title):
     return None
 
 
+QUEER_KW = {"lgbt", "lgbt interest", "gay theme", "gay interest", "gay", "lesbian", "lesbian relationship", "lesbian theme", "queer",
+            "transgender", "trans woman", "trans man", "drag queen", "drag", "bisexual", "coming out", "homosexuality", "non-binary", "gay relationship"}
+
+
+def _queer(d):
+    kws = (d.get("keywords") or {}).get("keywords") or []
+    return any(k.get("name", "").lower() in QUEER_KW for k in kws)
+
+
 def from_tmdb(title, key):
     hdr = [f"Authorization: Bearer {key}"] if len(key) > 40 else []
     q = "" if hdr else f"&api_key={key}"
@@ -74,13 +83,14 @@ def from_tmdb(title, key):
         want = norm(v)
         hit = next((m for m in (s.get("results") or [])[:6] if want in (norm(m.get("title", "")), norm(m.get("original_title", "")))), None)
         if not hit: time.sleep(0.25); continue
-        d = _get(f"{base}/movie/{hit['id']}?append_to_response=credits{q}", hdr)
+        d = _get(f"{base}/movie/{hit['id']}?append_to_response=credits,keywords{q}", hdr)
         yr = (d.get("release_date") or "")[:4]
         dirs = [c["name"] for c in (d.get("credits") or {}).get("crew", []) if c.get("job") == "Director"][:2]
         if d.get("runtime") and yr:
             return {"yr": int(yr), "du": d["runtime"], "dr": ", ".join(dirs),
                     "lg": [l["iso_639_1"] for l in (d.get("spoken_languages") or []) if l.get("iso_639_1")][:3],
                     "gn": [g["name"] for g in (d.get("genres") or [])][:3],
+                    **({"qr": 1} if _queer(d) else {}),
                     **({"rt": round(d["vote_average"], 1)} if d.get("vote_count", 0) >= 20 and d.get("vote_average") else {}),
                     **({"sy": _short(d["overview"])} if d.get("overview") else {})}
         time.sleep(0.25)
@@ -94,11 +104,11 @@ def _short(t, n=210):
     return cut + "…"
 
 
-FIELDS = ("yr", "du", "dr", "lg", "gn", "rt", "sy")
+FIELDS = ("yr", "du", "dr", "lg", "gn", "rt", "sy", "qr")
 
 
 def enrich(events, today):
-    """Cache entry per normalized title: {yr, du, dr, lg, gn, tried, tmdb, v}. v=4 means fully looked up (tm4: TMDB checked, incl. rating and synopsis)."""
+    """Cache entry per normalized title: {yr, du, dr, lg, gn, tried, tmdb, v}. v=4 means fully looked up (tm5: TMDB checked, incl. rating and synopsis)."""
     try: cache = json.load(open(CACHE))
     except Exception: cache = {}
     key = os.environ.get("TMDB_API_KEY", "").strip()
@@ -109,7 +119,7 @@ def enrich(events, today):
         k = norm(e["t"])
         if k in seen: continue
         c = cache.get(k)
-        if c and c.get("v") == 4 and (c.get("tm4") or not key or c.get("tmdb")):
+        if c and c.get("v") == 4 and (c.get("tm5") or not key or c.get("tmdb")):
             if c.get("yr") or (today - datetime.date.fromisoformat(c.get("tried", now))).days < RETRY_AFTER_DAYS: continue
         seen.add(k); todo.append((k, e["t"]))
     done = 0
@@ -118,13 +128,13 @@ def enrich(events, today):
         if not c.get("yr"):
             c.update(from_cineville(title) or {})
             time.sleep(0.25)
-        if key and not c.get("tm4"):
+        if key and not c.get("tm5"):
             m = from_tmdb(title, key)
             if m:
                 for f in FIELDS:
                     if m.get(f) and not c.get(f): c[f] = m[f]
         c.update({"tried": now, "tmdb": bool(key), "v": 4})
-        if key: c["tm4"] = True
+        if key: c["tm5"] = True
         cache[k] = c
         done += 1
     for e in events:

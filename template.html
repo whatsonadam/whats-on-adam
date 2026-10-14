@@ -248,7 +248,8 @@ a{color:inherit}
 
   <section id="view-exh" hidden>
     <div class="dayhead"><h2>Exhibitions</h2><span class="hr"><span class="n" id="excount"></span><input type="search" id="exq" placeholder="Search" aria-label="Search exhibitions"></span></div>
-    <div class="row"><div class="kind" id="exsw" data-v="all"><button data-a="ex.view" data-v="all" class="on">All</button><button data-a="ex.view" data-v="mine">My list (<span id="wantcnt">0</span>)</button><span class="thumb"></span></div></div>
+    <div id="exfilters"></div>
+    <div class="viewsw" id="exsw" role="group" aria-label="Show"><button data-a="ex.view" data-v="all" class="on"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="square"><path d="M4 6h16M4 12h16M4 18h16"/></svg>All</button><button data-a="ex.view" data-v="mine"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square"><path d="M6 3h12v18l-6-4.5L6 21z"/></svg>My list (<span id="wantcnt">0</span>)</button></div>
     <div id="exlist"></div>
   </section>
 
@@ -289,11 +290,13 @@ const SNAP = `${UPDATED.getFullYear()}-${String(UPDATED.getMonth()+1).padStart(2
 const AREAS = ["Centrum","West","Noord","Oost","Zuid","Nieuw-West","Zuidoost","Weesp"];
 const CATS = [
   ["music","Music","#A8504B"],["club","Club","#A06A32"],["talk","Talk","#775A8E"],["workshop","Workshop","#4F7A68"],
-  ["theatre","Theatre","#46698F"],["community","Community","#7A6A3F"],["food","Food","#45808A"],["protest","Protest","#A04A6C"],
+  ["theatre","Theatre","#46698F"],["queer","Queer","#8E4C8A"],["community","Community","#7A6A3F"],["food","Food","#45808A"],["protest","Protest","#A04A6C"],
   ["film","Film","#55524F"],["other","Other","#8A857F"]
 ];
 const CATMAP = {exhibition:"community",comedy:"theatre",dance:"music",kids:"community"};
-const catOf = e => CATMAP[e.c] || (CATS.some(c=>c[0]===e.c) ? e.c : "other");
+const QUEER_RX = /queer|lgbt|lhbt|hbtq|\bgay\b|lesbi|\bpride\b|\bdrag\b|\broze\b|pink dance|dyke|sapphic|transgender|\btrans (rights|pride|day|women|people)|non-?binary/i;
+const isQueer = e => QUEER_RX.test((e.t||"")+" "+(e.b||""));
+const catOf = e => (e.c!=="film" && isQueer(e)) ? "queer" : CATMAP[e.c] || (CATS.some(c=>c[0]===e.c) ? e.c : "other");
 const PRES = new Set(EVENTS.map(catOf));
 const TODS = [["all","Any"],["morning","Morning"],["afternoon","Afternoon"],["evening","Evening"],["late","Late"]];
 const GROUPS = [["morning","Morning","until 12:00"],["afternoon","Afternoon","12:00 – 17:00"],["evening","Evening","17:00 – 22:00"],["late","Late night","from 22:00"],["notime","Time to be confirmed",""]];
@@ -389,6 +392,7 @@ function passes(e){
   return true;
 }
 const tagFor = e => {
+  if(e.exs) return [e.exs, (EX_SUBJ.find(x=>x[0]===e.exs)||[])[1]||"#8A857F"];
   if(e.ak) return [e.ak, ADE_KIND_COL[e.ak]||"#55524F"];
   if(e.c==="exhibition") return ["Exhibition", CATS.find(c=>c[0]==="community")[2]];
   const c=CATS.find(c=>c[0]===catOf(e)); return [c[1],c[2]];
@@ -608,9 +612,14 @@ const fk = e => filmKey(e.t)||e.t;
 // "Mainstream" is decided per film: anything that plays at Pathé or Vue (the big chains) in the current listings
 const CHAIN_KEYS = new Set(CIN.filter(e=>e.ch).map(fk));
 const GMAP={"Drama":"Drama","Comedy":"Comedy","Horror":"Horror","Thriller":"Thriller","Crime":"Thriller","Mystery":"Thriller","Documentary":"Documentary","Animation":"Animation","Family":"Family","Science Fiction":"Sci-fi","Fantasy":"Sci-fi","Romance":"Romance","Music":"Music","War":"History","History":"History","Action":"Action","Adventure":"Action","Western":"Action"};
-const GCOL={"Drama":"#775A8E","Comedy":"#4F7A68","Horror":"#A8504B","Thriller":"#55524F","Documentary":"#46698F","Animation":"#A06A32","Family":"#45808A","Sci-fi":"#A04A6C","Romance":"#C0687A","Music":"#8A4B6B","History":"#7A6A3F","Action":"#B0763C"};
-const gOf=e=>new Set((e.gn||[]).map(g=>GMAP[g]).filter(Boolean));
+const GCOL={"Drama":"#775A8E","Comedy":"#4F7A68","Horror":"#A8504B","Thriller":"#55524F","Documentary":"#46698F","Animation":"#A06A32","Family":"#45808A","Sci-fi":"#A04A6C","Romance":"#C0687A","Music":"#8A4B6B","History":"#7A6A3F","Queer":"#8E4C8A","Action":"#B0763C"};
+const gOf=e=>new Set([...((e.qr||isQueer(e))?["Queer"]:[]),...(e.gn||[]).map(g=>GMAP[g]).filter(Boolean)]);
 const cinState = {day:"", q:"", kind:"independent", venues:new Set(), cv:false, en:false, gn:null, tfrom:0, panel:"", open:new Set(), exp:new Set()};
+function cinGenres(){   // the ten most common genres, with Queer always included when there is any
+  const gc={}; CIN.forEach(e=>gOf(e).forEach(g=>gc[g]=(gc[g]||0)+1));
+  const top=Object.keys(gc).filter(g=>g!=="Queer").sort((a,b)=>gc[b]-gc[a]).slice(0,gc.Queer?9:10);
+  return gc.Queer?[...top,"Queer"]:top;
+}
 const parseT = s => { const m=/^\s*(\d{1,2})(?:[:.hH]?(\d{2}))?\s*$/.exec(s||""); if(!m) return NaN; const h=+m[1], mi=+(m[2]||0); return h>23||mi>59 ? NaN : h*60+mi; };
 const minOf = h => +h.slice(0,2)*60 + +h.slice(3,5);
 function cinOk(e, ignoreQ){
@@ -672,8 +681,7 @@ function renderCin(){
   const days=[...new Set(CIN.map(e=>e.d))].sort();
   if(!days.length){ $("#cinlist").innerHTML=`<div class="empty">No screenings in the current listings.</div>`; return; }
   if(!cinState.day || !days.includes(cinState.day)) cinState.day=days[0];
-  const gc={}; CIN.forEach(e=>gOf(e).forEach(g=>gc[g]=(gc[g]||0)+1));
-  const genres=Object.keys(gc).sort((a,b)=>gc[b]-gc[a]).slice(0,10);
+  const genres=cinGenres();
   const gOn=cinState.gn||new Set(genres);
   const list=CIN.filter(e=>e.d===cinState.day && cinOk(e));
   const films=new Map();
@@ -704,22 +712,44 @@ let cinTimer; $("#cinq").addEventListener("input",e=>{ clearTimeout(cinTimer); c
 
 /* ---------- Exhibitions tab (All | My list) ---------- */
 const EXH = EVENTS.filter(e=>span(e) && (e.ed||e.d)>=todayIso);
-const exState = {view:"all", q:""};
+const EX_SUBJ = [["Art","#A8504B"],["Photography","#46698F"],["Design","#775A8E"],["Science","#45808A"],["History","#7A6A3F"],["Other","#8A857F"]];
+const EX_RX = [
+  ["Photography", /fotograf|photo|\bfoam\b|\bfoto/i],
+  ["Design", /architect|arcam|design|ontwerp|fashion|mode\b|\bhuis\b.*stijl/i],
+  ["Science", /science|nemo|wetenschap|\bnatuur|nature|micropia|artis\b|ruimte|space\b|technolog/i],
+  ["History", /histor|geschied|joods|jewish|\bwar\b|oorlog|verzet|archie|archive|allard pierson|black archives|wereldmuseum|verleden|\b19\d\d\b|eeuw|century/i],
+  ["Art", /\bart\b|kunst|gallery|galerie|moco|straat|stedelijk|rijksmuseum|van gogh|arti et|painting|schilder|sculpt|beeld|exhibition|expositie|tentoonstelling|museum/i]
+];
+function exSubject(e){
+  if(e.c!=="exhibition" && !/museum|expo|tentoonst|galer/i.test((e.t||"")+" "+(e.v||""))) return "Other";
+  const t=(e.t||"")+" "+(e.v||"")+" "+(e.b||"");
+  for(const [k,rx] of EX_RX) if(rx.test(t)) return k;
+  return e.c==="exhibition" ? "Art" : "Other";
+}
+const EX_STATUS = [["any","Any"],["ending","Ending within two weeks"],["running","Running"],["opening","Opening soon"]];
+const exState = {view:"all", q:"", status:"any", sub:null};
+EXH.forEach(e=>{ e.exs=exSubject(e); });
 const exMatch = e => !exState.q || (e.t+" "+(e.v||"")).toLowerCase().includes(exState.q.toLowerCase());
 function renderExh(){
   VISIBLE=[]; const ws=wantSet();
   document.querySelectorAll("#exsw button").forEach(b=>b.classList.toggle("on",b.dataset.v===exState.view));
-  $("#exsw").dataset.v=exState.view;
-  if(exState.view==="mine") return renderMine();
+  if(exState.view==="mine"){ $("#exfilters").innerHTML=""; return renderMine(); }
   const soon=parse(todayIso); soon.setDate(soon.getDate()+14); const soonIso=iso(soon);
   const byEnd=(a,b)=>a.ed.localeCompare(b.ed)||a.d.localeCompare(b.d);
-  const ex=EXH.filter(exMatch);
+  const subs=EX_SUBJ.filter(([k])=>EXH.some(e=>e.exs===k)), sOn=exState.sub||new Set(subs.map(x=>x[0]));
+  $("#exfilters").innerHTML=`<div class="fpanel">
+    <div class="row"><span class="lab">Status</span>${segH("ex.status",EX_STATUS,exState.status)}</div>
+    <div class="row"><span class="lab">Subject</span>${subs.map(([k,c])=>chipH(k,sOn.has(k),"ex.sub",k,c)).join("")}${allNoneH("ex.suball",subs.every(([k])=>sOn.has(k)))}</div></div>`;
+  const ex=EXH.filter(e=>exMatch(e)&&(!exState.sub||exState.sub.has(e.exs)));
   const running=ex.filter(e=>e.d<=todayIso);
-  const ending=running.filter(e=>e.ed<=soonIso).sort(byEnd), later=running.filter(e=>e.ed>soonIso).sort(byEnd);
-  const opening=ex.filter(e=>e.d>todayIso).sort((a,b)=>a.d.localeCompare(b.d));
+  const st=exState.status;
+  const ending=st==="any"||st==="ending" ? running.filter(e=>e.ed<=soonIso).sort(byEnd) : [];
+  const later=st==="any"||st==="running" ? running.filter(e=>e.ed>soonIso).sort(byEnd) : [];
+  const opening=st==="any"||st==="opening" ? ex.filter(e=>e.d>todayIso).sort((a,b)=>a.d.localeCompare(b.d)) : [];
   const grp=(title,list,opens)=>list.length?grpH(title,"",list.length)+`<div class="evl">${list.map(e=>rowX(e,ws,opens)).join("")}</div>`:"";
-  $("#excount").textContent=`${ex.length} on now or opening soon`;
-  $("#exlist").innerHTML = ex.length ? grp("Ending within two weeks",ending,false)+grp("Running",later,false)+grp("Opening soon",opening,true) : `<div class="empty">No exhibitions match.</div>`;
+  const n=ending.length+later.length+opening.length;
+  $("#excount").textContent=`${n} on now or opening soon`;
+  $("#exlist").innerHTML = n ? grp("Ending within two weeks",ending,false)+grp("Running",later,false)+grp("Opening soon",opening,true) : `<div class="empty">No exhibitions match.</div>`;
 }
 function renderMine(){
   const t0=parse(todayIso), soon=new Date(t0.getTime()+14*864e5);
@@ -772,7 +802,7 @@ const ACT = {
   "cin.day":v=>{ cinState.day=v; renderCin(); },
   "cin.start":v=>{ cinState.tfrom=+v; renderCin(); },
   "cin.tcustom":(v,el)=>{ const m=parseT(el.value); cinState.tfrom=el.value.trim()===""?0:(isNaN(m)?cinState.tfrom:m); renderCin(); },
-  "cin.genre":v=>{ const gc={}; CIN.forEach(e=>gOf(e).forEach(g=>gc[g]=(gc[g]||0)+1)); const all=Object.keys(gc).sort((a,b)=>gc[b]-gc[a]).slice(0,10); const s=new Set(cinState.gn||all); toggleIn(s,v); cinState.gn=all.every(g=>s.has(g))?null:s; renderCin(); },
+  "cin.genre":v=>{ const all=cinGenres(); const s=new Set(cinState.gn||all); toggleIn(s,v); cinState.gn=all.every(g=>s.has(g))?null:s; renderCin(); },
   "cin.genreall":()=>{ cinState.gn=(!cinState.gn)?new Set():null; renderCin(); },
   "cin.kind":v=>{ cinState.kind=v; cinState.venues.clear(); renderCin(); },
   "cin.panel":v=>{ cinState.panel=cinState.panel===v?"":v; renderCin(); },
@@ -783,6 +813,9 @@ const ACT = {
   "cin.more":v=>{ cinState.exp.add(v); swapCard(v); },
   "cin.open":v=>{ toggleIn(cinState.open,v); swapCard(v); },
 
+  "ex.status":v=>{ exState.status=v; renderExh(); },
+  "ex.sub":v=>{ const all=EX_SUBJ.map(x=>x[0]).filter(k=>EXH.some(e=>e.exs===k)); const t=new Set(exState.sub||all); toggleIn(t,v); exState.sub=all.every(k=>t.has(k))?null:t; renderExh(); },
+  "ex.suball":()=>{ exState.sub=exState.sub?null:new Set(); renderExh(); },
   "ex.view":v=>{ exState.view=v; renderExh(); positionThumbs(); },
   "ex.rm":v=>{ WANT=WANT.filter(w=>w.k!==v); saveWant(); renderExh(); },
   "ex.copy":async()=>{
