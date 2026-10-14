@@ -13,6 +13,27 @@ def _cat(cats, title):
     if any(k in s for k in ("concert", "live", "record store", "listening", "orchestra", "choir")): return "music"
     return "club"
 
+GENRES = (("Techno", ("techno",)), ("House", ("house",)), ("Trance", ("trance",)), ("Disco", ("disco",)),
+          ("Melodic", ("melodic",)), ("Ambient", ("ambient", "chillout", "listening")))
+
+
+def _kind(cats, title):
+    s = cats.lower()
+    if "exhibition" in s or "installation" in s: return "Exhibitions"
+    if "wellbeing" in s or "sports" in s: return "Wellbeing and sports"
+    if "workshop" in s or "masterclass" in s: return "Workshops"
+    if "network" in s or "talk" in s or "conference" in s or "panel" in s: return "Talks and networking"
+    if "club night" in s or "nighttime" in s or "all night" in s: return "Club night"
+    if "live" in s: return "Live"
+    return {"talk": "Talks and networking", "workshop": "Workshops", "exhibition": "Exhibitions",
+            "music": "Live"}.get(_cat(cats, title), "Club night")
+
+
+def _genres(cats):
+    s = cats.lower()
+    return [g for g, ks in GENRES if any(k in s for k in ks)]
+
+
 def parse_pages(pages, today):
     out, seen = [], set()
     for page in pages:
@@ -29,6 +50,8 @@ def parse_pages(pages, today):
             cats = v.get("categories") or ""
             ev = {"t": (v.get("title") or "").strip(), "d": d.isoformat(), "v": (v.get("venue") or {}).get("title") or "",
                   "u": v.get("url"), "c": _cat(cats, v.get("title") or ""), "s": "ade", "ade": 1}
+            ev["ak"] = _kind(cats, v.get("title") or "")
+            if _genres(cats): ev["ag"] = _genres(cats)
             if v.get("subtitle"): ev["b"] = v["subtitle"].strip()[:120]
             if v.get("soldOut"): ev["so"] = 1
             hs, he = s[11:16], e[11:16]

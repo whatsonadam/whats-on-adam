@@ -80,16 +80,25 @@ def from_tmdb(title, key):
         if d.get("runtime") and yr:
             return {"yr": int(yr), "du": d["runtime"], "dr": ", ".join(dirs),
                     "lg": [l["iso_639_1"] for l in (d.get("spoken_languages") or []) if l.get("iso_639_1")][:3],
-                    "gn": [g["name"] for g in (d.get("genres") or [])][:3]}
+                    "gn": [g["name"] for g in (d.get("genres") or [])][:3],
+                    **({"rt": round(d["vote_average"], 1)} if d.get("vote_count", 0) >= 20 and d.get("vote_average") else {}),
+                    **({"sy": _short(d["overview"])} if d.get("overview") else {})}
         time.sleep(0.25)
     return None
 
 
-FIELDS = ("yr", "du", "dr", "lg", "gn")
+def _short(t, n=210):
+    t = " ".join(t.split())
+    if len(t) <= n: return t
+    cut = t[:n].rsplit(" ", 1)[0].rstrip(",;:")
+    return cut + "…"
+
+
+FIELDS = ("yr", "du", "dr", "lg", "gn", "rt", "sy")
 
 
 def enrich(events, today):
-    """Cache entry per normalized title: {yr, du, dr, lg, gn, tried, tmdb, v}. v=3 means fully looked up."""
+    """Cache entry per normalized title: {yr, du, dr, lg, gn, tried, tmdb, v}. v=4 means fully looked up (tm4: TMDB checked, incl. rating and synopsis)."""
     try: cache = json.load(open(CACHE))
     except Exception: cache = {}
     key = os.environ.get("TMDB_API_KEY", "").strip()
@@ -100,7 +109,7 @@ def enrich(events, today):
         k = norm(e["t"])
         if k in seen: continue
         c = cache.get(k)
-        if c and c.get("v") == 3 and (c.get("gn") or not key or c.get("tmdb")): 
+        if c and c.get("v") == 4 and (c.get("tm4") or not key or c.get("tmdb")):
             if c.get("yr") or (today - datetime.date.fromisoformat(c.get("tried", now))).days < RETRY_AFTER_DAYS: continue
         seen.add(k); todo.append((k, e["t"]))
     done = 0
@@ -109,12 +118,13 @@ def enrich(events, today):
         if not c.get("yr"):
             c.update(from_cineville(title) or {})
             time.sleep(0.25)
-        if key and not c.get("gn"):
+        if key and not c.get("tm4"):
             m = from_tmdb(title, key)
             if m:
                 for f in FIELDS:
                     if m.get(f) and not c.get(f): c[f] = m[f]
-        c.update({"tried": now, "tmdb": bool(key), "v": 3})
+        c.update({"tried": now, "tmdb": bool(key), "v": 4})
+        if key: c["tm4"] = True
         cache[k] = c
         done += 1
     for e in events:
@@ -126,4 +136,4 @@ def enrich(events, today):
     json.dump(cache, open(CACHE, "w"), ensure_ascii=False, indent=0, sort_keys=True)
     films = [e for e in events if e.get("c") == "film"]
     print(f"film info: {sum(1 for e in films if e.get('yr'))} of {len(films)} screenings have year and length, "
-          f"{sum(1 for e in films if e.get('gn'))} have genres ({done} titles looked up, {max(0, len(todo) - done)} left for next run, TMDB {'on' if key else 'off'})")
+          f"{sum(1 for e in films if e.get('gn'))} have genres, {sum(1 for e in films if e.get('rt'))} ratings, {sum(1 for e in films if e.get('sy'))} synopses ({done} titles looked up, {max(0, len(todo) - done)} left for next run, TMDB {'on' if key else 'off'})")

@@ -30,8 +30,9 @@ def parse(text, today):
                 d = datetime.date.fromisoformat(iso[:10])
                 if not (today <= d <= end): continue
                 href = HREF.search(inner)
+                if not href: continue  # no ticket link means the screening has already started
                 ev = {"t": title, "d": d.isoformat(), "h": iso[11:16], "v": venue,
-                      "u": href.group(1) if href else "https://www.filmladder.nl/amsterdam/bioscopen",
+                      "u": href.group(1),
                       "c": "film", "s": "filmladder", "ch": 1}
                 if s and e:
                     a = int(s[:2]) * 60 + int(s[3:]); b = int(e[:2]) * 60 + int(e[3:])
