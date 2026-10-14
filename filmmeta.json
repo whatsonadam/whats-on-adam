@@ -16,6 +16,12 @@
 "v": 4,
 "yr": 1957
 },
+"3x3 eyes 1991": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4
+},
 "500 miles": {
 "dr": "Morgan Matthews",
 "du": 102,
@@ -53,6 +59,30 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1961
+},
+"a night at the mortuary": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4
+},
+"a night of knowing nothing": {
+"dr": "Payal Kapadia",
+"du": 97,
+"gn": [
+"Documentary"
+],
+"lg": [
+"bn",
+"hi"
+],
+"rt": 7.4,
+"sy": "L, a student in India witness to the government's violent response to university protests, writes letters to her estranged lover while he is away.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2021
 },
 "a river runs through it": {
 "dr": "Robert Redford",
@@ -127,6 +157,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"africadelic memory of princess mumbi special screening": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4
 },
 "africadelic2026 the rising dawn nl premiere beach inna bondage nl preview": {
 "tm4": true,
@@ -260,6 +296,25 @@
 "v": 4,
 "yr": 2023
 },
+"all you need is kill 2025": {
+"dr": "Kenichiro Akimoto",
+"du": 86,
+"gn": [
+"Animation",
+"Action",
+"Mystery"
+],
+"lg": [
+"ja"
+],
+"rt": 6.7,
+"sy": "When a massive alien flower known as \"Darol\" unexpectedly erupts in a deadly event, unleashing monstrous creatures that decimate the population of Japan, Rita is caught in the destruction—and killed. But then…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2026
+},
 "always lalisa": {
 "dr": "Sue Kim",
 "du": 98,
@@ -278,6 +333,24 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"american beauty": {
+"dr": "Sam Mendes",
+"du": 121,
+"gn": [
+"Drama"
+],
+"lg": [
+"en"
+],
+"qr": 1,
+"rt": 8.0,
+"sy": "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter's attractive friend.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1999
 },
 "amn x wysiwyg can you hear the objects speak": {
 "tm4": true,
@@ -346,8 +419,71 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"apollo 13": {
+"dr": "Ron Howard",
+"du": 140,
+"gn": [
+"Drama",
+"History"
+],
+"lg": [
+"en"
+],
+"rt": 7.5,
+"sy": "The true story of technical troubles that scuttle the Apollo 13 lunar mission in 1970, risking the lives of astronaut Jim Lovell and his crew, with the failed journey turning into a thrilling saga of heroism.…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1995
+},
+"ares": {
+"dr": "Jean-Patrick Benes",
+"du": 80,
+"gn": [
+"Science Fiction",
+"Drama",
+"Thriller"
+],
+"lg": [
+"fr"
+],
+"rt": 6.0,
+"sy": "In a near future, the world order has changed. With its 10 millions of unemployed citizens, France has now become a poor country. Its people wavers between rebellion and resignation and find an outlet in the…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2016
+},
+"ascenseur pour l échafaud": {
+"dr": "Louis Malle",
+"du": 88,
+"gn": [
+"Crime",
+"Drama",
+"Thriller"
+],
+"lg": [
+"de",
+"fr"
+],
+"rt": 7.6,
+"sy": "A self-assured businessman murders his employer, husband of his mistress, which unintentionally provokes an ill-fated chain of events.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1958
+},
 "atomic cafe cinema": {
 "tm4": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4
+},
+"austrian night": {
+"tm5": true,
 "tmdb": true,
 "tried": "2026-10-14",
 "v": 4
@@ -370,6 +506,26 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2019
+},
+"beau travail psychoanalyse film": {
+"dr": "Claire Denis",
+"du": 93,
+"gn": [
+"Drama"
+],
+"lg": [
+"fr",
+"it",
+"ru"
+],
+"qr": 1,
+"rt": 7.1,
+"sy": "Foreign Legion officer Galoup recalls his once glorious life, training troops in the Gulf of Djibouti. His existence there was happy, strict and regimented, until the arrival of a promising young recruit…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2000
 },
 "beauty is embarrassing 2012 strings of imagination": {
 "tm4": true,
@@ -402,6 +558,23 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"between revolutions": {
+"dr": "Vlad Petri",
+"du": 69,
+"gn": [
+"Documentary"
+],
+"lg": [
+"fa",
+"ro"
+],
+"sy": "A semi-fictional correspondence between two women: one goes to Iran in 1979 to topple the Shah; the other experiences the onerous years of Ceaușescu’s Romania. Their biographies run in parallel via images of…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2023
+},
 "black girl": {
 "dr": "Ossie Davis",
 "du": 97,
@@ -417,6 +590,18 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1972
+},
+"blue": {
+"dr": "Karina Holden",
+"du": 70,
+"lg": [
+"nl"
+],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2018
 },
 "brainwash festival 2026": {
 "tm4": true,
@@ -439,6 +624,27 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"braveheart": {
+"dr": "Mel Gibson",
+"du": 180,
+"gn": [
+"Drama",
+"History",
+"War"
+],
+"lg": [
+"en",
+"fr",
+"la"
+],
+"rt": 7.9,
+"sy": "Enraged at the slaughter of Murron, his new bride and childhood love, Scottish warrior William Wallace slays a platoon of the local English lord's soldiers. This leads the village to revolt and, eventually…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1995
 },
 "brazil unfiltered closing event food community ecological resistance": {
 "tm4": true,
@@ -507,6 +713,25 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"buddy": {
+"dr": "Heddy Honigmann",
+"du": 86,
+"gn": [
+"Horror",
+"Comedy",
+"Fantasy"
+],
+"lg": [
+"nl"
+],
+"rt": 7.8,
+"sy": "A magical, singing orange unicorn holds his cast hostage in a surreal TV-show dimension, as he becomes more and more demented.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2018
+},
 "bumba het circusorkest": {
 "tm4": true,
 "tmdb": true,
@@ -568,6 +793,12 @@
 "v": 4,
 "yr": 1991
 },
+"carmen": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4
+},
 "cavia in concert at nassaukerk le révélateur with live score by sasha sykes": {
 "tm4": true,
 "tmdb": true,
@@ -621,6 +852,62 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2011
+},
+"cine of the times presents magic mike xxl 2015 incl pre show": {
+"dr": "Gregory Jacobs",
+"du": 115,
+"gn": [
+"Comedy",
+"Drama"
+],
+"lg": [
+"en"
+],
+"qr": 1,
+"rt": 6.1,
+"sy": "Three years after Mike bowed out of the stripper life at the top of his game, he and the remaining Kings of Tampa hit the road to Myrtle Beach to put on one last blow-out performance.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2015
+},
+"cine of the times presents marie antoinette 2006 incl pre show": {
+"dr": "Sofia Coppola",
+"du": 123,
+"gn": [
+"Drama",
+"History"
+],
+"lg": [
+"en"
+],
+"rt": 6.7,
+"sy": "A retelling of the story of France’s iconic but ill-fated queen, Marie Antoinette - from her betrothal and marriage to Louis XVI at fifteen to her reign as queen at nineteen and ultimately the fall of…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2006
+},
+"cine of the times presents under the skin 2013 incl pre show": {
+"dr": "Jonathan Glazer",
+"du": 108,
+"gn": [
+"Thriller",
+"Science Fiction",
+"Drama"
+],
+"lg": [
+"en"
+],
+"rt": 6.1,
+"sy": "A seductive stranger prowls the streets of Glasgow in search of prey: unsuspecting men who fall under her spell.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2014
 },
 "cine of the times presents walk hard the dewey cox story 2007 incl pre show": {
 "dr": "Jake Kasdan",
@@ -682,6 +969,16 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"cinemini het kind van de gruffalo": {
+"dr": "Johannes Weiland, Uwe Heidschötter",
+"du": 27,
+"lg": [],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2011
+},
 "cinemini zoek zoek zoek": {
 "tm4": true,
 "tmdb": true,
@@ -724,6 +1021,23 @@
 "v": 4,
 "yr": 2002
 },
+"clerks": {
+"dr": "Kevin Smith",
+"du": 92,
+"gn": [
+"Comedy"
+],
+"lg": [
+"en"
+],
+"rt": 7.4,
+"sy": "Convenience and video store clerks Dante and Randal are sharp-witted, potty-mouthed and bored out of their minds. So in between needling customers, the counter jockeys play hockey on the roof, visit a funeral…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1994
+},
 "closely watched trains 1966": {
 "dr": "Jiří Menzel",
 "du": 93,
@@ -742,6 +1056,24 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1966
+},
+"club kid": {
+"dr": "Jordan Firstman",
+"du": 126,
+"gn": [
+"Comedy",
+"Drama"
+],
+"lg": [
+"en"
+],
+"qr": 1,
+"sy": "A hard-partying New York City club promoter sees his whirlwind lifestyle upended by the arrival of the 10-year-old son he never knew he had.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2026
 },
 "club kid 2026": {
 "dr": "Jordan Firstman",
@@ -896,6 +1228,22 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"connected breath circle autumn moving inward": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4
+},
+"conte d hiver": {
+"dr": "Mateo Porasso",
+"du": 10,
+"sy": "A winter evening",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2023
+},
 "coward": {
 "dr": "Lukas Dhont",
 "du": 120,
@@ -1013,6 +1361,25 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1976
+},
+"cure": {
+"dr": "Kiyoshi Kurosawa",
+"du": 115,
+"gn": [
+"Horror",
+"Mystery",
+"Crime"
+],
+"lg": [
+"ja"
+],
+"rt": 7.6,
+"sy": "A frustrated detective deals with the case of several gruesome murders committed by people who have no recollection of what they've done.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1997
 },
 "daft punk leiji matsumoto s interstella 5555 the 5tory of the 5ecret 5tar 5ystem": {
 "tm4": true,
@@ -1184,6 +1551,12 @@
 "v": 4,
 "yr": 2026
 },
+"de notenkraker": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4
+},
 "de tatta s daan": {
 "dr": "Jamel Aattache, Lars Zijm",
 "du": 80,
@@ -1214,6 +1587,42 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1995
+},
+"dead man walking": {
+"dr": "Tim Robbins",
+"du": 122,
+"gn": [
+"Drama"
+],
+"lg": [
+"en"
+],
+"rt": 7.3,
+"sy": "A death row inmate turns for spiritual guidance to a local nun in the days leading up to his scheduled execution for the murders of a young couple.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1995
+},
+"deliverance": {
+"dr": "John Boorman",
+"du": 110,
+"gn": [
+"Drama",
+"Adventure",
+"Thriller"
+],
+"lg": [
+"en"
+],
+"rt": 7.3,
+"sy": "Intent on seeing the Cahulawassee River before it's turned into one huge lake, outdoor fanatic Lewis Medlock takes his friends on a river-rafting trip they'll never forget into the dangerous American…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1972
 },
 "der held vom bahnhof friedrichstraße": {
 "dr": "Wolfgang Becker, Achim von Borries",
@@ -1250,6 +1659,23 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2024
+},
+"detention": {
+"dr": "John Hsu",
+"du": 103,
+"gn": [
+"Drama",
+"Comedy"
+],
+"lg": [
+"zh"
+],
+"sy": "When four high schoolers get “Saturday Detention”, they quickly realize things just got a whole lot worse when they discover what they thought was just a waste-of-time detention turns into a bit of a…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2019
 },
 "diary for my father and mother": {
 "tm4": true,
@@ -1289,6 +1715,25 @@
 "rt": 7.8,
 "sy": "After narrowly escaping a bizarre accident, a troubled teenager is plagued by visions of a large bunny rabbit that manipulates him to commit a series of crimes.",
 "tm4": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2001
+},
+"donnie darko 25th anniversary": {
+"dr": "Richard Kelly",
+"du": 114,
+"gn": [
+"Fantasy",
+"Drama",
+"Mystery"
+],
+"lg": [
+"en"
+],
+"rt": 7.8,
+"sy": "After narrowly escaping a bizarre accident, a troubled teenager is plagued by visions of a large bunny rabbit that manipulates him to commit a series of crimes.",
+"tm5": true,
 "tmdb": true,
 "tried": "2026-10-14",
 "v": 4,
@@ -1408,6 +1853,23 @@
 "tried": "2026-10-13",
 "v": 3,
 "yr": 1994
+},
+"dune part three": {
+"dr": "Denis Villeneuve",
+"du": 140,
+"gn": [
+"Science Fiction",
+"Adventure"
+],
+"lg": [
+"en"
+],
+"sy": "Nearly two decades after he seized control of the Imperium, Paul Atreides is now a ruthless Emperor, and must face the consequences of his reign as old allies return, terrifying new threats emerge, and…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2026
 },
 "early seidl shorts": {
 "dr": "Ulrich Seidl",
@@ -1576,6 +2038,40 @@
 "v": 4,
 "yr": 2025
 },
+"etwas ganz besonderes": {
+"dr": "Eva Trobisch",
+"du": 116,
+"gn": [
+"Drama"
+],
+"lg": [
+"de"
+],
+"sy": "As a contestant in a singing casting show, Lea is asked by the TV team who she is and what makes her special. She doesn't know and begins to slip into different roles in her search for what makes her special…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2026
+},
+"excalibur": {
+"dr": "John Boorman",
+"du": 140,
+"gn": [
+"Adventure",
+"Fantasy"
+],
+"lg": [
+"en"
+],
+"rt": 7.0,
+"sy": "Arthur fulfills his fate by bringing together the Knights of the Round Table at Camelot and unifying the country. However, this flawed monarch faces greater tests ahead in pursuit of love, the Holy Grail, and…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1981
+},
 "exotica": {
 "dr": "Atom Egoyan",
 "du": 103,
@@ -1599,6 +2095,31 @@
 "tmdb": true,
 "tried": "2026-10-14",
 "v": 4
+},
+"eye art film prize": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4
+},
+"eyes wide shut": {
+"dr": "Stanley Kubrick",
+"du": 159,
+"gn": [
+"Drama",
+"Thriller",
+"Mystery"
+],
+"lg": [
+"en"
+],
+"rt": 7.5,
+"sy": "After Dr. Bill Harford's wife, Alice, admits to having sexual fantasies about a man she met, Bill becomes obsessed with having a sexual encounter. He discovers an underground sexual group and attends one of…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1999
 },
 "fall 2 deadpoint": {
 "dr": "Peter Spierig, Michael Spierig",
@@ -1755,6 +2276,18 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"film food tampopo incl ramen": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4
+},
+"film lecture the mysteries of donnie darko": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4
+},
 "filmcursus eigenzinnige regisseurs": {
 "tm4": true,
 "tmdb": true,
@@ -1763,6 +2296,12 @@
 },
 "filmhuis paradise circus": {
 "tm4": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4
+},
+"filmvertoning het atelier": {
+"tm5": true,
 "tmdb": true,
 "tried": "2026-10-14",
 "v": 4
@@ -1826,6 +2365,25 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"forrest gump": {
+"dr": "Robert Zemeckis",
+"du": 142,
+"gn": [
+"Comedy",
+"Drama",
+"Romance"
+],
+"lg": [
+"en"
+],
+"rt": 8.5,
+"sy": "A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all he has achieved…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1994
 },
 "four weddings and a funeral": {
 "dr": "Mike Newell",
@@ -1951,6 +2509,25 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"ghost dog the way of the samurai": {
+"dr": "Jim Jarmusch",
+"du": 116,
+"gn": [
+"Crime",
+"Drama"
+],
+"lg": [
+"en",
+"fr"
+],
+"rt": 7.3,
+"sy": "A Black hitman who models after the samurai of old finds himself targeted for death by the mob.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1999
 },
 "ghost in the cell": {
 "dr": "Joko Anwar",
@@ -2083,6 +2660,29 @@
 "v": 4,
 "yr": 2017
 },
+"good will hunting": {
+"dr": "Gus Van Sant",
+"du": 126,
+"gn": [
+"Drama"
+],
+"lg": [
+"en"
+],
+"rt": 8.2,
+"sy": "Will Hunting is a headstrong, working-class genius who is failing the lessons of life. After one too many run-ins with the law, Will's last chance is a psychology professor, who might be the only man who can…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1997
+},
+"goodbye lenin": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4
+},
 "gremlins": {
 "dr": "Joe Dante",
 "du": 106,
@@ -2101,6 +2701,31 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1984
+},
+"groundhog day": {
+"dr": "Harold Ramis",
+"du": 101,
+"gn": [
+"Romance",
+"Fantasy",
+"Comedy"
+],
+"lg": [
+"en"
+],
+"rt": 7.6,
+"sy": "A cynical TV weatherman, along with his idealistic producer and his sardonic cameraman, is sent to report on Groundhog Day in the small town of Punxsutawney, where he finds himself repeating the same day over…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1993
+},
+"götterdämmerung": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4
 },
 "hallowiebe overdrive": {
 "dr": "Jasper ten Hoor, Ivan Hidayat",
@@ -2283,6 +2908,24 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"hoe lees ik film lidewijde paris": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4
+},
+"home alone": {
+"dr": "Chris Columbus",
+"du": 103,
+"lg": [
+"en"
+],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1990
+},
 "hope": {
 "dr": "Maria Sødahl",
 "du": 126,
@@ -2324,6 +2967,25 @@
 "v": 4,
 "yr": 2026
 },
+"human de publieke tribune": {
+"dr": "Yann Arthus-Bertrand",
+"du": 191,
+"gn": [
+"Documentary"
+],
+"lg": [
+"ar",
+"zh",
+"he"
+],
+"rt": 8.4,
+"sy": "A collection of stories about and images of our world, offering an immersion to the core of what it means to be human. Through these stories full of love and happiness, as well as hatred and violence, it…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2015
+},
 "human nature": {
 "dr": "Bart Schrijver",
 "du": 141,
@@ -2341,6 +3003,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"humans of film festival": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4
 },
 "hundreds of beavers": {
 "dr": "Mike Cheslik",
@@ -2377,6 +3045,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2001
+},
+"hunger games sunrise on the reaping": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4
 },
 "i love boosters": {
 "dr": "Boots Riley",
@@ -2415,6 +3089,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"idfa international documentary film festival amsterdam": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4
 },
 "ikatan darah": {
 "dr": "Sidharta Tata",
@@ -2547,6 +3227,25 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2018
+},
+"imagine film festival colony": {
+"dr": "Yeon Sang-ho",
+"du": 122,
+"gn": [
+"Horror",
+"Action",
+"Science Fiction"
+],
+"lg": [
+"ko"
+],
+"rt": 8.1,
+"sy": "Professor Se-jeong is thrust into a bloody nightmare when a rapidly mutating virus is released during a biotech conference causing authorities to seal the facility. Trapped inside with no escape, Se-jeong…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2026
 },
 "imagine film festival crocodile": {
 "dr": "Tobe Hooper",
@@ -2812,6 +3511,25 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"imagine film festival la llorona": {
+"dr": "Jayro Bustamante",
+"du": 97,
+"gn": [
+"Thriller",
+"Horror",
+"Drama"
+],
+"lg": [
+"es"
+],
+"rt": 6.4,
+"sy": "Accused of the genocide of Mayan people, retired general Enrique is trapped in his mansion by massive protests. Abandoned by his staff, the indignant old man and his family must face the devastating truth of…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2019
+},
 "imagine film festival light pillar": {
 "dr": "Zao Xu",
 "du": 90,
@@ -2890,6 +3608,22 @@
 "v": 4,
 "yr": 2009
 },
+"imagine film festival never after dark": {
+"dr": "Dave Boyle",
+"du": 104,
+"gn": [
+"Horror"
+],
+"lg": [
+"ja"
+],
+"sy": "A traveling psychic who helps lost souls cross over encounters a powerful entity at a remote house. While investigating its origins, she uncovers dark secrets and faces a deadly threat from an unexpected…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2026
+},
 "imagine film festival nieuw nederlands peil 1": {
 "dr": "diverse",
 "du": 99,
@@ -2958,6 +3692,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"imagine film festival out there factory reset short": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4
 },
 "imagine film festival ph1shed _": {
 "tm4": true,
@@ -3189,6 +3929,24 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"imagine film festival the samurai and the prisoner": {
+"dr": "Kiyoshi Kurosawa",
+"du": 147,
+"gn": [
+"Drama",
+"History",
+"Mystery"
+],
+"lg": [
+"ja"
+],
+"sy": "When Lord Murashige rises up against the tyrannical Oda, he finds himself besieged within the walls of his own castle. Isolated, he is confronted with a series of mysterious crimes that shatter the fragile…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2026
+},
 "imagine film festival the wig the flesh dress short": {
 "dr": "Emiliano Rocha Minter",
 "du": 70,
@@ -3309,6 +4067,18 @@
 "v": 4,
 "yr": 2007
 },
+"improvisatie theater de concurrent speelt": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4
+},
+"in person ulrich seidl": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4
+},
 "in the mood for love 4k restoration": {
 "dr": "Wong Kar-wai",
 "du": 98,
@@ -3373,6 +4143,26 @@
 "v": 4,
 "yr": 2026
 },
+"interview with the vampire": {
+"dr": "Neil Jordan",
+"du": 123,
+"gn": [
+"Horror",
+"Drama",
+"Fantasy"
+],
+"lg": [
+"en",
+"fr"
+],
+"rt": 7.4,
+"sy": "A vampire relates his epic life story of love, betrayal, loneliness, and dark hunger to an over-curious reporter.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1994
+},
 "into eternity": {
 "dr": "Michael Madsen",
 "du": 75,
@@ -3417,6 +4207,26 @@
 "v": 4,
 "yr": 2005
 },
+"jfk": {
+"dr": "Oliver Stone",
+"du": 189,
+"gn": [
+"Drama",
+"Thriller",
+"History"
+],
+"lg": [
+"en",
+"es"
+],
+"rt": 7.6,
+"sy": "Follows the investigation into the assassination of President John F. Kennedy led by New Orleans district attorney Jim Garrison.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1991
+},
 "juste une illusion": {
 "dr": "Olivier Nakache, Eric Toledano",
 "du": 115,
@@ -3453,6 +4263,18 @@
 "v": 4,
 "yr": 2026
 },
+"kaboom cult presents the time masters 1982 incl introduction": {
+"dr": "René Laloux",
+"du": 78,
+"lg": [
+"fr"
+],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1982
+},
 "kaboom x melkweg cinema": {
 "tm4": true,
 "tmdb": true,
@@ -3480,6 +4302,23 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"killer of sheep": {
+"dr": "Charles Burnett",
+"du": 80,
+"gn": [
+"Drama"
+],
+"lg": [
+"en"
+],
+"rt": 6.6,
+"sy": "An African-American man working at a slaughterhouse in the Watts area of Los Angeles leads a dissatisfied and listless existence.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1978
 },
 "killing the devil 1970": {
 "dr": "Ester Krumbachova",
@@ -3526,6 +4365,25 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"kneecap 2024": {
+"dr": "Rich Peppiatt",
+"du": 102,
+"gn": [
+"Music",
+"Comedy",
+"Drama"
+],
+"lg": [
+"en"
+],
+"rt": 7.3,
+"sy": "When fate brings Belfast teacher JJ into the orbit of self-confessed 'low life scum' Naoise and Liam Óg, the needle drops on a hip-hop act like no other. Rapping in their native Irish, they lead a movement to…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2024
 },
 "knockin on herman s door": {
 "dr": "Stefano Bertacchini",
@@ -3696,6 +4554,25 @@
 "v": 4,
 "yr": 1991
 },
+"la femme infidèle": {
+"dr": "Claude Chabrol",
+"du": 95,
+"gn": [
+"Crime",
+"Drama",
+"Thriller"
+],
+"lg": [
+"fr"
+],
+"rt": 6.9,
+"sy": "A man begins to believe his wife is cheating on him.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1969
+},
 "la llorona": {
 "dr": "Jayro Bustamante",
 "du": 97,
@@ -3863,6 +4740,24 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"les amants du pont neuf": {
+"dr": "Leos Carax",
+"du": 126,
+"gn": [
+"Drama",
+"Romance"
+],
+"lg": [
+"fr"
+],
+"rt": 7.4,
+"sy": "Set against Paris' oldest bridge, the Pont Neuf, while it was closed for repairs, this film is a love story between two young vagrants: Alex, a would be circus performer addicted to alcohol and sedatives and…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1991
+},
 "les caprices de l enfant roi tapis rouge 2026": {
 "dr": "Michel Leclerc",
 "du": 118,
@@ -3981,6 +4876,25 @@
 "v": 4,
 "yr": 2026
 },
+"lone star": {
+"dr": "John Sayles",
+"du": 135,
+"gn": [
+"Drama",
+"Mystery",
+"Western"
+],
+"lg": [
+"en"
+],
+"rt": 7.0,
+"sy": "When the skeleton of his murdered predecessor is found, Sheriff Sam Deeds unearths many other long-buried secrets in his Texas border town.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1996
+},
 "los silencios": {
 "tm4": true,
 "tmdb": true,
@@ -4040,6 +4954,18 @@
 "v": 4,
 "yr": 1965
 },
+"ma am tere": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4
+},
+"maak je eigen flipboek magische dromen": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4
+},
 "maak je eigen flipboek technische snufjes": {
 "tm4": true,
 "tmdb": true,
@@ -4092,6 +5018,23 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1962
+},
+"manchester by the sea 2016": {
+"dr": "Kenneth Lonergan",
+"du": 135,
+"gn": [
+"Drama"
+],
+"lg": [
+"en"
+],
+"rt": 7.5,
+"sy": "After his older brother passes away, Lee Chandler is forced to return home to care for his 16-year-old nephew. There he is compelled to deal with a tragic past that separated him from his family and the…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2016
 },
 "manon": {
 "dr": "Yōichi Higashi",
@@ -4168,6 +5111,30 @@
 "v": 4,
 "yr": 2011
 },
+"merlusse": {
+"dr": "Marcel Pagnol",
+"du": 72,
+"gn": [
+"Drama",
+"Comedy"
+],
+"lg": [
+"fr"
+],
+"rt": 7.2,
+"sy": "\"Merlusse\" is French schoolboy slang for codfish, and M. Blanchard, a professor at a certain lycée, was known to his victims by that name. On Christmas Eve, when some twenty of the students—orphans, foreigners…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1935
+},
+"miles 2026": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4
+},
 "minions monsters nl": {
 "dr": "Pierre Coffin",
 "du": 85,
@@ -4182,6 +5149,24 @@
 "rt": 7.6,
 "sy": "This is the rambunctious, ridiculous and totally true story of how the Minions conquered Hollywood, became movie stars, lost everything, unleashed monsters onto the world and then banded together to try and…",
 "tm4": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2026
+},
+"minotaur": {
+"dr": "Andrey Zvyagintsev",
+"du": 140,
+"gn": [
+"Drama",
+"Crime",
+"Thriller"
+],
+"lg": [
+"ru"
+],
+"sy": "When Gleb, a successful company director, finds himself under siege from mounting corporate pressures, an increasingly unstable world, and the discovery of his wife's affair, the collapse of his carefully…",
+"tm5": true,
 "tmdb": true,
 "tried": "2026-10-14",
 "v": 4,
@@ -4258,6 +5243,24 @@
 "v": 4,
 "yr": 1992
 },
+"mo better blues": {
+"dr": "Spike Lee",
+"du": 129,
+"gn": [
+"Drama",
+"Music"
+],
+"lg": [
+"en"
+],
+"rt": 6.5,
+"sy": "Talented but self-centered trumpeter Bleek Gilliam is obsessed with his music and indecisiveness about his girlfriends Indigo and Clarke. But when he is forced to come to the aid of his manager and childhood…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1990
+},
 "models": {
 "dr": "Ulrich Seidl",
 "du": 118,
@@ -4273,6 +5276,22 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1999
+},
+"mond": {
+"dr": "Kurdwin Ayub",
+"du": 99,
+"gn": [
+"Animation"
+],
+"lg": [
+"de",
+"en"
+],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2024
 },
 "monster mia": {
 "dr": "Verena Fels",
@@ -4341,8 +5360,20 @@
 "v": 4,
 "yr": 1981
 },
+"mtm on tour molly vs the machines": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4
+},
 "mtm on tour sentient": {
 "tm4": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4
+},
+"museumnacht 2026": {
+"tm5": true,
 "tmdb": true,
 "tried": "2026-10-14",
 "v": 4
@@ -4368,6 +5399,24 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"naked": {
+"dr": "Mike Leigh",
+"du": 131,
+"gn": [
+"Drama",
+"Comedy"
+],
+"lg": [
+"en"
+],
+"rt": 7.3,
+"sy": "An unemployed Brit vents his rage on unsuspecting strangers as he embarks on a nocturnal London odyssey.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1993
 },
 "naza": {
 "dr": "Yuval Abraham, Rachel Szor",
@@ -4742,6 +5791,31 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"out of sight": {
+"dr": "Steven Soderbergh",
+"du": 123,
+"gn": [
+"Romance",
+"Comedy",
+"Crime"
+],
+"lg": [
+"en"
+],
+"rt": 6.7,
+"sy": "Meet Jack Foley, a smooth criminal who bends the law and is determined to make one last heist. Karen Sisco is a federal marshal who chooses all the right moves … and all the wrong guys. Now they're willing to…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1998
+},
+"out there": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4
+},
 "palestine 36": {
 "dr": "Annemarie Jacir",
 "du": 118,
@@ -4938,6 +6012,43 @@
 "v": 4,
 "yr": 2023
 },
+"philadelphia": {
+"dr": "Jonathan Demme",
+"du": 125,
+"gn": [
+"Drama"
+],
+"lg": [
+"en"
+],
+"qr": 1,
+"rt": 7.7,
+"sy": "Two competing lawyers join forces to sue a prestigious law firm for AIDS discrimination. As their unlikely friendship develops, their courage overcomes the prejudice and corruption of their powerful…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1993
+},
+"point break": {
+"dr": "Kathryn Bigelow",
+"du": 120,
+"gn": [
+"Action",
+"Thriller",
+"Crime"
+],
+"lg": [
+"en"
+],
+"rt": 7.2,
+"sy": "In Los Angeles, a gang of bank robbers who call themselves The Ex-Presidents commit their crimes while wearing masks of Reagan, Carter, Nixon and Johnson. Believing that the members of the gang could be…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1991
+},
 "practical magic 2": {
 "dr": "Susanne Bier",
 "du": 129,
@@ -4975,6 +6086,24 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"pretty woman": {
+"dr": "Garry Marshall",
+"du": 114,
+"gn": [
+"Romance",
+"Comedy"
+],
+"lg": [
+"en"
+],
+"rt": 7.4,
+"sy": "Vivian is a carefree, streetwise diamond in the rough when she meets sophisticated billionaire Edward in a chance encounter that turns into a week-long business arrangement. But Vivian's energetic spirit…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1990
 },
 "preview sense and sensibility": {
 "tm4": true,
@@ -5098,6 +6227,22 @@
 "v": 4,
 "yr": 2025
 },
+"queen at sea": {
+"dr": "Lance Hammer",
+"du": 121,
+"gn": [
+"Drama"
+],
+"lg": [
+"en"
+],
+"sy": "Amanda and her stepfather Martin struggle with a moral issue that divides them. Has Amanda’s mother Leslie, who has dementia, lost the ability to make critical decisions in her own best interests? And, if so…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2026
+},
 "quelques mots d amour tapis rouge 2026": {
 "dr": "Rudi Rosenberg",
 "du": 95,
@@ -5114,6 +6259,23 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"r i p bits and pieces": {
+"dr": "Jan Doense",
+"du": 6,
+"gn": [
+"Comedy",
+"Horror"
+],
+"lg": [
+"xx"
+],
+"sy": "Night has fallen. A thunderstorm approaches. In a lonely house a young woman mourns her deceased husband. In the cemetery across the street the shape of a man rises from a grave...",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2001
 },
 "ratcatcher": {
 "dr": "Lynne Ramsay",
@@ -5197,6 +6359,23 @@
 "v": 4,
 "yr": 2026
 },
+"reversal of fortune": {
+"dr": "Barbet Schroeder",
+"du": 111,
+"gn": [
+"Drama"
+],
+"lg": [
+"en"
+],
+"rt": 6.7,
+"sy": "Wealthy Sunny von Bülow lies brain-dead, husband Claus guilty of attempted murder; but he says he's innocent and hires Alan Dershowitz for his appeal.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1990
+},
 "rimini": {
 "dr": "Ulrich Seidl",
 "du": 114,
@@ -5233,6 +6412,28 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1996
+},
+"royal ballet and opera de notenkraker": {
+"dr": "",
+"du": 209,
+"lg": [
+"en"
+],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2025
+},
+"royal opera house manon": {
+"dr": "Geen",
+"du": 195,
+"lg": [],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2024
 },
 "sacrifice": {
 "dr": "Romain Gavras",
@@ -5356,6 +6557,23 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"secrets lies": {
+"dr": "Mike Leigh",
+"du": 136,
+"gn": [
+"Drama"
+],
+"lg": [
+"en"
+],
+"rt": 7.6,
+"sy": "After her adoptive mother dies, Hortense, a successful black optometrist, seeks out her birth mother. She's shocked when her research leads her to Cynthia, a working class white woman.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1996
+},
 "seeds 2025": {
 "dr": "Brittany Shyne",
 "du": 123,
@@ -5403,6 +6621,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"sense sensibility 1995": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4
 },
 "sentient": {
 "dr": "Tony Jones",
@@ -5596,6 +6820,25 @@
 "v": 4,
 "yr": 2025
 },
+"sing street 2016": {
+"dr": "John Carney",
+"du": 106,
+"gn": [
+"Romance",
+"Drama",
+"Music"
+],
+"lg": [
+"en"
+],
+"rt": 7.9,
+"sy": "A boy growing up in Dublin during the 1980s escapes his strained family life by starting a band to impress the mysterious girl he likes.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2016
+},
 "singin in the rain": {
 "dr": "Stanley Donen, Gene Kelly",
 "du": 103,
@@ -5632,6 +6875,19 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1999
+},
+"small talk": {
+"dr": "Hui-Chen Huang",
+"du": 89,
+"lg": [
+"en"
+],
+"sy": "When Ellis is forced to get his hair cut, he's willing to do whatever it takes to make the excruciating ordeal that little more bearable...even if it means telling a lie that will pretty much ensure, when he…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2016
 },
 "sneak preview": {
 "dr": "",
@@ -5701,6 +6957,12 @@
 "v": 4,
 "yr": 2026
 },
+"spaces of exception post film discussion": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4
+},
 "sparta": {
 "dr": "Ulrich Seidl",
 "du": 100,
@@ -5756,6 +7018,25 @@
 "v": 4,
 "yr": 2026
 },
+"strange days": {
+"dr": "Kathryn Bigelow",
+"du": 145,
+"gn": [
+"Crime",
+"Science Fiction",
+"Thriller"
+],
+"lg": [
+"en"
+],
+"rt": 7.0,
+"sy": "In the last days of 1999, ex-cop turned street hustler Lenny Nero receives a disc which contains the memories of the murder of a prostitute. With the help of bodyguard Mace, he starts to investigate and is…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1995
+},
 "strange journey the story of rocky horror": {
 "dr": "Linus O'Brien",
 "du": 90,
@@ -5801,11 +7082,34 @@
 "v": 4,
 "yr": 2026
 },
+"surprise screening 2": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4
+},
 "suzaki paradise red light": {
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
 "v": 4
+},
+"symbiopsychotaxiplasm take one": {
+"dr": "William Greaves",
+"du": 75,
+"gn": [
+"Documentary"
+],
+"lg": [
+"en"
+],
+"rt": 6.9,
+"sy": "In Manhattan's Central Park, a film crew directed by William Greaves is shooting a screen test with various pairs of actors. It's a confrontation between a couple: he demands to know what's wrong, she…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1968
 },
 "taming the garden": {
 "dr": "Salomé Jashi",
@@ -5915,6 +7219,24 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1996
+},
+"the age of innocence": {
+"dr": "Martin Scorsese",
+"du": 139,
+"gn": [
+"Drama",
+"Romance"
+],
+"lg": [
+"en"
+],
+"rt": 7.0,
+"sy": "In 19th century New York high society, a young lawyer falls in love with a woman separated from her husband, while he is engaged to the woman's cousin.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1993
 },
 "the annihilation of fish": {
 "dr": "Charles Burnett",
@@ -6056,6 +7378,44 @@
 "v": 4,
 "yr": 1968
 },
+"the bridges of madison county": {
+"dr": "Clint Eastwood",
+"du": 135,
+"gn": [
+"Drama",
+"Romance"
+],
+"lg": [
+"en"
+],
+"rt": 7.7,
+"sy": "Photographer Robert Kincaid wanders into the life of housewife Francesca Johnson for four days in the 1960s.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1995
+},
+"the commitments 1991": {
+"dr": "Alan Parker",
+"du": 118,
+"gn": [
+"Comedy",
+"Drama",
+"Music"
+],
+"lg": [
+"en",
+"gd"
+],
+"rt": 7.3,
+"sy": "Jimmy Rabbitte, just a thick-ya out of school, gets a brilliant idea: to put a soul band together in Barrytown, his slum home in north Dublin. First he needs musicians and singers: things slowly start to click…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1991
+},
 "the craft": {
 "dr": "Andrew Fleming",
 "du": 101,
@@ -6112,6 +7472,25 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2023
+},
+"the crow": {
+"dr": "Rupert Sanders",
+"du": 113,
+"gn": [
+"Action",
+"Fantasy",
+"Horror"
+],
+"lg": [
+"en"
+],
+"rt": 5.8,
+"sy": "Soulmates Eric and Shelly are brutally murdered when the demons of her dark past catch up with them. Given the chance to save his true love by sacrificing himself, Eric sets out to seek merciless revenge on…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2024
 },
 "the cycle": {
 "dr": "Jordan Downey",
@@ -6299,6 +7678,24 @@
 "v": 4,
 "yr": 1973
 },
+"the fisher king": {
+"dr": "Terry Gilliam",
+"du": 137,
+"gn": [
+"Comedy",
+"Drama"
+],
+"lg": [
+"en"
+],
+"rt": 7.3,
+"sy": "Two troubled men face their terrible destinies and events of their past as they join together on a mission to find the Holy Grail and thus to save themselves.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1991
+},
 "the flick amsterdam on stage": {
 "tm4": true,
 "tmdb": true,
@@ -6389,6 +7786,41 @@
 "v": 4,
 "yr": 1940
 },
+"the holdovers": {
+"dr": "Alexander Payne",
+"du": 133,
+"gn": [
+"Drama",
+"Comedy"
+],
+"lg": [
+"en"
+],
+"rt": 7.6,
+"sy": "A curmudgeonly instructor at a New England prep school is forced to remain on campus during Christmas break to babysit the handful of students with nowhere to go. Eventually, he forms an unlikely bond with one…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2023
+},
+"the ice storm": {
+"dr": "Ang Lee",
+"du": 180,
+"gn": [
+"Drama"
+],
+"lg": [
+"en"
+],
+"rt": 6.9,
+"sy": "In the weekend after thanksgiving 1973 the Hood family is skidding out of control. Then an ice storm hits, the worst in a century.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1997
+},
 "the incomer": {
 "dr": "Louis Paxton",
 "du": 97,
@@ -6425,6 +7857,23 @@
 "v": 4,
 "yr": 2026
 },
+"the joy luck club": {
+"dr": "Wayne Wang",
+"du": 139,
+"gn": [
+"Drama"
+],
+"lg": [
+"en"
+],
+"rt": 7.2,
+"sy": "Through a series of flashbacks, four Chinese women born in America and their respective mothers born in feudal China explore their pasts.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2025
+},
 "the kidnapping of a president": {
 "dr": "Samuli Valkama",
 "du": 84,
@@ -6442,6 +7891,25 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"the last of the mohicans": {
+"dr": "Michael Mann",
+"du": 1992,
+"gn": [
+"History",
+"War",
+"Drama"
+],
+"lg": [
+"en"
+],
+"rt": 7.4,
+"sy": "In war-torn colonial America, in the midst of a bloody battle between British, the French and Native American allies, the aristocratic daughter of a British Colonel and her party are captured by a group of…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 112
 },
 "the lighthouse": {
 "dr": "Robert Eggers",
@@ -6481,6 +7949,80 @@
 "v": 4,
 "yr": 1994
 },
+"the lord of the rings the fellowship of the ring": {
+"dr": "Peter Jackson",
+"du": 179,
+"gn": [
+"Adventure",
+"Fantasy",
+"Action"
+],
+"lg": [
+"en"
+],
+"rt": 8.4,
+"sy": "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2001
+},
+"the lord of the rings the return of the king": {
+"dr": "Peter Jackson",
+"du": 201,
+"gn": [
+"Adventure",
+"Fantasy",
+"Action"
+],
+"lg": [
+"en"
+],
+"rt": 8.5,
+"sy": "As armies mass for a final battle that will decide the fate of the world--and powerful, ancient forces of Light and Dark compete to determine the outcome--one member of the Fellowship of the Ring is revealed…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2003
+},
+"the lord of the rings the two towers": {
+"dr": "Peter Jackson",
+"du": 179,
+"gn": [
+"Adventure",
+"Fantasy",
+"Action"
+],
+"lg": [
+"en"
+],
+"rt": 8.4,
+"sy": "Frodo Baggins and the other members of the Fellowship continue on their sacred quest to destroy the One Ring--but on separate paths. Their destinies lie at two towers--Orthanc Tower in Isengard, where the…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2002
+},
+"the magic city birmingham according to sun ra 2025": {
+"dr": "Guillaume Maupin, Pablo Guarise",
+"du": 97,
+"gn": [
+"Documentary",
+"Music"
+],
+"lg": [
+"en"
+],
+"sy": "Between segregation and cosmic revelation, The Magic City traces the birth of Sun Ra, where a city becomes myth and a man, a galaxy.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2025
+},
 "the match": {
 "dr": "Juan Cabral, Santiago Franco",
 "du": 91,
@@ -6519,6 +8061,25 @@
 "v": 4,
 "yr": 1999
 },
+"the nightmare before christmas": {
+"dr": "Henry Selick",
+"du": 76,
+"gn": [
+"Fantasy",
+"Animation",
+"Family"
+],
+"lg": [
+"en"
+],
+"rt": 7.8,
+"sy": "Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1993
+},
 "the odyssey": {
 "dr": "Christopher Nolan",
 "du": 173,
@@ -6555,6 +8116,24 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2025
+},
+"the portrait of a lady": {
+"dr": "Jane Campion",
+"du": 144,
+"gn": [
+"Drama",
+"Romance"
+],
+"lg": [
+"en"
+],
+"rt": 5.9,
+"sy": "Ms. Isabel Archer isn't afraid to challenge societal norms. Impressed by her free spirit, her kindhearted cousin writes her into his fatally ill father's will. Suddenly rich and independent, Isabelle ventures…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1996
 },
 "the samurai and the prisoner": {
 "dr": "Kiyoshi Kurosawa",
@@ -6666,6 +8245,24 @@
 "v": 4,
 "yr": 2026
 },
+"the spirit of the beehive": {
+"dr": "Víctor Erice",
+"du": 98,
+"gn": [
+"Drama",
+"Fantasy"
+],
+"lg": [
+"es"
+],
+"rt": 7.6,
+"sy": "In 1940, in the immediate aftermath of the Spanish Civil War, a young girl living on the Castilian plain is haunted after attending a screening of James Whale's 1931 film Frankenstein and hearing from her…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1973
+},
 "the st valentine s day massacre": {
 "dr": "Roger Corman",
 "du": 100,
@@ -6684,6 +8281,23 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1967
+},
+"the straight story": {
+"dr": "David Lynch",
+"du": 112,
+"gn": [
+"Drama"
+],
+"lg": [
+"en"
+],
+"rt": 7.7,
+"sy": "Retired farmer and widower Alvin Straight learns one day that his estranged brother Lyle has suffered a severe stroke. Alvin is determined to make things right with Lyle while he still can, but his brother…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1999
 },
 "the summer with carmen": {
 "dr": "Zacharias Mavroeidis",
@@ -6713,6 +8327,23 @@
 "tmdb": true,
 "tried": "2026-10-14",
 "v": 4
+},
+"the sweet hereafter": {
+"dr": "Atom Egoyan",
+"du": 112,
+"gn": [
+"Drama"
+],
+"lg": [
+"en"
+],
+"rt": 6.9,
+"sy": "A small mountain community in Canada is devastated when a school bus accident leaves more than a dozen of its children dead. A big-city lawyer arrives to help the survivors' and victims' families prepare a…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1997
 },
 "the talented mr ripley": {
 "dr": "Anthony Minghella",
@@ -6785,6 +8416,24 @@
 "v": 4,
 "yr": 1962
 },
+"the truman show": {
+"dr": "Peter Weir",
+"du": 103,
+"gn": [
+"Comedy",
+"Drama"
+],
+"lg": [
+"en"
+],
+"rt": 8.2,
+"sy": "In a picture-perfect seaside town, an insurance salesman begins to realize that his entire existence may be staged and observed by a vast unseen audience as part of a long-running real-time reality TV show.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1998
+},
 "the uprising": {
 "dr": "Paul Greengrass",
 "du": 127,
@@ -6803,6 +8452,25 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"the usual suspects": {
+"dr": "Bryan Singer",
+"du": 106,
+"gn": [
+"Drama",
+"Crime",
+"Thriller"
+],
+"lg": [
+"en"
+],
+"rt": 8.2,
+"sy": "Held in an L.A. interrogation room, Verbal Kint attempts to convince the feds that a mythic crime lord, Keyser Soze, not only exists, but was also responsible for drawing him and his four partners into a…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1995
 },
 "the weight": {
 "dr": "Padraic McKinley",
@@ -6842,6 +8510,24 @@
 "v": 4,
 "yr": 1991
 },
+"there s something about mary": {
+"dr": "Peter Farrelly, Bobby Farrelly",
+"du": 120,
+"gn": [
+"Romance",
+"Comedy"
+],
+"lg": [
+"en"
+],
+"rt": 6.6,
+"sy": "For Ted, prom night went about as bad as it’s possible for any night to go. Thirteen years later, he finally gets another chance with his old prom date, only to run up against other suitors including the…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1998
+},
 "they live": {
 "dr": "John Carpenter",
 "du": 94,
@@ -6861,6 +8547,24 @@
 "v": 4,
 "yr": 1988
 },
+"this is spinal tap 1984": {
+"dr": "Rob Reiner",
+"du": 82,
+"gn": [
+"Comedy",
+"Music"
+],
+"lg": [
+"en"
+],
+"rt": 7.4,
+"sy": "\"This Is Spinal Tap\" shines a light on the self-contained universe of a metal band struggling to get back on the charts, including everything from its complicated history of ups and downs, gold albums, name…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1984
+},
 "tierische liebe": {
 "dr": "Ulrich Seidl",
 "du": 114,
@@ -6876,6 +8580,23 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1996
+},
+"time and water": {
+"dr": "Sara Dosa",
+"du": 93,
+"gn": [
+"Documentary"
+],
+"lg": [
+"en",
+"is"
+],
+"sy": "Facing the death of his country’s glaciers and the loss of his beloved grandparents, Icelandic writer Andri Snær Magnason turns his archives into a time capsule to hold what is slipping away — family, memory…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2026
 },
 "time of the gypsies": {
 "dr": "Emir Kusturica",
@@ -6914,6 +8635,25 @@
 "v": 4,
 "yr": 1982
 },
+"to die for": {
+"dr": "Gus Van Sant",
+"du": 106,
+"gn": [
+"Drama",
+"Comedy",
+"Crime"
+],
+"lg": [
+"en"
+],
+"rt": 6.6,
+"sy": "Suzanne Stone wants to be a world-famous news anchor and she is willing to do anything to get what she wants. What she lacks in intelligence, she makes up for in cold determination and diabolical wiles. As she…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1995
+},
 "to sleep with anger": {
 "dr": "Charles Burnett",
 "du": 102,
@@ -6930,6 +8670,25 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1990
+},
+"todo sobre mi madre": {
+"dr": "Pedro Almodovar",
+"du": 101,
+"gn": [
+"Comedy",
+"Drama"
+],
+"lg": [
+"es"
+],
+"qr": 1,
+"rt": 7.6,
+"sy": "Following the tragic death of her teenage son, Manuela travels from Madrid to Barcelona in an attempt to contact the long-estranged father the boy never knew. She reunites with an old friend, an outspoken…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1999
 },
 "toutes directions": {
 "dr": "Noël Loozen",
@@ -7154,6 +8913,41 @@
 "v": 4,
 "yr": 2025
 },
+"unforgiven": {
+"dr": "Clint Eastwood",
+"du": 131,
+"gn": [
+"Western"
+],
+"lg": [
+"en"
+],
+"rt": 7.9,
+"sy": "William Munny is a retired, once-ruthless killer turned gentle widower and hog farmer. To help support his two motherless children, he accepts one last bounty-hunter mission to find the men who brutalized a…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1992
+},
+"up in the air": {
+"dr": "Jason Reitman",
+"du": 109,
+"gn": [
+"Drama",
+"Romance"
+],
+"lg": [
+"en"
+],
+"rt": 6.9,
+"sy": "Corporate downsizing expert Ryan Bingham spends his life in planes, airports, and hotels, but just as he’s about to reach a milestone of ten million frequent flyer miles, he meets a woman who causes him to…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2009
+},
 "upiro": {
 "tm4": true,
 "tmdb": true,
@@ -7171,6 +8965,25 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"velvet goldmine": {
+"dr": "Todd Haynes",
+"du": 124,
+"gn": [
+"Drama",
+"Music"
+],
+"lg": [
+"en"
+],
+"qr": 1,
+"rt": 6.9,
+"sy": "Almost a decade since larger-than-life glam-rock enigma Brian Slade disappeared from public eye, an investigative journalist is on assignment to uncover the truth behind his former idol.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1998
 },
 "verhalen uit de magische tuin": {
 "tm4": true,
@@ -7232,11 +9045,45 @@
 "v": 4,
 "yr": 1983
 },
+"vier minus drei": {
+"dr": "Adrian Goiginger",
+"du": 121,
+"gn": [
+"Drama"
+],
+"lg": [
+"de"
+],
+"sy": "Barbara and her partner Heli are professional clowns, living out their dream of an alternative, joy filled life with their two children, laughing at what doesn't work out. But when a tragic car accident takes…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2026
+},
 "visual encounters film fest 2026": {
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
 "v": 4
+},
+"wan pipel": {
+"dr": "Pim de la Parra",
+"du": 111,
+"gn": [
+"Romance",
+"Drama"
+],
+"lg": [
+"hi",
+"nl"
+],
+"sy": "Back in his native Suriname to see his dying mother, an Afro-Surinamese student from the Netherlands’ former colony finds himself torn between his Amsterdam-based life with his white Dutch girlfriend and a…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1976
 },
 "wen er maar aan": {
 "dr": "Albert Jan van Rees",
