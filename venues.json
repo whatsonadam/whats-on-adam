@@ -11,6 +11,12 @@
 "q": "name",
 "area": "Oost"
 },
+"50 HERTZ": {
+"lat": 52.35984,
+"lon": 4.86438,
+"q": "name",
+"area": "West"
+},
 "50:HERTZ CLUB TRAIN 2026": {
 "skip": true,
 "q": "not found"
@@ -710,6 +716,10 @@
 "skip": true,
 "q": "not found"
 },
+"Buurtwerkplaats Noorderhof": {
+"skip": true,
+"q": "not found"
+},
 "CANDELA": {
 "lat": 52.3639,
 "lon": 4.88394,
@@ -775,6 +785,12 @@
 "lon": 4.89249,
 "q": "name",
 "area": "Centrum"
+},
+"Café Belcampo": {
+"lat": 52.36682,
+"lon": 4.86888,
+"q": "name",
+"area": "West"
 },
 "Café Brandon": {
 "lat": 52.32356,
@@ -859,6 +875,10 @@
 "lon": 4.92622,
 "q": "name",
 "area": "Oost"
+},
+"Café de Jaren": {
+"skip": true,
+"q": "not found"
 },
 "Camarat": {
 "lat": 52.38611,
@@ -1137,6 +1157,12 @@
 "lon": 4.86731,
 "q": "name",
 "area": "West"
+},
+"De Appel": {
+"lat": 52.3648,
+"lon": 4.88972,
+"q": "name",
+"area": "Centrum"
 },
 "De Balie": {
 "lat": 52.36304,
@@ -1557,6 +1583,10 @@
 "q": "name",
 "area": "West"
 },
+"Fort van Sjakoo": {
+"skip": true,
+"q": "not found"
+},
 "Forteiland Pampus": {
 "lat": 52.37828,
 "lon": 5.03602,
@@ -1713,6 +1743,10 @@
 "q": "name",
 "area": "Zuid"
 },
+"Groene Afslag (Hotel)": {
+"skip": true,
+"q": "not found"
+},
 "H'ART Museum": {
 "lat": 52.36565,
 "lon": 4.90221,
@@ -1756,6 +1790,12 @@
 "lon": 4.77562,
 "q": "name",
 "area": "Nieuw-West"
+},
+"Head Moverz": {
+"lat": 52.37791,
+"lon": 4.89574,
+"q": "name",
+"area": "Centrum"
 },
 "Hearth": {
 "lat": 52.35846,
@@ -2439,6 +2479,10 @@
 "q": "name",
 "area": "Noord"
 },
+"NDSM Ferry": {
+"skip": true,
+"q": "not found"
+},
 "NDSM Fuse": {
 "lat": 52.40037,
 "lon": 4.89295,
@@ -2512,6 +2556,10 @@
 "lon": 4.90129,
 "q": "name",
 "area": "Centrum"
+},
+"Nature Bar – Zeepziederij & duurzame winkel in De Hallen": {
+"skip": true,
+"q": "not found"
 },
 "Nazka": {
 "lat": 52.35372,
@@ -3840,6 +3888,10 @@
 "lon": 4.88398,
 "area": "Centrum",
 "q": "manual: Haarlemmerplein 7-H, 1013HP Amsterdam"
+},
+"Theater van Deyssel": {
+"skip": true,
+"q": "not found"
 },
 "Theatercafé De Roode Remise": {
 "skip": true,

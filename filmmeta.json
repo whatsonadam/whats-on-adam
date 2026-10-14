@@ -124,6 +124,25 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"about time": {
+"dr": "Richard Curtis",
+"du": 123,
+"gn": [
+"Drama",
+"Romance",
+"Fantasy"
+],
+"lg": [
+"en"
+],
+"rt": 7.9,
+"sy": "The night after another unsatisfactory New Year's party, Tim's father reveals to him that the men in their family have the ability to travel through time. They can't change history, but they can change what…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2013
+},
 "accattone 1961": {
 "dr": "Pier Paolo Pasolini",
 "du": 117,
@@ -175,6 +194,24 @@
 "tmdb": true,
 "tried": "2026-10-14",
 "v": 4
+},
+"aftersun": {
+"dr": "Charlotte Wells",
+"du": 96,
+"gn": [
+"Drama"
+],
+"lg": [
+"en"
+],
+"qr": 1,
+"rt": 7.7,
+"sy": "Sophie reflects on the shared joy and private melancholy of a holiday she took with her father twenty years earlier. Memories fill the gaps between camcorder footages as she tries to reconcile the father she…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2022
 },
 "akira": {
 "dr": "Katsuhiro Otomo",
@@ -507,6 +544,25 @@
 "v": 4,
 "yr": 2019
 },
+"back to the future": {
+"dr": "Robert Zemeckis",
+"du": 116,
+"gn": [
+"Adventure",
+"Comedy",
+"Science Fiction"
+],
+"lg": [
+"en"
+],
+"rt": 8.3,
+"sy": "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents' first meeting and attracting his mother's romantic interest. Marty must repair the damage to…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1985
+},
 "beau travail psychoanalyse film": {
 "dr": "Claire Denis",
 "du": 93,
@@ -574,6 +630,16 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2023
+},
+"bigi kaaiman songs tales from slavery times": {
+"dr": "Dunya Verwey",
+"du": 110,
+"lg": [],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2026
 },
 "black girl": {
 "dr": "Ossie Davis",
@@ -1180,6 +1246,25 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2017
+},
+"cold war": {
+"dr": "Pawel Pawlikowski",
+"du": 84,
+"gn": [
+"Romance",
+"Music",
+"Drama"
+],
+"lg": [
+"pl"
+],
+"rt": 7.4,
+"sy": "A man and a woman meet in the ruins of post-war Poland. With vastly different backgrounds and temperaments, they are fatally mismatched and yet drawn to each other.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2018
 },
 "colony": {
 "dr": "Yeon Sang-ho",
@@ -2054,6 +2139,25 @@
 "v": 4,
 "yr": 2025
 },
+"eternal sunshine of the spotless mind": {
+"dr": "Michel Gondry",
+"du": 108,
+"gn": [
+"Science Fiction",
+"Drama",
+"Romance"
+],
+"lg": [
+"en"
+],
+"rt": 8.1,
+"sy": "Joel Barish, heartbroken that his girlfriend underwent a procedure to erase him from her memory, decides to do the same. However, as he watches his memories of her fade away, he realises that he still loves…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2004
+},
 "etwas ganz besonderes": {
 "dr": "Eva Trobisch",
 "du": 116,
@@ -2173,6 +2277,26 @@
 ],
 "sy": "Mihrije, Sina, and Jasna are best friends in their early twenties who live in Slovenia. They are tomboys and refuse to conform to the conservative system they live in. Their world turns upside down when they…",
 "tm4": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2026
+},
+"fatherland": {
+"dr": "Pawel Pawlikowski",
+"du": 82,
+"gn": [
+"Drama",
+"History"
+],
+"lg": [
+"de",
+"en",
+"ru"
+],
+"rt": 7.3,
+"sy": "In 1949, German writer Thomas Mann and his daughter Erika embark on a road trip across a Germany in ruins, from US-dominated Frankfurt to Soviet-controlled Weimar.",
+"tm5": true,
 "tmdb": true,
 "tried": "2026-10-14",
 "v": 4,
@@ -2312,6 +2436,12 @@
 },
 "filmhuis paradise circus": {
 "tm4": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4
+},
+"filmvertoning affiba de oudste vrouw van paramaribo rijksmuseum": {
+"tm5": true,
 "tmdb": true,
 "tried": "2026-10-14",
 "v": 4
@@ -3105,6 +3235,23 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"ida": {
+"dr": "Pawel Pawlikowski",
+"du": 80,
+"gn": [
+"Drama"
+],
+"lg": [
+"pl"
+],
+"rt": 7.2,
+"sy": "In 1960s Poland, young novitiate Anna is on the verge of taking her vows when she discovers a family secret dating back to the years of the German occupation.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2013
 },
 "idfa international documentary film festival amsterdam": {
 "tm5": true,
@@ -4929,6 +5076,25 @@
 "v": 4,
 "yr": 1996
 },
+"looper": {
+"dr": "Rian Johnson",
+"du": 119,
+"gn": [
+"Action",
+"Thriller",
+"Science Fiction"
+],
+"lg": [
+"en"
+],
+"rt": 6.9,
+"sy": "In the year 2044, time travel has not yet been invented but in 30 years it will have been. When the mob wants to get rid of someone, they will send their target into the past where a looper, a hired gun, like…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2012
+},
 "los silencios": {
 "tm4": true,
 "tmdb": true,
@@ -5223,6 +5389,25 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"mirror": {
+"dr": "Andrei Tarkovsky",
+"du": 107,
+"gn": [
+"Drama",
+"History"
+],
+"lg": [
+"ru",
+"es"
+],
+"rt": 7.9,
+"sy": "A dying man in his forties recalls his childhood, his mother, the war and personal moments that tell of and juxtapose pivotal moments in Soviet history with daily life.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1975
 },
 "misery": {
 "dr": "Rob Reiner",
@@ -5818,6 +6003,22 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"orlando 4k restoration": {
+"dr": "Sally Potter",
+"du": 94,
+"gn": [
+"Documentary"
+],
+"lg": [
+"en"
+],
+"sy": "With an original staging of text and music, Orlando follows the trail of one of the greatest composers of the Renaissance: Orlando di Lasso (also known as Roland de Lassus). His life and masterful oeuvre…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1992
 },
 "our history three documentaries": {
 "tm4": true,
@@ -7155,6 +7356,23 @@
 "v": 4,
 "yr": 1968
 },
+"synecdoche new york": {
+"dr": "Charlie Kaufman",
+"du": 124,
+"gn": [
+"Drama"
+],
+"lg": [
+"en"
+],
+"rt": 7.5,
+"sy": "A theater director struggles with his work, and the women in his life, as he attempts to create a life-size replica of New York inside a warehouse as part of his new play.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2008
+},
 "taming the garden": {
 "dr": "Salomé Jashi",
 "du": 92,
@@ -7299,6 +7517,24 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1999
+},
+"the banshees of inisherin": {
+"dr": "Martin McDonagh",
+"du": 114,
+"gn": [
+"Drama",
+"Comedy"
+],
+"lg": [
+"en"
+],
+"rt": 7.5,
+"sy": "Two lifelong friends find themselves at an impasse when one abruptly ends their relationship, with alarming consequences for both of them.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2022
 },
 "the beloved": {
 "dr": "Rodrigo Sorogoyen",
@@ -7626,6 +7862,46 @@
 "rt": 7.5,
 "sy": "In 1634 France, charismatic Father Urbain Grandier becomes the target of a sexually obsessed nun’s witchcraft accusations, which corrupt church and state officials are all too happy to exploit.​​​​​​​​​​​​​​​​",
 "tm4": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1971
+},
+"the devils 1971": {
+"dr": "Ken Russell",
+"du": 112,
+"gn": [
+"Drama",
+"History",
+"Horror"
+],
+"lg": [
+"en",
+"la"
+],
+"rt": 7.5,
+"sy": "In 1634 France, charismatic Father Urbain Grandier becomes the target of a sexually obsessed nun’s witchcraft accusations, which corrupt church and state officials are all too happy to exploit.​​​​​​​​​​​​​​​​",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1971
+},
+"the devils 4k restoration": {
+"dr": "Ken Russell",
+"du": 112,
+"gn": [
+"Drama",
+"History",
+"Horror"
+],
+"lg": [
+"en",
+"la"
+],
+"rt": 7.5,
+"sy": "In 1634 France, charismatic Father Urbain Grandier becomes the target of a sexually obsessed nun’s witchcraft accusations, which corrupt church and state officials are all too happy to exploit.​​​​​​​​​​​​​​​​",
+"tm5": true,
 "tmdb": true,
 "tried": "2026-10-14",
 "v": 4,
@@ -8179,6 +8455,25 @@
 "v": 4,
 "yr": 1996
 },
+"the rocky horror picture show sing along": {
+"dr": "Jim Sharman",
+"du": 100,
+"gn": [
+"Comedy",
+"Science Fiction",
+"Horror"
+],
+"lg": [
+"en"
+],
+"rt": 7.4,
+"sy": "After getting a flat tire in the middle of nowhere, newly engaged couple Brad and Janet encounter the eerie mansion of the flamboyant, seductive Dr Frank-N-Furter and a variety of eccentric characters. Through…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1975
+},
 "the samurai and the prisoner": {
 "dr": "Kiyoshi Kurosawa",
 "du": 147,
@@ -8444,6 +8739,24 @@
 "v": 4,
 "yr": 1998
 },
+"the tree of life": {
+"dr": "Terrence Malick",
+"du": 139,
+"gn": [
+"Drama",
+"Fantasy"
+],
+"lg": [
+"en"
+],
+"rt": 6.7,
+"sy": "The impressionistic story of a Texas family in the 1950s. The film follows the life journey of the eldest son, Jack, through the innocence of childhood to his disillusioned adult years as he tries to reconcile…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2011
+},
 "the trial": {
 "dr": "Orson Welles",
 "du": 118,
@@ -8608,6 +8921,24 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1984
+},
+"three billboards outside ebbing missouri": {
+"dr": "Martin McDonagh",
+"du": 115,
+"gn": [
+"Crime",
+"Drama"
+],
+"lg": [
+"en"
+],
+"rt": 8.1,
+"sy": "After seven months have passed without a culprit in her daughter's murder case, Mildred Hayes makes a bold move, painting three signs leading into her town with a controversial message directed at Bill…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 2017
 },
 "tierische liebe": {
 "dr": "Ulrich Seidl",
@@ -8881,6 +9212,25 @@
 "v": 4,
 "yr": 2026
 },
+"twelve monkeys": {
+"dr": "Terry Gilliam",
+"du": 129,
+"gn": [
+"Science Fiction",
+"Thriller",
+"Mystery"
+],
+"lg": [
+"en"
+],
+"rt": 7.6,
+"sy": "In the year 2035, convict James Cole reluctantly volunteers to be sent back in time to discover the origin of a deadly virus that wiped out nearly all of the earth's population and forced the survivors into…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4,
+"yr": 1995
+},
 "twenty hours": {
 "dr": "Zoltán Fábri",
 "du": 110,
@@ -9028,6 +9378,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1998
+},
+"ventilator cinema presents inn a state of siege amsterdam premiere q a special screening": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-14",
+"v": 4
 },
 "verhalen uit de magische tuin": {
 "tm4": true,

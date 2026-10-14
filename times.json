@@ -955,6 +955,15 @@
 "h": "20:00",
 "chk": "2026-10-11"
 },
+"https://www.iamsterdam.com/uit/agenda/attracties-en-bezienswaardigheden/tours/workshop-parfum-maken": {
+"dates": {
+"2026-10-17": {
+"h": "12:00",
+"eh": "13:30"
+}
+},
+"chk": "2026-10-14"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/11e-kerstconcert-van-leander-van-der-steen": {
 "dates": {
 "2026-11-20": {
