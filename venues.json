@@ -2177,6 +2177,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Krux Brewery": {
+"lat": 52.36835,
+"lon": 4.95269,
+"q": "name",
+"area": "Oost"
+},
 "Kunstuitleen Galerie Beeldend Gesproken": {
 "skip": true,
 "q": "not found"
@@ -2384,6 +2390,12 @@
 "lon": 4.89715,
 "q": "name",
 "area": "Centrum"
+},
+"Meininger Hotel Ámsterdam City West": {
+"lat": 52.39068,
+"lon": 4.83745,
+"q": "name",
+"area": "Nieuw-West"
 },
 "Melkweg": {
 "lat": 52.36478,
@@ -2810,6 +2822,12 @@
 "Pakhuis De Zwijger": {
 "lat": 52.37677,
 "lon": 4.92206,
+"q": "name",
+"area": "Oost"
+},
+"Pakhuis Wilhelmina-Mezrab": {
+"lat": 52.37579,
+"lon": 4.92788,
 "q": "name",
 "area": "Oost"
 },
@@ -3583,6 +3601,9 @@
 "skip": true
 },
 "TBA - FRODA'S, De Clercqstraat 40H, 1052 NG Amsterdam": {
+"skip": true
+},
+"TBA - Flower Shop": {
 "skip": true
 },
 "TBA - IYKYK": {
