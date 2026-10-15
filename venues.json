@@ -55,6 +55,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"A Beautiful Mess": {
+"lat": 52.37579,
+"lon": 4.91005,
+"q": "name",
+"area": "Centrum"
+},
 "A Beautiful Mess - Amsterdam": {
 "lat": 52.37579,
 "lon": 4.91005,
@@ -384,6 +390,12 @@
 "skip": true,
 "q": "not found"
 },
+"Aurora Building Amsterdam": {
+"lat": 52.36625,
+"lon": 4.89337,
+"q": "name",
+"area": "Centrum"
+},
 "Avondwinkel Van Wou": {
 "lat": 52.37503,
 "lon": 4.86,
@@ -570,6 +582,10 @@
 "q": "name",
 "area": "Noord"
 },
+"Bezoekerscentrum Bruggen en Kademuren": {
+"skip": true,
+"q": "not found"
+},
 "Bierfabriek": {
 "lat": 52.37007,
 "lon": 4.89376,
@@ -651,6 +667,12 @@
 "lon": 4.87008,
 "q": "name",
 "area": "West"
+},
+"Boekhandel van Noord": {
+"lat": 52.39894,
+"lon": 4.9366,
+"q": "name",
+"area": "Noord"
 },
 "Bols Cocktail Experience": {
 "skip": true,
@@ -2603,6 +2625,10 @@
 "q": "name",
 "area": "Oost"
 },
+"NextOn": {
+"skip": true,
+"q": "not found"
+},
 "Nicholas Groente & Fruit": {
 "lat": 52.40794,
 "lon": 4.91671,
@@ -2642,6 +2668,12 @@
 "lon": 4.92756,
 "q": "name",
 "area": "Oost"
+},
+"Noorderkerk": {
+"lat": 52.37963,
+"lon": 4.8864,
+"q": "name",
+"area": "Centrum"
 },
 "Noorderlicht": {
 "lat": 52.39957,
@@ -3289,6 +3321,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Secret Location": {
+"lat": 52.3632,
+"lon": 4.89998,
+"q": "name",
+"area": "Centrum"
+},
 "Shelter": {
 "lat": 52.38366,
 "lon": 4.90248,
@@ -3445,6 +3483,12 @@
 "area": "Zuid",
 "q": "manual: Museumplein 10, 1071DJ Amsterdam"
 },
+"Steiger 14 (Pier 14)": {
+"lat": 52.38131,
+"lon": 4.8985,
+"q": "name",
+"area": "Centrum"
+},
 "Stichting Kunst- en Cultuurhuis Cinetol": {
 "lat": 52.35283,
 "lon": 4.90657,
@@ -3553,6 +3597,9 @@
 "skip": true
 },
 "TBA -   STAY TUNED": {
+"skip": true
+},
+"TBA - 50:HERTZ CLUB TRAIN 2026 | Amsterdam Central Station, Amsterdam": {
 "skip": true
 },
 "TBA - 50:Hertz - House & Techno café": {
@@ -4072,6 +4119,12 @@
 "skip": true,
 "q": "not found"
 },
+"Very Special": {
+"lat": 52.38381,
+"lon": 4.88724,
+"q": "name",
+"area": "Centrum"
+},
 "Verzetsmuseum Amsterdam": {
 "lat": 52.36781,
 "lon": 4.91273,
@@ -4230,6 +4283,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Westerkerk Amsterdam": {
+"lat": 52.37455,
+"lon": 4.88399,
+"q": "name",
+"area": "Centrum"
+},
 "Westerpark": {
 "lat": 52.38723,
 "lon": 4.87179,
@@ -4362,6 +4421,12 @@
 "q": "name",
 "area": "Nieuw-West"
 },
+"de Appel": {
+"lat": 52.3648,
+"lon": 4.88972,
+"q": "name",
+"area": "Centrum"
+},
 "de Tanker in Noord": {
 "lat": 52.39415,
 "lon": 4.92298,
@@ -4393,6 +4458,10 @@
 "lon": 4.90165,
 "q": "name",
 "area": "Centrum"
+},
+"kunstRUIM": {
+"skip": true,
+"q": "not found"
 },
 "kwartier": {
 "lat": 52.34608,

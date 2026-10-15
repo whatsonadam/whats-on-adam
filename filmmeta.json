@@ -16,10 +16,36 @@
 "v": 4,
 "yr": 1957
 },
+"2001 a space odyssey 4k restoration": {
+"dr": "Stanley Kubrick",
+"du": 149,
+"gn": [
+"Science Fiction",
+"Mystery",
+"Adventure"
+],
+"lg": [
+"en",
+"ru"
+],
+"rt": 8.0,
+"sy": "Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world's most advanced super computer.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-15",
+"v": 4,
+"yr": 1968
+},
 "3x3 eyes 1991": {
 "tm5": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4
+},
+"5 decennia de appel filmvertoning paneldiscussie": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-15",
 "v": 4
 },
 "500 miles": {
@@ -2174,6 +2200,12 @@
 "v": 4,
 "yr": 2026
 },
+"european outdoor film tour 26 27 moving adventures": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-15",
+"v": 4
+},
 "excalibur": {
 "dr": "John Boorman",
 "du": 140,
@@ -2386,6 +2418,12 @@
 "v": 4,
 "yr": 1996
 },
+"fiction science psycho": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-15",
+"v": 4
+},
 "fiction science singing in the rain": {
 "tm4": true,
 "tmdb": true,
@@ -2426,6 +2464,12 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4
+},
+"filmclub sunset boelelaan la haine": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-15",
 "v": 4
 },
 "filmcursus eigenzinnige regisseurs": {
@@ -2871,6 +2915,12 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4
+},
+"halloween special the texas chain saw massacre": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-15",
 "v": 4
 },
 "hallowiebe overdrive": {
@@ -4547,6 +4597,24 @@
 "v": 4,
 "yr": 2026
 },
+"klara and the sun": {
+"dr": "Taika Waititi",
+"du": 117,
+"gn": [
+"Science Fiction",
+"Drama",
+"Comedy"
+],
+"lg": [
+"en"
+],
+"sy": "An Artificial Friend named Klara finds a deep bond with a troubled young girl, bringing light and hope to a grieving family through her unwavering devotion and innocent wonder.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-15",
+"v": 4,
+"yr": 2026
+},
 "kneecap 2024": {
 "dr": "Rich Peppiatt",
 "du": 102,
@@ -5056,6 +5124,27 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"lola rennt 4k restoration": {
+"dr": "Tom Tykwer",
+"du": 80,
+"gn": [
+"Action",
+"Drama",
+"Thriller"
+],
+"lg": [
+"de",
+"en",
+"ja"
+],
+"rt": 7.3,
+"sy": "Lola receives a phone call from her boyfriend Manni. He lost 100,000 DM in a subway train that belongs to a very bad guy. She has 20 minutes to raise this amount and meet Manni. Otherwise, he will rob a store…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-15",
+"v": 4,
+"yr": 1998
 },
 "lone star": {
 "dr": "John Sayles",
@@ -6265,6 +6354,12 @@
 "v": 4,
 "yr": 1993
 },
+"plum road tea dream _the hangout": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-15",
+"v": 4
+},
 "point break": {
 "dr": "Kathryn Bigelow",
 "du": 120,
@@ -6594,6 +6689,12 @@
 "v": 4,
 "yr": 2026
 },
+"resonate productions nothing bigger than humanity": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-15",
+"v": 4
+},
 "reversal of fortune": {
 "dr": "Barbet Schroeder",
 "du": 111,
@@ -6886,6 +6987,23 @@
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4,
+"yr": 2023
+},
+"sergeant support burça": {
+"dr": "Prawaal Raman",
+"du": 104,
+"gn": [
+"Drama",
+"Thriller"
+],
+"lg": [
+"hi"
+],
+"sy": "Sergeant Nikhil Sharma suffers from severe depression after losing a limb while on duty. However, after meeting Monica, he gains confidence and vows to reclaim his previous life by solving a critical case.…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-15",
 "v": 4,
 "yr": 2023
 },
@@ -8455,6 +8573,25 @@
 "v": 4,
 "yr": 1996
 },
+"the rocky horror picture show": {
+"dr": "Jim Sharman",
+"du": 100,
+"gn": [
+"Comedy",
+"Science Fiction",
+"Horror"
+],
+"lg": [
+"en"
+],
+"rt": 7.4,
+"sy": "After getting a flat tire in the middle of nowhere, newly engaged couple Brad and Janet encounter the eerie mansion of the flamboyant, seductive Dr Frank-N-Furter and a variety of eccentric characters. Through…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-15",
+"v": 4,
+"yr": 1975
+},
 "the rocky horror picture show sing along": {
 "dr": "Jim Sharman",
 "du": 100,
@@ -8702,6 +8839,25 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1999
+},
+"the terminator 4k restoration": {
+"dr": "James Cameron",
+"du": 107,
+"gn": [
+"Action",
+"Thriller",
+"Science Fiction"
+],
+"lg": [
+"en"
+],
+"rt": 7.7,
+"sy": "In the post-apocalyptic future, reigning tyrannical supercomputers teleport a cyborg assassin known as the \"Terminator\" back to 1984 to kill Sarah Connor, whose unborn son is destined to lead insurgents…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-15",
+"v": 4,
+"yr": 1984
 },
 "the texas chain saw massacre 50th anniversary": {
 "dr": "Tobe Hooper",
@@ -9289,6 +9445,12 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"un doing justice the law in these parts": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-15",
+"v": 4
+},
 "under the flags the sun": {
 "dr": "Juanjo Pereira",
 "du": 90,
@@ -9624,6 +9786,25 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2025
+},
+"yi yi 4k restoration": {
+"dr": "Edward Yang",
+"du": 173,
+"gn": [
+"Drama"
+],
+"lg": [
+"en",
+"ja",
+"zh"
+],
+"rt": 8.0,
+"sy": "Each member of a family in Taipei asks hard questions about life's meaning as they live through everyday quandaries. NJ is morose: his brother owes him money, his mother is in a coma, his wife suffers a…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-15",
+"v": 4,
+"yr": 2000
 },
 "youri": {
 "dr": "Sander Burger",

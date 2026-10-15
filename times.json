@@ -387,6 +387,10 @@
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/new-energy": {
+"none": true,
+"chk": "2026-10-15"
+},
 "https://tolhuistuin.nl/en/events/nick-hakim": {
 "h": "19:30",
 "eh": null,
@@ -1241,6 +1245,23 @@
 },
 "chk": "2026-10-11"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/minimal-collective-x-oude-kerk-post-space": {
+"dates": {
+"2026-10-22": {
+"h": "10:00",
+"eh": "18:00"
+},
+"2026-10-23": {
+"h": "20:30",
+"eh": "23:30"
+},
+"2026-10-24": {
+"h": "20:30",
+"eh": "23:30"
+}
+},
+"chk": "2026-10-15"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/mt-jones": {
 "dates": {
 "2026-11-29": {
@@ -1322,6 +1343,15 @@
 }
 },
 "chk": "2026-10-11"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/sven-ross-every-decision-leads-to-a-song": {
+"dates": {
+"2026-11-25": {
+"h": "19:00",
+"eh": "19:20"
+}
+},
+"chk": "2026-10-15"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/tay-oskee": {
 "dates": {
@@ -1432,6 +1462,19 @@
 },
 "chk": "2026-10-11"
 },
+"https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/ade-at-artotel-house-legends-x-future-icons-presented-by-dj-talent-room": {
+"dates": {
+"2026-10-24": {
+"h": "12:00",
+"eh": "00:00"
+},
+"2026-10-25": {
+"h": "00:00",
+"eh": "01:00"
+}
+},
+"chk": "2026-10-15"
+},
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/ade-at-artotel-martin-garrix-and-stmpd-rcrds": {
 "dates": {
 "2026-10-22": {
@@ -1534,6 +1577,19 @@
 }
 },
 "chk": "2026-10-13"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/amber-docters-van-leeuwen-moving-narrative": {
+"dates": {
+"2026-10-15": {
+"h": "19:30",
+"eh": "20:30"
+},
+"2026-10-16": {
+"h": "19:30",
+"eh": "20:30"
+}
+},
+"chk": "2026-10-15"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/black-cat-theatre-ahoi-2-6-jaar": {
 "dates": {
@@ -1661,6 +1717,15 @@
 },
 "chk": "2026-10-11"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/joep-vermolen-nou-was-leuk": {
+"dates": {
+"2026-11-25": {
+"h": "19:30",
+"eh": "19:50"
+}
+},
+"chk": "2026-10-15"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/lenny-tosserams-puzzels": {
 "dates": {
 "2026-10-15": {
@@ -1751,6 +1816,19 @@
 }
 },
 "chk": "2026-10-13"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/seizoenen-internationaal-dansensemble-paloina": {
+"dates": {
+"2026-11-21": {
+"h": "20:00",
+"eh": "21:30"
+},
+"2026-11-22": {
+"h": "14:30",
+"eh": "16:00"
+}
+},
+"chk": "2026-10-15"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/selma-visscher-trekvogel": {
 "dates": {
