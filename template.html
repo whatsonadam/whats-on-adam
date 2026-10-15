@@ -76,6 +76,12 @@ a{color:inherit}
 .seg input.on{background:var(--grey);color:#fff}.seg input.on::placeholder{color:#ddd}
 .chip{font:800 12px var(--body);text-transform:uppercase;letter-spacing:.05em;padding:6px 10px;cursor:pointer;border:var(--bw) solid var(--c);color:var(--c);background:transparent;border-radius:0}
 .chip.on{background:var(--c);color:#fff}
+.chip{touch-action:manipulation;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+.upbar{display:none;justify-content:space-between;align-items:center;gap:12px;background:var(--ink);color:#fff;padding:10px 14px}
+.upbar b{font:400 22px var(--display);text-transform:uppercase;letter-spacing:.03em}
+.upbar button{font:800 12px var(--body);text-transform:uppercase;letter-spacing:.05em;padding:6px 10px;border:var(--bw) solid #fff;background:transparent;color:#fff;cursor:pointer;border-radius:0}
+#view-agenda.up>.upbar{display:flex}
+#view-agenda.up:not(.pick)>.daybar{display:none}
 .mini.tg{font:800 11px var(--body);border:1px dashed #6b6760;background:none;color:var(--grey);padding:4px 8px;text-transform:uppercase;letter-spacing:.05em;cursor:pointer;border-radius:0}
 .ddb,.free{font:700 13px var(--body);border:1.5px solid #6b6760;background:transparent;color:#3b3835;padding:6px 12px;cursor:pointer;border-radius:0}
 .ddb.on,.free.on{background:var(--grey);color:#fff}
@@ -268,6 +274,7 @@ a{color:inherit}
 
   <div id="adefx" aria-hidden="true"><b data-t="ADE">ADE</b><em>30 YEARS</em><i></i></div>
   <section id="view-agenda">
+    <div class="upbar"><b>Next 4 weeks</b><button type="button" data-a="up.toggle" id="upbtn">Pick a day</button></div>
     <div class="daybar"><button class="arr" data-a="day.prev" data-for="days" aria-label="Earlier days">‹</button><div class="days" id="days" role="listbox" aria-label="Pick a day"></div><button class="arr" data-a="day.next" data-for="days" aria-label="Later days">›</button></div>
     <div class="dayhead"><h2 id="agtitle"></h2><span class="hr"><span class="n" id="agcount"></span><input type="search" id="q" placeholder="Search" aria-label="Search events"></span></div>
     <div id="agfilters"></div>
@@ -421,7 +428,7 @@ const state = {
   cats: new Set(okCats.length ? okCats : CATS.map(c=>c[0])),
   areas: new Set((store.areas||[]).filter(a=>AREAS.includes(a))),     // empty means every area
   venues: new Set((store.venues||[]).filter(v=>ALLVEN.includes(v))),  // empty means every venue
-  tod: "all", view: "list", q:"", en:!!store.en, free:!!store.free, panel:""
+  pick:false, tod: "all", view: "list", q:"", en:!!store.en, free:!!store.free, panel:""
 };
 const span = e => e.ed && (parse(e.ed)-parse(e.d))/864e5 >= 2;
 const onDay = (e,d) => span(e) ? (e.d<=d && e.ed>=d) : e.d===d;
@@ -558,10 +565,28 @@ function venueGroups(){
   const by={}; EVENTS.forEach(e=>{ if(e.v){ const a=e.ar||"Other"; (by[a]=by[a]||new Set()).add(e.v); } });
   return [...AREAS,"Other"].filter(a=>by[a]).map(a=>[a,[...by[a]].sort((x,y)=>x.localeCompare(y))]);
 }
+function renderList(){
+  const start=todayIso<first?first:todayIso, e0=parse(start); e0.setDate(e0.getDate()+28); const end=iso(e0);
+  const key=e=>span(e)&&e.d<start?start:e.d;
+  const evs=EVENTS.filter(e=>passes(e)&&(span(e)?e.ed>=start:e.d>=start)&&key(e)<=end);
+  evs.sort((a,b)=>key(a).localeCompare(key(b))||(a.h||"99").localeCompare(b.h||"99"));
+  $("#agtitle").textContent="Coming up";
+  $("#agcount").textContent=`${evs.length} events`;
+  drawAgFilters();
+  if(state.view==="map"){
+    $("#aglist").innerHTML=`<div id="map"></div><div class="maphint">${evs.filter(e=>e.la).length} of ${evs.length} events have a known location. Tap a pin for what's on there.</div>`;
+    drawMap(evs); return;
+  }
+  const by={}; evs.forEach(e=>(by[key(e)]=by[key(e)]||[]).push(e));
+  let html="";
+  for(const k of Object.keys(by).sort()){ const d=parse(k); html+=grpH(`${DW[d.getDay()]} ${d.getDate()} ${MON[d.getMonth()]}`,by[k].length)+`<div class="evl">${by[k].map(rowEv).join("")}</div>`; }
+  if(!evs.length) html=`<div class="empty">Nothing coming up in the next 4 weeks. Try clearing the search or switching some filters back on.</div>`;
+  $("#aglist").innerHTML=html;
+}
 function drawAgFilters(){
   const shown=CATS.filter(c=>PRES.has(c[0])), allOn=shown.every(c=>state.cats.has(c[0]));
   setFilters("#agfilters",`<div class="fpanel">
-    <div class="row"><span class="lab">Time of day</span>${segH("ag.tod",TODS.map(([k,l])=>[k,l,k!=="all"&&!lastTc[k]]),state.tod)}</div>
+    ${upcoming()&&!state.pick?"":`<div class="row"><span class="lab">Time of day</span>${segH("ag.tod",TODS.map(([k,l])=>[k,l,k!=="all"&&!lastTc[k]]),state.tod)}</div>`}
     <div class="row"><span class="lab">Type</span>${shown.map(c=>chipH(c[1],state.cats.has(c[0]),"ag.cat",c[0],c[2])).join("")}${allNoneH("ag.catall",allOn)}</div>
     <div class="row"><span class="lab">Show</span>${ddH("ag.panel","area","Area",state.areas.size,state.panel==="area")}${ddH("ag.panel","venue","Venue",state.venues.size,state.panel==="venue")}<button class="free${state.free?" on":""}" data-a="ag.free" aria-pressed="${state.free}">Free</button>${swH("ag.en","English-friendly",state.en)}</div>
     ${panelH("ag.area","ag.clrarea",areaGroups(),state.areas,state.panel==="area")}
@@ -569,8 +594,14 @@ function drawAgFilters(){
   </div>
   <div class="viewsw" role="group" aria-label="View"><button data-a="ag.view" data-v="list" class="${state.view==="list"?"on":""}" aria-pressed="${state.view==="list"}">${VIEW_ICONS.list}List</button><button data-a="ag.view" data-v="map" class="${state.view==="map"?"on":""}" aria-pressed="${state.view==="map"}">${VIEW_ICONS.map}Map</button></div>`);
 }
+const upcoming = () => state.cats.size===1 && state.cats.has("protest");
 function render(){
   VISIBLE=[];
+  const up=upcoming(), sec=$("#view-agenda");
+  if(!up) state.pick=false;
+  sec.classList.toggle("up",up); sec.classList.toggle("pick",up&&state.pick);
+  $("#upbtn").textContent=state.pick?"Next 4 weeks":"Pick a day";
+  if(up && !state.pick){ renderList(); return; }
   const d=parse(state.day);
   const todays=EVENTS.filter(e=>onDay(e,state.day)&&passes(e));
   const single=todays.filter(e=>!span(e)||e.c!=="exhibition").sort((a,b)=>(a.h||"99").localeCompare(b.h||"99"));
@@ -845,6 +876,21 @@ $("#exq").addEventListener("input",e=>{ exState.q=e.target.value.trim(); renderE
 
 /* ---------- Actions (one delegated handler, so re-rendered controls just work) ---------- */
 const clearPanel = s => { s.panel=""; };
+// Double click, double tap or long press on a type chip: show only that type. Doing it again on the only one brings all back.
+let lastTap=null, skipTap=false;
+function soloCat(v,before){
+  const wasSolo=before.size===1 && before.has(v);
+  state.cats = wasSolo ? new Set(CATS.map(c=>c[0])) : new Set([v]);
+  egg=eggFresh=state.cats.size===1 && state.cats.has("queer"); save(); render();
+}
+let lpTimer=null;
+document.addEventListener("pointerdown",ev=>{
+  const t=ev.target.closest('.chip[data-a="ag.cat"]'); if(!t || ev.pointerType==="mouse") return;
+  const v=t.dataset.v, before=new Set(state.cats);
+  clearTimeout(lpTimer); lpTimer=setTimeout(()=>{ skipTap=true; lastTap=null; setTimeout(()=>{skipTap=false;},700); soloCat(v,before); },500);
+});
+["pointerup","pointercancel","pointermove","scroll"].forEach(n=>document.addEventListener(n,()=>clearTimeout(lpTimer),true));
+document.addEventListener("contextmenu",ev=>{ if(ev.target.closest&&ev.target.closest(".chip")) ev.preventDefault(); });
 const ACT = {
   "noop":()=>{},
   "day.prev":(v,el)=>{ const b=$("#"+el.dataset.for); b.scrollBy({left:-b.clientWidth*.7,behavior:"smooth"}); },
@@ -852,7 +898,14 @@ const ACT = {
   "go.exh":()=>showTab("exh"),
   "ag.day":v=>setDay(v),
   "ag.tod":v=>{ state.tod=v; render(); },
-  "ag.cat":v=>{ toggleIn(state.cats,v); egg=eggFresh=state.cats.size===1 && state.cats.has("queer"); save(); render(); },
+  "ag.cat":v=>{
+    if(skipTap){ skipTap=false; return; }
+    const now=Date.now();
+    if(lastTap && lastTap.v===v && now-lastTap.t<350){ soloCat(v,lastTap.before); lastTap=null; return; }   // double click or tap
+    lastTap={v,t:now,before:new Set(state.cats)};
+    toggleIn(state.cats,v); egg=eggFresh=state.cats.size===1 && state.cats.has("queer"); save(); render();
+  },
+  "up.toggle":()=>{ state.pick=!state.pick; render(); },
   "ag.catall":()=>{ const sh=CATS.filter(c=>PRES.has(c[0])); const all=sh.every(c=>state.cats.has(c[0])); state.cats=all?new Set():new Set(CATS.map(c=>c[0])); save(); render(); },
   "ag.panel":v=>{ state.panel=state.panel===v?"":v; drawAgFilters(); },
   "ag.area":v=>{ toggleIn(state.areas,v); save(); render(); },

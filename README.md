@@ -42,4 +42,10 @@ Event field names in `events.json`: t title, d date, ed end date, h/eh start/end
 p price, b short description, s source, nl looks Dutch-language, to original title when translated, la/lo coordinates,
 ar district, a also listed on.
 
+## Agenda filters
+
+With only the Protest type ticked, the day strip is replaced by one list of the next 4 weeks grouped by date (button
+"Pick a day" brings the strip back). Double click, double tap or long press on a type chip shows only that type; doing it
+again on the only one brings all types back.
+
 Map © OpenStreetMap contributors. District borders: Gemeente Amsterdam open data.
