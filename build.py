@@ -20,7 +20,7 @@ MD_KEYS = ["mezrab", "vrankrijk", "aralez", "desering", "amsterdamalternative", 
            "garagenoord", "skatecafe", "deceuvel", "nieuweanita", "verzetsmuseum", "wereldmuseum", "odessa",
            "ot301", "ccamstel", "volkshotel", "lab111", "tolhuistuin", "dezwijger", "schooloflife",
            "verbroederij", "radion", "parallel", "opsolder", "grachten", "dehallen", "waterkant", "brecht", "iisg",
-           "frascati", "amsterdammuseum", "marineterrein"]
+           "frascati", "amsterdammuseum", "marineterrein", "tanker", "prik"]
 
 SOURCES = {
     "mezrab": ("Mezrab", "https://mezrab.nl/full-program/"),
@@ -85,6 +85,8 @@ SOURCES = {
     "frascati": ("Frascati", "https://www.frascatitheater.nl/nl/agenda"),
     "amsterdammuseum": ("Amsterdam Museum", "https://www.amsterdammuseum.nl/en/see-and-do/agenda"),
     "marineterrein": ("Marineterrein", "https://www.marineterrein.nl/agenda"),
+    "tanker": ("De Roze Tanker", "https://www.detanker.nl/agenda"),
+    "prik": ("Prik", "https://www.prikamsterdam.nl"),
     "weekly": ("Weekly nights (entered by hand)", "https://github.com/whatsonadam/whats-on-adam/blob/main/parsers/weekly.py"),
 }
 NOTES = {"filmladder": "big chains, a week ahead; hidden in the Cinema tab until you tick the box","kriterion": "via Cineville, only a week or two ahead", "artis": "no dated events, daily programme",

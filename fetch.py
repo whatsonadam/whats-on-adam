@@ -58,6 +58,8 @@ PAGES = {
     "frascati": "https://www.frascatitheater.nl/nl/agenda",
     "amsterdammuseum": "https://www.amsterdammuseum.nl/en/see-and-do/agenda",
     "marineterrein": "https://www.marineterrein.nl/agenda",
+    "tanker": "https://www.detanker.nl/agenda",
+    "prik": "https://www.prikamsterdam.nl",
 }
 KEEP_HTML = {"cinetol"}
 LOAD_MORE = {"tolhuistuin", "dehallen", "frascati"}
