@@ -1,0 +1,49 @@
+name: Dump source data (manual, for development)
+
+# Runs the same download step as a refresh, but publishes nothing. It saves the raw source pages
+# (_data/) and a few probes as a downloadable artifact, so parsers can be tested against what
+# GitHub's runner actually sees. Start it with "Run workflow". Files are kept for 3 days.
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install tools
+        run: pip install playwright beautifulsoup4 markdownify
+
+      - name: Install browser
+        run: python -m playwright install --with-deps chromium
+
+      - name: Fetch listings
+        run: python fetch.py
+
+      - name: Probe Resident Advisor for a price field
+        continue-on-error: true
+        run: |
+          mkdir -p _data/probe
+          cat > _data/probe/ra_query.json <<'EOF'
+          {"operationName":"GET_EVENT_LISTINGS","query":"query GET_EVENT_LISTINGS($filters: FilterInputDtoInput, $pageSize: Int, $page: Int) { eventListings(filters: $filters, pageSize: $pageSize, page: $page) { data { event { id title cost isTicketed contentUrl } } totalResults } }","variables":{"filters":{"areas":{"eq":29}},"pageSize":5,"page":1}}
+          EOF
+          curl -sS -m 60 -X POST https://ra.co/graphql -H "Content-Type: application/json" -H "Referer: https://ra.co/events/nl/amsterdam" -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36" --data @_data/probe/ra_query.json -o _data/probe/ra_cost.json -w "%{http_code}\n" | tee _data/probe/ra_cost.status
+          head -c 1500 _data/probe/ra_cost.json || true
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: source-data
+          path: _data
+          retention-days: 3
