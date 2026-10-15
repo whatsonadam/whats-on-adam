@@ -229,6 +229,9 @@
 "q": "name",
 "area": null
 },
+"Amsterdam": {
+"skip": true
+},
 "Amsterdam (various)": {
 "skip": true
 },
@@ -389,6 +392,12 @@
 "Auditorium": {
 "skip": true,
 "q": "not found"
+},
+"Aula - Lutherse kerk, Singel 411, Amsterdam": {
+"lat": 52.36835,
+"lon": 4.88919,
+"q": "name",
+"area": "Centrum"
 },
 "Aurora Building Amsterdam": {
 "lat": 52.36625,
@@ -763,6 +772,10 @@
 "lon": 4.83097,
 "q": "name",
 "area": "Nieuw-West"
+},
+"COKO Space": {
+"skip": true,
+"q": "not found"
 },
 "CREA": {
 "lat": 52.3632,
@@ -1282,6 +1295,10 @@
 "q": "name",
 "area": "Centrum"
 },
+"De Meervaart, Amsterdam": {
+"skip": true,
+"q": "not found"
+},
 "De Nieuwe Anita": {
 "lat": 52.37416,
 "lon": 4.87269,
@@ -1299,6 +1316,10 @@
 "lon": 4.87144,
 "q": "name",
 "area": "West"
+},
+"De Nieuwe Liefde, Da Costakade 102, Amsterdam": {
+"skip": true,
+"q": "not found"
 },
 "De Omval": {
 "lat": 52.34501,
@@ -1498,6 +1519,12 @@
 "lon": 4.88369,
 "q": "name",
 "area": "Centrum"
+},
+"Ergens in Amsterdam Noord": {
+"lat": 52.40199,
+"lon": 4.93177,
+"q": "name",
+"area": "Noord"
 },
 "Escape": {
 "lat": 52.36642,
@@ -2153,6 +2180,10 @@
 "q": "name",
 "area": "Centrum"
 },
+"Keizersgrachtkerk, Amsterdam": {
+"skip": true,
+"q": "not found"
+},
 "Kerkgebouw de Bron": {
 "lat": 52.35069,
 "lon": 4.93432,
@@ -2256,6 +2287,10 @@
 "lon": 4.88247,
 "q": "name",
 "area": "Centrum"
+},
+"Levend Paardenmuseum De Hollandsche Manege": {
+"skip": true,
+"q": "not found"
 },
 "Levenslang Amsterdam": {
 "lat": 52.33725,
@@ -2506,6 +2541,10 @@
 "lon": 4.88344,
 "q": "name",
 "area": "Zuid"
+},
+"Museumplein, Amsterdam": {
+"skip": true,
+"q": "not found"
 },
 "Muziekgebouw aan 't IJ": {
 "lat": 52.37827,
@@ -3425,6 +3464,10 @@
 "skip": true,
 "q": "not found"
 },
+"Soho House": {
+"skip": true,
+"q": "not found"
+},
 "Sojubar Amsterdam Leidseplein": {
 "lat": 52.36396,
 "lon": 4.88276,
@@ -3452,6 +3495,14 @@
 "lon": 4.90303,
 "q": "name",
 "area": "Centrum"
+},
+"Spui, Amsterdam": {
+"skip": true,
+"q": "not found"
+},
+"Spui, bij ‘t Lieverdje, Amsterdam": {
+"skip": true,
+"q": "not found"
 },
 "Spuistraat 5": {
 "lat": 52.37693,
@@ -4158,6 +4209,10 @@
 "lon": 4.91179,
 "q": "name",
 "area": "Oost"
+},
+"Volksuniversiteit Amsterdam, OBA Oosterdokskade, zaal 3.1": {
+"skip": true,
+"q": "not found"
 },
 "Volta": {
 "lat": 52.38605,
