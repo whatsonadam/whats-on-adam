@@ -25,7 +25,21 @@ pages per run, one per second. Events whose page has no time stay as "Time to be
 - **Contact address on the site:** set a repository variable `CONTACT_EMAIL` (Settings → Secrets and variables → Actions → Variables).
 - **Manual refresh:** Actions → Refresh agenda → Run workflow.
 
+## Protest and activism sources
+
+Four national agendas are read for Amsterdam entries only: Wat kan ik doen? (its public JSON API), The Rights Forum,
+Extinction Rebellion NL and socialisme.nu. All of them show under the Protest category and are never hidden by the
+English-friendly filter. When the same protest comes from several agendas, `merge_protests` in `build.py` keeps one
+(same day, two shared title words, start times within an hour).
+
+Their Dutch text is translated by `translate.py` with the DeepL API. Add the key as a repository secret named
+`DEEPL_API_KEY` (Settings → Secrets and variables → Actions → Secrets). Translations are saved in `translations.json`
+so each text is translated once. Without a key the original text stays. The Dutch title is kept in field `to`.
+Watkanikdoen has a small `PLACE_OVERRIDES` list in `parsers/watkanikdoen.py` for actions whose place is announced
+elsewhere but not filled in on the site yet.
+
 Event field names in `events.json`: t title, d date, ed end date, h/eh start/end time, v venue, u link, c category,
-p price, b short description, s source, nl looks Dutch-language, la/lo coordinates, ar district, a also listed on.
+p price, b short description, s source, nl looks Dutch-language, to original title when translated, la/lo coordinates,
+ar district, a also listed on.
 
 Map © OpenStreetMap contributors. District borders: Gemeente Amsterdam open data.

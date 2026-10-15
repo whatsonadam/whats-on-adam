@@ -232,6 +232,23 @@ def fetch_extras(status, today, want):
             status["offlineclub"] = f"error {code}"
             if os.path.exists(out): os.remove(out)
         else: status["offlineclub"] = "ok"
+    # Protest and activism agendas: national lists, the parsers keep Amsterdam only. A failure keeps the previous events (see build.py).
+    import shutil
+    for key, mod in (("watkanikdoen", "watkanikdoen"), ("rightsforum", "rightsforum"), ("xr", "xr")):
+        if want and key not in want: continue
+        m = __import__(mod)
+        try: status[key] = f"ok ({m.fetch(os.path.join(DATA, key), today)} listings)" if key != "rightsforum" else f"ok ({m.fetch(os.path.join(DATA, key))} pages)"
+        except Exception as ex:
+            status[key] = f"error {str(ex)[:60]}"
+            shutil.rmtree(os.path.join(DATA, key), ignore_errors=True)
+    if not want or "socialisme" in want:
+        import socialisme
+        out = os.path.join(DATA, "socialisme.html")
+        code = socialisme.fetch(out)
+        if code != "200":
+            status["socialisme"] = f"error {code}"
+            if os.path.exists(out): os.remove(out)
+        else: status["socialisme"] = "ok"
 
 def main():
     os.makedirs(DATA, exist_ok=True)

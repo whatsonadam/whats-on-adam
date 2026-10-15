@@ -88,10 +88,18 @@ SOURCES = {
     "tanker": ("De Roze Tanker", "https://www.detanker.nl/agenda"),
     "prik": ("Prik", "https://www.prikamsterdam.nl"),
     "weekly": ("Weekly nights (entered by hand)", "https://github.com/whatsonadam/whats-on-adam/blob/main/parsers/weekly.py"),
+    "watkanikdoen": ("Wat kan ik doen?", "https://watkanikdoen.nl/acties"),
+    "rightsforum": ("The Rights Forum", "https://rightsforum.org/agenda/"),
+    "xr": ("Extinction Rebellion NL", "https://extinctionrebellion.nl/events/"),
+    "socialisme": ("socialisme.nu agenda", "https://socialisme.nu/agenda/"),
 }
 NOTES = {"filmladder": "big chains, a week ahead; hidden in the Cinema tab until you tick the box","kriterion": "via Cineville, only a week or two ahead", "artis": "no dated events, daily programme",
          "wethepeople": "check site for next event",         "vondelbunker": "included via radar.squat.net",
-         "weekly": "Jazz Café Alto, MKZ, De Trut, Robin Food Kollektief and The Queen's Head: standing nights from each venue's site, check before you go"}
+         "weekly": "Jazz Café Alto, MKZ, De Trut, Robin Food Kollektief and The Queen's Head: standing nights from each venue's site, check before you go",
+         "watkanikdoen": "national protest agenda, Amsterdam actions only, translated to English",
+         "rightsforum": "national Palestine actions agenda, Amsterdam only, translated to English",
+         "xr": "national agenda, Amsterdam events only, translated to English",
+         "socialisme": "national agenda, Amsterdam entries only, translated to English"}
 
 NL = set("de het een en van voor met over wat hoe waarom jouw je jij niet ook naar uit bij als wordt worden zijn onze ons wij we leer leren samen avond middag lezing gesprek voorstelling kinderen jeugd verhaal nieuwe zonder tegen door dan kan maar deze dit welkom spreekuur buurt".split())
 EN = set("the and of for with about what how why your you not to from at is are our we learn together evening night talk english".split())
@@ -136,6 +144,10 @@ def run(key, fn, *args):
         print(f"  !! parser {key} crashed: {ex}")
         return []
 
+def _load_json(path):
+    try: return json.load(open(path))
+    except Exception: return None
+
 def collect(today):
     per = {}
     for key in MD_KEYS:
@@ -173,6 +185,16 @@ def collect(today):
     per["delamar"] = run("delamar", importlib.import_module("delamar").parse_pages, dl, today)
     f = os.path.join(DATA, "offlineclub.html")
     per["offlineclub"] = run("offlineclub", importlib.import_module("offlineclub").parse, open(f, errors="ignore").read(), today) if os.path.exists(f) else []
+    f = os.path.join(DATA, "socialisme.html")
+    per["socialisme"] = run("socialisme", importlib.import_module("socialisme").parse, open(f, errors="ignore").read(), today) if os.path.exists(f) else []
+    rf = [open(p, errors="ignore").read() for p in sorted(glob.glob(os.path.join(DATA, "rightsforum", "p*.html")))]
+    per["rightsforum"] = run("rightsforum", importlib.import_module("rightsforum").parse_pages, rf, today) if rf else []
+    xr_pages = [open(p, errors="ignore").read() for p in sorted(glob.glob(os.path.join(DATA, "xr", "p*.html")))]
+    xr_det = {os.path.basename(p)[:-5]: open(p, errors="ignore").read() for p in glob.glob(os.path.join(DATA, "xr", "detail", "*.html"))}
+    per["xr"] = run("xr", importlib.import_module("xr").parse_pages, xr_pages, xr_det, today) if xr_pages else []
+    wk_pages = [j for j in (_load_json(p) for p in sorted(glob.glob(os.path.join(DATA, "watkanikdoen", "p*.json")))) if j]
+    wk_det = {os.path.basename(p)[:-5]: _load_json(p) for p in glob.glob(os.path.join(DATA, "watkanikdoen", "detail", "*.json"))}
+    per["watkanikdoen"] = run("watkanikdoen", importlib.import_module("watkanikdoen").parse_pages, wk_pages, {k: v for k, v in wk_det.items() if v}, today) if wk_pages else []
     pages = [open(p, errors="ignore").read() for p in sorted(glob.glob(os.path.join(DATA, "iamsterdam", "p*.html")))]
     per["iamsterdam"] = run("iamsterdam", importlib.import_module("iamsterdam").parse_pages, pages, today)
     if not os.environ.get("NO_PAGE_TIMES"):
@@ -214,6 +236,33 @@ def merge_doubles(out):
     if merged: print(f"  merged {merged} double listings (same date, time, venue, clearly the same title)")
     return keep
 
+PROTEST_NOISE = set("de het een en van voor in op met tegen naar te the of and for to a at amsterdam protest protests demonstratie demonstration actie action mars march nieuw nieuwe geen enkele".split())
+
+def merge_protests(out):
+    """The same protest often comes from two agendas with differently worded titles ('De rode lijn voorbij' and
+    'Rode lijn: geen enkele steun voor genocide!'). Same day, protest category and at least two shared meaningful
+    title words = one event. The listing with a start time, then the longer description, is kept."""
+    def words(t): return {w for w in re.findall(r"[a-zà-ÿ0-9]+", t.lower()) if len(w) > 2 and w not in PROTEST_NOISE}
+    def mins(h): return int(h[:2]) * 60 + int(h[3:5])
+    def apart(a, b): return bool(a.get("h") and b.get("h") and abs(mins(a["h"]) - mins(b["h"])) >= 60)   # a service before the march is its own event
+    keep, by_day, merged = [], {}, 0
+    for e in out:
+        if e.get("c") != "protest": keep.append(e); continue
+        w = words(e["t"])
+        hit = next((x for x, xw in by_day.get(e["d"], []) if len(w & xw) >= 2 and not apart(e, x)), None)
+        if hit is None:
+            by_day.setdefault(e["d"], []).append((e, w)); keep.append(e); continue
+        merged += 1
+        for f in ("h", "eh"):
+            if e.get(f) and not hit.get(f): hit[f] = e[f]
+        if len(e.get("b", "")) > len(hit.get("b", "")): hit["b"] = e["b"]
+        if len(e.get("v", "")) > len(hit.get("v", "")) and "amsterdam" in e.get("v", "").lower(): hit["v"] = e["v"]
+        if e["s"] != hit["s"]:
+            a = hit.setdefault("a", [])
+            if e["s"] not in a: a.append(e["s"])
+    if merged: print(f"  merged {merged} protests listed by more than one agenda")
+    return keep
+
 def merge(per):
     order = {"iamsterdam": 3, "radar": 2, "amsterdamalternative": 1, "offbeat": 1}
     allev = [e for k in per for e in per[k]]
@@ -242,6 +291,9 @@ def merge(per):
         if e.get("c") in ("other", None, ""): e["c"] = classify_other(e)
     for e in out:
         if e.get("c") in ("community", "talk", "other", "kids") and PROTEST.search(e["t"]): e["c"] = "protest"
+    for e in out:
+        if e.get("c") == "protest": e.pop("nl", None)    # protests are never hidden by the English-friendly filter
+    out = merge_protests(out)
     for e in out:
         if e.get("nl") or e.pop("en", None) or e.get("c") not in LANGCATS: continue
         words = re.findall(r"[a-zà-ÿ']+", (e["t"] + " " + e.get("b", "")).lower())
@@ -280,6 +332,11 @@ def main():
                 for f in ("la", "lo", "ar", "a"): e.pop(f, None)
             kept.append(k)
     events = merge(per)
+    try:
+        import translate
+        translated = translate.enrich(events)
+        if translated: print(f"  translated {translated} protest texts to English")
+    except Exception as ex: print(f"  !! translation failed ({ex}); continuing with the original text")
     try:
         import filmmeta
         filmmeta.enrich(events, today)
