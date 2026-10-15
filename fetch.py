@@ -118,6 +118,28 @@ async def render_all(pages, status):
         await asyncio.gather(*[render_one(browser, k, u, sem, status) for k, u in pages.items()])
         await browser.close()
 
+async def render_theaternl(status):
+    """theater.nl opera listing, 10 per page: read the first 5 pages one after another with a pause between them."""
+    from playwright.async_api import async_playwright
+    base = "https://www.theater.nl/voorstellingen/opera/amsterdam"
+    parts, st = [], {}
+    async with async_playwright() as pw:
+        browser = await pw.chromium.launch()
+        sem = asyncio.Semaphore(1)
+        for i in range(5):
+            key = f"theaternl_{i}"
+            await render_one(browser, key, base if i == 0 else f"{base}?start={i * 10}", sem, st)
+            f = os.path.join(DATA, key + ".md")
+            if not str(st.get(key)).startswith("ok") or not os.path.exists(f): break
+            parts.append(open(f).read()); os.remove(f)
+            await asyncio.sleep(4)
+        await browser.close()
+    if parts and "Aanvang" in "".join(parts):
+        open(os.path.join(DATA, "theaternl.md"), "w").write("\n".join(parts))
+        status["theaternl"] = f"ok ({len(parts)} pages)"
+    else:
+        status["theaternl"] = "error: no listing"
+
 def curl(url, out):
     r = subprocess.run(["curl", "-sS", "-g", "-m", "60", "-A", UA, "-o", out, "-w", "%{http_code}", url], capture_output=True, text=True)
     return r.stdout.strip()
@@ -258,6 +280,7 @@ def main():
     if want: pages = {k: v for k, v in pages.items() if k in want or (k.startswith("cavia") and "cavia" in want)}
     status = {}
     if pages: asyncio.run(render_all(pages, status))
+    if not want or "theaternl" in want: asyncio.run(render_theaternl(status))
     if not want or "ruigoord" in want: fetch_ruigoord(status)
     if not want or "radar" in want: fetch_radar(status)
     if not want or "iamsterdam" in want: fetch_iamsterdam(status)

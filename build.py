@@ -20,7 +20,7 @@ MD_KEYS = ["mezrab", "vrankrijk", "aralez", "desering", "amsterdamalternative", 
            "garagenoord", "skatecafe", "deceuvel", "nieuweanita", "verzetsmuseum", "wereldmuseum", "odessa",
            "ot301", "ccamstel", "volkshotel", "lab111", "tolhuistuin", "dezwijger", "schooloflife",
            "verbroederij", "radion", "parallel", "opsolder", "grachten", "dehallen", "waterkant", "brecht", "iisg",
-           "frascati", "amsterdammuseum", "marineterrein", "tanker", "prik"]
+           "frascati", "amsterdammuseum", "marineterrein", "tanker", "prik", "theaternl"]
 
 SOURCES = {
     "mezrab": ("Mezrab", "https://mezrab.nl/full-program/"),
@@ -87,6 +87,7 @@ SOURCES = {
     "marineterrein": ("Marineterrein", "https://www.marineterrein.nl/agenda"),
     "tanker": ("De Roze Tanker", "https://www.detanker.nl/agenda"),
     "prik": ("Prik", "https://www.prikamsterdam.nl"),
+    "theaternl": ("Theater.nl (Nationale Opera & Ballet)", "https://www.theater.nl/voorstellingen/opera/amsterdam"),
     "weekly": ("Weekly nights (entered by hand)", "https://github.com/whatsonadam/whats-on-adam/blob/main/parsers/weekly.py"),
     "watkanikdoen": ("Wat kan ik doen?", "https://watkanikdoen.nl/acties"),
     "rightsforum": ("The Rights Forum", "https://rightsforum.org/agenda/"),
