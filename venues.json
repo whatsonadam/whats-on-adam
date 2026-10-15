@@ -1324,6 +1324,10 @@
 "q": "addr",
 "area": "Centrum"
 },
+"De Roze Tanker": {
+"skip": true,
+"q": "not found"
+},
 "De Sering": {
 "lat": 52.39053,
 "lon": 4.8321,
