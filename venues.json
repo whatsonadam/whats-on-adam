@@ -881,6 +881,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Café Montmartre": {
+"lat": 52.36587,
+"lon": 4.89524,
+"q": "name",
+"area": "Centrum"
+},
 "Café Restaurant Amsterdam": {
 "lat": 52.38422,
 "lon": 4.86821,
@@ -1514,6 +1520,12 @@
 "skip": true,
 "q": "not found"
 },
+"Elements of Energy": {
+"lat": 52.3745,
+"lon": 4.89704,
+"q": "name",
+"area": "Centrum"
+},
 "Embassy of the Free Mind": {
 "lat": 52.37634,
 "lon": 4.88745,
@@ -1673,6 +1685,12 @@
 "Foundation Amsterdam Hip Hop Centre": {
 "skip": true,
 "q": "not found"
+},
+"Four Amsterdam": {
+"lat": 52.34952,
+"lon": 4.9384,
+"q": "name",
+"area": "Oost"
 },
 "Framer Framed": {
 "lat": 52.35692,
@@ -2179,6 +2197,10 @@
 "lon": 4.863,
 "q": "name",
 "area": "West"
+},
+"Keizersgracht 374": {
+"skip": true,
+"q": "not found"
 },
 "Keizersgrachtkerk": {
 "lat": 52.36458,
@@ -3190,6 +3212,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Restaurant Elixer": {
+"lat": 52.35952,
+"lon": 4.93821,
+"q": "name",
+"area": "Oost"
+},
 "Rhone Ephesus Amsterdam": {
 "skip": true,
 "q": "not found"
@@ -3494,6 +3522,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Spirit Amsterdam": {
+"lat": 52.37817,
+"lon": 4.88294,
+"q": "name",
+"area": "Centrum"
+},
 "Splendor": {
 "lat": 52.36982,
 "lon": 4.90303,
@@ -3664,6 +3698,9 @@
 "skip": true
 },
 "TBA -   STAY TUNED": {
+"skip": true
+},
+"TBA -  Mandarin Oriental Conservatorium - Paulus PottersTraat. 50 Amsterdam 107 Idb": {
 "skip": true
 },
 "TBA - 50:HERTZ CLUB TRAIN 2026 | Amsterdam Central Station, Amsterdam": {
@@ -4252,6 +4289,12 @@
 "lon": 4.88793,
 "q": "name",
 "area": "Centrum"
+},
+"Vondelpark": {
+"lat": 52.3572,
+"lon": 4.86412,
+"q": "name",
+"area": "Zuid"
 },
 "Vrankrijk": {
 "lat": 52.37169,
