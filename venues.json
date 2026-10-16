@@ -1490,6 +1490,12 @@
 "skip": true,
 "q": "not found"
 },
+"Eetcafe ADM Noord": {
+"lat": 52.4106,
+"lon": 4.93393,
+"q": "name",
+"area": "Noord"
+},
 "Eighty-Four Amsterdam": {
 "lat": 52.35632,
 "lon": 4.92955,
