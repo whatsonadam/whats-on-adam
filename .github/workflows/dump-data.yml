@@ -5,7 +5,12 @@ name: Dump source data (manual, for development)
 # GitHub's runner actually sees. Start it with "Run workflow". Files are kept for 3 days.
 
 on:
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      only_probes:
+        description: "Skip the full source download and run only the probes"
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -30,9 +35,11 @@ jobs:
         run: python -m playwright install --with-deps chromium
 
       - name: Fetch listings
+        if: ${{ !inputs.only_probes }}
         run: python fetch.py
 
       - name: Probe Resident Advisor for a price field
+        if: ${{ !inputs.only_probes }}
         continue-on-error: true
         run: |
           mkdir -p _data/probe
@@ -45,6 +52,10 @@ jobs:
       - name: Probe event pages for prices
         continue-on-error: true
         run: python probe_prices.py
+
+      - name: Probe ticket links
+        continue-on-error: true
+        run: python probe_tickets.py
 
       - uses: actions/upload-artifact@v4
         with:
