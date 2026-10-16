@@ -667,6 +667,12 @@
 "v": 4,
 "yr": 2026
 },
+"black achievement month korte films uit west afrika": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-16",
+"v": 4
+},
 "black girl": {
 "dr": "Ossie Davis",
 "du": 97,
@@ -1134,6 +1140,24 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2002
+},
+"clayface": {
+"dr": "James Watkins",
+"du": 108,
+"gn": [
+"Horror",
+"Thriller",
+"Science Fiction"
+],
+"lg": [
+"en"
+],
+"sy": "Matt Hagen's meteoric rise from Gotham street kid to Hollywood leading man is tragically cut short when a local crime boss's actions leave him horribly disfigured. Abandoned by his team and with nothing left…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-16",
+"v": 4,
+"yr": 2026
 },
 "clerks": {
 "dr": "Kevin Smith",
@@ -2296,6 +2320,27 @@
 "v": 4,
 "yr": 2025
 },
+"fallen angels": {
+"dr": "Wong Kar Wai",
+"du": 96,
+"gn": [
+"Action",
+"Romance",
+"Crime"
+],
+"lg": [
+"ja",
+"cn",
+"en"
+],
+"rt": 7.7,
+"sy": "An indifferent hitman, his infatuated business partner and an ex-convict search for love and meaning as their lives cross paths in Hong Kong.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-16",
+"v": 4,
+"yr": 1995
+},
 "fangs anyab halloween screening": {
 "tm4": true,
 "tmdb": true,
@@ -2922,6 +2967,24 @@
 "tmdb": true,
 "tried": "2026-10-14",
 "v": 4
+},
+"halloween": {
+"dr": "David Gordon Green",
+"du": 106,
+"gn": [
+"Horror",
+"Thriller"
+],
+"lg": [
+"en"
+],
+"rt": 7.6,
+"sy": "Fifteen years after murdering his sister on Halloween Night 1963, Michael Myers escapes from a mental hospital and returns to the small town of Haddonfield, Illinois to kill again.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-16",
+"v": 4,
+"yr": 2018
 },
 "halloween special the texas chain saw massacre": {
 "tm5": true,
@@ -4557,6 +4620,23 @@
 "v": 4,
 "yr": 1978
 },
+"killer of sheep 1978": {
+"dr": "Charles Burnett",
+"du": 80,
+"gn": [
+"Drama"
+],
+"lg": [
+"en"
+],
+"rt": 6.6,
+"sy": "An African-American man working at a slaughterhouse in the Watts area of Los Angeles leads a dissatisfied and listless existence.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-16",
+"v": 4,
+"yr": 1978
+},
 "killing the devil 1970": {
 "dr": "Ester Krumbachova",
 "du": 72,
@@ -5464,6 +5544,24 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4,
+"yr": 2026
+},
+"minotaur 2026": {
+"dr": "Andrey Zvyagintsev",
+"du": 140,
+"gn": [
+"Drama",
+"Crime",
+"Thriller"
+],
+"lg": [
+"ru"
+],
+"sy": "When Gleb, a successful company director, finds himself under siege from mounting corporate pressures, an increasingly unstable world, and the discovery of his wife's affair, the collapse of his carefully…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-16",
 "v": 4,
 "yr": 2026
 },
@@ -6681,6 +6779,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2023
+},
+"reporting on russia with pjotr sauer and shaun walker": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-16",
+"v": 4
 },
 "resident evil": {
 "dr": "Zach Cregger",
@@ -9522,6 +9626,18 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"uyariy javier corcuera 2025 q a": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-16",
+"v": 4
+},
+"uyariy q a fundraising screening": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-16",
+"v": 4
+},
 "vaiana nl": {
 "dr": "Thomas Kail",
 "du": 115,
@@ -9743,6 +9859,24 @@
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4,
+"yr": 2026
+},
+"wildwood": {
+"dr": "Travis Knight",
+"du": 131,
+"gn": [
+"Animation",
+"Adventure",
+"Fantasy"
+],
+"lg": [
+"en"
+],
+"sy": "Prue and her classmate Curtis are drawn into a magical forest filled with enchanted creatures, loyal allies, and formidable adversaries as they embark on a desperate quest to rescue Prue's abducted baby…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-16",
 "v": 4,
 "yr": 2026
 },
