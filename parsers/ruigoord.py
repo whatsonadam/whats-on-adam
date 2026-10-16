@@ -7,6 +7,11 @@ programme, not an event you can put in a calendar.
 import re
 from datetime import date, datetime, timedelta
 
+try:
+    from _price import from_text as price_from_text
+except ImportError:
+    from parsers._price import from_text as price_from_text
+
 BASE = "https://ruigoord.nl"
 
 
@@ -76,6 +81,9 @@ def parse(text, today):
             e["ed"] = ed.isoformat()
         desc = _unesc(f.get("DESCRIPTION", ""))
         desc = re.sub(r"^(?:kaarten|tickets|evenementen|binnenkort beschikbaar)\s+(?:evenementen\s+)?", "", desc, flags=re.I)
+        price = price_from_text(desc)
+        if price:
+            e["p"] = price
         if desc:
             e["b"] = (desc[:157] + "...") if len(desc) > 160 else desc
         out.append(e)

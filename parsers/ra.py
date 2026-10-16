@@ -5,13 +5,18 @@ RA times are local Amsterdam time already. Nights that run past midnight keep th
 """
 import datetime, json, os, re, subprocess, tempfile, time
 
+try:
+    from _price import clean as clean_price
+except ImportError:
+    from parsers._price import clean as clean_price
+
 URL = "https://ra.co/graphql"
 AREA_AMSTERDAM = 29
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36"
 QUERY = ("query GET_EVENT_LISTINGS($filters: FilterInputDtoInput, $filterOptions: FilterOptionsInputDtoInput, "
          "$page: Int, $pageSize: Int, $sort: SortInputDtoInput) { eventListings(filters: $filters, "
          "filterOptions: $filterOptions, pageSize: $pageSize, page: $page, sort: $sort) { data { id listingDate "
-         "event { id title date startTime endTime contentUrl isTicketed venue { id name area { name } } "
+         "event { id title date startTime endTime contentUrl isTicketed cost venue { id name area { name } } "
          "artists { name } genres { name } } } totalResults } }")
 LIVE = re.compile(r"\b(live|concert|orchestra|choir|recital)\b", re.I)
 
@@ -71,6 +76,8 @@ def parse_pages(pages, today):
             ev = {"t": title, "d": start.date().isoformat(), "v": (v.get("venue") or {}).get("name") or "",
                   "u": "https://ra.co" + (v.get("contentUrl") or ""), "c": "music" if LIVE.search(title) else "club", "s": "ra"}
             if v.get("startTime") and start.strftime("%H:%M") != "00:00": ev["h"] = start.strftime("%H:%M")
+            price = clean_price(v.get("cost"))
+            if price: ev["p"] = price
             artists = [a["name"] for a in v.get("artists") or [] if a.get("name")]
             if artists: ev["b"] = ", ".join(artists[:4])[:120]
             out.append(ev)

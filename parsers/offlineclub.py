@@ -7,6 +7,11 @@ members-only events are left out because the public cannot join them.
 import datetime, json, re, subprocess
 from zoneinfo import ZoneInfo
 
+try:
+    from _price import clean as clean_price
+except ImportError:
+    from parsers._price import clean as clean_price
+
 URL = "https://luma.com/theofflineclubamsterdam"
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36"
 AMS = ZoneInfo("Europe/Amsterdam")
@@ -30,11 +35,27 @@ def _local(iso):
     return datetime.datetime.fromisoformat(iso.replace("Z", "+00:00")).astimezone(AMS)
 
 
+def _card_prices(text, urls):
+    """The price shows only on the rendered event cards, not in the JSON. Each card starts at its event link;
+    its price pill sits before the next card's link. Sold-out cards show 'Sold Out' instead, so they get no price."""
+    body = text[text.find("</script>"):]
+    pos = sorted((m.start(), u) for u in urls for m in re.finditer(r'href="/' + re.escape(u) + r'"', body))
+    out = {}
+    for i, (p, u) in enumerate(pos):
+        seg = body[p:(pos[i + 1][0] if i + 1 < len(pos) else p + 6000)]
+        pill = re.search(r'pill-label">\s*(€[^<]*)<', seg)
+        if pill and u not in out:
+            out[u] = clean_price(pill.group(1))
+    return out
+
+
 def parse(text, today):
     m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', text, re.S)
     if not m: return []
     out, seen = [], set()
-    for ev in _events(json.loads(m.group(1))):
+    data = json.loads(m.group(1))
+    prices = _card_prices(text, {e["url"] for e in _events(data) if e.get("url")})
+    for ev in _events(data):
         key = ev.get("api_id") or ev.get("url")
         if key in seen: continue
         seen.add(key)
@@ -47,6 +68,7 @@ def parse(text, today):
         if start.date() < today: continue
         e = {"t": title, "d": start.date().isoformat(), "h": start.strftime("%H:%M"), "v": geo.get("address") or "The Offline Club",
              "u": "https://luma.com/" + ev["url"], "c": "workshop" if WORKSHOP.search(title) else "community", "s": "offlineclub"}
+        if prices.get(ev.get("url")): e["p"] = prices[ev["url"]]
         if ev.get("end_at"):
             try:
                 end = _local(ev["end_at"])
