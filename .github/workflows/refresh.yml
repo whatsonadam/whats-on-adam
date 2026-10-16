@@ -63,7 +63,7 @@ jobs:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
           DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
           FILMMETA_MAX: ${{ steps.mode.outputs.fast == 'true' && '0' || '500' }}
-          PAGE_PRICES_MAX: ${{ steps.mode.outputs.fast == 'true' && '0' || '250' }}
+          PAGE_PRICES_MAX: ${{ steps.mode.outputs.fast == 'true' && '0' || '500' }}
         run: |
           OWNER="${GITHUB_REPOSITORY_OWNER,,}"
           REPO="${GITHUB_REPOSITORY#*/}"

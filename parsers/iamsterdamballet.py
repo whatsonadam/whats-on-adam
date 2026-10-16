@@ -53,7 +53,7 @@ def parse_pages(pages, today):
             e = {"t": title, "d": a.date().isoformat(), "h": a.strftime("%H:%M"), "v": VENUE, "addr": "Amstel 3",
                  "u": "https://www.iamsterdam.com" + href, "c": "dance", "s": "iamsterdam"}
             if b > a: e["eh"] = b.strftime("%H:%M")
-            if pm: e["p"] = "From €%s" % pm.group(1)
+            if pm: e["p"] = "from €%s" % pm.group(1)
             if sold: e["b"] = "Some nights are sold out, check the venue for tickets"
             out.append(e)
     return out

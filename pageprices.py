@@ -22,7 +22,7 @@ sys.path.insert(0, os.path.join(HERE, "parsers"))
 from _price import clean  # noqa: E402
 
 CACHE = os.path.join(HERE, "prices.json")
-MAX_FETCH = int(os.environ.get("PAGE_PRICES_MAX", "250"))
+MAX_FETCH = int(os.environ.get("PAGE_PRICES_MAX", "500"))
 RECHECK_FOUND_DAYS = 21      # a price we found: look again after three weeks (prices change)
 RECHECK_MISSING_DAYS = 7     # nothing found: try again after a week
 HOST_GAP = 1.0               # seconds between requests to the same site
@@ -31,7 +31,7 @@ PAGE_TIMEOUT_MS = 25000
 BUDGET_SECONDS = int(os.environ.get("PAGE_PRICES_BUDGET", "420"))   # the whole price step never runs longer than this
 HOST_MAX_FAILS = 3           # a site that fails this many times in a row is skipped for the rest of the run
 HTTP_WORKERS = 6
-RENDER = set()               # sources whose pages need a real browser to show the price (all others: plain HTTP, much faster)
+RENDER = {"radar"}           # sources whose pages need a real browser to show the price (all others: plain HTTP, much faster)
 LOOKAHEAD_DAYS = 120
 
 
@@ -321,12 +321,13 @@ def fill(events, today, max_fetch=None):
     todo = sorted((u for u in wanted if not (u in cache and _fresh(cache[u], today))), key=lambda u: wanted[u][0])[:max_fetch]
     stats = {"wanted": len(wanted), "fetched": 0, "unreadable": 0, "found": 0, "by_source": {}}
     if todo and max_fetch > 0:
-        deadline = time.monotonic() + BUDGET_SECONDS
+        t0 = time.monotonic()
         by_http = [u for u in todo if wanted[u][1] not in RENDER]
         by_browser = [u for u in todo if wanted[u][1] in RENDER]
-        pages = _fetch_http(by_http, deadline) if by_http else {}
+        # plain HTTP gets 65% of the budget so the slower browser pages always have time left
+        pages = _fetch_http(by_http, t0 + (0.65 if by_browser else 1.0) * BUDGET_SECONDS) if by_http else {}
         if by_browser:
-            pages.update(asyncio.run(_fetch_all(by_browser, max(30, deadline - time.monotonic()))))
+            pages.update(asyncio.run(_fetch_all(by_browser, max(60, BUDGET_SECONDS - (time.monotonic() - t0)))))
         stats["not_reached"] = 0
         for u in todo:
             if u not in pages:
