@@ -63,6 +63,7 @@ jobs:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
           DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
           FILMMETA_MAX: ${{ steps.mode.outputs.fast == 'true' && '0' || '500' }}
+          PAGE_PRICES_MAX: ${{ steps.mode.outputs.fast == 'true' && '0' || '250' }}
         run: |
           OWNER="${GITHUB_REPOSITORY_OWNER,,}"
           REPO="${GITHUB_REPOSITORY#*/}"
@@ -73,12 +74,13 @@ jobs:
         run: |
           git add venues.json
           [ -f times.json ] && git add times.json || true
+          [ -f prices.json ] && git add prices.json || true
           [ -f filmmeta.json ] && git add filmmeta.json || true
           [ -f translations.json ] && git add translations.json || true
           if ! git diff --cached --quiet; then
             git config user.name "agenda-bot"
             git config user.email "agenda-bot@users.noreply.github.com"
-            git commit -m "Update venue locations and start times [skip ci]"
+            git commit -m "Update venue locations, start times and prices [skip ci]"
             git pull --rebase origin main
             git push
           fi

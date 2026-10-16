@@ -207,6 +207,16 @@ def collect(today):
             pagetimes.enrich(per, today)
         except Exception as ex:
             print(f"  !! start-time lookup skipped: {ex}")
+    if not os.environ.get("NO_PAGE_PRICES"):
+        try:
+            import pageprices
+            st = pageprices.fill([e for evs in per.values() for e in evs], today)
+            print(f"  prices from event pages: {st['applied']} events priced from cache, {st['fetched']} pages read, "
+                  f"{st['found']} with a price, {st['unreadable']} unreadable, {st['wanted']} pages wanted in total")
+            for src, x in sorted(st["by_source"].items()):
+                print(f"    {src:16} read {x['read']:4}  price {x['price']:4}  unreadable {x['unreadable']:3}")
+        except Exception as ex:
+            print(f"  !! page price lookup skipped: {ex}")
     return per
 
 def norm(s): return re.sub(r"[^a-z0-9]", "", s.lower())[:22]
