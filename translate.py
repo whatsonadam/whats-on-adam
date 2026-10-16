@@ -84,5 +84,6 @@ def enrich(events, call=_call):
             if t and t != s:
                 if f == "t":
                     e["to"] = s
+                    e.pop("nl", None)    # the title is English now
                 e[f] = t
     return done

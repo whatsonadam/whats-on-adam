@@ -237,6 +237,12 @@ def merge_doubles(out):
     if merged: print(f"  merged {merged} double listings (same date, time, venue, clearly the same title)")
     return keep
 
+STRONG_PROTEST = re.compile(r"\b(demonstratie\w*|demonstration\w*|betoging\w*|vigil|flitsactie\w*|vlaggen voor)\b", re.I)
+ACTION = re.compile(r"\b(wake|demonstrat\w*|protest\w*|betoging\w*|mars|march|actie\w*|action\w*|vigil|rode lijn|red line|blokkade\w*|sit-?in)\b", re.I)
+NOT_PROTEST = [(re.compile(r"\b(%s)\b" % w, re.I), c) for w, c in [
+    (r"lezing\w*|lecture\w*|vertoning\w*|documentaire\w*|screening\w*|film\w*|boekpresentatie\w*|boek\w*|book\w*|debat\w*|debate|gesprek\w*|discussie\w*|panel|talk|science fiction\w*|marxism|marxisme|presentation|presentatie", "talk"),
+    (r"workshop\w*|training\w*|cursus\w*|course|leerkring", "workshop"),
+    (r"community night|dinner|diner|eten|borrel|potluck|spreekuur|woonspreekuur|bijeenkomst|meetup|social", "community")]]
 PROTEST_NOISE = set("de het een en van voor in op met tegen naar te the of and for to a at amsterdam protest protests demonstratie demonstration actie action mars march nieuw nieuwe geen enkele".split())
 
 def merge_protests(out):
@@ -291,7 +297,13 @@ def merge(per):
     for e in out:
         if e.get("c") in ("other", None, ""): e["c"] = classify_other(e)
     for e in out:
-        if e.get("c") in ("community", "talk", "other", "kids") and PROTEST.search(e["t"]): e["c"] = "protest"
+        if e.get("c") in ("community", "talk", "other", "kids") and PROTEST.search(e["t"]) and not (e["c"] == "talk" and any(rx.search(e["t"]) for rx, _ in NOT_PROTEST)): e["c"] = "protest"
+    for e in out:                                   # the activism agendas also list lectures, films, dinners: only real actions stay Protest
+        if e.get("c") == "protest" and not STRONG_PROTEST.search(e["t"]):
+            for rx, cat in NOT_PROTEST:
+                if rx.search(e["t"]): e["c"] = cat; break
+            else:
+                if e.get("s") == "rightsforum" and not ACTION.search(e["t"]): e["c"] = "talk"   # its agenda mixes in events with no action word
     for e in out:
         if e.get("c") == "protest": e.pop("nl", None)    # protests are never hidden by the English-friendly filter
     out = merge_protests(out)
