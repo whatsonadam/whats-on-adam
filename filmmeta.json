@@ -876,6 +876,18 @@
 "v": 4,
 "yr": 2023
 },
+"café flesh": {
+"dr": "Stephen Sayadian",
+"du": 74,
+"lg": [
+"en"
+],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-16",
+"v": 4,
+"yr": 1982
+},
 "calle málaga": {
 "dr": "Maryam Touzani",
 "du": 116,
@@ -2073,6 +2085,24 @@
 "tmdb": true,
 "tried": "2026-10-14",
 "v": 4
+},
+"el extraño viaje": {
+"dr": "Fernando Fernán Gómez",
+"du": 89,
+"gn": [
+"Comedy",
+"Thriller"
+],
+"lg": [
+"es"
+],
+"rt": 7.3,
+"sy": "In a small town near Madrid, Paquita and her brother Venancio, both single and with a childish personality, live under the shadow of their bossy older sister, Ignacia, a grumpy old maid.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-16",
+"v": 4,
+"yr": 1964
 },
 "elegant beast": {
 "dr": "Yūzō Kawashima",
@@ -5711,6 +5741,25 @@
 "v": 4,
 "yr": 1999
 },
+"mon oncle d amérique": {
+"dr": "Alain Resnais",
+"du": 126,
+"gn": [
+"Comedy",
+"Drama",
+"Romance"
+],
+"lg": [
+"fr"
+],
+"rt": 7.0,
+"sy": "Professor Henri Laborit uses three people's stories to discuss behaviourist theories of survival, combat, rewards and punishment, and anxiety: René is a technical manager at a textile factory and must face the…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-16",
+"v": 4,
+"yr": 1980
+},
 "mond": {
 "dr": "Kurdwin Ayub",
 "du": 99,
@@ -6246,6 +6295,23 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1992
+},
+"other mommy": {
+"dr": "Rob Savage",
+"du": 93,
+"gn": [
+"Horror"
+],
+"lg": [
+"en"
+],
+"rt": 5.9,
+"sy": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-16",
+"v": 4,
+"yr": 2026
 },
 "our history three documentaries": {
 "tm4": true,
@@ -9834,6 +9900,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"when did you last oppose power": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-16",
+"v": 4
 },
 "whisper of the heart 1995": {
 "dr": "Yoshifumi Kondo",

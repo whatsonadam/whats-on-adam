@@ -1363,6 +1363,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"De Roode Bioscoop": {
+"lat": 52.38409,
+"lon": 4.88398,
+"q": "name",
+"area": "Centrum"
+},
 "De Roode Remise": {
 "lat": 52.38419,
 "lon": 4.88397,
@@ -1493,6 +1499,12 @@
 "Dokzaal": {
 "skip": true,
 "q": "not found"
+},
+"Dominicuskerk": {
+"lat": 52.37701,
+"lon": 4.89333,
+"q": "name",
+"area": "Centrum"
 },
 "Duke Of Tokyo": {
 "lat": 52.36649,
@@ -4474,6 +4486,12 @@
 "Wijnhuis.Amsterdam": {
 "lat": 52.35171,
 "lon": 4.85774,
+"q": "name",
+"area": "Zuid"
+},
+"Willem de Zwijgerkerk": {
+"lat": 52.34955,
+"lon": 4.86293,
 "q": "name",
 "area": "Zuid"
 },
