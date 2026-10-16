@@ -423,6 +423,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"BISOUS": {
+"lat": 52.35472,
+"lon": 4.88782,
+"q": "name",
+"area": "Zuid"
+},
 "BRET": {
 "lat": 52.38985,
 "lon": 4.83676,
@@ -482,6 +488,12 @@
 "lon": 4.89083,
 "q": "name",
 "area": "Centrum"
+},
+"Bar Coco": {
+"lat": 52.38632,
+"lon": 4.87246,
+"q": "name",
+"area": "West"
 },
 "Bar Feijoa": {
 "lat": 52.36598,
@@ -1478,6 +1490,10 @@
 "q": "addr",
 "area": "Centrum"
 },
+"Dokzaal": {
+"skip": true,
+"q": "not found"
+},
 "Duke Of Tokyo": {
 "lat": 52.36649,
 "lon": 4.89068,
@@ -2075,6 +2091,12 @@
 "lon": 4.89512,
 "q": "name",
 "area": "Noord"
+},
+"INC": {
+"lat": 52.34646,
+"lon": 4.90449,
+"q": "name",
+"area": "Zuid"
 },
 "If I can’t dance, I don’t want to be part of your revolution": {
 "skip": true,
@@ -3552,6 +3574,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Spritz Bar Amsterdam": {
+"lat": 52.36336,
+"lon": 4.88083,
+"q": "name",
+"area": "West"
+},
 "Spui, Amsterdam": {
 "skip": true,
 "q": "not found"
@@ -3722,6 +3750,9 @@
 "skip": true
 },
 "TBA - 50:Hertz House & Techno Club Rembrandt Square": {
+"skip": true
+},
+"TBA - A LAB Amsterdam": {
 "skip": true
 },
 "TBA - AMSTERDAM BARBER COMPANY": {
