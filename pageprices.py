@@ -27,6 +27,9 @@ RECHECK_FOUND_DAYS = 21      # a price we found: look again after three weeks (p
 RECHECK_MISSING_DAYS = 7     # nothing found: try again after a week
 HOST_GAP = 1.0               # seconds between requests to the same site
 CONCURRENCY = 4
+PAGE_TIMEOUT_MS = 25000
+BUDGET_SECONDS = int(os.environ.get("PAGE_PRICES_BUDGET", "420"))   # the whole price step never runs longer than this
+HOST_MAX_FAILS = 3           # a site that fails this many times in a row is skipped for the rest of the run
 LOOKAHEAD_DAYS = 120
 
 
@@ -196,11 +199,13 @@ def read(source, text):
 # ---------------------------------------------------------------- fetching and cache
 
 async def _fetch_all(urls):
-    """Return {url: markdown text or None}. None means the page could not be read (not 'no price')."""
+    """Return {url: markdown text or None}. None means the page could not be read (not 'no price').
+    Stops after BUDGET_SECONDS; pages not reached are simply missing from the result and tried again next run."""
     from playwright.async_api import async_playwright
     from fetch import to_md, UA
     out = {}
-    locks, last = {}, {}
+    locks, last, fails = {}, {}, {}
+    started = time.monotonic()
     sem = asyncio.Semaphore(CONCURRENCY)
     async with async_playwright() as pw:
         browser = await pw.chromium.launch()
@@ -209,6 +214,8 @@ async def _fetch_all(urls):
             host = urlparse(url).netloc
             lock = locks.setdefault(host, asyncio.Lock())
             async with sem:
+                if fails.get(host, 0) >= HOST_MAX_FAILS:
+                    return   # this site keeps failing: leave its pages for the next run
                 async with lock:   # one request at a time per site, with a pause
                     wait = HOST_GAP - (time.monotonic() - last.get(host, 0))
                     if wait > 0:
@@ -218,15 +225,26 @@ async def _fetch_all(urls):
                 page = await ctx.new_page()
                 try:
                     await page.route("**/*", lambda r: r.abort() if r.request.resource_type in ("image", "font", "media") else r.continue_())
-                    resp = await page.goto(url, timeout=40000, wait_until="domcontentloaded")
+                    resp = await page.goto(url, timeout=PAGE_TIMEOUT_MS, wait_until="domcontentloaded")
                     await page.wait_for_timeout(2500)
-                    out[url] = to_md(await page.content()) if resp and resp.status < 400 else None
+                    ok = bool(resp and resp.status < 400)
+                    out[url] = to_md(await page.content()) if ok else None
+                    fails[host] = 0 if ok else fails.get(host, 0) + 1
                 except Exception:
                     out[url] = None
+                    fails[host] = fails.get(host, 0) + 1
                 finally:
                     await ctx.close()
+                if len(out) % 25 == 0:
+                    print(f"    ...{len(out)}/{len(urls)} pages after {int(time.monotonic() - started)}s", flush=True)
 
-        await asyncio.gather(*[one(u) for u in urls])
+        tasks = [asyncio.ensure_future(one(u)) for u in urls]
+        _, pending = await asyncio.wait(tasks, timeout=BUDGET_SECONDS)
+        if pending:
+            print(f"    time budget of {BUDGET_SECONDS}s reached: {len(pending)} pages left for the next run", flush=True)
+            for t in pending:
+                t.cancel()
+            await asyncio.gather(*pending, return_exceptions=True)
         await browser.close()
     return out
 

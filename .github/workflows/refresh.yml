@@ -68,7 +68,7 @@ jobs:
           OWNER="${GITHUB_REPOSITORY_OWNER,,}"
           REPO="${GITHUB_REPOSITORY#*/}"
           if [ "${REPO,,}" = "${OWNER}.github.io" ]; then SITE="https://${OWNER}.github.io"; else SITE="https://${OWNER}.github.io/${REPO}"; fi
-          python build.py --out public --previous "${SITE}/events.json"
+          python -u build.py --out public --previous "${SITE}/events.json"
 
       - name: Save new venue locations and start times
         run: |
