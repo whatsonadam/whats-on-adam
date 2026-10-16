@@ -49,13 +49,12 @@ jobs:
           curl -sS -m 60 -X POST https://ra.co/graphql -H "Content-Type: application/json" -H "Referer: https://ra.co/events/nl/amsterdam" -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36" --data @_data/probe/ra_query.json -o _data/probe/ra_cost.json -w "%{http_code}\n" | tee _data/probe/ra_cost.status
           head -c 1500 _data/probe/ra_cost.json || true
 
-      - name: Probe event pages for prices
-        continue-on-error: true
-        run: python probe_prices.py
+      - name: Run unit tests
+        run: python -m unittest discover -s tests
 
-      - name: Probe ticket links
+      - name: Live check of the price readers
         continue-on-error: true
-        run: python probe_tickets.py
+        run: python live_check.py
 
       - uses: actions/upload-artifact@v4
         with:
