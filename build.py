@@ -88,6 +88,7 @@ SOURCES = {
     "tanker": ("De Roze Tanker", "https://www.detanker.nl/agenda"),
     "prik": ("Prik", "https://www.prikamsterdam.nl"),
     "theaternl": ("Theater.nl (Nationale Opera & Ballet)", "https://www.theater.nl/voorstellingen/opera/amsterdam"),
+    "iamsterdamballet": ("I amsterdam (Dutch National Ballet nights)", "https://www.iamsterdam.com/en/whats-on/calendar/theatre-and-stage/stage/dutch-national-opera-and-ballet"),
     "weekly": ("Weekly nights (entered by hand)", "https://github.com/whatsonadam/whats-on-adam/blob/main/parsers/weekly.py"),
     "watkanikdoen": ("Wat kan ik doen?", "https://watkanikdoen.nl/acties"),
     "rightsforum": ("The Rights Forum", "https://rightsforum.org/agenda/"),
@@ -198,6 +199,8 @@ def collect(today):
     per["watkanikdoen"] = run("watkanikdoen", importlib.import_module("watkanikdoen").parse_pages, wk_pages, {k: v for k, v in wk_det.items() if v}, today) if wk_pages else []
     pages = [open(p, errors="ignore").read() for p in sorted(glob.glob(os.path.join(DATA, "iamsterdam", "p*.html")))]
     per["iamsterdam"] = run("iamsterdam", importlib.import_module("iamsterdam").parse_pages, pages, today)
+    bl = {os.path.basename(p)[:-5]: open(p, errors="ignore").read() for p in glob.glob(os.path.join(DATA, "iamsterdam_ballet", "*.html"))}
+    per["iamsterdamballet"] = run("iamsterdamballet", importlib.import_module("iamsterdamballet").parse_pages, {"/uit/agenda/voorstellingen/theater-en-podiumkunsten/" + k: v for k, v in bl.items()}, today) if bl else []
     if not os.environ.get("NO_PAGE_TIMES"):
         try:
             import pagetimes

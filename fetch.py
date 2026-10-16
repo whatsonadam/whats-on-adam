@@ -230,6 +230,24 @@ def fetch_iamsterdam(status, max_pages=300):
         res = list(ex.map(get, range(2, pages + 1)))
     bad = [p for p, c, _ in res if c != "200"]
     status["iamsterdam"] = f"ok ({pages} pages{', %d failed' % len(bad) if bad else ''})"
+    fetch_iamsterdam_ballet(status, d)
+
+def fetch_iamsterdam_ballet(status, listing_dir):
+    """Ballet nights: the listing only gives a run, each event page has the full night list."""
+    sys.path.insert(0, os.path.join(HERE, "parsers"))
+    import iamsterdamballet
+    d = os.path.join(DATA, "iamsterdam_ballet"); os.makedirs(d, exist_ok=True)
+    pages = [open(os.path.join(listing_dir, f), errors="ignore").read() for f in sorted(os.listdir(listing_dir))]
+    links = iamsterdamballet.find_links(pages)
+    got = 0
+    for href in links:
+        code = curl("https://www.iamsterdam.com" + href, os.path.join(d, href.rsplit("/", 1)[1] + ".html.tmp"))
+        tmp = os.path.join(d, href.rsplit("/", 1)[1] + ".html.tmp")
+        if code == "200":
+            os.replace(tmp, tmp[:-4]); got += 1
+        elif os.path.exists(tmp): os.remove(tmp)
+        time.sleep(1.0)
+    status["iamsterdamballet"] = f"ok ({got} productions)" if got else "error: no ballet pages found"
 
 def fetch_extras(status, today, want):
     """Sources read from an API or a plain page, no browser needed. Each failure keeps the previous data (see build.py)."""
