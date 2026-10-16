@@ -1035,6 +1035,12 @@
 "q": "name",
 "area": "Oost"
 },
+"Club Birdies": {
+"lat": 52.33959,
+"lon": 4.84431,
+"q": "name",
+"area": "Zuid"
+},
 "Club Church": {
 "lat": 52.36521,
 "lon": 4.8856,
@@ -2745,6 +2751,12 @@
 "lon": 4.92756,
 "q": "name",
 "area": "Oost"
+},
+"NoordOogst": {
+"lat": 52.41881,
+"lon": 4.87374,
+"q": "name",
+"area": "Noord"
 },
 "Noorderkerk": {
 "lat": 52.37963,
