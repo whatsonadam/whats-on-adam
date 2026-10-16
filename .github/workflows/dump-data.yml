@@ -58,6 +58,7 @@ jobs:
         run: python -u live_check.py
 
       - name: Time the production price step
+        if: ${{ inputs.only_probes }}
         continue-on-error: true
         run: python -u perf_check.py
 

@@ -14,7 +14,7 @@ Accuracy rules (see tests/test_pageprices.py):
 Politeness: browser user agent as in fetch.py, 1 second between requests to the same site, at most MAX_FETCH
 pages per run (the quickest-coming events first), images and fonts not downloaded.
 """
-import asyncio, datetime, json, os, re, sys, time
+import asyncio, concurrent.futures as cf, datetime, json, os, re, subprocess, sys, threading, time
 from urllib.parse import urlparse
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -30,6 +30,8 @@ CONCURRENCY = 4
 PAGE_TIMEOUT_MS = 25000
 BUDGET_SECONDS = int(os.environ.get("PAGE_PRICES_BUDGET", "420"))   # the whole price step never runs longer than this
 HOST_MAX_FAILS = 3           # a site that fails this many times in a row is skipped for the rest of the run
+HTTP_WORKERS = 6
+RENDER = set()               # sources whose pages need a real browser to show the price (all others: plain HTTP, much faster)
 LOOKAHEAD_DAYS = 120
 
 
@@ -198,7 +200,44 @@ def read(source, text):
 
 # ---------------------------------------------------------------- fetching and cache
 
-async def _fetch_all(urls):
+def _fetch_http(urls, deadline):
+    """Plain HTTP download of each page (like pagetimes.py), converted to the same markdown the readers expect.
+    Returns {url: text or None}. Pages not reached before the deadline are missing from the result."""
+    from fetch import to_md, UA
+    out, fails, last = {}, {}, {}
+    mu = threading.Lock()
+    host_locks = {}
+
+    def work(url):
+        host = urlparse(url).netloc
+        with mu:
+            hl = host_locks.setdefault(host, threading.Lock())
+        with hl:   # one request at a time per site, with a pause
+            if time.monotonic() > deadline or fails.get(host, 0) >= HOST_MAX_FAILS:
+                return
+            wait = HOST_GAP - (time.monotonic() - last.get(host, 0))
+            if wait > 0:
+                time.sleep(wait)
+            last[host] = time.monotonic()
+        try:
+            r = subprocess.run(["curl", "-sS", "-L", "--compressed", "-m", "25", "-A", UA, "-w", "\n%{http_code}", url],
+                               capture_output=True, text=True)
+            body, _, code = r.stdout.rpartition("\n")
+            text = to_md(body) if code.strip() == "200" and body else None
+        except Exception:
+            text = None
+        with mu:
+            out[url] = text
+            fails[host] = 0 if text else fails.get(host, 0) + 1
+            if len(out) % 50 == 0:
+                print(f"    ...{len(out)}/{len(urls)} pages by HTTP", flush=True)
+
+    with cf.ThreadPoolExecutor(HTTP_WORKERS) as ex:
+        list(ex.map(work, urls))
+    return out
+
+
+async def _fetch_all(urls, budget=None):
     """Return {url: markdown text or None}. None means the page could not be read (not 'no price').
     Stops after BUDGET_SECONDS; pages not reached are simply missing from the result and tried again next run."""
     from playwright.async_api import async_playwright
@@ -239,9 +278,10 @@ async def _fetch_all(urls):
                     print(f"    ...{len(out)}/{len(urls)} pages after {int(time.monotonic() - started)}s", flush=True)
 
         tasks = [asyncio.ensure_future(one(u)) for u in urls]
-        _, pending = await asyncio.wait(tasks, timeout=BUDGET_SECONDS)
+        budget = BUDGET_SECONDS if budget is None else budget
+        _, pending = await asyncio.wait(tasks, timeout=budget)
         if pending:
-            print(f"    time budget of {BUDGET_SECONDS}s reached: {len(pending)} pages left for the next run", flush=True)
+            print(f"    time budget of {int(budget)}s reached: {len(pending)} browser pages left for the next run", flush=True)
             for t in pending:
                 t.cancel()
             await asyncio.gather(*pending, return_exceptions=True)
@@ -281,8 +321,17 @@ def fill(events, today, max_fetch=None):
     todo = sorted((u for u in wanted if not (u in cache and _fresh(cache[u], today))), key=lambda u: wanted[u][0])[:max_fetch]
     stats = {"wanted": len(wanted), "fetched": 0, "unreadable": 0, "found": 0, "by_source": {}}
     if todo and max_fetch > 0:
-        pages = asyncio.run(_fetch_all(todo))
+        deadline = time.monotonic() + BUDGET_SECONDS
+        by_http = [u for u in todo if wanted[u][1] not in RENDER]
+        by_browser = [u for u in todo if wanted[u][1] in RENDER]
+        pages = _fetch_http(by_http, deadline) if by_http else {}
+        if by_browser:
+            pages.update(asyncio.run(_fetch_all(by_browser, max(30, deadline - time.monotonic()))))
+        stats["not_reached"] = 0
         for u in todo:
+            if u not in pages:
+                stats["not_reached"] += 1   # ran out of time or the site was skipped: next run
+                continue
             text = pages.get(u)
             src = wanted[u][1]
             st = stats["by_source"].setdefault(src, {"read": 0, "price": 0, "unreadable": 0})

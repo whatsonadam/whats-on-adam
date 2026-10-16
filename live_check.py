@@ -1,10 +1,10 @@
-"""Development check (manual dump workflow only): run the real price readers on live event pages.
+"""Development check (manual dump workflow only): compare plain HTTP with a real browser for the price readers.
 
-Picks a few upcoming events per source in pageprices.READERS, fetches them exactly as a refresh would, and writes
-_data/probe/live_check.tsv (source, date, price read, title, url) plus the page text of every page where no
-price was read, so each answer can be compared with what the page really says.
+Picks a few upcoming events per source in pageprices.READERS, reads each page both ways, runs the source's reader
+on both texts and reports per source: how many pages loaded each way, and whether the two answers agree. Sources
+where plain HTTP loses prices belong in pageprices.RENDER. Writes _data/probe/live_check.tsv.
 """
-import collections, json, os, subprocess, sys, asyncio, datetime
+import asyncio, collections, json, os, subprocess, sys, time
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
@@ -22,19 +22,29 @@ def main():
         if e["u"] not in {x["u"] for x in by[e["s"]]}:
             by[e["s"]].append(e)
     chosen = [e for s, items in by.items() for e in items[:PER]]
-    os.makedirs(os.path.join(OUT, "live_none"), exist_ok=True)
-    pages = asyncio.run(pp._fetch_all([e["u"] for e in chosen]))
-    rows, stats = [], collections.defaultdict(lambda: [0, 0, 0])
-    for i, e in enumerate(chosen):
-        text = pages.get(e["u"])
-        p = pp.read(e["s"], text) if text else None
-        st = stats[e["s"]]; st[0] += 1; st[1] += bool(p); st[2] += text is None
-        rows.append("\t".join([e["s"], e["d"], str(p), "UNREADABLE" if text is None else "", e["t"][:60], e["u"]]))
-        if text is not None and not p:
-            open(os.path.join(OUT, "live_none", f"{e['s']}__{i}.md"), "w").write(f"URL: {e['u']}\n\n{text}")
+    urls = [e["u"] for e in chosen]
+    t = time.monotonic()
+    http = pp._fetch_http(urls, time.monotonic() + 600)
+    t_http = time.monotonic() - t
+    t = time.monotonic()
+    browser = asyncio.run(pp._fetch_all(urls, 600))
+    t_browser = time.monotonic() - t
+    print(f"{len(urls)} pages: HTTP {int(t_http)}s, browser {int(t_browser)}s", flush=True)
+    os.makedirs(OUT, exist_ok=True)
+    rows, stats = [], collections.defaultdict(lambda: collections.Counter())
+    for e in chosen:
+        h, b = http.get(e["u"]), browser.get(e["u"])
+        ph = pp.read(e["s"], h) if h else None
+        pb = pp.read(e["s"], b) if b else None
+        st = stats[e["s"]]
+        st["pages"] += 1; st["http_loaded"] += h is not None; st["browser_loaded"] += b is not None
+        st["http_price"] += bool(ph); st["browser_price"] += bool(pb)
+        st["same"] += (ph == pb); st["differ"] += (ph != pb)
+        rows.append("\t".join([e["s"], e["d"], str(ph), str(pb), "" if ph == pb else "DIFF", e["t"][:50], e["u"]]))
     open(os.path.join(OUT, "live_check.tsv"), "w").write("\n".join(rows) + "\n")
-    for s, (n, hit, bad) in sorted(stats.items()):
-        print(f"{s:16} read {n - bad}/{n}  price {hit}  unreadable {bad}")
+    for s, c in sorted(stats.items()):
+        print(f"{s:16} pages {c['pages']}  loaded http {c['http_loaded']} browser {c['browser_loaded']}  "
+              f"price http {c['http_price']} browser {c['browser_price']}  same {c['same']} differ {c['differ']}", flush=True)
 
 
 if __name__ == "__main__":
