@@ -100,5 +100,33 @@ class Readers(unittest.TestCase):
         self.assertIsNone(pp.read("mezrab", ""))
 
 
+class TicketShops(unittest.TestCase):
+    def test_paylogic(self):
+        t = "Regular\nMembership not required\n\n€ 28.70\nincl. € 3.70 service fee\n"
+        self.assertEqual(pp.read_ticket_page("https://tickets.paradiso.nl/abc123", t), "€28,70")
+        two = t + "Student\n\n€ 20.00\nincl. € 3.00 service fee\n"
+        self.assertEqual(pp.read_ticket_page("https://tickets.paradiso.nl/abc123", two), "from €20")
+        self.assertIsNone(pp.read_ticket_page("https://tickets.paradiso.nl/abc123", "interaction_required"))
+
+    def test_weticket_shop(self):
+        t = ("#### Tickets\n\nEarly bird\n\n€10.00\n\n+\n\nRegular\n\n€12.50\n\nLate\n\n€15.00\n\n"
+             "#### Products\n\n(extra) support donation\n\n€5.00\n")
+        self.assertEqual(pp.read_ticket_page("https://desering.weticket.io/x/shop", t), "from €10")
+        t2 = "#### Tickets\n\npresale ticket\n\n€15.00 + €0.50\n\ndigital door ticket\n\n€20.00 + €0.50\n"
+        self.assertEqual(pp.read_ticket_page("https://garagenoord.weticket.io/x/shop", t2), "from €15,50")
+        self.assertIsNone(pp.read_ticket_page("https://a.weticket.io/x/shop", "#### Products\n\nlocker\n\n€2.00\n"))
+
+    def test_links(self):
+        t = "[Tickets](https://tickets.paradiso.nl/" + "a" * 32 + "?x=1)"
+        self.assertEqual(pp.link_paradiso(t, "u"), "https://tickets.paradiso.nl/" + "a" * 32)
+        self.assertEqual(pp.link_weticket("see https://desering.weticket.io/night?lang=en", "https://desering.nl/e"),
+                         "https://desering.weticket.io/night/shop")
+        self.assertEqual(pp.link_weticket("", "https://skate.weticket.io/jam/"), "https://skate.weticket.io/jam/shop")
+        self.assertIsNone(pp.link_weticket("no link", "https://desering.nl/e"))
+
+    def test_unknown_platform(self):
+        self.assertIsNone(pp.read_ticket_page("https://other.example/x", "€ 10"))
+
+
 if __name__ == "__main__":
     unittest.main()

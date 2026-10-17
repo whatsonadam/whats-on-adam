@@ -180,11 +180,88 @@ def read_dezwijger(t):
     return None
 
 
+
+# ---------------------------------------------------------------- ticket shops (second hop)
+# Some venues show no price on their own page, only a link to the ticket shop. For those sources the event page is
+# read first (finders below pick out the ticket link), then the shop page is read by the reader for that platform.
+# Prices are what the visitor pays: the service fee is included.
+
+def _lowest(prices):
+    """prices: list of floats (>0). One price -> '€x'; several different ones -> 'from €lowest'."""
+    prices = sorted(set(round(p, 2) for p in prices if p > 0))
+    if not prices:
+        return None
+    return clean(f"{prices[0]:.2f}" + ("+" if len(prices) > 1 else ""))
+
+
+def _num(x):
+    return float(x.replace(",", "."))
+
+
+def read_paylogic(t):
+    """tickets.paradiso.nl (Paylogic): each ticket type shows 'Regular / € 28.70 / incl. € 3.70 service fee'."""
+    found = re.findall(r"^€\s*(\d+(?:[.,]\d{1,2})?)\s*\n+\s*incl\.", t, re.M)
+    return _lowest([_num(x) for x in found])
+
+
+def read_weticket_shop(t):
+    """*.weticket.io/<event>/shop: the 'Tickets' block lists '€15.00' or '€15.00 + €0.50' (price plus service fee).
+    The 'Products' block (locker coins, donations) is ignored. 'Sold out' types show no price."""
+    block = _m(r"^#{3,5}\s*Tickets\s*$(.*?)(?=^#{3,5}\s|\Z)", t, re.M | re.S)
+    if not block:
+        return None
+    totals = []
+    for price, fee in re.findall(r"^€\s*(\d+(?:[.,]\d{1,2})?)(?:\s*\+\s*€\s*(\d+(?:[.,]\d{1,2})?))?\s*$", block.group(1), re.M):
+        totals.append(_num(price) + (_num(fee) if fee else 0))
+    if totals and all(x == 0 for x in totals):
+        return "Free"
+    return _lowest(totals)
+
+
+def link_paradiso(t, url):
+    m = re.search(r"\]\((https://tickets\.paradiso\.nl/[0-9a-f]{20,}/?)[^)]*\)", t)
+    return m.group(1) if m else None
+
+
+def link_weticket(t, url):
+    """The event page links to <venue>.weticket.io/<event>...; the prices are on <event>/shop."""
+    src = url if "weticket.io" in url else None
+    if not src:
+        m = re.search(r"https://[\w.-]+\.weticket\.io/[^\s)\]\"'<>?#]+", t)
+        src = m.group(0) if m else None
+    if not src:
+        return None
+    src = src.split("?")[0].split("#")[0].rstrip("/")
+    return src if src.endswith("/shop") else src + "/shop"
+
+
+PLATFORMS = [(re.compile(r"(^|\.)tickets\.paradiso\.nl$"), read_paylogic), (re.compile(r"\.weticket\.io$"), read_weticket_shop)]
+FOLLOW = {"tolhuistuin": link_paradiso, "garagenoord": link_weticket, "desering": link_weticket,
+          "skatecafe": link_weticket, "volkshotel": link_weticket}
+RENDER_HOSTS = set()    # ticket shop hosts that need a real browser (all others: plain HTTP)
+
+
+def read_ticket_page(ticket_url, text):
+    host = urlparse(ticket_url).netloc
+    for rx, fn in PLATFORMS:
+        if rx.search(host):
+            try:
+                return fn(text)
+            except Exception:
+                return None
+    return None
+
+
+def _nothing(t):
+    return None
+
+
 READERS = {
     "iamsterdam": read_iamsterdam, "mezrab": read_mezrab, "tolhuistuin": read_tolhuistuin, "cinetol": read_cinetol,
     "radar": read_radar, "amsterdammuseum": read_amsterdammuseum, "verzetsmuseum": read_verzetsmuseum,
     "verbroederij": read_verbroederij, "xr": read_xr, "iisg": read_iisg, "marineterrein": read_marineterrein,
     "offbeat": read_offbeat, "odessa": read_odessa, "dezwijger": read_dezwijger,
+    "garagenoord": _nothing, "desering": _nothing, "skatecafe": _nothing, "volkshotel": _nothing,
 }
 
 
@@ -289,6 +366,17 @@ async def _fetch_all(urls, budget=None):
     return out
 
 
+def _get_pages(urls, is_browser, http_until, end):
+    """Download pages: plain HTTP until http_until (monotonic time), the rest in the browser until end.
+    Pages not reached are missing from the result."""
+    by_http = [u for u in urls if not is_browser(u)]
+    by_browser = [u for u in urls if is_browser(u)]
+    pages = _fetch_http(by_http, http_until if by_browser else end) if by_http else {}
+    if by_browser:
+        pages.update(asyncio.run(_fetch_all(by_browser, max(60, end - time.monotonic()))))
+    return pages
+
+
 def _load():
     try:
         return json.load(open(CACHE))
@@ -322,28 +410,52 @@ def fill(events, today, max_fetch=None):
     stats = {"wanted": len(wanted), "fetched": 0, "unreadable": 0, "found": 0, "by_source": {}}
     if todo and max_fetch > 0:
         t0 = time.monotonic()
-        by_http = [u for u in todo if wanted[u][1] not in RENDER]
-        by_browser = [u for u in todo if wanted[u][1] in RENDER]
-        # plain HTTP gets 65% of the budget so the slower browser pages always have time left
-        pages = _fetch_http(by_http, t0 + (0.65 if by_browser else 1.0) * BUDGET_SECONDS) if by_http else {}
-        if by_browser:
-            pages.update(asyncio.run(_fetch_all(by_browser, max(60, BUDGET_SECONDS - (time.monotonic() - t0)))))
+        end = t0 + BUDGET_SECONDS
+        # first hop: the event pages. Venues that only link to a ticket shop get a second hop afterwards.
+        pages = _get_pages(todo, lambda u: wanted[u][1] in RENDER, t0 + 0.7 * BUDGET_SECONDS, end)
         stats["not_reached"] = 0
+        follow = {}   # event url -> ticket shop url
         for u in todo:
             if u not in pages:
                 stats["not_reached"] += 1   # ran out of time or the site was skipped: next run
                 continue
             text = pages.get(u)
             src = wanted[u][1]
-            st = stats["by_source"].setdefault(src, {"read": 0, "price": 0, "unreadable": 0})
+            st = stats["by_source"].setdefault(src, {"read": 0, "price": 0, "unreadable": 0, "shop": 0})
             if text is None:
                 stats["unreadable"] += 1; st["unreadable"] += 1
                 continue
             p = read(src, text)
+            tk = None
+            if not p and src in FOLLOW:
+                try:
+                    tk = FOLLOW[src](text, u)
+                except Exception:
+                    tk = None
+            if tk:
+                follow[u] = tk
+                continue
             cache[u] = {"p": p, "t": today.isoformat()}
             stats["fetched"] += 1; st["read"] += 1
             if p:
                 stats["found"] += 1; st["price"] += 1
+        if follow:
+            shops = _get_pages(sorted(set(follow.values())), lambda u: urlparse(u).netloc in RENDER_HOSTS, end, end)
+            for u, tk in follow.items():
+                src = wanted[u][1]
+                st = stats["by_source"][src]
+                if tk not in shops:
+                    stats["not_reached"] += 1
+                    continue
+                text = shops[tk]
+                if text is None:
+                    stats["unreadable"] += 1; st["unreadable"] += 1
+                    continue
+                p = read_ticket_page(tk, text)
+                cache[u] = {"p": p, "t": today.isoformat(), "tk": tk}
+                stats["fetched"] += 1; st["read"] += 1; st["shop"] += 1
+                if p:
+                    stats["found"] += 1; st["price"] += 1
     n = 0
     for e in events:
         if e.get("p") or e.get("c") == "film" or e.get("s") not in READERS:
