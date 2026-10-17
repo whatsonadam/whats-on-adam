@@ -2563,6 +2563,12 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"film funk 2026": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-17",
+"v": 4
+},
 "film lecture the mysteries of donnie darko": {
 "tm5": true,
 "tmdb": true,
@@ -2732,6 +2738,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"fred frith tim hodgkinson liz albee us uk de lukraak marcus wärnheim thomas jaspers joshua burkett us": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-17",
+"v": 4
 },
 "frost": {
 "dr": "Fred Kelemen",
@@ -6067,6 +6079,23 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1998
+},
+"night of the living dead": {
+"dr": "George A. Romero",
+"du": 96,
+"gn": [
+"Horror"
+],
+"lg": [
+"en"
+],
+"rt": 7.6,
+"sy": "A ragtag group barricade themselves in an old Pennsylvania farmhouse to remain safe from a horde of flesh-eating ghouls ravaging the Northeast.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-17",
+"v": 4,
+"yr": 1968
 },
 "night on earth": {
 "dr": "Jim Jarmusch",
