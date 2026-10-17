@@ -14,7 +14,7 @@ sys.path.insert(0, os.path.join(HERE, "parsers"))
 
 CINEMA_KEYS = ["eye", "rialto", "uitkijk", "themovies", "studiok", "ketelhuis", "hyena", "filmhallen", "cinecenter",
                "melkwegcinema", "amstelveen", "devlugt", "thepulse", "omval", "docpaviljoen", "kriterion", "filmladder"]
-AGG = {"radar", "offbeat", "amsterdamalternative", "iamsterdam"}
+AGG = {"radar", "offbeat", "amsterdamalternative", "iamsterdam", "luma"}
 # Page keys whose markdown feeds a parser of the same name
 MD_KEYS = ["mezrab", "vrankrijk", "aralez", "desering", "amsterdamalternative", "offbeat", "likeminds",
            "garagenoord", "skatecafe", "deceuvel", "nieuweanita", "verzetsmuseum", "wereldmuseum", "odessa",
@@ -71,6 +71,7 @@ SOURCES = {
     "artis": ("ARTIS-Micropia", "https://www.artis.nl/nl/artis-micropia"),
     "schooloflife": ("The School of Life", "https://www.theschooloflife.com/amsterdam/agenda/"),
     "offlineclub": ("The Offline Club", "https://luma.com/theofflineclubamsterdam"),
+    "luma": ("Luma Amsterdam", "https://luma.com/amsterdam"),
     "ra": ("Resident Advisor", "https://ra.co/events/nl/amsterdam"),
     "verbroederij": ("De VerbroederIJ", "https://deverbroederij.nl/"),
     "ruigoord": ("Ruigoord", "https://ruigoord.nl/programma/"),
@@ -187,6 +188,8 @@ def collect(today):
     per["delamar"] = run("delamar", importlib.import_module("delamar").parse_pages, dl, today)
     f = os.path.join(DATA, "offlineclub.html")
     per["offlineclub"] = run("offlineclub", importlib.import_module("offlineclub").parse, open(f, errors="ignore").read(), today) if os.path.exists(f) else []
+    f = os.path.join(DATA, "luma.json")
+    per["luma"] = run("luma", importlib.import_module("luma").parse, open(f, errors="ignore").read(), today) if os.path.exists(f) else []
     f = os.path.join(DATA, "socialisme.html")
     per["socialisme"] = run("socialisme", importlib.import_module("socialisme").parse, open(f, errors="ignore").read(), today) if os.path.exists(f) else []
     rf = [open(p, errors="ignore").read() for p in sorted(glob.glob(os.path.join(DATA, "rightsforum", "p*.html")))]

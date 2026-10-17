@@ -272,6 +272,13 @@ def fetch_extras(status, today, want):
             status["offlineclub"] = f"error {code}"
             if os.path.exists(out): os.remove(out)
         else: status["offlineclub"] = "ok"
+    if not want or "luma" in want:
+        import luma
+        out = os.path.join(DATA, "luma.json")
+        try: status["luma"] = f"ok ({luma.fetch(out)} entries)"
+        except Exception as ex:
+            status["luma"] = f"error {str(ex)[:60]}"
+            if os.path.exists(out): os.remove(out)   # build.py then keeps the previous events
     # Protest and activism agendas: national lists, the parsers keep Amsterdam only. A failure keeps the previous events (see build.py).
     import shutil
     for key, mod in (("watkanikdoen", "watkanikdoen"), ("rightsforum", "rightsforum"), ("xr", "xr")):

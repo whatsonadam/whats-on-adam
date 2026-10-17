@@ -42,6 +42,13 @@ Event field names in `events.json`: t title, d date, ed end date, h/eh start/end
 p price, b short description, s source, nl looks Dutch-language, to original title when translated, la/lo coordinates,
 ar district, a also listed on.
 
+## Luma
+
+`parsers/luma.py` reads Luma's public Amsterdam discover list (the endpoint luma.com/amsterdam itself uses, first 6 pages,
+about 40 events). Events from The Offline Club's calendar are skipped because that source already has them. Tech and startup
+meetups go under Talk; everything else is sorted by `classify_other` in `build.py`. If Luma changes or blocks the endpoint
+the source keeps its previous events.
+
 ## Agenda filters
 
 With only the Protest type ticked, the day strip is replaced by one list of the next 4 weeks grouped by date (button
