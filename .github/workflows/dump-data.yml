@@ -60,6 +60,11 @@ jobs:
         continue-on-error: true
         run: python -u live_check_tickets.py
 
+      - name: Probe Paradiso ticket pages
+        if: ${{ inputs.only_probes }}
+        continue-on-error: true
+        run: python -u probe_paradiso.py
+
       - name: Time the production price step
         if: ${{ inputs.only_probes }}
         continue-on-error: true
