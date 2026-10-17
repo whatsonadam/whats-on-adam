@@ -245,14 +245,73 @@ def link_weticket(t, url):
     return src if src.endswith("/shop") else src + "/shop"
 
 
-PLATFORMS = [(re.compile(r"(^|\.)tickets\.paradiso\.nl$"), read_paylogic), (re.compile(r"\.weticket\.io$"), read_weticket_shop)]
+def _stager_tiers(block):
+    """Stager shop text: ticket name line, then a price line like '16.00', then optionally 'Sold out'.
+    Returns [(name, price, sold_out)]."""
+    lines = [l.strip() for l in block.splitlines() if l.strip()]
+    out = []
+    for i, l in enumerate(lines):
+        if re.fullmatch(r"\d+\.\d{2}", l) and i > 0:
+            sold = i + 1 < len(lines) and lines[i + 1].lower().startswith("sold out")
+            out.append((lines[i - 1], float(l), sold))
+    return out
+
+
+def _stager_price(tiers):
+    """What a visitor can buy right now: the lowest price among tiers that are not sold out and not group deals.
+    All sold out -> None (the site shows no price rather than a price nobody can buy)."""
+    ok = [p for name, p, sold in tiers if not sold and not re.search(r"group|groep|\bx\d|\d+x\b", name, re.I)]
+    return _lowest(ok)
+
+
+def read_stager_event(t):
+    """cinetol.stager.co/shop/<shop>/events/<id>: a single event, 'Ticket / 16.00'."""
+    return _stager_price(_stager_tiers(t))
+
+
+def _norm_title(x):
+    x = x.lower().replace("\u2013", "-").replace("\u2014", "-").replace("\u2019", "'")
+    return re.sub(r"[^a-z0-9]+", " ", x).strip()
+
+
+def read_stager_listing(t, title, date):
+    """radionamsterdam.stager.co/shop/default lists every event as 'DD/MM<Day><HH:MM>', the title, then ticket tiers.
+    Only the block whose date AND title match this event is used."""
+    blocks = re.split(r"^(\d{2}/\d{2})[A-Z][a-z]{2}\d{1,2}:\d{2}\s*$", t, flags=re.M)
+    want_dm = "%s/%s" % (date[8:10], date[5:7])
+    want_title = _norm_title(title)
+    for i in range(1, len(blocks) - 1, 2):
+        if blocks[i] != want_dm:
+            continue
+        body = blocks[i + 1].strip().splitlines()
+        head = next((l for l in body if l.strip()), "")
+        if _norm_title(head) == want_title:
+            return _stager_price(_stager_tiers("\n".join(body)))
+    return None
+
+
+def link_stager(t, url):
+    m = re.search(r"https://[\w.-]+\.stager\.co/shop/[\w-]+/events/\d+", t)
+    if m:
+        return m.group(0)
+    m = re.search(r"https://[\w.-]+\.stager\.co/shop/default", t)
+    return m.group(0) if m else None
+
+
+PLATFORMS = [(re.compile(r"(^|\.)tickets\.paradiso\.nl$"), read_paylogic), (re.compile(r"\.weticket\.io$"), read_weticket_shop),
+             (re.compile(r"\.stager\.co$"), read_stager_event)]
 FOLLOW = {"tolhuistuin": link_paradiso, "garagenoord": link_weticket, "desering": link_weticket,
-          "skatecafe": link_weticket, "volkshotel": link_weticket}
-RENDER_HOSTS = {"garagenoord.weticket.io", "skatecafe.weticket.io", "tickets.paradiso.nl"}    # ticket shop hosts that need a real browser (all others: plain HTTP)
+          "skatecafe": link_weticket, "volkshotel": link_weticket, "cinetol": link_stager, "radion": link_stager}
+RENDER_HOSTS = {"garagenoord.weticket.io", "skatecafe.weticket.io", "tickets.paradiso.nl", "cinetol.stager.co", "radionamsterdam.stager.co"}    # ticket shop hosts that need a real browser (all others: plain HTTP)
 
 
-def read_ticket_page(ticket_url, text):
+def read_ticket_page(ticket_url, text, title=None, date=None):
     host = urlparse(ticket_url).netloc
+    if ticket_url.rstrip("/").endswith("/shop/default") and host.endswith(".stager.co"):
+        try:
+            return read_stager_listing(text, title or "", date or "")
+        except Exception:
+            return None
     for rx, fn in PLATFORMS:
         if rx.search(host):
             try:
@@ -271,7 +330,7 @@ READERS = {
     "radar": read_radar, "amsterdammuseum": read_amsterdammuseum, "verzetsmuseum": read_verzetsmuseum,
     "verbroederij": read_verbroederij, "xr": read_xr, "iisg": read_iisg, "marineterrein": read_marineterrein,
     "offbeat": read_offbeat, "odessa": read_odessa, "dezwijger": read_dezwijger,
-    "garagenoord": _nothing, "desering": _nothing, "skatecafe": _nothing, "volkshotel": _nothing,
+    "radion": _nothing, "garagenoord": _nothing, "desering": _nothing, "skatecafe": _nothing, "volkshotel": _nothing,
 }
 
 
@@ -412,6 +471,7 @@ def fill(events, today, max_fetch=None):
     cache = _load()
     horizon = (today + datetime.timedelta(days=LOOKAHEAD_DAYS)).isoformat()
     wanted = {}   # url -> (earliest date, source)
+    titles = {}
     for e in events:
         if e.get("p") or e.get("c") == "film" or e.get("s") not in READERS or not (e.get("u") or "").startswith("http"):
             continue
@@ -420,6 +480,7 @@ def fill(events, today, max_fetch=None):
         cur = wanted.get(e["u"])
         if not cur or e["d"] < cur[0]:
             wanted[e["u"]] = (e["d"], e["s"])
+            titles[e["u"]] = e.get("t") or ""
     todo = sorted((u for u in wanted if not (u in cache and _fresh(cache[u], today))), key=lambda u: wanted[u][0])[:max_fetch]
     stats = {"wanted": len(wanted), "fetched": 0, "unreadable": 0, "found": 0, "by_source": {}}
     if todo and max_fetch > 0:
@@ -465,7 +526,7 @@ def fill(events, today, max_fetch=None):
                 if text is None:
                     stats["unreadable"] += 1; st["unreadable"] += 1
                     continue
-                p = read_ticket_page(tk, text)
+                p = read_ticket_page(tk, text, titles.get(u), wanted[u][0])
                 cache[u] = {"p": p, "t": today.isoformat(), "tk": tk}
                 stats["fetched"] += 1; st["read"] += 1; st["shop"] += 1
                 if p:

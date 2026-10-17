@@ -128,6 +128,24 @@ class TicketShops(unittest.TestCase):
         self.assertEqual(pp.link_weticket(listing, "https://www.g.com/club/two"), "https://g.weticket.io/two/shop")
         self.assertIsNone(pp.link_weticket(listing, "https://www.g.com/club/three"))   # never borrow another event's shop
 
+    def test_stager(self):
+        one = "16/10Fri\nCurbside Lambsear + From 2\nInfo\nTicket\n16.00\nWe use cookies\n"
+        self.assertEqual(pp.read_ticket_page("https://cinetol.stager.co/shop/cinetol-tickets/events/1", one), "€16")
+        self.assertEqual(pp.link_stager("[TICKETS](https://cinetol.stager.co/shop/cinetol-tickets/events/111683253)", "u"),
+                         "https://cinetol.stager.co/shop/cinetol-tickets/events/111683253")
+
+    def test_stager_listing(self):
+        shop = ("RADION Amsterdam b.v. Tickets\nMenu\n16/10Fri23:00\nBAILE TRAMA 4TH ANNIVERSARY\nPhase 1\n17.00\nSold out\n"
+                "Phase 2\n21.00\nSold out\nPhase 3\n24.00\n17/10Sat23:00\nBomBlastic - The Next Chapter\nPhase 3\n32.00\n"
+                "22/10Thu23:00\nLNR: Local Night RADION | ADE edition\nPhase 1\n18.00\nSold out\nPhase 2\n22.00\n"
+                "Group tickets (4x)\n67.00\nOnly 11 tickets left!\n23/10Fri23:00\nAURA\nPhase 1\n20.00\nSold out\n")
+        u = "https://radionamsterdam.stager.co/shop/default"
+        self.assertEqual(pp.read_ticket_page(u, shop, "BAILE TRAMA 4TH ANNIVERSARY", "2026-10-16"), "€24")
+        self.assertEqual(pp.read_ticket_page(u, shop, "BomBlastic \u2013 The Next Chapter", "2026-10-17"), "€32")
+        self.assertEqual(pp.read_ticket_page(u, shop, "LNR: Local Night RADION | ADE edition", "2026-10-22"), "€22")   # group deal ignored
+        self.assertIsNone(pp.read_ticket_page(u, shop, "AURA", "2026-10-23"))              # everything sold out
+        self.assertIsNone(pp.read_ticket_page(u, shop, "BomBlastic - The Next Chapter", "2026-10-18"))   # wrong date: never guess
+
     def test_unknown_platform(self):
         self.assertIsNone(pp.read_ticket_page("https://other.example/x", "€ 10"))
 

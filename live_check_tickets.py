@@ -38,8 +38,8 @@ def main():
     for e in chosen:
         tk = hops[e["u"]]
         h, b = (http.get(tk), br.get(tk)) if tk else (None, None)
-        ph = pp.read_ticket_page(tk, h) if h else None
-        pb = pp.read_ticket_page(tk, b) if b else None
+        ph = pp.read_ticket_page(tk, h, e["t"], e["d"]) if h else None
+        pb = pp.read_ticket_page(tk, b, e["t"], e["d"]) if b else None
         st = stats[(e["s"], urlparse(tk).netloc if tk else "-")]
         st["events"] += 1; st["http_loaded"] += h is not None; st["browser_loaded"] += b is not None
         st["http_price"] += bool(ph); st["browser_price"] += bool(pb); st["differ"] += (ph != pb)
