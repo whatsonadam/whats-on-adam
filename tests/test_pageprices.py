@@ -123,6 +123,10 @@ class TicketShops(unittest.TestCase):
                          "https://desering.weticket.io/night/shop")
         self.assertEqual(pp.link_weticket("", "https://skate.weticket.io/jam/"), "https://skate.weticket.io/jam/shop")
         self.assertIsNone(pp.link_weticket("no link", "https://desering.nl/e"))
+        listing = ("[Tickets](https://g.weticket.io/one/shop?)\n\n[One](https://www.g.com/club/one)\n\n"
+                   "[Tickets](https://g.weticket.io/two/shop)\n\n[Two](https://www.g.com/club/two)")
+        self.assertEqual(pp.link_weticket(listing, "https://www.g.com/club/two"), "https://g.weticket.io/two/shop")
+        self.assertIsNone(pp.link_weticket(listing, "https://www.g.com/club/three"))   # never borrow another event's shop
 
     def test_unknown_platform(self):
         self.assertIsNone(pp.read_ticket_page("https://other.example/x", "€ 10"))

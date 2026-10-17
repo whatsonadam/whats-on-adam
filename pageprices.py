@@ -31,7 +31,7 @@ PAGE_TIMEOUT_MS = 25000
 BUDGET_SECONDS = int(os.environ.get("PAGE_PRICES_BUDGET", "420"))   # the whole price step never runs longer than this
 HOST_MAX_FAILS = 3           # a site that fails this many times in a row is skipped for the rest of the run
 HTTP_WORKERS = 6
-RENDER = {"radar"}           # sources whose pages need a real browser to show the price (all others: plain HTTP, much faster)
+RENDER = {"radar", "desering"}           # sources whose pages need a real browser to show the price (all others: plain HTTP, much faster)
 LOOKAHEAD_DAYS = 120
 
 
@@ -224,11 +224,21 @@ def link_paradiso(t, url):
 
 
 def link_weticket(t, url):
-    """The event page links to <venue>.weticket.io/<event>...; the prices are on <event>/shop."""
-    src = url if "weticket.io" in url else None
-    if not src:
-        m = re.search(r"https://[\w.-]+\.weticket\.io/[^\s)\]\"'<>?#]+", t)
-        src = m.group(0) if m else None
+    """The event page links to <venue>.weticket.io/<event>...; the prices are on <event>/shop.
+    Skatecafe: the event URL is itself a weticket page. Garage Noord: its event pages list many events, each as
+    '[Tickets](shop link)' directly followed by the title link to that event, so only the link that belongs to
+    this event is used. Other venues: the first weticket link on their single-event page."""
+    if "weticket.io" in url:
+        src = url
+    else:
+        own = url.rstrip("/")
+        pairs = re.findall(r"\[Tickets\]\((https://[\w.-]+\.weticket\.io/[^)\s]+)\)\s*\[[^\]]*\]\(([^)\s]+)\)", t)
+        if pairs:
+            mine = [a for a, b in pairs if b.rstrip("/") == own]
+            src = mine[0] if mine else None
+        else:
+            m = re.search(r"https://[\w.-]+\.weticket\.io/[^\s)\]\"'<>?#]+", t)
+            src = m.group(0) if m else None
     if not src:
         return None
     src = src.split("?")[0].split("#")[0].rstrip("/")
@@ -238,7 +248,7 @@ def link_weticket(t, url):
 PLATFORMS = [(re.compile(r"(^|\.)tickets\.paradiso\.nl$"), read_paylogic), (re.compile(r"\.weticket\.io$"), read_weticket_shop)]
 FOLLOW = {"tolhuistuin": link_paradiso, "garagenoord": link_weticket, "desering": link_weticket,
           "skatecafe": link_weticket, "volkshotel": link_weticket}
-RENDER_HOSTS = set()    # ticket shop hosts that need a real browser (all others: plain HTTP)
+RENDER_HOSTS = {"garagenoord.weticket.io", "skatecafe.weticket.io", "tickets.paradiso.nl"}    # ticket shop hosts that need a real browser (all others: plain HTTP)
 
 
 def read_ticket_page(ticket_url, text):

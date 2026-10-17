@@ -23,7 +23,9 @@ def main():
         if e["u"] not in {x["u"] for x in by[e["s"]]}:
             by[e["s"]].append(e)
     chosen = [e for s, items in by.items() for e in items[:PER]]
-    pages = pp._fetch_http([e["u"] for e in chosen], time.monotonic() + 300)
+    urls = [e["u"] for e in chosen]
+    pages = pp._fetch_http([u for u in urls if pp.READERS and chosen[urls.index(u)]["s"] not in pp.RENDER], time.monotonic() + 300)
+    pages.update(asyncio.run(pp._fetch_all([u for u in urls if chosen[urls.index(u)]["s"] in pp.RENDER], 300)))
     hops = {}
     for e in chosen:
         t = pages.get(e["u"])
@@ -41,6 +43,8 @@ def main():
         st = stats[(e["s"], urlparse(tk).netloc if tk else "-")]
         st["events"] += 1; st["http_loaded"] += h is not None; st["browser_loaded"] += b is not None
         st["http_price"] += bool(ph); st["browser_price"] += bool(pb); st["differ"] += (ph != pb)
+        if tk and (b or h):
+            open(os.path.join(OUT, "tickets_" + str(abs(hash(tk)))[:8] + ".md"), "w").write(f"URL: {tk}\n\nHTTP:\n{(h or '')[:3000]}\n\nBROWSER:\n{(b or '')[:3000]}")
         rows.append("\t".join([e["s"], e["d"], str(ph), str(pb), "" if ph == pb else "DIFF", e["t"][:40], str(tk)]))
     os.makedirs(OUT, exist_ok=True)
     open(os.path.join(OUT, "live_check_tickets.tsv"), "w").write("\n".join(rows) + "\n")
