@@ -10,7 +10,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, ".."))
 sys.path.insert(0, os.path.join(HERE, "..", "parsers"))
 import pageprices as pp   # noqa: E402
-from _price import clean, from_text   # noqa: E402
+from _price import clean, from_text, tidy   # noqa: E402
 
 
 class Cleaner(unittest.TestCase):
@@ -27,6 +27,22 @@ class Cleaner(unittest.TestCase):
     def test_text_needs_a_price_word(self):
         self.assertEqual(from_text("Bijdrage: €25 inclusief Indiase Chai"), "€25")
         self.assertIsNone(from_text("the ship needs a €100K repair"))
+
+
+class Tidy(unittest.TestCase):
+    def test_tidy(self):
+        cases = {"€18.00": "€18", "€12,50 (vanaf)": "from €12,50", "€10,- (vanaf)": "from €10", "€12.5": "€12,50",
+                 "€10 (presale) | €12 (door)": "€10 (door €12)", "€8-12, 18+": "€8-12", "€0 // 18+": "Free",
+                 "€Free": "Free", "On Donation": "Donation", "suggested donation": "Donation", "€20.00 (Ticket A)": "€20",
+                 "€14 (door €16)": "€14 (door €16)", "from €9,25": "from €9,25", "Donation, min €10": "Donation, min €10",
+                 "Free or donation": "Free or donation", "€5, 8, 12": "€5, 8, 12"}
+        for raw, want in cases.items():
+            self.assertEqual(tidy(raw), (want, False), raw)
+
+    def test_sold_out_and_food(self):
+        self.assertEqual(tidy("Sold out"), (None, True))
+        for raw in ["vegan food is 5 euro", "VEGAN FOOD ON DONATION", "No Voku Open at 9pm"]:
+            self.assertEqual(tidy(raw), (None, False), raw)
 
 
 class Readers(unittest.TestCase):

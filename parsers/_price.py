@@ -63,3 +63,47 @@ def from_text(text):
     if FREE_PHRASE.search(text):
         return "Free"
     return None
+
+
+# ---- one last tidy pass over prices that parsers already wrote (applied once, in build.py) ----
+_STD = re.compile(r"^(Free|Donation|Donation, min €\d+(,\d\d)?|(from |up to )?€\d+(,\d\d)?(-\d+(,\d\d)?)?( \(door €\d+(,\d\d)?\))?)$")
+_NOT_A_PRICE = re.compile(r"vegan|voku|\bopen at\b", re.I)   # Vrankrijk: price lines about the food, not the event
+_DONATION_ONLY = re.compile(r"^(?:on |suggested |sliding scale )?donations?$", re.I)
+
+
+def tidy(p):
+    """Return (price, sold_out). Makes older parser output look like the rest: '€18.00' -> '€18',
+    '€12,50 (vanaf)' -> 'from €12,50', '€10 (presale) | €12 (door)' -> '€10 (door €12)', '€8-12, 18+' -> '€8-12',
+    'donation' -> 'Donation'. 'Sold out' is not a price: the site has its own badge for that, so it becomes a flag.
+    Anything not recognised is left exactly as it was."""
+    if not p:
+        return p, False
+    s = str(p).strip()
+    if re.fullmatch(r"sold ?out|uitverkocht", s, re.I):
+        return None, True
+    if _STD.match(s):
+        return s, False
+    if _NOT_A_PRICE.search(s):
+        return None, False
+    if _DONATION_ONLY.match(s):
+        return "Donation", False
+    s2 = re.sub(r"\s*(?://|,)\s*18\+\s*$", "", s)          # age limit is not part of the price
+    s2 = re.sub(r"\s*\((?:ticket [a-z]|vanaf)\)\s*$", lambda m: " (vanaf)" if "vanaf" in m.group(0) else "", s2, flags=re.I)
+    m = re.fullmatch(r"€\s*Free", s2, re.I)
+    if m:
+        return "Free", False
+    m = re.fullmatch(r"€\s*(\d+(?:[.,]\d+)?)(?:,-)?\s*(\(vanaf\))?", s2)
+    if m:
+        n = float(m.group(1).replace(",", "."))
+        if n == 0:
+            return "Free", False
+        return (("from " if m.group(2) else "") + "€" + _fmt(n)), False
+    m = re.fullmatch(r"€\s*(\d+(?:[.,]\d+)?)(?:,-)?\s*\((?:pre-?sale)\)\s*\|\s*€\s*(\d+(?:[.,]\d+)?)\s*\(door\)", s2, re.I)
+    if m:
+        a, b = (float(x.replace(",", ".")) for x in m.groups())
+        return f"€{_fmt(a)} (door €{_fmt(b)})", False
+    m = re.fullmatch(r"€\s*(\d+(?:[.,]\d+)?)\s*-\s*(\d+(?:[.,]\d+)?)", s2)
+    if m:
+        a, b = (float(x.replace(",", ".")) for x in m.groups())
+        return f"€{_fmt(a)}-{_fmt(b)}", False
+    return (s2 if s2 != s and _STD.match(s2) else s), False

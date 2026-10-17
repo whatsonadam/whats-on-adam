@@ -210,6 +210,18 @@ def collect(today):
             pagetimes.enrich(per, today)
         except Exception as ex:
             print(f"  !! start-time lookup skipped: {ex}")
+    try:   # one consistent look for prices that parsers wrote ("€18.00", "donation", "Sold out" ...)
+        from _price import tidy
+        for evs in per.values():
+            for e in evs:
+                if e.get("p"):
+                    e["p"], sold = tidy(e["p"])
+                    if sold:
+                        e["so"] = True
+                    if not e["p"]:
+                        del e["p"]
+    except Exception as ex:
+        print(f"  !! price tidy skipped: {ex}")
     if not os.environ.get("NO_PAGE_PRICES"):
         try:
             import pageprices
