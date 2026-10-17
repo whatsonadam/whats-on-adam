@@ -261,6 +261,8 @@ def _stager_price(tiers):
     """What a visitor can buy right now: the lowest price among tiers that are not sold out and not group deals.
     All sold out -> None (the site shows no price rather than a price nobody can buy)."""
     ok = [p for name, p, sold in tiers if not sold and not re.search(r"group|groep|\bx\d|\d+x\b", name, re.I)]
+    if ok and all(x == 0 for x in ok):
+        return "Free"     # e.g. 'RSVP [gratis] 0.00'. A free concession next to paid tickets (Stadspas) does not count.
     return _lowest(ok)
 
 

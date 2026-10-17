@@ -134,6 +134,11 @@ class TicketShops(unittest.TestCase):
         self.assertEqual(pp.link_stager("[TICKETS](https://cinetol.stager.co/shop/cinetol-tickets/events/111683253)", "u"),
                          "https://cinetol.stager.co/shop/cinetol-tickets/events/111683253")
 
+    def test_stager_free_and_concession(self):
+        u = "https://cinetol.stager.co/shop/x/events/2"
+        self.assertEqual(pp.read_ticket_page(u, "23/10Fri\nPULSO\nInfo\nRSVP [gratis]\n0.00\n"), "Free")
+        self.assertEqual(pp.read_ticket_page(u, "22/11Sun\nMengelmoes\nInfo\nEarly bird (seated)\n9.25\nTicket\n11.75\nStadpas houders\n0.00\n"), "from €9,25")
+
     def test_stager_listing(self):
         shop = ("RADION Amsterdam b.v. Tickets\nMenu\n16/10Fri23:00\nBAILE TRAMA 4TH ANNIVERSARY\nPhase 1\n17.00\nSold out\n"
                 "Phase 2\n21.00\nSold out\nPhase 3\n24.00\n17/10Sat23:00\nBomBlastic - The Next Chapter\nPhase 3\n32.00\n"
