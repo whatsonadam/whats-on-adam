@@ -352,6 +352,10 @@ async def _fetch_all(urls, budget=None):
                 try:
                     await page.route("**/*", lambda r: r.abort() if r.request.resource_type in ("image", "font", "media") else r.continue_())
                     resp = await page.goto(url, timeout=PAGE_TIMEOUT_MS, wait_until="domcontentloaded")
+                    try:   # ticket shops (Paradiso) redirect a few times before the price shows
+                        await page.wait_for_load_state("networkidle", timeout=10000)
+                    except Exception:
+                        pass
                     await page.wait_for_timeout(2500)
                     ok = bool(resp and resp.status < 400)
                     out[url] = to_md(await page.content()) if ok else None
