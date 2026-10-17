@@ -1004,6 +1004,10 @@
 "p": null,
 "t": "2026-10-16"
 },
+"https://offbeat.amsterdam/event/samizdat-stories-from-the-underground-15": {
+"p": null,
+"t": "2026-10-17"
+},
 "https://offbeat.amsterdam/event/sananda-maitreya": {
 "p": null,
 "t": "2026-10-16"
@@ -2614,6 +2618,11 @@
 "t": "2026-10-17",
 "tk": "https://radionamsterdam.stager.co/shop/default"
 },
+"https://skatecafe.weticket.io/ade-chamos": {
+"p": "from €21",
+"t": "2026-10-17",
+"tk": "https://skatecafe.weticket.io/ade-chamos/shop"
+},
 "https://skatecafe.weticket.io/ade-fstm-w-blasha-allatt-call-super-b2b-ryan-elliott-dj-masda-eris-drew-hannecart-helena-hauff-b2b-quest-mad-miran-rey-colino-1": {
 "p": null,
 "t": "2026-10-17",
@@ -2653,6 +2662,11 @@
 "p": "from €14",
 "t": "2026-10-17",
 "tk": "https://skatecafe.weticket.io/draft-kurashi-winterfest/shop"
+},
+"https://skatecafe.weticket.io/drukwerk-live-w-rooie-jos": {
+"p": "€23,50",
+"t": "2026-10-17",
+"tk": "https://skatecafe.weticket.io/drukwerk-live-w-rooie-jos/shop"
 },
 "https://skatecafe.weticket.io/get-to-it": {
 "p": "from €11",
@@ -3606,6 +3620,11 @@
 "p": "€18",
 "t": "2026-10-17"
 },
+"https://www.cinetol.nl/events/faux-real": {
+"p": null,
+"t": "2026-10-17",
+"tk": "https://cinetol.stager.co/shop/cinetol-tickets/events/111663260"
+},
 "https://www.cinetol.nl/events/fax-friends": {
 "p": "€15",
 "t": "2026-10-17"
@@ -3653,6 +3672,11 @@
 "https://www.cinetol.nl/events/loveth-besamoh-i-love-you-honey-bunny": {
 "p": "€18",
 "t": "2026-10-17"
+},
+"https://www.cinetol.nl/events/lynnic-itsarius": {
+"p": null,
+"t": "2026-10-17",
+"tk": "https://cinetol.stager.co/shop/cinetol-tickets/events/111681392"
 },
 "https://www.cinetol.nl/events/lynnic-itsarius-2": {
 "p": "€23",
@@ -3714,6 +3738,11 @@
 "p": "€18",
 "t": "2026-10-16"
 },
+"https://www.cinetol.nl/events/shaking-hand": {
+"p": null,
+"t": "2026-10-17",
+"tk": "https://cinetol.stager.co/shop/cinetol-tickets/events/111636630"
+},
 "https://www.cinetol.nl/events/sign-this-3": {
 "p": "€13,75",
 "t": "2026-10-17"
@@ -3757,6 +3786,11 @@
 "https://www.cinetol.nl/events/will-samson": {
 "p": "€18",
 "t": "2026-10-17"
+},
+"https://www.cinetol.nl/events/wrest": {
+"p": null,
+"t": "2026-10-17",
+"tk": "https://cinetol.stager.co/shop/cinetol-tickets/events/111622840"
 },
 "https://www.cinetol.nl/events/yulya-divakova-slowblink": {
 "p": "€11,75",
@@ -6318,6 +6352,10 @@
 "p": "from €18,40",
 "t": "2026-10-17"
 },
+"https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/909-x-loveland": {
+"p": null,
+"t": "2026-10-17"
+},
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/aantafel": {
 "p": "from €10",
 "t": "2026-10-17"
@@ -6834,6 +6872,10 @@
 "p": null,
 "t": "2026-10-16"
 },
+"https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/gashouder-presents-franky-rizardo-flow": {
+"p": null,
+"t": "2026-10-17"
+},
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/gashouder-presents-i-hate-models-and-nico-moreno-invite": {
 "p": null,
 "t": "2026-10-16"
@@ -6954,6 +6996,14 @@
 "p": null,
 "t": "2026-10-16"
 },
+"https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/intercell-x-philippa-pacho-invites-by-day": {
+"p": null,
+"t": "2026-10-17"
+},
+"https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/intercell-x-skin-on-skin-invites-by-day": {
+"p": null,
+"t": "2026-10-17"
+},
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/into-the-woods-ade-festival-friday": {
 "p": null,
 "t": "2026-10-16"
@@ -7028,6 +7078,10 @@
 },
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/kiss-all-hipsters": {
 "p": "from €7",
+"t": "2026-10-17"
+},
+"https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/komm-schon-alter-ade-daytime-saturday": {
+"p": null,
 "t": "2026-10-17"
 },
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/komm-schon-alter-daytime-friday": {
@@ -7138,6 +7192,10 @@
 "p": null,
 "t": "2026-10-16"
 },
+"https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/mahmut-orhan-and-friends-x-loveland-ade-2026": {
+"p": null,
+"t": "2026-10-17"
+},
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/malugi-ade": {
 "p": null,
 "t": "2026-10-16"
@@ -7161,6 +7219,10 @@
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/masonics": {
 "p": "from €31",
 "t": "2026-10-16"
+},
+"https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/mau-p-presents-baddest-behaviour-x-loveland-ade-2026": {
+"p": null,
+"t": "2026-10-17"
 },
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/meduza": {
 "p": "from €34,50",
@@ -7322,6 +7384,10 @@
 "p": null,
 "t": "2026-10-16"
 },
+"https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/paul-kalkbrenner-live-x-loveland": {
+"p": null,
+"t": "2026-10-17"
+},
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/paul-van-dyk": {
 "p": "from €39,50",
 "t": "2026-10-16"
@@ -7394,6 +7460,10 @@
 "p": "from €15",
 "t": "2026-10-17"
 },
+"https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/rampage": {
+"p": null,
+"t": "2026-10-17"
+},
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/rara-avis": {
 "p": null,
 "t": "2026-10-16"
@@ -7433,6 +7503,10 @@
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/rumours-only-x-lotus-lab-ade-special": {
 "p": null,
 "t": "2026-10-16"
+},
+"https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/rush-hour": {
+"p": null,
+"t": "2026-10-17"
 },
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/s1n3rgy-collective-presenteert-special-hard-techno-rave": {
 "p": null,
@@ -7550,6 +7624,14 @@
 "p": null,
 "t": "2026-10-16"
 },
+"https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/the-loft-alex-wann-b2b-rivo-ameme-b2b-syreeta": {
+"p": null,
+"t": "2026-10-17"
+},
+"https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/the-loft-presents-franky-rizardo": {
+"p": null,
+"t": "2026-10-17"
+},
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/the-loft-presents-hunee-b2b-stella-zekri-b2b-suze-ijo": {
 "p": null,
 "t": "2026-10-16"
@@ -7585,6 +7667,10 @@
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/thuishaven-ade-saturday-night-afterjam": {
 "p": "from €19,50",
 "t": "2026-10-16"
+},
+"https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/thuishaven-ade-sunday-polyamor-presents-davyboi-invites": {
+"p": null,
+"t": "2026-10-17"
 },
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/todd-terry-and-friends-ade-special-2026": {
 "p": null,
@@ -7637,6 +7723,10 @@
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/vbx": {
 "p": "from €37",
 "t": "2026-10-16"
+},
+"https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/vbx-bret-ade-2410": {
+"p": null,
+"t": "2026-10-17"
 },
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/vbx-lofi-ade-2310": {
 "p": null,
@@ -8078,6 +8168,10 @@
 "p": null,
 "t": "2026-10-17"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/deborah-levy-brainwash-festival-opening-night": {
+"p": null,
+"t": "2026-10-17"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/derek-mitchell": {
 "p": "from €22,50",
 "t": "2026-10-16"
@@ -8338,6 +8432,10 @@
 "p": null,
 "t": "2026-10-17"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/najib-en-roue-alles-is-comedy": {
+"p": null,
+"t": "2026-10-17"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/nhung-dam-legende-van-de-witte-slang": {
 "p": "from €16",
 "t": "2026-10-17"
@@ -8377,6 +8475,10 @@
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/piet-van-eeghen-de-lieve-vrede-premiere": {
 "p": "from €14",
 "t": "2026-10-16"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/pieter-derks-ja-leuk": {
+"p": null,
+"t": "2026-10-17"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/placebo-impro-comedy": {
 "p": "from €10",
