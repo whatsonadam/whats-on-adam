@@ -109,6 +109,12 @@
 "q": "name",
 "area": "Zuidoost"
 },
+"AI House": {
+"lat": 52.29113,
+"lon": 4.72039,
+"q": "name",
+"area": null
+},
 "ANOTHER ROOM": {
 "lat": 52.38385,
 "lon": 4.77964,
@@ -144,6 +150,12 @@
 "Academie van Bouwkunst Amsterdam": {
 "lat": 52.36754,
 "lon": 4.9032,
+"q": "name",
+"area": "Centrum"
+},
+"Adyen": {
+"lat": 52.37137,
+"lon": 4.89328,
 "q": "name",
 "area": "Centrum"
 },
@@ -315,6 +327,12 @@
 "skip": true,
 "q": "not found"
 },
+"Angolo Vinoso": {
+"lat": 52.37881,
+"lon": 4.87328,
+"q": "name",
+"area": "West"
+},
 "Annie": {
 "lat": 52.32151,
 "lon": 4.97014,
@@ -411,6 +429,10 @@
 "q": "name",
 "area": "West"
 },
+"B. Amsterdam": {
+"skip": true,
+"q": "not found"
+},
 "BASEMENT": {
 "lat": 52.36443,
 "lon": 4.89793,
@@ -454,6 +476,10 @@
 "lon": 4.91271,
 "q": "name",
 "area": "Oost"
+},
+"Badhus Sauna - West": {
+"skip": true,
+"q": "not found"
 },
 "Baggerbeest": {
 "lat": 52.37315,
@@ -731,6 +757,10 @@
 "q": "name",
 "area": "West"
 },
+"BounceSpace Coffee & Coworking": {
+"skip": true,
+"q": "not found"
+},
 "Bret": {
 "lat": 52.38985,
 "lon": 4.83676,
@@ -788,6 +818,12 @@
 "COKO Space": {
 "skip": true,
 "q": "not found"
+},
+"CRCL PARK": {
+"lat": 52.35445,
+"lon": 4.95721,
+"q": "name",
+"area": "Oost"
 },
 "CREA": {
 "lat": 52.3632,
@@ -945,6 +981,12 @@
 "q": "name",
 "area": "Oost"
 },
+"CanDance Studios": {
+"lat": 52.39283,
+"lon": 4.8511,
+"q": "name",
+"area": "West"
+},
 "Canvas": {
 "lat": 52.35386,
 "lon": 4.91185,
@@ -1032,6 +1074,10 @@
 "area": "Zuid"
 },
 "Cinetol** // 20:00 // € €23,00\n\n## @\n\nLine up: @\n\nTickets](/agenda/22946/)\n\n---\n\n[**Plein Theater": {
+"skip": true,
+"q": "not found"
+},
+"Clandestino": {
 "skip": true,
 "q": "not found"
 },
@@ -1188,6 +1234,12 @@
 "Cruise Control Studios": {
 "skip": true,
 "q": "not found"
+},
+"Cut Throat": {
+"lat": 52.35661,
+"lon": 4.89199,
+"q": "name",
+"area": "Zuid"
 },
 "Cut Throat Amsterdam": {
 "lat": 52.35661,
@@ -1636,6 +1688,12 @@
 "q": "name",
 "area": "Noord"
 },
+"Felix Meritis": {
+"lat": 52.36999,
+"lon": 4.88425,
+"q": "name",
+"area": "Centrum"
+},
 "Filmhallen": {
 "lat": 52.36682,
 "lon": 4.8686,
@@ -2014,6 +2072,12 @@
 "q": "name",
 "area": null
 },
+"Hima Icebaths": {
+"lat": 52.35326,
+"lon": 4.89339,
+"q": "name",
+"area": "Zuid"
+},
 "Hoeve Ravenstein": {
 "skip": true,
 "q": "not found"
@@ -2238,6 +2302,10 @@
 "q": "name",
 "area": "West"
 },
+"Keizersgracht 127": {
+"skip": true,
+"q": "not found"
+},
 "Keizersgracht 374": {
 "skip": true,
 "q": "not found"
@@ -2366,6 +2434,12 @@
 "q": "name",
 "area": "Oost"
 },
+"Liev Coffee & Pastry": {
+"lat": 52.35614,
+"lon": 4.89348,
+"q": "name",
+"area": "Zuid"
+},
 "Likeminds": {
 "lat": 52.38239,
 "lon": 4.91973,
@@ -2437,6 +2511,12 @@
 "lon": 4.84144,
 "q": "name",
 "area": "Nieuw-West"
+},
+"MIDI flowers": {
+"lat": 52.36872,
+"lon": 4.88709,
+"q": "name",
+"area": "Centrum"
 },
 "MKZ (Binnenpret)": {
 "lat": 52.3537,
@@ -2561,6 +2641,12 @@
 "lon": 4.86052,
 "q": "name",
 "area": "West"
+},
+"Miuz Gelato De Pijp": {
+"lat": 52.3578,
+"lon": 4.89068,
+"q": "name",
+"area": "Zuid"
 },
 "Moco Museum": {
 "lat": 52.35872,
@@ -2751,6 +2837,12 @@
 "Nido": {
 "skip": true,
 "q": "not found"
+},
+"Nido Cocktail bar": {
+"lat": 52.36834,
+"lon": 4.89058,
+"q": "name",
+"area": "Centrum"
 },
 "Nido Cocktailbar": {
 "lat": 52.36383,
@@ -3242,6 +3334,12 @@
 "q": "addr",
 "area": "Centrum"
 },
+"Rebel Wines": {
+"lat": 52.34599,
+"lon": 4.86467,
+"q": "name",
+"area": "Zuid"
+},
 "Rederij de Nederlanden - Multatuli": {
 "skip": true,
 "q": "not found"
@@ -3257,6 +3355,10 @@
 "lon": 4.89686,
 "q": "name",
 "area": "Centrum"
+},
+"Reguliersbreestraat 31": {
+"skip": true,
+"q": "not found"
 },
 "Restaurant Elixer": {
 "lat": 52.35952,
@@ -4207,6 +4309,10 @@
 "q": "name",
 "area": "Zuidoost"
 },
+"Uber Amsterdam": {
+"skip": true,
+"q": "not found"
+},
 "Uilenburgersjoel": {
 "skip": true,
 "q": "not found"
@@ -4242,6 +4348,12 @@
 "lon": 5.0435,
 "q": "name",
 "area": "Weesp"
+},
+"Van Limburg Stirumplein 1": {
+"lat": 52.38436,
+"lon": 4.87504,
+"q": "name",
+"area": "West"
 },
 "Van de Werf": {
 "lat": 52.40136,
@@ -4538,6 +4650,12 @@
 "area": "Zuidoost"
 },
 "Zoku": {
+"lat": 52.36394,
+"lon": 4.90677,
+"q": "name",
+"area": "Centrum"
+},
+"Zoku Amsterdam": {
 "lat": 52.36394,
 "lon": 4.90677,
 "q": "name",
