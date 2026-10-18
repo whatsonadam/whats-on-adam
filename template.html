@@ -58,9 +58,10 @@ a{color:inherit}
 .dayhead h2{margin:0;font:400 36px var(--display);text-transform:uppercase}
 .hr{display:flex;gap:10px;align-items:center;margin-left:auto;white-space:nowrap}
 .hr .n{font-size:13px;color:#444}
-.clr{font:800 12px var(--body);text-transform:uppercase;letter-spacing:.05em;padding:6px 10px;border:var(--bw) solid var(--ink);background:var(--ink);color:#fff;cursor:pointer;border-radius:0;white-space:nowrap}
+.clr{font:800 12px var(--body);text-transform:uppercase;letter-spacing:.05em;padding:6px 10px;border:var(--bw) solid var(--ink);background:var(--hred);color:#fff;cursor:pointer;border-radius:0;white-space:nowrap}
 .clr[hidden]{display:none}
-.clr b{color:var(--yel);font-weight:800;margin-left:4px}
+.clr b{color:#fff;font-weight:800;margin-left:4px;padding-left:6px;border-left:1px solid rgba(255,255,255,.6)}
+.clrs{display:block;margin:10px auto 0;font:700 13px var(--body);color:var(--ink);background:none;border:0;padding:0;text-decoration:underline;cursor:pointer}
 .hr input[type=search]{width:170px;border:var(--bw) solid var(--ink);padding:5px 9px;font:inherit;background:#fff;border-radius:0}
 .grp{font:400 22px var(--display);text-transform:uppercase;margin:10px 0 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .grp span{background:#C9C3BA;color:#3b3835;font:700 12px var(--body);letter-spacing:.04em;padding:2px 8px;text-transform:none}
@@ -608,7 +609,7 @@ function renderList(){
   const by={}; evs.forEach(e=>(by[key(e)]=by[key(e)]||[]).push(e));
   let html="";
   for(const k of Object.keys(by).sort()){ const d=parse(k); html+=grpH(`${DW[d.getDay()]} ${d.getDate()} ${MON[d.getMonth()]}`,by[k].length)+`<div class="evl">${by[k].map(rowEv).join("")}</div>`; }
-  if(!evs.length) html=`<div class="empty">Nothing coming up in the next 4 weeks. Try clearing the search or switching some filters back on.</div>`;
+  if(!evs.length) html=`<div class="empty">Nothing coming up in the next 4 weeks. Try clearing the search or switching some filters back on.${clrS("ag")}</div>`;
   $("#aglist").innerHTML=html;
 }
 let sliding=false;
@@ -655,7 +656,7 @@ function render(){
   const by={}; shown.forEach(e=>(by[todOf(e)]=by[todOf(e)]||[]).push(e));
   let html="";
   for(const [k,label,hours] of GROUPS){ const list=by[k]; if(list?.length) html+=grpH(label,hours,list.length)+`<div class="evl">${list.map(rowEv).join("")}</div>`; }
-  if(!shown.length) html=`<div class="empty">Nothing matches on this day. Try clearing the search or switching some filters back on.</div>`;
+  if(!shown.length) html=`<div class="empty">Nothing matches on this day. Try clearing the search or switching some filters back on.${clrS("ag")}</div>`;
   $("#aglist").innerHTML=html;
 }
 let qTimer; $("#q").addEventListener("input",e=>{clearTimeout(qTimer);qTimer=setTimeout(()=>{state.q=e.target.value.trim();render();},150);});
@@ -724,7 +725,7 @@ function renderAde(){
   for(const [k,label,hours] of [["daytime","Daytime","until 17:00"],["evening","Evening","17:00 – 22:00"],["late","Late night","from 22:00"],["allday","All day",""],["notime","Time to be confirmed",""]]){
     if(by[k]?.length) html+=grpH(label,hours,by[k].length)+`<div class="evl">${by[k].map(rowEv).join("")}</div>`;
   }
-  $("#adelist").innerHTML=html||'<div class="empty">Nothing matches.</div>';
+  $("#adelist").innerHTML=html||`<div class="empty">Nothing matches.${clrS("ade")}</div>`;
   scrollDay("#adedays");
 }
 $("#adeq").addEventListener("input",e=>{ adeState.q=e.target.value.trim(); renderAde(); });
@@ -837,7 +838,7 @@ function renderCin(){
   lastFilms=new Map(arr.map(f=>[f.k,f]));
   const picks=cinPicks(arr,weekCount);
   $("#cinpicks").innerHTML=picks.length?`<div class="pickbox"><h3>Top picks</h3><div class="picks">${picks.map(({label,f})=>`<div class="pick"><span class="why">${esc(label)}</span><h4>${esc(f.t)}</h4><p>${f.s.slice(0,3).map(e=>`<a href="${esc(e.u||"#")}" target="_blank" rel="noopener">${e.h||"TBC"} ${esc((e.v||"").split(" · ")[0])}</a>`).join(" · ")}</p></div>`).join("")}</div></div>`:"";
-  $("#cinlist").innerHTML=`<div class="films">${arr.map(filmCard).join("")||'<div class="empty">Nothing matches on this day. Try another day or clear the filters.</div>'}</div>`;
+  $("#cinlist").innerHTML=`<div class="films">${arr.map(filmCard).join("")||`<div class="empty">Nothing matches on this day. Try another day or clear the filters.${clrS("cin")}</div>`}</div>`;
   scrollDay("#cindays"); positionThumbs();
 }
 let cinTimer; $("#cinq").addEventListener("input",e=>{ clearTimeout(cinTimer); cinTimer=setTimeout(()=>{ cinState.q=e.target.value.trim(); renderCin(); },200); });
@@ -888,7 +889,7 @@ function renderExh(){
     $("#exlist").innerHTML=`<div id="exmap" class="mapbox"></div><div class="maphint">${all.filter(e=>e.la).length} of ${all.length} exhibitions have a known location. Tap a pin for what's on there.</div>`;
     drawMap(all,"exmap"); return;
   }
-  $("#exlist").innerHTML = n ? grp("Ending within two weeks",ending,false)+grp("Running",later,false)+grp("Opening soon",opening,true) : `<div class="empty">No exhibitions match.</div>`;
+  $("#exlist").innerHTML = n ? grp("Ending within two weeks",ending,false)+grp("Running",later,false)+grp("Opening soon",opening,true) : `<div class="empty">No exhibitions match.${clrS("ex")}</div>`;
 }
 function renderMine(){
   const t0=parse(todayIso), soon=new Date(t0.getTime()+14*864e5);
@@ -927,6 +928,7 @@ function clrCount(tab){
   }
   return n;
 }
+function clrS(tab){ return clrCount(tab) ? `<button type="button" class="clrs" data-a="clr.${tab}">Clear search and filters</button>` : ""; }
 function updateClr(tab){
   const b=$("#"+tab+"clr"); if(!b) return;
   const n=clrCount(tab); b.hidden=!n; b.innerHTML=n?`Clear filters <b>${n}</b>`:"Clear filters";
