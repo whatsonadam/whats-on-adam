@@ -645,6 +645,10 @@
 "q": "name",
 "area": "Zuidoost"
 },
+"Bilderdijkstraat 46": {
+"skip": true,
+"q": "not found"
+},
 "Bimhuis": {
 "lat": 52.37797,
 "lon": 4.91289,
@@ -851,6 +855,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Cafe De Kashmir Lounge": {
+"lat": 52.36842,
+"lon": 4.86707,
+"q": "name",
+"area": "West"
+},
 "Cafe De Leven": {
 "lat": 52.39147,
 "lon": 4.87834,
@@ -986,6 +996,12 @@
 "lon": 4.8511,
 "q": "name",
 "area": "West"
+},
+"Canal Cruise Amsterdam - Highlights": {
+"lat": 52.37868,
+"lon": 4.89717,
+"q": "name",
+"area": "Centrum"
 },
 "Canvas": {
 "lat": 52.35386,
@@ -2289,6 +2305,12 @@
 "KIT Royal Tropical Institute": {
 "skip": true,
 "q": "not found"
+},
+"KOTA cafe": {
+"lat": 52.37827,
+"lon": 4.89534,
+"q": "name",
+"area": "Centrum"
 },
 "Kaap Amsterdam": {
 "lat": 52.36979,

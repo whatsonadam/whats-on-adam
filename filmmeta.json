@@ -640,6 +640,12 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"best of kaboom animation festival": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-18",
+"v": 4
+},
 "between revolutions": {
 "dr": "Vlad Petri",
 "du": 69,
@@ -2282,6 +2288,24 @@
 "v": 4,
 "yr": 2026
 },
+"europa trilogy epidemic": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-18",
+"v": 4
+},
+"europa trilogy europa zentropa": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-18",
+"v": 4
+},
+"europa trilogy the element of crime": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-18",
+"v": 4
+},
 "european outdoor film tour 26 27 moving adventures": {
 "tm5": true,
 "tmdb": true,
@@ -3360,6 +3384,12 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4
+},
+"humans of film festival sixth edition": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-18",
 "v": 4
 },
 "hundreds of beavers": {
@@ -5258,6 +5288,12 @@
 "v": 3,
 "yr": 2025
 },
+"les feuilles mortes 2 memorias del subdesarrollo": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-18",
+"v": 4
+},
 "les feuilles mortes l amour à la mer": {
 "tm4": true,
 "tmdb": true,
@@ -5912,6 +5948,12 @@
 "v": 4,
 "yr": 2025
 },
+"mr dimitris and mrs dimitroula lesvia": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-18",
+"v": 4
+},
 "ms 45": {
 "dr": "Abel Ferrara",
 "du": 81,
@@ -6488,6 +6530,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2025
+},
+"palestine cinema days around the world with hasan in gaza": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-18",
+"v": 4
 },
 "palestine cinema days the dream 1987": {
 "tm4": true,
@@ -7551,6 +7599,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1952
+},
+"six short films for the palestine cinema days around the world": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-18",
+"v": 4
 },
 "sleepy hollow": {
 "dr": "Tim Burton",
@@ -10114,6 +10168,16 @@
 "tried": "2026-10-16",
 "v": 4,
 "yr": 2026
+},
+"working progress filmmakers community event": {
+"dr": "Diversen",
+"du": 90,
+"lg": [],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-18",
+"v": 4,
+"yr": 2025
 },
 "x the man with the x ray eyes": {
 "dr": "Roger Corman",

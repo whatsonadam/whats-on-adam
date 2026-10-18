@@ -49,6 +49,11 @@
 "eh": "15:00",
 "chk": "2026-10-14"
 },
+"https://hipsy.nl/event/225986-morning-ecstatic-dance-potluck-tobi": {
+"h": "10:00",
+"eh": "15:00",
+"chk": "2026-10-18"
+},
 "https://hipsy.nl/event/225989-ecstatic-dance-yona": {
 "h": "18:00",
 "eh": "22:00",
@@ -77,6 +82,206 @@
 "https://hipsy.nl/event/255377-ecstatic-dance-samaya": {
 "h": "18:00",
 "eh": "22:00",
+"chk": "2026-10-18"
+},
+"https://marineterrein.nl/agenda/afrogrooves": {
+"h": "20:00",
+"chk": "2026-10-18"
+},
+"https://marineterrein.nl/agenda/bioblitz-7-verborgen-schimmelnetwerken": {
+"h": "16:00",
+"chk": "2026-10-18"
+},
+"https://marineterrein.nl/agenda/de-andere-quiz-2": {
+"h": "20:00",
+"chk": "2026-10-18"
+},
+"https://marineterrein.nl/agenda/de-weerbare-stad-wie-wordt-er-geholpen-in-tijden-van-nood": {
+"h": "17:45",
+"chk": "2026-10-18"
+},
+"https://marineterrein.nl/agenda/klankconcerten-met-de-gongluider-van-amsterdam": {
+"h": "18:00",
+"eh": "19:00",
+"chk": "2026-10-18"
+},
+"https://marineterrein.nl/agenda/open-dag-codam-3": {
+"h": "12:30",
+"eh": "15:00",
+"chk": "2026-10-18"
+},
+"https://marineterrein.nl/agenda/samen-zingen-in-de-kat": {
+"h": "20:00",
+"eh": "21:00",
+"chk": "2026-10-18"
+},
+"https://marineterrein.nl/agenda/terugkomdag-burgerreservisten-met-buurtpresentatie": {
+"none": true,
+"chk": "2026-10-18"
+},
+"https://marineterrein.nl/agenda/wekelijkse-kledingruil-in-studio-de-kat-2": {
+"h": "12:00",
+"eh": "17:00",
+"chk": "2026-10-18"
+},
+"https://parallel.am/programme/antidoto-ade": {
+"h": "17:00",
+"eh": "23:00",
+"chk": "2026-10-18"
+},
+"https://parallel.am/programme/bambii-ade": {
+"h": "19:00",
+"chk": "2026-10-18"
+},
+"https://parallel.am/programme/basshall-presents-kybba": {
+"none": true,
+"chk": "2026-10-18"
+},
+"https://parallel.am/programme/cultur-fm": {
+"none": true,
+"chk": "2026-10-18"
+},
+"https://parallel.am/programme/descendants-ade-3": {
+"none": true,
+"chk": "2026-10-18"
+},
+"https://parallel.am/programme/eastern-margins-natural-mind-ade": {
+"h": "20:00",
+"eh": "01:00",
+"chk": "2026-10-18"
+},
+"https://parallel.am/programme/fi-di-gyal-dem": {
+"none": true,
+"chk": "2026-10-18"
+},
+"https://parallel.am/programme/gia-fu-ade": {
+"h": "17:00",
+"eh": "22:00",
+"chk": "2026-10-18"
+},
+"https://parallel.am/programme/hamdi": {
+"none": true,
+"chk": "2026-10-18"
+},
+"https://parallel.am/programme/jazzy": {
+"none": true,
+"chk": "2026-10-18"
+},
+"https://parallel.am/programme/modus-ade-2": {
+"none": true,
+"chk": "2026-10-18"
+},
+"https://parallel.am/programme/nosaj-thing-presents-continua": {
+"none": true,
+"chk": "2026-10-18"
+},
+"https://parallel.am/programme/pornceptual-7": {
+"none": true,
+"chk": "2026-10-18"
+},
+"https://parallel.am/programme/pornceptual-8": {
+"h": "22:00",
+"eh": "07:00",
+"chk": "2026-10-18"
+},
+"https://parallel.am/programme/rooted-x-striptopia": {
+"none": true,
+"chk": "2026-10-18"
+},
+"https://parallel.am/programme/scientist": {
+"h": "20:00",
+"chk": "2026-10-18"
+},
+"https://parallel.am/programme/the-bausa": {
+"none": true,
+"chk": "2026-10-18"
+},
+"https://parallel.am/programme/theta-session": {
+"h": "07:00",
+"eh": "12:00",
+"chk": "2026-10-18"
+},
+"https://parallel.am/programme/ziongate-x-moonshine": {
+"none": true,
+"chk": "2026-10-18"
+},
+"https://radion.amsterdam/program/aura-ade-special-w-hayes-collective/": {
+"h": "23:00",
+"eh": "08:00",
+"chk": "2026-10-18"
+},
+"https://radion.amsterdam/program/beyond-the-dance-floor-ade-edition-2/": {
+"h": "19:30",
+"eh": "23:00",
+"chk": "2026-10-18"
+},
+"https://radion.amsterdam/program/breakfast-club-ade-runners-high/": {
+"h": "09:00",
+"eh": "19:00",
+"chk": "2026-10-18"
+},
+"https://radion.amsterdam/program/breakfast-club-ade-second-wind/": {
+"h": "09:00",
+"eh": "19:00",
+"chk": "2026-10-18"
+},
+"https://radion.amsterdam/program/club-night/": {
+"h": "23:00",
+"eh": "07:00",
+"chk": "2026-10-18"
+},
+"https://radion.amsterdam/program/de-reunie/": {
+"h": "23:00",
+"eh": "07:00",
+"chk": "2026-10-18"
+},
+"https://radion.amsterdam/program/dj-bone-presents-further-x-homeless-homies-ade-2026/": {
+"h": "11:00",
+"eh": "22:00",
+"chk": "2026-10-18"
+},
+"https://radion.amsterdam/program/frenzy-7yrs-wkndr/": {
+"h": "23:00",
+"chk": "2026-10-18"
+},
+"https://radion.amsterdam/program/frenzy-x-raw-ade/": {
+"h": "23:00",
+"eh": "07:00",
+"chk": "2026-10-18"
+},
+"https://radion.amsterdam/program/labyrinth-1-year-anniversary-ade/": {
+"h": "23:00",
+"eh": "09:00",
+"chk": "2026-10-18"
+},
+"https://radion.amsterdam/program/labyrinth-weekend/": {
+"h": "23:00",
+"eh": "09:00",
+"chk": "2026-10-18"
+},
+"https://radion.amsterdam/program/lnr-ade-edition/": {
+"h": "23:00",
+"eh": "07:00",
+"chk": "2026-10-18"
+},
+"https://radion.amsterdam/program/radion-invites-fever-dream-x-patchwork-family/": {
+"h": "23:00",
+"eh": "07:00",
+"chk": "2026-10-18"
+},
+"https://radion.amsterdam/program/radion-invites-tssrct/": {
+"h": "23:00",
+"eh": "07:00",
+"chk": "2026-10-18"
+},
+"https://radion.amsterdam/program/vault-sesions-x-key-vinyl-ade/": {
+"h": "23:00",
+"eh": "15:00",
+"chk": "2026-10-18"
+},
+"https://radion.amsterdam/program/vault-sessions-radion-rodhad-anl/": {
+"h": "23:00",
+"eh": "07:00",
 "chk": "2026-10-18"
 },
 "https://tolhuistuin.nl/en/events/30-jaar-excelsior-recordings": {
@@ -759,6 +964,97 @@
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://www.amsterdammuseum.nl/en/exhibition/meesterwerk-amsterdam/276334": {
+"none": true,
+"chk": "2026-10-18"
+},
+"https://www.amsterdammuseum.nl/en/public-program/100-jaar-tour-aim/274841": {
+"h": "15:30",
+"eh": "16:30",
+"chk": "2026-10-18"
+},
+"https://www.amsterdammuseum.nl/en/public-program/100-jaar-tour-hwh/274612": {
+"h": "15:00",
+"eh": "16:00",
+"chk": "2026-10-18"
+},
+"https://www.amsterdammuseum.nl/en/public-program/ade-wie-bewaart-de-nacht/290052": {
+"h": "07:30",
+"chk": "2026-10-18"
+},
+"https://www.amsterdammuseum.nl/en/public-program/amsterdam-museum-trakteert/275740": {
+"h": "12:00",
+"eh": "15:00",
+"chk": "2026-10-18"
+},
+"https://www.amsterdammuseum.nl/en/public-program/amsterdam-museum-x-harpert-michielsen/290351": {
+"h": "02:45",
+"eh": "05:45",
+"chk": "2026-10-18"
+},
+"https://www.amsterdammuseum.nl/en/public-program/collectie-polonaise-show/292077": {
+"h": "20:00",
+"eh": "22:45",
+"chk": "2026-10-18"
+},
+"https://www.amsterdammuseum.nl/en/public-program/de-conservator-vertelt/290099": {
+"h": "03:00",
+"eh": "04:00",
+"chk": "2026-10-18"
+},
+"https://www.amsterdammuseum.nl/en/public-program/de-sint-nikolaasavond/291626": {
+"h": "17:00",
+"chk": "2026-10-18"
+},
+"https://www.amsterdammuseum.nl/en/public-program/depot-tour/276835": {
+"h": "14:00",
+"eh": "16:30",
+"chk": "2026-10-18"
+},
+"https://www.amsterdammuseum.nl/en/public-program/in-conversation-robin-de-puy/298861": {
+"h": "19:30",
+"eh": "21:30",
+"chk": "2026-10-18"
+},
+"https://www.amsterdammuseum.nl/en/public-program/museumnacht-bij-huis-willet-holthuysen/240561": {
+"none": true,
+"chk": "2026-10-18"
+},
+"https://www.amsterdammuseum.nl/en/public-program/museumnacht-in-amsterdam-in-motion/239324": {
+"none": true,
+"chk": "2026-10-18"
+},
+"https://www.amsterdammuseum.nl/en/public-program/oktober-co-creatie/281432": {
+"none": true,
+"chk": "2026-10-18"
+},
+"https://www.amsterdammuseum.nl/en/public-program/open-huis-verjaardag/290118": {
+"none": true,
+"chk": "2026-10-18"
+},
+"https://www.amsterdammuseum.nl/en/public-program/rondleiding-stadsschouwburg/290728": {
+"h": "03:00",
+"chk": "2026-10-18"
+},
+"https://www.amsterdammuseum.nl/en/public-program/samen-jarig/275778": {
+"h": "13:30",
+"eh": "16:30",
+"chk": "2026-10-18"
+},
+"https://www.amsterdammuseum.nl/en/public-program/slot-symposium/292122": {
+"none": true,
+"chk": "2026-10-18"
+},
+"https://www.amsterdammuseum.nl/en/public-program/stadswandeling-museumstukken-in-de-stad/281754": {
+"h": "15:00",
+"eh": "16:15",
+"chk": "2026-10-18"
+},
+"https://www.amsterdammuseum.nl/en/public-program/the-art-cafe-workshops/275890": {
+"h": "14:00",
+"eh": "16:00",
+"chk": "2026-10-18"
+},
 "https://www.cinetol.nl/events/abel-ghekiere": {
 "h": "20:00",
 "chk": "2026-10-11"
@@ -998,6 +1294,31 @@
 "https://www.cinetol.nl/events/zaya-sabrina": {
 "h": "20:00",
 "chk": "2026-10-11"
+},
+"https://www.dehallen-amsterdam.nl/en/agenda/black-arts-culture-day": {
+"h": "13:00",
+"eh": "17:00",
+"chk": "2026-10-18"
+},
+"https://www.dehallen-amsterdam.nl/en/agenda/het-danspaleis-okt": {
+"h": "14:00",
+"eh": "16:00",
+"chk": "2026-10-18"
+},
+"https://www.dehallen-amsterdam.nl/en/agenda/maak-het-zelf---festival-duurzame-thuismarkt": {
+"h": "12:00",
+"eh": "16:00",
+"chk": "2026-10-18"
+},
+"https://www.dehallen-amsterdam.nl/en/agenda/queer-tattoo-fest": {
+"h": "11:00",
+"eh": "20:00",
+"chk": "2026-10-18"
+},
+"https://www.dehallen-amsterdam.nl/en/agenda/vinylmarkt-the-vinyl-countdown-okt": {
+"h": "11:00",
+"eh": "17:00",
+"chk": "2026-10-18"
 },
 "https://www.iamsterdam.com/uit/agenda/attracties-en-bezienswaardigheden/tours/workshop-parfum-maken": {
 "dates": {
