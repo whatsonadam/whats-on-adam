@@ -548,7 +548,7 @@ const wantLabel = on => on ? "✓ On my list" : "+ Want to see";
 
 /* ---------- Event rows ---------- */
 function metaLine(e){
-  const bits=[e.v, e.ar, e.p||(state.price!==null?"no price":"")].filter(Boolean).map(esc);
+  const bits=[e.v, e.ar, e.p||(state.price!==null?"No price":"")].filter(Boolean).map(esc);
   return bits.join(" · ") + (e.fest?`<span class="fest">Part of ${esc(e.fest)}</span>`:"") + (e.nl?'<span class="nl" title="Looks Dutch-language">NL</span>':"");
 }
 function rowEv(e){
