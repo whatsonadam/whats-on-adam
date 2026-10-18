@@ -12,7 +12,7 @@ import datetime, html as _html, json, os, re, subprocess, time
 HERE = os.path.dirname(os.path.abspath(__file__))
 CACHE = os.path.join(HERE, "times.json")
 UA = "whatsonadam-agenda (non-commercial hobby site; github.com/whatsonadam/whats-on-adam)"
-SOURCES = ("tolhuistuin", "cinetol", "iamsterdam", "odessa")
+SOURCES = ("tolhuistuin", "cinetol", "iamsterdam", "odessa", "marineterrein", "amsterdammuseum", "parallel", "radion", "dehallen")
 MAX_FETCH = int(os.environ.get("PAGE_TIMES_MAX", "300"))
 RETRY_AFTER_DAYS = 7
 HM = re.compile(r"\b([01]?\d|2[0-3]):([0-5]\d)\b")
@@ -103,7 +103,90 @@ def read_odessa(page, today):
     return None
 
 
-READERS = {"tolhuistuin": read_tolhuistuin, "cinetol": read_cinetol, "iamsterdam": read_iamsterdam, "odessa": read_odessa}
+# --- sources that list only a date; the start time sits on the event page -------------------------
+T = r"(\d{1,2})[:.](\d{2})(?:\s*([ap]m))?"
+RANGE = re.compile(rf"{T}\s*(?:-|\u2013|\u2014|tot|to|until)\s*{T}", re.I)
+ONE = re.compile(rf"(?<![\d:.])(?:[01]?\d|2[0-3])[:.][0-5]\d(?!\d)(?:\s*[ap]m)?|(?<!\d)\d{{1,2}}\s*[ap]m", re.I)
+
+
+def _t(h, m, ap=None):
+    h, m = int(h), int(m)
+    if ap:
+        h = h % 12 + (12 if ap.lower() == "pm" else 0)
+    return f"{h:02d}:{m:02d}" if h < 24 and m < 60 else None
+
+
+def _first_time(s):
+    m = re.search(T, s or "", re.I)
+    return _t(*m.groups()) if m else None
+
+
+def _range_in(line):
+    m = RANGE.search(line)
+    if not m:
+        return None
+    g = m.groups()
+    a, b = _t(g[0], g[1], g[2]), _t(g[3], g[4], g[5])
+    return {"h": a, **({"eh": b} if b and b != a else {})} if a else None
+
+
+def _after_label(lines, label):
+    """Line that starts with label (optionally 'Label: 20.00'), else the line after it."""
+    rx = re.compile(rf"^{label}\b", re.I)
+    for i, l in enumerate(lines):
+        if rx.match(l) and len(l) < 40:
+            for cand in (l, lines[i + 1] if i + 1 < len(lines) else ""):
+                got = _range_in(cand) or ({"h": _first_time(cand)} if _first_time(cand) else None)
+                if got and got.get("h"):
+                    return got
+    return None
+
+
+def read_marineterrein(page, today):
+    return _after_label(_lines(page), r"(?:tijden?|time|when)")
+
+
+def read_amsterdammuseum(page, today):
+    return _after_label(_lines(page), r"(?:time|tijd)")
+
+
+def read_parallel(page, today):
+    """Range on the 'AT PARALLEL' line, else a lone time right under the date line. 23:59 is a placeholder there."""
+    lines = _lines(page)
+    for l in lines:
+        if re.search(r"\bAT PARALLEL\b", l) or re.fullmatch(r"\d{1,2}:\d{2}\s*-\s*\d{1,2}:\d{2}", l):
+            got = _range_in(l)
+            if got and got["h"] != "23:59":
+                return got
+    for i, l in enumerate(lines):
+        if re.fullmatch(r"(?:mon|tue|wed|thu|fri|sat|sun) \d{1,2}\.\d{1,2}", l, re.I):
+            for c in lines[i + 1:i + 8]:
+                if re.fullmatch(r"\d{1,2}:\d{2}", c):
+                    return {"h": _hm(c)} if _hm(c) != "23:59" else None
+    return None
+
+
+def read_radion(page, today):
+    lines = _lines(page)
+    start = _after_label(lines, r"doors(?: open)?")
+    if not start:
+        return None
+    end = _after_label(lines, r"event end")
+    return {"h": start["h"], **({"eh": end["h"]} if end and end["h"] != start["h"] else {})}
+
+
+def read_dehallen(page, today):
+    for l in _lines(page):
+        if len(l) < 90 and re.search(r"\d{1,2}[:.]\d{2}", l):
+            got = _range_in(l)
+            if got:
+                return got
+    return None
+
+
+READERS = {"tolhuistuin": read_tolhuistuin, "cinetol": read_cinetol, "iamsterdam": read_iamsterdam, "odessa": read_odessa,
+           "marineterrein": read_marineterrein, "amsterdammuseum": read_amsterdammuseum, "parallel": read_parallel,
+           "radion": read_radion, "dehallen": read_dehallen}
 
 
 def _fetch(url):
