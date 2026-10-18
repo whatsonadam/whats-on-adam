@@ -390,7 +390,7 @@ const priceLabel = v => v===null?"Price":v===0?"Price: free":"Price: up to €"+
 const priceBig = v => v===null?"Any price":v===0?"Free":"Up to €"+v;
 const priceVal = () => state.price===null?51:state.price;
 const priceFill = () => (priceVal()/51*100)+"%";
-const pricePanelH = open => `<div class="ddp pr${open?" on":""}"><span class="prbig" id="prbig">${priceBig(state.price)}</span><input type="range" class="prr" id="prr" min="0" max="51" step="1" value="${priceVal()}" style="--f:${priceFill()}" aria-label="Maximum price in euros" aria-valuetext="${priceBig(state.price)}"><div class="prt" aria-hidden="true"><span>Free</span><span>€10</span><span>€20</span><span>€30</span><span>€40</span><span>€50</span><span>Any</span></div><p class="prn">Events with no price listed stay in the list.</p></div>`;
+const pricePanelH = open => `<div class="ddp pr${open?" on":""}"><span class="prbig" id="prbig">${priceBig(state.price)}</span><input type="range" class="prr" id="prr" min="0" max="51" step="1" value="${priceVal()}" style="--f:${priceFill()}" aria-label="Maximum price in euros" aria-valuetext="${priceBig(state.price)}"><div class="prt" aria-hidden="true"><span>Free</span><span>€10</span><span>€20</span><span>€30</span><span>€40</span><span>€50</span><span>Any</span></div><p class="prn">Events with no price stay in the list.</p></div>`;
 const grpH = (label,hours) => `<h3 class="grp">${esc(label)}${hours?`<span>${hours}</span>`:""}</h3>`;
 const tagH = ([l,c]) => `<span class="tag" style="background:${c}">${esc(l)}</span>`;
 function setFilters(sel,html){
@@ -548,7 +548,7 @@ const wantLabel = on => on ? "✓ On my list" : "+ Want to see";
 
 /* ---------- Event rows ---------- */
 function metaLine(e){
-  const bits=[e.v, e.ar, e.p||(state.price!==null?"no price listed":"")].filter(Boolean).map(esc);
+  const bits=[e.v, e.ar, e.p||(state.price!==null?"no price":"")].filter(Boolean).map(esc);
   return bits.join(" · ") + (e.fest?`<span class="fest">Part of ${esc(e.fest)}</span>`:"") + (e.nl?'<span class="nl" title="Looks Dutch-language">NL</span>':"");
 }
 function rowEv(e){
