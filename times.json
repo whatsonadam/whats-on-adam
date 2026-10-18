@@ -64,6 +64,11 @@
 "eh": "23:00",
 "chk": "2026-10-15"
 },
+"https://hipsy.nl/event/255344-queerstatic-lady-joker-": {
+"h": "18:00",
+"eh": "22:00",
+"chk": "2026-10-18"
+},
 "https://hipsy.nl/event/255375-morning-ecstatic-dance-potluck-b-art": {
 "h": "10:00",
 "eh": "15:00",
@@ -111,7 +116,7 @@
 },
 "https://tolhuistuin.nl/en/events/bomen-voor-amsterdam": {
 "none": true,
-"chk": "2026-10-11"
+"chk": "2026-10-18"
 },
 "https://tolhuistuin.nl/en/events/chanel-beads": {
 "h": "19:30",
@@ -130,11 +135,11 @@
 },
 "https://tolhuistuin.nl/en/events/counter-gaze-metroscope-opening": {
 "none": true,
-"chk": "2026-10-11"
+"chk": "2026-10-18"
 },
 "https://tolhuistuin.nl/en/events/culturele-noordspelen-x-colourful-noord-festival-feestelijke-muurschildering-onthulling-2": {
 "none": true,
-"chk": "2026-10-11"
+"chk": "2026-10-18"
 },
 "https://tolhuistuin.nl/en/events/dave-east": {
 "h": "20:30",
@@ -148,15 +153,15 @@
 },
 "https://tolhuistuin.nl/en/events/de-danskamer-23": {
 "none": true,
-"chk": "2026-10-11"
+"chk": "2026-10-18"
 },
 "https://tolhuistuin.nl/en/events/de-danskamer-24": {
 "none": true,
-"chk": "2026-10-11"
+"chk": "2026-10-18"
 },
 "https://tolhuistuin.nl/en/events/de-publieke-tribune-2-2-2-2-2-2": {
 "none": true,
-"chk": "2026-10-11"
+"chk": "2026-10-18"
 },
 "https://tolhuistuin.nl/en/events/de-publieke-tribune-2-2-2-2-2-2-2": {
 "none": true,
@@ -164,35 +169,35 @@
 },
 "https://tolhuistuin.nl/en/events/de-publieke-tribune-2-2-2-2-2-2-2-2": {
 "none": true,
-"chk": "2026-10-11"
+"chk": "2026-10-18"
 },
 "https://tolhuistuin.nl/en/events/de-publieke-tribune-2-2-2-2-2-2-2-2-2": {
 "none": true,
-"chk": "2026-10-11"
+"chk": "2026-10-18"
 },
 "https://tolhuistuin.nl/en/events/de-publieke-tribune-2-2-2-2-2-2-2-2-2-2": {
 "none": true,
-"chk": "2026-10-11"
+"chk": "2026-10-18"
 },
 "https://tolhuistuin.nl/en/events/de-publieke-tribune-2-2-2-2-2-2-2-2-2-2-2": {
 "none": true,
-"chk": "2026-10-11"
+"chk": "2026-10-18"
 },
 "https://tolhuistuin.nl/en/events/de-publieke-tribune-2-2-2-2-2-2-2-2-2-2-2-2": {
 "none": true,
-"chk": "2026-10-11"
+"chk": "2026-10-18"
 },
 "https://tolhuistuin.nl/en/events/de-publieke-tribune-2-2-2-2-2-2-2-2-2-2-2-2-2": {
 "none": true,
-"chk": "2026-10-11"
+"chk": "2026-10-18"
 },
 "https://tolhuistuin.nl/en/events/de-publieke-tribune-2-2-2-2-2-2-2-2-2-2-2-2-2-2": {
 "none": true,
-"chk": "2026-10-11"
+"chk": "2026-10-18"
 },
 "https://tolhuistuin.nl/en/events/de-publieke-tribune-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2": {
 "none": true,
-"chk": "2026-10-11"
+"chk": "2026-10-18"
 },
 "https://tolhuistuin.nl/en/events/de-schimmige-wereld-van-de-wereldwijde-voedselhandel": {
 "h": "12:00",
@@ -359,8 +364,9 @@
 "chk": "2026-10-11"
 },
 "https://tolhuistuin.nl/en/events/love-nut-hate-een-avond-over-migratie": {
-"none": true,
-"chk": "2026-10-11"
+"h": "20:00",
+"eh": null,
+"chk": "2026-10-18"
 },
 "https://tolhuistuin.nl/en/events/lucky-fonz-iii": {
 "h": "19:30",
@@ -423,11 +429,11 @@
 },
 "https://tolhuistuin.nl/en/events/one-fine-mess-10": {
 "none": true,
-"chk": "2026-10-11"
+"chk": "2026-10-18"
 },
 "https://tolhuistuin.nl/en/events/one-fine-mess-11": {
 "none": true,
-"chk": "2026-10-11"
+"chk": "2026-10-18"
 },
 "https://tolhuistuin.nl/en/events/one-fine-mess-12": {
 "none": true,
@@ -439,11 +445,11 @@
 },
 "https://tolhuistuin.nl/en/events/one-fine-mess-9": {
 "none": true,
-"chk": "2026-10-11"
+"chk": "2026-10-18"
 },
 "https://tolhuistuin.nl/en/events/photo-exhibition-where-do-you-belong-by-jonnah-bron": {
 "none": true,
-"chk": "2026-10-11"
+"chk": "2026-10-18"
 },
 "https://tolhuistuin.nl/en/events/podcastakademie-oral-history-interviewen-3/0": {
 "h": "11:00",
@@ -467,7 +473,7 @@
 },
 "https://tolhuistuin.nl/en/events/queer-nature-photography-awards-world-pride-edition-the-exhibition": {
 "none": true,
-"chk": "2026-10-11"
+"chk": "2026-10-18"
 },
 "https://tolhuistuin.nl/en/events/rijck": {
 "h": "20:30",

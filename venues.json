@@ -1187,6 +1187,12 @@
 "skip": true,
 "q": "not found"
 },
+"Concept404": {
+"lat": 52.35438,
+"lon": 4.89033,
+"q": "name",
+"area": "Zuid"
+},
 "Concertgebouw": {
 "lat": 52.3562,
 "lon": 4.87904,
@@ -3995,6 +4001,12 @@
 "q": "name",
 "area": "Zuid"
 },
+"Tempel": {
+"lat": 52.35253,
+"lon": 4.90634,
+"q": "name",
+"area": "Zuid"
+},
 "TestTafel": {
 "lat": 52.3764,
 "lon": 4.9132,
@@ -4321,6 +4333,10 @@
 "skip": true,
 "q": "not found"
 },
+"UvA Founder Space": {
+"skip": true,
+"q": "not found"
+},
 "VOX-POP": {
 "lat": 52.37405,
 "lon": 4.89325,
@@ -4595,6 +4611,12 @@
 "skip": true,
 "q": "not found"
 },
+"White Label Coffee - West": {
+"lat": 52.37042,
+"lon": 4.85161,
+"q": "name",
+"area": "West"
+},
 "Wijnhuis.Amsterdam": {
 "lat": 52.35171,
 "lon": 4.85774,
@@ -4604,6 +4626,12 @@
 "Willem de Zwijgerkerk": {
 "lat": 52.34955,
 "lon": 4.86293,
+"q": "name",
+"area": "Zuid"
+},
+"World Trade Center (Amsterdam)": {
+"lat": 52.33654,
+"lon": 4.87577,
 "q": "name",
 "area": "Zuid"
 },
@@ -4792,6 +4820,12 @@
 "raam art space": {
 "skip": true,
 "q": "not found"
+},
+"st-Art Amsterdam": {
+"lat": 52.3673,
+"lon": 4.89057,
+"q": "name",
+"area": "Centrum"
 },
 "t' Blauwe Theehuis": {
 "lat": 52.35884,

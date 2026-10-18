@@ -2575,6 +2575,12 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"film lecture time after time over herhaling in films en andere verhalen": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-18",
+"v": 4
+},
 "filmclub sunset boelelaan la haine": {
 "tm5": true,
 "tmdb": true,
@@ -5132,6 +5138,24 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"last year at marienbad": {
+"dr": "Alain Resnais",
+"du": 95,
+"gn": [
+"Drama",
+"Romance"
+],
+"lg": [
+"fr"
+],
+"rt": 7.4,
+"sy": "At a weekend gathering, a man tells a woman that they had spent time there together a year prior. But, the woman has no recollection whatsoever and is convinced that he is simply fabricating the encounter. The…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-18",
+"v": 4,
+"yr": 1961
 },
 "le cri des gardes tapis rouge 2026": {
 "dr": "Claire Denis",
