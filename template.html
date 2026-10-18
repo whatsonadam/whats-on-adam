@@ -58,6 +58,9 @@ a{color:inherit}
 .dayhead h2{margin:0;font:400 36px var(--display);text-transform:uppercase}
 .hr{display:flex;gap:10px;align-items:center;margin-left:auto;white-space:nowrap}
 .hr .n{font-size:13px;color:#444}
+.clr{font:800 12px var(--body);text-transform:uppercase;letter-spacing:.05em;padding:6px 10px;border:var(--bw) solid var(--ink);background:var(--ink);color:#fff;cursor:pointer;border-radius:0;white-space:nowrap}
+.clr[hidden]{display:none}
+.clr b{color:var(--yel);font-weight:800;margin-left:4px}
 .hr input[type=search]{width:170px;border:var(--bw) solid var(--ink);padding:5px 9px;font:inherit;background:#fff;border-radius:0}
 .grp{font:400 22px var(--display);text-transform:uppercase;margin:10px 0 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .grp span{background:#C9C3BA;color:#3b3835;font:700 12px var(--body);letter-spacing:.04em;padding:2px 8px;text-transform:none}
@@ -286,21 +289,21 @@ a{color:inherit}
   <section id="view-agenda">
     <div class="upbar"><b>Next 4 weeks</b><button type="button" data-a="up.toggle" id="upbtn">Pick a day</button></div>
     <div class="daybar"><button class="arr" data-a="day.prev" data-for="days" aria-label="Earlier days">‹</button><div class="days" id="days" role="listbox" aria-label="Pick a day"></div><button class="arr" data-a="day.next" data-for="days" aria-label="Later days">›</button></div>
-    <div class="dayhead"><h2 id="agtitle"></h2><span class="hr"><span class="n" id="agcount"></span><input type="search" id="q" placeholder="Search" aria-label="Search events"></span></div>
+    <div class="dayhead"><h2 id="agtitle"></h2><span class="hr"><span class="n" id="agcount"></span><button type="button" class="clr" id="agclr" data-a="clr.ag" hidden>Clear filters</button><input type="search" id="q" placeholder="Search" aria-label="Search events"></span></div>
     <div id="agfilters"></div>
     <div id="aglist"></div>
   </section>
 
   <section id="view-cin" hidden>
     <div class="daybar"><button class="arr" data-a="day.prev" data-for="cindays" aria-label="Earlier days">‹</button><div class="days" id="cindays" role="listbox" aria-label="Pick a day"></div><button class="arr" data-a="day.next" data-for="cindays" aria-label="Later days">›</button></div>
-    <div class="dayhead"><h2>Cinema</h2><span class="hr"><span class="n" id="cincount"></span><input type="search" id="cinq" placeholder="Search" aria-label="Search films"></span></div>
+    <div class="dayhead"><h2>Cinema</h2><span class="hr"><span class="n" id="cincount"></span><button type="button" class="clr" id="cinclr" data-a="clr.cin" hidden>Clear filters</button><input type="search" id="cinq" placeholder="Search" aria-label="Search films"></span></div>
     <div id="cinfilters"></div>
     <div id="cinpicks"></div>
     <div id="cinlist"></div>
   </section>
 
   <section id="view-exh" hidden>
-    <div class="dayhead"><h2>Exhibitions</h2><span class="hr"><span class="n" id="excount"></span><input type="search" id="exq" placeholder="Search" aria-label="Search exhibitions"></span></div>
+    <div class="dayhead"><h2>Exhibitions</h2><span class="hr"><span class="n" id="excount"></span><button type="button" class="clr" id="exclr" data-a="clr.ex" hidden>Clear filters</button><input type="search" id="exq" placeholder="Search" aria-label="Search exhibitions"></span></div>
     <div id="exfilters"></div>
     <div id="exsw"></div>
     <div id="exlist"></div>
@@ -308,7 +311,7 @@ a{color:inherit}
 
   <section id="view-ade" hidden>
     <div class="daybar"><button class="arr" data-a="day.prev" data-for="adedays" aria-label="Earlier days">‹</button><div class="days" id="adedays" role="listbox" aria-label="Pick an ADE day"></div><button class="arr" data-a="day.next" data-for="adedays" aria-label="Later days">›</button></div>
-    <div class="dayhead"><h2>Amsterdam Dance Event</h2><span class="hr"><span class="n" id="adecount"></span><input type="search" id="adeq" placeholder="Search" aria-label="Search ADE"></span></div>
+    <div class="dayhead"><h2>Amsterdam Dance Event</h2><span class="hr"><span class="n" id="adecount"></span><button type="button" class="clr" id="adeclr" data-a="clr.ade" hidden>Clear filters</button><input type="search" id="adeq" placeholder="Search" aria-label="Search ADE"></span></div>
     <div id="adefilters"></div>
     <div id="adelist"></div>
   </section>
@@ -610,6 +613,7 @@ function renderList(){
 }
 let sliding=false;
 function drawAgFilters(){
+  updateClr("ag");
   if(sliding) return;
   const shown=CATS.filter(c=>PRES.has(c[0])), allOn=shown.every(c=>state.cats.has(c[0]));
   setFilters("#agfilters",`<div class="fpanel">
@@ -699,6 +703,7 @@ function renderAde(){
   VISIBLE=[];
   const days=[...new Set(ADEV.map(e=>e.d))].sort();
   if(!adeState.day || !days.includes(adeState.day)) adeState.day = days.find(d=>d>=todayIso) || days[0];
+  updateClr("ade");
   const kinds=ADE_KINDS.filter(k=>ADEV.some(e=>e.ak===k)), genres=ADE_GENRES.filter(g=>ADEV.some(e=>(e.ag||[]).includes(g)));
   const venues=[...new Set(ADEV.map(e=>e.v).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
   const list=ADEV.filter(e=>onDay(e,adeState.day)&&adeOk(e)).sort((a,b)=>(a.h||"99").localeCompare(b.h||"99")||a.t.localeCompare(b.t));
@@ -807,6 +812,7 @@ function renderCin(){
   const days=[...new Set(CIN.map(e=>e.d))].sort();
   if(!days.length){ $("#cinlist").innerHTML=`<div class="empty">No screenings in the current listings.</div>`; return; }
   if(!cinState.day || !days.includes(cinState.day)) cinState.day=days[0];
+  updateClr("cin");
   const genres=cinGenres();
   const gOn=cinState.gn||new Set(genres);
   const list=CIN.filter(e=>e.d===cinState.day && cinOk(e));
@@ -858,6 +864,7 @@ EXH.forEach(e=>{ e.exs=exSubject(e); });
 const exMatch = e => !exState.q || (e.t+" "+(e.v||"")).toLowerCase().includes(exState.q.toLowerCase());
 function renderExh(){
   VISIBLE=[]; const ws=wantSet();
+  updateClr("ex");
   const mode=exState.view==="mine"?"mine":exState.map?"map":"list";
   $("#exsw").innerHTML=`<div class="viewsw" role="group" aria-label="View"><button data-a="ex.mode" data-v="list" class="${mode==="list"?"on":""}" aria-pressed="${mode==="list"}">${VIEW_ICONS.list}List</button><button data-a="ex.mode" data-v="map" class="${mode==="map"?"on":""}" aria-pressed="${mode==="map"}">${VIEW_ICONS.map}Map</button><button data-a="ex.mode" data-v="mine" class="${mode==="mine"?"on":""}" aria-pressed="${mode==="mine"}">${VIEW_ICONS.mine}My list (<span id="wantcnt">${WANT.length}</span>)</button></div>`;
   if(exState.view==="mine"){ $("#exfilters").innerHTML=""; return renderMine(); }
@@ -902,6 +909,35 @@ function renderMine(){
 }
 $("#exq").addEventListener("input",e=>{ exState.q=e.target.value.trim(); renderExh(); });
 
+/* ---------- Clear filters: one button per tab, next to the search box ---------- */
+function clrCount(tab){
+  let n=0;
+  if(tab==="ag"){
+    const shown=CATS.filter(c=>PRES.has(c[0]));
+    if(state.q) n++; if(!shown.every(c=>state.cats.has(c[0]))) n++; if(state.areas.size) n++; if(state.venues.size) n++;
+    if(state.en) n++; if(state.price!==null) n++; if(state.tod!=="all") n++;
+  } else if(tab==="cin"){
+    if(cinState.q) n++; if(cinState.kind!=="independent") n++; if(cinState.venues.size) n++; if(cinState.cv) n++; if(cinState.en) n++;
+    if(cinState.gn) n++; if(cinState.tfrom) n++;
+  } else if(tab==="ex"){
+    if(exState.q) n++; if(exState.status!=="any") n++; if(exState.sub) n++;
+  } else if(tab==="ade"){
+    if(adeState.q) n++; if(adeState.venues.size) n++; if(adeState.hideSold) n++; if(adeState.tod!=="all") n++;
+    if(adeState.kinds) n++; if(adeState.genres) n++;
+  }
+  return n;
+}
+function updateClr(tab){
+  const b=$("#"+tab+"clr"); if(!b) return;
+  const n=clrCount(tab); b.hidden=!n; b.innerHTML=n?`Clear filters <b>${n}</b>`:"Clear filters";
+}
+const CLR = {
+  ag:()=>{ state.q=""; $("#q").value=""; state.cats=new Set(CATS.map(c=>c[0])); state.areas.clear(); state.venues.clear(); state.en=false; state.price=null; state.tod="all"; state.panel=""; egg=false; save(); render(); },
+  cin:()=>{ cinState.q=""; $("#cinq").value=""; cinState.kind="independent"; cinState.venues.clear(); cinState.cv=false; cinState.en=false; cinState.gn=null; cinState.tfrom=0; cinState.panel=""; renderCin(); },
+  ex:()=>{ exState.q=""; $("#exq").value=""; exState.status="any"; exState.sub=null; renderExh(); },
+  ade:()=>{ adeState.q=""; $("#adeq").value=""; adeState.venues.clear(); adeState.hideSold=false; adeState.tod="all"; adeState.kinds=null; adeState.genres=null; adeState.panel=""; renderAde(); }
+};
+
 /* ---------- Actions (one delegated handler, so re-rendered controls just work) ---------- */
 const clearPanel = s => { s.panel=""; };
 // Double click, double tap or long press on a type chip: show only that type. Doing it again on the only one brings all back.
@@ -921,6 +957,7 @@ document.addEventListener("pointerdown",ev=>{
 document.addEventListener("contextmenu",ev=>{ if(ev.target.closest&&ev.target.closest(".chip")) ev.preventDefault(); });
 const ACT = {
   "noop":()=>{},
+  "clr.ag":()=>CLR.ag(), "clr.cin":()=>CLR.cin(), "clr.ex":()=>CLR.ex(), "clr.ade":()=>CLR.ade(),
   "day.prev":(v,el)=>{ const b=$("#"+el.dataset.for); b.scrollBy({left:-b.clientWidth*.7,behavior:"smooth"}); },
   "day.next":(v,el)=>{ const b=$("#"+el.dataset.for); b.scrollBy({left:b.clientWidth*.7,behavior:"smooth"}); },
   "go.exh":()=>showTab("exh"),
