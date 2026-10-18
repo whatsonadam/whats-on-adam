@@ -88,6 +88,16 @@ a{color:inherit}
 .ddb b{font-size:10px}
 .ddp{display:none;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:8px 16px;padding:12px 14px;margin:0 0 8px 120px;width:min(100%,640px);max-height:320px;overflow:auto;background:#F4F1EB;border:1.5px solid #6b6760}
 .ddp.on{display:grid}
+.ddp.pr.on{grid-template-columns:1fr;gap:10px;width:min(100%,340px)}
+.prbig{font:400 26px/1 var(--display);text-transform:uppercase}
+.prr{-webkit-appearance:none;appearance:none;width:100%;height:28px;background:transparent;margin:0;cursor:pointer}
+.prr::-webkit-slider-runnable-track{height:5px;background:linear-gradient(to right,var(--ink) var(--f,30%),#b3ada5 var(--f,30%))}
+.prr::-moz-range-track{height:5px;background:#b3ada5}
+.prr::-moz-range-progress{height:5px;background:var(--ink)}
+.prr::-webkit-slider-thumb{-webkit-appearance:none;width:22px;height:22px;margin-top:-9px;background:var(--hred);border:var(--bw) solid var(--ink);border-radius:0;transform:rotate(3deg)}
+.prr::-moz-range-thumb{width:20px;height:20px;background:var(--hred);border:var(--bw) solid var(--ink);border-radius:0}
+.prt{display:flex;justify-content:space-between;font:700 11px var(--body);color:#555}
+.prn{margin:0;font-size:12px;color:#555}
 .gh{grid-column:1/-1;font:800 11px var(--body);text-transform:uppercase;letter-spacing:.1em;color:#555;border-bottom:1px solid var(--line);padding-bottom:3px;margin-top:4px}.gh:first-child{margin-top:0}
 .tog{display:inline-flex;gap:6px;align-items:center;font:700 13px var(--body);cursor:pointer}
 .tog input[type=checkbox]{-webkit-appearance:none;appearance:none;width:18px;height:18px;border:1.5px solid var(--ink);background:#fff;margin:0 2px 0 0;flex:none;cursor:pointer;border-radius:0}
@@ -376,6 +386,11 @@ const segH = (a,items,cur) => `<div class="seg">${items.map(([v,l,dis])=>`<butto
 const swH = (a,label,on,cls="") => `<label class="sw ${cls}"><input type="checkbox" data-a="${a}"${on?" checked":""}><span class="trk"><i></i></span>${label}</label>`;
 const ddH = (a,key,label,n,open) => `<button class="ddb${open?" on":""}" data-a="${a}" data-v="${key}" aria-expanded="${open}">${label}${n?` (${n})`:""} <b>▾</b></button>`;
 const panelH = (a,clearA,groups,sel,open) => `<div class="ddp${open?" on":""}">${groups.map(([h,vals])=>(h?`<div class="gh">${esc(h)}</div>`:"")+vals.map(v=>`<label class="tog"><input type="checkbox" data-a="${a}" data-v="${esc(v)}"${sel.has(v)?" checked":""}> ${esc(v)}</label>`).join("")).join("")}${sel.size?`<button class="mini tg" data-a="${clearA}">Clear</button>`:""}</div>`;
+const priceLabel = v => v===null?"Price":v===0?"Price: free":"Price: up to €"+v;
+const priceBig = v => v===null?"Any price":v===0?"Free":"Up to €"+v;
+const priceVal = () => state.price===null?51:state.price;
+const priceFill = () => (priceVal()/51*100)+"%";
+const pricePanelH = open => `<div class="ddp pr${open?" on":""}"><span class="prbig" id="prbig">${priceBig(state.price)}</span><input type="range" class="prr" id="prr" min="0" max="51" step="1" value="${priceVal()}" style="--f:${priceFill()}" aria-label="Maximum price in euros" aria-valuetext="${priceBig(state.price)}"><div class="prt" aria-hidden="true"><span>Free</span><span>€10</span><span>€20</span><span>€30</span><span>€40</span><span>€50</span><span>Any</span></div><p class="prn">Events with no price listed stay in the list.</p></div>`;
 const grpH = (label,hours) => `<h3 class="grp">${esc(label)}${hours?`<span>${hours}</span>`:""}</h3>`;
 const tagH = ([l,c]) => `<span class="tag" style="background:${c}">${esc(l)}</span>`;
 function setFilters(sel,html){
@@ -419,7 +434,7 @@ const countsBy = list => { const c={}; list.forEach(e=>{ if(!span(e)) c[e.d]=(c[
 
 /* ---------- Agenda state ---------- */
 const store = load("agenda-prefs-v5", {});
-const save = () => put("agenda-prefs-v5",{cats:[...state.cats],areas:[...state.areas],venues:[...state.venues],en:state.en,free:state.free});
+const save = () => put("agenda-prefs-v5",{cats:[...state.cats],areas:[...state.areas],venues:[...state.venues],en:state.en,price:state.price});
 const ALLVEN = [...new Set(EVENTS.map(e=>e.v).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
 const okCats = (store.cats||[]).filter(k=>CATS.some(c=>c[0]===k));
 const first = SNAP, last = EVENTS.reduce((m,e)=>e.d>m?e.d:m, SNAP);
@@ -428,7 +443,7 @@ const state = {
   cats: new Set(okCats.length ? okCats : CATS.map(c=>c[0])),
   areas: new Set((store.areas||[]).filter(a=>AREAS.includes(a))),     // empty means every area
   venues: new Set((store.venues||[]).filter(v=>ALLVEN.includes(v))),  // empty means every venue
-  pick:false, tod: "all", view: "list", q:"", en:!!store.en, free:!!store.free, panel:""
+  pick:false, tod: "all", view: "list", q:"", en:!!store.en, price:(Number.isInteger(store.price)&&store.price>=0&&store.price<=50)?store.price:(store.free?0:null), panel:""
 };
 const span = e => e.ed && (parse(e.ed)-parse(e.d))/864e5 >= 2;
 const onDay = (e,d) => span(e) ? (e.d<=d && e.ed>=d) : e.d===d;
@@ -442,10 +457,20 @@ function todOf(e){
   if(h<17) return "afternoon";
   return "evening";
 }
+/* Lowest price in euros that the p text allows, or null when there is no price. Free and plain donations count as 0. */
+function lowPrice(p){
+  if(!p) return null;
+  if(FREE_RX.test(p)) return 0;
+  if(/donat/i.test(p) && !/min/i.test(p)) return 0;
+  const n=(p.match(/\d+(?:[.,]\d+)?/g)||[]).map(x=>parseFloat(x.replace(",",".")));
+  if(!n.length) return null;
+  if(/^\s*up to/i.test(p)) return 0;
+  return Math.min(...n);
+}
 function passes(e){
   if(!state.cats.has(catOf(e))) return false;
   if(state.en && e.nl) return false;
-  if(state.free && !FREE_RX.test(e.p||"")) return false;
+  if(state.price!==null){ const lo=lowPrice(e.p); if(lo!==null && lo>state.price) return false; }   // events with no price stay in the list
   if(state.venues.size && !state.venues.has(e.v)) return false;
   if(state.areas.size && !state.areas.has(e.ar||"")) return false;
   if(state.q){ const q=state.q.toLowerCase(); if(!(e.t+" "+e.v+" "+(e.b||"")+" "+e.c).toLowerCase().includes(q)) return false; }
@@ -523,7 +548,7 @@ const wantLabel = on => on ? "✓ On my list" : "+ Want to see";
 
 /* ---------- Event rows ---------- */
 function metaLine(e){
-  const bits=[e.v, e.ar, e.p].filter(Boolean).map(esc);
+  const bits=[e.v, e.ar, e.p||(state.price!==null?"no price listed":"")].filter(Boolean).map(esc);
   return bits.join(" · ") + (e.fest?`<span class="fest">Part of ${esc(e.fest)}</span>`:"") + (e.nl?'<span class="nl" title="Looks Dutch-language">NL</span>':"");
 }
 function rowEv(e){
@@ -583,14 +608,17 @@ function renderList(){
   if(!evs.length) html=`<div class="empty">Nothing coming up in the next 4 weeks. Try clearing the search or switching some filters back on.</div>`;
   $("#aglist").innerHTML=html;
 }
+let sliding=false;
 function drawAgFilters(){
+  if(sliding) return;
   const shown=CATS.filter(c=>PRES.has(c[0])), allOn=shown.every(c=>state.cats.has(c[0]));
   setFilters("#agfilters",`<div class="fpanel">
     ${upcoming()&&!state.pick?"":`<div class="row"><span class="lab">Time of day</span>${segH("ag.tod",TODS.map(([k,l])=>[k,l,k!=="all"&&!lastTc[k]]),state.tod)}</div>`}
     <div class="row"><span class="lab">Type</span>${shown.map(c=>chipH(c[1],state.cats.has(c[0]),"ag.cat",c[0],c[2])).join("")}${allNoneH("ag.catall",allOn)}</div>
-    <div class="row"><span class="lab">Show</span>${ddH("ag.panel","area","Area",state.areas.size,state.panel==="area")}${ddH("ag.panel","venue","Venue",state.venues.size,state.panel==="venue")}<button class="free${state.free?" on":""}" data-a="ag.free" aria-pressed="${state.free}">Free</button>${swH("ag.en","English-friendly",state.en)}</div>
+    <div class="row"><span class="lab">Show</span>${ddH("ag.panel","area","Area",state.areas.size,state.panel==="area")}${ddH("ag.panel","venue","Venue",state.venues.size,state.panel==="venue")}${ddH("ag.panel","price",priceLabel(state.price),0,state.panel==="price")}${swH("ag.en","English-friendly",state.en)}</div>
     ${panelH("ag.area","ag.clrarea",areaGroups(),state.areas,state.panel==="area")}
     ${panelH("ag.venue","ag.clrvenue",venueGroups(),state.venues,state.panel==="venue")}
+    ${pricePanelH(state.panel==="price")}
   </div>
   <div class="viewsw" role="group" aria-label="View"><button data-a="ag.view" data-v="list" class="${state.view==="list"?"on":""}" aria-pressed="${state.view==="list"}">${VIEW_ICONS.list}List</button><button data-a="ag.view" data-v="map" class="${state.view==="map"?"on":""}" aria-pressed="${state.view==="map"}">${VIEW_ICONS.map}Map</button></div>`);
 }
@@ -912,7 +940,6 @@ const ACT = {
   "ag.venue":v=>{ toggleIn(state.venues,v); save(); render(); },
   "ag.clrarea":()=>{ state.areas.clear(); save(); render(); },
   "ag.clrvenue":()=>{ state.venues.clear(); save(); render(); },
-  "ag.free":()=>{ state.free=!state.free; save(); render(); },
   "ag.en":(v,el)=>{ state.en=el.checked; save(); render(); },
   "ag.view":v=>{ state.view=v; render(); },
 
@@ -966,7 +993,15 @@ document.addEventListener("click",ev=>{
   const t=ev.target.closest("[data-a]"); if(!t || t.matches("input")) return;
   ACT[t.dataset.a]?.(t.dataset.v,t,ev);
 });
+document.addEventListener("input",ev=>{
+  const t=ev.target; if(t.id!=="prr") return;
+  const v=+t.value; state.price=v>50?null:v; save();
+  $("#prbig").textContent=priceBig(state.price); t.style.setProperty("--f",priceFill()); t.setAttribute("aria-valuetext",priceBig(state.price));
+  const b=document.querySelector('#agfilters .ddb[data-v="price"]'); if(b) b.firstChild.textContent=priceLabel(state.price)+" ";
+  sliding=true; try{ render(); } finally{ sliding=false; }
+});
 document.addEventListener("change",ev=>{
+  if(ev.target.id==="prr"){ render(); return; }
   const t=ev.target; if(!t.dataset || !t.dataset.a) return;
   if(t.type==="checkbox"||t.type==="text") ACT[t.dataset.a]?.(t.dataset.v,t,ev);
 });
