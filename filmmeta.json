@@ -3261,6 +3261,23 @@
 "v": 4,
 "yr": 1990
 },
+"homework": {
+"dr": "Job van Aken, Anushka Dasgupta",
+"du": 38,
+"gn": [
+"Documentary"
+],
+"lg": [
+"nl",
+"en"
+],
+"sy": "Tenants and activists are organizing and fighting for better living situations in both Dublin and Amsterdam. Public housing is poorly maintained, causing mould, draught, and high energy bills. But slowly…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-18",
+"v": 4,
+"yr": 2026
+},
 "hope": {
 "dr": "Maria Sødahl",
 "du": 126,
@@ -5549,6 +5566,24 @@
 "v": 4,
 "yr": 2026
 },
+"marie antoinette 2006": {
+"dr": "Sofia Coppola",
+"du": 123,
+"gn": [
+"Drama",
+"History"
+],
+"lg": [
+"en"
+],
+"rt": 6.7,
+"sy": "A retelling of the story of France’s iconic but ill-fated queen, Marie Antoinette - from her betrothal and marriage to Louis XVI at fifteen to her reign as queen at nineteen and ultimately the fall of…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-18",
+"v": 4,
+"yr": 2006
+},
 "marketa lazarová 1967": {
 "dr": "Frantisek Vlácil",
 "du": 162,
@@ -7010,6 +7045,23 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2022
+},
+"roma 1972": {
+"dr": "Federico Fellini",
+"du": 120,
+"gn": [
+"Drama"
+],
+"lg": [
+"it"
+],
+"rt": 7.6,
+"sy": "In 1970s Mexico City, two domestic workers help a mother of four while her husband is away for an extended period of time.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-18",
+"v": 4,
+"yr": 1972
 },
 "romeo juliet": {
 "dr": "Baz Luhrmann",
@@ -9938,6 +9990,19 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1976
+},
+"we are making a film about mark fisher": {
+"dr": "Sophie Mellor, Simon Poulter",
+"du": 66,
+"gn": [
+"Documentary"
+],
+"sy": "A cinematic experiment exploring the continuing relevance of the late theorist’s ideas on capitalism, culture, and the future. Blending documentary, performance, and hauntological fiction, the film follows…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-18",
+"v": 4,
+"yr": 2025
 },
 "wen er maar aan": {
 "dr": "Albert Jan van Rees",
