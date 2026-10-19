@@ -385,6 +385,10 @@
 "q": "name",
 "area": "Centrum"
 },
+"Ask for More KI/KI": {
+"skip": true,
+"q": "not found"
+},
 "Astaro Theatro": {
 "lat": 52.37297,
 "lon": 4.89611,
@@ -430,6 +434,10 @@
 "area": "West"
 },
 "B. Amsterdam": {
+"skip": true,
+"q": "not found"
+},
+"B/A/M/": {
 "skip": true,
 "q": "not found"
 },
@@ -793,6 +801,12 @@
 "skip": true,
 "q": "not found"
 },
+"Bunk": {
+"lat": 52.38807,
+"lon": 4.91429,
+"q": "name",
+"area": "Noord"
+},
 "Buurtwerkplaats Noorderhof": {
 "skip": true,
 "q": "not found"
@@ -842,6 +856,18 @@
 "CUE Amsterdam": {
 "skip": true,
 "q": "not found"
+},
+"Cafe 't Schuim": {
+"lat": 52.37857,
+"lon": 4.85056,
+"q": "name",
+"area": "West"
+},
+"Cafe Blooker": {
+"lat": 52.34434,
+"lon": 4.91721,
+"q": "name",
+"area": "Oost"
 },
 "Cafe De Buurvrouw": {
 "lat": 52.37141,
@@ -1003,6 +1029,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Canal Tours Amsterdam": {
+"lat": 52.36054,
+"lon": 4.88639,
+"q": "name",
+"area": "Zuid"
+},
 "Canvas": {
 "lat": 52.35386,
 "lon": 4.91185,
@@ -1096,6 +1128,12 @@
 "Clandestino": {
 "skip": true,
 "q": "not found"
+},
+"Clink Noord": {
+"lat": 52.35875,
+"lon": 4.89865,
+"q": "name",
+"area": "Centrum"
 },
 "ClinkNOORD": {
 "lat": 52.38418,
@@ -1740,6 +1778,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Five Bells Amsterdam": {
+"lat": 52.37615,
+"lon": 4.89455,
+"q": "name",
+"area": "Centrum"
+},
 "Five Pizzas": {
 "lat": 52.37615,
 "lon": 4.89455,
@@ -1857,6 +1901,10 @@
 "lon": 4.92661,
 "q": "addr",
 "area": "Oost"
+},
+"GVB Remise Lekstraat": {
+"skip": true,
+"q": "not found"
 },
 "GVB Remise Lemstraat": {
 "skip": true,
@@ -2271,6 +2319,12 @@
 "lon": 4.86786,
 "q": "name",
 "area": "West"
+},
+"Joe & the Juice": {
+"lat": 52.36883,
+"lon": 4.88359,
+"q": "name",
+"area": "Centrum"
 },
 "Joe's Garage": {
 "lat": 52.35557,
@@ -2852,6 +2906,10 @@
 "q": "name",
 "area": "Oost"
 },
+"Next Stop ADE Bus": {
+"skip": true,
+"q": "not found"
+},
 "NextOn": {
 "skip": true,
 "q": "not found"
@@ -2953,6 +3011,12 @@
 "lon": 4.93883,
 "q": "name",
 "area": "Oost"
+},
+"OBA Osdorp": {
+"lat": 52.35892,
+"lon": 4.80687,
+"q": "name",
+"area": "Nieuw-West"
 },
 "OCCII": {
 "lat": 52.35434,
@@ -3309,6 +3373,10 @@
 "lon": 4.95462,
 "q": "name",
 "area": "Zuidoost"
+},
+"QRU": {
+"skip": true,
+"q": "not found"
 },
 "RADION": {
 "lat": 52.34574,
@@ -3742,6 +3810,12 @@
 "q": "name",
 "area": "Zuid"
 },
+"Stadsarchief Amsterdam - De Bazel": {
+"lat": 52.36447,
+"lon": 4.8922,
+"q": "name",
+"area": "Centrum"
+},
 "Stadsmuseum Weesp": {
 "lat": 52.30726,
 "lon": 5.04208,
@@ -3855,6 +3929,10 @@
 "lon": 4.89572,
 "q": "name",
 "area": "Centrum"
+},
+"Supermercator": {
+"skip": true,
+"q": "not found"
 },
 "Supper Cruise": {
 "lat": 52.37868,
@@ -4000,6 +4078,10 @@
 "area": "West"
 },
 "TYSON 2.0 Brandstore by Mike Tyson": {
+"skip": true,
+"q": "not found"
+},
+"TYSON 2.0 Canal Cruise": {
 "skip": true,
 "q": "not found"
 },
@@ -4519,7 +4601,15 @@
 "q": "name",
 "area": "Zuid"
 },
+"Vrijburgkerk": {
+"skip": true,
+"q": "not found"
+},
 "Vue Amsterdam": {
+"skip": true,
+"q": "not found"
+},
+"W Amsterdam": {
 "skip": true,
 "q": "not found"
 },

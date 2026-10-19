@@ -86,6 +86,12 @@
 "v": 4,
 "yr": 1961
 },
+"a knight s tale 2001 mediaevalia": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-19",
+"v": 4
+},
 "a night at the mortuary": {
 "tm5": true,
 "tmdb": true,
@@ -673,6 +679,22 @@
 "v": 4,
 "yr": 2026
 },
+"bitcoin mining and field recordings of ethnic minorities": {
+"dr": "Liu Chuang",
+"du": 40,
+"gn": [
+"Documentary"
+],
+"lg": [
+"zh"
+],
+"sy": "Liu Chuang’s video installation constructs a speculative journey through the history of technology, infrastructure, ecology and finance, intertwining this with anthropological knowledges and science fiction’s…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-19",
+"v": 4,
+"yr": 2019
+},
 "black achievement month korte films uit west afrika": {
 "tm5": true,
 "tmdb": true,
@@ -947,6 +969,12 @@
 "v": 4,
 "yr": 1991
 },
+"caravaggio 1986 mediaevalia": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-19",
+"v": 4
+},
 "career talk kiyoshi kurosawa": {
 "tm5": true,
 "tmdb": true,
@@ -1093,6 +1121,18 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"cinema aperitivo about time incl drink and antipasti platter": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-19",
+"v": 4
+},
+"cinema aperitivo cold war incl drink and antipasti platter": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-19",
+"v": 4
+},
 "cinema aperitivo pride and prejudice incl drink and antipasti platter": {
 "tm4": true,
 "tmdb": true,
@@ -1103,6 +1143,12 @@
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4
+},
+"cinema mythologica oedipus rex 1967": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-19",
 "v": 4
 },
 "cinemanita fiber factory": {
@@ -1324,6 +1370,23 @@
 "v": 4,
 "yr": 1995
 },
+"cléo de 5 à 7": {
+"dr": "Agnès Varda",
+"du": 87,
+"gn": [
+"Drama"
+],
+"lg": [
+"fr"
+],
+"rt": 7.7,
+"sy": "Agnès Varda eloquently captures Paris in the sixties with this real-time portrait of a singer set adrift in the city as she awaits test results of a biopsy. A chronicle of the minutes of one woman’s life, Cléo…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-19",
+"v": 4,
+"yr": 1962
+},
 "coco ov": {
 "dr": "Lee Unkrich, Adrian Molina",
 "du": 126,
@@ -1460,6 +1523,25 @@
 "v": 4,
 "yr": 2026
 },
+"coward english subs": {
+"dr": "Lukas Dhont",
+"du": 120,
+"gn": [
+"Drama",
+"Romance",
+"War"
+],
+"lg": [
+"fr",
+"nl"
+],
+"sy": "Pierre, a young Belgian soldier, wants to prove himself on the battlefield during the First World War. Behind the frontlines, he meets Francis, who is asked to find a way to boost morale.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-19",
+"v": 4,
+"yr": 2026
+},
 "coward roze filmdagen monthly special": {
 "dr": "Lukas Dhont",
 "du": 120,
@@ -1493,6 +1575,25 @@
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4,
+"yr": 2026
+},
+"coyote vs acme ov": {
+"dr": "Dave Green",
+"du": 101,
+"gn": [
+"Comedy",
+"Adventure",
+"Family"
+],
+"lg": [
+"en"
+],
+"rt": 7.5,
+"sy": "After Acme products fail him one too many times in his dogged pursuit of the Roadrunner, Wile E. Coyote decides to hire a billboard lawyer to sue the Acme Corporation.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-19",
 "v": 4,
 "yr": 2026
 },
@@ -1726,6 +1827,25 @@
 "v": 4,
 "yr": 2026
 },
+"de griezelbus": {
+"dr": "Pieter Kuijpers",
+"du": 90,
+"gn": [
+"Adventure",
+"Family",
+"Fantasy"
+],
+"lg": [
+"nl"
+],
+"rt": 5.5,
+"sy": "The sensitive Onnoval is the best student in his class and he loves Liselore, who was the girlfriend of the bully Gino. His teacher Meester de Vriend believes he is a promising writer and poet. Gino picks on…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-19",
+"v": 4,
+"yr": 2005
+},
 "de grote sinterklaasfilm en de vliegende pieten": {
 "tm4": true,
 "tmdb": true,
@@ -1747,6 +1867,22 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"de minder gelukkige terugkeer van joszef katús naar het land van rembrandt": {
+"dr": "Wim Verstappen",
+"du": 96,
+"gn": [
+"Drama"
+],
+"lg": [
+"nl"
+],
+"sy": "The dutchified Hungarian Joszef Katús returns, after a months-long absence, to Amsterdam on 29 April 1966. The arrival of the Provos changed a great deal in the Dutch capital. The film follows Katús, mostly…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-19",
+"v": 4,
+"yr": 1966
 },
 "de notenkraker": {
 "tm5": true,
@@ -1897,6 +2033,23 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"do no harm": {
+"dr": "Eron Sheean",
+"du": 126,
+"gn": [
+"TV Movie",
+"Thriller"
+],
+"lg": [
+"en"
+],
+"sy": "Emily Edmunds has a great job and a great guy, Mark. But when Mark is killed in a plane crash, a distraught Emily attempts suicide.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-19",
+"v": 4,
+"yr": 2025
 },
 "donnie darko": {
 "dr": "Richard Kelly",
@@ -2128,6 +2281,25 @@
 "v": 4,
 "yr": 1962
 },
+"eng subs coward": {
+"dr": "Lukas Dhont",
+"du": 120,
+"gn": [
+"Drama",
+"Romance",
+"War"
+],
+"lg": [
+"fr",
+"nl"
+],
+"sy": "Pierre, a young Belgian soldier, wants to prove himself on the battlefield during the First World War. Behind the frontlines, he meets Francis, who is asked to find a way to boost morale.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-19",
+"v": 4,
+"yr": 2026
+},
 "eng subs jim queen": {
 "dr": "Marco N'Guyen, Nicolas Athane",
 "du": 80,
@@ -2329,6 +2501,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1981
+},
+"excalibur 1981 mediaevalia": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-19",
+"v": 4
 },
 "exotica": {
 "dr": "Atom Egoyan",
@@ -2652,6 +2830,25 @@
 "tmdb": true,
 "tried": "2026-10-14",
 "v": 4
+},
+"fjord": {
+"dr": "Christian Mungiu",
+"du": 146,
+"gn": [
+"Drama"
+],
+"lg": [
+"en",
+"no",
+"ro"
+],
+"rt": 7.2,
+"sy": "Following the deaths of Mihai's parents, Mihai and Lisbeth Gheorghiu leave their life behind in Romania and move with their children to a remote village in Norway, hoping to rebuild their lives near Lisbeth's…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-19",
+"v": 4,
+"yr": 2026
 },
 "flaming ears": {
 "dr": "Ursula Puerrer, A. Hans Scheirl",
@@ -3055,6 +3252,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1993
+},
+"gupi ve gülmeyen kral": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-19",
+"v": 4
 },
 "götterdämmerung": {
 "tm5": true,
@@ -4560,6 +4763,25 @@
 "v": 4,
 "yr": 2026
 },
+"interstellar": {
+"dr": "Christopher Nolan",
+"du": 169,
+"gn": [
+"Adventure",
+"Drama",
+"Science Fiction"
+],
+"lg": [
+"en"
+],
+"rt": 8.5,
+"sy": "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-19",
+"v": 4,
+"yr": 2015
+},
 "interview with the vampire": {
 "dr": "Neil Jordan",
 "du": 123,
@@ -4588,6 +4810,18 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2010
+},
+"jeremy shaw quantification trilogy": {
+"dr": "Jeremy Shaw",
+"du": 112,
+"lg": [
+"en"
+],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-19",
+"v": 4,
+"yr": 2014
 },
 "jerry maguire": {
 "dr": "Cameron Crowe",
@@ -5369,6 +5603,24 @@
 "v": 4,
 "yr": 2026
 },
+"little shop of horrors sing along": {
+"dr": "Frank Oz",
+"du": 94,
+"gn": [
+"Horror",
+"Comedy"
+],
+"lg": [
+"en"
+],
+"rt": 7.0,
+"sy": "Seymour Krelborn is a nerdy orphan working at Mushnik's, a flower shop in urban Skid Row. He harbors a crush on fellow co-worker, Audrey Fulquard, and is berated by Mr. Mushnik daily. One day, Seymour finds a…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-19",
+"v": 4,
+"yr": 1986
+},
 "lola rennt 4k restoration": {
 "dr": "Tom Tykwer",
 "du": 80,
@@ -5534,6 +5786,16 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1960
+},
+"mamelles ancestrales": {
+"dr": "Tabita Rezaire",
+"du": 60,
+"sy": "Drawing inspiration from the megalithic landscapes of Senegal and the Gambia, space debris, archaeology, astronomy, numerology, theology and African understandings of the cosmos, Mamelles Ancestrales strives…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-19",
+"v": 4,
+"yr": 2019
 },
 "mamma roma": {
 "dr": "Pier Paolo Pasolini",
@@ -5918,6 +6180,25 @@
 "v": 4,
 "yr": 2037
 },
+"monty python and the holy grail 1975": {
+"dr": "Terry Gilliam, Terry Jones",
+"du": 91,
+"gn": [
+"Adventure",
+"Comedy",
+"Fantasy"
+],
+"lg": [
+"en"
+],
+"rt": 7.8,
+"sy": "King Arthur, accompanied by his squire, recruits his Knights of the Round Table, including Sir Bedevere the Wise, Sir Lancelot the Brave, Sir Robin the Not-Quite-So-Brave-As-Sir-Lancelot and Sir Galahad the…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-19",
+"v": 4,
+"yr": 1975
+},
 "moppervis": {
 "dr": "Ricard Cussó",
 "du": 88,
@@ -5990,6 +6271,23 @@
 "tmdb": true,
 "tried": "2026-10-14",
 "v": 4
+},
+"my brother s wedding": {
+"dr": "Charles Burnett",
+"du": 81,
+"gn": [
+"Drama"
+],
+"lg": [
+"en"
+],
+"rt": 7.1,
+"sy": "A young African-American man, living in Los Angeles without direction in his life, reluctantly agrees to be the best man for his brother, an upwardly mobile lawyer.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-19",
+"v": 4,
+"yr": 1985
 },
 "mysteries of a communist cave by lytle shaw": {
 "tm4": true,
@@ -6491,6 +6789,23 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"paikar": {
+"dr": "Dawood Hilmandi",
+"du": 97,
+"gn": [
+"Documentary"
+],
+"lg": [
+"fa",
+"nl"
+],
+"sy": "An Iranian expat journeys back to his homeland, where he must face his domineering father and grapple with complex emotions about family ties, cultural identity, and his place in the world.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-19",
+"v": 4,
+"yr": 2025
+},
 "palestine 36": {
 "dr": "Annemarie Jacir",
 "du": 118,
@@ -6693,6 +7008,23 @@
 "v": 4,
 "yr": 2023
 },
+"persona 4k restoration": {
+"dr": "Ingmar Bergman",
+"du": 85,
+"gn": [
+"Drama"
+],
+"lg": [
+"sv"
+],
+"rt": 8.1,
+"sy": "A young nurse, Alma, is put in charge of Elisabeth Vogler: an actress who is seemingly healthy in all respects, but will not talk. As they spend time together, Alma speaks to Elisabeth constantly, never…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-19",
+"v": 4,
+"yr": 1966
+},
 "philadelphia": {
 "dr": "Jonathan Demme",
 "du": 125,
@@ -6791,6 +7123,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1990
+},
+"preview amarga navidad": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-19",
+"v": 4
 },
 "preview sense and sensibility": {
 "tm4": true,
@@ -6963,6 +7301,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2001
+},
+"ran 1985 mediaevalia": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-19",
+"v": 4
 },
 "ratcatcher": {
 "dr": "Lynne Ramsay",
@@ -8502,6 +8846,23 @@
 "v": 4,
 "yr": 1973
 },
+"the final insult": {
+"dr": "Charles Burnett",
+"du": 55,
+"gn": [
+"Documentary",
+"Drama"
+],
+"lg": [
+"en"
+],
+"sy": "This video work intermingles fiction with actuality in a poignant confrontation with homelessness.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-19",
+"v": 4,
+"yr": 1997
+},
 "the fisher king": {
 "dr": "Terry Gilliam",
 "du": 137,
@@ -8575,6 +8936,25 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2025
+},
+"the glass shield": {
+"dr": "Charles Burnett",
+"du": 110,
+"gn": [
+"Drama",
+"Action",
+"Thriller"
+],
+"lg": [
+"en"
+],
+"rt": 5.2,
+"sy": "J.J. is a rookie in the Sheriff's Department and the first black officer at that station. Racial tensions run high in the department as some of J.J.'s fellow officers resent his presence. His only real friend…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-19",
+"v": 4,
+"yr": 1994
 },
 "the glorious dead": {
 "dr": "Toby Poser, John Adams",
@@ -8884,6 +9264,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1999
+},
+"the name of the rose 1986 mediaevalia": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-19",
+"v": 4
 },
 "the nightmare before christmas": {
 "dr": "Henry Selick",
@@ -9836,6 +10222,25 @@
 "tmdb": true,
 "tried": "2026-10-15",
 "v": 4
+},
+"uncle boonmee who can recall his past lives": {
+"dr": "Apichatpong Weerasethakul",
+"du": 113,
+"gn": [
+"Drama",
+"Fantasy"
+],
+"lg": [
+"th"
+],
+"qr": 1,
+"rt": 6.7,
+"sy": "Suffering from a kidney disease and sure of his death, Uncle Boonmee assembles his relatives in the countryside. He reminisces about his past lives and plans to visit a place before dying.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-19",
+"v": 4,
+"yr": 2010
 },
 "under the flags the sun": {
 "dr": "Juanjo Pereira",

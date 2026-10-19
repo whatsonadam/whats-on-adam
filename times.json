@@ -167,6 +167,10 @@
 "none": true,
 "chk": "2026-10-18"
 },
+"https://parallel.am/programme/la-casa-del-perreo-13": {
+"none": true,
+"chk": "2026-10-19"
+},
 "https://parallel.am/programme/modus-ade-2": {
 "none": true,
 "chk": "2026-10-18"
@@ -346,6 +350,11 @@
 "https://tolhuistuin.nl/en/events/counter-gaze-metroscope-opening": {
 "none": true,
 "chk": "2026-10-18"
+},
+"https://tolhuistuin.nl/en/events/culture-the-futures-we-make": {
+"h": "19:00",
+"eh": null,
+"chk": "2026-10-19"
 },
 "https://tolhuistuin.nl/en/events/culturele-noordspelen-x-colourful-noord-festival-feestelijke-muurschildering-onthulling-2": {
 "none": true,
@@ -532,6 +541,11 @@
 "h": "19:30",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/je-verhaal-klopt-maar-voor-wie-eigenlijk": {
+"h": "15:45",
+"eh": null,
+"chk": "2026-10-19"
 },
 "https://tolhuistuin.nl/en/events/julia-wolf": {
 "h": "19:30",
@@ -1496,6 +1510,23 @@
 },
 "chk": "2026-10-13"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/froukje": {
+"dates": {
+"2026-12-10": {
+"h": "19:30",
+"eh": "22:00"
+},
+"2026-12-11": {
+"h": "19:30",
+"eh": "22:00"
+},
+"2026-12-12": {
+"h": "19:00",
+"eh": "21:30"
+}
+},
+"chk": "2026-10-19"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/ghostly-kisses": {
 "dates": {
 "2026-11-06": {
@@ -1777,6 +1808,19 @@
 }
 },
 "chk": "2026-10-13"
+},
+"https://www.iamsterdam.com/uit/agenda/festivals/events/belgium-booms-en-de-brakke-grond-op-amsterdam-dance-event-2026": {
+"dates": {
+"2026-10-22": {
+"h": "09:30",
+"eh": "11:30"
+},
+"2026-10-23": {
+"h": "18:00",
+"eh": "04:00"
+}
+},
+"chk": "2026-10-19"
 },
 "https://www.iamsterdam.com/uit/agenda/festivals/events/hamertje-tik": {
 "dates": {
