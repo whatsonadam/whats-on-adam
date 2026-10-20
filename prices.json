@@ -15,6 +15,10 @@
 "p": null,
 "t": "2026-10-17"
 },
+"https://desering.org/event/care-in-its-own-words": {
+"p": null,
+"t": "2026-10-20"
+},
 "https://desering.org/event/de-serings-community-halloween-bash": {
 "p": null,
 "t": "2026-10-17"
@@ -39,6 +43,11 @@
 "https://desering.org/event/klimaatborrel-climate-drinks---copy---copy---copy": {
 "p": null,
 "t": "2026-10-17"
+},
+"https://desering.org/event/klub-krai": {
+"p": null,
+"t": "2026-10-20",
+"tk": "https://klub-krai.weticket.io/klub-krai-de-sering/shop"
 },
 "https://desering.org/event/lino-for-prisoners-workshop-and-letter-writing": {
 "p": null,
@@ -352,6 +361,10 @@
 "p": "Donation",
 "t": "2026-10-17"
 },
+"https://mezrab.nl/events/open-stage-storytelling-night-2-2025-12-24-2026-07-01-2026-07-08-2026-07-15-2026-07-22-2026-07-29-2026-08-05-2026-08-12-2026-08-19-2026-08-26-2026-09-02-2026-09-09-2026-09-16-2026-09-23-10-2027-02-17/": {
+"p": "Donation",
+"t": "2026-10-20"
+},
 "https://mezrab.nl/events/open-stage-storytelling-night-2-2025-12-24-2026-07-01-2026-07-08-2026-07-15-2026-07-22-2026-07-29-2026-08-05-2026-08-12-2026-08-19-2026-08-26-2026-09-02-2026-09-09-2026-09-16-2026-09-23-11-2026-11-18/": {
 "p": "Donation",
 "t": "2026-10-17"
@@ -524,6 +537,10 @@
 "p": null,
 "t": "2026-10-16"
 },
+"https://offbeat.amsterdam/event/aaah-anarchist-action-assistance-hour-78": {
+"p": null,
+"t": "2026-10-20"
+},
 "https://offbeat.amsterdam/event/aade-subject-sue-ep-release-details-in-the-dark": {
 "p": null,
 "t": "2026-10-18"
@@ -548,6 +565,10 @@
 "p": null,
 "t": "2026-10-19"
 },
+"https://offbeat.amsterdam/event/ade-oedipus-x-vinyls-at-the-gallery": {
+"p": null,
+"t": "2026-10-20"
+},
 "https://offbeat.amsterdam/event/ade-opening-concert-kybba-and-metropole-orkest-special-guests": {
 "p": null,
 "t": "2026-10-17"
@@ -555,6 +576,14 @@
 "https://offbeat.amsterdam/event/ade-or-chamos-presents-hawrave": {
 "p": null,
 "t": "2026-10-18"
+},
+"https://offbeat.amsterdam/event/ade-radio-radio-x-el-tony-mate-academy-with-tsepo-b2b-anz-academy-djs-1": {
+"p": null,
+"t": "2026-10-20"
+},
+"https://offbeat.amsterdam/event/ade-x-plein-theater-sex-and-death": {
+"p": null,
+"t": "2026-10-20"
 },
 "https://offbeat.amsterdam/event/adonis": {
 "p": null,
@@ -628,6 +657,10 @@
 "p": null,
 "t": "2026-10-19"
 },
+"https://offbeat.amsterdam/event/basshall-presents-kybba-ade": {
+"p": null,
+"t": "2026-10-20"
+},
 "https://offbeat.amsterdam/event/betty-friday-vrij-mi-bo-cabaret-mc020-31": {
 "p": null,
 "t": "2026-10-16"
@@ -659,6 +692,10 @@
 "https://offbeat.amsterdam/event/bunker-chess-club-60": {
 "p": null,
 "t": "2026-10-17"
+},
+"https://offbeat.amsterdam/event/campus-culture-bazar": {
+"p": null,
+"t": "2026-10-20"
 },
 "https://offbeat.amsterdam/event/carl-jung-het-kwaad-in-onszelf": {
 "p": null,
@@ -732,9 +769,17 @@
 "p": null,
 "t": "2026-10-16"
 },
+"https://offbeat.amsterdam/event/dj-mag-presents-ade": {
+"p": null,
+"t": "2026-10-20"
+},
 "https://offbeat.amsterdam/event/dj-snake-ade": {
 "p": null,
 "t": "2026-10-19"
+},
+"https://offbeat.amsterdam/event/dok-night-59": {
+"p": null,
+"t": "2026-10-20"
 },
 "https://offbeat.amsterdam/event/doka-studio-with-doppelgang-or-diede": {
 "p": null,
@@ -840,6 +885,14 @@
 "p": null,
 "t": "2026-10-16"
 },
+"https://offbeat.amsterdam/event/hyper-dreams-x-annie": {
+"p": null,
+"t": "2026-10-20"
+},
+"https://offbeat.amsterdam/event/individuele-expressie-en-collectieve-actie": {
+"p": null,
+"t": "2026-10-20"
+},
 "https://offbeat.amsterdam/event/inside-syria": {
 "p": null,
 "t": "2026-10-17"
@@ -872,6 +925,10 @@
 "p": null,
 "t": "2026-10-16"
 },
+"https://offbeat.amsterdam/event/kabra-or-acupuncture-and-cupping-49": {
+"p": null,
+"t": "2026-10-20"
+},
 "https://offbeat.amsterdam/event/kabra-or-herbal-treatment-and-massage-48": {
 "p": null,
 "t": "2026-10-16"
@@ -899,6 +956,10 @@
 "https://offbeat.amsterdam/event/kiss-all-hipsters-10": {
 "p": null,
 "t": "2026-10-16"
+},
+"https://offbeat.amsterdam/event/kraak-and-smaak-live-1": {
+"p": null,
+"t": "2026-10-20"
 },
 "https://offbeat.amsterdam/event/kraakspreekuur-oost-91": {
 "p": null,
@@ -980,6 +1041,10 @@
 "p": null,
 "t": "2026-10-17"
 },
+"https://offbeat.amsterdam/event/lunch-at-cafe-gilde-82": {
+"p": null,
+"t": "2026-10-20"
+},
 "https://offbeat.amsterdam/event/maatje-paatje-and-mokaiso": {
 "p": null,
 "t": "2026-10-16"
@@ -1011,6 +1076,10 @@
 "https://offbeat.amsterdam/event/mayhem-death-over-europe-part-ii": {
 "p": null,
 "t": "2026-10-16"
+},
+"https://offbeat.amsterdam/event/meduza-1": {
+"p": null,
+"t": "2026-10-20"
 },
 "https://offbeat.amsterdam/event/mens-circle": {
 "p": null,
@@ -1063,6 +1132,10 @@
 "https://offbeat.amsterdam/event/nieuwe-noten-amsterdam-microtonale-klankwerelden": {
 "p": null,
 "t": "2026-10-16"
+},
+"https://offbeat.amsterdam/event/nimino": {
+"p": null,
+"t": "2026-10-20"
 },
 "https://offbeat.amsterdam/event/nutty-anitas-presents-freak-show-edition-ft-roc-roc-it": {
 "p": null,
@@ -1124,6 +1197,10 @@
 "p": null,
 "t": "2026-10-16"
 },
+"https://offbeat.amsterdam/event/performance-eloy-cruz-del-prado": {
+"p": null,
+"t": "2026-10-20"
+},
 "https://offbeat.amsterdam/event/pj-morton": {
 "p": null,
 "t": "2026-10-17"
@@ -1148,6 +1225,10 @@
 "p": null,
 "t": "2026-10-17"
 },
+"https://offbeat.amsterdam/event/ra25-amsterdam-greenhouse-sessions-live": {
+"p": null,
+"t": "2026-10-20"
+},
 "https://offbeat.amsterdam/event/rec-play-x-doka-studio-with-leroy-rey-or-vasco": {
 "p": null,
 "t": "2026-10-16"
@@ -1155,6 +1236,10 @@
 "https://offbeat.amsterdam/event/remy-evers-graag-gedaan-leesvoorstelling": {
 "p": null,
 "t": "2026-10-16"
+},
+"https://offbeat.amsterdam/event/restaurant-sisi-and-sevgi-koken-58": {
+"p": null,
+"t": "2026-10-20"
 },
 "https://offbeat.amsterdam/event/restaurant-yayang-22": {
 "p": null,
@@ -1224,6 +1309,10 @@
 "p": null,
 "t": "2026-10-19"
 },
+"https://offbeat.amsterdam/event/shall-we-dance-30th-anniversary-27": {
+"p": null,
+"t": "2026-10-20"
+},
 "https://offbeat.amsterdam/event/sissis-friday-with-tienson-b2b-siem": {
 "p": null,
 "t": "2026-10-16"
@@ -1267,6 +1356,10 @@
 "https://offbeat.amsterdam/event/symbiosis": {
 "p": null,
 "t": "2026-10-17"
+},
+"https://offbeat.amsterdam/event/taalcafe-noord-6": {
+"p": null,
+"t": "2026-10-20"
 },
 "https://offbeat.amsterdam/event/takuya-nakamura-1": {
 "p": null,
@@ -1312,6 +1405,10 @@
 "p": null,
 "t": "2026-10-16"
 },
+"https://offbeat.amsterdam/event/the-sonic-silk-road-transcultural-exchange-through-dance-music": {
+"p": null,
+"t": "2026-10-20"
+},
 "https://offbeat.amsterdam/event/the-space-choir-20": {
 "p": null,
 "t": "2026-10-17"
@@ -1340,9 +1437,21 @@
 "p": null,
 "t": "2026-10-16"
 },
+"https://offbeat.amsterdam/event/tones-presents-juls-ade": {
+"p": null,
+"t": "2026-10-20"
+},
+"https://offbeat.amsterdam/event/transatlantic-voices-1": {
+"p": null,
+"t": "2026-10-20"
+},
 "https://offbeat.amsterdam/event/tuinieren-green-ass-garden-28": {
 "p": null,
 "t": "2026-10-16"
+},
+"https://offbeat.amsterdam/event/vault-sessions-x-mutual-rytm-ade": {
+"p": null,
+"t": "2026-10-20"
 },
 "https://offbeat.amsterdam/event/vegan-voku-and-free-market-40": {
 "p": null,
@@ -1360,9 +1469,17 @@
 "p": null,
 "t": "2026-10-17"
 },
+"https://offbeat.amsterdam/event/voku-for-joes": {
+"p": null,
+"t": "2026-10-20"
+},
 "https://offbeat.amsterdam/event/voorleesmiddag-zachter-dan-zout-3": {
 "p": null,
 "t": "2026-10-16"
+},
+"https://offbeat.amsterdam/event/werk-aan-je-toekomst-5": {
+"p": null,
+"t": "2026-10-20"
 },
 "https://offbeat.amsterdam/event/witte-geit-timm-knipt-10": {
 "p": null,
@@ -1403,6 +1520,10 @@
 "https://offbeat.amsterdam/event/zine-nites-amsterdam-come-make-zines": {
 "p": null,
 "t": "2026-10-18"
+},
+"https://offbeat.amsterdam/event/zoop-art-project-presentation-jewelry-with-seeds-for-a-better-future": {
+"p": null,
+"t": "2026-10-20"
 },
 "https://offbeat.amsterdam/event/zoutmus-album-release-party": {
 "p": null,
@@ -2372,6 +2493,10 @@
 "p": null,
 "t": "2026-10-17"
 },
+"https://radar.squat.net/en/event/amsterdam/plantage-dok/2026-12-10/dok-night": {
+"p": null,
+"t": "2026-10-20"
+},
 "https://radar.squat.net/en/event/amsterdam/rhythms-resistance-amsterdam/2026-11-04/open-practice-social-night-ror-amsterdam": {
 "p": "Free",
 "t": "2026-10-16"
@@ -2407,6 +2532,10 @@
 "https://radar.squat.net/en/event/amsterdam/verdieping/2026-12-03/multilingual-anarchist-distro": {
 "p": null,
 "t": "2026-10-17"
+},
+"https://radar.squat.net/en/event/amsterdam/verdieping/2026-12-10/multilingual-anarchist-distro": {
+"p": null,
+"t": "2026-10-20"
 },
 "https://radar.squat.net/en/event/amsterdam/vlaggen-voor-palestina/2026-10-18/vlaggen-voor-palestina-oost": {
 "p": null,
@@ -3221,6 +3350,18 @@
 "p": "Free",
 "t": "2026-10-17"
 },
+"https://tickets.dezwijger.nl/mtTicket/performance/10041732": {
+"p": "€11",
+"t": "2026-10-20"
+},
+"https://tickets.dezwijger.nl/mtTicket/performance/10041734": {
+"p": "€11",
+"t": "2026-10-20"
+},
+"https://tickets.dezwijger.nl/mtTicket/performance/10041937": {
+"p": "€11",
+"t": "2026-10-20"
+},
 "https://tolhuistuin.nl/en/events/30-jaar-excelsior-recordings": {
 "p": "€28,70",
 "t": "2026-10-17",
@@ -4007,6 +4148,10 @@
 "p": "€18",
 "t": "2026-10-17"
 },
+"https://www.cinetol.nl/events/lemur": {
+"p": "€11,75",
+"t": "2026-10-20"
+},
 "https://www.cinetol.nl/events/liedfett": {
 "p": "€19,75",
 "t": "2026-10-17"
@@ -4434,6 +4579,10 @@
 "p": "from €25",
 "t": "2026-10-16"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/arkayla": {
+"p": "from €17,50",
+"t": "2026-10-20"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/arsenal-mikebe-prance-and-ike-melchizedek": {
 "p": null,
 "t": "2026-10-16"
@@ -4441,6 +4590,10 @@
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/arsenii-moon-speelt-chopin-en-ravel": {
 "p": "from €25",
 "t": "2026-10-17"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/artvark-four-fathers": {
+"p": "from €13",
+"t": "2026-10-20"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/aupinard": {
 "p": "from €17",
@@ -5022,6 +5175,10 @@
 "p": null,
 "t": "2026-10-19"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/gallowstreet-en-gallowstreet-kids-edition": {
+"p": "from €28,20",
+"t": "2026-10-20"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/gavin-james": {
 "p": "from €40,25",
 "t": "2026-10-17"
@@ -5081,6 +5238,10 @@
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/gratis-lunchconcert-grachtenfestival-jazz-competition-2026": {
 "p": null,
 "t": "2026-10-17"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/gratis-lunchconcert-koninklijk-conservatorium": {
+"p": null,
+"t": "2026-10-20"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/gratis-lunchconcert-naarden-pianofestival": {
 "p": null,
@@ -5162,6 +5323,10 @@
 "p": "from €25",
 "t": "2026-10-17"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/hang-youth-hardkoor-nachtmis": {
+"p": "from €31,30",
+"t": "2026-10-20"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/harmoniumdag": {
 "p": "from €12,50",
 "t": "2026-10-17"
@@ -5181,6 +5346,10 @@
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/haute-and-freddy": {
 "p": null,
 "t": "2026-10-17"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/heinoos-xxl-proosten-op-het-oosten": {
+"p": "from €28,20",
+"t": "2026-10-20"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/hello-cello-orkest": {
 "p": null,
@@ -5313,6 +5482,10 @@
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/jet-van-der-steen": {
 "p": "from €23",
 "t": "2026-10-17"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/jett-rebel": {
+"p": null,
+"t": "2026-10-20"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/joel-domingos": {
 "p": null,
@@ -5566,6 +5739,10 @@
 "p": "from €28,75",
 "t": "2026-10-17"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/letz-zep-aerochicks-1": {
+"p": "from €28,75",
+"t": "2026-10-20"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/library-card": {
 "p": "from €17",
 "t": "2026-10-19"
@@ -5666,6 +5843,10 @@
 "p": "from €18,25",
 "t": "2026-10-17"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/maria-iskariot-kaat-van-stralen-en-anderen": {
+"p": "from €21,20",
+"t": "2026-10-20"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/marie-francois-tchaikovskys-de-seizoenen": {
 "p": null,
 "t": "2026-10-16"
@@ -5742,6 +5923,10 @@
 "p": "from €33,35",
 "t": "2026-10-17"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/milolaathetlukken": {
+"p": null,
+"t": "2026-10-20"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/minimal-collective-x-oude-kerk-post-space": {
 "p": "from €14,50",
 "t": "2026-10-16"
@@ -5749,6 +5934,10 @@
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/misha-fomin-speelt-beethoven-schubert-en-brahms": {
 "p": "from €33",
 "t": "2026-10-17"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/mixtape-rock-night": {
+"p": "from €15,75",
+"t": "2026-10-20"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/moesorgskis-schilderijententoonstelling-met-markus-stenz": {
 "p": "from €21",
@@ -5849,6 +6038,14 @@
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/new-model-army": {
 "p": "from €34,50",
 "t": "2026-10-17"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/nia-archives": {
+"p": "from €40,95",
+"t": "2026-10-20"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/nickless": {
+"p": "from €16",
+"t": "2026-10-20"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/nicolas-altstaedt-en-maxim-emelyanychev-in-beethoven-britten-schumann-en-brahms": {
 "p": "from €29",
@@ -5997,6 +6194,10 @@
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/popup-choir-taylor-swift-zing-mee-met-maarten-bos-en-tijmen-de-koning": {
 "p": "from €25",
 "t": "2026-10-16"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/punch-brothers": {
+"p": "from €39,30",
+"t": "2026-10-20"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/pygmalion-en-raphael-pichon-in-mozarts-mis-in-c": {
 "p": "from €43",
@@ -6314,6 +6515,10 @@
 "p": "from €27,60",
 "t": "2026-10-17"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/strampalati-muziek-uit-italie-teatro-munganga": {
+"p": "from €15",
+"t": "2026-10-20"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/strauss-also-sprach-zarathustra-en-rosenkavalier-suite": {
 "p": "from €21",
 "t": "2026-10-17"
@@ -6354,6 +6559,10 @@
 "p": null,
 "t": "2026-10-17"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/tangarine-running-in-the-family-ii-1": {
+"p": "from €21,50",
+"t": "2026-10-20"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/tay-oskee": {
 "p": "from €19,70",
 "t": "2026-10-16"
@@ -6393,6 +6602,10 @@
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/the-klittens-klitfest": {
 "p": "from €16",
 "t": "2026-10-19"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/the-music-of-simon-and-garfunkel": {
+"p": "from €59",
+"t": "2026-10-20"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/the-story-lisztomania": {
 "p": "from €25",
@@ -6438,6 +6651,10 @@
 "p": "from €29",
 "t": "2026-10-17"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/tia-gordon": {
+"p": "from €19,20",
+"t": "2026-10-20"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/tijdspiegel": {
 "p": "from €10",
 "t": "2026-10-17"
@@ -6465,6 +6682,10 @@
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/tribute-to-oscar-peterson-trio": {
 "p": null,
 "t": "2026-10-17"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/trio-gaspard-met-tsjechisch-programma-smetana-en-dvorak": {
+"p": "from €25",
+"t": "2026-10-20"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/trixie-whitley": {
 "p": "from €27,70",
@@ -6594,6 +6815,10 @@
 "p": "from €8",
 "t": "2026-10-16"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/zuco-103": {
+"p": "from €25,20",
+"t": "2026-10-20"
+},
 "https://www.iamsterdam.com/uit/agenda/festivals/events/15-jaar-bijlmer-got-talent-het-tweedaagse-jubileum-festival": {
 "p": "from €14,50",
 "t": "2026-10-16"
@@ -6645,6 +6870,10 @@
 "https://www.iamsterdam.com/uit/agenda/festivals/events/arigato-show-ade-special": {
 "p": "from €81",
 "t": "2026-10-16"
+},
+"https://www.iamsterdam.com/uit/agenda/festivals/events/automatic-noise-festival-vii": {
+"p": "from €23",
+"t": "2026-10-20"
 },
 "https://www.iamsterdam.com/uit/agenda/festivals/events/avond-van-de-chef": {
 "p": null,
@@ -7078,6 +7307,10 @@
 "p": "from €50",
 "t": "2026-10-16"
 },
+"https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/bounce-that-booty": {
+"p": "from €12,50",
+"t": "2026-10-20"
+},
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/boys-noize-presents": {
 "p": "from €34,50",
 "t": "2026-10-16"
@@ -7253,6 +7486,10 @@
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/dj-bone-presents-further-x-homeless-homies-ade-2026": {
 "p": null,
 "t": "2026-10-16"
+},
+"https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/dj-habibeats": {
+"p": "from €29,90",
+"t": "2026-10-20"
 },
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/dj-international-records-presents-chicago-meets-amsterdam": {
 "p": "from €15",
@@ -8010,6 +8247,10 @@
 "p": "from €24,15",
 "t": "2026-10-17"
 },
+"https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/rooted-in-culture-uk-sounds-influencing-house-culture": {
+"p": "from €12,50",
+"t": "2026-10-20"
+},
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/rose-ringed-presents-hrmny": {
 "p": null,
 "t": "2026-10-16"
@@ -8609,6 +8850,10 @@
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/antizionisme-een-joodse-geschiedenis-met-benjamin-moser": {
 "p": null,
 "t": "2026-10-16"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/aqueerius-beyond-the-ball": {
+"p": "from €7,50",
+"t": "2026-10-20"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/aura-sex-and-death": {
 "p": "from €12,50",

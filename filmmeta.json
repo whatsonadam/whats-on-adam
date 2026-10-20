@@ -463,6 +463,12 @@
 "v": 4,
 "yr": 2000
 },
+"amsterdam polish film festival innocent sorcerers": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-20",
+"v": 4
+},
 "amsterdam wildlife by night": {
 "dr": "Merel Westrik, Martin Melchers",
 "du": 60,
@@ -1523,6 +1529,25 @@
 "v": 4,
 "yr": 2026
 },
+"coward eng subs": {
+"dr": "Lukas Dhont",
+"du": 120,
+"gn": [
+"Drama",
+"Romance",
+"War"
+],
+"lg": [
+"fr",
+"nl"
+],
+"sy": "Pierre, a young Belgian soldier, wants to prove himself on the battlefield during the First World War. Behind the frontlines, he meets Francis, who is asked to find a way to boost morale.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-20",
+"v": 4,
+"yr": 2026
+},
 "coward english subs": {
 "dr": "Lukas Dhont",
 "du": 120,
@@ -1575,6 +1600,25 @@
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4,
+"yr": 2026
+},
+"coyote vs acme nl": {
+"dr": "Dave Green",
+"du": 101,
+"gn": [
+"Comedy",
+"Adventure",
+"Family"
+],
+"lg": [
+"nl"
+],
+"rt": 7.5,
+"sy": "After Acme products fail him one too many times in his dogged pursuit of the Roadrunner, Wile E. Coyote decides to hire a billboard lawyer to sue the Acme Corporation.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-20",
 "v": 4,
 "yr": 2026
 },
@@ -2464,6 +2508,18 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-10-18",
+"v": 4
+},
+"europa trilogy epidemic 1987": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-20",
+"v": 4
+},
+"europa trilogy europa 1991": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-20",
 "v": 4
 },
 "europa trilogy europa zentropa": {
@@ -5567,6 +5623,18 @@
 "v": 3,
 "yr": 1964
 },
+"lesvia 2024 mr dimitris and mrs dimitroula 2019": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-20",
+"v": 4
+},
+"lesvia mr dimitris and mrs dimitroula": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-20",
+"v": 4
+},
 "let s scare jessica to death 1971 kadavers in k": {
 "tm4": true,
 "tmdb": true,
@@ -5602,6 +5670,26 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"linda linda linda 2005": {
+"dr": "Nobuhiro Yamashita",
+"du": 115,
+"gn": [
+"Comedy",
+"Music",
+"Drama"
+],
+"lg": [
+"ja",
+"ko"
+],
+"rt": 7.6,
+"sy": "Only three days before the school festival, a newly formed high school band rushes to put together a set for their big show — including a hit single by '80s by the Japanese punk rock band The Blue Hearts.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-20",
+"v": 4,
+"yr": 2005
 },
 "little shop of horrors sing along": {
 "dr": "Frank Oz",
@@ -5923,6 +6011,30 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2011
+},
+"memorias del subdesarrollo": {
+"dr": "Tomás Gutiérrez Alea",
+"du": 99,
+"gn": [
+"Drama"
+],
+"lg": [
+"es",
+"en"
+],
+"rt": 7.2,
+"sy": "In the aftermath of the Bay of Pigs incident, Sergio chooses to stay behind in Cuba while his wife and family escape to neighboring Miami. Alone in a brave new world, Sergio observes the constant threat of…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-20",
+"v": 4,
+"yr": 1968
+},
+"memorias del subdesarrollo 1968": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-20",
+"v": 4
 },
 "merlusse": {
 "dr": "Marcel Pagnol",
@@ -8175,6 +8287,24 @@
 "v": 4,
 "yr": 2026
 },
+"sunny dancer": {
+"dr": "George Jaques",
+"du": 106,
+"gn": [
+"Drama",
+"Comedy"
+],
+"lg": [
+"en"
+],
+"rt": 7.2,
+"sy": "Reluctantly sent to a summer retreat for young cancer survivors, a teenager in remission unexpectedly finds deep connections and new beginnings among fellow campers.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-20",
+"v": 4,
+"yr": 2026
+},
 "surprise screening 2": {
 "tm5": true,
 "tmdb": true,
@@ -10065,6 +10195,23 @@
 "v": 4,
 "yr": 1996
 },
+"treat her like a lady": {
+"dr": "Paloma Aguilera Valdebenito",
+"du": 111,
+"gn": [
+"Drama"
+],
+"lg": [
+"sq",
+"nl"
+],
+"sy": "When single mother Sandra, full of unwavering energy, is evicted from her apartment by the Dutch government due to fraud, she convinces her daughters Harrie and Stella that their emergency shelter is a holiday…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-20",
+"v": 4,
+"yr": 2026
+},
 "trois couleurs blanc": {
 "dr": "Krzysztof Kieslowski",
 "du": 81,
@@ -10573,6 +10720,35 @@
 "tried": "2026-10-16",
 "v": 4,
 "yr": 2026
+},
+"with hasan in gaza 2025 palestine cinema days around the world": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-20",
+"v": 4
+},
+"with hasan in gaza palestine cinema days around the world": {
+"dr": "Kamal Aljafari",
+"du": 106,
+"gn": [
+"Documentary",
+"War"
+],
+"lg": [
+"ar"
+],
+"sy": "Three MiniDV tapes of life in Gaza from 2001 were recently rediscovered. What started as a search for a former prison mate from 1989 led to an unexpected road trip from the north to the south of Gaza with…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-20",
+"v": 4,
+"yr": 2025
+},
+"working progress": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-20",
+"v": 4
 },
 "working progress filmmakers community event": {
 "dr": "Diversen",

@@ -2724,6 +2724,10 @@
 "q": "name",
 "area": "West"
 },
+"Mindspace": {
+"skip": true,
+"q": "not found"
+},
 "Miuz Gelato De Pijp": {
 "lat": 52.3578,
 "lon": 4.89068,
@@ -3128,11 +3132,21 @@
 "q": "name",
 "area": "West"
 },
+"Outline @ Het Veem": {
+"lat": 52.39027,
+"lon": 4.88707,
+"q": "name",
+"area": "West"
+},
 "Overtone Bistro": {
 "lat": 52.35801,
 "lon": 4.85709,
 "q": "name",
 "area": "West"
+},
+"Overtoom 147": {
+"skip": true,
+"q": "not found"
 },
 "PAN Amsterdam": {
 "lat": 52.37817,
@@ -4148,6 +4162,12 @@
 "lon": 4.95388,
 "q": "name",
 "area": "Zuidoost"
+},
+"The Bookshop": {
+"lat": 52.36734,
+"lon": 4.893,
+"q": "name",
+"area": "Centrum"
 },
 "The Brokers Bar": {
 "lat": 52.37538,

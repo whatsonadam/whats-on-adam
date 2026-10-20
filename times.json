@@ -490,7 +490,7 @@
 },
 "https://tolhuistuin.nl/en/events/het-mannengesprek-echte-mannen-praten": {
 "none": true,
-"chk": "2026-10-13"
+"chk": "2026-10-20"
 },
 "https://tolhuistuin.nl/en/events/hey-nothing-hound-world-tour": {
 "h": "20:30",
@@ -751,7 +751,7 @@
 },
 "https://tolhuistuin.nl/en/events/the-dance-club-2": {
 "none": true,
-"chk": "2026-10-13"
+"chk": "2026-10-20"
 },
 "https://tolhuistuin.nl/en/events/the-meltdown-2": {
 "h": "20:30",
@@ -1165,6 +1165,10 @@
 "h": "20:30",
 "chk": "2026-10-11"
 },
+"https://www.cinetol.nl/events/lemur": {
+"h": "20:30",
+"chk": "2026-10-20"
+},
 "https://www.cinetol.nl/events/liedfett": {
 "h": "20:00",
 "chk": "2026-10-11"
@@ -1422,6 +1426,14 @@
 },
 "chk": "2026-10-11"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/coffin": {
+"dates": {
+"2026-11-22": {
+"h": "19:30"
+}
+},
+"chk": "2026-10-20"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/concertgebouworkest-kinderconcert-kleine-sheku-en-het-dierenorkest-4": {
 "dates": {
 "2026-12-19": {
@@ -1526,6 +1538,15 @@
 }
 },
 "chk": "2026-10-19"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/gallowstreet-en-gallowstreet-kids-edition": {
+"dates": {
+"2027-01-24": {
+"h": "16:30",
+"eh": "18:00"
+}
+},
+"chk": "2026-10-20"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/ghostly-kisses": {
 "dates": {
@@ -2141,6 +2162,19 @@
 }
 },
 "chk": "2026-10-11"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/love-22-love": {
+"dates": {
+"2026-10-27": {
+"h": "11:15",
+"eh": "12:49"
+},
+"2026-10-28": {
+"h": "10:45",
+"eh": "12:19"
+}
+},
+"chk": "2026-10-20"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/matthew-bournes-the-car-man": {
 "dates": {
