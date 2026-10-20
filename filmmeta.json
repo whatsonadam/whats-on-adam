@@ -64,6 +64,12 @@
 "v": 4,
 "yr": 2026
 },
+"77 uur filmvertoning": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-20",
+"v": 4
+},
 "a dip into australia": {
 "tm4": true,
 "tmdb": true,
@@ -320,6 +326,22 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1988
+},
+"ali g who iz i": {
+"dr": "Sacha Baron Cohen",
+"du": 88,
+"gn": [
+"Comedy"
+],
+"lg": [
+"en"
+],
+"sy": "After twenty years spent \"chillin', tokin' and bonin'\", Ali G is shocked to discover that his long-term girlfriend, Julie, is 8 months pregnant. Faced with an extra mouth to feed, he gets off his batty and…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-20",
+"v": 4,
+"yr": 2026
 },
 "ali plumb s untitled film quiz project": {
 "tm4": true,
@@ -2851,6 +2873,12 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"filmhuis gardens of fez": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-20",
+"v": 4
+},
 "filmhuis paradise circus": {
 "tm4": true,
 "tmdb": true,
@@ -3270,6 +3298,22 @@
 "tmdb": true,
 "tried": "2026-10-14",
 "v": 4
+},
+"goundafa the cursed song": {
+"dr": "Ali Benjelloun",
+"du": 96,
+"gn": [
+"Drama"
+],
+"lg": [
+"ar"
+],
+"sy": "In a small village in Goundafa, Morocco's High Atlas region, Said, Brahim, and Omar play music, dreaming of success and fame, while Fadma and the village women work the land with songs. The arrival of a new…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-20",
+"v": 4,
+"yr": 2025
 },
 "gremlins": {
 "dr": "Joe Dante",
@@ -5709,6 +5753,16 @@
 "v": 4,
 "yr": 1986
 },
+"lola film festival": {
+"dr": "Various",
+"du": 135,
+"lg": [],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-20",
+"v": 4,
+"yr": 2026
+},
 "lola rennt 4k restoration": {
 "dr": "Tom Tykwer",
 "du": 80,
@@ -6723,6 +6777,24 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"north by northwest": {
+"dr": "Alfred Hitchcock",
+"du": 131,
+"gn": [
+"Thriller",
+"Adventure"
+],
+"lg": [
+"en"
+],
+"rt": 8.0,
+"sy": "Advertising man Roger Thornhill is mistaken for a spy, triggering a deadly cross-country chase.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-20",
+"v": 4,
+"yr": 1959
+},
 "north by northwest 4k restoration": {
 "dr": "Alfred Hitchcock",
 "du": 137,
@@ -6779,6 +6851,25 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2025
+},
+"on the waterfront": {
+"dr": "Elia Kazan",
+"du": 106,
+"gn": [
+"Crime",
+"Drama",
+"Romance"
+],
+"lg": [
+"en"
+],
+"rt": 7.8,
+"sy": "A prizefighter-turned-longshoreman with a conscience goes up against labor leaders to expose corruption, extortion, and murder among the union ranks.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-20",
+"v": 4,
+"yr": 1954
 },
 "on the waterfront 4k restoration": {
 "dr": "Elia Kazan",

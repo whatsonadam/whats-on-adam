@@ -389,6 +389,12 @@
 "skip": true,
 "q": "not found"
 },
+"Aslan Muziekcentrum": {
+"lat": 52.39477,
+"lon": 4.95139,
+"q": "name",
+"area": "Noord"
+},
 "Astaro Theatro": {
 "lat": 52.37297,
 "lon": 4.89611,
@@ -807,6 +813,10 @@
 "q": "name",
 "area": "Noord"
 },
+"Buurtcultuurhuis De Rietwijker": {
+"skip": true,
+"q": "not found"
+},
 "Buurtwerkplaats Noorderhof": {
 "skip": true,
 "q": "not found"
@@ -1065,6 +1075,12 @@
 "lat": 52.37873,
 "lon": 4.86579,
 "q": "name",
+"area": "West"
+},
+"Check Point Charlie": {
+"lat": 52.38224,
+"lon": 4.87896,
+"q": "addr",
 "area": "West"
 },
 "Chicago Social Club": {
@@ -1555,6 +1571,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"De Willem": {
+"lat": 52.34955,
+"lon": 4.86293,
+"q": "name",
+"area": "Zuid"
+},
 "De Wollen Gymzaal": {
 "skip": true,
 "q": "not found"
@@ -1747,6 +1769,12 @@
 "lon": 4.89484,
 "q": "name",
 "area": "Noord"
+},
+"Feijoa": {
+"lat": 52.36598,
+"lon": 4.8933,
+"q": "name",
+"area": "Centrum"
 },
 "Felix Meritis": {
 "lat": 52.36999,
@@ -3066,6 +3094,12 @@
 "q": "name",
 "area": "Oost"
 },
+"Oedipus Brewery": {
+"lat": 52.38523,
+"lon": 4.92368,
+"q": "name",
+"area": "Noord"
+},
 "Oedipus Craft Space": {
 "skip": true,
 "q": "not found"
@@ -4349,6 +4383,10 @@
 "q": "name",
 "area": "West"
 },
+"Theater De Landing – nieuwe hotspot Uilenstede": {
+"skip": true,
+"q": "not found"
+},
 "Theater De Omval": {
 "lat": 52.34501,
 "lon": 4.9164,
@@ -4554,6 +4592,10 @@
 "lon": 4.85394,
 "q": "name",
 "area": "West"
+},
+"Vincent Hall | Playmobil Exhibition | Amsterdam": {
+"skip": true,
+"q": "not found"
 },
 "Vitti Barberia": {
 "skip": true,
