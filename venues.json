@@ -957,6 +957,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Café Checkpoint Charlie": {
+"lat": 52.38222,
+"lon": 4.87888,
+"q": "name",
+"area": "West"
+},
 "Café De Duivel": {
 "lat": 52.36609,
 "lon": 4.89354,
@@ -1296,6 +1302,12 @@
 "lon": 4.76033,
 "q": "name",
 "area": null
+},
+"Conscious Hotel Vondelpark": {
+"lat": 52.35783,
+"lon": 4.85656,
+"q": "name",
+"area": "West"
 },
 "Consciousness Place": {
 "lat": 52.35613,
@@ -4071,6 +4083,9 @@
 "TBA - Bar Billie": {
 "skip": true
 },
+"TBA - Bar Blij - 1057 SZ": {
+"skip": true
+},
 "TBA - Cafe Westerdok": {
 "skip": true
 },
@@ -4793,6 +4808,10 @@
 "lon": 4.88399,
 "q": "name",
 "area": "Centrum"
+},
+"Westerliefde": {
+"skip": true,
+"q": "not found"
 },
 "Westerpark": {
 "lat": 52.38723,

@@ -6409,6 +6409,24 @@
 "v": 4,
 "yr": 1975
 },
+"moonlight": {
+"dr": "Barry Jenkins",
+"du": 112,
+"gn": [
+"Drama"
+],
+"lg": [
+"en"
+],
+"qr": 1,
+"rt": 7.4,
+"sy": "The tender, heartbreaking story of a young man’s struggle to find himself, told across three defining chapters in his life as he experiences the ecstasy, pain, and beauty of falling in love, while grappling…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-21",
+"v": 4,
+"yr": 2016
+},
 "moppervis": {
 "dr": "Ricard Cussó",
 "du": 88,
@@ -7053,6 +7071,26 @@
 "v": 4,
 "yr": 2025
 },
+"paisà": {
+"dr": "Roberto Rossellini",
+"du": 125,
+"gn": [
+"Drama",
+"War"
+],
+"lg": [
+"it",
+"de",
+"la"
+],
+"rt": 7.5,
+"sy": "Six stories unfold in various regions, from Sicily to the northern Po Valley as American military personnel interact with a variety of Italian locals over eighteen months in the push north during the Italian…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-21",
+"v": 4,
+"yr": 1946
+},
 "palestine 36": {
 "dr": "Annemarie Jacir",
 "du": 118,
@@ -7237,6 +7275,24 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1984
+},
+"pather panchali": {
+"dr": "Satyajit Ray",
+"du": 115,
+"gn": [
+"Drama",
+"History"
+],
+"lg": [
+"bn"
+],
+"rt": 7.8,
+"sy": "Impoverished priest Harihar Ray, dreaming of a better life for himself and his family, leaves his rural Bengal village in search of work. Alone, his wife, Sarbojaya, looks after her rebellious daughter, Durga…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-21",
+"v": 4,
+"yr": 1955
 },
 "paw patrol de dinofilm": {
 "dr": "Cal Brunker",
@@ -9941,6 +9997,23 @@
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4,
+"yr": 1974
+},
+"the texas chainsaw massacre re release": {
+"dr": "Tobe Hooper",
+"du": 83,
+"gn": [
+"Horror"
+],
+"lg": [
+"en"
+],
+"rt": 6.3,
+"sy": "After picking up a traumatized young hitchhiker, five friends find themselves stalked and hunted by a chainsaw-wielding killer and his family of equally psychopathic killers.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-21",
 "v": 4,
 "yr": 1974
 },
