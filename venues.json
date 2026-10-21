@@ -203,6 +203,12 @@
 "q": "name",
 "area": "West"
 },
+"Ambassade Art Gallery": {
+"lat": 52.38237,
+"lon": 4.85528,
+"q": "name",
+"area": "West"
+},
 "Ampēre & Salon D'Homme": {
 "skip": true,
 "q": "not found"
@@ -837,6 +843,12 @@
 "skip": true,
 "q": "not found"
 },
+"CIMA Rooftop Bar": {
+"lat": 52.36158,
+"lon": 4.89929,
+"q": "name",
+"area": "Centrum"
+},
 "CLUB RAUM": {
 "lat": 52.39113,
 "lon": 4.83097,
@@ -1411,6 +1423,12 @@
 "q": "name",
 "area": "West"
 },
+"De Japanner": {
+"lat": 52.33579,
+"lon": 4.8743,
+"q": "name",
+"area": "Zuid"
+},
 "De Kade, Zaandam": {
 "lat": 52.39302,
 "lon": 4.90639,
@@ -1733,6 +1751,12 @@
 "Etalage": {
 "skip": true,
 "q": "not found"
+},
+"Evnia Café": {
+"lat": 52.37731,
+"lon": 4.88864,
+"q": "name",
+"area": "Centrum"
 },
 "Eye Filmmuseum": {
 "lat": 52.38434,
@@ -4039,6 +4063,9 @@
 "skip": true
 },
 "TBA - Assaggi": {
+"skip": true
+},
+"TBA - Balou Bar": {
 "skip": true
 },
 "TBA - Bar Billie": {

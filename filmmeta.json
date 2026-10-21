@@ -2819,6 +2819,12 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"film drink fear and loathing in las vegas incl cocktail": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-21",
+"v": 4
+},
 "film drink jennifer s body incl cocktail": {
 "tm4": true,
 "tmdb": true,
@@ -2883,6 +2889,12 @@
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4
+},
+"filmvertoning about our journey": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-21",
 "v": 4
 },
 "filmvertoning affiba de oudste vrouw van paramaribo rijksmuseum": {
@@ -3125,6 +3137,20 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"gates of europe": {
+"dr": "Olexi Chubun",
+"du": 9,
+"gn": [
+"Drama",
+"War"
+],
+"sy": "After losing their mother to the war, Vira is left alone with her brother Roma and gradually takes on the role of his caregiver. She wants to take him abroad, but when she brings it up, they speak the truth to…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-21",
+"v": 4,
+"yr": 2025
 },
 "ghost dog the way of the samurai": {
 "dr": "Jim Jarmusch",
@@ -6108,6 +6134,24 @@
 "v": 4,
 "yr": 1935
 },
+"michael": {
+"dr": "Antoine Fuqua",
+"du": 127,
+"gn": [
+"Music",
+"Drama"
+],
+"lg": [
+"en"
+],
+"rt": 8.6,
+"sy": "The story of Michael Jackson, one of the most influential artists the world has ever known, and his life beyond the music. His journey from the discovery of his extraordinary talent as the lead of the Jackson…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-21",
+"v": 4,
+"yr": 2024
+},
 "miles 2026": {
 "tm5": true,
 "tmdb": true,
@@ -7048,6 +7092,18 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2025
+},
+"palestine cinema days around the world": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-21",
+"v": 4
+},
+"palestine cinema days around the world six short movies": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-21",
+"v": 4
 },
 "palestine cinema days around the world with hasan in gaza": {
 "tm5": true,
@@ -8744,6 +8800,25 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1995
+},
+"the christophers": {
+"dr": "Steven Soderbergh",
+"du": 100,
+"gn": [
+"Comedy",
+"Drama",
+"Crime"
+],
+"lg": [
+"en"
+],
+"rt": 6.8,
+"sy": "The estranged children of a once-famous artist hire a forger to complete his unfinished works so they can be \"discovered\" and sold after his death.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-21",
+"v": 4,
+"yr": 2025
 },
 "the commitments 1991": {
 "dr": "Alan Parker",

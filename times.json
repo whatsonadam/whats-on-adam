@@ -597,6 +597,11 @@
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/lazy-sunday-rapid-chess-at-de-tolhuistuin": {
+"h": "14:00",
+"eh": null,
+"chk": "2026-10-21"
+},
 "https://tolhuistuin.nl/en/events/lily-seabird": {
 "h": "20:30",
 "eh": null,
@@ -2104,6 +2109,23 @@
 }
 },
 "chk": "2026-10-11"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/cats-2026": {
+"dates": {
+"2026-10-21": {
+"h": "20:00",
+"eh": "22:30"
+},
+"2026-10-22": {
+"h": "20:00",
+"eh": "22:30"
+},
+"2026-10-23": {
+"h": "15:00",
+"eh": "17:30"
+}
+},
+"chk": "2026-10-21"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/de-manager": {
 "dates": {
