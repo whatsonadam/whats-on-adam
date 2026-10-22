@@ -70,6 +70,12 @@
 "tried": "2026-10-20",
 "v": 4
 },
+"98 12 25 otokotachi no wakare 2005": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-22",
+"v": 4
+},
 "a dip into australia": {
 "tm4": true,
 "tmdb": true,
@@ -489,6 +495,12 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-10-20",
+"v": 4
+},
+"amsterdam polish film festival the promised land": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-22",
 "v": 4
 },
 "amsterdam wildlife by night": {
@@ -931,6 +943,26 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2023
+},
+"cabaret 1972": {
+"dr": "Bob Fosse",
+"du": 124,
+"gn": [
+"Music",
+"Romance",
+"Drama"
+],
+"lg": [
+"en"
+],
+"qr": 1,
+"rt": 7.4,
+"sy": "Inside the Kit Kat Club of 1931 Berlin, starry-eyed singer Sally Bowles and an impish emcee sound the clarion call to decadent fun, while outside a certain political party grows into a brutal force.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-22",
+"v": 4,
+"yr": 1972
 },
 "café flesh": {
 "dr": "Stephen Sayadian",
@@ -2659,6 +2691,23 @@
 "v": 4,
 "yr": 1999
 },
+"fairuz we hielden zoveel van mekaar 2003": {
+"dr": "Jack Janssen",
+"du": 80,
+"gn": [
+"Documentary",
+"Music"
+],
+"lg": [
+"ar"
+],
+"sy": "Inhabitants of Beirut talk about their love for the singer Fairuz.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-22",
+"v": 4,
+"yr": 2003
+},
 "fall 2 deadpoint": {
 "dr": "Peter Spierig, Michael Spierig",
 "du": 98,
@@ -3468,6 +3517,23 @@
 "v": 4,
 "yr": 2026
 },
+"heals documentaire over drag race favoriet pangina heals nederlandse première": {
+"dr": "Pailin Wedel",
+"du": 102,
+"gn": [
+"Documentary"
+],
+"lg": [
+"en",
+"th"
+],
+"sy": "Heals traces the rise of Pangina Heals, from a childhood shaped by intergenerational trauma and a conflicted relationship with his alcoholic mother to becoming Asia's first drag queen with a Vegas residency.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-22",
+"v": 4,
+"yr": 2026
+},
 "heart of the beast": {
 "dr": "David Ayer",
 "du": 101,
@@ -3561,6 +3627,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"het kan als je het wilt": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-22",
+"v": 4
 },
 "het offer the sacrifice": {
 "tm4": true,
@@ -4932,6 +5004,18 @@
 "v": 4,
 "yr": 2026
 },
+"international art talent festival": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-22",
+"v": 4
+},
+"interstella 5555 2003": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-22",
+"v": 4
+},
 "interstellar": {
 "dr": "Christopher Nolan",
 "du": 169,
@@ -6256,6 +6340,26 @@
 "v": 4,
 "yr": 2026
 },
+"minotaur tapis rouge 2026": {
+"dr": "Andrey Zvyagintsev",
+"du": 135,
+"gn": [
+"Drama",
+"Crime",
+"Thriller"
+],
+"lg": [
+"ru",
+"en"
+],
+"rt": 7.9,
+"sy": "When Gleb, a successful company director, finds himself under siege from mounting corporate pressures, an increasingly unstable world, and the discovery of his wife's affair, the collapse of his carefully…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-22",
+"v": 4,
+"yr": 2026
+},
 "minotaure tapis rouge 2026": {
 "dr": "Andrey Zvyagintsev",
 "du": 135,
@@ -7406,6 +7510,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1993
+},
+"piece de résistance anne van bree en niels bakkerus": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-22",
+"v": 4
 },
 "plum road tea dream _the hangout": {
 "tm5": true,
@@ -9409,6 +9519,25 @@
 "v": 4,
 "yr": 2023
 },
+"the hole 1998": {
+"dr": "Tsai Ming-liang",
+"du": 81,
+"gn": [
+"Thriller",
+"Adventure",
+"Fantasy"
+],
+"lg": [
+"zh"
+],
+"rt": 5.8,
+"sy": "After moving into a new neighbourhood, brothers Dane &amp; Lucas and their neighbour Julie discover a bottomless hole in the basement of their home. They find that once the hole is exposed, evil is unleashed.…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-22",
+"v": 4,
+"yr": 1998
+},
 "the ice storm": {
 "dr": "Ang Lee",
 "du": 180,
@@ -9783,6 +9912,25 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1975
+},
+"the saddest music in the world 2003": {
+"dr": "Guy Maddin",
+"du": 100,
+"gn": [
+"Comedy",
+"Drama",
+"Music"
+],
+"lg": [
+"en"
+],
+"rt": 6.9,
+"sy": "In Depression-era Winnipeg, a legless beer baroness hosts a contest for the saddest music in the world, offering a grand prize of $25,000.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-22",
+"v": 4,
+"yr": 2003
 },
 "the samurai and the prisoner": {
 "dr": "Kiyoshi Kurosawa",
@@ -10898,6 +11046,12 @@
 "v": 4,
 "yr": 2025
 },
+"we refuse to be broken": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-22",
+"v": 4
+},
 "wen er maar aan": {
 "dr": "Albert Jan van Rees",
 "du": 90,
@@ -11047,6 +11201,12 @@
 "tried": "2026-10-18",
 "v": 4,
 "yr": 2025
+},
+"world s appreciated kitsch screening time jawbreaker a film about anti cimex": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-22",
+"v": 4
 },
 "x the man with the x ray eyes": {
 "dr": "Roger Corman",

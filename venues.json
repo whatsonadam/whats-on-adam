@@ -423,6 +423,12 @@
 "q": "name",
 "area": "Zuid"
 },
+"Ateliers 2005": {
+"lat": 52.35768,
+"lon": 4.89465,
+"q": "name",
+"area": "Zuid"
+},
 "Auditorium": {
 "skip": true,
 "q": "not found"
@@ -1241,6 +1247,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Club Strozzi": {
+"lat": 52.40137,
+"lon": 4.7382,
+"q": "name",
+"area": "West"
+},
 "Club UP": {
 "lat": 52.36384,
 "lon": 4.88378,
@@ -1693,6 +1705,12 @@
 "lon": 4.89068,
 "q": "name",
 "area": "Centrum"
+},
+"EM Studio Gallery": {
+"lat": 52.37419,
+"lon": 4.93558,
+"q": "name",
+"area": "Oost"
 },
 "ENTR": {
 "skip": true,
@@ -2280,6 +2298,12 @@
 "q": "name",
 "area": "Zuid"
 },
+"Huis van de Wijk De Mansvelt": {
+"lat": 52.35294,
+"lon": 4.88166,
+"q": "name",
+"area": "Zuid"
+},
 "ICK Dans Amsterdam": {
 "lat": 52.3696,
 "lon": 4.90166,
@@ -2429,6 +2453,12 @@
 "lon": 4.90378,
 "q": "name",
 "area": "Centrum"
+},
+"Jungle Amsterdam": {
+"lat": 52.36179,
+"lon": 4.92652,
+"q": "name",
+"area": "Oost"
 },
 "KILLACUTZ": {
 "lat": 52.37527,
@@ -2860,6 +2890,12 @@
 "q": "name",
 "area": "Oost"
 },
+"Museum of Illusions Amsterdam": {
+"lat": 52.36341,
+"lon": 4.89381,
+"q": "name",
+"area": "Centrum"
+},
 "Museum of the Canals": {
 "lat": 52.36789,
 "lon": 4.88622,
@@ -3106,6 +3142,18 @@
 "q": "name",
 "area": "Oost"
 },
+"OBA Mercatorplein": {
+"lat": 52.36939,
+"lon": 4.85023,
+"q": "name",
+"area": "West"
+},
+"OBA Olympisch Kwartier": {
+"lat": 52.34528,
+"lon": 4.85589,
+"q": "name",
+"area": "Zuid"
+},
 "OBA Osdorp": {
 "lat": 52.35892,
 "lon": 4.80687,
@@ -3210,6 +3258,12 @@
 "q": "name",
 "area": "Zuid"
 },
+"Orchid House": {
+"lat": 52.36195,
+"lon": 4.92277,
+"q": "name",
+"area": "Oost"
+},
 "Orgelpark": {
 "lat": 52.35991,
 "lon": 4.86827,
@@ -3219,6 +3273,12 @@
 "Oude Kerk Amsterdam": {
 "lat": 52.37436,
 "lon": 4.89807,
+"q": "name",
+"area": "Centrum"
+},
+"Oude Lutherse Kerk": {
+"lat": 52.36835,
+"lon": 4.88919,
 "q": "name",
 "area": "Centrum"
 },
@@ -3628,6 +3688,12 @@
 "q": "name",
 "area": "West"
 },
+"Rode Hoed": {
+"lat": 52.37734,
+"lon": 4.88726,
+"q": "name",
+"area": "Centrum"
+},
 "Rokin 75": {
 "skip": true,
 "q": "not found"
@@ -3728,6 +3794,10 @@
 "q": "name",
 "area": "Centrum"
 },
+"Sample": {
+"skip": true,
+"q": "not found"
+},
 "San Francisco": {
 "lat": 52.37521,
 "lon": 4.90094,
@@ -3755,6 +3825,12 @@
 "lon": 4.88418,
 "q": "name",
 "area": "Centrum"
+},
+"Schram Studio's": {
+"lat": 52.36335,
+"lon": 4.93208,
+"q": "name",
+"area": "Oost"
 },
 "Schuilkerk de Hoop": {
 "lat": 52.36546,
@@ -3966,6 +4042,12 @@
 "area": "Zuid",
 "q": "manual: Tolstraat 182, 1074VM Amsterdam"
 },
+"Stichting The Beach": {
+"lat": 52.41105,
+"lon": 4.9226,
+"q": "name",
+"area": "Noord"
+},
 "Stichting WG Kunst": {
 "lat": 52.36333,
 "lon": 4.87045,
@@ -4072,6 +4154,9 @@
 "skip": true
 },
 "TBA -   STAY TUNED": {
+"skip": true
+},
+"TBA -  ECHOBOX RADIO STATION": {
 "skip": true
 },
 "TBA -  Mandarin Oriental Conservatorium - Paulus PottersTraat. 50 Amsterdam 107 Idb": {
@@ -5024,6 +5109,12 @@
 "de Appel": {
 "lat": 52.3648,
 "lon": 4.88972,
+"q": "name",
+"area": "Centrum"
+},
+"de Bijenkorf": {
+"lat": 52.37335,
+"lon": 4.89394,
 "q": "name",
 "area": "Centrum"
 },

@@ -341,6 +341,16 @@
 "none": true,
 "chk": "2026-10-18"
 },
+"https://tolhuistuin.nl/en/events/bondgenootschap": {
+"h": "13:15",
+"eh": null,
+"chk": "2026-10-22"
+},
+"https://tolhuistuin.nl/en/events/bondgenootschap-2": {
+"h": "15:45",
+"eh": null,
+"chk": "2026-10-22"
+},
 "https://tolhuistuin.nl/en/events/bondgenootschap-3": {
 "h": "15:45",
 "eh": null,
@@ -365,6 +375,10 @@
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/congerentie-stop-geweld-tegen-vrouwen": {
+"none": true,
+"chk": "2026-10-22"
 },
 "https://tolhuistuin.nl/en/events/corto-alto": {
 "h": "20:30",
@@ -475,6 +489,11 @@
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/filosofie-voor-het-leven-met-stine-jensen": {
+"h": "20:00",
+"eh": null,
+"chk": "2026-10-22"
 },
 "https://tolhuistuin.nl/en/events/fuck-je-eigen-verantwoordelijkheid-werktitel": {
 "h": "14:30",
@@ -645,6 +664,11 @@
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/mensen-zeggen-dingen": {
+"h": "18:00",
+"eh": null,
+"chk": "2026-10-22"
+},
 "https://tolhuistuin.nl/en/events/michael-prins": {
 "h": "20:30",
 "eh": null,
@@ -795,6 +819,11 @@
 "https://tolhuistuin.nl/en/events/the-dance-club-2": {
 "none": true,
 "chk": "2026-10-20"
+},
+"https://tolhuistuin.nl/en/events/the-last-iceberg-2": {
+"h": "10:30",
+"eh": null,
+"chk": "2026-10-22"
 },
 "https://tolhuistuin.nl/en/events/the-meltdown-2": {
 "h": "20:30",
@@ -1006,10 +1035,19 @@
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/tincturen-maken-de-kunst-van-het-conserveren-van-kruidenkracht": {
+"h": "13:15",
+"eh": null,
+"chk": "2026-10-22"
+},
 "https://tolhuistuin.nl/en/events/westside-cowboy": {
 "h": "19:30",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/wildplukken-in-een-opwarmende-stad-2": {
+"none": true,
+"chk": "2026-10-22"
 },
 "https://tolhuistuin.nl/en/events/workshop-klimaathandafdruk": {
 "h": "15:45",
@@ -1535,6 +1573,15 @@
 }
 },
 "chk": "2026-10-11"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/die-12-cellisten-der-berliner-philharmoniker": {
+"dates": {
+"2026-11-01": {
+"h": "18:30",
+"eh": "19:45"
+}
+},
+"chk": "2026-10-22"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/dome-concerts-presents-einaudi-in-a-time-lapse": {
 "dates": {
@@ -2222,6 +2269,15 @@
 },
 "chk": "2026-10-11"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/eigen-werk-theaterteam-mijn-moeder-is-een-mens": {
+"dates": {
+"2026-12-16": {
+"h": "14:00",
+"eh": "15:10"
+}
+},
+"chk": "2026-10-22"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/esther-van-der-voort-mama-is-boos": {
 "dates": {
 "2026-11-20": {
@@ -2278,6 +2334,40 @@
 }
 },
 "chk": "2026-10-15"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/kees-van-amstel-mogen-we-eerder-weg": {
+"dates": {
+"2027-01-29": {
+"h": "20:00",
+"eh": "22:00"
+},
+"2027-01-30": {
+"h": "20:00",
+"eh": "22:00"
+},
+"2027-01-31": {
+"h": "15:30",
+"eh": "17:30"
+}
+},
+"chk": "2026-10-22"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/laatbloeiers-de-voorstelling": {
+"dates": {
+"2026-11-11": {
+"h": "19:30",
+"eh": "22:30"
+},
+"2026-11-12": {
+"h": "19:30",
+"eh": "22:30"
+},
+"2026-11-13": {
+"h": "19:30",
+"eh": "22:30"
+}
+},
+"chk": "2026-10-22"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/lenny-tosserams-puzzels": {
 "dates": {
@@ -2409,6 +2499,15 @@
 }
 },
 "chk": "2026-10-20"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/productiehuis-de-haard-de-eeuw-waarin-alles-kan": {
+"dates": {
+"2026-12-02": {
+"h": "14:30",
+"eh": "16:00"
+}
+},
+"chk": "2026-10-22"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/rachid-larouz-wakker-worden-1": {
 "dates": {
