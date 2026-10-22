@@ -93,6 +93,10 @@
 "h": "20:00",
 "chk": "2026-10-18"
 },
+"https://marineterrein.nl/agenda/barettenparade": {
+"none": true,
+"chk": "2026-10-22"
+},
 "https://marineterrein.nl/agenda/bioblitz-7-verborgen-schimmelnetwerken": {
 "h": "16:00",
 "chk": "2026-10-18"
@@ -337,6 +341,11 @@
 "none": true,
 "chk": "2026-10-18"
 },
+"https://tolhuistuin.nl/en/events/bondgenootschap-3": {
+"h": "15:45",
+"eh": null,
+"chk": "2026-10-22"
+},
 "https://tolhuistuin.nl/en/events/brainwash-festival/0": {
 "h": "12:00",
 "eh": null,
@@ -392,6 +401,10 @@
 "https://tolhuistuin.nl/en/events/de-danskamer-24": {
 "none": true,
 "chk": "2026-10-18"
+},
+"https://tolhuistuin.nl/en/events/de-danskamer-25": {
+"none": true,
+"chk": "2026-10-22"
 },
 "https://tolhuistuin.nl/en/events/de-publieke-tribune-2-2-2-2-2-2": {
 "none": true,
@@ -503,6 +516,11 @@
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/good-governance-bevat-ecologische-duurzaamheid": {
+"h": "14:15",
+"eh": null,
+"chk": "2026-10-22"
+},
 "https://tolhuistuin.nl/en/events/het-mannengesprek-echte-mannen-praten": {
 "none": true,
 "chk": "2026-10-20"
@@ -592,6 +610,11 @@
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/kunst-macht-klimaat": {
+"h": "14:15",
+"eh": null,
+"chk": "2026-10-22"
+},
 "https://tolhuistuin.nl/en/events/la-la-brooks-of-the-crystals": {
 "h": "20:30",
 "eh": null,
@@ -654,7 +677,7 @@
 },
 "https://tolhuistuin.nl/en/events/new-energy": {
 "none": true,
-"chk": "2026-10-15"
+"chk": "2026-10-22"
 },
 "https://tolhuistuin.nl/en/events/nick-hakim": {
 "h": "19:30",
@@ -681,7 +704,7 @@
 },
 "https://tolhuistuin.nl/en/events/one-fine-mess-12": {
 "none": true,
-"chk": "2026-10-15"
+"chk": "2026-10-22"
 },
 "https://tolhuistuin.nl/en/events/one-fine-mess-8": {
 "none": true,
@@ -987,6 +1010,15 @@
 "h": "19:30",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/workshop-klimaathandafdruk": {
+"h": "15:45",
+"eh": null,
+"chk": "2026-10-22"
+},
+"https://tolhuistuin.nl/en/events/workshop-kunst-x-activisme-breitner-studenten": {
+"none": true,
+"chk": "2026-10-22"
 },
 "https://tolhuistuin.nl/en/events/wu-lyf": {
 "h": "20:30",
@@ -1636,6 +1668,14 @@
 },
 "chk": "2026-10-11"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/kiwi-jr": {
+"dates": {
+"2026-11-10": {
+"h": "19:00"
+}
+},
+"chk": "2026-10-22"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/klaus-makela-dirigeert-mahler-7-bij-het-concertgebouworkest": {
 "dates": {
 "2026-10-28": {
@@ -1729,6 +1769,14 @@
 },
 "chk": "2026-10-11"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/only-the-poets": {
+"dates": {
+"2026-10-31": {
+"h": "18:30"
+}
+},
+"chk": "2026-10-22"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/openingsconcert-shifting-borders-raphaela-gromes-abel-selaocoe-and-amsterdam-sinfonietta": {
 "dates": {
 "2026-10-29": {
@@ -1746,6 +1794,14 @@
 }
 },
 "chk": "2026-10-11"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/rijck": {
+"dates": {
+"2026-11-20": {
+"h": "19:30"
+}
+},
+"chk": "2026-10-22"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/saint-saens-door-sheku-kanneh-mason-en-het-concertgebouworkest": {
 "dates": {
@@ -2399,6 +2455,23 @@
 }
 },
 "chk": "2026-10-11"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/sense-and-sensibility": {
+"dates": {
+"2026-10-22": {
+"h": "12:15",
+"eh": "14:27"
+},
+"2026-10-26": {
+"h": "12:15",
+"eh": "14:27"
+},
+"2026-10-27": {
+"h": "10:40",
+"eh": "12:52"
+}
+},
+"chk": "2026-10-22"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/shy-collectief-blauwdruk-tar": {
 "dates": {

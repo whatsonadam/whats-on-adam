@@ -1287,6 +1287,12 @@
 "q": "name",
 "area": "Zuid"
 },
+"Concertgemaal": {
+"lat": 52.40903,
+"lon": 4.90892,
+"q": "name",
+"area": "Noord"
+},
 "Concerto Record Store": {
 "skip": true,
 "q": "not found"
@@ -1550,6 +1556,12 @@
 "lon": 4.83225,
 "q": "name",
 "area": "Nieuw-West"
+},
+"De Thomaskerk": {
+"lat": 52.34209,
+"lon": 4.87483,
+"q": "name",
+"area": "Zuid"
 },
 "De Trut": {
 "lat": 52.36775,
@@ -2090,6 +2102,10 @@
 "skip": true,
 "q": "not found"
 },
+"Hatch - Experiential Interventions": {
+"skip": true,
+"q": "not found"
+},
 "Havenpark": {
 "lat": 52.39537,
 "lon": 4.77562,
@@ -2598,6 +2614,10 @@
 "q": "name",
 "area": "Noord"
 },
+"Linnaeusstraat 2C": {
+"skip": true,
+"q": "not found"
+},
 "Lofi": {
 "skip": true,
 "q": "not found"
@@ -2663,6 +2683,12 @@
 "lon": 4.88709,
 "q": "name",
 "area": "Centrum"
+},
+"MKZ": {
+"lat": 52.35393,
+"lon": 4.85428,
+"q": "name",
+"area": "Zuid"
 },
 "MKZ (Binnenpret)": {
 "lat": 52.3537,
@@ -3195,6 +3221,10 @@
 "lon": 4.89807,
 "q": "name",
 "area": "Centrum"
+},
+"Oudezijds Achterburgwal 191": {
+"skip": true,
+"q": "not found"
 },
 "Out of Office Coffee": {
 "lat": 52.38508,
@@ -4223,6 +4253,12 @@
 "q": "name",
 "area": "Oost"
 },
+"The Anarchist Library": {
+"lat": 52.37832,
+"lon": 4.88209,
+"q": "name",
+"area": "Centrum"
+},
 "The Barberhood Amsterdam": {
 "lat": 52.36969,
 "lon": 4.88042,
@@ -4745,6 +4781,18 @@
 "q": "name",
 "area": "Zuid"
 },
+"Waag": {
+"lat": 52.37277,
+"lon": 4.90034,
+"q": "name",
+"area": "Centrum"
+},
+"Waag Futurelab": {
+"lat": 52.37277,
+"lon": 4.90034,
+"q": "name",
+"area": "Centrum"
+},
 "Wanakam": {
 "skip": true,
 "q": "not found"
@@ -4866,6 +4914,10 @@
 "lon": 4.87439,
 "q": "name",
 "area": "West"
+},
+"Yogi, Brouwersgracht 156, Amsterdam": {
+"skip": true,
+"q": "not found"
 },
 "Yuzu Dining Bar": {
 "lat": 52.36511,
