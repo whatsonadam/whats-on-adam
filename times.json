@@ -89,6 +89,11 @@
 "eh": "22:00",
 "chk": "2026-10-18"
 },
+"https://hipsy.nl/event/255381-cacao-ecstatic-dance-yarun-dee": {
+"h": "18:00",
+"eh": "23:00",
+"chk": "2026-10-23"
+},
 "https://marineterrein.nl/agenda/afrogrooves": {
 "h": "20:00",
 "chk": "2026-10-18"
@@ -2014,6 +2019,23 @@
 }
 },
 "chk": "2026-10-11"
+},
+"https://www.iamsterdam.com/uit/agenda/festivals/events/huishoudbeurs": {
+"dates": {
+"2027-02-20": {
+"h": "11:00",
+"eh": "18:00"
+},
+"2027-02-21": {
+"h": "11:00",
+"eh": "18:00"
+},
+"2027-02-22": {
+"h": "11:00",
+"eh": "18:00"
+}
+},
+"chk": "2026-10-23"
 },
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/50-hertz-x-pan-pot-presents-human-club-train-saturday-daytime-trip": {
 "dates": {

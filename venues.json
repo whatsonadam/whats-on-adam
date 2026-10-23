@@ -655,6 +655,12 @@
 "q": "name",
 "area": "Noord"
 },
+"Beurs van Berlage": {
+"lat": 52.37502,
+"lon": 4.89626,
+"q": "name",
+"area": "Centrum"
+},
 "Bezoekerscentrum Bruggen en Kademuren": {
 "skip": true,
 "q": "not found"

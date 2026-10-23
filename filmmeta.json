@@ -516,6 +516,24 @@
 "v": 4,
 "yr": 2026
 },
+"anarchist film festival day 1": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-23",
+"v": 4
+},
+"anarchist film festival day 2": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-23",
+"v": 4
+},
+"anarchist film festival day 3": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-23",
+"v": 4
+},
 "andiamo a bere l ultima": {
 "tm4": true,
 "tmdb": true,
@@ -1047,6 +1065,12 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"cavia in concert at nassaukerk": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-23",
+"v": 4
+},
 "cavia in concert at nassaukerk le révélateur with live score by sasha sykes": {
 "tm4": true,
 "tmdb": true,
@@ -1244,6 +1268,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2011
+},
+"cinemini mannetje tak": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-23",
+"v": 4
 },
 "cinemini zoek zoek zoek": {
 "tm4": true,
@@ -2336,6 +2366,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"dykemarch x filmhuis cavia 1": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-23",
+"v": 4
 },
 "early seidl shorts": {
 "dr": "Ulrich Seidl",
@@ -3878,6 +3914,23 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"i built a rocket imagining your arrival 2026": {
+"dr": "Janaína Marques Ribeiro",
+"du": 92,
+"gn": [
+"Drama",
+"Science Fiction"
+],
+"lg": [
+"pt"
+],
+"sy": "Fifty-something Rosa, lying in an MRI scanner, is prompted to summon a happy memory. She plunges into a meandering, subconscious road trip with her indomitable mother, both queer, where wild imagination…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-23",
+"v": 4,
+"yr": 2026
+},
 "i love boosters": {
 "dr": "Boots Riley",
 "du": 105,
@@ -5063,6 +5116,18 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2010
+},
+"jarmusch special coffee and cigarettes": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-23",
+"v": 4
+},
+"jarmusch special night on earth": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-23",
+"v": 4
 },
 "jeremy shaw quantification trilogy": {
 "dr": "Jeremy Shaw",
@@ -7979,6 +8044,12 @@
 "v": 4,
 "yr": 2024
 },
+"saba alizadeh farzané nl irn vehicle passenger us cw de": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-23",
+"v": 4
+},
 "sacrifice": {
 "dr": "Romain Gavras",
 "du": 103,
@@ -8378,6 +8449,19 @@
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4,
+"yr": 2025
+},
+"simsim 2025": {
+"dr": "Sondos Al-Smerat",
+"du": 82,
+"gn": [
+"Drama"
+],
+"sy": "Simsim is a woman approaching her thirties, trying to escape her reality by finding a dream man who can rescue her and her daughter. When she finally finds him, she must convince her estranged husband to grant…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-23",
 "v": 4,
 "yr": 2025
 },
@@ -10196,6 +10280,23 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1974
+},
+"the texas chainsaw massacre": {
+"dr": "Marcus Nispel",
+"du": 98,
+"gn": [
+"Horror"
+],
+"lg": [
+"en"
+],
+"rt": 6.3,
+"sy": "After picking up a traumatized young hitchhiker, five friends find themselves stalked and hunted by a chainsaw-wielding killer and his family of equally psychopathic killers.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-23",
+"v": 4,
+"yr": 2003
 },
 "the texas chainsaw massacre re release": {
 "dr": "Tobe Hooper",
