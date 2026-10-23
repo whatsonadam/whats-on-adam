@@ -3094,6 +3094,12 @@
 "q": "name",
 "area": "West"
 },
+"Noemi Pizza": {
+"lat": 52.36535,
+"lon": 4.87576,
+"q": "name",
+"area": "West"
+},
 "Nomi by Naomi": {
 "lat": 52.35597,
 "lon": 4.92756,
@@ -3383,6 +3389,10 @@
 "lon": 4.90365,
 "q": "name",
 "area": "Noord"
+},
+"Parck AKA Ping Pong Bar": {
+"skip": true,
+"q": "not found"
 },
 "Parknest": {
 "lat": 52.36268,
@@ -4437,6 +4447,12 @@
 "The Forbidden Garden at The Butcher Social Club": {
 "skip": true,
 "q": "not found"
+},
+"The Hmm": {
+"lat": 52.36367,
+"lon": 4.87622,
+"q": "name",
+"area": "West"
 },
 "The Hoxton": {
 "lat": 52.37181,

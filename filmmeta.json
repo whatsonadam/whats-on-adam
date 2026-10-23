@@ -3193,6 +3193,23 @@
 "v": 4,
 "yr": 1997
 },
+"funhouse": {
+"dr": "Jason William Lee",
+"du": 106,
+"gn": [
+"Horror"
+],
+"lg": [
+"en"
+],
+"rt": 5.1,
+"sy": "When 8 celebrities from around the globe are invited to compete in an online reality show, they soon realize that they are playing for their very lives, as those voted off suffer horrific consequences…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-23",
+"v": 4,
+"yr": 2019
+},
 "funk 2026": {
 "dr": "Aly Muritiba, Thatiane Almeida",
 "du": 107,
@@ -5907,6 +5924,12 @@
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4
+},
+"lgbtq preview club kid": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-23",
 "v": 4
 },
 "lgbtq preview coward": {
