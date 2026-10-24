@@ -2218,6 +2218,12 @@
 "q": "name",
 "area": "West"
 },
+"Het Scheepvaartmuseum Amsterdam": {
+"lat": 52.37201,
+"lon": 4.91495,
+"q": "name",
+"area": "Centrum"
+},
 "Het Sieraad": {
 "lat": 52.36453,
 "lon": 4.8593,
@@ -2347,6 +2353,12 @@
 "lon": 4.89512,
 "q": "name",
 "area": "Noord"
+},
+"IKEA Amsterdam": {
+"lat": 52.30217,
+"lon": 4.94972,
+"q": "name",
+"area": "Zuidoost"
 },
 "INC": {
 "lat": 52.34646,
@@ -3377,6 +3389,12 @@
 "Papaverweg 46": {
 "skip": true,
 "q": "not found"
+},
+"Papote Cafe": {
+"lat": 52.37827,
+"lon": 4.89534,
+"q": "name",
+"area": "Centrum"
 },
 "Paradiso": {
 "lat": 52.36216,

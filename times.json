@@ -94,6 +94,11 @@
 "eh": "23:00",
 "chk": "2026-10-23"
 },
+"https://hipsy.nl/event/257835-moving-dialogues-contact-improvisation-workshop-steven-campos": {
+"h": "18:00",
+"eh": "23:00",
+"chk": "2026-10-24"
+},
 "https://marineterrein.nl/agenda/afrogrooves": {
 "h": "20:00",
 "chk": "2026-10-18"
@@ -2175,6 +2180,19 @@
 },
 "chk": "2026-10-13"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/alaa-shehada-the-bridge": {
+"dates": {
+"2027-01-02": {
+"h": "20:30",
+"eh": "21:50"
+},
+"2027-01-03": {
+"h": "16:00",
+"eh": "17:20"
+}
+},
+"chk": "2026-10-24"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/amber-docters-van-leeuwen-moving-narrative": {
 "dates": {
 "2026-10-15": {
@@ -2257,6 +2275,19 @@
 },
 "chk": "2026-10-21"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/cezanne-tegelberg-and-company-het-meisje-dat-de-wereld-schreef-6": {
+"dates": {
+"2026-12-29": {
+"h": "19:00",
+"eh": "20:30"
+},
+"2026-12-30": {
+"h": "11:00",
+"eh": "12:30"
+}
+},
+"chk": "2026-10-24"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/dadodans-gaia-gonnelli-licht-2": {
 "dates": {
 "2026-12-13": {
@@ -2265,6 +2296,19 @@
 }
 },
 "chk": "2026-10-23"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/de-grote-haay-de-kersthaas-4": {
+"dates": {
+"2026-12-29": {
+"h": "14:30",
+"eh": "15:30"
+},
+"2026-12-30": {
+"h": "11:00",
+"eh": "12:00"
+}
+},
+"chk": "2026-10-24"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/de-manager": {
 "dates": {
@@ -2348,6 +2392,15 @@
 }
 },
 "chk": "2026-10-11"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/het-kleine-theater-sneeuwwitje-3": {
+"dates": {
+"2026-12-30": {
+"h": "13:30",
+"eh": "14:30"
+}
+},
+"chk": "2026-10-24"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/jimmy-nelson": {
 "dates": {

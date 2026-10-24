@@ -497,6 +497,12 @@
 "tried": "2026-10-20",
 "v": 4
 },
+"amsterdam polish film festival man of marble man of iron": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-24",
+"v": 4
+},
 "amsterdam polish film festival the promised land": {
 "tm5": true,
 "tmdb": true,
@@ -3840,6 +3846,12 @@
 "v": 4,
 "yr": 2026
 },
+"houdini middag filmvertoning houdini 1953": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-24",
+"v": 4
+},
 "human de publieke tribune": {
 "dr": "Yann Arthus-Bertrand",
 "du": 191,
@@ -5629,6 +5641,24 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2019
+},
+"la passion de jeanne d arc 1928": {
+"dr": "Carl Theodor Dreyer",
+"du": 81,
+"gn": [
+"Drama",
+"History"
+],
+"lg": [
+"xx"
+],
+"rt": 8.0,
+"sy": "A classic of the silent age, this film tells the story of the doomed but ultimately canonized 15th-century teenage warrior. On trial for claiming she'd spoken to God, Jeanne d'Arc is subjected to inhumane…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-24",
+"v": 4,
+"yr": 1928
 },
 "la piscine": {
 "dr": "Jacques Deray",
@@ -11403,6 +11433,23 @@
 "tried": "2026-10-15",
 "v": 4,
 "yr": 2000
+},
+"you can see everything": {
+"dr": "Lance Oppenheim, Nathan Fielder",
+"du": 175,
+"gn": [
+"Documentary"
+],
+"lg": [
+"en"
+],
+"rt": 9.1,
+"sy": "Thirty-four days before she's sent to prison, notorious Silicon Valley founder Elizabeth Holmes invites a skeptical film crew to document her every move. What begins as an intimate portrait of an enigmatic…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-24",
+"v": 4,
+"yr": 2026
 },
 "youri": {
 "dr": "Sander Burger",
