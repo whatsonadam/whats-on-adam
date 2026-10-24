@@ -2720,6 +2720,12 @@
 "q": "name",
 "area": "Weesp"
 },
+"MARIONETTEN THEATRE Nieuwe": {
+"lat": 52.37341,
+"lon": 4.90235,
+"q": "addr",
+"area": "Centrum"
+},
 "MBO College Centrum": {
 "lat": 52.38666,
 "lon": 4.84144,
@@ -3825,6 +3831,12 @@
 "SUPPER Cruise": {
 "lat": 52.37868,
 "lon": 4.89717,
+"q": "name",
+"area": "Centrum"
+},
+"Salon de IJzerstaven": {
+"lat": 52.38427,
+"lon": 4.88873,
 "q": "name",
 "area": "Centrum"
 },

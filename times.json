@@ -2336,6 +2336,15 @@
 },
 "chk": "2026-10-11"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/dikkie-dik-and-dirk-scheele-zing-spring-miauw-2-t-m-7-jaar": {
+"dates": {
+"2027-01-31": {
+"h": "11:00",
+"eh": "12:30"
+}
+},
+"chk": "2026-10-24"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/dolf-jansen-schaamteloos-oudejaars-2026": {
 "dates": {
 "2026-12-26": {
@@ -2393,6 +2402,23 @@
 },
 "chk": "2026-10-11"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/het-houten-huis-nordland-visual-theatre-tryater-club-guy-and-roni-grondtonen-9": {
+"dates": {
+"2027-01-29": {
+"h": "19:30",
+"eh": "20:55"
+},
+"2027-01-30": {
+"h": "14:30",
+"eh": "15:55"
+},
+"2027-01-31": {
+"h": "14:30",
+"eh": "15:55"
+}
+},
+"chk": "2026-10-24"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/het-kleine-theater-sneeuwwitje-3": {
 "dates": {
 "2026-12-30": {
@@ -2440,6 +2466,15 @@
 }
 },
 "chk": "2026-10-22"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/klein-amsterdam-producties-nijntje-op-de-fiets-2": {
+"dates": {
+"2027-01-10": {
+"h": "10:00",
+"eh": "10:40"
+}
+},
+"chk": "2026-10-24"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/laatbloeiers-de-voorstelling": {
 "dates": {
@@ -2716,6 +2751,15 @@
 }
 },
 "chk": "2026-10-11"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/vanaf2-producties-anansi-de-spin-en-de-gulzige-tijger-3-t-m-7-jaar": {
+"dates": {
+"2027-01-10": {
+"h": "10:30",
+"eh": "11:30"
+}
+},
+"chk": "2026-10-24"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/willemijn-verkaik-edwin-jonker-ea-next-to-normal": {
 "dates": {

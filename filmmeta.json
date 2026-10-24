@@ -491,6 +491,12 @@
 "v": 4,
 "yr": 2000
 },
+"amsterdam polish film festival afterimage": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-24",
+"v": 4
+},
 "amsterdam polish film festival innocent sorcerers": {
 "tm5": true,
 "tmdb": true,
@@ -5398,6 +5404,12 @@
 "tried": "2026-10-15",
 "v": 4,
 "yr": 2026
+},
+"klimaatbioscoop": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-24",
+"v": 4
 },
 "kneecap 2024": {
 "dr": "Rich Peppiatt",
@@ -10477,6 +10489,24 @@
 "v": 4,
 "yr": 1995
 },
+"the war of the worlds next century": {
+"dr": "Piotr Szulkin",
+"du": 94,
+"gn": [
+"Science Fiction",
+"Drama"
+],
+"lg": [
+"pl"
+],
+"rt": 6.8,
+"sy": "Poland, Christmastime. A band of hyperintelligent, bloodthirsty Martians take over the country and enlist hapless television newscaster Iron Idem as the voice of their propaganda machine. But when Iron dares…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-24",
+"v": 4,
+"yr": 1981
+},
 "the weight": {
 "dr": "Padraic McKinley",
 "du": 115,
@@ -10495,6 +10525,22 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"the white dove": {
+"dr": "Juan Miñón",
+"du": 100,
+"gn": [
+"Drama"
+],
+"lg": [
+"es"
+],
+"sy": "Rocío, is in love with Mario, a free rider with a lot of face that, to top it all, is partner of the business of her father, Domingo with whom she maintains incestuous relations. When Domingo passes away, both…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-24",
+"v": 4,
+"yr": 1989
 },
 "thelma louise": {
 "dr": "Ridley Scott",
