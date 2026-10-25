@@ -2202,6 +2202,12 @@
 "q": "name",
 "area": "Zuid"
 },
+"Het Machinegebouw": {
+"lat": 52.41027,
+"lon": 4.93533,
+"q": "name",
+"area": "Noord"
+},
 "Het Muizenhuis - Mini museum & winkel": {
 "skip": true,
 "q": "not found"
@@ -2637,6 +2643,12 @@
 "Levend Paardenmuseum De Hollandsche Manege": {
 "skip": true,
 "q": "not found"
+},
+"Levenslang": {
+"lat": 52.33725,
+"lon": 4.92533,
+"q": "name",
+"area": "Oost"
 },
 "Levenslang Amsterdam": {
 "lat": 52.33725,
@@ -4235,6 +4247,9 @@
 "TBA - Amsterdam Noord": {
 "skip": true
 },
+"TBA - Amsterdam, Netherlands": {
+"skip": true
+},
 "TBA - Assaggi": {
 "skip": true
 },
@@ -5185,6 +5200,12 @@
 "dubble": {
 "skip": true,
 "q": "not found"
+},
+"gallery Slewe": {
+"lat": 52.36437,
+"lon": 4.88729,
+"q": "name",
+"area": "Centrum"
 },
 "got.drip": {
 "skip": true,
