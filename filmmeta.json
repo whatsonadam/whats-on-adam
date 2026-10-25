@@ -3307,6 +3307,23 @@
 "v": 4,
 "yr": 2025
 },
+"george michael the faith tour": {
+"dr": "Andy Morahan, David Austin",
+"du": 113,
+"gn": [
+"Music",
+"Documentary"
+],
+"lg": [
+"en"
+],
+"sy": "A stunning delve into George Michael's 1988 Faith Tour, as shot live at the famous Palais Omnisports de Paris-Bercy. This exclusive footage, assembled from a 14-camera shoot captured on 35mm over two nights…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-25",
+"v": 4,
+"yr": 2026
+},
 "ghost dog the way of the samurai": {
 "dr": "Jim Jarmusch",
 "du": 116,
@@ -5185,6 +5202,12 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-10-23",
+"v": 4
+},
+"je familiegeschiedenis als podcast": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-25",
 "v": 4
 },
 "jeremy shaw quantification trilogy": {
@@ -9456,6 +9479,12 @@
 "v": 4,
 "yr": 2001
 },
+"the disintegration loops 2001": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-25",
+"v": 4
+},
 "the drama": {
 "dr": "Kristoffer Borgli",
 "du": 105,
@@ -9672,6 +9701,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1940
+},
+"the green knight 2021 mediaevalia": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-25",
+"v": 4
 },
 "the holdovers": {
 "dr": "Alexander Payne",
