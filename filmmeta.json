@@ -1328,6 +1328,12 @@
 "v": 4,
 "yr": 2025
 },
+"cinédialoog gardens of fez": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-26",
+"v": 4
+},
 "city of god 2002": {
 "dr": "Fernando Meirelles, Kátia Lund",
 "du": 124,
@@ -1622,6 +1628,23 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2023
+},
+"così fan tutte": {
+"dr": "Hannes Rossacher",
+"du": 201,
+"gn": [
+"Music",
+"TV Movie"
+],
+"lg": [
+"it"
+],
+"sy": "Who loves whom in Così fan tutte, Mozart’s and Da Ponte’s cruelly comic reflection on desire, fidelity and betrayal? Or have the confusions to which the main characters subject one another ensured that in…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-26",
+"v": 4,
+"yr": 2013
 },
 "coward": {
 "dr": "Lukas Dhont",

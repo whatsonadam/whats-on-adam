@@ -2920,6 +2920,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Museum Rembrandthuis": {
+"lat": 52.36937,
+"lon": 4.90125,
+"q": "name",
+"area": "Centrum"
+},
 "Museum Tot Zover": {
 "lat": 52.34608,
 "lon": 4.93831,

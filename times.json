@@ -199,7 +199,7 @@
 },
 "https://parallel.am/programme/la-casa-del-perreo-13": {
 "none": true,
-"chk": "2026-10-19"
+"chk": "2026-10-26"
 },
 "https://parallel.am/programme/modus-ade-2": {
 "none": true,
@@ -323,6 +323,11 @@
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/30-jaar-excelsior-recordings?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "16:00",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/54-ultra": {
 "h": "19:30",
 "eh": null,
@@ -333,20 +338,40 @@
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/adult-dvd?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/alex-vargas-2": {
 "h": "19:30",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/alex-vargas-2?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "19:30",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/ares": {
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/ares?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/bertolf": {
 "h": "19:30",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/bertolf?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "19:30",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/blood-red-shoes-2": {
 "h": "20:30",
@@ -358,9 +383,18 @@
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/bombino?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/bomen-voor-amsterdam": {
 "none": true,
 "chk": "2026-10-25"
+},
+"https://tolhuistuin.nl/en/events/bomen-voor-amsterdam?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"none": true,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/bondgenootschap": {
 "h": "13:15",
@@ -372,10 +406,25 @@
 "eh": null,
 "chk": "2026-10-22"
 },
+"https://tolhuistuin.nl/en/events/bondgenootschap-2?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "15:45",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/bondgenootschap-3": {
 "h": "15:45",
 "eh": null,
 "chk": "2026-10-22"
+},
+"https://tolhuistuin.nl/en/events/bondgenootschap-3?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "15:45",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/bondgenootschap?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "13:15",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/brainwash-festival/0": {
 "h": "12:00",
@@ -387,10 +436,25 @@
 "eh": null,
 "chk": "2026-10-20"
 },
+"https://tolhuistuin.nl/en/events/brainwash-festival?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/0": {
+"h": "12:00",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/brainwash-festival?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/1": {
+"h": "12:00",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/chanel-beads": {
 "h": "19:30",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/chanel-beads?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "19:30",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/cochemea": {
 "h": "20:30",
@@ -401,6 +465,10 @@
 "none": true,
 "chk": "2026-10-22"
 },
+"https://tolhuistuin.nl/en/events/congerentie-stop-geweld-tegen-vrouwen?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"none": true,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/corto-alto": {
 "h": "20:30",
 "eh": null,
@@ -410,14 +478,27 @@
 "none": true,
 "chk": "2026-10-25"
 },
+"https://tolhuistuin.nl/en/events/counter-gaze-metroscope-opening?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"none": true,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/culture-the-futures-we-make": {
 "h": "19:00",
 "eh": null,
 "chk": "2026-10-19"
 },
+"https://tolhuistuin.nl/en/events/culture-the-futures-we-make?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "19:00",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/culturele-noordspelen-x-colourful-noord-festival-feestelijke-muurschildering-onthulling-2": {
 "none": true,
 "chk": "2026-10-25"
+},
+"https://tolhuistuin.nl/en/events/culturele-noordspelen-x-colourful-noord-festival-feestelijke-muurschildering-onthulling-2?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"none": true,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/dave-east": {
 "h": "20:30",
@@ -429,6 +510,11 @@
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/dave-lofts?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/de-danskamer-23": {
 "none": true,
 "chk": "2026-10-18"
@@ -437,9 +523,17 @@
 "none": true,
 "chk": "2026-10-25"
 },
+"https://tolhuistuin.nl/en/events/de-danskamer-24?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"none": true,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/de-danskamer-25": {
 "none": true,
 "chk": "2026-10-22"
+},
+"https://tolhuistuin.nl/en/events/de-danskamer-25?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"none": true,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/de-publieke-tribune-2-2-2-2-2-2": {
 "none": true,
@@ -481,10 +575,47 @@
 "none": true,
 "chk": "2026-10-25"
 },
+"https://tolhuistuin.nl/en/events/de-publieke-tribune-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"none": true,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/de-publieke-tribune-2-2-2-2-2-2-2-2-2-2-2-2-2-2?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"none": true,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/de-publieke-tribune-2-2-2-2-2-2-2-2-2-2-2-2-2?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"none": true,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/de-publieke-tribune-2-2-2-2-2-2-2-2-2-2-2-2?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"none": true,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/de-publieke-tribune-2-2-2-2-2-2-2-2-2-2-2?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"none": true,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/de-publieke-tribune-2-2-2-2-2-2-2-2-2-2?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"none": true,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/de-publieke-tribune-2-2-2-2-2-2-2-2-2?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"none": true,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/de-publieke-tribune-2-2-2-2-2-2-2-2?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"none": true,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/de-schimmige-wereld-van-de-wereldwijde-voedselhandel": {
 "h": "12:00",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/de-schimmige-wereld-van-de-wereldwijde-voedselhandel?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "12:00",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/descendants-ade-3": {
 "h": "23:59",
@@ -496,6 +627,11 @@
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/doodseskader?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "19:30",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/ecologische-rouw-het-verlies-van-de-toekomst": {
 "h": "20:00",
 "eh": null,
@@ -506,124 +642,248 @@
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/emf?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/feeble-little-horse": {
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/feeble-little-horse?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/filosofie-voor-het-leven-met-stine-jensen": {
 "h": "20:00",
 "eh": null,
 "chk": "2026-10-22"
 },
+"https://tolhuistuin.nl/en/events/filosofie-voor-het-leven-met-stine-jensen?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:00",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/fuck-je-eigen-verantwoordelijkheid-werktitel": {
 "h": "14:30",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/fuck-je-eigen-verantwoordelijkheid-werktitel?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "14:30",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/fulu-miziki": {
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-15"
 },
+"https://tolhuistuin.nl/en/events/fulu-miziki?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/gareth-halfway-home-tour-2026": {
 "h": "19:30",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/gareth-halfway-home-tour-2026?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "19:30",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/genesis-owusu": {
 "h": "19:30",
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/genesis-owusu?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "19:30",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/genevieve-stokes-hiding-places-tour": {
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/genevieve-stokes-hiding-places-tour?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/gilla-band": {
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/gilla-band?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/girls-in-hawaii": {
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/girls-in-hawaii?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/gong": {
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/gong?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/good-governance-bevat-ecologische-duurzaamheid": {
 "h": "14:15",
 "eh": null,
 "chk": "2026-10-22"
 },
+"https://tolhuistuin.nl/en/events/good-governance-bevat-ecologische-duurzaamheid?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "14:15",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/het-mannengesprek-echte-mannen-praten": {
 "none": true,
 "chk": "2026-10-20"
+},
+"https://tolhuistuin.nl/en/events/het-mannengesprek-echte-mannen-praten?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"none": true,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/hey-nothing-hound-world-tour": {
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/hey-nothing-hound-world-tour?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/hiigo": {
 "h": "19:30",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/hiigo?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "19:30",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/hoe-smaakt-de-toekomst-op-naar-een-nieuw-voedselsysteem": {
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/hoe-smaakt-de-toekomst-op-naar-een-nieuw-voedselsysteem?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/honey-im-home": {
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/honey-im-home?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/ibeyi": {
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/ibeyi?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/isabel-usher": {
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/isabel-usher?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/its-getting-hot-in-here-comedy-opening-night-warming-up-festival": {
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/its-getting-hot-in-here-comedy-opening-night-warming-up-festival?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/its-the-end-of-ai-as-we-know-it": {
 "h": "13:00",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/its-the-end-of-ai-as-we-know-it?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "13:00",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/james-smith-3": {
 "h": "19:30",
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/james-smith-3?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "19:30",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/je-familiegeschiedenis-als-podcast/2": {
 "h": "19:30",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/je-familiegeschiedenis-als-podcast?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/2": {
+"h": "19:30",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/je-verhaal-klopt-maar-voor-wie-eigenlijk": {
 "h": "15:45",
 "eh": null,
 "chk": "2026-10-19"
 },
+"https://tolhuistuin.nl/en/events/je-verhaal-klopt-maar-voor-wie-eigenlijk?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "15:45",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/julia-wolf": {
 "h": "19:30",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/julia-wolf?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "19:30",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/katherine-priddy": {
 "h": "20:30",
@@ -635,30 +895,60 @@
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/kelsey-lu?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/keti-koti-komedyshow-2026": {
 "h": "20:00",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/keti-koti-komedyshow-2026?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:00",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/klimaat-tribunaal-de-toekomst-van-sudan": {
 "h": "17:00",
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/klimaat-tribunaal-de-toekomst-van-sudan?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "17:00",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/koosje-joao": {
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/koosje-joao?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/kunst-macht-klimaat": {
 "h": "14:15",
 "eh": null,
 "chk": "2026-10-22"
 },
+"https://tolhuistuin.nl/en/events/kunst-macht-klimaat?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "14:15",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/la-la-brooks-of-the-crystals": {
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/la-la-brooks-of-the-crystals?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/lazy-sunday-rapid-chess-at-de-tolhuistuin": {
 "h": "14:00",
@@ -670,86 +960,172 @@
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/lily-seabird?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/love-nut-hate-een-avond-over-migratie": {
 "h": "20:00",
 "eh": null,
 "chk": "2026-10-18"
+},
+"https://tolhuistuin.nl/en/events/love-nut-hate-een-avond-over-migratie?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:00",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/lucky-fonz-iii": {
 "h": "19:30",
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/lucky-fonz-iii?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "19:30",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/mansur-brown-2": {
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/mansur-brown-2?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/mensen-zeggen-dingen": {
 "h": "18:00",
 "eh": null,
 "chk": "2026-10-22"
 },
+"https://tolhuistuin.nl/en/events/mensen-zeggen-dingen?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "18:00",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/michael-prins": {
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/michael-prins?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/mighty-oaks": {
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/mighty-oaks?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/mnek-the-bulldozer-tour": {
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/mnek-the-bulldozer-tour?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/multibeat": {
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/multibeat?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/mx-coelacunt-will-live-forever": {
 "h": "20:00",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/mx-coelacunt-will-live-forever?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:00",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/naft": {
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/naft?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/new-energy": {
 "none": true,
 "chk": "2026-10-22"
+},
+"https://tolhuistuin.nl/en/events/new-energy?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"none": true,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/nick-hakim": {
 "h": "19:30",
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/nick-hakim?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "19:30",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/noha-sare": {
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/noha-sare?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/noor": {
 "h": "19:30",
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/noor?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "19:30",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/one-fine-mess-10": {
 "none": true,
 "chk": "2026-10-25"
+},
+"https://tolhuistuin.nl/en/events/one-fine-mess-10?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"none": true,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/one-fine-mess-11": {
 "none": true,
 "chk": "2026-10-25"
 },
+"https://tolhuistuin.nl/en/events/one-fine-mess-11?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"none": true,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/one-fine-mess-12": {
 "none": true,
 "chk": "2026-10-22"
+},
+"https://tolhuistuin.nl/en/events/one-fine-mess-12?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"none": true,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/one-fine-mess-8": {
 "none": true,
@@ -759,9 +1135,17 @@
 "none": true,
 "chk": "2026-10-25"
 },
+"https://tolhuistuin.nl/en/events/one-fine-mess-9?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"none": true,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/photo-exhibition-where-do-you-belong-by-jonnah-bron": {
 "none": true,
 "chk": "2026-10-25"
+},
+"https://tolhuistuin.nl/en/events/photo-exhibition-where-do-you-belong-by-jonnah-bron?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"none": true,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/podcastakademie-oral-history-interviewen-3/0": {
 "h": "11:00",
@@ -773,59 +1157,123 @@
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/podcastakademie-oral-history-interviewen-3?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/0": {
+"h": "11:00",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/podcastakademie-oral-history-interviewen-3?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/1": {
+"h": "11:00",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/pongo-2": {
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/pongo-2?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/pornceptual-7": {
 "h": "22:00",
 "eh": "07:00",
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/pornceptual-7?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "22:00",
+"eh": "07:00",
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/queer-nature-photography-awards-world-pride-edition-the-exhibition": {
 "none": true,
 "chk": "2026-10-25"
+},
+"https://tolhuistuin.nl/en/events/queer-nature-photography-awards-world-pride-edition-the-exhibition?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"none": true,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/rijck": {
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/rijck?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/rikas": {
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/rikas?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/romy-liz-rose-x-levi-boon": {
 "h": "19:30",
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/romy-liz-rose-x-levi-boon?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "19:30",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/sarah-julia-2": {
 "h": "19:30",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/sarah-julia-2?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "19:30",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/sawyer-hill": {
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/sawyer-hill?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/slow-pulp": {
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/slow-pulp?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/stu-larsen": {
 "h": "20:15",
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/stu-larsen?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:15",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/teenage-fanclub": {
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/teenage-fanclub?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/the-bausa": {
 "h": "20:30",
@@ -837,24 +1285,48 @@
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/the-clockworks-2?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "19:30",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/the-dance-club-2": {
 "none": true,
 "chk": "2026-10-20"
+},
+"https://tolhuistuin.nl/en/events/the-dance-club-2?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"none": true,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/the-last-iceberg-2": {
 "h": "10:30",
 "eh": null,
 "chk": "2026-10-22"
 },
+"https://tolhuistuin.nl/en/events/the-last-iceberg-2?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "10:30",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/the-meltdown-2": {
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/the-meltdown-2?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/the-meltdown-3": {
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/the-meltdown-3?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/the-space-choir/18": {
 "h": "17:30",
@@ -1056,28 +1528,211 @@
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/the-space-choir?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/22": {
+"h": "17:30",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/the-space-choir?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/23": {
+"h": "17:30",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/the-space-choir?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/35": {
+"h": "17:30",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/the-space-choir?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/36": {
+"h": "17:30",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/the-space-choir?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/37": {
+"h": "17:30",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/the-space-choir?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/38": {
+"h": "17:30",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/the-space-choir?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/39": {
+"h": "17:30",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/the-space-choir?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/40": {
+"h": "17:30",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/the-space-choir?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/41": {
+"h": "17:30",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/the-space-choir?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/42": {
+"h": "17:30",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/the-space-choir?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/43": {
+"h": "17:30",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/the-space-choir?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/44": {
+"h": "17:30",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/the-space-choir?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/45": {
+"h": "17:30",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/the-space-choir?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/46": {
+"h": "17:30",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/the-space-choir?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/47": {
+"h": "17:30",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/the-space-choir?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/48": {
+"h": "17:30",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/the-space-choir?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/49": {
+"h": "17:30",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/the-space-choir?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/50": {
+"h": "17:30",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/the-space-choir?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/51": {
+"h": "17:30",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/the-space-choir?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/52": {
+"h": "17:30",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/the-space-choir?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/53": {
+"h": "17:30",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/the-space-choir?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/54": {
+"h": "17:30",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/the-space-choir?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/55": {
+"h": "17:30",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/the-space-choir?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/56": {
+"h": "17:30",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/the-space-choir?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/57": {
+"h": "17:30",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/the-space-choir?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/58": {
+"h": "17:30",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/the-space-choir?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/59": {
+"h": "17:30",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/the-space-choir?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/60": {
+"h": "17:30",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/the-space-choir?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/61": {
+"h": "17:30",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/the-space-choir?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/62": {
+"h": "17:30",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/the-space-choir?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/63": {
+"h": "17:30",
+"eh": null,
+"chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/the-space-choir?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw/64": {
+"h": "17:30",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/tincturen-maken-de-kunst-van-het-conserveren-van-kruidenkracht": {
 "h": "13:15",
 "eh": null,
 "chk": "2026-10-22"
+},
+"https://tolhuistuin.nl/en/events/tincturen-maken-de-kunst-van-het-conserveren-van-kruidenkracht?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "13:15",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/westside-cowboy": {
 "h": "19:30",
 "eh": null,
 "chk": "2026-10-11"
 },
+"https://tolhuistuin.nl/en/events/westside-cowboy?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "19:30",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/wildplukken-in-een-opwarmende-stad-2": {
 "none": true,
 "chk": "2026-10-22"
+},
+"https://tolhuistuin.nl/en/events/wildplukken-in-een-opwarmende-stad-2?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"none": true,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/workshop-klimaathandafdruk": {
 "h": "15:45",
 "eh": null,
 "chk": "2026-10-22"
 },
+"https://tolhuistuin.nl/en/events/workshop-klimaathandafdruk?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "15:45",
+"eh": null,
+"chk": "2026-10-26"
+},
 "https://tolhuistuin.nl/en/events/workshop-kunst-x-activisme-breitner-studenten": {
 "none": true,
 "chk": "2026-10-22"
+},
+"https://tolhuistuin.nl/en/events/workshop-kunst-x-activisme-breitner-studenten?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"none": true,
+"chk": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/wu-lyf": {
 "h": "20:30",
@@ -1088,6 +1743,11 @@
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-11"
+},
+"https://tolhuistuin.nl/en/events/yaro-mila?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-26"
 },
 "https://www.amsterdammuseum.nl/en/exhibition/meesterwerk-amsterdam/276334": {
 "none": true,
