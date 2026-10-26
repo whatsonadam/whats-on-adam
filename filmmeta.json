@@ -448,6 +448,25 @@
 "v": 4,
 "yr": 2026
 },
+"amarga navidad hoe lees ik een film": {
+"dr": "Pedro Almodóvar",
+"du": 111,
+"gn": [
+"Drama",
+"Comedy"
+],
+"lg": [
+"es"
+],
+"qr": 1,
+"rt": 6.2,
+"sy": "During a long December holiday weekend, a woman, whose mother has recently died, throws herself into work as a form of escape. Her relentless pace is interrupted when a panic attack forces her to take a break.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-26",
+"v": 4,
+"yr": 2026
+},
 "american beauty": {
 "dr": "Sam Mendes",
 "du": 121,
@@ -2588,9 +2607,11 @@
 "en",
 "hi"
 ],
+"sy": "Explores the romantic journey of PK Mahanandia, a Delhi street artist who trekked 6,000 miles by bicycle in 1977, venturing across continents to reunite with the woman he loved.",
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-13",
-"v": 3,
+"tried": "2026-10-26",
+"v": 4,
 "yr": 2025
 },
 "eng subs yellow letters": {
@@ -3032,6 +3053,12 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-10-15",
+"v": 4
+},
+"filmcollege in de omval diemen": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-26",
 "v": 4
 },
 "filmcursus eigenzinnige regisseurs": {
@@ -4084,10 +4111,34 @@
 "v": 4,
 "yr": 2013
 },
+"idfa baby jackfruit baby guava": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-26",
+"v": 4
+},
+"idfa everybody to kenmure street": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-26",
+"v": 4
+},
 "idfa international documentary film festival amsterdam": {
 "tm5": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4
+},
+"idfa last movies": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-26",
+"v": 4
+},
+"idfa romare bearden a life in collage": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-26",
 "v": 4
 },
 "ikatan darah": {
@@ -5026,6 +5077,12 @@
 "v": 4,
 "yr": 2026
 },
+"imagine filme festival the cycle": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-26",
+"v": 4
+},
 "imago": {
 "dr": "Déni Oumar Pitsaev",
 "du": 109,
@@ -5796,6 +5853,23 @@
 "v": 4,
 "yr": 2027
 },
+"la troisième nuit 30 10 with actor antoine reinartz intro en and 31 10 q a en tapis rouge 2026": {
+"dr": "Daniel Auteuil",
+"du": 100,
+"gn": [
+"Drama",
+"History"
+],
+"lg": [
+"fr"
+],
+"sy": "Follows the incredible story of a 1942 effort to to save over 100 Jewish children from a deportation camp just outside of Lyon.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-26",
+"v": 4,
+"yr": 2027
+},
 "la vita va così": {
 "dr": "Riccardo Milani",
 "du": 118,
@@ -5848,6 +5922,18 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1989
+},
+"lady": {
+"dr": "Olive Nwosu",
+"du": 93,
+"lg": [
+"en"
+],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-26",
+"v": 4,
+"yr": 2026
 },
 "lalka": {
 "dr": "Maciej Kawalski",
@@ -6239,6 +6325,12 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"maak je eigen flipboek daar zit muziek in": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-26",
+"v": 4
+},
 "maak je eigen flipboek magische dromen": {
 "tm5": true,
 "tmdb": true,
@@ -6393,6 +6485,25 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1967
+},
+"maspalomas": {
+"dr": "Jose Mari Goenaga, Aitor Arregi",
+"du": 113,
+"gn": [
+"Drama"
+],
+"lg": [
+"es",
+"eu"
+],
+"qr": 1,
+"rt": 6.9,
+"sy": "After breaking up with his partner, 76 year-old Vicente leads life the way he likes it in Maspalomas: he spends his days lying in the sun, partying, and looking for pleasure. An unexpected accident obliges him…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-26",
+"v": 4,
+"yr": 2025
 },
 "matloob aelian": {
 "dr": "",
@@ -7227,6 +7338,24 @@
 "v": 4,
 "yr": 1959
 },
+"nothing but a man": {
+"dr": "Michael Roemer",
+"du": 95,
+"gn": [
+"Drama",
+"Romance"
+],
+"lg": [
+"en"
+],
+"rt": 7.4,
+"sy": "Railroad laborer Duff Anderson struggles to maintain his dignity and marriage to a preacher's daughter in the racially segregated South.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-26",
+"v": 4,
+"yr": 1964
+},
 "nt live 2026 the misanthrope": {
 "tm4": true,
 "tmdb": true,
@@ -8044,6 +8173,23 @@
 "v": 4,
 "yr": 2023
 },
+"reporters 1981 tapis rouge classiques x de uitkijk": {
+"dr": "Raymond Depardon",
+"du": 97,
+"gn": [
+"Documentary"
+],
+"lg": [
+"fr",
+"en"
+],
+"sy": "The co-founder of the Gamma press agency, Raymond Depardon, created this documentary of press photographers in Paris and their subjects by following the photographers around for one month, in October, 1980.…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-26",
+"v": 4,
+"yr": 1981
+},
 "reporting on russia with pjotr sauer and shaun walker": {
 "tm5": true,
 "tmdb": true,
@@ -8299,6 +8445,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2022
+},
+"scream coward": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-26",
+"v": 4
 },
 "scream sense and sensibility": {
 "tm4": true,
@@ -9194,6 +9346,16 @@
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4,
+"yr": 2023
+},
+"the borders of paradise": {
+"dr": "Nicolás Romero Silva",
+"du": 78,
+"lg": [],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-26",
 "v": 4,
 "yr": 2023
 },
@@ -10623,6 +10785,25 @@
 "v": 4,
 "yr": 1989
 },
+"the wild robot": {
+"dr": "Chris Sanders",
+"du": 103,
+"gn": [
+"Family",
+"Animation",
+"Science Fiction"
+],
+"lg": [
+"en"
+],
+"rt": 8.3,
+"sy": "After a shipwreck, an intelligent robot called Roz is stranded on an uninhabited island. To survive the harsh environment, Roz bonds with the island's animals and cares for an orphaned baby goose.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-26",
+"v": 4,
+"yr": 2024
+},
 "thelma louise": {
 "dr": "Ridley Scott",
 "du": 140,
@@ -10659,6 +10840,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1998
+},
+"they do not exist the dream": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-26",
+"v": 4
 },
 "they live": {
 "dr": "John Carpenter",
@@ -10928,6 +11115,29 @@
 "tried": "2026-10-20",
 "v": 4,
 "yr": 2026
+},
+"treći svijet": {
+"dr": "Arsen Oremović",
+"du": 98,
+"gn": [
+"Documentary",
+"Music"
+],
+"lg": [
+"hr"
+],
+"sy": "Third World is more than a documentary about Haustor - the legendary band from Zagreb that shaped the music scene of the former Yugoslavia. It is the story of two creative opposites: Darko Rundek and Srđan…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-26",
+"v": 4,
+"yr": 2025
+},
+"trippel trappel dierensinterklaas": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-26",
+"v": 4
 },
 "trois couleurs blanc": {
 "dr": "Krzysztof Kieslowski",
@@ -11294,6 +11504,12 @@
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4
+},
+"wala kan ala el bal": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-26",
 "v": 4
 },
 "wan pipel": {

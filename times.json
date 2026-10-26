@@ -1912,6 +1912,10 @@
 "h": "20:30",
 "chk": "2026-10-13"
 },
+"https://www.cinetol.nl/events/her-loving-aftertaste": {
+"h": "20:00",
+"chk": "2026-10-26"
+},
 "https://www.cinetol.nl/events/horse-jumper-of-love": {
 "h": "20:00",
 "chk": "2026-10-11"
@@ -2007,6 +2011,10 @@
 "https://www.cinetol.nl/events/pulso-ade": {
 "h": "15:00",
 "chk": "2026-10-11"
+},
+"https://www.cinetol.nl/events/rightaboutnow-festival": {
+"none": true,
+"chk": "2026-10-26"
 },
 "https://www.cinetol.nl/events/ringlets": {
 "h": "20:30",
@@ -2872,6 +2880,19 @@
 },
 "chk": "2026-10-13"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/aftersun": {
+"dates": {
+"2026-11-10": {
+"h": "10:05",
+"eh": "11:47"
+},
+"2026-11-11": {
+"h": "12:15",
+"eh": "13:57"
+}
+},
+"chk": "2026-10-26"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/alaa-shehada-the-bridge": {
 "dates": {
 "2027-01-02": {
@@ -2979,6 +3000,19 @@
 }
 },
 "chk": "2026-10-24"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/cleo-de-5-a-7": {
+"dates": {
+"2026-11-09": {
+"h": "10:00",
+"eh": "11:30"
+},
+"2026-11-10": {
+"h": "12:10",
+"eh": "13:40"
+}
+},
+"chk": "2026-10-26"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/dadodans-gaia-gonnelli-licht-2": {
 "dates": {

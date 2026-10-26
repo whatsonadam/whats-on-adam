@@ -1253,6 +1253,10 @@
 "p": null,
 "t": "2026-10-20"
 },
+"https://offbeat.amsterdam/event/dok-night-benefit-dinner-by-het-laatste-avondmaal": {
+"p": null,
+"t": "2026-10-26"
+},
 "https://offbeat.amsterdam/event/doka-live-x-cindy-loves-cindy-grooves-releaseparty": {
 "p": null,
 "t": "2026-10-26"
@@ -1701,6 +1705,10 @@
 "p": null,
 "t": "2026-10-25"
 },
+"https://offbeat.amsterdam/event/kunstlievende-ledenborrel-met-lezing-7": {
+"p": null,
+"t": "2026-10-26"
+},
 "https://offbeat.amsterdam/event/la-casa-del-perreo-14": {
 "p": null,
 "t": "2026-10-16"
@@ -1856,6 +1864,10 @@
 "https://offbeat.amsterdam/event/mapping-data-work": {
 "p": null,
 "t": "2026-10-18"
+},
+"https://offbeat.amsterdam/event/marina-sena": {
+"p": null,
+"t": "2026-10-26"
 },
 "https://offbeat.amsterdam/event/marleen-stikker": {
 "p": null,
@@ -2073,6 +2085,10 @@
 "p": null,
 "t": "2026-10-17"
 },
+"https://offbeat.amsterdam/event/over-het-werk-van-hafid-bouazza-een-lezing-door-lodewijk-verduin": {
+"p": null,
+"t": "2026-10-26"
+},
 "https://offbeat.amsterdam/event/overbruggen-x-lab54-ade": {
 "p": null,
 "t": "2026-10-22"
@@ -2208,6 +2224,10 @@
 "https://offbeat.amsterdam/event/restaurant-sisi-and-sevgi-koken-58": {
 "p": null,
 "t": "2026-10-20"
+},
+"https://offbeat.amsterdam/event/restaurant-sisi-and-sevgi-koken-59": {
+"p": null,
+"t": "2026-10-26"
 },
 "https://offbeat.amsterdam/event/restaurant-yayang-22": {
 "p": null,
@@ -2561,6 +2581,10 @@
 "p": null,
 "t": "2026-10-16"
 },
+"https://offbeat.amsterdam/event/theatre-workshop": {
+"p": null,
+"t": "2026-10-26"
+},
 "https://offbeat.amsterdam/event/theres-no-recipe": {
 "p": null,
 "t": "2026-10-16"
@@ -2825,9 +2849,33 @@
 "p": "Free",
 "t": "2026-10-16"
 },
+"https://radar.squat.net/en/event/amsterdam/anarchist-group-amsterdam/2026-11-02/infotalk-anarchy-and-archaeology-two-members": {
+"p": "Free",
+"t": "2026-10-26"
+},
 "https://radar.squat.net/en/event/amsterdam/anarchist-group-amsterdam/2026-11-05/weekly-zine-readings-anarchist-library": {
 "p": "Free",
 "t": "2026-10-16"
+},
+"https://radar.squat.net/en/event/amsterdam/anarchist-group-amsterdam/2026-11-05/weekly-zine-readings-anarchist-library-novemb-0": {
+"p": "Free",
+"t": "2026-10-26"
+},
+"https://radar.squat.net/en/event/amsterdam/anarchist-group-amsterdam/2026-11-07/info-event-afgan-women-support": {
+"p": "Free",
+"t": "2026-10-26"
+},
+"https://radar.squat.net/en/event/amsterdam/anarchist-group-amsterdam/2026-11-12/weekly-zine-readings-anarchist-library-novemb-0": {
+"p": "Free",
+"t": "2026-10-26"
+},
+"https://radar.squat.net/en/event/amsterdam/anarchist-group-amsterdam/2026-11-19/weekly-zine-readings-anarchist-library-novemb-0": {
+"p": "Free",
+"t": "2026-10-26"
+},
+"https://radar.squat.net/en/event/amsterdam/anarchist-group-amsterdam/2026-11-26/weekly-zine-readings-anarchist-library-novemb-0": {
+"p": "Free",
+"t": "2026-10-26"
 },
 "https://radar.squat.net/en/event/amsterdam/astarotheatro/2026-10-23/mask-workshop-astarotheatro": {
 "p": null,
@@ -3753,6 +3801,10 @@
 "p": null,
 "t": "2026-10-24"
 },
+"https://radar.squat.net/en/event/amsterdam/occii/2026-11-06/pyrex-nyc-urin-berlin-gimic-bristol-traumatizer-haarlem-dj-steve": {
+"p": null,
+"t": "2026-10-26"
+},
 "https://radar.squat.net/en/event/amsterdam/occii/2026-11-07/totally-wired-le-guess-who-x-antipode-occii-girls-front-zalzala": {
 "p": null,
 "t": "2026-10-24"
@@ -4449,6 +4501,10 @@
 "p": "Free",
 "t": "2026-10-18"
 },
+"https://radar.squat.net/en/node/601849": {
+"p": "Free",
+"t": "2026-10-26"
+},
 "https://radar.squat.net/en/proxycafe-rise-against-big-tech": {
 "p": null,
 "t": "2026-10-16"
@@ -4649,6 +4705,11 @@
 "p": "€26",
 "t": "2026-10-17",
 "tk": "https://skatecafe.weticket.io/zwart-licht/shop"
+},
+"https://skatecafe.weticket.io/zwart-licht-club-night-1": {
+"p": "from €11",
+"t": "2026-10-26",
+"tk": "https://skatecafe.weticket.io/zwart-licht-club-night-1/shop"
 },
 "https://skatecafe.weticket.io/zwarte-liefde": {
 "p": "from €8,50",
@@ -5357,7 +5418,7 @@
 },
 "https://tolhuistuin.nl/en/events/je-verhaal-klopt-maar-voor-wie-eigenlijk": {
 "p": null,
-"t": "2026-10-19"
+"t": "2026-10-26"
 },
 "https://tolhuistuin.nl/en/events/je-verhaal-klopt-maar-voor-wie-eigenlijk?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
 "p": null,
@@ -6314,6 +6375,10 @@
 "p": "€16",
 "t": "2026-10-17"
 },
+"https://www.cinetol.nl/events/her-loving-aftertaste": {
+"p": "€11,75",
+"t": "2026-10-26"
+},
 "https://www.cinetol.nl/events/horse-jumper-of-love": {
 "p": "€20",
 "t": "2026-10-17"
@@ -6412,6 +6477,11 @@
 "p": null,
 "t": "2026-10-23",
 "tk": "https://cinetol.stager.co/shop/cinetol-tickets/events/111707176"
+},
+"https://www.cinetol.nl/events/rightaboutnow-festival": {
+"p": "from €6,75",
+"t": "2026-10-26",
+"tk": "https://cinetol.stager.co/shop/cinetol-tickets/events/111697822"
 },
 "https://www.cinetol.nl/events/ringlets": {
 "p": "€18",
@@ -7672,6 +7742,10 @@
 "p": "from €12,50",
 "t": "2026-10-17"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/guus-janssen-en-huib-emmer-concert-met-gratis-lunch-vooraf": {
+"p": "from €12,50",
+"t": "2026-10-26"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/halloween-classics-at-the-movies": {
 "p": "from €29",
 "t": "2026-10-17"
@@ -8176,6 +8250,10 @@
 "p": "from €16,25",
 "t": "2026-10-17"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/lovng-room-thara-and-walter-rootsie": {
+"p": "from €12",
+"t": "2026-10-26"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/lucky-fonz-iii": {
 "p": null,
 "t": "2026-10-24"
@@ -8531,6 +8609,10 @@
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/nusantara-beat": {
 "p": "from €20,70",
 "t": "2026-10-17"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/nykolaes-and-daniel-paul-support-targus-aims": {
+"p": "from €15,25",
+"t": "2026-10-26"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/oi-va-voi": {
 "p": "from €31,05",
@@ -9027,6 +9109,10 @@
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/superfan": {
 "p": "from €16,25",
 "t": "2026-10-17"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/superfan-and-support-birds-with-jobs": {
+"p": "from €16,25",
+"t": "2026-10-26"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/sven-ross-every-decision-leads-to-a-song": {
 "p": "from €12,50",
@@ -9975,6 +10061,10 @@
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/crawler-nkisi-2k88-and-rainy-miller-and-bianca-scout": {
 "p": null,
 "t": "2026-10-16"
+},
+"https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/cultur-fm-amsterdam": {
+"p": "from €17,50",
+"t": "2026-10-26"
 },
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/darkmatter-presents-sapodilla": {
 "p": null,
@@ -11232,6 +11322,10 @@
 "p": null,
 "t": "2026-10-23"
 },
+"https://www.iamsterdam.com/uit/agenda/tentoonstellingen/alle-tentoonstellingen/abracadabra-speurtocht": {
+"p": "from €6",
+"t": "2026-10-26"
+},
 "https://www.iamsterdam.com/uit/agenda/tentoonstellingen/alle-tentoonstellingen/ade-einder-door-boris-acket": {
 "p": "from €13",
 "t": "2026-10-16"
@@ -11279,6 +11373,10 @@
 "https://www.iamsterdam.com/uit/agenda/tentoonstellingen/alle-tentoonstellingen/echoes-of-independence-onvertelde-verhalen-van-bevrijding-extractie-and-solidariteit": {
 "p": null,
 "t": "2026-10-23"
+},
+"https://www.iamsterdam.com/uit/agenda/tentoonstellingen/alle-tentoonstellingen/einder-door-boris-acket": {
+"p": "from €13",
+"t": "2026-10-26"
 },
 "https://www.iamsterdam.com/uit/agenda/tentoonstellingen/alle-tentoonstellingen/expo-greater-amsterdam": {
 "p": "from €16",
@@ -11588,6 +11686,10 @@
 "p": null,
 "t": "2026-10-24"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/backstage-and-blik-vooruit": {
+"p": null,
+"t": "2026-10-26"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/bart-ontsteking": {
 "p": "from €22,50",
 "t": "2026-10-22"
@@ -11651,6 +11753,10 @@
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/bros-bromens-reprise": {
 "p": null,
 "t": "2026-10-24"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/bucketlist-filosofie-germaine-de-stael": {
+"p": null,
+"t": "2026-10-26"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/buiten-zinnen-regieopleiding-en-mimeopleiding-van-atd": {
 "p": null,
@@ -12060,6 +12166,14 @@
 "p": null,
 "t": "2026-10-22"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/het-kleine-theater-garage-tdi-robin-hood-4": {
+"p": null,
+"t": "2026-10-26"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/het-kleine-theater-het-meisje-met-de-zwavelstokjes-3": {
+"p": null,
+"t": "2026-10-26"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/het-kleine-theater-sneeuwwitje-3": {
 "p": "from €6",
 "t": "2026-10-24"
@@ -12388,6 +12502,10 @@
 "p": null,
 "t": "2026-10-20"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/mariska-simon-rock-2": {
+"p": "from €10",
+"t": "2026-10-26"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/marja-van-katendrecht-heel-holland-hoopt-try-out": {
 "p": null,
 "t": "2026-10-23"
@@ -12648,6 +12766,10 @@
 "p": "from €19,50",
 "t": "2026-10-20"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/reinaard-de-solo-tom-lanoye-and-behoud-de-begeerte": {
+"p": null,
+"t": "2026-10-26"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/remko-vrijdag-marko-maandag-1": {
 "p": "from €7,50",
 "t": "2026-10-22"
@@ -12700,6 +12822,10 @@
 "p": null,
 "t": "2026-10-16"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/rouwdier-eva-knibbe-frascati-producties-ism-arq-nationaal-psychotrauma-centrum": {
+"p": null,
+"t": "2026-10-26"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/ruud-smulders-rudsichtlos": {
 "p": "from €7,50",
 "t": "2026-10-22"
@@ -12727,6 +12853,10 @@
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/sarah-jonker-meer-vies": {
 "p": null,
 "t": "2026-10-24"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/satan-is-moe-lebbis": {
+"p": "from €18,50",
+"t": "2026-10-26"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/satire-satire-satire-aflevering-1-het-interbellum": {
 "p": "from €7,50",
@@ -12788,6 +12918,10 @@
 "p": null,
 "t": "2026-10-24"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/striptease-van-de-dood-david-linszen": {
+"p": "from €12,50",
+"t": "2026-10-26"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/striptopia": {
 "p": "from €27,50",
 "t": "2026-10-16"
@@ -12812,6 +12946,10 @@
 "p": null,
 "t": "2026-10-26"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/the-amsterdam-storytelling-festival-aryeh-hasfari-and-fernando-rodil-munster": {
+"p": "from €12",
+"t": "2026-10-26"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/the-amsterdam-storytelling-festival-david-labi-fatherload": {
 "p": "from €12",
 "t": "2026-10-22"
@@ -12824,9 +12962,21 @@
 "p": "from €12",
 "t": "2026-10-22"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/the-amsterdam-storytelling-festival-giles-abbott-patched-and-mended": {
+"p": "from €12",
+"t": "2026-10-26"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/the-amsterdam-storytelling-festival-grand-opening-the-seer": {
 "p": "from €14,50",
 "t": "2026-10-22"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/the-amsterdam-storytelling-festival-marion-laville-adelphos": {
+"p": "from €12",
+"t": "2026-10-26"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/the-amsterdam-storytelling-festival-marjolein-robertson-the-shetland-witch": {
+"p": "from €12",
+"t": "2026-10-26"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/the-amsterdam-storytelling-festival-mati-elias": {
 "p": "from €15",
