@@ -31,6 +31,10 @@
 "p": null,
 "t": "2026-10-24"
 },
+"https://desering.org/event/drek-bingo": {
+"p": null,
+"t": "2026-10-27"
+},
 "https://desering.org/event/fish-bowl-books-book-club-meridian-by-alice-walker": {
 "p": null,
 "t": "2026-10-24"
@@ -2929,6 +2933,22 @@
 "p": "Free",
 "t": "2026-10-16"
 },
+"https://radar.squat.net/en/event/aman-molli/2026-11-06/aman-molli-practice-east-mediterranean-music": {
+"p": "Free",
+"t": "2026-10-27"
+},
+"https://radar.squat.net/en/event/aman-molli/2026-11-13/aman-molli-practice-east-mediterranean-music": {
+"p": "Free",
+"t": "2026-10-27"
+},
+"https://radar.squat.net/en/event/aman-molli/2026-11-20/aman-molli-practice-east-mediterranean-music": {
+"p": "Free",
+"t": "2026-10-27"
+},
+"https://radar.squat.net/en/event/aman-molli/2026-11-27/aman-molli-practice-east-mediterranean-music": {
+"p": "Free",
+"t": "2026-10-27"
+},
 "https://radar.squat.net/en/event/amsterdam/amsterdam-street-medics/2026-10-26/diy-injection-demo-info": {
 "p": "Free",
 "t": "2026-10-16"
@@ -5690,6 +5710,10 @@
 "p": "€35",
 "t": "2026-10-26"
 },
+"https://tolhuistuin.nl/en/events/naast-elkaar-steun-bieden-na-seksueel-geweld": {
+"p": "€10",
+"t": "2026-10-27"
+},
 "https://tolhuistuin.nl/en/events/naft": {
 "p": "€28,70",
 "t": "2026-10-17",
@@ -6229,6 +6253,10 @@
 "https://tolhuistuin.nl/en/events/tincturen-maken-de-kunst-van-het-conserveren-van-kruidenkracht?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
 "p": "€35",
 "t": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/uitreiking-fip-2026": {
+"p": "Free",
+"t": "2026-10-27"
 },
 "https://tolhuistuin.nl/en/events/westside-cowboy": {
 "p": "€23,70",
@@ -8606,6 +8634,10 @@
 "p": "from €13,80",
 "t": "2026-10-17"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/music-of-michael-jackson-stellae-suite": {
+"p": "from €24,95",
+"t": "2026-10-27"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/muziek-bingo-xxl": {
 "p": "from €21,30",
 "t": "2026-10-17"
@@ -8629,6 +8661,10 @@
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/naaz-in-concert": {
 "p": null,
 "t": "2026-10-16"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/najaarsconcert-pauluskoor-die-schopfung-van-joseph-haydn": {
+"p": "from €39,50",
+"t": "2026-10-27"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/naomi-sharon": {
 "p": "from €34,50",
@@ -8782,6 +8818,10 @@
 "p": null,
 "t": "2026-10-23"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/opera-in-development-the-task-of-being": {
+"p": "from €9,50",
+"t": "2026-10-27"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/opus-kink": {
 "p": null,
 "t": "2026-10-26"
@@ -8929,6 +8969,10 @@
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/reichs-different-trains": {
 "p": "from €29",
 "t": "2026-10-17"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/requiem-mozart-met-groot-orkest-en-solisten": {
+"p": "from €10",
+"t": "2026-10-27"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/respighis-wereldpremiere-giovanni-sollima-laura-van-der-heijden-and-antwerp-symphony-orchestra": {
 "p": null,
@@ -9310,6 +9354,10 @@
 "p": "from €59",
 "t": "2026-10-20"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/the-next-gen-iv": {
+"p": "from €17",
+"t": "2026-10-27"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/the-reytons": {
 "p": "from €36,80",
 "t": "2026-10-21"
@@ -9650,6 +9698,10 @@
 "p": "from €10",
 "t": "2026-10-23"
 },
+"https://www.iamsterdam.com/uit/agenda/festivals/events/christmas-high-tea-in-gunpowderstudio": {
+"p": null,
+"t": "2026-10-27"
+},
 "https://www.iamsterdam.com/uit/agenda/festivals/events/cocktails-and-costumes-halloween-party": {
 "p": null,
 "t": "2026-10-24"
@@ -9717,6 +9769,10 @@
 "https://www.iamsterdam.com/uit/agenda/festivals/events/huishoudbeurs": {
 "p": "from €19,50",
 "t": "2026-10-23"
+},
+"https://www.iamsterdam.com/uit/agenda/festivals/events/internetgekkies-pubquiz-xl": {
+"p": "from €6",
+"t": "2026-10-27"
 },
 "https://www.iamsterdam.com/uit/agenda/festivals/events/into-the-woods-ade": {
 "p": "from €74,50",
@@ -10533,6 +10589,10 @@
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/housequake": {
 "p": "from €25,50",
 "t": "2026-10-20"
+},
+"https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/hunkering-halloween-diner-and-ball": {
+"p": "from €20",
+"t": "2026-10-27"
 },
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/hyper-dreams-x-annie": {
 "p": "from €10",
@@ -11462,6 +11522,10 @@
 "p": "from €6,50",
 "t": "2026-10-19"
 },
+"https://www.iamsterdam.com/uit/agenda/tentoonstellingen/alle-tentoonstellingen/amsterdam-stad-van-het-water": {
+"p": "from €19,50",
+"t": "2026-10-27"
+},
 "https://www.iamsterdam.com/uit/agenda/tentoonstellingen/alle-tentoonstellingen/andrzej-steinbach-hier": {
 "p": null,
 "t": "2026-10-26"
@@ -11597,6 +11661,10 @@
 "https://www.iamsterdam.com/uit/agenda/tentoonstellingen/alle-tentoonstellingen/ontdekkingstocht-in-de-oudheid-6-t-m-12-jaar": {
 "p": "from €3,50",
 "t": "2026-10-16"
+},
+"https://www.iamsterdam.com/uit/agenda/tentoonstellingen/alle-tentoonstellingen/opening-life-after-love": {
+"p": null,
+"t": "2026-10-27"
 },
 "https://www.iamsterdam.com/uit/agenda/tentoonstellingen/alle-tentoonstellingen/pan-amsterdam": {
 "p": null,
@@ -12130,6 +12198,10 @@
 "p": "from €20",
 "t": "2026-10-22"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/dubbelprogramma-kleinkunst-and-stand-up-robin-bleeker-en-bas-van-der-meulen": {
+"p": "from €19,50",
+"t": "2026-10-27"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/een-heerlijk-avondje-zonder-ai-poezie-met-deckwitz-en-van-dis": {
 "p": null,
 "t": "2026-10-25"
@@ -12181,6 +12253,10 @@
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/fernando-oliveira-raizes": {
 "p": "from €12",
 "t": "2026-10-26"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/festival-van-de-dood": {
+"p": "from €2,50",
+"t": "2026-10-27"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/fimme-bakker-zwaargewicht": {
 "p": null,
@@ -12338,6 +12414,14 @@
 "p": "from €23",
 "t": "2026-10-23"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/het-zuidelijk-toneel-i-like-art-and-art-likes-me-in-frascati": {
+"p": "from €14",
+"t": "2026-10-27"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/het-zuidelijk-toneel-i-like-art-and-art-likes-me-in-theater-de-landing": {
+"p": "from €23",
+"t": "2026-10-27"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/hetpaleis-kim-karssen-and-hendrik-kegels-oh-oh-oh-dennenboom-6": {
 "p": "from €10",
 "t": "2026-10-24"
@@ -12345,6 +12429,10 @@
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/hntjong-banger-dan-ik-7": {
 "p": "from €10",
 "t": "2026-10-24"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/hoedan-date-event-voor-twintigers": {
+"p": "from €12,50",
+"t": "2026-10-27"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/holland-opera-new-european-ensemble-cat-smits-company-pinokkio-7": {
 "p": "from €12,50",
@@ -12397,6 +12485,10 @@
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/jakop-ahlbom-company-and-ish-dance-collective-a-fine-mess-14": {
 "p": "from €21,50",
 "t": "2026-10-24"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/jawad-es-soufi-tnawies": {
+"p": "from €14",
+"t": "2026-10-27"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/jawad-es-soufi-tnawies-1": {
 "p": "from €14",
@@ -12690,6 +12782,10 @@
 "p": "from €3,50",
 "t": "2026-10-16"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/milky-way": {
+"p": null,
+"t": "2026-10-27"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/mime-wave-mijn-kleuren-3": {
 "p": "from €10",
 "t": "2026-10-23"
@@ -12867,8 +12963,8 @@
 "t": "2026-10-22"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/rachid-larouz-wakker-worden": {
-"p": null,
-"t": "2026-10-16"
+"p": "from €20",
+"t": "2026-10-27"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/rachid-larouz-wakker-worden-1": {
 "p": "from €20",
@@ -12974,6 +13070,10 @@
 "p": "from €14",
 "t": "2026-10-23"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/said-el-hassnaoui-said-lacht-met-liefde": {
+"p": "from €20",
+"t": "2026-10-27"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/said-el-hassnaoui-said-lacht-met-liefde-1": {
 "p": "from €20",
 "t": "2026-10-20"
@@ -13033,6 +13133,10 @@
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/silbersee-via-inferno": {
 "p": "from €23",
 "t": "2026-10-26"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/sjamadriaan-live": {
+"p": "from €14",
+"t": "2026-10-27"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/soekarno-bo-tarenskeen-het-nationale-theater": {
 "p": "from €3,50",
@@ -13148,6 +13252,10 @@
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/the-red-book-revisited-melyn-chow-gerben-vaillant-urland-ea222": {
 "p": "from €11",
+"t": "2026-10-27"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/the-seance-a-magic-and-comedy-experience-by-deshawn-mason": {
+"p": null,
 "t": "2026-10-27"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/the-ultimate-music-bingo": {
@@ -13314,9 +13422,17 @@
 "p": "from €16",
 "t": "2026-10-22"
 },
+"https://www.iamsterdam.com/uit/agenda/winkelen/markten/artotel-x-nocknock-the-design-and-makers-market": {
+"p": null,
+"t": "2026-10-27"
+},
 "https://www.iamsterdam.com/uit/agenda/winkelen/markten/cabinet-curated-curiosa-and-design-weekendmarkt": {
 "p": "from €5",
 "t": "2026-10-17"
+},
+"https://www.iamsterdam.com/uit/agenda/winkelen/markten/rommelmarkt-bij-qru": {
+"p": null,
+"t": "2026-10-27"
 },
 "https://www.iamsterdam.com/uit/agenda/winkelen/markten/rommelmarkt-bij-qru-zondag-25-oktober": {
 "p": null,

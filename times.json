@@ -218,6 +218,10 @@
 "eh": "07:00",
 "chk": "2026-10-18"
 },
+"https://parallel.am/programme/riria": {
+"none": true,
+"chk": "2026-10-27"
+},
 "https://parallel.am/programme/rooted-x-striptopia": {
 "none": true,
 "chk": "2026-10-25"
@@ -1055,6 +1059,11 @@
 "eh": null,
 "chk": "2026-10-26"
 },
+"https://tolhuistuin.nl/en/events/naast-elkaar-steun-bieden-na-seksueel-geweld": {
+"h": "19:00",
+"eh": null,
+"chk": "2026-10-27"
+},
 "https://tolhuistuin.nl/en/events/naft": {
 "h": "20:30",
 "eh": null,
@@ -1697,6 +1706,10 @@
 "h": "13:15",
 "eh": null,
 "chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/uitreiking-fip-2026": {
+"none": true,
+"chk": "2026-10-27"
 },
 "https://tolhuistuin.nl/en/events/westside-cowboy": {
 "h": "19:30",
@@ -2534,6 +2547,15 @@
 },
 "chk": "2026-10-15"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/music-of-michael-jackson-stellae-suite": {
+"dates": {
+"2026-11-07": {
+"h": "19:00",
+"eh": "20:00"
+}
+},
+"chk": "2026-10-27"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/olafur-arnalds-falling-apart-together": {
 "dates": {
 "2026-10-14": {
@@ -3318,6 +3340,23 @@
 },
 "chk": "2026-10-11"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/naza": {
+"dates": {
+"2026-11-09": {
+"h": "10:20",
+"eh": "11:40"
+},
+"2026-11-10": {
+"h": "10:15",
+"eh": "11:35"
+},
+"2026-11-11": {
+"h": "12:45",
+"eh": "14:05"
+}
+},
+"chk": "2026-10-27"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/nick-van-keulen-horen-zeggen": {
 "dates": {
 "2026-10-24": {
@@ -3383,6 +3422,19 @@
 }
 },
 "chk": "2026-10-22"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/rachid-larouz-wakker-worden": {
+"dates": {
+"2026-12-05": {
+"h": "20:00",
+"eh": "22:00"
+},
+"2026-12-06": {
+"h": "15:30",
+"eh": "17:30"
+}
+},
+"chk": "2026-10-27"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/rachid-larouz-wakker-worden-1": {
 "dates": {

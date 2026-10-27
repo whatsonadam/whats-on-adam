@@ -454,6 +454,25 @@
 "v": 4,
 "yr": 2026
 },
+"amarga navidad film soep": {
+"dr": "Pedro Almodóvar",
+"du": 111,
+"gn": [
+"Drama",
+"Comedy"
+],
+"lg": [
+"es"
+],
+"qr": 1,
+"rt": 6.2,
+"sy": "During a long December holiday weekend, a woman, whose mother has recently died, throws herself into work as a form of escape. Her relentless pace is interrupted when a panic attack forces her to take a break.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-27",
+"v": 4,
+"yr": 2026
+},
 "amarga navidad hoe lees ik een film": {
 "dr": "Pedro Almodóvar",
 "du": 111,
@@ -472,6 +491,12 @@
 "tried": "2026-10-26",
 "v": 4,
 "yr": 2026
+},
+"amelie film soep": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-27",
+"v": 4
 },
 "american beauty": {
 "dr": "Sam Mendes",
@@ -1065,6 +1090,18 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2025
+},
+"camembert film soep": {
+"dr": "Matthieu Rumani, Nicolas Slomka",
+"du": 85,
+"lg": [
+"fr"
+],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-27",
+"v": 4,
+"yr": 2026
 },
 "cap farewell": {
 "dr": "Vanja d’Alcantara",
@@ -2528,6 +2565,26 @@
 "v": 4,
 "yr": 1962
 },
+"elvira madigan": {
+"dr": "Bo Widerberg",
+"du": 91,
+"gn": [
+"Drama",
+"Romance",
+"History"
+],
+"lg": [
+"da",
+"sv"
+],
+"rt": 7.0,
+"sy": "Famous acrobat Elvira Madigan meets Sixten Sparre, a married Swedish officer with two children. They decide to elope, but since Sparre deserted the army, he's unemployable and the couple encounter various…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-27",
+"v": 4,
+"yr": 1967
+},
 "eng subs coward": {
 "dr": "Lukas Dhont",
 "du": 120,
@@ -2674,6 +2731,26 @@
 "v": 4,
 "yr": 2025
 },
+"erupcja eng subs": {
+"dr": "Pete Ohs",
+"du": 71,
+"gn": [
+"Drama",
+"Comedy"
+],
+"lg": [
+"en",
+"pl"
+],
+"qr": 1,
+"rt": 6.1,
+"sy": "A romantic vacation goes awry when a volcanic eruption strands Bethany and her boyfriend, Rob, in Warsaw, Poland. Taking the explosive event as a sign to ditch her baggage, Bethany reunites with her childhood…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-27",
+"v": 4,
+"yr": 2025
+},
 "eternal sunshine of the spotless mind": {
 "dr": "Michel Gondry",
 "du": 108,
@@ -2797,6 +2874,12 @@
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4
+},
+"expat meetup minotaur": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-27",
 "v": 4
 },
 "eye art film prize": {
@@ -3045,6 +3128,24 @@
 "tmdb": true,
 "tried": "2026-10-14",
 "v": 4
+},
+"filipiñana": {
+"dr": "Rafael Manuel",
+"du": 24,
+"gn": [
+"Drama",
+"Mystery"
+],
+"lg": [
+"tl",
+"en"
+],
+"sy": "A film about a girl drawn to a golf course.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-27",
+"v": 4,
+"yr": 2020
 },
 "film drink fear and loathing in las vegas incl cocktail": {
 "tm5": true,
@@ -6568,6 +6669,25 @@
 "v": 4,
 "yr": 2025
 },
+"maspalomas eng subs": {
+"dr": "Jose Mari Goenaga, Aitor Arregi",
+"du": 113,
+"gn": [
+"Drama"
+],
+"lg": [
+"es",
+"eu"
+],
+"qr": 1,
+"rt": 6.9,
+"sy": "After breaking up with his partner, 76 year-old Vicente leads life the way he likes it in Maspalomas: he spends his days lying in the sun, partying, and looking for pleasure. An unexpected accident obliges him…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-27",
+"v": 4,
+"yr": 2025
+},
 "matloob aelian": {
 "dr": "",
 "du": 120,
@@ -6750,6 +6870,25 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"miracle in milan": {
+"dr": "Vittorio De Sica",
+"du": 97,
+"gn": [
+"Comedy",
+"Fantasy",
+"Drama"
+],
+"lg": [
+"it"
+],
+"rt": 7.3,
+"sy": "Once upon a time a wise and kind old woman discovers a baby in her cabbage patch. She brings up the child and, when she dies, the boy, Totò, enters an orphanage. Totò leaves the orphanage a happy young man…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-27",
+"v": 4,
+"yr": 1951
 },
 "mirror": {
 "dr": "Andrei Tarkovsky",
@@ -8150,6 +8289,22 @@
 "v": 4,
 "yr": 2026
 },
+"queen at sea film soep": {
+"dr": "Lance Hammer",
+"du": 121,
+"gn": [
+"Drama"
+],
+"lg": [
+"en"
+],
+"sy": "As advanced dementia erodes an older woman's ability to communicate her inner life, her husband and daughter struggle to act in her best interests, navigating love and the fragile boundaries between care…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-27",
+"v": 4,
+"yr": 2026
+},
 "quelques mots d amour tapis rouge 2026": {
 "dr": "Rudi Rosenberg",
 "du": 95,
@@ -8323,6 +8478,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1990
+},
+"rialto for short seizoen 8 de finale": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-27",
+"v": 4
 },
 "rimini": {
 "dr": "Ulrich Seidl",
@@ -8921,6 +9082,18 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2013
+},
+"soirée ciné amelie 20th anniversary": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-27",
+"v": 4
+},
+"soirée ciné la vie d une femme": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-27",
+"v": 4
 },
 "somos el futuro nowruz make a kid happy niños del futuro": {
 "tm4": true,
@@ -11725,6 +11898,24 @@
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4,
+"yr": 2026
+},
+"wild horse nine cinebaby": {
+"dr": "Martin McDonagh",
+"du": 118,
+"gn": [
+"Comedy",
+"Crime",
+"Thriller"
+],
+"lg": [
+"en"
+],
+"sy": "Shortly before the 1973 Chilean coup, CIA agents Chris and Lee are dispatched from Santiago to Easter Island by their bureau chief, MJ. Amongst the Island's iconic statues, and as the longtime partners wrestle…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-27",
 "v": 4,
 "yr": 2026
 },
