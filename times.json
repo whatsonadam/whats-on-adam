@@ -759,7 +759,7 @@
 },
 "https://tolhuistuin.nl/en/events/het-mannengesprek-echte-mannen-praten": {
 "none": true,
-"chk": "2026-10-20"
+"chk": "2026-10-27"
 },
 "https://tolhuistuin.nl/en/events/het-mannengesprek-echte-mannen-praten?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
 "none": true,
@@ -1292,7 +1292,7 @@
 },
 "https://tolhuistuin.nl/en/events/the-dance-club-2": {
 "none": true,
-"chk": "2026-10-20"
+"chk": "2026-10-27"
 },
 "https://tolhuistuin.nl/en/events/the-dance-club-2?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
 "none": true,
@@ -2183,6 +2183,14 @@
 },
 "chk": "2026-10-14"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/ares": {
+"dates": {
+"2026-11-18": {
+"h": "19:30"
+}
+},
+"chk": "2026-10-27"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/authentieke-uitvoering-van-handels-messiah": {
 "dates": {
 "2026-12-22": {
@@ -2475,6 +2483,14 @@
 }
 },
 "chk": "2026-10-11"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/macy-gray-the-trouble-with-the-truth-tour": {
+"dates": {
+"2026-11-10": {
+"h": "19:30"
+}
+},
+"chk": "2026-10-27"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/master-of-film-music-ennio-morricone": {
 "dates": {
@@ -3266,6 +3282,15 @@
 }
 },
 "chk": "2026-10-11"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/maxtak-pan-8": {
+"dates": {
+"2026-11-01": {
+"h": "15:00",
+"eh": "16:00"
+}
+},
+"chk": "2026-10-27"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/muziek-voor-babys-en-peuters": {
 "dates": {

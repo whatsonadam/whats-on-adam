@@ -179,6 +179,12 @@
 "v": 4,
 "yr": 2013
 },
+"aaah anarchist action assistance hour": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-27",
+"v": 4
+},
 "aade the noodle show": {
 "tm4": true,
 "tmdb": true,
@@ -1112,6 +1118,24 @@
 "tmdb": true,
 "tried": "2026-10-14",
 "v": 4
+},
+"cat people": {
+"dr": "Paul Schrader",
+"du": 120,
+"gn": [
+"Fantasy",
+"Horror"
+],
+"lg": [
+"en"
+],
+"rt": 6.0,
+"sy": "After years of separation, Irena Gallier and her minister brother, Paul, reunite in New Orleans. When zoologists capture a wild panther, Irena is drawn to the cat – and zoo curator Oliver to her. Soon, Paul…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-27",
+"v": 4,
+"yr": 1982
 },
 "cavia in concert at nassaukerk": {
 "tm5": true,
@@ -2861,6 +2885,27 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"fanny and alexander": {
+"dr": "Ingmar Bergman",
+"du": 188,
+"gn": [
+"Fantasy",
+"Drama",
+"Mystery"
+],
+"lg": [
+"en",
+"de",
+"sv"
+],
+"rt": 7.8,
+"sy": "As children in the loving Ekdahl family, Fanny and Alexander enjoy a happy life with their parents, who run a theater company. After their father dies unexpectedly, however, the siblings end up in a joyless…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-27",
+"v": 4,
+"yr": 1982
+},
 "fantasy": {
 "dr": "Katarina Rešek",
 "du": 98,
@@ -3483,6 +3528,24 @@
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4,
+"yr": 2026
+},
+"godzilla minus zero english subtitles": {
+"dr": "Takashi Yamazaki",
+"du": 136,
+"gn": [
+"Science Fiction",
+"Horror",
+"Action"
+],
+"lg": [
+"ja"
+],
+"sy": "War reduced Japan to zero, and Godzilla plunged it into minus. Two years have passed since then, and the country has faced agonizing struggles to achieve recovery and finally reclaim its daily life. Just as…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-27",
 "v": 4,
 "yr": 2026
 },
@@ -7804,6 +7867,23 @@
 "v": 4,
 "yr": 2023
 },
+"persona": {
+"dr": "Ingmar Bergman",
+"du": 85,
+"gn": [
+"Drama"
+],
+"lg": [
+"sv"
+],
+"rt": 8.1,
+"sy": "A young nurse, Alma, is put in charge of Elisabeth Vogler: an actress who is seemingly healthy in all respects, but will not talk. As they spend time together, Alma speaks to Elisabeth constantly, never…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-27",
+"v": 4,
+"yr": 1966
+},
 "persona 4k restoration": {
 "dr": "Ingmar Bergman",
 "du": 85,
@@ -8103,6 +8183,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2001
+},
+"ramayana": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-27",
+"v": 4
 },
 "ran 1985 mediaevalia": {
 "tm5": true,

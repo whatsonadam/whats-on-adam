@@ -871,6 +871,12 @@
 "skip": true,
 "q": "not found"
 },
+"COWO (Commandantswoning)": {
+"lat": 52.37243,
+"lon": 4.91532,
+"q": "name",
+"area": "Centrum"
+},
 "CRCL PARK": {
 "lat": 52.35445,
 "lon": 4.95721,
@@ -1700,6 +1706,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Doopsgezinde Kerk": {
+"lat": 52.38578,
+"lon": 4.91389,
+"q": "name",
+"area": "Noord"
+},
 "Duke Of Tokyo": {
 "lat": 52.36649,
 "lon": 4.89068,
@@ -2218,6 +2230,10 @@
 "q": "name",
 "area": "Centrum"
 },
+"Het Pand, Zaandam": {
+"skip": true,
+"q": "not found"
+},
 "Het Salon": {
 "lat": 52.38984,
 "lon": 4.85147,
@@ -2588,6 +2604,10 @@
 "q": "name",
 "area": "Centrum"
 },
+"Krush Amsterdam": {
+"skip": true,
+"q": "not found"
+},
 "Krux Brewery": {
 "lat": 52.36835,
 "lon": 4.95269,
@@ -2767,6 +2787,10 @@
 "lon": 4.88993,
 "q": "name",
 "area": "Centrum"
+},
+"MUNA": {
+"skip": true,
+"q": "not found"
 },
 "Madam": {
 "lat": 52.3746,
@@ -3555,6 +3579,12 @@
 "lon": 4.84565,
 "q": "name",
 "area": "West"
+},
+"Poortgebouw": {
+"lat": 52.39259,
+"lon": 4.90401,
+"q": "name",
+"area": "Noord"
 },
 "Poppodium P60": {
 "skip": true,
