@@ -553,6 +553,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Bar Botanique": {
+"lat": 52.36345,
+"lon": 4.93033,
+"q": "name",
+"area": "Oost"
+},
 "Bar Coco": {
 "lat": 52.38632,
 "lon": 4.87246,
@@ -676,6 +682,12 @@
 "Bezoekerscentrum Bruggen en Kademuren": {
 "skip": true,
 "q": "not found"
+},
+"Bibliotheek Amstelveen Westwijk": {
+"lat": 52.28143,
+"lon": 4.82646,
+"q": "name",
+"area": null
 },
 "Bierfabriek": {
 "lat": 52.37007,
@@ -832,6 +844,12 @@
 "lon": 4.89707,
 "q": "name",
 "area": "Centrum"
+},
+"Brouwerij Troost (De Pijp)": {
+"lat": 52.35053,
+"lon": 4.89105,
+"q": "name",
+"area": "Zuid"
 },
 "Brouwerij Troost Westergas": {
 "lat": 52.35053,
@@ -3461,6 +3479,12 @@
 "Overtoom 147": {
 "skip": true,
 "q": "not found"
+},
+"P60 Café": {
+"lat": 52.32356,
+"lon": 4.97121,
+"q": "name",
+"area": "Zuidoost"
 },
 "PAN Amsterdam": {
 "lat": 52.37817,

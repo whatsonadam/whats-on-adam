@@ -544,6 +544,11 @@
 "none": true,
 "chk": "2026-10-26"
 },
+"https://tolhuistuin.nl/en/events/de-oorlog-tegen-de-planeet-imperialisme-militarisme-en-het-klimaat": {
+"h": "16:15",
+"eh": null,
+"chk": "2026-10-28"
+},
 "https://tolhuistuin.nl/en/events/de-publieke-tribune-2-2-2-2-2-2": {
 "none": true,
 "chk": "2026-10-18"
@@ -745,6 +750,11 @@
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/girls-to-the-front-pomme-grenade": {
+"h": "19:30",
+"eh": null,
+"chk": "2026-10-28"
 },
 "https://tolhuistuin.nl/en/events/gong": {
 "h": "20:30",
@@ -1712,6 +1722,11 @@
 "eh": null,
 "chk": "2026-10-26"
 },
+"https://tolhuistuin.nl/en/events/toegankelijk-uitgaansfeest-de-special-social-club": {
+"h": "19:00",
+"eh": null,
+"chk": "2026-10-28"
+},
 "https://tolhuistuin.nl/en/events/uitreiking-fip-2026": {
 "none": true,
 "chk": "2026-10-27"
@@ -1729,6 +1744,16 @@
 "https://tolhuistuin.nl/en/events/wildplukken-in-een-opwarmende-stad-2": {
 "none": true,
 "chk": "2026-10-22"
+},
+"https://tolhuistuin.nl/en/events/wildplukken-in-een-opwarmende-stad-2/0": {
+"h": "10:30",
+"eh": null,
+"chk": "2026-10-28"
+},
+"https://tolhuistuin.nl/en/events/wildplukken-in-een-opwarmende-stad-2/1": {
+"h": "13:15",
+"eh": null,
+"chk": "2026-10-28"
 },
 "https://tolhuistuin.nl/en/events/wildplukken-in-een-opwarmende-stad-2?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
 "none": true,
@@ -2140,10 +2165,20 @@
 "none": true,
 "chk": "2026-10-25"
 },
+"https://www.dehallen-amsterdam.nl/en/agenda/eerlijk-ondernemerschap---amsterdam-made": {
+"h": "16:30",
+"eh": "19:00",
+"chk": "2026-10-28"
+},
 "https://www.dehallen-amsterdam.nl/en/agenda/het-danspaleis-okt": {
 "h": "14:00",
 "eh": "16:00",
 "chk": "2026-10-18"
+},
+"https://www.dehallen-amsterdam.nl/en/agenda/kusum-creatieve-markt": {
+"h": "14:00",
+"eh": "18:00",
+"chk": "2026-10-28"
 },
 "https://www.dehallen-amsterdam.nl/en/agenda/lets-talk-about-our-bodies": {
 "h": "20:00",
@@ -2155,10 +2190,25 @@
 "eh": "16:00",
 "chk": "2026-10-18"
 },
+"https://www.dehallen-amsterdam.nl/en/agenda/pitch-your-bitch---bario-flirts": {
+"h": "19:30",
+"eh": "00:00",
+"chk": "2026-10-28"
+},
 "https://www.dehallen-amsterdam.nl/en/agenda/queer-tattoo-fest": {
 "h": "11:00",
 "eh": "20:00",
 "chk": "2026-10-18"
+},
+"https://www.dehallen-amsterdam.nl/en/agenda/roodkapje-3---het-kleine-theater": {
+"h": "15:00",
+"eh": "16:00",
+"chk": "2026-10-28"
+},
+"https://www.dehallen-amsterdam.nl/en/agenda/scientias-podcast-live": {
+"h": "19:00",
+"eh": "22:00",
+"chk": "2026-10-28"
 },
 "https://www.dehallen-amsterdam.nl/en/agenda/speel-deel-ruil-en-recycle-festival-2": {
 "h": "11:00",
@@ -2237,6 +2287,23 @@
 }
 },
 "chk": "2026-10-11"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/barok-dagen-weesp": {
+"dates": {
+"2026-11-13": {
+"h": "20:00",
+"eh": "22:00"
+},
+"2026-11-14": {
+"h": "20:00",
+"eh": "22:00"
+},
+"2026-11-15": {
+"h": "12:30",
+"eh": "14:00"
+}
+},
+"chk": "2026-10-28"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/blood-red-shoes": {
 "dates": {
@@ -3547,6 +3614,19 @@
 },
 "chk": "2026-10-20"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/the-desert-of-the-real": {
+"dates": {
+"2026-10-29": {
+"h": "10:15",
+"eh": "12:15"
+},
+"2026-11-02": {
+"h": "12:00",
+"eh": "14:00"
+}
+},
+"chk": "2026-10-28"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/then-now-next": {
 "dates": {
 "2026-10-23": {
@@ -3580,6 +3660,19 @@
 }
 },
 "chk": "2026-10-11"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/under-the-flags-the-sun": {
+"dates": {
+"2026-10-30": {
+"h": "10:15",
+"eh": "11:50"
+},
+"2026-11-03": {
+"h": "12:30",
+"eh": "14:05"
+}
+},
+"chk": "2026-10-28"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/vanaf2-producties-anansi-de-spin-en-de-gulzige-tijger-3-t-m-7-jaar": {
 "dates": {

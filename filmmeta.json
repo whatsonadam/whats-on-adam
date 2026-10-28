@@ -1,4 +1,20 @@
 {
+"1 5 c pyropolitics and the new world": {
+"dr": "Lukas Marxt",
+"du": 73,
+"gn": [
+"Documentary"
+],
+"lg": [
+"xx"
+],
+"sy": "The devastating forest fires in Los Angeles are described in three acts.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
+},
 "12 angry men 1957": {
 "dr": "Sidney Lumet",
 "du": 96,
@@ -35,6 +51,22 @@
 "tried": "2026-10-15",
 "v": 4,
 "yr": 1968
+},
+"30 mei 1969 gritu di un pueblo": {
+"dr": "John Leerdam",
+"du": 70,
+"gn": [
+"Documentary"
+],
+"lg": [
+"nl"
+],
+"sy": "Documentary about the rebellion in Curaçao.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 1995
 },
 "3x3 eyes 1991": {
 "tm5": true,
@@ -81,6 +113,23 @@
 "tmdb": true,
 "tried": "2026-10-14",
 "v": 4
+},
+"a fire there": {
+"dr": "Marlene Edoyan",
+"du": 94,
+"gn": [
+"Documentary"
+],
+"lg": [
+"hy",
+"ka"
+],
+"sy": "In an isolated village in the high plains of southern Georgia, three lifelong friends from the Armenian community discuss their future.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
 },
 "a geisha s diary": {
 "dr": "Yūzō Kawashima",
@@ -161,6 +210,22 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1992
+},
+"a secret heart": {
+"dr": "Tom Fontenille",
+"du": 88,
+"gn": [
+"Documentary"
+],
+"lg": [
+"fr"
+],
+"sy": "Over the last 4 years, Lilou left her secret life behind, becoming a 64-year-old woman who enjoys DIY, gardening, cycling and looking after her grandchildren. As I accompanied her through her transformation, I…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
 },
 "a world not ours 2012": {
 "dr": "Mahdi Fleifel",
@@ -280,6 +345,24 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2022
+},
+"agaar": {
+"dr": "Yang Bo",
+"du": 118,
+"gn": [
+"Documentary"
+],
+"lg": [
+"zh",
+"mn",
+"en"
+],
+"sy": "Agaar, a young shepherd in Inner Mongolia, is a modern youth who believes that traditional herding cannot get him his dream car - a BMW. He once learned English online, got a job on a cruise ship, and traveled…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
 },
 "akira": {
 "dr": "Katsuhiro Otomo",
@@ -517,6 +600,19 @@
 "v": 4,
 "yr": 1999
 },
+"american dream": {
+"dr": "Laura Toscano",
+"du": 20,
+"lg": [
+"pt"
+],
+"sy": "A depressed girl passionate about cinema sleeps to escape her reality but is caught up by her dreams.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2024
+},
 "amn x wysiwyg can you hear the objects speak": {
 "tm4": true,
 "tmdb": true,
@@ -593,6 +689,41 @@
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4,
+"yr": 2026
+},
+"an incomplete calendar": {
+"dr": "Sanaz Sohrabi",
+"du": 77,
+"gn": [
+"Documentary",
+"Music"
+],
+"lg": [
+"es",
+"ar",
+"en"
+],
+"sy": "A forgotten musical record connects Caracas to Tehran, revealing untold stories of oil, not as a commodity, but as a political leverage for the liberation struggles in Palestine and building Pan-Arab…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
+},
+"an incomplete day in the history of georgia 10 06 93": {
+"dr": "Salome Jashi",
+"du": 100,
+"gn": [
+"Documentary"
+],
+"lg": [
+"ka"
+],
+"sy": "Derived solely from video recordings of Georgian parliamentary proceedings on June 10, 1993, when Eduard Shevardnadze was the head of state, An Incomplete Day in the History of Georgia presents the debate…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
 "v": 4,
 "yr": 2026
 },
@@ -753,6 +884,28 @@
 "v": 4,
 "yr": 1985
 },
+"bahía honda": {
+"dr": "Alejandro Alonso Estrella",
+"du": 85,
+"gn": [
+"Documentary"
+],
+"lg": [
+"es"
+],
+"sy": "Laboring in a Cuban ship graveyard, an almost apocalyptic world of fire and creaking sheets of steel, Pitufo dreams of a better life. An atmospheric, magical glimpse into a life on society's margins.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
+},
+"bardi": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4
+},
 "beau travail psychoanalyse film": {
 "dr": "Claire Denis",
 "du": 93,
@@ -837,6 +990,23 @@
 "v": 4,
 "yr": 2026
 },
+"birds of war": {
+"dr": "Janay Boulos, Abd Alkader Habak",
+"du": 85,
+"gn": [
+"Documentary"
+],
+"lg": [
+"ar",
+"en"
+],
+"sy": "The love story of a London-based Lebanese journalist and a Syrian activist and cameraman as told through 13 years of personal archives across revolutions, war, and exile.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
+},
 "bitcoin mining and field recordings of ethnic minorities": {
 "dr": "Liu Chuang",
 "du": 40,
@@ -902,6 +1072,19 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2018
+},
+"boatbuilders": {
+"dr": "Luke Lorentzen",
+"du": 105,
+"gn": [
+"Documentary"
+],
+"sy": "Over the course of 16 months, at the head of a remote harbor in Maine, the workers of the Brooklin Boat Yard meticulously build a 56-foot wooden sailboat. As the seasons change and the vessel takes shape…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
 },
 "brainwash festival 2026": {
 "tm4": true,
@@ -1216,6 +1399,22 @@
 "tmdb": true,
 "tried": "2026-10-14",
 "v": 4
+},
+"central park": {
+"dr": "Frederick Wiseman",
+"du": 176,
+"gn": [
+"Documentary"
+],
+"lg": [
+"en"
+],
+"sy": "The famous New York City landmark is given the spotlight, as well as the variety of ways in which people make use of it: running, boating, walking, skating, music, theatre, sports, picnics, parades and…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 1990
 },
 "cha cha": {
 "tm4": true,
@@ -1682,6 +1881,24 @@
 "v": 4,
 "yr": 2026
 },
+"concrete land": {
+"dr": "Asmahan Bkerat",
+"du": 101,
+"gn": [
+"Documentary",
+"Family",
+"Drama"
+],
+"lg": [
+"ar"
+],
+"sy": "An intimate story of three generations of a Palestinian Bedouin family in Jordan. Facing displacement, racism and internal conflict, their love, humour, and resilience are tested to the limit.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
+},
 "congo boy film soep": {
 "dr": "Rafiki Fariala",
 "du": 95,
@@ -1742,6 +1959,23 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2023
+},
+"control 2007": {
+"dr": "Anton Corbijn",
+"du": 122,
+"gn": [
+"Drama"
+],
+"lg": [
+"en"
+],
+"rt": 7.5,
+"sy": "The story of Joy Division’s lead singer Ian Curtis, from his schoolboy days in 1973 to his suicide on the eve of the band's first American tour in 1980.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2007
 },
 "così fan tutte": {
 "dr": "Hannes Rossacher",
@@ -1972,6 +2206,22 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1997
+},
+"cuscú": {
+"dr": "Risseth Yangüez Singh",
+"du": 83,
+"gn": [
+"Documentary"
+],
+"lg": [
+"es"
+],
+"sy": "Filmmaker Risseth Yangüez Singh explores her family history while helping her grandmother move. Together, they reflect on the history of Panama, the straightening of Afro-textured hair, and the suppression of…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
 },
 "daft punk leiji matsumoto s interstella 5555 the 5tory of the 5ecret 5tar 5ystem": {
 "tm4": true,
@@ -2409,6 +2659,38 @@
 "v": 4,
 "yr": 1944
 },
+"douglas gordon by douglas gordon": {
+"dr": "Finlay Pretsell",
+"du": 88,
+"gn": [
+"Documentary"
+],
+"lg": [
+"en"
+],
+"sy": "An intimate portrait of the Turner Prize-winning artist. As the boundary between reality and performance blurs, the shifting relationship between filmmaker and subject calls into question who is actually…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
+},
+"down the river": {
+"dr": "Ruslan Fedotov",
+"du": 79,
+"gn": [
+"Documentary"
+],
+"lg": [
+"ru"
+],
+"sy": "Ruslan Fedotov follows the course of the Dnieper to observe the lives of young people in Russia and Belarus, tracing how collective memory enters the lives and imagination of youth.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
+},
 "downtown": {
 "dr": "Michiel van Erp",
 "du": 100,
@@ -2568,6 +2850,12 @@
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4
+},
+"edward said between worlds talk hosted by oneworld": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
 "v": 4
 },
 "een nieuwe vriend voor dikkie dik": {
@@ -2869,6 +3157,22 @@
 "tried": "2026-10-15",
 "v": 4
 },
+"everest the other side": {
+"dr": "Jimmy Chin, Elizabeth Chai Vasarhelyi",
+"du": 115,
+"gn": [
+"Documentary"
+],
+"lg": [
+"en"
+],
+"sy": "An intimate portrait of two people bound by love, ambition, and the pursuit of the impossible. Elite ski mountaineers Jim Morrison and Hilaree Nelson fell deeply in love while reaching the pinnacle of their…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
+},
 "excalibur": {
 "dr": "John Boorman",
 "du": 140,
@@ -3060,6 +3364,24 @@
 "tmdb": true,
 "tried": "2026-10-28",
 "v": 4
+},
+"father s house": {
+"dr": "Eva Mulvad, Andreas Koefoed",
+"du": 90,
+"gn": [
+"Documentary",
+"Drama"
+],
+"lg": [
+"da",
+"en"
+],
+"sy": "In an intriguing cinematic exercise that straddles fiction and documentary, 'Faderhuset' seeks to bare intricate workings of domination and manipulation, as ex-members of the notorious Christian sect…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
 },
 "fatherland": {
 "dr": "Pawel Pawlikowski",
@@ -3346,6 +3668,12 @@
 "v": 4,
 "yr": 2026
 },
+"flamenco sketches": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4
+},
 "flaming ears": {
 "dr": "Ursula Puerrer, A. Hans Scheirl",
 "du": 89,
@@ -3535,6 +3863,22 @@
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4,
+"yr": 2026
+},
+"gabin": {
+"dr": "Maxence Voiseux",
+"du": 105,
+"gn": [
+"Documentary"
+],
+"lg": [
+"fr"
+],
+"sy": "Gabin, the youngest child of the Jourdel family, is set to take over his father's butcher shop. Torn between family loyalty and a desire to break free, he has other dreams.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
 "v": 4,
 "yr": 2026
 },
@@ -3896,6 +4240,22 @@
 "v": 4,
 "yr": 2026
 },
+"hazara town": {
+"dr": "Khadim Dai",
+"du": 103,
+"gn": [
+"Documentary"
+],
+"lg": [
+"fa"
+],
+"sy": "Twenty years after fleeing Afghanistan, a Hazara family in Pakistan must decide whether to stay together amid growing persecution or leave, separate from each other, knowing they may never meet again.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
+},
 "heals documentaire over drag race favoriet pangina heals nederlandse première": {
 "dr": "Pailin Wedel",
 "du": 102,
@@ -4098,6 +4458,41 @@
 "tried": "2026-10-28",
 "v": 4
 },
+"hold your breath": {
+"dr": "Will Joines, Karrie Crouse",
+"du": 94,
+"gn": [
+"Horror",
+"Thriller",
+"Drama"
+],
+"lg": [
+"en"
+],
+"rt": 5.9,
+"sy": "In 1930s Oklahoma amid the region's horrific dust storms, a woman is convinced that a sinister presence is threatening her family.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2024
+},
+"holy wood dust": {
+"dr": "Viktor Kossakovsky",
+"du": 100,
+"gn": [
+"Documentary"
+],
+"lg": [
+"de"
+],
+"sy": "Every winter, millions of fir trees are chopped down, admired, and thrown away. The film follows their journey above and below ground, from human rituals to the hidden life inside the trees. A story about…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
+},
 "home alone": {
 "dr": "Chris Columbus",
 "du": 103,
@@ -4179,6 +4574,22 @@
 "tmdb": true,
 "tried": "2026-10-24",
 "v": 4
+},
+"how much longer": {
+"dr": "Niels van Koevorden",
+"du": 83,
+"gn": [
+"Documentary"
+],
+"lg": [
+"nl"
+],
+"sy": "How do you approach life when death is drawing closer and you don't know how much time you have left? Five people with incurable cancer speak directly to the camera, sharing their concerns and questions with…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
 },
 "human de publieke tribune": {
 "dr": "Yann Arthus-Bertrand",
@@ -4356,6 +4767,12 @@
 "v": 4
 },
 "idfa international documentary film festival amsterdam": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4
+},
+"idfa junior kijk wijzer": {
 "tm5": true,
 "tmdb": true,
 "tried": "2026-10-28",
@@ -5424,6 +5841,12 @@
 "tried": "2026-10-28",
 "v": 4
 },
+"in the company of men the first world festival of negro arts": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4
+},
 "in the mood for love 4k restoration": {
 "dr": "Wong Kar-wai",
 "du": 98,
@@ -6288,6 +6711,22 @@
 "v": 4,
 "yr": 2026
 },
+"last movies": {
+"dr": "Stanley Schtinter",
+"du": 86,
+"gn": [
+"Documentary"
+],
+"lg": [
+"en"
+],
+"sy": "Film history from Kafka to Kurt Cobain: A darkly humorous, alternative timeline based on the last films iconic celebrities watched before (and sometimes while) they died – narrated by Jeremy Irons.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
+},
 "last year at marienbad": {
 "dr": "Alain Resnais",
 "du": 95,
@@ -6487,6 +6926,12 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"life the seasons nature": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4
+},
 "light pillar": {
 "dr": "Zao Xu",
 "du": 90,
@@ -6671,6 +7116,25 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1965
+},
+"lyrical vengeance": {
+"dr": "Wendelien van Oldenborgh",
+"du": 111,
+"gn": [
+"Documentary"
+],
+"lg": [
+"ja",
+"id",
+"nl"
+],
+"qr": 1,
+"sy": "On crowded dance floors at queer club nights in Tokyo, Yogyakarta and Rotterdam, ravers celebrate the lives and works of Japanese author Fumiko Hayashi, Indonesian author Suwarsih Djojopuspito and…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
 },
 "ma am tere": {
 "tm5": true,
@@ -6925,6 +7389,25 @@
 "tmdb": true,
 "tried": "2026-10-20",
 "v": 4
+},
+"memories": {
+"dr": "Katsuhiro Otomo, Koji Morimoto",
+"du": 113,
+"gn": [
+"Fantasy",
+"Animation",
+"Science Fiction"
+],
+"lg": [
+"ja"
+],
+"rt": 7.5,
+"sy": "Three back-to-back anime films by three different directors make up this sci-fi trilogy three years in the making.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 1995
 },
 "merlusse": {
 "dr": "Marcel Pagnol",
@@ -7285,6 +7768,23 @@
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4,
+"yr": 2026
+},
+"morro grande": {
+"dr": "Isabel Joffily, Rita Toledo",
+"du": 88,
+"gn": [
+"Documentary"
+],
+"lg": [
+"pt",
+"en"
+],
+"sy": "After his childhood friend Vaguinho commits suicide, Rodolpho decides to devote a novel to his rebellious friend. Vaguinho was a leading figure in the punk movement of the farming community where they grew up…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
 "v": 4,
 "yr": 2026
 },
@@ -7755,6 +8255,19 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"nuisance bear": {
+"dr": "Jack Weisman, Gabriela Osio Vanden",
+"du": 15,
+"gn": [
+"Documentary"
+],
+"sy": "Documentary study of the polar bears who draw tourists to Churchill, Manitoba.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2021
+},
 "objet a": {
 "dr": "Ann Oren",
 "du": 96,
@@ -7825,6 +8338,22 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1954
+},
+"once upon a time in harlem wepresent night": {
+"dr": "William Greaves, David Greaves",
+"du": 100,
+"gn": [
+"Documentary"
+],
+"lg": [
+"en"
+],
+"sy": "A decade after his death, genre-defying filmmaker William Greaves has one last trick up his sleeve with what he considered the most important event he captured on film: a 1972 party he engineered with the…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
 },
 "one spoon of chocolate": {
 "dr": "RZA",
@@ -8440,6 +8969,12 @@
 "v": 4,
 "yr": 2001
 },
+"punkie": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4
+},
 "purple rain sing along": {
 "dr": "Albert Magnoli",
 "du": 111,
@@ -8541,6 +9076,23 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2001
+},
+"ragazzi al fiume": {
+"dr": "Pablo Briones, Joakim Chardonnens",
+"du": 75,
+"gn": [
+"Documentary"
+],
+"lg": [
+"it",
+"fa"
+],
+"sy": "Three young Afghan refugees spend a hot summer day by a Swiss river. Against a backdrop of lyrical landscapes and wild waters, a new law on migrant returns threatens their longing for a peaceful and secure…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
 },
 "ramayana": {
 "tm5": true,
@@ -8681,6 +9233,24 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1990
+},
+"revolutionaries never die": {
+"dr": "Mohanad Yaqubi",
+"du": 81,
+"gn": [
+"Documentary"
+],
+"lg": [
+"fr",
+"ar",
+"en"
+],
+"sy": "Seeking to decode a final, unanswered invitation, a filmmaker explores why the renowned Lebanese director Jocelyne Saab reached out for a collaboration just two months before her passing.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
 },
 "rialto for short seizoen 8 de finale": {
 "tm5": true,
@@ -8870,6 +9440,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1998
+},
+"sawyer avenue sunday afternoon no man s air": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4
 },
 "science fiction fantasy marxism with jelle klaas": {
 "tm4": true,
@@ -9147,6 +9723,36 @@
 "tried": "2026-10-28",
 "v": 4
 },
+"shorts acts of counter erasure": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4
+},
+"shorts cosmologies": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4
+},
+"shorts mythic metamorphoses": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4
+},
+"shorts shrouded in silence": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4
+},
+"shorts to the end": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4
+},
 "si tu penses bien tapis rouge 2026": {
 "dr": "Géraldine Nakache",
 "du": 94,
@@ -9247,6 +9853,23 @@
 "tmdb": true,
 "tried": "2026-10-18",
 "v": 4
+},
+"sixteen moments of my life": {
+"dr": "Albert Serra",
+"du": 85,
+"gn": [
+"Documentary"
+],
+"lg": [
+"de",
+"fr"
+],
+"sy": "Ingrid Caven sings about 16 moments from her life in a unique concert at the Théâtre des Bouffes du Nord in Paris.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
 },
 "sleepy hollow": {
 "dr": "Tim Burton",
@@ -9420,6 +10043,22 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"still a brother inside the negro middle class": {
+"dr": "William Greaves",
+"du": 90,
+"gn": [
+"Documentary"
+],
+"lg": [
+"en"
+],
+"sy": "The Black middle class, torn between white goals and Black needs, are examined by producers William Greaves and William Branch in a 90-minute NET Journal documentary.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 1968
 },
 "strange days": {
 "dr": "Kathryn Bigelow",
@@ -9674,6 +10313,23 @@
 "v": 4,
 "yr": 1996
 },
+"the 3 rooms of melancholia": {
+"dr": "Pirjo Honkasalo",
+"du": 106,
+"gn": [
+"Documentary"
+],
+"lg": [
+"ce",
+"ru"
+],
+"sy": "A searing examination of the unrelenting Chechen conflict, observed through the prisms of a Russian military boys academy, a war-torn town and a children's refugee camp.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2004
+},
 "the age of innocence": {
 "dr": "Martin Scorsese",
 "du": 139,
@@ -9709,6 +10365,23 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1999
+},
+"the balcony movie": {
+"dr": "Paweł Łoziński",
+"du": 100,
+"gn": [
+"Documentary"
+],
+"lg": [
+"pl"
+],
+"rt": 7.4,
+"sy": "Composed from the conversations that the director holds with people passing by in the street under his Warsaw apartment, each story in 'The Balcony Movie' is unique and deals with the way we try to cope with…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2021
 },
 "the banshees of inisherin": {
 "dr": "Martin McDonagh",
@@ -9819,6 +10492,24 @@
 "v": 4,
 "yr": 1996
 },
+"the black box is orange": {
+"dr": "Yuula Benivolski",
+"du": 90,
+"gn": [
+"Documentary"
+],
+"lg": [
+"ar",
+"en",
+"he"
+],
+"sy": "Follows a multimodal, autobiographical essay that deploys both personal memory and incomplete archives to reflect on a childhood in a militarized border town.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
+},
 "the black fire documentary 2023": {
 "dr": "Plunky Branch, Patrick Mamou",
 "du": 28,
@@ -9897,6 +10588,25 @@
 "v": 4,
 "yr": 2025
 },
+"the clearing": {
+"dr": "Pieter Jan Brugge",
+"du": 95,
+"gn": [
+"Drama",
+"Mystery",
+"Thriller"
+],
+"lg": [
+"en"
+],
+"rt": 5.7,
+"sy": "When affluent executive Wayne Hayes is kidnapped by a disgruntled employee and held for ransom in a forest, Wayne’s wife is forced to reckon with the FBI agents as they negotiate with the kidnapper.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2004
+},
 "the commitments 1991": {
 "dr": "Alan Parker",
 "du": 118,
@@ -9916,6 +10626,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1991
+},
+"the crack in the head crack in the sky": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4
 },
 "the craft": {
 "dr": "Andrew Fleming",
@@ -10067,6 +10783,22 @@
 "tmdb": true,
 "tried": "2026-10-14",
 "v": 4
+},
+"the desert of the real": {
+"dr": "Luuk Bouwman",
+"du": 109,
+"gn": [
+"Documentary"
+],
+"lg": [
+"nl"
+],
+"sy": "Who am I? What is real? How to live in the madness of the world? These are questions posed by six people who have had psychosis and speak openly about their experience. They have in common that they think…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2025
 },
 "the devils": {
 "dr": "Ken Russell",
@@ -10225,6 +10957,12 @@
 "v": 4,
 "yr": 1973
 },
+"the fight the william greaves director s cut": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4
+},
 "the final insult": {
 "dr": "Charles Burnett",
 "du": 55,
@@ -10370,6 +11108,12 @@
 "v": 4,
 "yr": 1940
 },
+"the great ecstasy of woodcarver steiner belovy": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4
+},
 "the green knight 2021 mediaevalia": {
 "tm5": true,
 "tmdb": true,
@@ -10413,6 +11157,24 @@
 "v": 4,
 "yr": 1998
 },
+"the hunger games sunrise on the reaping": {
+"dr": "Francis Lawrence",
+"du": 158,
+"gn": [
+"Science Fiction",
+"Action",
+"Adventure"
+],
+"lg": [
+"en"
+],
+"sy": "Return to the world of Panem 24 years before the events of The Hunger Games, starting on the morning of the reaping of the 50th Hunger Games, also known as the Second Quarter Quell.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
+},
 "the ice storm": {
 "dr": "Ang Lee",
 "du": 180,
@@ -10429,6 +11191,22 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1997
+},
+"the illusion of a quiet night": {
+"dr": "Olga Chernykh",
+"du": 70,
+"gn": [
+"Documentary"
+],
+"lg": [
+"uk"
+],
+"sy": "Filmed during one night in July 2025 by forty filmmakers and hundreds of citizens, The Illusion of a Quiet Night paints a vast collective portrait of war-torn Ukraine. Between fear and exhaustion, moments of…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
 },
 "the incomer": {
 "dr": "Louis Paxton",
@@ -10670,6 +11448,23 @@
 "v": 4,
 "yr": 1999
 },
+"the mayor halsema amsterdam": {
+"dr": "Mijke de Jong",
+"du": 79,
+"gn": [
+"Documentary"
+],
+"lg": [
+"nl",
+"en"
+],
+"sy": "Amsterdam mayor Femke Halsema was followed for a year by filmmaker Mijke de Jong, from crisis meetings to television interviews and from public appearances to closed-door sessions, as the right to protest…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
+},
 "the name of the rose 1986 mediaevalia": {
 "tm5": true,
 "tmdb": true,
@@ -10749,6 +11544,22 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1996
+},
+"the price of the sun": {
+"dr": "Jérôme Le Maire",
+"du": 91,
+"gn": [
+"Documentary"
+],
+"lg": [
+"fr"
+],
+"sy": "When a vast solar park is built in the desert, gradually transforming the landscape, a nomadic Berber tribe is forced to abandon its centuries-old way of life.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
 },
 "the rocky horror picture show": {
 "dr": "Jim Sharman",
@@ -11481,6 +12292,22 @@
 "v": 4,
 "yr": 1995
 },
+"to hold a mountain": {
+"dr": "Biljana Tutorov, Petar Glomazić",
+"du": 105,
+"gn": [
+"Documentary"
+],
+"lg": [
+"sr"
+],
+"sy": "In the remote highlands of Montenegro, a shepherd mother and daughter proudly defend their ancestral mountain from the threat of becoming a NATO military training ground, stirring memories of the violence that…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
+},
 "to sleep with anger": {
 "dr": "Charles Burnett",
 "du": 102,
@@ -11628,6 +12455,23 @@
 "tmdb": true,
 "tried": "2026-10-26",
 "v": 4
+},
+"tristan forever": {
+"dr": "Tobias Nölle",
+"du": 90,
+"gn": [
+"Documentary"
+],
+"lg": [
+"en",
+"fr"
+],
+"sy": "For 30 years, a doctor from Paris has maintained a friendship with a fisherman on Tristan da Cunha, the most isolated inhabited island in the world. Now he travels back one more time, with the plan to stay…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
 },
 "trois couleurs blanc": {
 "dr": "Krzysztof Kieslowski",
@@ -11947,6 +12791,22 @@
 "v": 4,
 "yr": 2026
 },
+"vertigo garden": {
+"dr": "Lei Lei",
+"du": 73,
+"gn": [
+"Documentary"
+],
+"lg": [
+"zh"
+],
+"sy": "The extraordinary ideas of an East Chinese botanist who sought to connect with the Earth's memories through the roots of a \"living fossil\" tree species are brought to life through creative filmmaking…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
+},
 "victorian psycho": {
 "dr": "Zachary Wigon",
 "du": 91,
@@ -12001,6 +12861,12 @@
 },
 "visual encounters film fest 2026": {
 "tm4": true,
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4
+},
+"vpro cinema live the siege of paradise talk": {
 "tm5": true,
 "tmdb": true,
 "tried": "2026-10-28",
@@ -12219,6 +13085,23 @@
 "tried": "2026-10-20",
 "v": 4,
 "yr": 2025
+},
+"women and war": {
+"dr": "Allan Dwan",
+"du": 20,
+"gn": [
+"Drama",
+"Romance"
+],
+"lg": [
+"xx"
+],
+"sy": "During the Civil War there were two sisters living in Virginia, who had as a near neighbor a young, wealthy and patriotic man, who visited them frequently. The elder sister was plain and attractive, but…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 1913
 },
 "working progress": {
 "tm5": true,
