@@ -827,6 +827,12 @@
 "q": "name",
 "area": "Zuid"
 },
+"Brokers bar": {
+"lat": 52.37538,
+"lon": 4.89707,
+"q": "name",
+"area": "Centrum"
+},
 "Brouwerij Troost Westergas": {
 "lat": 52.35053,
 "lon": 4.89105,
@@ -858,6 +864,12 @@
 "Buurtcultuurhuis De Rietwijker": {
 "skip": true,
 "q": "not found"
+},
+"Buurthuis de Archipel": {
+"lat": 52.36475,
+"lon": 4.9415,
+"q": "name",
+"area": "Oost"
 },
 "Buurtwerkplaats Noorderhof": {
 "skip": true,
@@ -1687,6 +1699,10 @@
 "q": "name",
 "area": "Oost"
 },
+"Desmet Studio's Amsterdam bv": {
+"skip": true,
+"q": "not found"
+},
 "Dick & Dick": {
 "lat": 52.34397,
 "lon": 4.86798,
@@ -1722,6 +1738,12 @@
 "lat": 52.3686,
 "lon": 4.91133,
 "q": "addr",
+"area": "Centrum"
+},
+"Dokwerker": {
+"lat": 52.3672,
+"lon": 4.90501,
+"q": "name",
 "area": "Centrum"
 },
 "Dokzaal": {
@@ -4256,6 +4278,12 @@
 "q": "name",
 "area": "Zuidoost"
 },
+"Studio Sarphaat": {
+"lat": 52.35437,
+"lon": 4.8992,
+"q": "name",
+"area": "Zuid"
+},
 "Studio Zeedijk": {
 "lat": 52.37534,
 "lon": 4.90099,
@@ -5132,6 +5160,10 @@
 "area": "West"
 },
 "What Is Happening Here Gallery": {
+"skip": true,
+"q": "not found"
+},
+"What is Happening Here Gallery": {
 "skip": true,
 "q": "not found"
 },

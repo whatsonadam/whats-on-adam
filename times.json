@@ -367,6 +367,11 @@
 "eh": null,
 "chk": "2026-10-26"
 },
+"https://tolhuistuin.nl/en/events/ariel-posen-2": {
+"h": "19:30",
+"eh": null,
+"chk": "2026-10-28"
+},
 "https://tolhuistuin.nl/en/events/bertolf": {
 "h": "19:30",
 "eh": null,
@@ -1818,6 +1823,10 @@
 "none": true,
 "chk": "2026-10-25"
 },
+"https://www.amsterdammuseum.nl/en/public-program/museumnacht-bij-stadsarchief-amsterdam/305957": {
+"none": true,
+"chk": "2026-10-28"
+},
 "https://www.amsterdammuseum.nl/en/public-program/museumnacht-in-amsterdam-in-motion/239324": {
 "none": true,
 "chk": "2026-10-25"
@@ -1920,6 +1929,10 @@
 "https://www.cinetol.nl/events/free-finga-extra-show": {
 "h": "20:30",
 "chk": "2026-10-11"
+},
+"https://www.cinetol.nl/events/gloria-de-oliveira": {
+"h": "20:30",
+"chk": "2026-10-28"
 },
 "https://www.cinetol.nl/events/goblyns": {
 "h": "20:30",
@@ -2052,6 +2065,10 @@
 "https://www.cinetol.nl/events/sign-this-3": {
 "h": "20:30",
 "chk": "2026-10-11"
+},
+"https://www.cinetol.nl/events/sign-this-4": {
+"h": "20:30",
+"chk": "2026-10-28"
 },
 "https://www.cinetol.nl/events/sitp-festival": {
 "h": "17:00",
@@ -2555,6 +2572,15 @@
 }
 },
 "chk": "2026-10-27"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/nieuwjaarsconcert-2027-nederlands-blazers-ensemble": {
+"dates": {
+"2027-01-01": {
+"h": "13:30",
+"eh": "14:50"
+}
+},
+"chk": "2026-10-28"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/olafur-arnalds-falling-apart-together": {
 "dates": {

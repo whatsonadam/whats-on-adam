@@ -39,7 +39,7 @@
 "3x3 eyes 1991": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "5 decennia de appel filmvertoning paneldiscussie": {
@@ -107,7 +107,7 @@
 "a night at the mortuary": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "a night of knowing nothing": {
@@ -247,13 +247,14 @@
 "africadelic memory of princess mumbi special screening": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "africadelic2026 the rising dawn nl premiere beach inna bondage nl preview": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "aftershock the seismic impact of dubstep": {
@@ -615,8 +616,9 @@
 },
 "andiamo a bere l ultima": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "anomalisa 2015 strings of imagination": {
@@ -662,6 +664,25 @@
 "v": 4,
 "yr": 2016
 },
+"arrebato": {
+"dr": "Iván Zulueta",
+"du": 110,
+"gn": [
+"Drama",
+"Fantasy",
+"Horror"
+],
+"lg": [
+"es"
+],
+"rt": 6.7,
+"sy": "José Sirgado is a low-budget filmmaker whose heroin addiction distorts his perspective of the real world. Although he is a depressed and unstable individual, his mood improves when he receives the mysterious…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 1979
+},
 "ascenseur pour l échafaud": {
 "dr": "Louis Malle",
 "du": 88,
@@ -691,7 +712,7 @@
 "austrian night": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "avengers endgame": {
@@ -884,8 +905,9 @@
 },
 "brainwash festival 2026": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "brand new landscape": {
@@ -927,8 +949,9 @@
 },
 "brazil unfiltered closing event food community ecological resistance": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "brazil unfiltered ex shaman": {
@@ -994,8 +1017,9 @@
 },
 "broersen lukacs somewhere elsewhere": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "buddy": {
@@ -1019,8 +1043,9 @@
 },
 "bumba het circusorkest": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "böse spiele rimini sparta": {
@@ -1153,7 +1178,7 @@
 "carmen": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "cat people": {
@@ -1194,8 +1219,9 @@
 },
 "cha cha": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "charlie harper": {
@@ -1346,8 +1372,15 @@
 },
 "cinemanita fiber factory": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
+"v": 4
+},
+"cinemercator ozon sous le sable 2000": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
 "v": 4
 },
 "cinemini de gruffalo": {
@@ -1689,8 +1722,9 @@
 },
 "congo boy with director rafiki fariala intro en tapis rouge 2026": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "connected breath circle autumn moving inward": {
@@ -2108,8 +2142,9 @@
 },
 "de grote sinterklaasfilm en de vliegende pieten": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "de manager": {
@@ -2147,7 +2182,7 @@
 "de notenkraker": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "de tatta s daan": {
@@ -2271,10 +2306,17 @@
 "yr": 2019
 },
 "diary for my father and mother": {
+"dr": "Márta Mészáros",
+"du": 119,
+"lg": [
+"hu"
+],
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
-"v": 4
+"tried": "2026-10-28",
+"v": 4,
+"yr": 1990
 },
 "digger": {
 "dr": "Alejandro González Iñárritu",
@@ -2402,10 +2444,15 @@
 "yr": 1964
 },
 "drag": {
+"dr": "Raviv Ullman, Greg Yagolnitzer",
+"du": 86,
+"lg": [],
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
-"v": 4
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
 },
 "drishyam the conclusion": {
 "dr": "Abhishek Pathak",
@@ -2885,7 +2932,7 @@
 "eye art film prize": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "eyes wide shut": {
@@ -2964,8 +3011,9 @@
 },
 "fangs anyab halloween screening": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "fanny and alexander": {
@@ -3006,6 +3054,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"far away problem homegrown solutions": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4
 },
 "fatherland": {
 "dr": "Pawel Pawlikowski",
@@ -3125,8 +3179,9 @@
 },
 "fight the power earth s greatest enemy 2025 incl panel talk": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "filipiñana": {
@@ -3174,7 +3229,7 @@
 "film food tampopo incl ramen": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "film funk 2026": {
@@ -3186,7 +3241,7 @@
 "film lecture the mysteries of donnie darko": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "film lecture time after time over herhaling in films en andere verhalen": {
@@ -3209,8 +3264,9 @@
 },
 "filmcursus eigenzinnige regisseurs": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "filmhuis gardens of fez": {
@@ -3240,7 +3296,7 @@
 "filmvertoning het atelier": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "filmvertoning verlies niet de moed": {
@@ -3250,16 +3306,26 @@
 "v": 4
 },
 "final girls berlin film fest best of 2026 shorts": {
+"dr": "",
+"du": 120,
+"lg": [],
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
-"v": 4
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
 },
 "final girls berlin film fest best shorts of 2026": {
+"dr": "",
+"du": 120,
+"lg": [],
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
-"v": 4
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
 },
 "fjord": {
 "dr": "Christian Mungiu",
@@ -3708,7 +3774,7 @@
 "goodbye lenin": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "goundafa the cursed song": {
@@ -3774,7 +3840,7 @@
 "götterdämmerung": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "halloween": {
@@ -3949,8 +4015,9 @@
 },
 "het offer the sacrifice": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "het vergeten eiland": {
@@ -4014,8 +4081,9 @@
 },
 "hoe lees ik een film garance tapis rouge 2026": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "hoe lees ik een film the beloved": {
@@ -4027,7 +4095,7 @@
 "hoe lees ik film lidewijde paris": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "home alone": {
@@ -4152,7 +4220,7 @@
 "humans of film festival": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "humans of film festival sixth edition": {
@@ -4200,7 +4268,7 @@
 "hunger games sunrise on the reaping": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "i built a rocket imagining your arrival 2026": {
@@ -4290,7 +4358,7 @@
 "idfa international documentary film festival amsterdam": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "idfa last movies": {
@@ -4360,8 +4428,9 @@
 },
 "imagine film festival": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "imagine film festival a new dawn": {
@@ -4561,15 +4630,23 @@
 },
 "imagine film festival duke mitchell film club": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "imagine film festival family fears another night of terror": {
+"dr": "Cristian Ponce",
+"du": 82,
+"lg": [
+"es"
+],
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
-"v": 4
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
 },
 "imagine film festival ferine": {
 "dr": "Andrea Corsini",
@@ -4610,8 +4687,9 @@
 },
 "imagine film festival ghost in the archive": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "imagine film festival ghost in the cell": {
@@ -4654,10 +4732,17 @@
 "yr": 2017
 },
 "imagine film festival godhead": {
+"dr": "Mark H. Rapaport",
+"du": 99,
+"lg": [
+"en"
+],
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
-"v": 4
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
 },
 "imagine film festival grotesqqque": {
 "dr": "Atsushi Nishigori, Takahiro Miura",
@@ -4715,10 +4800,23 @@
 "yr": 2026
 },
 "imagine film festival in this darkness i see you": {
+"dr": "Nadim Tabet",
+"du": 85,
+"gn": [
+"Thriller",
+"Horror",
+"Romance"
+],
+"lg": [
+"ar"
+],
+"sy": "Strange and life-threatening events in a construction site create tension between the Syrian workers and the Lebanese villagers. Tarek, one of the workers, becomes convinced that the site is haunted.",
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
-"v": 4
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
 },
 "imagine film festival la llorona": {
 "dr": "Jayro Bustamante",
@@ -4759,8 +4857,9 @@
 },
 "imagine film festival los silencios": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "imagine film festival macario": {
@@ -4845,26 +4944,30 @@
 },
 "imagine film festival nieuw nederlands peil 2": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "imagine film festival nieuw nederlands peil 3": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "imagine film festival nieuw nederlands peil 4": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "imagine film festival no way down": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "imagine film festival objet a": {
@@ -4903,15 +5006,23 @@
 "yr": 2026
 },
 "imagine film festival out there factory reset short": {
+"dr": "Simon Ryninks",
+"du": 80,
+"lg": [
+"cy",
+"en"
+],
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
-"v": 4
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
 },
 "imagine film festival ph1shed _": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "imagine film festival pulse": {
@@ -4995,26 +5106,30 @@
 },
 "imagine film festival shorts 1 unknown territory": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "imagine film festival shorts 2 friends lovers ghosts": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "imagine film festival shorts 3 unexpected discoveries": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "imagine film festival shorts 4 creatures great and small": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "imagine film festival straight to video remote control": {
@@ -5038,8 +5153,9 @@
 },
 "imagine film festival talk julie corman": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "imagine film festival the cycle": {
@@ -5112,10 +5228,15 @@
 "yr": 2026
 },
 "imagine film festival the lost internet": {
+"dr": "",
+"du": 89,
+"lg": [],
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
-"v": 4
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
 },
 "imagine film festival the peril at pincer point": {
 "dr": "Noah Stratton-Twine, Jake Kuhn",
@@ -5134,8 +5255,9 @@
 },
 "imagine film festival the rough guide to magical realism": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "imagine film festival the samurai and the prisoner": {
@@ -5175,10 +5297,17 @@
 "yr": 2026
 },
 "imagine film festival upiro": {
+"dr": "Oscar Martín",
+"du": 105,
+"lg": [
+"es"
+],
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
-"v": 4
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
 },
 "imagine film festival videodrome": {
 "dr": "David Cronenberg",
@@ -5219,8 +5348,9 @@
 },
 "imagine film festival workshop darkfield": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "imagine film festival you are the film": {
@@ -5285,13 +5415,13 @@
 "improvisatie theater de concurrent speelt": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "in person ulrich seidl": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "in the mood for love 4k restoration": {
@@ -5348,6 +5478,27 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"incendies 2010": {
+"dr": "Denis Villeneuve",
+"du": 131,
+"gn": [
+"Drama",
+"War",
+"Mystery"
+],
+"lg": [
+"fr",
+"ar",
+"en"
+],
+"rt": 8.1,
+"sy": "A mother's last wishes send twins Jeanne and Simon on a journey to Middle East in search of their tangled roots. Adapted from Wajdi Mouawad's acclaimed play, Incendies tells the powerful and moving tale of two…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2010
 },
 "indigenous women keepers of knowledge": {
 "dr": "",
@@ -5435,6 +5586,25 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2010
+},
+"it s a wonderful life": {
+"dr": "Frank Capra",
+"du": 130,
+"gn": [
+"Drama",
+"Family",
+"Fantasy"
+],
+"lg": [
+"en"
+],
+"rt": 8.3,
+"sy": "George Bailey has spent his entire life giving to the people of Bedford Falls. All that prevents rich skinflint Mr. Potter from taking over the entire town is George's modest building and loan company. But on…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 1946
 },
 "jarmusch special coffee and cigarettes": {
 "tm5": true,
@@ -5571,8 +5741,9 @@
 },
 "kaboom x melkweg cinema": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "kain nagesprek": {
@@ -5867,8 +6038,9 @@
 },
 "la chaleur tapis rouge 2026": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "la double vie de véronique": {
@@ -6152,10 +6324,23 @@
 "yr": 2026
 },
 "le fantôme de l opéra tapis rouge 2026": {
+"dr": "Alexandre Castagnetti",
+"du": 134,
+"gn": [
+"Thriller",
+"Romance",
+"Mystery"
+],
+"lg": [
+"fr"
+],
+"sy": "Anastasia, an 18-year-old ballet dancer at the Opéra Garnier, becomes the obsession of a disfigured man living in the opera's underground labyrinth.",
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
-"v": 4
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
 },
 "les amants du pont neuf": {
 "dr": "Leos Carax",
@@ -6226,8 +6411,9 @@
 },
 "les feuilles mortes l amour à la mer": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "les parapluies de cherbourg": {
@@ -6277,14 +6463,16 @@
 },
 "let s scare jessica to death 1971 kadavers in k": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "leven aan de rand": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "lgbtq preview club kid": {
@@ -6426,8 +6614,9 @@
 },
 "los silencios": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "love": {
@@ -6486,7 +6675,7 @@
 "ma am tere": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "maak je eigen flipboek daar zit muziek in": {
@@ -6498,13 +6687,14 @@
 "maak je eigen flipboek magische dromen": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "maak je eigen flipboek technische snufjes": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "maak jouw geluid bij film": {
@@ -7144,7 +7334,7 @@
 "mtm on tour molly vs the machines": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "mtm on tour sentient": {
@@ -7156,7 +7346,7 @@
 "museumnacht 2026": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "my brother s wedding": {
@@ -7500,8 +7690,9 @@
 },
 "no way down": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "north by northwest": {
@@ -7656,8 +7847,9 @@
 },
 "openingsfilm congo boy with director rafiki fariala q a en tapis rouge 2026": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "optic nerve my babushka searching ukrainian identities": {
@@ -7708,8 +7900,9 @@
 },
 "our history three documentaries": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "out of sight": {
@@ -7732,10 +7925,17 @@
 "yr": 1998
 },
 "out there": {
+"dr": "Simon Ryninks",
+"du": 80,
+"lg": [
+"cy",
+"en"
+],
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
-"v": 4
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
 },
 "paikar": {
 "dr": "Dawood Hilmandi",
@@ -7834,8 +8034,9 @@
 },
 "palestine cinema days the dream 1987": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "pan s labyrinth": {
@@ -8159,8 +8360,9 @@
 },
 "preview wild horse nine": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "preview youri": {
@@ -8214,8 +8416,9 @@
 },
 "prix tapis rouge with jury q a fr tapis rouge 2026": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "pulse": {
@@ -8670,8 +8873,9 @@
 },
 "science fiction fantasy marxism with jelle klaas": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "scream 30th anniversary": {
@@ -8773,7 +8977,7 @@
 "sense sensibility 1995": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "sentient": {
@@ -8924,20 +9128,23 @@
 },
 "shaun het schaap het beest op de boerderij": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "shaun het schaap het beest van de boerderij": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "short": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "si tu penses bien tapis rouge 2026": {
@@ -9156,7 +9363,7 @@
 "spaces of exception post film discussion": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "sparta": {
@@ -9303,10 +9510,17 @@
 "v": 4
 },
 "suzaki paradise red light": {
+"dr": "Yuzo Kawashima",
+"du": 81,
+"lg": [
+"ja"
+],
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
-"v": 4
+"tried": "2026-10-28",
+"v": 4,
+"yr": 1956
 },
 "symbiopsychotaxiplasm take one": {
 "dr": "William Greaves",
@@ -9378,8 +9592,9 @@
 },
 "tapis rouge frans filmfestval 8e editie 2026": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "ted de magische lamp": {
@@ -9425,15 +9640,23 @@
 },
 "teken je eigen filmstrook": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "temple of the wild geese": {
+"dr": "Yuzo Kawashima",
+"du": 98,
+"lg": [
+"ja"
+],
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
-"v": 4
+"tried": "2026-10-28",
+"v": 4,
+"yr": 1962
 },
 "tender fictions": {
 "dr": "Barbara Hammer",
@@ -10039,8 +10262,9 @@
 },
 "the flick amsterdam on stage": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "the forgotten island": {
@@ -10771,10 +10995,17 @@
 "v": 4
 },
 "the sun in the last days of the shogunate": {
+"dr": "Yuzo Kawashima",
+"du": 110,
+"lg": [
+"ja"
+],
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
-"v": 4
+"tried": "2026-10-28",
+"v": 4,
+"yr": 1957
 },
 "the sweet hereafter": {
 "dr": "Atom Egoyan",
@@ -11546,8 +11777,9 @@
 },
 "un doing justice four daughters": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "un doing justice the law in these parts": {
@@ -11629,10 +11861,17 @@
 "yr": 2009
 },
 "upiro": {
+"dr": "Oscar Martín",
+"du": 105,
+"lg": [
+"es"
+],
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
-"v": 4
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2026
 },
 "uyariy javier corcuera 2025 q a": {
 "tm5": true,
@@ -11680,13 +11919,14 @@
 "ventilator cinema presents inn a state of siege amsterdam premiere q a special screening": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "verhalen uit de magische tuin": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "verity": {
@@ -11761,8 +12001,9 @@
 },
 "visual encounters film fest 2026": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-10-28",
 "v": 4
 },
 "wala kan ala el bal": {
@@ -11845,6 +12086,25 @@
 "tmdb": true,
 "tried": "2026-10-16",
 "v": 4
+},
+"when harry met sally": {
+"dr": "Rob Reiner",
+"du": 96,
+"gn": [
+"Comedy",
+"Romance",
+"Drama"
+],
+"lg": [
+"en"
+],
+"rt": 7.4,
+"sy": "Sex always gets in the way of friendships between men and women. At least, that's what Harry Burns believes. So when Harry meets Sally Albright and a deep friendship blossoms between them, Harry's determined…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 1989
 },
 "whisper of the heart 1995": {
 "dr": "Yoshifumi Kondo",
@@ -12105,6 +12365,25 @@
 "v": 4,
 "yr": 2026
 },
+"youth 2015": {
+"dr": "Paolo Sorrentino",
+"du": 124,
+"gn": [
+"Comedy",
+"Drama",
+"Romance"
+],
+"lg": [
+"en"
+],
+"rt": 6.9,
+"sy": "Two lifelong friends bond whilst vacationing in a luxury Swiss Alps lodge as they ponder retirement. While Fred has no plans to resume his musical career despite the urging of his loving daughter Lena, Mick is…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2015
+},
 "yugly": {
 "dr": "Jérémie Degruson",
 "du": 86,
@@ -12147,9 +12426,16 @@
 "yr": 2025
 },
 "zur lage": {
+"dr": "Barbara Albert, Michael Glawogger",
+"du": 85,
+"lg": [
+"de"
+],
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
-"v": 4
+"tried": "2026-10-28",
+"v": 4,
+"yr": 2002
 }
 }
