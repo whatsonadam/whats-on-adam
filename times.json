@@ -267,6 +267,11 @@
 "eh": "08:00",
 "chk": "2026-10-18"
 },
+"https://radion.amsterdam/program/aura/": {
+"h": "23:00",
+"eh": "07:00",
+"chk": "2026-10-29"
+},
 "https://radion.amsterdam/program/beyond-the-dance-floor-ade-edition-2/": {
 "h": "19:30",
 "eh": "23:00",
@@ -340,6 +345,10 @@
 "h": "23:00",
 "eh": "07:00",
 "chk": "2026-10-18"
+},
+"https://radion.amsterdam/program/vault-sessions-x-bassiani-wkndr/": {
+"none": true,
+"chk": "2026-10-29"
 },
 "https://tolhuistuin.nl/en/events/30-jaar-excelsior-recordings": {
 "h": "16:00",
@@ -1952,6 +1961,10 @@
 "h": "20:00",
 "chk": "2026-10-11"
 },
+"https://www.cinetol.nl/events/de-club-is-stuk-clubavond": {
+"h": "20:00",
+"chk": "2026-10-29"
+},
 "https://www.cinetol.nl/events/discovery-zone": {
 "h": "20:00",
 "chk": "2026-10-11"
@@ -2007,6 +2020,10 @@
 "https://www.cinetol.nl/events/jam-with-humans-fest-2": {
 "h": "17:00",
 "chk": "2026-10-11"
+},
+"https://www.cinetol.nl/events/jgrrey": {
+"h": "20:30",
+"chk": "2026-10-29"
 },
 "https://www.cinetol.nl/events/kb-presents": {
 "h": "19:00",
@@ -2075,6 +2092,10 @@
 "https://www.cinetol.nl/events/niels-orens": {
 "h": "21:00",
 "chk": "2026-10-11"
+},
+"https://www.cinetol.nl/events/nuki": {
+"h": "20:00",
+"chk": "2026-10-29"
 },
 "https://www.cinetol.nl/events/nykolaes-daniel-paul": {
 "h": "20:00",
@@ -2199,6 +2220,10 @@
 "eh": "19:00",
 "chk": "2026-10-28"
 },
+"https://www.dehallen-amsterdam.nl/en/agenda/halloween": {
+"none": true,
+"chk": "2026-10-29"
+},
 "https://www.dehallen-amsterdam.nl/en/agenda/het-danspaleis-okt": {
 "h": "14:00",
 "eh": "16:00",
@@ -2224,6 +2249,11 @@
 "eh": "00:00",
 "chk": "2026-10-28"
 },
+"https://www.dehallen-amsterdam.nl/en/agenda/podium-voor-de-buurt": {
+"h": "19:00",
+"eh": "20:30",
+"chk": "2026-10-29"
+},
 "https://www.dehallen-amsterdam.nl/en/agenda/queer-tattoo-fest": {
 "h": "11:00",
 "eh": "20:00",
@@ -2239,6 +2269,11 @@
 "eh": "22:00",
 "chk": "2026-10-28"
 },
+"https://www.dehallen-amsterdam.nl/en/agenda/second-saturdays-dance-intimate-portraits": {
+"h": "20:30",
+"eh": "21:45",
+"chk": "2026-10-29"
+},
 "https://www.dehallen-amsterdam.nl/en/agenda/speel-deel-ruil-en-recycle-festival-2": {
 "h": "11:00",
 "eh": "15:00",
@@ -2253,6 +2288,11 @@
 "h": "11:00",
 "eh": "17:00",
 "chk": "2026-10-18"
+},
+"https://www.dehallen-amsterdam.nl/en/agenda/who-started-the-natty-wine-thing-anyway": {
+"h": "19:00",
+"eh": "21:30",
+"chk": "2026-10-29"
 },
 "https://www.iamsterdam.com/uit/agenda/attracties-en-bezienswaardigheden/tours/workshop-parfum-maken": {
 "dates": {

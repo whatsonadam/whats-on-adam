@@ -6815,6 +6815,25 @@
 "v": 4,
 "yr": 2026
 },
+"le journal d une femme de chambre": {
+"dr": "Radu Jude",
+"du": 94,
+"gn": [
+"Drama",
+"Comedy"
+],
+"lg": [
+"en",
+"fr",
+"ro"
+],
+"sy": "A young Romanian woman living in France works for a French family and joins a theatre company who are adapting Octave Mirbeau's The Diary of a Chambermaid.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-29",
+"v": 4,
+"yr": 2026
+},
 "les amants du pont neuf": {
 "dr": "Leos Carax",
 "du": 126,
@@ -8353,6 +8372,25 @@
 "v": 4,
 "yr": 2025
 },
+"on the beach at night alone": {
+"dr": "Hong Sang-soo",
+"du": 101,
+"gn": [
+"Drama"
+],
+"lg": [
+"de",
+"en",
+"ko"
+],
+"rt": 6.5,
+"sy": "In a foreign city, an actress wanders through a seaside town, reflecting on her relationship with a married man. How important is love in one’s life? Younghee wants to find out.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-29",
+"v": 4,
+"yr": 2018
+},
 "on the waterfront": {
 "dr": "Elia Kazan",
 "du": 106,
@@ -9345,6 +9383,24 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2022
+},
+"rockers 1978": {
+"dr": "Ted Bafaloukos",
+"du": 100,
+"gn": [
+"Drama",
+"Action",
+"Comedy"
+],
+"lg": [
+"en"
+],
+"sy": "Guitarist Ko-chan is a mess of sexual repression after a childhood at the mercy of two elder sisters eager to use him as a guinea pig for their make-up skills. Bassist Gaku-chan keeps a bucket in the wings for…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-29",
+"v": 4,
+"yr": 1978
 },
 "roma 1972": {
 "dr": "Federico Fellini",

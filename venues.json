@@ -2184,6 +2184,12 @@
 "skip": true,
 "q": "not found"
 },
+"Gymzaal Damwand": {
+"lat": 52.37817,
+"lon": 4.88112,
+"q": "name",
+"area": "Centrum"
+},
 "H'ART Museum": {
 "lat": 52.36565,
 "lon": 4.90221,
@@ -2532,6 +2538,10 @@
 "q": "name",
 "area": "Zuid"
 },
+"Jacob van Lennepstraat 60 H": {
+"skip": true,
+"q": "not found"
+},
 "Jan van Galenstraat A10 snelweg": {
 "skip": true,
 "q": "not found"
@@ -2739,6 +2749,12 @@
 "LEIDSE Amsterdam": {
 "skip": true,
 "q": "not found"
+},
+"LIMA": {
+"lat": 52.34561,
+"lon": 4.89959,
+"q": "name",
+"area": "Zuid"
 },
 "LYUBLU": {
 "skip": true,
@@ -3377,6 +3393,12 @@
 "Oberhaum": {
 "skip": true,
 "q": "not found"
+},
+"Occii": {
+"lat": 52.35434,
+"lon": 4.85534,
+"q": "name",
+"area": "Zuid"
 },
 "Oceandiva": {
 "skip": true,
