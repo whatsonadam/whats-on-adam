@@ -77,7 +77,7 @@
 "5 decennia de appel filmvertoning paneldiscussie": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-15",
+"tried": "2026-10-29",
 "v": 4
 },
 "500 miles": {
@@ -1423,6 +1423,12 @@
 "tried": "2026-10-28",
 "v": 4
 },
+"charles burnett short films 1969 2007": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-29",
+"v": 4
+},
 "charlie harper": {
 "dr": "Tom Dean, Mac Eldridge",
 "du": 102,
@@ -1639,6 +1645,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2025
+},
+"cinédialoog caméra d afrique": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-29",
+"v": 4
 },
 "cinédialoog gardens of fez": {
 "tm5": true,
@@ -3490,7 +3502,7 @@
 "fiction science psycho": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-15",
+"tried": "2026-10-29",
 "v": 4
 },
 "fiction science singing in the rain": {
@@ -3575,7 +3587,7 @@
 "filmclub sunset boelelaan la haine": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-15",
+"tried": "2026-10-29",
 "v": 4
 },
 "filmcollege in de omval diemen": {
@@ -4005,6 +4017,22 @@
 "v": 4,
 "yr": 2009
 },
+"giulio regeni tutto il male del mondo": {
+"dr": "Simone Manetti",
+"du": 96,
+"gn": [
+"Documentary"
+],
+"lg": [
+"it"
+],
+"sy": "The events related to the death of Giulio Regeni, kidnapped, tortured and killed in Egypt, with the reconstruction of his family and lawyer Alessandra Ballerini, showing the stages of the kidnapping, the…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-29",
+"v": 4,
+"yr": 2026
+},
 "godzilla minus one": {
 "dr": "Takashi Yamazaki",
 "du": 125,
@@ -4208,7 +4236,7 @@
 "halloween special the texas chain saw massacre": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-15",
+"tried": "2026-10-29",
 "v": 4
 },
 "hallowiebe overdrive": {
@@ -6520,6 +6548,12 @@
 "v": 4,
 "yr": 1995
 },
+"la hija cóndor humans of film": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-29",
+"v": 4
+},
 "la llorona": {
 "dr": "Jayro Bustamante",
 "du": 97,
@@ -7952,6 +7986,24 @@
 "v": 4,
 "yr": 2026
 },
+"naza de balie": {
+"dr": "Yuval Abraham, Rachel Szor",
+"du": 80,
+"gn": [
+"Documentary",
+"War"
+],
+"lg": [
+"he"
+],
+"rt": 8.1,
+"sy": "Filmed at night from Tel Aviv rooftops, this investigative documentary examines the civilian casualties of Israel's military operations in Gaza and the systems behind targeted killings of Palestinians.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-29",
+"v": 4,
+"yr": 2026
+},
 "naza eng": {
 "dr": "Yuval Abraham, Rachel Szor",
 "du": 80,
@@ -9099,6 +9151,23 @@
 "tmdb": true,
 "tried": "2026-10-27",
 "v": 4
+},
+"rammstein live in mexico city": {
+"dr": "Paul Dugdale",
+"du": 110,
+"gn": [
+"Documentary",
+"Music"
+],
+"lg": [
+"de"
+],
+"sy": "A three-night compilation that captures their spectacular October 2022 shows at the Foro Sol Stadium in Mexico City during the Stadium Tour era. This live has become the band's most massive and longest one of…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-29",
+"v": 4,
+"yr": 2026
 },
 "ran 1985 mediaevalia": {
 "tm5": true,
@@ -12602,6 +12671,12 @@
 "v": 4,
 "yr": 2008
 },
+"ukrainian new wave coming closer": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-29",
+"v": 4
+},
 "un anno di scuola": {
 "dr": "Laura Samani",
 "du": 102,
@@ -12629,7 +12704,7 @@
 "un doing justice the law in these parts": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-15",
+"tried": "2026-10-29",
 "v": 4
 },
 "uncle boonmee who can recall his past lives": {
@@ -12871,6 +12946,18 @@
 "tmdb": true,
 "tried": "2026-10-28",
 "v": 4
+},
+"wajda s legacy documentaries from the wajda school": {
+"dr": "",
+"du": 99,
+"lg": [
+"pl"
+],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-29",
+"v": 4,
+"yr": 2022
 },
 "wala kan ala el bal": {
 "tm5": true,

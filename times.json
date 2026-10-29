@@ -121,6 +121,11 @@
 "h": "16:00",
 "chk": "2026-10-18"
 },
+"https://marineterrein.nl/agenda/crcl-fest": {
+"h": "12:00",
+"eh": "18:00",
+"chk": "2026-10-29"
+},
 "https://marineterrein.nl/agenda/de-andere-quiz-2": {
 "h": "20:00",
 "chk": "2026-10-18"
@@ -128,6 +133,11 @@
 "https://marineterrein.nl/agenda/de-weerbare-stad-wie-wordt-er-geholpen-in-tijden-van-nood": {
 "h": "17:45",
 "chk": "2026-10-18"
+},
+"https://marineterrein.nl/agenda/experience-day-codam": {
+"h": "12:30",
+"eh": "15:00",
+"chk": "2026-10-29"
 },
 "https://marineterrein.nl/agenda/klankconcerten-met-de-gongluider-van-amsterdam": {
 "h": "18:00",
@@ -148,6 +158,11 @@
 "h": "13:00",
 "eh": "16:00",
 "chk": "2026-10-25"
+},
+"https://marineterrein.nl/agenda/uncommon-ground": {
+"h": "10:00",
+"eh": "18:00",
+"chk": "2026-10-29"
 },
 "https://marineterrein.nl/agenda/wekelijkse-kledingruil-in-studio-de-kat-2": {
 "h": "12:00",
@@ -174,6 +189,10 @@
 "https://parallel.am/programme/descendants-ade-3": {
 "none": true,
 "chk": "2026-10-18"
+},
+"https://parallel.am/programme/disco-arabesquo-presents-the-official-afterparty-headlined-by-saint-levant": {
+"none": true,
+"chk": "2026-10-29"
 },
 "https://parallel.am/programme/eastern-margins-natural-mind-ade": {
 "h": "20:00",
@@ -472,7 +491,7 @@
 },
 "https://tolhuistuin.nl/en/events/congerentie-stop-geweld-tegen-vrouwen": {
 "none": true,
-"chk": "2026-10-22"
+"chk": "2026-10-29"
 },
 "https://tolhuistuin.nl/en/events/congerentie-stop-geweld-tegen-vrouwen?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
 "none": true,
@@ -538,7 +557,7 @@
 },
 "https://tolhuistuin.nl/en/events/de-danskamer-25": {
 "none": true,
-"chk": "2026-10-22"
+"chk": "2026-10-29"
 },
 "https://tolhuistuin.nl/en/events/de-danskamer-25?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
 "none": true,
@@ -750,6 +769,16 @@
 "h": "20:30",
 "eh": null,
 "chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/girls-to-the-front-bottled-violence": {
+"h": "20:30",
+"eh": null,
+"chk": "2026-10-29"
+},
+"https://tolhuistuin.nl/en/events/girls-to-the-front-death-sells": {
+"h": "21:30",
+"eh": null,
+"chk": "2026-10-29"
 },
 "https://tolhuistuin.nl/en/events/girls-to-the-front-pomme-grenade": {
 "h": "19:30",
@@ -1091,7 +1120,7 @@
 },
 "https://tolhuistuin.nl/en/events/new-energy": {
 "none": true,
-"chk": "2026-10-22"
+"chk": "2026-10-29"
 },
 "https://tolhuistuin.nl/en/events/new-energy?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
 "none": true,
@@ -1145,7 +1174,7 @@
 },
 "https://tolhuistuin.nl/en/events/one-fine-mess-12": {
 "none": true,
-"chk": "2026-10-22"
+"chk": "2026-10-29"
 },
 "https://tolhuistuin.nl/en/events/one-fine-mess-12?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
 "none": true,
@@ -1771,7 +1800,7 @@
 },
 "https://tolhuistuin.nl/en/events/workshop-kunst-x-activisme-breitner-studenten": {
 "none": true,
-"chk": "2026-10-22"
+"chk": "2026-10-29"
 },
 "https://tolhuistuin.nl/en/events/workshop-kunst-x-activisme-breitner-studenten?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
 "none": true,
@@ -2434,6 +2463,15 @@
 },
 "chk": "2026-10-11"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/familieconcert-sofie-en-het-wonder-van-fez-6": {
+"dates": {
+"2027-02-26": {
+"h": "13:30",
+"eh": "14:30"
+}
+},
+"chk": "2026-10-29"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/familievoorstelling-rustig": {
 "dates": {
 "2026-10-31": {
@@ -3049,6 +3087,23 @@
 }
 },
 "chk": "2026-10-15"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/bezoek-de-pakjesboot-in-weesp": {
+"dates": {
+"2026-12-03": {
+"h": "14:00",
+"eh": "18:00"
+},
+"2026-12-04": {
+"h": "14:00",
+"eh": "18:00"
+},
+"2026-12-05": {
+"h": "10:00",
+"eh": "17:30"
+}
+},
+"chk": "2026-10-29"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/black-cat-theatre-ahoi-2-6-jaar": {
 "dates": {

@@ -1003,6 +1003,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Café 't Helletje": {
+"lat": 52.30967,
+"lon": 5.04306,
+"q": "name",
+"area": "Weesp"
+},
 "Café Belcampo": {
 "lat": 52.36682,
 "lon": 4.86888,
@@ -2504,6 +2510,12 @@
 "q": "addr",
 "area": "Zuid"
 },
+"Internet Archive Europe Headquarters": {
+"lat": 52.37185,
+"lon": 4.90485,
+"q": "name",
+"area": "Centrum"
+},
 "Ir Lely Lyceum": {
 "lat": 52.29734,
 "lon": 4.97867,
@@ -3019,6 +3031,12 @@
 "lon": 4.87707,
 "q": "name",
 "area": "Zuid"
+},
+"Mozes en Aäronkerk": {
+"lat": 52.36826,
+"lon": 4.9032,
+"q": "name",
+"area": "Centrum"
 },
 "Mr Watson": {
 "lat": 52.35203,
@@ -4015,6 +4033,12 @@
 "lon": 4.88062,
 "q": "name",
 "area": "Zuid"
+},
+"Sauna Deco": {
+"lat": 52.37624,
+"lon": 4.88974,
+"q": "name",
+"area": "Centrum"
 },
 "Scala | foodbar en theater": {
 "skip": true,
