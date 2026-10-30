@@ -1355,7 +1355,7 @@
 "career talk kiyoshi kurosawa": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-16",
+"tried": "2026-10-30",
 "v": 4
 },
 "carmen": {
@@ -1464,6 +1464,26 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2011
+},
+"chronovisor": {
+"dr": "Kevin Walker, Jack Auen",
+"du": 99,
+"gn": [
+"Mystery",
+"Science Fiction",
+"Thriller"
+],
+"lg": [
+"de",
+"it",
+"fr"
+],
+"sy": "A French academic is seduced into a world of untold histories in her scholarly quest to uncover the mystery of a history-capturing camera-like machine created by clandestine Benedictine monks.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-30",
+"v": 4,
+"yr": 2026
 },
 "cine of the times presents magic mike xxl 2015 incl pre show": {
 "dr": "Gregory Jacobs",
@@ -9365,6 +9385,30 @@
 "tried": "2026-10-27",
 "v": 4
 },
+"right now wrong then": {
+"dr": "Hong Sang-soo",
+"du": 121,
+"gn": [
+"Drama",
+"Romance"
+],
+"lg": [
+"ko"
+],
+"rt": 7.0,
+"sy": "By mistake, film director Ham Chunsu arrives in Suwon a day early. With time to kill before his lecture the next day, Chunsu stops by a restored, old palace and meets an artist named Yoon Heejung. Together…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-30",
+"v": 4,
+"yr": 2015
+},
+"right now wrong then 2015": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-30",
+"v": 4
+},
 "rimini": {
 "dr": "Ulrich Seidl",
 "du": 114,
@@ -10168,6 +10212,25 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"spirited away": {
+"dr": "Hayao Miyazaki",
+"du": 125,
+"gn": [
+"Animation",
+"Family",
+"Fantasy"
+],
+"lg": [
+"ja"
+],
+"rt": 8.5,
+"sy": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-30",
+"v": 4,
+"yr": 2001
 },
 "still a brother inside the negro middle class": {
 "dr": "William Greaves",
@@ -11634,6 +11697,24 @@
 "v": 4,
 "yr": 2026
 },
+"the only living pickpocket in new york": {
+"dr": "Noah Segan",
+"du": 88,
+"gn": [
+"Crime",
+"Drama",
+"Thriller"
+],
+"lg": [
+"en"
+],
+"sy": "Harry Lehman is an aging pickpocket who plies his trade with ever-diminishing returns in a drastically changed New York. Wallets stuffed with cash have been replaced by easily cancelled credit cards, and Harry…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-30",
+"v": 4,
+"yr": 2026
+},
 "the plague": {
 "dr": "Charlie Polinger",
 "du": 95,
@@ -11997,6 +12078,23 @@
 "tried": "2026-10-15",
 "v": 4,
 "yr": 1984
+},
+"the texas chain saw massacre": {
+"dr": "Tobe Hooper",
+"du": 83,
+"gn": [
+"Horror"
+],
+"lg": [
+"en"
+],
+"rt": 7.3,
+"sy": "Five friends head out to rural Texas to visit the grave of a grandfather. On the way, they stumble across what appears to be a deserted house, only to discover something sinister within. Something armed with a…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-30",
+"v": 4,
+"yr": 1974
 },
 "the texas chain saw massacre 50th anniversary": {
 "dr": "Tobe Hooper",
@@ -12816,6 +12914,41 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1992
+},
+"united in anger a history of act up": {
+"dr": "Jim Hubbard",
+"du": 90,
+"gn": [
+"Documentary",
+"History"
+],
+"lg": [
+"es",
+"en"
+],
+"qr": 1,
+"sy": "United in Anger: A History of ACT UP is an inspiring documentary about the birth and life of the AIDS activist movement from the perspective of the people in the trenches fighting the epidemic. Utilizing oral…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-30",
+"v": 4,
+"yr": 2012
+},
+"uomini anni vita": {
+"dr": "Yervant Gianikian, Angela Ricci Lucchi",
+"du": 70,
+"gn": [
+"Documentary"
+],
+"lg": [
+"it"
+],
+"sy": "Using images shot in Russia and Armenia from World War I to the 1930s and retrieved from a Soviet film archive, Gianikian and Ricci Lucchi constructed a meditative film about the status of Armenians as a…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-30",
+"v": 4,
+"yr": 1990
 },
 "up in the air": {
 "dr": "Jason Reitman",

@@ -2174,6 +2174,12 @@
 "skip": true,
 "q": "not found"
 },
+"Grond": {
+"lat": 52.37105,
+"lon": 4.8939,
+"q": "name",
+"area": "Centrum"
+},
 "Grote Kerk Naarden": {
 "lat": 52.36642,
 "lon": 4.91805,
@@ -4732,6 +4738,12 @@
 "lon": 4.88585,
 "q": "name",
 "area": "Centrum"
+},
+"The Miners Сoffee Oud-West": {
+"lat": 52.36738,
+"lon": 4.86887,
+"q": "name",
+"area": "West"
 },
 "The Movies": {
 "lat": 52.38401,

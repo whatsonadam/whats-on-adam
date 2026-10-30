@@ -104,6 +104,11 @@
 "eh": "15:00",
 "chk": "2026-10-25"
 },
+"https://hipsy.nl/event/255388-ecstatic-dance-tba": {
+"h": "18:00",
+"eh": "22:00",
+"chk": "2026-10-30"
+},
 "https://hipsy.nl/event/257835-moving-dialogues-contact-improvisation-workshop-steven-campos": {
 "h": "18:00",
 "eh": "23:00",
@@ -1882,6 +1887,11 @@
 "eh": "21:30",
 "chk": "2026-10-18"
 },
+"https://www.amsterdammuseum.nl/en/public-program/inheemsheid-onder-kolonialiteit/304776": {
+"h": "18:30",
+"eh": "21:00",
+"chk": "2026-10-30"
+},
 "https://www.amsterdammuseum.nl/en/public-program/museumnacht-bij-huis-willet-holthuysen/240561": {
 "none": true,
 "chk": "2026-10-25"
@@ -2521,6 +2531,14 @@
 },
 "chk": "2026-10-13"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/feeble-little-horse": {
+"dates": {
+"2026-11-15": {
+"h": "19:30"
+}
+},
+"chk": "2026-10-30"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/froukje": {
 "dates": {
 "2026-12-10": {
@@ -2571,6 +2589,19 @@
 }
 },
 "chk": "2026-10-11"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/hartmut-haenchen-en-nederlands-philharmonisch-met-bruckner-6": {
+"dates": {
+"2027-02-27": {
+"h": "20:15",
+"eh": "22:35"
+},
+"2027-02-28": {
+"h": "14:15",
+"eh": "16:35"
+}
+},
+"chk": "2026-10-30"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/haute-and-freddy": {
 "dates": {
