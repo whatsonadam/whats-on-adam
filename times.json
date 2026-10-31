@@ -109,6 +109,11 @@
 "eh": "22:00",
 "chk": "2026-10-30"
 },
+"https://hipsy.nl/event/255389-cacao-ecstatic-dance-rachi": {
+"h": "18:00",
+"eh": "23:00",
+"chk": "2026-10-31"
+},
 "https://hipsy.nl/event/257835-moving-dialogues-contact-improvisation-workshop-steven-campos": {
 "h": "18:00",
 "eh": "23:00",
@@ -302,6 +307,11 @@
 "eh": "07:00",
 "chk": "2026-10-18"
 },
+"https://radion.amsterdam/program/dj-bone-presents-further-nye-2026/": {
+"h": "22:00",
+"eh": "07:00",
+"chk": "2026-10-31"
+},
 "https://radion.amsterdam/program/dj-bone-presents-further-x-homeless-homies-ade-2026/": {
 "h": "11:00",
 "eh": "22:00",
@@ -340,6 +350,11 @@
 "h": "23:00",
 "eh": "07:00",
 "chk": "2026-10-18"
+},
+"https://radion.amsterdam/program/radion-presents-dj-fuckoff/": {
+"h": "23:00",
+"eh": "07:00",
+"chk": "2026-10-31"
 },
 "https://radion.amsterdam/program/vault-sesions-x-key-vinyl-ade/": {
 "h": "23:00",
@@ -1863,6 +1878,11 @@
 "eh": "05:45",
 "chk": "2026-10-18"
 },
+"https://www.amsterdammuseum.nl/en/public-program/bitter-en-zoet-aan-de-gracht/305153": {
+"h": "13:30",
+"eh": "16:30",
+"chk": "2026-10-31"
+},
 "https://www.amsterdammuseum.nl/en/public-program/collectie-polonaise-show/292077": {
 "h": "20:00",
 "eh": "22:45",
@@ -2138,6 +2158,10 @@
 "https://www.cinetol.nl/events/roomer": {
 "h": "20:30",
 "chk": "2026-10-11"
+},
+"https://www.cinetol.nl/events/rosalie-cunningham": {
+"h": "20:00",
+"chk": "2026-10-31"
 },
 "https://www.cinetol.nl/events/sergeant": {
 "h": "20:30",

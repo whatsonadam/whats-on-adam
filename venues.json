@@ -1701,6 +1701,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"De Wijnimport van Arrebol 🍷": {
+"lat": 52.34337,
+"lon": 4.89596,
+"q": "name",
+"area": "Zuid"
+},
 "De Willem": {
 "lat": 52.34955,
 "lon": 4.86293,
@@ -1726,6 +1732,12 @@
 "Desmet Studio's Amsterdam bv": {
 "skip": true,
 "q": "not found"
+},
+"Diaconie": {
+"lat": 52.37685,
+"lon": 4.85363,
+"q": "name",
+"area": "West"
 },
 "Dick & Dick": {
 "lat": 52.34397,
@@ -2678,6 +2690,12 @@
 "skip": true,
 "q": "not found"
 },
+"Kinkerstraat": {
+"lat": 52.36569,
+"lon": 4.86637,
+"q": "name",
+"area": "West"
+},
 "Kinki Kappers van Bearlestraat": {
 "lat": 52.36202,
 "lon": 4.92521,
@@ -3217,6 +3235,12 @@
 "Nature Bar – Zeepziederij & duurzame winkel in De Hallen": {
 "skip": true,
 "q": "not found"
+},
+"Natuurgebied De Bretten": {
+"lat": 52.38702,
+"lon": 4.79345,
+"q": "name",
+"area": "Nieuw-West"
 },
 "Nazka": {
 "lat": 52.35372,
@@ -4243,6 +4267,10 @@
 "q": "not found"
 },
 "Spui, bij ‘t Lieverdje, Amsterdam": {
+"skip": true,
+"q": "not found"
+},
+"Spuistraat 220": {
 "skip": true,
 "q": "not found"
 },

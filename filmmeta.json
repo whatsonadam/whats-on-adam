@@ -1589,10 +1589,28 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"cinema mythologica her 2013": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-31",
+"v": 4
+},
 "cinema mythologica oedipus rex 1967": {
 "tm5": true,
 "tmdb": true,
 "tried": "2026-10-19",
+"v": 4
+},
+"cinema mythologica synecdoche new york 2008": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-31",
+"v": 4
+},
+"cinema mythologica vertigo 1958": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-31",
 "v": 4
 },
 "cinemanita fiber factory": {
@@ -7282,6 +7300,18 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1960
+},
+"maghreb film festival poupiya": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-31",
+"v": 4
+},
+"maghreb film festival the ants": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-10-31",
+"v": 4
 },
 "mamelles ancestrales": {
 "dr": "Tabita Rezaire",
