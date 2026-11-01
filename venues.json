@@ -3092,6 +3092,12 @@
 "q": "name",
 "area": "Oost"
 },
+"Museum JAN": {
+"lat": 52.36009,
+"lon": 4.88209,
+"q": "name",
+"area": "Zuid"
+},
 "Museum Ons' Lieve Heer op Solder": {
 "lat": 52.37517,
 "lon": 4.89937,
