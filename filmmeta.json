@@ -960,7 +960,7 @@
 "best of kaboom animation festival": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-18",
+"tried": "2026-11-01",
 "v": 4
 },
 "between revolutions": {
@@ -3174,7 +3174,7 @@
 "europa trilogy epidemic": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-18",
+"tried": "2026-11-01",
 "v": 4
 },
 "europa trilogy epidemic 1987": {
@@ -3192,13 +3192,13 @@
 "europa trilogy europa zentropa": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-18",
+"tried": "2026-11-01",
 "v": 4
 },
 "europa trilogy the element of crime": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-18",
+"tried": "2026-11-01",
 "v": 4
 },
 "european outdoor film tour 26 27 moving adventures": {
@@ -3619,7 +3619,7 @@
 "film lecture time after time over herhaling in films en andere verhalen": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-18",
+"tried": "2026-11-01",
 "v": 4
 },
 "filmclub sunset boelelaan la haine": {
@@ -4703,7 +4703,7 @@
 "humans of film festival sixth edition": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-18",
+"tried": "2026-11-01",
 "v": 4
 },
 "hundreds of beavers": {
@@ -6955,7 +6955,7 @@
 "les feuilles mortes 2 memorias del subdesarrollo": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-18",
+"tried": "2026-11-01",
 "v": 4
 },
 "les feuilles mortes l amour à la mer": {
@@ -7994,6 +7994,22 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"mãos à terra": {
+"dr": "Sérgio Guidoux",
+"du": 80,
+"gn": [
+"Documentary"
+],
+"lg": [
+"prg"
+],
+"sy": "Every Saturday morning for 34 years a pioneering ecologist farmers' market brings together city people and those who produce their food. Unfolding a collective narrative, the film follows diverse…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-01",
+"v": 4,
+"yr": 2025
+},
 "mémoire de fille": {
 "dr": "Judith Godrèche",
 "du": 117,
@@ -8717,7 +8733,7 @@
 "palestine cinema days around the world with hasan in gaza": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-18",
+"tried": "2026-11-01",
 "v": 4
 },
 "palestine cinema days the dream 1987": {
@@ -8725,6 +8741,12 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-10-28",
+"v": 4
+},
+"palestinian perspectives": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-01",
 "v": 4
 },
 "pan s labyrinth": {
@@ -13296,6 +13318,24 @@
 "tried": "2026-10-28",
 "v": 4,
 "yr": 1989
+},
+"where i belong 2nd shorts competition social prorgammers": {
+"dr": "Fritz Urschitz",
+"du": 85,
+"gn": [
+"Romance",
+"Drama"
+],
+"lg": [
+"de",
+"en"
+],
+"sy": "Rosemarie is a hard-working young woman living in a small English town in the 1950's. She left Austria with her father during the war to escape the Nazi oppression and since then, despite poverty and…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-01",
+"v": 4,
+"yr": 2014
 },
 "whisper of the heart 1995": {
 "dr": "Yoshifumi Kondo",

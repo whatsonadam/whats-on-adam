@@ -1633,6 +1633,10 @@
 "q": "addr",
 "area": "Noord"
 },
+"De Ruijterkade 14": {
+"skip": true,
+"q": "not found"
+},
 "De Sering": {
 "lat": 52.39053,
 "lon": 4.8321,
@@ -2662,6 +2666,10 @@
 "skip": true,
 "q": "not found"
 },
+"Keizersgracht 316": {
+"skip": true,
+"q": "not found"
+},
 "Keizersgracht 374": {
 "skip": true,
 "q": "not found"
@@ -3259,6 +3267,16 @@
 "lon": 4.93856,
 "q": "name",
 "area": "Oost"
+},
+"Nederlands Instituut Voor Beeld en Geluid": {
+"lat": 52.35499,
+"lon": 4.86251,
+"q": "name",
+"area": "Zuid"
+},
+"Newion Investments B.V.": {
+"skip": true,
+"q": "not found"
 },
 "Next Stop ADE Bus": {
 "skip": true,
@@ -4506,6 +4524,9 @@
 "TBA - Comedy Café Amsterdam": {
 "skip": true
 },
+"TBA - Crowne Plaza Amsterdam South": {
+"skip": true
+},
 "TBA - De Ruijterkade 14, 1012 AA Amsterdam, Niederlande": {
 "skip": true
 },
@@ -4537,6 +4558,9 @@
 "skip": true
 },
 "TBA - NDSM Areal": {
+"skip": true
+},
+"TBA - Park Inn by Radisson Amsterdam City West": {
 "skip": true
 },
 "TBA - STOOM SHIP- Ndsm pier 6, Amsterdam": {
