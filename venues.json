@@ -175,6 +175,12 @@
 "skip": true,
 "q": "not found"
 },
+"Afra's studio, Werkgebouw het Veem": {
+"lat": 52.39031,
+"lon": 4.88682,
+"q": "name",
+"area": "West"
+},
 "Afvalpaleis": {
 "skip": true,
 "q": "not found"
@@ -683,6 +689,12 @@
 "skip": true,
 "q": "not found"
 },
+"Bibliotheek Amstelveen Stadsplein": {
+"lat": 52.30315,
+"lon": 4.85823,
+"q": "name",
+"area": null
+},
 "Bibliotheek Amstelveen Westwijk": {
 "lat": 52.28143,
 "lon": 4.82646,
@@ -1044,6 +1056,12 @@
 "lon": 4.87888,
 "q": "name",
 "area": "West"
+},
+"Café Dapper": {
+"lat": 52.36104,
+"lon": 4.92828,
+"q": "name",
+"area": "Oost"
 },
 "Café De Duivel": {
 "lat": 52.36609,
@@ -2202,6 +2220,10 @@
 "q": "name",
 "area": "Centrum"
 },
+"Grote zaal van APGEN naast Huis Elsrijk (Amstelveen-Noord)": {
+"skip": true,
+"q": "not found"
+},
 "Gunpowderstudio": {
 "skip": true,
 "q": "not found"
@@ -2740,11 +2762,23 @@
 "q": "name",
 "area": "Centrum"
 },
+"Koninklijke Harmonie De Adelaar": {
+"lat": 52.31642,
+"lon": 5.03261,
+"q": "name",
+"area": "Weesp"
+},
 "Kriterion": {
 "lat": 52.36249,
 "lon": 4.91067,
 "q": "name",
 "area": "Centrum"
+},
+"Kromhouthal": {
+"lat": 52.3833,
+"lon": 4.92049,
+"q": "name",
+"area": "Noord"
 },
 "Krush Amsterdam": {
 "skip": true,
@@ -4579,6 +4613,9 @@
 "TBA - Secret Location": {
 "skip": true
 },
+"TBA - Secret Location (Address in Description)": {
+"skip": true
+},
 "TBA - The All Out, Amsterdam": {
 "skip": true
 },
@@ -4955,6 +4992,12 @@
 "q": "name",
 "area": "West"
 },
+"Tolhuis": {
+"lat": 52.3832,
+"lon": 4.90473,
+"q": "name",
+"area": "Noord"
+},
 "Tolhuistuin": {
 "lat": 52.38371,
 "lon": 4.90493,
@@ -4978,6 +5021,12 @@
 "lon": 4.89295,
 "q": "name",
 "area": "Noord"
+},
+"Trippenhuis": {
+"lat": 52.37122,
+"lon": 4.89953,
+"q": "name",
+"area": "Centrum"
 },
 "Tropeninstituut: Koninklijk Instituut Voor de Tropen": {
 "lat": 52.36254,

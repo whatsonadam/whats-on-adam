@@ -3656,6 +3656,19 @@
 },
 "chk": "2026-10-14"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/on-the-waterfront-4k-restoration": {
+"dates": {
+"2026-11-06": {
+"h": "10:15",
+"eh": "12:03"
+},
+"2026-11-11": {
+"h": "10:00",
+"eh": "11:48"
+}
+},
+"chk": "2026-11-02"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/out-of-the-stillness": {
 "dates": {
 "2026-10-15": {
@@ -3779,6 +3792,19 @@
 }
 },
 "chk": "2026-10-20"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/signalen-van-boven": {
+"dates": {
+"2026-11-03": {
+"h": "11:00",
+"eh": "12:11"
+},
+"2026-11-04": {
+"h": "11:45",
+"eh": "12:56"
+}
+},
+"chk": "2026-11-02"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/space-academy": {
 "dates": {

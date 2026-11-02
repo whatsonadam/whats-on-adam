@@ -108,6 +108,12 @@
 "tried": "2026-10-22",
 "v": 4
 },
+"98 12 28 otokotachi no wakare 2005": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
+"v": 4
+},
 "a dip into australia": {
 "tm4": true,
 "tmdb": true,
@@ -148,6 +154,12 @@
 "yr": 1961
 },
 "a knight s tale 2001 mediaevalia": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
+"v": 4
+},
+"a little gray wolf will come q a": {
 "tm5": true,
 "tmdb": true,
 "tried": "2026-11-02",
@@ -544,6 +556,25 @@
 "v": 4,
 "yr": 2026
 },
+"amarga navidad": {
+"dr": "Pedro Almodóvar",
+"du": 111,
+"gn": [
+"Drama",
+"Comedy"
+],
+"lg": [
+"es"
+],
+"qr": 1,
+"rt": 6.2,
+"sy": "During a long December holiday weekend, a woman, whose mother has recently died, throws herself into work as a form of escape. Her relentless pace is interrupted when a panic attack forces her to take a break.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
+"v": 4,
+"yr": 2026
+},
 "amarga navidad film soep": {
 "dr": "Pedro Almodóvar",
 "du": 111,
@@ -931,6 +962,25 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2000
+},
+"beauty and the beast": {
+"dr": "Bill Condon",
+"du": 129,
+"gn": [
+"Romance",
+"Family",
+"Animation"
+],
+"lg": [
+"en"
+],
+"rt": 7.7,
+"sy": "Follow the adventures of Belle, a bright young woman who finds herself in the castle of a prince who's been turned into a mysterious beast. With the help of the castle's enchanted staff, Belle soon learns the…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
+"v": 4,
+"yr": 2017
 },
 "beauty is embarrassing 2012 strings of imagination": {
 "tm4": true,
@@ -2178,6 +2228,22 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-10-19",
+"v": 4,
+"yr": 2026
+},
+"crack in the head crack in the sky": {
+"dr": "Mehran Tamadon",
+"du": 120,
+"gn": [
+"Documentary"
+],
+"lg": [
+"fr"
+],
+"sy": "A psychiatric ward in a Paris suburb is threatened with closure. Director Mehran Tamadon persuades the medical staff to experiment. Can the patients take over some of the staff's tasks? And is all that…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
 "v": 4,
 "yr": 2026
 },
@@ -3577,6 +3643,12 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"fight the power chained for life 2018 incl introduction": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
+"v": 4
+},
 "fight the power earth s greatest enemy 2025 incl panel talk": {
 "tm4": true,
 "tm5": true,
@@ -4065,6 +4137,24 @@
 "v": 4,
 "yr": 2017
 },
+"ghostlight": {
+"dr": "Kelly O'Sullivan, Alex Thompson",
+"du": 110,
+"gn": [
+"Comedy",
+"Drama"
+],
+"lg": [
+"en"
+],
+"rt": 7.2,
+"sy": "When melancholic construction worker Dan finds himself drifting from his wife and daughter, he discovers community and purpose in a local theater's production of Romeo and Juliet. As the drama onstage starts…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
+"v": 4,
+"yr": 2024
+},
 "girly pop presents jennifer s body 2009 incl introduction": {
 "dr": "Karyn Kusama",
 "du": 102,
@@ -4550,6 +4640,60 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-10-28",
+"v": 4
+},
+"hoff animation short films": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
+"v": 4
+},
+"hoff iluminada 2026": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
+"v": 4
+},
+"hoff lovers in the blue night 2026": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
+"v": 4
+},
+"hoff mergen мерген 2025": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
+"v": 4
+},
+"hoff one woman one bra": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
+"v": 4
+},
+"hoff paradise 2026": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
+"v": 4
+},
+"hoff poetic shorts in other words": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
+"v": 4
+},
+"hoff workshop film futurisms": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
+"v": 4
+},
+"hoff workshop intersectional feminist writing making": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
 "v": 4
 },
 "hold your breath": {
@@ -7365,6 +7509,36 @@
 "tried": "2026-10-31",
 "v": 4
 },
+"makandra ritme": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
+"v": 4
+},
+"makandra roots": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
+"v": 4
+},
+"makandra spiritualiteit": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
+"v": 4
+},
+"makandra toekomst": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
+"v": 4
+},
+"makandra verbinding": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
+"v": 4
+},
 "mamelles ancestrales": {
 "dr": "Tabita Rezaire",
 "du": 60,
@@ -8820,6 +8994,24 @@
 "v": 4,
 "yr": 2006
 },
+"pandemonium": {
+"dr": "Quarxx",
+"du": 95,
+"gn": [
+"Horror",
+"Drama"
+],
+"lg": [
+"fr"
+],
+"rt": 5.6,
+"sy": "Nathan and Daniel are caught in a road accident that kills them both. As they come to grips with their deaths, Nathan confronts his past and the consequences of his actions. Now trapped in the hellish void of…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
+"v": 4,
+"yr": 2024
+},
 "paradies glaube": {
 "dr": "Ulrich Seidl",
 "du": 113,
@@ -8939,6 +9131,16 @@
 "tried": "2026-10-21",
 "v": 4,
 "yr": 1955
+},
+"pavilion shorts": {
+"dr": "Diversen",
+"du": 90,
+"lg": [],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
+"v": 4,
+"yr": 2024
 },
 "paw patrol de dinofilm": {
 "dr": "Cal Brunker",
@@ -9114,10 +9316,22 @@
 "tried": "2026-10-19",
 "v": 4
 },
+"preview queen at sea": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
+"v": 4
+},
 "preview sense and sensibility": {
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4
+},
+"preview the only living pickpocket in new york": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
 "v": 4
 },
 "preview wild horse nine": {
@@ -10354,6 +10568,27 @@
 "tried": "2026-10-30",
 "v": 4,
 "yr": 2001
+},
+"spring": {
+"dr": "Aaron Moorhead, Justin Benson",
+"du": 110,
+"gn": [
+"Horror",
+"Romance",
+"Science Fiction"
+],
+"lg": [
+"en",
+"fr",
+"de"
+],
+"rt": 6.6,
+"sy": "A young man in a personal tailspin flees the US to Italy, where he sparks up a romance with a woman harboring a dark, primordial secret.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
+"v": 4,
+"yr": 2014
 },
 "still a brother inside the negro middle class": {
 "dr": "William Greaves",
