@@ -124,6 +124,11 @@
 "eh": "15:00",
 "chk": "2026-11-01"
 },
+"https://hipsy.nl/event/255392-ecstatic-dance-yarun-dee": {
+"h": "18:00",
+"eh": "22:00",
+"chk": "2026-11-02"
+},
 "https://hipsy.nl/event/257835-moving-dialogues-contact-improvisation-workshop-steven-campos": {
 "h": "18:00",
 "eh": "23:00",
@@ -238,7 +243,7 @@
 },
 "https://parallel.am/programme/la-casa-del-perreo-13": {
 "none": true,
-"chk": "2026-10-26"
+"chk": "2026-11-02"
 },
 "https://parallel.am/programme/modus-ade-2": {
 "none": true,
@@ -2165,7 +2170,7 @@
 },
 "https://www.cinetol.nl/events/rightaboutnow-festival": {
 "none": true,
-"chk": "2026-10-26"
+"chk": "2026-11-02"
 },
 "https://www.cinetol.nl/events/ringlets": {
 "h": "20:30",

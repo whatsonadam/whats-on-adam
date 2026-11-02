@@ -150,7 +150,7 @@
 "a knight s tale 2001 mediaevalia": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-19",
+"tried": "2026-11-02",
 "v": 4
 },
 "a night at the mortuary": {
@@ -1355,7 +1355,7 @@
 "caravaggio 1986 mediaevalia": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-19",
+"tried": "2026-11-02",
 "v": 4
 },
 "career talk kiyoshi kurosawa": {
@@ -1574,13 +1574,13 @@
 "cinema aperitivo about time incl drink and antipasti platter": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-19",
+"tried": "2026-11-02",
 "v": 4
 },
 "cinema aperitivo cold war incl drink and antipasti platter": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-19",
+"tried": "2026-11-02",
 "v": 4
 },
 "cinema aperitivo pride and prejudice incl drink and antipasti platter": {
@@ -1604,7 +1604,7 @@
 "cinema mythologica oedipus rex 1967": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-19",
+"tried": "2026-11-02",
 "v": 4
 },
 "cinema mythologica synecdoche new york 2008": {
@@ -2611,6 +2611,22 @@
 "v": 4,
 "yr": 2019
 },
+"devagan": {
+"dr": "Shan du",
+"du": 66,
+"gn": [
+"Documentary"
+],
+"lg": [
+"ne"
+],
+"sy": "The term devagan refers to a group of Newar men who embody goddess Durgā in the 500-year-old Nava Durgā ritual in Bhaktapur, Nepal. Through the stories of three devagans within a single family, the film…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
+"v": 4,
+"yr": 2024
+},
 "diary for my father and mother": {
 "dr": "Márta Mészáros",
 "du": 119,
@@ -3256,7 +3272,7 @@
 "excalibur 1981 mediaevalia": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-19",
+"tried": "2026-11-02",
 "v": 4
 },
 "exotica": {
@@ -4712,10 +4728,34 @@
 "tried": "2026-10-28",
 "v": 4
 },
+"humans of film festival i built a rocket imagining your arrival 2026": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
+"v": 4
+},
+"humans of film festival short film programme the art of being you followed by a panel": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
+"v": 4
+},
+"humans of film festival simsim 2025": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
+"v": 4
+},
 "humans of film festival sixth edition": {
 "tm5": true,
 "tmdb": true,
 "tried": "2026-11-01",
+"v": 4
+},
+"humans of film festival workshop cinematic climate action": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
 "v": 4
 },
 "hundreds of beavers": {
@@ -9313,7 +9353,7 @@
 "ran 1985 mediaevalia": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-19",
+"tried": "2026-11-02",
 "v": 4
 },
 "ratcatcher": {
@@ -11739,7 +11779,7 @@
 "the name of the rose 1986 mediaevalia": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-19",
+"tried": "2026-11-02",
 "v": 4
 },
 "the nightmare before christmas": {
@@ -11815,6 +11855,25 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2025
+},
+"the polar express": {
+"dr": "Robert Zemeckis",
+"du": 100,
+"gn": [
+"Adventure",
+"Animation",
+"Family"
+],
+"lg": [
+"en"
+],
+"rt": 6.7,
+"sy": "When a doubting young boy takes an extraordinary train ride to the North Pole, he embarks on a journey of self-discovery that shows him that the wonder of life never fades for those who believe.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
+"v": 4,
+"yr": 2004
 },
 "the portrait of a lady": {
 "dr": "Jane Campion",
@@ -13444,6 +13503,12 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-11-01",
+"v": 4
+},
+"windows beautifully rendered machinima": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-02",
 "v": 4
 },
 "with hasan in gaza 2025 palestine cinema days around the world": {
