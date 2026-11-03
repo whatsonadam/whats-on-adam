@@ -1072,6 +1072,11 @@
 "eh": null,
 "chk": "2026-10-21"
 },
+"https://tolhuistuin.nl/en/events/lieve-stad-dat-zijn-wij-2": {
+"h": "12:00",
+"eh": null,
+"chk": "2026-11-03"
+},
 "https://tolhuistuin.nl/en/events/lily-seabird": {
 "h": "20:30",
 "eh": null,
@@ -1224,6 +1229,11 @@
 "h": "19:30",
 "eh": null,
 "chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/offline-hangout-speedfriending-genz-editie-live-piano": {
+"h": "19:00",
+"eh": null,
+"chk": "2026-11-03"
 },
 "https://tolhuistuin.nl/en/events/one-fine-mess-10": {
 "none": true,
@@ -3347,6 +3357,15 @@
 }
 },
 "chk": "2026-10-23"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/de-draak-and-joris": {
+"dates": {
+"2026-11-22": {
+"h": "11:00",
+"eh": "12:00"
+}
+},
+"chk": "2026-11-03"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/de-grote-haay-de-kersthaas-4": {
 "dates": {

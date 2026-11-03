@@ -79,6 +79,12 @@
 "q": "name",
 "area": "Noord"
 },
+"A'DAM Toren: Uitzicht over Amsterdam": {
+"lat": 52.38377,
+"lon": 4.90214,
+"q": "name",
+"area": "Noord"
+},
 "A/CAFÉ": {
 "lat": 52.37612,
 "lon": 4.89587,
@@ -535,6 +541,12 @@
 "skip": true,
 "q": "not found"
 },
+"Bakkerswinkel Westerpark Amsterdam": {
+"lat": 52.39397,
+"lon": 4.87016,
+"q": "name",
+"area": "West"
+},
 "Bar - Restaurant Van de Werf": {
 "lat": 52.36575,
 "lon": 4.90419,
@@ -678,6 +690,12 @@
 "lon": 4.92175,
 "q": "name",
 "area": "Noord"
+},
+"Beth Hamidrasj": {
+"lat": 52.31598,
+"lon": 4.95546,
+"q": "name",
+"area": "Zuidoost"
 },
 "Beurs van Berlage": {
 "lat": 52.37502,
@@ -1470,6 +1488,10 @@
 "lon": 4.87564,
 "q": "name",
 "area": "West"
+},
+"DEPTH OF FIELD | Historical Photography": {
+"skip": true,
+"q": "not found"
 },
 "Daily Paper Flagship Store": {
 "skip": true,
@@ -2569,6 +2591,16 @@
 "lon": 4.85456,
 "q": "addr",
 "area": "Zuid"
+},
+"Informatiepunt Amstel 1": {
+"lat": 52.34665,
+"lon": 4.91826,
+"q": "name",
+"area": "Oost"
+},
+"Informatiepunt Amstel1": {
+"skip": true,
+"q": "not found"
 },
 "Internet Archive Europe Headquarters": {
 "lat": 52.37185,
@@ -3810,6 +3842,12 @@
 "q": "name",
 "area": "Noord"
 },
+"Podium Buiksloterkerk": {
+"lat": 52.40182,
+"lon": 4.91635,
+"q": "name",
+"area": "Noord"
+},
 "Podium Mozaïek": {
 "lat": 52.38015,
 "lon": 4.85435,
@@ -4207,6 +4245,10 @@
 "lon": 4.90248,
 "q": "name",
 "area": "Noord"
+},
+"Shooter Bar Chupitos": {
+"skip": true,
+"q": "not found"
 },
 "Shu Amsterdam": {
 "lat": 52.36802,
@@ -4608,6 +4650,9 @@
 "skip": true
 },
 "TBA - Flower Shop": {
+"skip": true
+},
+"TBA - Hamerstraat 18": {
 "skip": true
 },
 "TBA - IYKYK": {

@@ -988,6 +988,25 @@
 "v": 4,
 "yr": 2017
 },
+"beauty and the beast 1978": {
+"dr": "Bill Condon",
+"du": 129,
+"gn": [
+"Romance",
+"Family",
+"Animation"
+],
+"lg": [
+"en"
+],
+"rt": 7.7,
+"sy": "Follow the adventures of Belle, a bright young woman who finds herself in the castle of a prince who's been turned into a mysterious beast. With the help of the castle's enchanted staff, Belle soon learns the…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-03",
+"v": 4,
+"yr": 2017
+},
 "beauty is embarrassing 2012 strings of imagination": {
 "tm4": true,
 "tmdb": true,
@@ -2367,6 +2386,12 @@
 "v": 4,
 "yr": 2006
 },
+"dag van de korte film": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-03",
+"v": 4
+},
 "daisies": {
 "dr": "Věra Chytilová",
 "du": 74,
@@ -2746,6 +2771,25 @@
 "tried": "2026-10-19",
 "v": 4,
 "yr": 2025
+},
+"do not expect too much from the end of the world": {
+"dr": "Radu Jude",
+"du": 163,
+"gn": [
+"Comedy",
+"Drama"
+],
+"lg": [
+"en",
+"ro"
+],
+"rt": 6.9,
+"sy": "On behalf of a multinational company, a production assistant drives around the Romanian city of Bucharest, interviewing various citizens who have been injured due to work accidents to cast one of them in a…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-03",
+"v": 4,
+"yr": 2023
 },
 "donnie darko": {
 "dr": "Richard Kelly",
@@ -6195,6 +6239,27 @@
 "v": 4,
 "yr": 2026
 },
+"incendies": {
+"dr": "Denis Villeneuve",
+"du": 131,
+"gn": [
+"Drama",
+"War",
+"Mystery"
+],
+"lg": [
+"fr",
+"ar",
+"en"
+],
+"rt": 8.1,
+"sy": "A mother's last wishes send twins Jeanne and Simon on a journey to Middle East in search of their tangled roots. Adapted from Wajdi Mouawad's acclaimed play, Incendies tells the powerful and moving tale of two…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-03",
+"v": 4,
+"yr": 2010
+},
 "incendies 2010": {
 "dr": "Denis Villeneuve",
 "du": 131,
@@ -8267,6 +8332,22 @@
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4,
+"yr": 2026
+},
+"nagi notes": {
+"dr": "Koji Fukada",
+"du": 110,
+"gn": [
+"Drama"
+],
+"lg": [
+"ja"
+],
+"sy": "Yoriko, an artist living in rural Nagi, is haunted by a former love affair she cannot bear to mourn. When Yuri, a recently separated architect, travels from Tokyo to visit her friend and former sister-in-law…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-03",
 "v": 4,
 "yr": 2026
 },
@@ -11020,6 +11101,12 @@
 "v": 4,
 "yr": 1982
 },
+"the best of imagine five more minutes": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-03",
+"v": 4
+},
 "the big lebowski": {
 "dr": "Ethan Coen, Joel Coen",
 "du": 117,
@@ -12473,6 +12560,29 @@
 "tried": "2026-10-15",
 "v": 4,
 "yr": 1984
+},
+"the territory": {
+"dr": "Alex Pritz",
+"du": 86,
+"gn": [
+"Documentary"
+],
+"lg": [
+"pt"
+],
+"rt": 6.7,
+"sy": "The Indigenous Uru-eu-wau-wau people have seen their population dwindle and their culture threatened since coming into contact with non-Native Brazilians. Though promised dominion over their own rainforest…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-03",
+"v": 4,
+"yr": 2022
+},
+"the territory 2022": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-03",
+"v": 4
 },
 "the texas chain saw massacre": {
 "dr": "Tobe Hooper",

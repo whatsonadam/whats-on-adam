@@ -294,6 +294,10 @@
 "p": null,
 "t": "2026-10-23"
 },
+"https://mezrab.nl/events/balfolk-social-in-de-mezrab-met-zephyr-combo-en-duo-baftig/": {
+"p": null,
+"t": "2026-11-03"
+},
 "https://mezrab.nl/events/banda-entopica/": {
 "p": null,
 "t": "2026-10-31"
@@ -4186,6 +4190,10 @@
 "p": "Free",
 "t": "2026-10-27"
 },
+"https://radar.squat.net/en/event/amsterdam/adm-noord/2026-11-20/sara-hebe-cata-pirata-project-plan-b-perra-vieja": {
+"p": "€5",
+"t": "2026-11-03"
+},
 "https://radar.squat.net/en/event/amsterdam/amsterdam-street-medics/2026-10-26/diy-injection-demo-info": {
 "p": "Free",
 "t": "2026-10-16"
@@ -5377,6 +5385,38 @@
 "https://radar.squat.net/en/event/amsterdam/ot301-studio/2026-10-30/vis-01-ams": {
 "p": "€5",
 "t": "2026-10-16"
+},
+"https://radar.squat.net/en/event/amsterdam/ot301-studio/2026-11-05/robinbird-presents-music-information-age": {
+"p": "€5",
+"t": "2026-11-03"
+},
+"https://radar.squat.net/en/event/amsterdam/ot301-studio/2026-11-06/synthetic-reality": {
+"p": "€5",
+"t": "2026-11-03"
+},
+"https://radar.squat.net/en/event/amsterdam/ot301-studio/2026-11-07/molecular": {
+"p": "€3-5",
+"t": "2026-11-03"
+},
+"https://radar.squat.net/en/event/amsterdam/ot301-studio/2026-11-13/no-escape-ot301-pvsp": {
+"p": "€5",
+"t": "2026-11-03"
+},
+"https://radar.squat.net/en/event/amsterdam/ot301-studio/2026-11-14/ot301-27th-birthday-bash-night-program": {
+"p": "€5",
+"t": "2026-11-03"
+},
+"https://radar.squat.net/en/event/amsterdam/ot301-studio/2026-11-20/amsterdam-junglist-kru-x-guerilla-bass": {
+"p": "€5",
+"t": "2026-11-03"
+},
+"https://radar.squat.net/en/event/amsterdam/ot301-studio/2026-11-21/abyss-2": {
+"p": "€5",
+"t": "2026-11-03"
+},
+"https://radar.squat.net/en/event/amsterdam/ot301-studio/2026-11-26/gazing-abyss": {
+"p": "€5",
+"t": "2026-11-03"
 },
 "https://radar.squat.net/en/event/amsterdam/parknest/2026-11-01/roots-nest": {
 "p": "Free",
@@ -7149,6 +7189,10 @@
 "p": "€10",
 "t": "2026-10-21"
 },
+"https://tolhuistuin.nl/en/events/lieve-stad-dat-zijn-wij-2": {
+"p": "€7,50",
+"t": "2026-11-03"
+},
 "https://tolhuistuin.nl/en/events/lily-seabird": {
 "p": "€17,50",
 "t": "2026-10-24",
@@ -7294,6 +7338,10 @@
 "p": "€19,70",
 "t": "2026-10-26",
 "tk": "https://tickets.paradiso.nl/e95d5418fc8d42a4aeaa9ca8e4aa5bd4"
+},
+"https://tolhuistuin.nl/en/events/offline-hangout-speedfriending-genz-editie-live-piano": {
+"p": "€2,50",
+"t": "2026-11-03"
 },
 "https://tolhuistuin.nl/en/events/one-fine-mess-10": {
 "p": "Free",
@@ -8999,6 +9047,10 @@
 "p": null,
 "t": "2026-10-23"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/calefax-rietkwintet-and-quirine-viersen-cello-koningszaal-artis-groote-museum": {
+"p": "from €12,50",
+"t": "2026-11-03"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/canto-ostinato-op-vier-vleugels-en-orgel-door-jeroen-van-veen-and-friends": {
 "p": "from €25",
 "t": "2026-10-17"
@@ -9947,6 +9999,10 @@
 "p": "from €28,75",
 "t": "2026-10-16"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/jong-joc-live-jong-jazz-orchestra-of-the-concertgebouw-5-jarig-jubileum": {
+"p": "from €7",
+"t": "2026-11-03"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/jonge-nederlanders-isaac-lottman": {
 "p": "from €19",
 "t": "2026-10-17"
@@ -10607,6 +10663,10 @@
 "p": "from €12,50",
 "t": "2026-10-23"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/nicolas-van-poucke-speelt-beethoven-en-chopin": {
+"p": "from €18,50",
+"t": "2026-11-03"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/niels-orens-support-echofarmer": {
 "p": "from €15,25",
 "t": "2026-10-16"
@@ -11123,6 +11183,10 @@
 "p": "from €22,50",
 "t": "2026-10-29"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/something-about-sanna-bigband-speelt-veelzijdige-en-groovy-jazz-in-noord": {
+"p": null,
+"t": "2026-11-03"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/sonce-and-friends": {
 "p": "from €15",
 "t": "2026-10-28"
@@ -11378,6 +11442,10 @@
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/tinie-tempah": {
 "p": "from €25,30",
 "t": "2026-10-17"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/to-the-moon-and-back": {
+"p": "from €50",
+"t": "2026-11-03"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/tomeka-reid-quartet": {
 "p": "from €14",
@@ -11675,6 +11743,10 @@
 "p": null,
 "t": "2026-10-24"
 },
+"https://www.iamsterdam.com/uit/agenda/festivals/events/de-oesterwandeling-x-amsterdam-light-festival": {
+"p": "from €38,50",
+"t": "2026-11-03"
+},
 "https://www.iamsterdam.com/uit/agenda/festivals/events/denim-days-market": {
 "p": null,
 "t": "2026-10-16"
@@ -11718,6 +11790,10 @@
 "https://www.iamsterdam.com/uit/agenda/festivals/events/fc-centrum-speed-and-meet": {
 "p": "from €7,50",
 "t": "2026-10-16"
+},
+"https://www.iamsterdam.com/uit/agenda/festivals/events/foodsteps-x-amsterdam-light-festival": {
+"p": "from €38,50",
+"t": "2026-11-03"
 },
 "https://www.iamsterdam.com/uit/agenda/festivals/events/fuck-je-eigen-verantwoordelijkheid": {
 "p": "from €12,50",
@@ -11822,6 +11898,10 @@
 "https://www.iamsterdam.com/uit/agenda/festivals/events/pink-dance-dansmiddag": {
 "p": null,
 "t": "2026-10-30"
+},
+"https://www.iamsterdam.com/uit/agenda/festivals/events/popronde-amsterdam-het-eindfeest": {
+"p": "from €23",
+"t": "2026-11-03"
 },
 "https://www.iamsterdam.com/uit/agenda/festivals/events/popronde-eindfeest-2026": {
 "p": "from €17,25",
@@ -13339,6 +13419,10 @@
 "p": null,
 "t": "2026-10-31"
 },
+"https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/ten-toes-down-met-unknown-t-len-lucci-finessekid-smib-and-more": {
+"p": "from €33",
+"t": "2026-11-03"
+},
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/the-bausa": {
 "p": null,
 "t": "2026-10-16"
@@ -14182,6 +14266,10 @@
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/de-bakerplaats-tijd-van-de-wolf-alexandra-broeder": {
 "p": null,
 "t": "2026-10-28"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/de-draak-and-joris": {
+"p": "from €10",
+"t": "2026-11-03"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/de-eeuw-waarin-alles-kan": {
 "p": "from €29",
