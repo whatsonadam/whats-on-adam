@@ -943,6 +943,12 @@
 "tried": "2026-10-28",
 "v": 4
 },
+"beach inna bondage the fight for jamaica s coastline": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-03",
+"v": 4
+},
 "beau travail psychoanalyse film": {
 "dr": "Claire Denis",
 "du": 93,
@@ -3268,13 +3274,13 @@
 "europa trilogy epidemic 1987": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-20",
+"tried": "2026-11-03",
 "v": 4
 },
 "europa trilogy europa 1991": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-20",
+"tried": "2026-11-03",
 "v": 4
 },
 "europa trilogy europa zentropa": {
@@ -3744,7 +3750,7 @@
 "filmhuis gardens of fez": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-20",
+"tried": "2026-11-03",
 "v": 4
 },
 "filmhuis paradise circus": {
@@ -4360,10 +4366,16 @@
 "yr": 1993
 },
 "gupi ve gülmeyen kral": {
+"dr": "",
+"du": 75,
+"lg": [
+"tr"
+],
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-19",
-"v": 4
+"tried": "2026-11-03",
+"v": 4,
+"yr": 2026
 },
 "götterdämmerung": {
 "tm5": true,
@@ -7154,6 +7166,12 @@
 "tried": "2026-11-01",
 "v": 4
 },
+"les feuilles mortes 2 memorias del subdesarrollo memories of underdevelopment": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-03",
+"v": 4
+},
 "les feuilles mortes l amour à la mer": {
 "tm4": true,
 "tm5": true,
@@ -7197,13 +7215,13 @@
 "lesvia 2024 mr dimitris and mrs dimitroula 2019": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-20",
+"tried": "2026-11-03",
 "v": 4
 },
 "lesvia mr dimitris and mrs dimitroula": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-20",
+"tried": "2026-11-03",
 "v": 4
 },
 "let s scare jessica to death 1971 kadavers in k": {
@@ -7735,7 +7753,7 @@
 "memorias del subdesarrollo 1968": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-20",
+"tried": "2026-11-03",
 "v": 4
 },
 "memories": {
@@ -13033,6 +13051,12 @@
 "v": 4,
 "yr": 2026
 },
+"trendy tropics x slowblink": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-03",
+"v": 4
+},
 "treći svijet": {
 "dr": "Arsen Oremović",
 "du": 98,
@@ -13661,6 +13685,23 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1995
+},
+"whispers in the woods": {
+"dr": "Vincent Munier",
+"du": 94,
+"gn": [
+"Documentary"
+],
+"lg": [
+"fr"
+],
+"rt": 7.9,
+"sy": "In the heart of the tranquil Vosges forests, where lynxes, bears and deer roam freely, Vincent Munier accompanies his father on his expeditions. He not only seeks to capture the visual wonders of this forest…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-03",
+"v": 4,
+"yr": 2025
 },
 "wicker": {
 "dr": "Alex Huston Fischer, Eleanor Wilson",

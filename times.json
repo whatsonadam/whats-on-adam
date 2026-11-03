@@ -264,7 +264,7 @@
 },
 "https://parallel.am/programme/riria": {
 "none": true,
-"chk": "2026-10-27"
+"chk": "2026-11-03"
 },
 "https://parallel.am/programme/rooted-x-striptopia": {
 "none": true,
@@ -351,6 +351,11 @@
 "eh": "07:00",
 "chk": "2026-10-18"
 },
+"https://radion.amsterdam/program/god-said-give-em-drum-machines-documentary-screening/": {
+"h": "19:00",
+"eh": "21:30",
+"chk": "2026-11-03"
+},
 "https://radion.amsterdam/program/labyrinth-1-year-anniversary-ade/": {
 "h": "23:00",
 "eh": "09:00",
@@ -365,6 +370,11 @@
 "h": "23:00",
 "eh": "07:00",
 "chk": "2026-10-18"
+},
+"https://radion.amsterdam/program/pax-romana-saturnalia-iii/": {
+"h": "23:00",
+"eh": "10:00",
+"chk": "2026-11-03"
 },
 "https://radion.amsterdam/program/radion-invites-fever-dream-x-patchwork-family/": {
 "h": "23:00",
@@ -394,6 +404,11 @@
 "https://radion.amsterdam/program/vault-sessions-x-bassiani-wkndr/": {
 "none": true,
 "chk": "2026-10-29"
+},
+"https://radion.amsterdam/program/wolvenroedel/": {
+"h": "22:00",
+"eh": "06:00",
+"chk": "2026-11-03"
 },
 "https://tolhuistuin.nl/en/events/30-jaar-excelsior-recordings": {
 "h": "16:00",
@@ -861,7 +876,7 @@
 },
 "https://tolhuistuin.nl/en/events/het-mannengesprek-echte-mannen-praten": {
 "none": true,
-"chk": "2026-10-27"
+"chk": "2026-11-03"
 },
 "https://tolhuistuin.nl/en/events/het-mannengesprek-echte-mannen-praten?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
 "none": true,
@@ -1399,7 +1414,7 @@
 },
 "https://tolhuistuin.nl/en/events/the-dance-club-2": {
 "none": true,
-"chk": "2026-10-27"
+"chk": "2026-11-03"
 },
 "https://tolhuistuin.nl/en/events/the-dance-club-2?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
 "none": true,
@@ -1812,7 +1827,7 @@
 },
 "https://tolhuistuin.nl/en/events/uitreiking-fip-2026": {
 "none": true,
-"chk": "2026-10-27"
+"chk": "2026-11-03"
 },
 "https://tolhuistuin.nl/en/events/westside-cowboy": {
 "h": "19:30",
@@ -2231,6 +2246,10 @@
 "https://www.cinetol.nl/events/velocity-made-good": {
 "h": "20:30",
 "chk": "2026-10-11"
+},
+"https://www.cinetol.nl/events/ververstival": {
+"h": "20:30",
+"chk": "2026-11-03"
 },
 "https://www.cinetol.nl/events/walk-the-line": {
 "h": "20:00",

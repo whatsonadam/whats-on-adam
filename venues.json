@@ -1559,6 +1559,12 @@
 "q": "name",
 "area": "Noord"
 },
+"De Kanarie Club": {
+"lat": 52.36733,
+"lon": 4.8679,
+"q": "name",
+"area": "West"
+},
 "De Kleine Komedie": {
 "lat": 52.3669,
 "lon": 4.89603,
@@ -2303,6 +2309,10 @@
 "lon": 4.89178,
 "q": "name",
 "area": "Zuid"
+},
+"Helicopter": {
+"skip": true,
+"q": "not found"
 },
 "Helicopter Amsterdam": {
 "skip": true,
@@ -3608,6 +3618,10 @@
 "skip": true,
 "q": "not found"
 },
+"P60": {
+"skip": true,
+"q": "not found"
+},
 "P60 Café": {
 "lat": 52.32356,
 "lon": 4.97121,
@@ -4211,6 +4225,10 @@
 "lon": 4.88833,
 "q": "name",
 "area": "Centrum"
+},
+"Sint Willibrordusstraat 58": {
+"skip": true,
+"q": "not found"
 },
 "Sint-Urbanuskerk (Bovenkerk)": {
 "lat": 52.29396,
@@ -5305,6 +5323,10 @@
 "lon": 4.87619,
 "q": "name",
 "area": "Centrum"
+},
+"Weesperzijde 1046-A": {
+"skip": true,
+"q": "not found"
 },
 "Wereldmuseum Amsterdam": {
 "lat": 52.36269,
