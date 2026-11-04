@@ -1968,7 +1968,7 @@
 },
 "https://www.amsterdammuseum.nl/en/public-program/museumnacht-bij-stadsarchief-amsterdam/305957": {
 "none": true,
-"chk": "2026-10-28"
+"chk": "2026-11-04"
 },
 "https://www.amsterdammuseum.nl/en/public-program/museumnacht-in-amsterdam-in-motion/239324": {
 "none": true,
@@ -2689,6 +2689,14 @@
 },
 "chk": "2026-10-16"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/heylucas": {
+"dates": {
+"2026-11-14": {
+"h": "19:30"
+}
+},
+"chk": "2026-11-04"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/intouchables-in-concert": {
 "dates": {
 "2027-02-22": {
@@ -2925,6 +2933,19 @@
 }
 },
 "chk": "2026-10-11"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/studentenkoor-amsterdam-een-ode-aan-het-pastorale-leven": {
+"dates": {
+"2026-11-13": {
+"h": "20:15",
+"eh": "21:30"
+},
+"2026-11-15": {
+"h": "16:00",
+"eh": "17:15"
+}
+},
+"chk": "2026-11-04"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/sven-ross-every-decision-leads-to-a-song": {
 "dates": {

@@ -1193,6 +1193,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Casa Rosso": {
+"lat": 52.37331,
+"lon": 4.89862,
+"q": "name",
+"area": "Centrum"
+},
 "Casèt Amsterdam": {
 "skip": true,
 "q": "not found"
@@ -1514,6 +1520,12 @@
 "lon": 4.88286,
 "q": "name",
 "area": "Centrum"
+},
+"De Boomkerk": {
+"lat": 52.38325,
+"lon": 4.8508,
+"q": "name",
+"area": "West"
 },
 "De Boshalte": {
 "lat": 52.32809,
@@ -1913,6 +1925,10 @@
 "lon": 4.88745,
 "q": "name",
 "area": "Centrum"
+},
+"Epicenter Amsterdam": {
+"skip": true,
+"q": "not found"
 },
 "Episode Berenstraat": {
 "lat": 52.3704,
@@ -3835,6 +3851,12 @@
 "lon": 4.914,
 "q": "name",
 "area": "Oost"
+},
+"Plimsollweg, Sloterdijk, Amsterdam": {
+"lat": 52.38903,
+"lon": 4.83811,
+"q": "name",
+"area": "Nieuw-West"
 },
 "Pllek": {
 "lat": 52.39886,

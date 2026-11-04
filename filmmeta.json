@@ -262,6 +262,12 @@
 "tried": "2026-10-27",
 "v": 4
 },
+"aaah anarchist action assistance hour voku film": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-04",
+"v": 4
+},
 "aaah anarchist action assistance hour voku for palestine film": {
 "tm5": true,
 "tmdb": true,
@@ -1013,6 +1019,12 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"beeldbestormers levende lijven een beperkt beeld": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-04",
+"v": 4
+},
 "being john malkovich": {
 "dr": "Spike Jonze",
 "du": 112,
@@ -1361,6 +1373,24 @@
 "tried": "2026-10-16",
 "v": 4,
 "yr": 1982
+},
+"calle malaga": {
+"dr": "Maryam Touzani",
+"du": 116,
+"gn": [
+"Drama"
+],
+"lg": [
+"ar",
+"es"
+],
+"rt": 7.5,
+"sy": "An aging Spanish woman in Tangier resists her daughter's plan to sell her home. She fights to keep her home, reclaims belongings and rediscovers love and desire.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-04",
+"v": 4,
+"yr": 2025
 },
 "calle málaga": {
 "dr": "Maryam Touzani",
@@ -2440,6 +2470,22 @@
 "v": 4,
 "yr": 2026
 },
+"de avonden": {
+"dr": "Rudolf van den Berg",
+"du": 122,
+"gn": [
+"Drama"
+],
+"lg": [
+"nl"
+],
+"sy": "Frits Egters can't quite get a hold of himself. An intelligent and sensitive young man, repulsion and desillusion turned him cynical. According to Frits there should be more to life - he just doesn't know…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-04",
+"v": 4,
+"yr": 1989
+},
 "de club van sinterklaas film paniek in het pietendorp": {
 "dr": "Martijn Koevoets",
 "du": 78,
@@ -2826,6 +2872,25 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4,
+"yr": 2001
+},
+"donnie darko re release": {
+"dr": "Richard Kelly",
+"du": 113,
+"gn": [
+"Fantasy",
+"Drama",
+"Mystery"
+],
+"lg": [
+"en"
+],
+"rt": 7.8,
+"sy": "After narrowly escaping a bizarre accident, a troubled teenager is plagued by visions of a large bunny rabbit that manipulates him to commit a series of crimes.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-04",
 "v": 4,
 "yr": 2001
 },
@@ -3727,7 +3792,7 @@
 "film drink fear and loathing in las vegas incl cocktail": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-21",
+"tried": "2026-11-04",
 "v": 4
 },
 "film drink jennifer s body incl cocktail": {
@@ -9939,6 +10004,18 @@
 "v": 4,
 "yr": 2026
 },
+"royal ballet opera carmen": {
+"dr": "Damiano Michieletto",
+"du": 215,
+"lg": [
+"fr"
+],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-04",
+"v": 4,
+"yr": 2026
+},
 "royal opera house manon": {
 "dr": "Geen",
 "du": 195,
@@ -11101,10 +11178,40 @@
 "v": 4,
 "yr": 1982
 },
+"the best of imagine adult supervision": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-04",
+"v": 4
+},
+"the best of imagine drag": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-04",
+"v": 4
+},
 "the best of imagine five more minutes": {
 "tm5": true,
 "tmdb": true,
 "tried": "2026-11-03",
+"v": 4
+},
+"the best of imagine ghost in the cell": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-04",
+"v": 4
+},
+"the best of imagine no rest for the wicked": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-04",
+"v": 4
+},
+"the best of imagine shorts": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-04",
 "v": 4
 },
 "the big lebowski": {
@@ -13682,6 +13789,24 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1976
+},
+"wattstax": {
+"dr": "Mel Stuart",
+"du": 103,
+"gn": [
+"Music",
+"Documentary"
+],
+"lg": [
+"en"
+],
+"rt": 6.8,
+"sy": "A documentary film about the Afro-American Woodstock concert held in Los Angeles seven years after the Watts riots. Director Mel Stuart mixes footage from the concert with footage of the living conditions in…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-04",
+"v": 4,
+"yr": 1973
 },
 "we are making a film about mark fisher": {
 "dr": "Sophie Mellor, Simon Poulter",
