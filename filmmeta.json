@@ -153,6 +153,25 @@
 "v": 4,
 "yr": 1961
 },
+"a ghost story": {
+"dr": "David Lowery",
+"du": 92,
+"gn": [
+"Drama",
+"Fantasy",
+"Romance"
+],
+"lg": [
+"en"
+],
+"rt": 7.1,
+"sy": "Recently deceased, a white-sheeted ghost returns to his suburban home to console his bereft wife, only to find that in his spectral state he has become unstuck in time, forced to watch passively as the life he…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-04",
+"v": 4,
+"yr": 2017
+},
 "a knight s tale 2001 mediaevalia": {
 "tm5": true,
 "tmdb": true,
@@ -1324,6 +1343,22 @@
 "tried": "2026-10-28",
 "v": 4
 },
+"bush mama": {
+"dr": "Haile Gerima",
+"du": 97,
+"gn": [
+"Drama"
+],
+"lg": [
+"en"
+],
+"sy": "Dorothy is a poor black woman. Her husband is put in jail for no observable reason, and she is pregnant with a second child. The government threatens to take away her welfare if she does not get an abortion.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-04",
+"v": 4,
+"yr": 1975
+},
 "böse spiele rimini sparta": {
 "dr": "Ulrich Seidl",
 "du": 205,
@@ -2042,6 +2077,41 @@
 "v": 4,
 "yr": 2026
 },
+"come drink with me rumble in hong kong": {
+"dr": "King Hu",
+"du": 91,
+"gn": [
+"Action",
+"Adventure"
+],
+"lg": [
+"zh"
+],
+"rt": 6.7,
+"sy": "Golden Sparrow is a fighter-for-hire who has been contracted by the local government to retrieve the governor's kidnapped son. Holding him is a group of rebels who are demanding that their leader be released…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-04",
+"v": 4,
+"yr": 1966
+},
+"compensation": {
+"dr": "Zeinabu irene Davis",
+"du": 93,
+"gn": [
+"Drama",
+"Romance"
+],
+"lg": [
+"en"
+],
+"sy": "The life of a deaf African American woman in the early 1900s parallels with another living in the 1990s.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-04",
+"v": 4,
+"yr": 2025
+},
 "concrete land": {
 "dr": "Asmahan Bkerat",
 "du": 101,
@@ -2469,6 +2539,24 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"daughters of the dust": {
+"dr": "Julie Dash",
+"du": 112,
+"gn": [
+"Drama",
+"Romance"
+],
+"lg": [
+"en"
+],
+"rt": 6.3,
+"sy": "In 1902, a Gullah family on the Sea Islands off South Carolina decide whether to migrate to the mainland, risking their unique cultural heritage.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-04",
+"v": 4,
+"yr": 1991
 },
 "de avonden": {
 "dr": "Rudolf van den Berg",
@@ -3338,6 +3426,22 @@
 "tried": "2026-10-27",
 "v": 4,
 "yr": 2025
+},
+"eternal homecoming": {
+"dr": "Kira Muratova",
+"du": 114,
+"gn": [
+"Drama"
+],
+"lg": [
+"ru"
+],
+"sy": "A woman is paid a surprise visit by her long-forgotten classmate, who needs her advice: should he choose a wife or a lover? An outrageously burlesque mise-en-scène is repeated many times but each time in a…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-04",
+"v": 4,
+"yr": 2013
 },
 "eternal sunshine of the spotless mind": {
 "dr": "Michel Gondry",
@@ -4763,6 +4867,12 @@
 "tried": "2026-10-28",
 "v": 4
 },
+"hoff animation a new look": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-04",
+"v": 4
+},
 "hoff animation short films": {
 "tm5": true,
 "tmdb": true,
@@ -5206,6 +5316,23 @@
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4,
+"yr": 1952
+},
+"ikiru 4k restoration": {
+"dr": "Akira Kurosawa",
+"du": 143,
+"gn": [
+"Drama"
+],
+"lg": [
+"ja"
+],
+"rt": 8.3,
+"sy": "Kanji Watanabe is a middle-aged man who has worked in the same monotonous bureaucratic position for decades. Learning he has cancer, he starts to look for the meaning of his life.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-04",
 "v": 4,
 "yr": 1952
 },
@@ -6424,6 +6551,24 @@
 "v": 4,
 "yr": 1994
 },
+"intimate confessions of a chinese courtesan rumble in hong kong": {
+"dr": "Chor Yuen",
+"du": 87,
+"gn": [
+"Action",
+"Drama"
+],
+"lg": [
+"zh"
+],
+"rt": 6.2,
+"sy": "18-year-old Ainu is kidnapped and sold to a brothel. Her good looks and wild personality make her very popular with the lustful clients, but also draw the lesbian attentions of brothel madam Chun Yi. Chun Yi…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-04",
+"v": 4,
+"yr": 1972
+},
 "into eternity": {
 "dr": "Michael Madsen",
 "du": 75,
@@ -6614,6 +6759,26 @@
 "v": 4,
 "yr": 2026
 },
+"killer constable rumble in hong kong": {
+"dr": "Kuei Chih-hung",
+"du": 98,
+"gn": [
+"Action",
+"Adventure",
+"Drama"
+],
+"lg": [
+"cn",
+"zh"
+],
+"rt": 7.3,
+"sy": "2 million taels in gold has been stolen from a vault within the Forbidden City. The Empress wants the money returned within 10 days. Chief Constable Leng Tian-Ying is hired to bring back the gold robbers, dead…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-04",
+"v": 4,
+"yr": 1980
+},
 "killer of sheep": {
 "dr": "Charles Burnett",
 "du": 80,
@@ -6648,6 +6813,23 @@
 "v": 4,
 "yr": 1978
 },
+"killer of sheep 4k restoration": {
+"dr": "Charles Burnett",
+"du": 80,
+"gn": [
+"Drama"
+],
+"lg": [
+"en"
+],
+"rt": 6.6,
+"sy": "An African-American man working at a slaughterhouse in the Watts area of Los Angeles leads a dissatisfied and listless existence.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-04",
+"v": 4,
+"yr": 1978
+},
 "killing the devil 1970": {
 "dr": "Ester Krumbachova",
 "du": 72,
@@ -6664,6 +6846,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1970
+},
+"king boxer rumble in hong kong": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-04",
+"v": 4
 },
 "kissable screens looking back": {
 "tm4": true,
@@ -9369,6 +9557,23 @@
 "v": 4,
 "yr": 1966
 },
+"persona hoe lees ik een film": {
+"dr": "Ingmar Bergman",
+"du": 85,
+"gn": [
+"Drama"
+],
+"lg": [
+"sv"
+],
+"rt": 8.1,
+"sy": "A young nurse, Alma, is put in charge of Elisabeth Vogler: an actress who is seemingly healthy in all respects, but will not talk. As they spend time together, Alma speaks to Elisabeth constantly, never…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-04",
+"v": 4,
+"yr": 1966
+},
 "philadelphia": {
 "dr": "Jonathan Demme",
 "du": 125,
@@ -11052,6 +11257,24 @@
 "v": 4,
 "yr": 2004
 },
+"the 36th chamber of shaolin rumble in hong kong": {
+"dr": "Chia-Liang Liu",
+"du": 115,
+"gn": [
+"Action",
+"Adventure"
+],
+"lg": [
+"zh"
+],
+"rt": 7.5,
+"sy": "During the Qing Dynasty, a fishmonger is killed by the reigning Manchu government for supporting the anti-government movement; his son manages to escape to Shaolin Temple, where he plans to learn its secretive…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-04",
+"v": 4,
+"yr": 1978
+},
 "the age of innocence": {
 "dr": "Martin Scorsese",
 "du": 139,
@@ -11279,6 +11502,24 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2023
+},
+"the black tavern rumble in hong kong": {
+"dr": "Teddy Yip Wing-Cho",
+"du": 87,
+"gn": [
+"Action",
+"Drama"
+],
+"lg": [
+"cn",
+"zh"
+],
+"sy": "A rumor has spread that a retiring corrupt official is traveling with a box filled with all kinds of valuables, and is going to make a stop at a remote inn. And multiple criminal martial artists planning to…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-04",
+"v": 4,
+"yr": 1972
 },
 "the borders of paradise": {
 "dr": "Nicolás Romero Silva",
@@ -11677,6 +11918,12 @@
 "v": 3,
 "yr": 1970
 },
+"the eight diagram pole fighter rumble in hong kong": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-04",
+"v": 4
+},
 "the english patient": {
 "dr": "Anthony Minghella",
 "du": 162,
@@ -11755,6 +12002,25 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1991
+},
+"the five venoms rumble in hong kong": {
+"dr": "Chang Cheh",
+"du": 101,
+"gn": [
+"Action",
+"Drama",
+"Mystery"
+],
+"lg": [
+"zh"
+],
+"rt": 6.6,
+"sy": "A dying master sends his last student to check up on five former pupils, who each know a special style of kung-fu.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-04",
+"v": 4,
+"yr": 1978
 },
 "the flick amsterdam on stage": {
 "tm4": true,
@@ -12093,6 +12359,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1994
+},
+"the lord of the rings the complete extended journey": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-04",
+"v": 4
 },
 "the lord of the rings the fellowship of the ring": {
 "dr": "Peter Jackson",

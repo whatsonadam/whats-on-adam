@@ -227,6 +227,12 @@
 "q": "name",
 "area": "West"
 },
+"Ambassade Hotel": {
+"lat": 52.36937,
+"lon": 4.88718,
+"q": "name",
+"area": "Centrum"
+},
 "Amnesty International NL": {
 "lat": 52.31273,
 "lon": 4.84904,
@@ -1395,6 +1401,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Collectief Groenhoven": {
+"lat": 52.32632,
+"lon": 4.97647,
+"q": "name",
+"area": "Zuidoost"
+},
 "Comedy Cafe Amsterdam": {
 "lat": 52.38442,
 "lon": 4.89488,
@@ -1538,6 +1550,12 @@
 "lon": 4.8428,
 "q": "name",
 "area": "West"
+},
+"De Bron": {
+"lat": 52.35075,
+"lon": 4.93446,
+"q": "name",
+"area": "Oost"
 },
 "De Ceuvel": {
 "lat": 52.39315,
@@ -2252,6 +2270,10 @@
 "skip": true,
 "q": "not found"
 },
+"Groene Afslag (Restaurant)": {
+"skip": true,
+"q": "not found"
+},
 "Grond": {
 "lat": 52.37105,
 "lon": 4.8939,
@@ -2629,6 +2651,10 @@
 "lon": 4.97867,
 "q": "name",
 "area": "Zuidoost"
+},
+"Istituto Italiano di Cultura": {
+"skip": true,
+"q": "not found"
 },
 "J5 Amsterdam": {
 "skip": true,
@@ -4414,6 +4440,12 @@
 "skip": true,
 "q": "not found"
 },
+"Spui25": {
+"lat": 52.36859,
+"lon": 4.88969,
+"q": "name",
+"area": "Centrum"
+},
 "Spuistraat 220": {
 "skip": true,
 "q": "not found"
@@ -5143,6 +5175,12 @@
 "skip": true,
 "q": "not found"
 },
+"Universiteitsbibliotheek UvA": {
+"lat": 52.33456,
+"lon": 4.86749,
+"q": "name",
+"area": "Zuid"
+},
 "UvA Founder Space": {
 "skip": true,
 "q": "not found"
@@ -5219,6 +5257,12 @@
 "q": "name",
 "area": "Weesp"
 },
+"Vertigo": {
+"lat": 52.36101,
+"lon": 4.87488,
+"q": "name",
+"area": "West"
+},
 "Verwey Museum Haarlem": {
 "skip": true,
 "q": "not found"
@@ -5234,6 +5278,12 @@
 "lon": 4.91273,
 "q": "name",
 "area": "Centrum"
+},
+"Vesting Hotel": {
+"lat": 52.34862,
+"lon": 4.8932,
+"q": "name",
+"area": "Zuid"
 },
 "Vic's Bar": {
 "lat": 52.37051,
@@ -5340,6 +5390,12 @@
 "lon": 4.85528,
 "q": "name",
 "area": "West"
+},
+"WIHH Gallery": {
+"lat": 52.36622,
+"lon": 4.8927,
+"q": "name",
+"area": "Centrum"
 },
 "WOPL! (World of Play & Learning)": {
 "skip": true,
@@ -5486,6 +5542,12 @@
 "lon": 4.9111,
 "q": "name",
 "area": "Oost"
+},
+"Yaffa's Heart Studio": {
+"lat": 52.35625,
+"lon": 4.90285,
+"q": "name",
+"area": "Zuid"
 },
 "Yellow House": {
 "lat": 52.39638,
