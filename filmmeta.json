@@ -1510,6 +1510,16 @@
 "tried": "2026-10-28",
 "v": 4
 },
+"carnaval": {
+"dr": "Flip van der Kuil",
+"du": 89,
+"lg": [],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-05",
+"v": 4,
+"yr": 2026
+},
 "cat people": {
 "dr": "Paul Schrader",
 "du": 120,
@@ -2722,6 +2732,12 @@
 "tried": "2026-10-28",
 "v": 4
 },
+"de roode looper het nieuwe rijksmuseum de film": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-05",
+"v": 4
+},
 "de tatta s daan": {
 "dr": "Jamel Aattache, Lars Zijm",
 "du": 80,
@@ -3581,7 +3597,7 @@
 "expat meetup all of a sudden": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-22",
+"tried": "2026-11-05",
 "v": 4
 },
 "expat meetup coward": {
@@ -4408,6 +4424,23 @@
 "v": 4,
 "yr": 2026
 },
+"god said give em drum machines documentary screening": {
+"dr": "Kristian R. Hill",
+"du": 90,
+"gn": [
+"Documentary",
+"Music"
+],
+"lg": [
+"en"
+],
+"sy": "A vibrant and nostalgic music documentary that explores the true beginnings of Techno Music and how young Black musicians from Detroit became the creative force behind one of the most celebrated genres in the…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-05",
+"v": 4,
+"yr": 2022
+},
 "godzilla minus one": {
 "dr": "Takashi Yamazaki",
 "du": 125,
@@ -4764,6 +4797,12 @@
 "v": 4,
 "yr": 2026
 },
+"het beste van het slechtste": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-05",
+"v": 4
+},
 "het geheim van de wondere wereldboom": {
 "dr": "Ben Gregor",
 "du": 109,
@@ -5107,6 +5146,12 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-11-02",
+"v": 4
+},
+"humans of film festival party with dj rasureitor": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-05",
 "v": 4
 },
 "humans of film festival short film programme the art of being you followed by a panel": {
@@ -6503,13 +6548,13 @@
 "international art talent festival": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-22",
+"tried": "2026-11-05",
 "v": 4
 },
 "interstella 5555 2003": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-22",
+"tried": "2026-11-05",
 "v": 4
 },
 "interstellar": {
@@ -7114,6 +7159,25 @@
 "v": 4,
 "yr": 1969
 },
+"la femme infidèle 1969": {
+"dr": "Claude Chabrol",
+"du": 94,
+"gn": [
+"Crime",
+"Drama",
+"Thriller"
+],
+"lg": [
+"fr"
+],
+"rt": 6.9,
+"sy": "A man begins to believe his wife is cheating on him.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-05",
+"v": 4,
+"yr": 1969
+},
 "la haine 1995": {
 "dr": "Mathieu Kassovitz",
 "du": 98,
@@ -7282,6 +7346,18 @@
 "v": 4,
 "yr": 1997
 },
+"laatbloeier": {
+"dr": "Jelle de Jonge",
+"du": 96,
+"lg": [
+"nl"
+],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-05",
+"v": 4,
+"yr": 2026
+},
 "ladri di saponette": {
 "dr": "Maurizio Nichetti",
 "du": 90,
@@ -7308,6 +7384,18 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-10-26",
+"v": 4,
+"yr": 2026
+},
+"lady 2025": {
+"dr": "Samuel Abrahams ",
+"du": 96,
+"lg": [
+"en"
+],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-05",
 "v": 4,
 "yr": 2026
 },
@@ -9708,6 +9796,12 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-10-28",
+"v": 4
+},
+"preview you can see everything": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-05",
 "v": 4
 },
 "preview youri": {
@@ -14353,7 +14447,7 @@
 "world s appreciated kitsch screening time jawbreaker a film about anti cimex": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-22",
+"tried": "2026-11-05",
 "v": 4
 },
 "x the man with the x ray eyes": {

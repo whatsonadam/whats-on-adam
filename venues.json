@@ -1988,6 +1988,10 @@
 "q": "name",
 "area": "Centrum"
 },
+"Explore the north, leeuwarden": {
+"skip": true,
+"q": "not found"
+},
 "Eye Filmmuseum": {
 "lat": 52.38434,
 "lon": 4.90081,
@@ -5606,6 +5610,10 @@
 "lon": 4.89289,
 "q": "name",
 "area": "Zuid"
+},
+"Zuideinde 369": {
+"skip": true,
+"q": "not found"
 },
 "Zuiderkerk": {
 "lat": 52.37029,
