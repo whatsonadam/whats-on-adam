@@ -2905,6 +2905,12 @@
 "v": 4,
 "yr": 2026
 },
+"ditte s filmclub in soul station": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-05",
+"v": 4
+},
 "do no harm": {
 "dr": "Eron Sheean",
 "du": 126,
@@ -3185,6 +3191,24 @@
 "v": 4,
 "yr": 2026
 },
+"dune part two": {
+"dr": "Denis Villeneuve",
+"du": 166,
+"gn": [
+"Science Fiction",
+"Adventure"
+],
+"lg": [
+"en"
+],
+"rt": 8.1,
+"sy": "Follow the mythic journey of Paul Atreides as he unites with Chani and the Fremen while on a path of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-05",
+"v": 4,
+"yr": 2023
+},
 "dykemarch x filmhuis cavia 1": {
 "tm5": true,
 "tmdb": true,
@@ -3296,6 +3320,45 @@
 "v": 4,
 "yr": 2026
 },
+"eng subs fatherland": {
+"dr": "Pawel Pawlikowski",
+"du": 82,
+"gn": [
+"Drama",
+"History"
+],
+"lg": [
+"de",
+"en",
+"ru"
+],
+"rt": 7.3,
+"sy": "In 1949, German writer Thomas Mann and his daughter Erika embark on a road trip across a Germany in ruins, from US-dominated Frankfurt to Soviet-controlled Weimar.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-05",
+"v": 4,
+"yr": 2026
+},
+"eng subs fjord": {
+"dr": "Christian Mungiu",
+"du": 146,
+"gn": [
+"Drama"
+],
+"lg": [
+"en",
+"no",
+"ro"
+],
+"rt": 7.2,
+"sy": "After moving from Romania to a remote Norwegian village to rebuild their lives, a family finds hope in their welcoming neighbors, but their fragile new beginning is threatened when their young daughter arrives…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-05",
+"v": 4,
+"yr": 2026
+},
 "eng subs jim queen": {
 "dr": "Marco N'Guyen, Nicolas Athane",
 "du": 80,
@@ -3311,6 +3374,25 @@
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4,
+"yr": 2026
+},
+"eng subs minotaur": {
+"dr": "Andrey Zvyagintsev",
+"du": 140,
+"gn": [
+"Drama",
+"Crime",
+"Thriller"
+],
+"lg": [
+"ru"
+],
+"rt": 7.6,
+"sy": "When Gleb, a successful company director, finds himself under siege from mounting corporate pressures, an increasingly unstable world, and the discovery of his wife's affair, the collapse of his carefully…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-05",
 "v": 4,
 "yr": 2026
 },
@@ -4870,6 +4952,25 @@
 "tried": "2026-10-22",
 "v": 4,
 "yr": 1991
+},
+"hexed": {
+"dr": "Jason Hand, Fawn Veerasunthorn",
+"du": 103,
+"gn": [
+"Adventure",
+"Animation",
+"Family"
+],
+"lg": [
+"en",
+"th"
+],
+"sy": "An impulsive and unconventional teenage girl named Billie discovers secret magical abilities which, once unleashed, hurtle her into a spectacle-filled journey out of suburbia and into a vast witch realm called…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-05",
+"v": 4,
+"yr": 2026
 },
 "histoires de la nuit tapis rouge 2026": {
 "dr": "Léa Mysius",
@@ -6898,6 +6999,12 @@
 "tried": "2026-11-04",
 "v": 4
 },
+"kinotalk sugar": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-05",
+"v": 4
+},
 "kissable screens looking back": {
 "tm4": true,
 "tmdb": true,
@@ -8389,6 +8496,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1985
+},
+"missie muizenjacht": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-05",
+"v": 4
 },
 "mit verlust ist zu rechnen": {
 "dr": "Ulrich Seidl",
@@ -11024,6 +11137,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"spinoza": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-05",
+"v": 4
 },
 "spirited away": {
 "dr": "Hayao Miyazaki",

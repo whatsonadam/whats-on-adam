@@ -583,6 +583,12 @@
 "q": "name",
 "area": "Oost"
 },
+"Bar Bukowski": {
+"lat": 52.35794,
+"lon": 4.9177,
+"q": "name",
+"area": "Oost"
+},
 "Bar Coco": {
 "lat": 52.38632,
 "lon": 4.87246,
@@ -1605,6 +1611,12 @@
 "q": "name",
 "area": "Zuid"
 },
+"De Jungle": {
+"lat": 52.36179,
+"lon": 4.92652,
+"q": "name",
+"area": "Oost"
+},
 "De Kade, Zaandam": {
 "lat": 52.39302,
 "lon": 4.90639,
@@ -1887,6 +1899,12 @@
 "Duke of Tokyo": {
 "lat": 52.36649,
 "lon": 4.89068,
+"q": "name",
+"area": "Centrum"
+},
+"Dwaze zaken": {
+"lat": 52.37657,
+"lon": 4.89933,
 "q": "name",
 "area": "Centrum"
 },
@@ -3196,6 +3214,12 @@
 "q": "addr",
 "area": "Zuid"
 },
+"Monk bouldergym": {
+"lat": 52.38347,
+"lon": 4.92928,
+"q": "name",
+"area": "Noord"
+},
 "Move Amsterdam": {
 "lat": 52.34642,
 "lon": 4.87707,
@@ -4412,6 +4436,10 @@
 "q": "name",
 "area": "Centrum"
 },
+"Speelotheek Hilversum": {
+"skip": true,
+"q": "not found"
+},
 "Spirit Amsterdam": {
 "lat": 52.37817,
 "lon": 4.88294,
@@ -4483,6 +4511,10 @@
 "lon": 4.88194,
 "q": "name",
 "area": "Centrum"
+},
+"Stations Alkmaar (17.00 uur), Almere Centrum, Amersfoort, Amsterdam CS, Arnhem, Assen, Culemborg, Dordrecht, Driebergen-Zeist, Ede/Wageningen, Enschede, Groningen (protestmars vanaf Grote Markt 17.30 uur, sit-in station 18.30 uur), Hengelo, Leiden, Tiel, Tilburg, Zaandam (17.00 uur), Zutphen": {
+"skip": true,
+"q": "not found"
 },
 "Stations Alkmaar (17.30 uur), Almere Centrum, Amersfoort, Amsterdam CS, Arnhem, Assen, Culemborg, Dordrecht, Ede/Wageningen, Enschede, Groningen (protestmars vanaf Grote Markt 17.30 uur, sit-in station 18.30 uur), Hengelo, Leiden, Tiel, Tilburg, Utrecht, Zaandam (17.00 uur), Zutphen": {
 "skip": true,
@@ -4735,6 +4767,9 @@
 "skip": true
 },
 "TBA - Secret Location (Address in Description)": {
+"skip": true
+},
+"TBA - Subterra": {
 "skip": true
 },
 "TBA - The All Out, Amsterdam": {
@@ -5368,6 +5403,12 @@
 "Vrijburgkerk": {
 "skip": true,
 "q": "not found"
+},
+"Vrouw en Vaart": {
+"lat": 52.37017,
+"lon": 4.89991,
+"q": "name",
+"area": "Centrum"
 },
 "Vue Amsterdam": {
 "skip": true,

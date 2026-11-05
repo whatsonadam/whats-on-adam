@@ -3383,6 +3383,15 @@
 },
 "chk": "2026-10-23"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/daphne-gakes-binnenstebuiten": {
+"dates": {
+"2026-11-07": {
+"h": "16:00",
+"eh": "17:30"
+}
+},
+"chk": "2026-11-05"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/de-draak-and-joris": {
 "dates": {
 "2026-11-22": {
@@ -3775,6 +3784,15 @@
 },
 "chk": "2026-10-20"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/prikkels-8-1": {
+"dates": {
+"2026-11-07": {
+"h": "11:00",
+"eh": "12:00"
+}
+},
+"chk": "2026-11-05"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/productiehuis-de-haard-de-eeuw-waarin-alles-kan": {
 "dates": {
 "2026-12-02": {
@@ -3980,5 +3998,18 @@
 }
 },
 "chk": "2026-10-23"
+},
+"https://www.iamsterdam.com/uit/agenda/winkelen/markten/speelgoedverkoop": {
+"dates": {
+"2026-11-05": {
+"h": "19:30",
+"eh": "21:00"
+},
+"2026-11-06": {
+"h": "08:30",
+"eh": "10:00"
+}
+},
+"chk": "2026-11-05"
 }
 }
