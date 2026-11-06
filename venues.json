@@ -1709,6 +1709,10 @@
 "q": "name",
 "area": "Oost"
 },
+"De Poorthuisjes": {
+"skip": true,
+"q": "not found"
+},
 "De Rietvinck": {
 "lat": 52.38367,
 "lon": 4.88349,
@@ -4862,6 +4866,12 @@
 "lon": 4.85403,
 "q": "name",
 "area": "Zuid"
+},
+"Technologia Incognita": {
+"lat": 52.34557,
+"lon": 4.82646,
+"q": "addr",
+"area": "Nieuw-West"
 },
 "Tempel": {
 "lat": 52.35253,

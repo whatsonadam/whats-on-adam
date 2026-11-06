@@ -214,6 +214,10 @@
 "p": "Free",
 "t": "2026-10-16"
 },
+"https://iisg.amsterdam/nl/events/palestine-focus-tatreez-through-generations-heritage-and-political-expression-palestinian": {
+"p": null,
+"t": "2026-11-06"
+},
 "https://iisg.amsterdam/nl/events/slavernij-vastgelegd-contracten-notariele-archieven-en-slavernij-achttiende-eeuws-frans": {
 "p": null,
 "t": "2026-11-05"
@@ -2630,6 +2634,10 @@
 "p": null,
 "t": "2026-10-16"
 },
+"https://offbeat.amsterdam/event/kazemat": {
+"p": null,
+"t": "2026-11-06"
+},
 "https://offbeat.amsterdam/event/keldercabaret-8": {
 "p": null,
 "t": "2026-10-21"
@@ -3598,6 +3606,10 @@
 "p": null,
 "t": "2026-10-16"
 },
+"https://offbeat.amsterdam/event/repair-cafe-try-out": {
+"p": null,
+"t": "2026-11-06"
+},
 "https://offbeat.amsterdam/event/restaurant-sisi-and-sevgi-koken-58": {
 "p": null,
 "t": "2026-10-20"
@@ -3699,6 +3711,14 @@
 "t": "2026-10-29"
 },
 "https://offbeat.amsterdam/event/screen-to-scene": {
+"p": null,
+"t": "2026-11-06"
+},
+"https://offbeat.amsterdam/event/searching-for-the-underground-kate-moore": {
+"p": null,
+"t": "2026-11-06"
+},
+"https://offbeat.amsterdam/event/searching-for-the-underground-opening-with-live-performance": {
 "p": null,
 "t": "2026-11-06"
 },
@@ -4026,6 +4046,10 @@
 "p": null,
 "t": "2026-11-03"
 },
+"https://offbeat.amsterdam/event/the-dance-club-1": {
+"p": null,
+"t": "2026-11-06"
+},
 "https://offbeat.amsterdam/event/the-early-shift": {
 "p": null,
 "t": "2026-10-17"
@@ -4061,6 +4085,10 @@
 "https://offbeat.amsterdam/event/the-flick-amsterdam-on-stage-6": {
 "p": null,
 "t": "2026-11-05"
+},
+"https://offbeat.amsterdam/event/the-grand-finale-tillatec-closing-weekender": {
+"p": null,
+"t": "2026-11-06"
 },
 "https://offbeat.amsterdam/event/the-hajj": {
 "p": null,
@@ -4181,6 +4209,10 @@
 "https://offbeat.amsterdam/event/theta-session-ade": {
 "p": null,
 "t": "2026-10-24"
+},
+"https://offbeat.amsterdam/event/this-leo-sunrise-tba": {
+"p": null,
+"t": "2026-11-06"
 },
 "https://offbeat.amsterdam/event/tillatec-invites-cruise-isburning-mala-junta-tini-and-the-gayng": {
 "p": null,
@@ -4845,6 +4877,10 @@
 "https://radar.squat.net/en/event/amsterdam/fc-kraak/2026-12-17/fc-kraak-barnight": {
 "p": "Donation",
 "t": "2026-10-29"
+},
+"https://radar.squat.net/en/event/amsterdam/fc-kraak/2026-12-24/fc-kraak-barnight": {
+"p": "Donation",
+"t": "2026-11-06"
 },
 "https://radar.squat.net/en/event/amsterdam/feminist-club-amsterdam/2026-10-20/dear-diaries-afghanistan": {
 "p": null,
@@ -5926,6 +5962,10 @@
 "p": "Free",
 "t": "2026-10-16"
 },
+"https://radar.squat.net/en/event/amsterdam/technologia-incognita/2026-11-15/3d-sunday-make-thing-fix-thing": {
+"p": "Free",
+"t": "2026-11-06"
+},
 "https://radar.squat.net/en/event/amsterdam/tkland-vrijstraat/2026-10-22/takkeherrie-ponk-xl": {
 "p": "Free",
 "t": "2026-10-16"
@@ -6779,6 +6819,11 @@
 "t": "2026-10-17",
 "tk": "https://skatecafe.weticket.io/get-to-it/shop"
 },
+"https://skatecafe.weticket.io/grote-namen-kleine-booth": {
+"p": "from €8,50",
+"t": "2026-11-06",
+"tk": "https://skatecafe.weticket.io/grote-namen-kleine-booth/shop"
+},
 "https://skatecafe.weticket.io/hondenfokker-release-party-rough-enough": {
 "p": "€16",
 "t": "2026-10-17",
@@ -7381,6 +7426,10 @@
 "https://tolhuistuin.nl/en/events/descendants-ade-3": {
 "p": null,
 "t": "2026-10-23"
+},
+"https://tolhuistuin.nl/en/events/dit-is-er-te-beleven-op-warming-up-festival": {
+"p": null,
+"t": "2026-11-06"
 },
 "https://tolhuistuin.nl/en/events/doodseskader": {
 "p": "€21,20",
@@ -9208,6 +9257,10 @@
 "p": "from €17",
 "t": "2026-10-16"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/all-ellington": {
+"p": "from €14",
+"t": "2026-11-06"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/all-jazzed-up-de-nieuwe-generatie-jazz-door-femke-mooren-and-anne-roos-de-1st-edition": {
 "p": "from €12,50",
 "t": "2026-10-16"
@@ -9480,6 +9533,10 @@
 "p": "from €39",
 "t": "2026-10-17"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/ben-van-gelder-quintet-ft-jeff-ballard": {
+"p": null,
+"t": "2026-11-06"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/benjamin-herman-trio-tomoaki-baba": {
 "p": "from €21,20",
 "t": "2026-11-05"
@@ -9547,6 +9604,10 @@
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/bobo-stenson-trio": {
 "p": "from €20",
 "t": "2026-10-16"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/boi-akih-entangled-and-voices-of-the-moluccas": {
+"p": "from €13",
+"t": "2026-11-06"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/bokoesam": {
 "p": "from €25,70",
@@ -10016,6 +10077,10 @@
 "p": "from €12,50",
 "t": "2026-11-05"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/een-absurdistische-intergalactische-nacht-maartje-wortel-diane-mahin-lukraak-and-freejazz-bingo": {
+"p": "from €12",
+"t": "2026-11-06"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/een-imaginaire-vespers-met-pygmalion": {
 "p": "from €33",
 "t": "2026-10-30"
@@ -10364,6 +10429,10 @@
 "p": "from €17,25",
 "t": "2026-10-17"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/groove-beest-familieconcert-kay-slice": {
+"p": "from €10",
+"t": "2026-11-06"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/grote-pianisten-andras-schiff-and-evgeny-kissin": {
 "p": "from €29",
 "t": "2026-10-17"
@@ -10520,6 +10589,10 @@
 "p": "from €20,70",
 "t": "2026-10-16"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/ibelisse-guardia-ferragutti-x-zalan-szakacs-becoming-mountain-awichas": {
+"p": "from €13",
+"t": "2026-11-06"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/ida": {
 "p": "from €14,50",
 "t": "2026-10-19"
@@ -10547,6 +10620,10 @@
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/infloyd": {
 "p": "from €26,45",
 "t": "2026-10-17"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/interlinie-3-mother-tongue-and-bex-burch-as-yet-untitled": {
+"p": "from €13",
+"t": "2026-11-06"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/intouchables-in-concert": {
 "p": "from €46",
@@ -10651,6 +10728,10 @@
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/jett-rebel": {
 "p": null,
 "t": "2026-11-03"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/joe-armon-jones-and-maxwell-owin": {
+"p": "from €14",
+"t": "2026-11-06"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/joel-domingos": {
 "p": null,
@@ -11260,6 +11341,10 @@
 "p": "from €15,75",
 "t": "2026-10-20"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/mo-van-der-does-motet": {
+"p": "from €11",
+"t": "2026-11-06"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/moesorgskis-schilderijententoonstelling-met-markus-stenz": {
 "p": "from €21",
 "t": "2026-10-17"
@@ -11808,6 +11893,10 @@
 "p": "from €17",
 "t": "2026-10-17"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/sam-newbould-quintet": {
+"p": "from €13",
+"t": "2026-11-06"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/sam-tompkins": {
 "p": "from €26,45",
 "t": "2026-10-16"
@@ -12052,6 +12141,10 @@
 "p": "from €35",
 "t": "2026-10-17"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/storm-jazz-orchestra-of-the-concertgebouw-x-offprojects": {
+"p": "from €13",
+"t": "2026-11-06"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/stormy": {
 "p": "from €27,60",
 "t": "2026-10-17"
@@ -12156,6 +12249,10 @@
 "p": "from €30,80",
 "t": "2026-10-17"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/teis-semey-quintet": {
+"p": "from €13",
+"t": "2026-11-06"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/temples": {
 "p": "from €27,60",
 "t": "2026-10-17"
@@ -12199,6 +12296,10 @@
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/the-next-gen-iv": {
 "p": "from €17",
 "t": "2026-10-27"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/the-preacher-men": {
+"p": "from €13",
+"t": "2026-11-06"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/the-reytons": {
 "p": "from €36,80",
@@ -12292,6 +12393,10 @@
 "p": "from €17",
 "t": "2026-10-19"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/toon-tellegen-and-het-wisselend-toonkwintet-god-onder-de-mensen": {
+"p": "from €13",
+"t": "2026-11-06"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/tove-lo": {
 "p": "from €50,49",
 "t": "2026-10-17"
@@ -12363,6 +12468,10 @@
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/van-boedapest-tot-jerevan": {
 "p": "from €12,50",
 "t": "2026-11-05"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/van-eijck-brinkmann-en-vespestad": {
+"p": "from €13",
+"t": "2026-11-06"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/van-haydn-tot-liszt-door-magdalene-ho": {
 "p": "from €25",
@@ -14231,6 +14340,10 @@
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/sasha-b2b-patrice-baumel-6hrs": {
 "p": null,
 "t": "2026-10-23"
+},
+"https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/satin-jackets": {
+"p": "from €23",
+"t": "2026-11-06"
 },
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/scooter-crushes-ade": {
 "p": null,

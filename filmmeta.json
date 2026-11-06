@@ -838,6 +838,12 @@
 "v": 4,
 "yr": 1995
 },
+"are we alone": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-06",
+"v": 4
+},
 "ares": {
 "dr": "Jean-Patrick Benes",
 "du": 80,
@@ -2953,6 +2959,24 @@
 "v": 4,
 "yr": 2023
 },
+"do you love me": {
+"dr": "Lana Daher",
+"du": 76,
+"gn": [
+"Documentary"
+],
+"lg": [
+"ar",
+"en",
+"fr"
+],
+"sy": "A playful and personal journey through Lebanon’s audiovisual memory, composed entirely of archival footage. It is a love letter to Beirut, spanning 70 years of film, TV, home videos, and photography, exploring…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-06",
+"v": 4,
+"yr": 2025
+},
 "donnie darko": {
 "dr": "Richard Kelly",
 "du": 114,
@@ -3657,6 +3681,24 @@
 "v": 4,
 "yr": 2026
 },
+"everybody to kenmure street": {
+"dr": "Felipe Bustos Sierra",
+"du": 98,
+"gn": [
+"Documentary"
+],
+"lg": [
+"en",
+"pa",
+"ur"
+],
+"sy": "In May 2021, a UK Home Office dawn raid triggers one of the most spontaneous and successful acts of civil resistance in recent memory. In Pollokshields, Scotland’s most diverse neighbourhood, hundreds of…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-06",
+"v": 4,
+"yr": 2026
+},
 "ex tempore": {
 "tm5": true,
 "tmdb": true,
@@ -4230,6 +4272,22 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1994
+},
+"four journeys": {
+"dr": "Louis Hothothot",
+"du": 117,
+"gn": [
+"Documentary"
+],
+"lg": [
+"zh"
+],
+"sy": "China introduced its draconian policy in 1979. In 1986, Hothothot was born. The illegality of his existence cost his father three times his annual salary and the end of a promising political career. The…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-06",
+"v": 4,
+"yr": 2021
 },
 "four weddings and a funeral": {
 "dr": "Mike Newell",
@@ -5166,6 +5224,18 @@
 "v": 4,
 "yr": 2026
 },
+"hoop in de hoep": {
+"dr": "Pim Giel",
+"du": 90,
+"lg": [
+"nl"
+],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-06",
+"v": 4,
+"yr": 2025
+},
 "hope": {
 "dr": "Maria Sødahl",
 "du": 126,
@@ -5426,6 +5496,23 @@
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4,
+"yr": 2026
+},
+"i want her dead": {
+"dr": "Gianluca Matarrese",
+"du": 87,
+"gn": [
+"Drama",
+"Documentary"
+],
+"lg": [
+"it"
+],
+"sy": "An unhappy family in a remote village in Calabria: Luisa is at war with the world since day one. She is juggling odd jobs, her love for her children and granddaughter, and her feuding with her mother, brother…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-06",
 "v": 4,
 "yr": 2026
 },
@@ -13520,6 +13607,22 @@
 "tried": "2026-10-26",
 "v": 4,
 "yr": 2024
+},
+"the year of the ghost": {
+"dr": "Louis Hothothot",
+"du": 93,
+"gn": [
+"Documentary"
+],
+"lg": [
+"zh"
+],
+"sy": "Following his father's death, Louis Hothothot turns the camera on his mother and sister in China. With fearless affection, he explores how misogyny has affected the lives of the women in his family across…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-06",
+"v": 4,
+"yr": 2026
 },
 "thelma louise": {
 "dr": "Ridley Scott",
