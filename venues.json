@@ -187,6 +187,12 @@
 "q": "name",
 "area": "West"
 },
+"Afura": {
+"lat": 52.3617,
+"lon": 4.89181,
+"q": "name",
+"area": "Centrum"
+},
 "Afvalpaleis": {
 "skip": true,
 "q": "not found"
@@ -672,6 +678,12 @@
 "Beatfabriek": {
 "skip": true,
 "q": "not found"
+},
+"Beautiful Distress": {
+"lat": 52.37579,
+"lon": 4.91005,
+"q": "name",
+"area": "Centrum"
 },
 "Beest Boulders Amsterdam": {
 "lat": 52.38167,
@@ -1685,6 +1697,12 @@
 "skip": true,
 "q": "not found"
 },
+"De Nieuwe Meent": {
+"lat": 52.35294,
+"lon": 4.94753,
+"q": "name",
+"area": "Oost"
+},
 "De Omval": {
 "lat": 52.34501,
 "lon": 4.9164,
@@ -2121,6 +2139,12 @@
 "Fort van Sjakoo": {
 "skip": true,
 "q": "not found"
+},
+"Fort99": {
+"lat": 52.39313,
+"lon": 4.903,
+"q": "addr",
+"area": "Noord"
 },
 "Forteiland Pampus": {
 "lat": 52.37828,
@@ -4713,6 +4737,9 @@
 "skip": true
 },
 "TBA - Cafe Westerdok": {
+"skip": true
+},
+"TBA - Club Annie": {
 "skip": true
 },
 "TBA - Comedy Café Amsterdam": {

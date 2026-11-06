@@ -792,19 +792,19 @@
 "anarchist film festival day 1": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-23",
+"tried": "2026-11-06",
 "v": 4
 },
 "anarchist film festival day 2": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-23",
+"tried": "2026-11-06",
 "v": 4
 },
 "anarchist film festival day 3": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-23",
+"tried": "2026-11-06",
 "v": 4
 },
 "andiamo a bere l ultima": {
@@ -1541,7 +1541,7 @@
 "cavia in concert at nassaukerk": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-23",
+"tried": "2026-11-06",
 "v": 4
 },
 "cavia in concert at nassaukerk le révélateur with live score by sasha sykes": {
@@ -1813,7 +1813,7 @@
 "cinemini mannetje tak": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-23",
+"tried": "2026-11-06",
 "v": 4
 },
 "cinemini zoek zoek zoek": {
@@ -2550,6 +2550,12 @@
 "v": 4,
 "yr": 2026
 },
+"dancing with the barbell": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-06",
+"v": 4
+},
 "daughters of the dust": {
 "dr": "Julie Dash",
 "du": 112,
@@ -3212,7 +3218,7 @@
 "dykemarch x filmhuis cavia 1": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-23",
+"tried": "2026-11-06",
 "v": 4
 },
 "early seidl shorts": {
@@ -3231,6 +3237,29 @@
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4
+},
+"eat more trees": {
+"dr": "Arne Focketyn",
+"du": 89,
+"gn": [
+"Documentary"
+],
+"lg": [
+"en",
+"nl"
+],
+"sy": "Eat More Trees is a hopeful journey from the Amazon rain forest to the fields of Europe and America. The film explores how agroforestry can regenerate landscapes, restore biodiversity, and protect our climate.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-06",
+"v": 4,
+"yr": 2026
+},
+"ebenezer a christmas carol": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-06",
 "v": 4
 },
 "edward said between worlds talk hosted by oneworld": {
@@ -4711,6 +4740,12 @@
 "tried": "2026-10-28",
 "v": 4
 },
+"hadoota": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-06",
+"v": 4
+},
 "halloween": {
 "dr": "David Gordon Green",
 "du": 106,
@@ -5197,6 +5232,24 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-10-28",
+"v": 4,
+"yr": 2026
+},
+"how to rob a bank": {
+"dr": "David Leitch",
+"du": 122,
+"gn": [
+"Action",
+"Crime",
+"Thriller"
+],
+"lg": [
+"en"
+],
+"sy": "A crew of social media-savvy bank robbers broadcasts their daring heists, unaware that their growing viral fame has put them in the crosshairs of a veteran FBI agent and a brilliant software engineer. Despite…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-06",
 "v": 4,
 "yr": 2026
 },
@@ -6510,6 +6563,12 @@
 "tried": "2026-10-28",
 "v": 4
 },
+"imroz da bahar": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-06",
+"v": 4
+},
 "in person ulrich seidl": {
 "tm5": true,
 "tmdb": true,
@@ -6752,7 +6811,7 @@
 "jarmusch special night on earth": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-23",
+"tried": "2026-11-06",
 "v": 4
 },
 "je familiegeschiedenis als podcast": {
@@ -7754,7 +7813,7 @@
 "lgbtq preview club kid": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-23",
+"tried": "2026-11-06",
 "v": 4
 },
 "lgbtq preview coward": {
@@ -9419,6 +9478,25 @@
 "tried": "2026-10-28",
 "v": 4,
 "yr": 2026
+},
+"paddington 2 nl": {
+"dr": "Paul King",
+"du": 103,
+"gn": [
+"Adventure",
+"Comedy",
+"Family"
+],
+"lg": [
+"nl"
+],
+"rt": 7.5,
+"sy": "Paddington, now happily settled with the Browns, picks up a series of odd jobs to buy the perfect present for his Aunt Lucy, but it is stolen.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-06",
+"v": 4,
+"yr": 2017
 },
 "paikar": {
 "dr": "Dawood Hilmandi",
@@ -12357,6 +12435,24 @@
 "tried": "2026-10-25",
 "v": 4
 },
+"the history of concrete": {
+"dr": "John Wilson",
+"du": 101,
+"gn": [
+"Documentary",
+"Comedy"
+],
+"lg": [
+"en",
+"zh"
+],
+"sy": "After attending a workshop on how to write and sell a Hallmark movie, filmmaker John Wilson tries to use the same formula to sell a documentary about concrete.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-06",
+"v": 4,
+"yr": 2026
+},
 "the holdovers": {
 "dr": "Alexander Payne",
 "du": 133,
@@ -13664,6 +13760,12 @@
 "v": 4,
 "yr": 1999
 },
+"totally wired le guess who x antipode occii girls to the front zalzala": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-06",
+"v": 4
+},
 "toutes directions": {
 "dr": "Noël Loozen",
 "du": 88,
@@ -13927,6 +14029,24 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2008
+},
+"two mountains weighing down my chest": {
+"dr": "Viv Li",
+"du": 85,
+"gn": [
+"Documentary"
+],
+"lg": [
+"zh",
+"en",
+"de"
+],
+"sy": "A Chinese misfit ricochets between Berlin’s alternative frenzy and Beijing’s family order, transforming cultural whiplash into an offbeat search for identity and a playful quest for belonging.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-06",
+"v": 4,
+"yr": 2026
 },
 "ukrainian new wave coming closer": {
 "tm5": true,
@@ -14405,6 +14525,22 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1995
+},
+"whispers in may": {
+"dr": "Dongnan Chen",
+"du": 95,
+"gn": [
+"Documentary"
+],
+"lg": [
+"ii"
+],
+"sy": "In the rural Liangshan Mountains, 14-year-old Qihuo and her friends embark on a road trip to find a skirt for her traditional menarche rite of passage.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-06",
+"v": 4,
+"yr": 2026
 },
 "whispers in the woods": {
 "dr": "Vincent Munier",
