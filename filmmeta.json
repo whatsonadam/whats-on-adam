@@ -5704,6 +5704,23 @@
 "v": 4,
 "yr": 2026
 },
+"i play rocky": {
+"dr": "Peter Farrelly",
+"du": 128,
+"gn": [
+"Drama",
+"History"
+],
+"lg": [
+"en"
+],
+"sy": "The electrifying true story about an unknown actor with an unshakable belief that he wasn't just meant to write Rocky—he was meant to be Rocky Balboa. Told \"no\" at every turn, Sylvester Stallone bets…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-07",
+"v": 4,
+"yr": 2026
+},
 "i want her dead": {
 "dr": "Gianluca Matarrese",
 "du": 87,
@@ -10195,6 +10212,23 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-10-27",
+"v": 4,
+"yr": 1966
+},
+"persona 1966": {
+"dr": "Ingmar Bergman",
+"du": 85,
+"gn": [
+"Drama"
+],
+"lg": [
+"sv"
+],
+"rt": 8.1,
+"sy": "A young nurse, Alma, is put in charge of Elisabeth Vogler: an actress who is seemingly healthy in all respects, but will not talk. As they spend time together, Alma speaks to Elisabeth constantly, never…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-07",
 "v": 4,
 "yr": 1966
 },
