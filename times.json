@@ -134,6 +134,11 @@
 "eh": "23:00",
 "chk": "2026-11-06"
 },
+"https://hipsy.nl/event/255394-ecstatic-journey-leela": {
+"h": "18:00",
+"eh": "23:00",
+"chk": "2026-11-07"
+},
 "https://hipsy.nl/event/257835-moving-dialogues-contact-improvisation-workshop-steven-campos": {
 "h": "18:00",
 "eh": "23:00",
@@ -3741,6 +3746,23 @@
 }
 },
 "chk": "2026-10-11"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/north-by-northwest-4k-restoration": {
+"dates": {
+"2026-11-11": {
+"h": "10:05",
+"eh": "12:21"
+},
+"2026-11-13": {
+"h": "10:05",
+"eh": "12:21"
+},
+"2026-11-18": {
+"h": "10:00",
+"eh": "12:16"
+}
+},
+"chk": "2026-11-07"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/nun-the-wiser": {
 "dates": {
