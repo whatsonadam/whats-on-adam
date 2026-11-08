@@ -1234,6 +1234,12 @@
 "v": 4,
 "yr": 1972
 },
+"black narcissus 35mm": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-08",
+"v": 4
+},
 "bless their little hearts": {
 "dr": "Billy Woodberry",
 "du": 85,
@@ -1274,6 +1280,23 @@
 "tried": "2026-10-28",
 "v": 4,
 "yr": 2026
+},
+"boyhood": {
+"dr": "Richard Linklater",
+"du": 166,
+"gn": [
+"Drama"
+],
+"lg": [
+"en"
+],
+"rt": 7.5,
+"sy": "The film tells a story of a divorced couple trying to raise their young son. The story follows the boy for twelve years, from first grade at age 6 through 12th grade at age 17-18, and examines his relationship…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-08",
+"v": 4,
+"yr": 2014
 },
 "brainwash festival 2026": {
 "tm4": true,
@@ -1960,6 +1983,12 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-10-26",
+"v": 4
+},
+"cinédialoog on high water": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-08",
 "v": 4
 },
 "city of god 2002": {
@@ -4298,10 +4327,22 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"film food back to the future incl hamburger": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-08",
+"v": 4
+},
 "film food do the right thing incl pizza slices": {
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4
+},
+"film food gremlins incl hamburger": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-08",
 "v": 4
 },
 "film food shall we dance incl ramen": {
@@ -5397,6 +5438,12 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-11-02",
+"v": 4
+},
+"hoff one woman one bra 2025": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-08",
 "v": 4
 },
 "hoff paradise 2026": {
