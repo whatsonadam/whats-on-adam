@@ -987,6 +987,23 @@
 "v": 4,
 "yr": 2026
 },
+"baby jackfruit baby guava": {
+"dr": "Nong Nhat Quang",
+"du": 103,
+"gn": [
+"Documentary"
+],
+"lg": [
+"en",
+"vi"
+],
+"sy": "When an unplanned baby enters the lives of a conservative mother, neurodivergent daughter and detached gay son, the trio travels back in time through their diaries and family photos to mend ruptured bonds and…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-08",
+"v": 4,
+"yr": 2026
+},
 "back to the future": {
 "dr": "Robert Zemeckis",
 "du": 116,
@@ -3469,6 +3486,22 @@
 "v": 4,
 "yr": 1964
 },
+"el lugar más pequeño": {
+"dr": "Tatiana Huezo",
+"du": 100,
+"gn": [
+"Documentary"
+],
+"lg": [
+"es"
+],
+"sy": "Years after the Salvadoran military destroyed the village of Cinquera in that country’s civil war, survivors have returned to rebuild their community. Soulful, beautifully rendered, this amazing debut is an…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-08",
+"v": 4,
+"yr": 2011
+},
 "elegant beast": {
 "dr": "Yūzō Kawashima",
 "du": 96,
@@ -3486,6 +3519,25 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1962
+},
+"elf": {
+"dr": "Jon Favreau",
+"du": 97,
+"gn": [
+"Comedy",
+"Family",
+"Fantasy"
+],
+"lg": [
+"en"
+],
+"rt": 6.7,
+"sy": "When young Buddy falls into Santa's gift sack on Christmas Eve, he's transported back to the North Pole and raised as a toy-making elf by Santa's helpers. But as he grows into adulthood, he can't shake the…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-08",
+"v": 4,
+"yr": 2003
 },
 "elvira madigan": {
 "dr": "Bo Widerberg",
@@ -4422,6 +4474,12 @@
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4
+},
+"for the moon": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-08",
 "v": 4
 },
 "forest up in the mountain": {
@@ -8743,6 +8801,19 @@
 "v": 4,
 "yr": 1995
 },
+"memories of lightning": {
+"dr": "Riccardo Giacconi",
+"du": 71,
+"lg": [
+"it"
+],
+"sy": "Sibilla, a radio reporter, travels to a small town in central Italy to make an audio documentary. There, in 1982, a young woman had been killed, in an act of apparently inexplicable violence. Through voices…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-08",
+"v": 4,
+"yr": 2026
+},
 "merlusse": {
 "dr": "Marcel Pagnol",
 "du": 72,
@@ -9748,6 +9819,22 @@
 "v": 4,
 "yr": 1954
 },
+"once upon a time in harlem": {
+"dr": "David Greaves, William Greaves",
+"du": 100,
+"gn": [
+"Documentary"
+],
+"lg": [
+"en"
+],
+"sy": "A decade after his death, genre-defying filmmaker William Greaves has one last trick up his sleeve with what he considered the most important event he captured on film: a 1972 party he engineered with the…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-08",
+"v": 4,
+"yr": 2026
+},
 "once upon a time in harlem wepresent night": {
 "dr": "William Greaves, David Greaves",
 "du": 100,
@@ -10700,6 +10787,22 @@
 "v": 4,
 "yr": 2023
 },
+"regarding memory and neglect": {
+"dr": "Ricardo Martensen",
+"du": 86,
+"gn": [
+"Documentary"
+],
+"lg": [
+"pt"
+],
+"sy": "In Brazil, bereaved families from different eras search for the remains of their loved ones and the truth about how they died. In old home movies, the dead come back to life. But even decades later, the…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-08",
+"v": 4,
+"yr": 2026
+},
 "reporters 1981 tapis rouge classiques x de uitkijk": {
 "dr": "Raymond Depardon",
 "du": 97,
@@ -11330,6 +11433,12 @@
 "tried": "2026-10-28",
 "v": 4
 },
+"shorts a house of memories": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-08",
+"v": 4
+},
 "shorts acts of counter erasure": {
 "tm5": true,
 "tmdb": true,
@@ -11342,6 +11451,12 @@
 "tried": "2026-10-28",
 "v": 4
 },
+"shorts fencing off": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-08",
+"v": 4
+},
 "shorts mythic metamorphoses": {
 "tm5": true,
 "tmdb": true,
@@ -11352,6 +11467,18 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-11-07",
+"v": 4
+},
+"shorts seismic shocks": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-08",
+"v": 4
+},
+"shorts senses of belonging": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-08",
 "v": 4
 },
 "shorts shrouded in silence": {
@@ -11466,6 +11593,22 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1952
+},
+"six months in a pink and blue building": {
+"dr": "Bruno Santamaría Razo",
+"du": 105,
+"gn": [
+"Drama"
+],
+"lg": [
+"es"
+],
+"sy": "Mexico City, early 90s. The day Bruno turns 11, his growing feelings for his best friend Vladimir clash with the sudden announcement that his father has HIV. Like in salsa songs, his family tries to sing and…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-08",
+"v": 4,
+"yr": 2026
 },
 "six short films for the palestine cinema days around the world": {
 "tm5": true,
@@ -11942,6 +12085,22 @@
 "v": 4,
 "yr": 2026
 },
+"tehran under the skin": {
+"dr": "Afsaneh Salari",
+"du": 84,
+"gn": [
+"Documentary"
+],
+"lg": [
+"fa"
+],
+"sy": "In an age of body anxiety, filmmaker Afsaneh Salari embeds herself in the offices of Iranian plastic surgeons to interview their clients with humour and empathy.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-08",
+"v": 4,
+"yr": 2026
+},
 "teken je eigen filmstrook": {
 "tm4": true,
 "tm5": true,
@@ -12203,6 +12362,23 @@
 "tmdb": true,
 "tried": "2026-11-04",
 "v": 4
+},
+"the big boom": {
+"dr": "Gabriel Tejedor",
+"du": 79,
+"gn": [
+"Documentary"
+],
+"lg": [
+"bg",
+"uk"
+],
+"sy": "Arms manufacturer Arsenal dominates life in a provincial Bulgarian town. The weapons it produces are destined for Ukraine, while most of its employees are pro-Putin. Meanwhile, a pacifist considers setting…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-08",
+"v": 4,
+"yr": 2026
 },
 "the big lebowski": {
 "dr": "Ethan Coen, Joel Coen",
@@ -12663,7 +12839,7 @@
 "the disintegration loops 2001": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-25",
+"tried": "2026-11-08",
 "v": 4
 },
 "the dome sessions": {
@@ -12958,7 +13134,7 @@
 "the green knight 2021 mediaevalia": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-25",
+"tried": "2026-11-08",
 "v": 4
 },
 "the history of concrete": {
@@ -13015,6 +13191,25 @@
 "tried": "2026-10-22",
 "v": 4,
 "yr": 1998
+},
+"the hunger games": {
+"dr": "Gary Ross",
+"du": 143,
+"gn": [
+"Science Fiction",
+"Adventure",
+"Action"
+],
+"lg": [
+"en"
+],
+"rt": 7.2,
+"sy": "In a dystopian society where the Capitol forces each district to send two young tributes to fight to the death in a televised spectacle, a girl volunteers to take her sister’s place, setting the stage for a…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-08",
+"v": 4,
+"yr": 2012
 },
 "the hunger games sunrise on the reaping": {
 "dr": "Francis Lawrence",
@@ -13336,6 +13531,22 @@
 "tried": "2026-11-07",
 "v": 4
 },
+"the moths the flame": {
+"dr": "Kevin Contento",
+"du": 97,
+"gn": [
+"Documentary"
+],
+"lg": [
+"en"
+],
+"sy": "In Pahokee, Florida, the myth of the absent Black father is contradicted every day: housework, children’s birthdays, neighbourhood, care. In vignettes brimming with solidarity, Contento traces out his…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-08",
+"v": 4,
+"yr": 2026
+},
 "the name of the rose 1986 mediaevalia": {
 "tm5": true,
 "tmdb": true,
@@ -13506,6 +13717,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1975
+},
+"the sacred circle the last season": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-08",
+"v": 4
 },
 "the saddest music in the world 2003": {
 "dr": "Guy Maddin",
@@ -14804,6 +15021,22 @@
 "v": 4,
 "yr": 2026
 },
+"urgences": {
+"dr": "Raymond Depardon",
+"du": 105,
+"gn": [
+"Documentary"
+],
+"lg": [
+"fr"
+],
+"sy": "A documentary filmed in the psychiatric ward of the Motel Dieu at a large hospital in Paris. The patients arrive on their own, or with considerable help from the police, but all of them are in need of medical…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-08",
+"v": 4,
+"yr": 1988
+},
 "uyariy javier corcuera 2025 q a": {
 "tm5": true,
 "tmdb": true,
@@ -15025,6 +15258,24 @@
 "tried": "2026-10-18",
 "v": 4,
 "yr": 2025
+},
+"we had a plan": {
+"dr": "Suzanne Raes, Venice De Castro Atienza",
+"du": 97,
+"gn": [
+"Documentary"
+],
+"lg": [
+"en",
+"tl",
+"nl"
+],
+"sy": "Paul and Dan, a gay couple who spent ten years working illegally as cleaners in the Netherlands, return to the Philippines as a success story. But before long their plans begin to unravel, and they face a…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-08",
+"v": 4,
+"yr": 2026
 },
 "we refuse to be broken": {
 "tm5": true,
@@ -15323,6 +15574,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1963
+},
+"xiangzidian village the stage": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-08",
+"v": 4
 },
 "yellow letters": {
 "dr": "Ilker Çatak",

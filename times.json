@@ -139,6 +139,16 @@
 "eh": "23:00",
 "chk": "2026-11-07"
 },
+"https://hipsy.nl/event/255395-morning-ecstatic-dance-potluck-yona": {
+"h": "10:00",
+"eh": "15:00",
+"chk": "2026-11-08"
+},
+"https://hipsy.nl/event/255396-ecstatic-dance-inphiknight": {
+"h": "18:00",
+"eh": "22:00",
+"chk": "2026-11-08"
+},
 "https://hipsy.nl/event/257835-moving-dialogues-contact-improvisation-workshop-steven-campos": {
 "h": "18:00",
 "eh": "23:00",
@@ -245,11 +255,11 @@
 },
 "https://parallel.am/programme/hamdi": {
 "none": true,
-"chk": "2026-11-01"
+"chk": "2026-11-08"
 },
 "https://parallel.am/programme/jazzy": {
 "none": true,
-"chk": "2026-11-01"
+"chk": "2026-11-08"
 },
 "https://parallel.am/programme/la-casa-del-perreo-13": {
 "none": true,
@@ -261,7 +271,7 @@
 },
 "https://parallel.am/programme/nosaj-thing-presents-continua": {
 "none": true,
-"chk": "2026-11-01"
+"chk": "2026-11-08"
 },
 "https://parallel.am/programme/pornceptual-7": {
 "none": true,
@@ -278,7 +288,7 @@
 },
 "https://parallel.am/programme/rooted-x-striptopia": {
 "none": true,
-"chk": "2026-11-01"
+"chk": "2026-11-08"
 },
 "https://parallel.am/programme/scientist": {
 "h": "20:00",
@@ -295,7 +305,7 @@
 },
 "https://parallel.am/programme/ziongate-x-moonshine": {
 "none": true,
-"chk": "2026-11-01"
+"chk": "2026-11-08"
 },
 "https://radion.amsterdam/program/10-jaar-het-syndicaat-de-grande-finale/": {
 "h": "15:00",
@@ -587,7 +597,7 @@
 },
 "https://tolhuistuin.nl/en/events/counter-gaze-metroscope-opening": {
 "none": true,
-"chk": "2026-11-01"
+"chk": "2026-11-08"
 },
 "https://tolhuistuin.nl/en/events/counter-gaze-metroscope-opening?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
 "none": true,
@@ -632,7 +642,7 @@
 },
 "https://tolhuistuin.nl/en/events/de-danskamer-24": {
 "none": true,
-"chk": "2026-11-01"
+"chk": "2026-11-08"
 },
 "https://tolhuistuin.nl/en/events/de-danskamer-24?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
 "none": true,
@@ -673,23 +683,23 @@
 },
 "https://tolhuistuin.nl/en/events/de-publieke-tribune-2-2-2-2-2-2-2-2-2-2-2": {
 "none": true,
-"chk": "2026-11-01"
+"chk": "2026-11-08"
 },
 "https://tolhuistuin.nl/en/events/de-publieke-tribune-2-2-2-2-2-2-2-2-2-2-2-2": {
 "none": true,
-"chk": "2026-11-01"
+"chk": "2026-11-08"
 },
 "https://tolhuistuin.nl/en/events/de-publieke-tribune-2-2-2-2-2-2-2-2-2-2-2-2-2": {
 "none": true,
-"chk": "2026-11-01"
+"chk": "2026-11-08"
 },
 "https://tolhuistuin.nl/en/events/de-publieke-tribune-2-2-2-2-2-2-2-2-2-2-2-2-2-2": {
 "none": true,
-"chk": "2026-11-01"
+"chk": "2026-11-08"
 },
 "https://tolhuistuin.nl/en/events/de-publieke-tribune-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2": {
 "none": true,
-"chk": "2026-11-01"
+"chk": "2026-11-08"
 },
 "https://tolhuistuin.nl/en/events/de-publieke-tribune-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
 "none": true,
@@ -1256,7 +1266,7 @@
 },
 "https://tolhuistuin.nl/en/events/one-fine-mess-10": {
 "none": true,
-"chk": "2026-11-01"
+"chk": "2026-11-08"
 },
 "https://tolhuistuin.nl/en/events/one-fine-mess-10?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
 "none": true,
@@ -1264,7 +1274,7 @@
 },
 "https://tolhuistuin.nl/en/events/one-fine-mess-11": {
 "none": true,
-"chk": "2026-11-01"
+"chk": "2026-11-08"
 },
 "https://tolhuistuin.nl/en/events/one-fine-mess-11?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
 "none": true,
@@ -1284,7 +1294,7 @@
 },
 "https://tolhuistuin.nl/en/events/one-fine-mess-9": {
 "none": true,
-"chk": "2026-11-01"
+"chk": "2026-11-08"
 },
 "https://tolhuistuin.nl/en/events/one-fine-mess-9?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
 "none": true,
@@ -1995,7 +2005,7 @@
 },
 "https://www.amsterdammuseum.nl/en/public-program/oktober-co-creatie/281432": {
 "none": true,
-"chk": "2026-11-01"
+"chk": "2026-11-08"
 },
 "https://www.amsterdammuseum.nl/en/public-program/open-huis-verjaardag/290118": {
 "none": true,
@@ -2012,7 +2022,7 @@
 },
 "https://www.amsterdammuseum.nl/en/public-program/slot-symposium/292122": {
 "none": true,
-"chk": "2026-11-01"
+"chk": "2026-11-08"
 },
 "https://www.amsterdammuseum.nl/en/public-program/stadswandeling-museumstukken-in-de-stad/281754": {
 "h": "15:00",
@@ -2496,6 +2506,14 @@
 }
 },
 "chk": "2026-10-11"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/boo-seeka": {
+"dates": {
+"2026-11-09": {
+"h": "19:30"
+}
+},
+"chk": "2026-11-08"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/brian-fallon-and-the-painkillers": {
 "dates": {
