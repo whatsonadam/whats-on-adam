@@ -1211,6 +1211,12 @@
 "q": "name",
 "area": "Oost"
 },
+"Capital C Bloemenmarkt": {
+"lat": 52.36693,
+"lon": 4.89076,
+"q": "name",
+"area": "Centrum"
+},
 "Cartel Amsterdam": {
 "lat": 52.36504,
 "lon": 4.8903,
@@ -2653,6 +2659,10 @@
 "lon": 4.90449,
 "q": "name",
 "area": "Zuid"
+},
+"ISOamsterdam": {
+"skip": true,
+"q": "not found"
 },
 "If I can’t dance, I don’t want to be part of your revolution": {
 "skip": true,
@@ -5221,6 +5231,12 @@
 "q": "name",
 "area": "Noord"
 },
+"Tribes Amsterdam Raamplein": {
+"lat": 52.36651,
+"lon": 4.8796,
+"q": "name",
+"area": "Centrum"
+},
 "Trippenhuis": {
 "lat": 52.37122,
 "lon": 4.89953,
@@ -5266,6 +5282,12 @@
 "UvA Founder Space": {
 "skip": true,
 "q": "not found"
+},
+"VESSEL": {
+"lat": 52.39446,
+"lon": 4.88192,
+"q": "name",
+"area": "West"
 },
 "VOX-POP": {
 "lat": 52.37405,
