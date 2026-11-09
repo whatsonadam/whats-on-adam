@@ -104,6 +104,11 @@
 "eh": "15:00",
 "chk": "2026-10-25"
 },
+"https://hipsy.nl/event/255388-ecstatic-dance-leela": {
+"h": "18:00",
+"eh": "22:00",
+"chk": "2026-11-09"
+},
 "https://hipsy.nl/event/255388-ecstatic-dance-tba": {
 "h": "18:00",
 "eh": "22:00",
@@ -123,6 +128,11 @@
 "h": "10:00",
 "eh": "15:00",
 "chk": "2026-11-01"
+},
+"https://hipsy.nl/event/255391-morning-ecstatic-dance-potluck-yarun-dee-": {
+"h": "10:00",
+"eh": "15:00",
+"chk": "2026-11-09"
 },
 "https://hipsy.nl/event/255392-ecstatic-dance-yarun-dee": {
 "h": "18:00",
@@ -2123,6 +2133,10 @@
 "h": "20:00",
 "chk": "2026-10-26"
 },
+"https://www.cinetol.nl/events/het-betekenis": {
+"h": "20:30",
+"chk": "2026-11-09"
+},
 "https://www.cinetol.nl/events/horse-jumper-of-love": {
 "h": "20:00",
 "chk": "2026-10-11"
@@ -2877,6 +2891,15 @@
 },
 "chk": "2026-10-27"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/nearly-jazz-and-wine": {
+"dates": {
+"2026-11-21": {
+"h": "17:00",
+"eh": "18:00"
+}
+},
+"chk": "2026-11-09"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/nieuwjaarsconcert-2027-nederlands-blazers-ensemble": {
 "dates": {
 "2027-01-01": {
@@ -3127,6 +3150,19 @@
 }
 },
 "chk": "2026-10-23"
+},
+"https://www.iamsterdam.com/uit/agenda/festivals/events/oorzaken-festival-2026": {
+"dates": {
+"2026-12-11": {
+"h": "10:00",
+"eh": "21:30"
+},
+"2026-12-12": {
+"h": "11:45",
+"eh": "00:00"
+}
+},
+"chk": "2026-11-09"
 },
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/50-hertz-x-pan-pot-presents-human-club-train-saturday-daytime-trip": {
 "dates": {
@@ -4015,6 +4051,15 @@
 },
 "chk": "2026-10-11"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/umi": {
+"dates": {
+"2026-11-15": {
+"h": "10:00",
+"eh": "10:45"
+}
+},
+"chk": "2026-11-09"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/under-the-flags-the-sun": {
 "dates": {
 "2026-10-30": {
@@ -4066,5 +4111,22 @@
 }
 },
 "chk": "2026-11-05"
+},
+"https://www.iamsterdam.com/uit/agenda/winkelen/markten/the-maker-market-xl-kerstmarkt-in-de-centrale-markthal": {
+"dates": {
+"2026-12-19": {
+"h": "11:00",
+"eh": "20:00"
+},
+"2026-12-20": {
+"h": "11:00",
+"eh": "17:00"
+},
+"2026-12-21": {
+"h": "11:00",
+"eh": "17:00"
+}
+},
+"chk": "2026-11-09"
 }
 }

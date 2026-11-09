@@ -2038,6 +2038,12 @@
 "skip": true,
 "q": "not found"
 },
+"Eye": {
+"lat": 52.38434,
+"lon": 4.90081,
+"q": "name",
+"area": "Noord"
+},
 "Eye Filmmuseum": {
 "lat": 52.38434,
 "lon": 4.90081,
@@ -4046,6 +4052,10 @@
 "skip": true,
 "q": "not found"
 },
+"QueerHub": {
+"skip": true,
+"q": "not found"
+},
 "RADION": {
 "lat": 52.34574,
 "lon": 4.82551,
@@ -4605,6 +4615,10 @@
 "lon": 4.89247,
 "q": "name",
 "area": "Zuid"
+},
+"Stoom (aan boord van de Kapitein Anna)": {
+"skip": true,
+"q": "not found"
 },
 "Stopera (Amstel1)": {
 "lat": 52.36806,

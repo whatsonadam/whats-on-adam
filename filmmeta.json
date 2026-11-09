@@ -178,6 +178,24 @@
 "tried": "2026-11-02",
 "v": 4
 },
+"a little gray wolf will come": {
+"dr": "Zhanna Agalakova",
+"du": 90,
+"gn": [
+"Documentary"
+],
+"lg": [
+"en",
+"fr",
+"it"
+],
+"sy": "On the eve of the war in Ukraine, a Russian journalist from pro-Kremlin TV channel brings her rebellious and Westernized teenage daughter on a journey through Putin’s Russia.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-09",
+"v": 4,
+"yr": 2026
+},
 "a little gray wolf will come q a": {
 "tm5": true,
 "tmdb": true,
@@ -731,6 +749,23 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"amongst friends": {
+"dr": "Rob Weiss",
+"du": 88,
+"gn": [
+"Crime",
+"Drama"
+],
+"lg": [
+"en"
+],
+"sy": "Andy, Billy and Trevor are three friends living the life of privilege on Long Island. Out of boredom, the inseparable trio are drawn into the action of the of the gangster criminal world inhabited by Andy's…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-09",
+"v": 4,
+"yr": 1993
+},
 "amores perros": {
 "dr": "Alejandro G. Iñárritu",
 "du": 154,
@@ -951,6 +986,12 @@
 "v": 4,
 "yr": 1979
 },
+"artist talk charles burnett killer of sheep": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-09",
+"v": 4
+},
 "ascenseur pour l échafaud": {
 "dr": "Louis Malle",
 "du": 88,
@@ -1169,6 +1210,23 @@
 "tmdb": true,
 "tried": "2026-11-04",
 "v": 4
+},
+"behemoth": {
+"dr": "Tony Gilroy",
+"du": 124,
+"gn": [
+"Music",
+"Drama"
+],
+"lg": [
+"en"
+],
+"sy": "Gifted cellist Alex Serian returns home to Los Angeles after 20 years on the road. Music, which has been the constant, all-consuming river of his life, begins to carry Alex on an adventure that will change him…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-09",
+"v": 4,
+"yr": 2026
 },
 "being john malkovich": {
 "dr": "Spike Jonze",
@@ -1967,6 +2025,12 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-10-31",
+"v": 4
+},
+"cinemanita": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-09",
 "v": 4
 },
 "cinemanita fiber factory": {
@@ -3567,6 +3631,23 @@
 "v": 4,
 "yr": 2026
 },
+"ebenezer": {
+"dr": "Ti West",
+"du": 116,
+"gn": [
+"Fantasy",
+"Comedy"
+],
+"lg": [
+"en"
+],
+"sy": "An elderly miser embarks on a supernatural journey after visits from the ghost of his former business partner and the Spirits of Christmas Past, Present, and Yet to Come force him to confront his past and…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-09",
+"v": 4,
+"yr": 2026
+},
 "ebenezer a christmas carol": {
 "tm5": true,
 "tmdb": true,
@@ -4074,6 +4155,12 @@
 "v": 4,
 "yr": 2026
 },
+"everyday blues de films van charles burnett": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-09",
+"v": 4
+},
 "ex tempore": {
 "tm5": true,
 "tmdb": true,
@@ -4414,6 +4501,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1996
+},
+"fiber factory": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-09",
+"v": 4
 },
 "fiction science psycho": {
 "tm5": true,
@@ -5436,6 +5529,24 @@
 "v": 4,
 "yr": 2026
 },
+"hen": {
+"dr": "György Pálfi",
+"du": 96,
+"gn": [
+"Horror"
+],
+"lg": [
+"el",
+"en",
+"it"
+],
+"sy": "After a gruesome massacre, Dawid discovers a feral boy hidden in a chest on an isolated farm. Driven by duty, Dawid and his wife, Hanna, take the boy in. But Lukas is not an ordinary child. Though innocent, he…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-09",
+"v": 4,
+"yr": 2025
+},
 "here where the fire burns": {
 "dr": "Juan Manuel Sepulveda",
 "du": 97,
@@ -5929,6 +6040,12 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-10-28",
+"v": 4
+},
+"hyena scream club kid": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-09",
 "v": 4
 },
 "i built a rocket imagining your arrival 2026": {
@@ -10747,6 +10864,12 @@
 "tried": "2026-10-19",
 "v": 4
 },
+"preview fatherland": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-09",
+"v": 4
+},
 "preview queen at sea": {
 "tm5": true,
 "tmdb": true,
@@ -10757,6 +10880,12 @@
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4
+},
+"preview spinoza": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-09",
 "v": 4
 },
 "preview the only living pickpocket in new york": {
@@ -13184,6 +13313,25 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4,
+"yr": 1971
+},
+"the devils re release": {
+"dr": "Ken Russell",
+"du": 111,
+"gn": [
+"Drama",
+"History",
+"Horror"
+],
+"lg": [
+"en"
+],
+"rt": 7.5,
+"sy": "In 1634 France, charismatic Father Urbain Grandier becomes the target of sexually depraved Sister Jeanne's accusations of witchcraft, which corrupt officials of church and state are all too happy to…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-09",
 "v": 4,
 "yr": 1971
 },
@@ -15692,6 +15840,12 @@
 "tried": "2026-11-08",
 "v": 4,
 "yr": 2026
+},
+"we made this short film festival": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-09",
+"v": 4
 },
 "we refuse to be broken": {
 "tm5": true,
