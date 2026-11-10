@@ -299,7 +299,7 @@
 },
 "https://parallel.am/programme/riria": {
 "none": true,
-"chk": "2026-11-03"
+"chk": "2026-11-10"
 },
 "https://parallel.am/programme/rooted-x-striptopia": {
 "none": true,
@@ -386,6 +386,11 @@
 "eh": "07:00",
 "chk": "2026-10-18"
 },
+"https://radion.amsterdam/program/further-tribute-for-juan-atkins/": {
+"h": "15:30",
+"eh": "22:00",
+"chk": "2026-11-10"
+},
 "https://radion.amsterdam/program/god-said-give-em-drum-machines-documentary-screening/": {
 "h": "19:00",
 "eh": "21:30",
@@ -443,6 +448,11 @@
 "https://radion.amsterdam/program/vault-sessions-x-bassiani-wkndr/": {
 "none": true,
 "chk": "2026-11-05"
+},
+"https://radion.amsterdam/program/void-by-orphic/": {
+"h": "20:00",
+"eh": "00:00",
+"chk": "2026-11-10"
 },
 "https://radion.amsterdam/program/wolvenroedel/": {
 "h": "22:00",
@@ -920,7 +930,7 @@
 },
 "https://tolhuistuin.nl/en/events/het-mannengesprek-echte-mannen-praten": {
 "none": true,
-"chk": "2026-11-03"
+"chk": "2026-11-10"
 },
 "https://tolhuistuin.nl/en/events/het-mannengesprek-echte-mannen-praten?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
 "none": true,
@@ -1400,6 +1410,11 @@
 "h": "19:30",
 "eh": null,
 "chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/salon-good-trouble": {
+"h": "15:00",
+"eh": null,
+"chk": "2026-11-10"
 },
 "https://tolhuistuin.nl/en/events/sarah-julia-2": {
 "h": "19:30",
@@ -1881,7 +1896,7 @@
 },
 "https://tolhuistuin.nl/en/events/uitreiking-fip-2026": {
 "none": true,
-"chk": "2026-11-03"
+"chk": "2026-11-10"
 },
 "https://tolhuistuin.nl/en/events/westside-cowboy": {
 "h": "19:30",
@@ -2200,6 +2215,10 @@
 "https://www.cinetol.nl/events/mark-wonder": {
 "h": "20:00",
 "chk": "2026-10-11"
+},
+"https://www.cinetol.nl/events/melisin-bandosu-2": {
+"h": "20:30",
+"chk": "2026-11-10"
 },
 "https://www.cinetol.nl/events/mengelmoes-5": {
 "h": "19:00",
@@ -2558,6 +2577,23 @@
 }
 },
 "chk": "2026-10-20"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/concertgebouworkest-and-klaus-makela-beethovens-missa-solemnis": {
+"dates": {
+"2027-03-10": {
+"h": "20:15",
+"eh": "22:35"
+},
+"2027-03-12": {
+"h": "20:15",
+"eh": "22:35"
+},
+"2027-03-14": {
+"h": "14:15",
+"eh": "16:35"
+}
+},
+"chk": "2026-11-10"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/concertgebouworkest-kinderconcert-kleine-sheku-en-het-dierenorkest-4": {
 "dates": {
@@ -3053,6 +3089,15 @@
 },
 "chk": "2026-10-11"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/thomas-oliemans-cor-bakker-en-bert-van-den-brink-van-brel-tot-bennett": {
+"dates": {
+"2026-12-20": {
+"h": "14:15",
+"eh": "16:35"
+}
+},
+"chk": "2026-11-10"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/tuimelaar-6-18-maanden-frisse-oren": {
 "dates": {
 "2026-10-21": {
@@ -3404,6 +3449,15 @@
 }
 },
 "chk": "2026-10-11"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/cat-smits-company-achter-gesloten-deuren": {
+"dates": {
+"2027-01-27": {
+"h": "12:00",
+"eh": "21:15"
+}
+},
+"chk": "2026-11-10"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/cats-2026": {
 "dates": {

@@ -4266,6 +4266,12 @@
 "q": "name",
 "area": "Zuid"
 },
+"SMEG Showroom": {
+"lat": 52.36841,
+"lon": 4.86731,
+"q": "name",
+"area": "West"
+},
 "SPRMRKT": {
 "skip": true,
 "q": "not found"
@@ -5233,6 +5239,12 @@
 "q": "name",
 "area": "Noord"
 },
+"Torpedo Theater": {
+"lat": 52.37139,
+"lon": 4.89464,
+"q": "name",
+"area": "Centrum"
+},
 "Transit": {
 "lat": 52.38449,
 "lon": 4.92875,
@@ -5509,6 +5521,10 @@
 "q": "name",
 "area": "Centrum"
 },
+"WG": {
+"skip": true,
+"q": "not found"
+},
 "WIHH Art Gallery": {
 "lat": 52.38237,
 "lon": 4.85528,
@@ -5642,6 +5658,12 @@
 "lon": 4.85161,
 "q": "name",
 "area": "West"
+},
+"Wijkcentrum de Bolder": {
+"lat": 52.35643,
+"lon": 4.89489,
+"q": "name",
+"area": "Zuid"
 },
 "Wijnhuis.Amsterdam": {
 "lat": 52.35171,
@@ -5890,5 +5912,11 @@
 "lon": 4.88548,
 "q": "name",
 "area": "Centrum"
+},
+"the Kromhouthal": {
+"lat": 52.3833,
+"lon": 4.92049,
+"q": "name",
+"area": "Noord"
 }
 }

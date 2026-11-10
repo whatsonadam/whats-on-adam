@@ -202,6 +202,21 @@
 "tried": "2026-11-02",
 "v": 4
 },
+"a minute of silence": {
+"dr": "Sergey Miroshnichenko",
+"du": 10,
+"gn": [
+"Documentary"
+],
+"lg": [
+"ru"
+],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4,
+"yr": 1995
+},
 "a modern roma fairytale": {
 "dr": "Raluca Lupaşcu",
 "du": 80,
@@ -630,6 +645,25 @@
 "v": 4,
 "yr": 2026
 },
+"alter ego": {
+"dr": "Mohammad Ali Atassi",
+"du": 72,
+"gn": [
+"Comedy"
+],
+"lg": [
+"ar",
+"es",
+"fr"
+],
+"rt": 6.3,
+"sy": "A quiet, middle-aged man spirals into obsession and paranoia when a charismatic look-alike moves in next door, featuring the exact same face—and a full head of hair.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4,
+"yr": 2026
+},
 "always lalisa": {
 "dr": "Sue Kim",
 "du": 98,
@@ -709,7 +743,7 @@
 "amelie film soep": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-27",
+"tried": "2026-11-10",
 "v": 4
 },
 "american beauty": {
@@ -1011,6 +1045,25 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1958
+},
+"at night": {
+"dr": "Beatrice Gibson",
+"du": 88,
+"gn": [
+"Drama",
+"Thriller"
+],
+"lg": [
+"bm",
+"bo",
+"en"
+],
+"sy": "The careful order of Gio's nightly running group is disrupted when newcomer Santi challenges him to a race.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4,
+"yr": 2026
 },
 "atomic cafe cinema": {
 "tm4": true,
@@ -1524,6 +1577,48 @@
 "tried": "2026-10-28",
 "v": 4
 },
+"bsff black soil short visionairies": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
+"bsff blknws terms conditions": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
+"bsff my father s sadow": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
+"bsff peter tosh town origin of a rebel wailer beach inna bondage": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
+"bsff peven everett voice of a generation": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
+"bsff the great north": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
+"bsff the politics of belonging oema foe sranan strijd op 16mm": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
 "buddy": {
 "dr": "Heddy Honigmann",
 "du": 86,
@@ -1731,6 +1826,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1991
+},
+"capturing time": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
 },
 "caravaggio 1986 mediaevalia": {
 "tm5": true,
@@ -3464,6 +3565,22 @@
 "v": 4,
 "yr": 2026
 },
+"dreams of the wild oaks": {
+"dr": "Marjan Khosravi",
+"du": 79,
+"gn": [
+"Documentary"
+],
+"lg": [
+"fa"
+],
+"sy": "A race against time to save her freedom: Samaneh, a young Bakhtiari girl in Iran, must find a rare and endangered bird to escape a forced marriage and a tradition of Cease Blood Sacrifice, in a journey that…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4,
+"yr": 2026
+},
 "drishyam the conclusion": {
 "dr": "Abhishek Pathak",
 "du": 148,
@@ -4224,7 +4341,7 @@
 "expat meetup minotaur": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-27",
+"tried": "2026-11-10",
 "v": 4
 },
 "eye art film prize": {
@@ -4379,6 +4496,24 @@
 "tmdb": true,
 "tried": "2026-10-28",
 "v": 4
+},
+"father mother sister brother": {
+"dr": "Jim Jarmusch",
+"du": 110,
+"gn": [
+"Drama"
+],
+"lg": [
+"en"
+],
+"qr": 1,
+"rt": 6.4,
+"sy": "Estranged siblings reunite after years apart, forced to confront unresolved tensions and reevaluate their strained relationships with their emotionally distant parents.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4,
+"yr": 2025
 },
 "father s house": {
 "dr": "Eva Mulvad, Andreas Koefoed",
@@ -4563,6 +4698,12 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"film food back to the future incl burger": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
 "film food back to the future incl hamburger": {
 "tm5": true,
 "tmdb": true,
@@ -4573,6 +4714,12 @@
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4
+},
+"film food gremlins incl burger": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
 "v": 4
 },
 "film food gremlins incl hamburger": {
@@ -5397,6 +5544,12 @@
 "v": 4,
 "yr": 2026
 },
+"hanabi": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
 "hanuman ansh": {
 "dr": "Vishal Chaturvedi",
 "du": 150,
@@ -5854,6 +6007,22 @@
 "v": 4,
 "yr": 2019
 },
+"hope is a word": {
+"dr": "Maria Galliani Dyrvik",
+"du": 82,
+"gn": [
+"Documentary"
+],
+"lg": [
+"en"
+],
+"sy": "In Nigeria's Niger Delta, where oil extraction has poisoned the land for decades, poet and activist Nnimmo Bassey nurtures a new generation of writers to fight back.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4,
+"yr": 2026
+},
 "hot spot": {
 "dr": "Agnieszka Smoczyńska",
 "du": 101,
@@ -6189,6 +6358,22 @@
 "tmdb": true,
 "tried": "2026-11-09",
 "v": 4
+},
+"if luck will come": {
+"dr": "Camille Bildsøe",
+"du": 85,
+"gn": [
+"Documentary"
+],
+"lg": [
+"ps"
+],
+"sy": "Childhood ends at age 14 for Afghan children under Taliban rule. In a countdown from age 12 to 14, Zahra and Zalgai insist on playing as silence and duty close in.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4,
+"yr": 2026
 },
 "if pigeons turned to gold": {
 "dr": "Pepa Lubojacki",
@@ -7508,6 +7693,86 @@
 "v": 4,
 "yr": 2010
 },
+"into the jaws of the ogre": {
+"dr": "Mahsa Karampour",
+"du": 86,
+"gn": [
+"Documentary"
+],
+"lg": [
+"fr"
+],
+"sy": "I can’t quite grasp the adventurous life of my brother Siavash, so far from my own. While I have just become French and he is about to become American, far from our native Iran, we are searching for common…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4,
+"yr": 2026
+},
+"iqmf animol": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
+"iqmf dagen met blue i don t want to be just a memory": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
+"iqmf drunken noodles": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
+"iqmf movement song": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
+"iqmf my house is your house dance workshop by kim tawjoeram": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
+"iqmf prosecution": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
+"iqmf queer shorts": {
+"dr": "",
+"du": 94,
+"lg": [],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4,
+"yr": 2025
+},
+"iqmf special short selection": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
+"iqmf ten s across the boarders": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
+"iqmf two mountains weighing down my chest": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
 "it s a wonderful life": {
 "dr": "Frank Capra",
 "du": 130,
@@ -7544,6 +7809,22 @@
 "tmdb": true,
 "tried": "2026-10-25",
 "v": 4
+},
+"jenin the nakba between us": {
+"dr": "Serene Husni",
+"du": 89,
+"gn": [
+"Documentary"
+],
+"lg": [
+"ar"
+],
+"sy": "Serene Husni, a Palestinian filmmaker living in the diaspora, returns to her parents' hometown in the occupied West Bank. Conversations with residents reveal the continuing impact of the Nakba, the mass…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4,
+"yr": 2026
 },
 "jeremy shaw quantification trilogy": {
 "dr": "Jeremy Shaw",
@@ -7611,6 +7892,22 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1991
+},
+"just look up": {
+"dr": "Emma Wall, Betsy Hershey",
+"du": 94,
+"gn": [
+"Documentary"
+],
+"lg": [
+"en"
+],
+"sy": "A defiant young visionary, part stand-up comic, part young Bob Dylan, part brilliant mind, leads a disruptive climate movement reinventing protest, channeling civil disobedience, and demanding a livable future.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4,
+"yr": 2026
 },
 "juste une illusion": {
 "dr": "Olivier Nakache, Eric Toledano",
@@ -8022,6 +8319,22 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"la bonga": {
+"dr": "Sebastián Pinzón, María Canela Reyes",
+"du": 77,
+"gn": [
+"Documentary"
+],
+"lg": [
+"es"
+],
+"sy": "Decades after they were forced to flee their village in the Colombian jungle, a community makes a poetically rendered return home.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4,
+"yr": 2023
 },
 "la chaleur tapis rouge 2026": {
 "tm4": true,
@@ -8597,6 +8910,16 @@
 "tmdb": true,
 "tried": "2026-10-14",
 "v": 4
+},
+"li ma presents new art on screen": {
+"dr": "Diversen",
+"du": 120,
+"lg": [],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4,
+"yr": 2024
 },
 "life the seasons nature": {
 "tm5": true,
@@ -9654,6 +9977,39 @@
 "v": 4,
 "yr": 1985
 },
+"my own personal gulag": {
+"dr": "Lina Gorbaneva",
+"du": 84,
+"gn": [
+"Documentary"
+],
+"lg": [
+"ru"
+],
+"sy": "An essay film exploring the gap between the propaganda and reality of Soviet labor camps. Composed entirely of archival footage that often evokes a reality all its own, it juxtaposes conflicting accounts from…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4,
+"yr": 2026
+},
+"my undesirable friends part ii exile": {
+"dr": "Julia Loktev",
+"du": 355,
+"gn": [
+"Documentary"
+],
+"lg": [
+"en",
+"ru"
+],
+"sy": "A group of Russian independent journalists flee the country and navigate life in exile after the invasion of Ukraine, focusing on their dispersed lives and ongoing struggle for truth across different nations.…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4,
+"yr": 2026
+},
 "mysteries of a communist cave by lytle shaw": {
 "tm4": true,
 "tmdb": true,
@@ -10069,6 +10425,22 @@
 "v": 4,
 "yr": 1959
 },
+"notes from a besieged city": {
+"dr": "Mateusz Mularski",
+"du": 76,
+"gn": [
+"Documentary"
+],
+"lg": [
+"uk"
+],
+"sy": "Kherson was occupied by the Russians for almost nine months. In November 2022, Ukrainian forces liberated the city, yet it remains under fire. It is separated from the enemy only by the Dnieper River – a…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4,
+"yr": 2026
+},
 "nothing but a man": {
 "dr": "Michael Roemer",
 "du": 95,
@@ -10361,6 +10733,25 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-11-06",
+"v": 4,
+"yr": 2017
+},
+"paddington 2 ov": {
+"dr": "Paul King",
+"du": 103,
+"gn": [
+"Adventure",
+"Comedy",
+"Family"
+],
+"lg": [
+"en"
+],
+"rt": 7.5,
+"sy": "Paddington, now happily settled with the Browns, picks up a series of odd jobs to buy the perfect present for his Aunt Lucy, but it is stolen.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
 "v": 4,
 "yr": 2017
 },
@@ -11139,10 +11530,16 @@
 "yr": 2001
 },
 "ramayana": {
+"dr": "Nitesh Tiwari",
+"du": 194,
+"lg": [
+"hi"
+],
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-27",
-"v": 4
+"tried": "2026-11-10",
+"v": 4,
+"yr": 2026
 },
 "rammstein live in mexico city": {
 "dr": "Paul Dugdale",
@@ -11332,7 +11729,7 @@
 "rialto for short seizoen 8 de finale": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-27",
+"tried": "2026-11-10",
 "v": 4
 },
 "right now wrong then": {
@@ -11599,6 +11996,22 @@
 "tmdb": true,
 "tried": "2026-10-28",
 "v": 4
+},
+"scenes from departure": {
+"dr": "Chan Kam-hei",
+"du": 82,
+"gn": [
+"Documentary"
+],
+"lg": [
+"cn"
+],
+"sy": "During the turmoil of 2019 Hong Kong, before pursuing his studies in Taiwan, the director was abruptly frozen in the present by a message from his father. As Hong Kong entered a pandemic lockdown, the…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4,
+"yr": 2026
 },
 "science fiction fantasy marxism with jelle klaas": {
 "tm4": true,
@@ -11916,6 +12329,12 @@
 "tried": "2026-11-08",
 "v": 4
 },
+"shorts land of the free": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
 "shorts mythic metamorphoses": {
 "tm5": true,
 "tmdb": true,
@@ -12143,13 +12562,13 @@
 "soirée ciné amelie 20th anniversary": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-27",
+"tried": "2026-11-10",
 "v": 4
 },
 "soirée ciné la vie d une femme": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-27",
+"tried": "2026-11-10",
 "v": 4
 },
 "somos el futuro nowruz make a kid happy niños del futuro": {
@@ -13025,6 +13444,24 @@
 "v": 4,
 "yr": 2026
 },
+"the cat in the hat ov": {
+"dr": "Erica Rivinoja, Alessandro Carloni",
+"du": 108,
+"gn": [
+"Animation",
+"Fantasy",
+"Adventure"
+],
+"lg": [
+"en"
+],
+"sy": "Assigned his toughest mission yet, the Cat must cheer up siblings Gabby and Sebastian as they adjust to life in a new town. Known for pushing boundaries, this agent of chaos must prove himself or risk losing…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4,
+"yr": 2026
+},
 "the christophers": {
 "dr": "Steven Soderbergh",
 "du": 100,
@@ -13239,6 +13676,24 @@
 "tmdb": true,
 "tried": "2026-10-14",
 "v": 4
+},
+"the debut": {
+"dr": "Jesse Eisenberg",
+"du": 106,
+"gn": [
+"Music",
+"Comedy",
+"Drama"
+],
+"lg": [
+"en"
+],
+"sy": "When Mona Friedman is cast in a bit part at a small community theater, she transforms from a shy, unassuming housewife into a zealous method actor willing to do anything to protect the artistic integrity of…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4,
+"yr": 2026
 },
 "the desert of the real": {
 "dr": "Luuk Bouwman",
@@ -13747,6 +14202,25 @@
 "v": 4,
 "yr": 2013
 },
+"the hunger games mockingjay part 1": {
+"dr": "Francis Lawrence",
+"du": 123,
+"gn": [
+"Science Fiction",
+"Adventure",
+"Thriller"
+],
+"lg": [
+"en"
+],
+"rt": 6.8,
+"sy": "After surviving the Quarter Quell, Katniss finds herself in the hidden stronghold of District 13, where the rebellion against the Capitol is gaining momentum. Struggling with the weight of becoming the symbol…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4,
+"yr": 2014
+},
 "the hunger games sunrise on the reaping": {
 "dr": "Francis Lawrence",
 "du": 158,
@@ -13795,6 +14269,23 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-10-28",
+"v": 4,
+"yr": 2026
+},
+"the illusion of an everlasting summer": {
+"dr": "Alessandra Sanguinetti",
+"du": 94,
+"gn": [
+"Drama",
+"Documentary"
+],
+"lg": [
+"es"
+],
+"sy": "Filmed over 25 years, acclaimed photographer Alessandra Sanguinetti traces the lives of two inseparable cousins in the Argentine farmlands, beginning as a childhood game of fantasy and evolving into a profound…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
 "v": 4,
 "yr": 2026
 },
@@ -14369,6 +14860,23 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1965
+},
+"the siege of paradise": {
+"dr": "Gar O'Rourke",
+"du": 86,
+"gn": [
+"Documentary"
+],
+"lg": [
+"en",
+"it"
+],
+"sy": "In Cinque Terre on Italy’s northern Riviera, fewer than 3,000 locals endure over four million tourists each summer. Across one chaotic season, six very different lives play out in parallel, revealing a sharply…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4,
+"yr": 2026
 },
 "the social reckoning": {
 "dr": "Aaron Sorkin",
@@ -15928,6 +16436,22 @@
 "v": 4,
 "yr": 2014
 },
+"where the sun is born": {
+"dr": "Laura Bermúdez, Jorge García",
+"du": 74,
+"gn": [
+"Documentary"
+],
+"lg": [
+"es"
+],
+"sy": "Immersive and poetic film in which a dancer from Honduras leaves the city to return to the Afro-Caribbean Garifuna community of his youth, searching for his past, cultural identity, healing rituals, and a…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4,
+"yr": 2026
+},
 "whisper of the heart 1995": {
 "dr": "Yoshifumi Kondo",
 "du": 111,
@@ -15993,6 +16517,22 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-11-09",
+"v": 4,
+"yr": 2026
+},
+"who moves america": {
+"dr": "Yael Bridge",
+"du": 87,
+"gn": [
+"Documentary"
+],
+"lg": [
+"en"
+],
+"sy": "Across America, UPS workers come together to demand better working conditions as they go about criss-crossing the world, delivering packages and connecting lives.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
 "v": 4,
 "yr": 2026
 },
@@ -16165,6 +16705,12 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-11-08",
+"v": 4
+},
+"yellow fever with kiriko mechanicus": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
 "v": 4
 },
 "yellow letters": {
