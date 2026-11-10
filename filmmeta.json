@@ -74,6 +74,16 @@
 "tried": "2026-10-28",
 "v": 4
 },
+"5 broken cameras 2011": {
+"dr": "Emad Burnat, Guy Davidi",
+"du": 90,
+"lg": [],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4,
+"yr": 2011
+},
 "5 decennia de appel filmvertoning paneldiscussie": {
 "tm5": true,
 "tmdb": true,
@@ -417,6 +427,78 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"aff 2026 5 broken cameras": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
+"aff 2026 anarchist film festival amsterdam 2026": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
+"aff 2026 barber westchester": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
+"aff 2026 castration movie anthology ⅗ year of the hyaena": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
+"aff 2026 dandy dust": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
+"aff 2026 love and revolution l amour et la révolution": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
+"aff 2026 luciano": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
+"aff 2026 tonratun": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
+"aff 2026 unrest unrueh": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
+"aff 2026 up against the wall motherfuckers breaking the spell": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
+"aff 2026 where russia ends a small digression": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
+"aff 2026 xala": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
 },
 "africadelic memory of princess mumbi special screening": {
 "tm5": true,
@@ -1182,6 +1264,24 @@
 "v": 4,
 "yr": 2026
 },
+"barber westchester 2022": {
+"dr": "Jonni Pepper-GoLions",
+"du": 90,
+"gn": [
+"Animation",
+"Comedy",
+"Music"
+],
+"lg": [
+"en"
+],
+"sy": "Getting an internship at NASA just to find out that space is fake on the first day, Barber has to navigate their family life, a cult preacher dad and complicated friendships in search of meaning and belonging.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4,
+"yr": 2022
+},
 "bardi": {
 "tm5": true,
 "tmdb": true,
@@ -1440,6 +1540,12 @@
 "tried": "2026-10-28",
 "v": 4,
 "yr": 2026
+},
+"boom chicago special the debut": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
 },
 "boyhood": {
 "dr": "Richard Linklater",
@@ -1860,6 +1966,12 @@
 "tried": "2026-11-05",
 "v": 4,
 "yr": 2026
+},
+"castration movie anthology ⅗ year of the hyaena 2026": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
 },
 "cat people": {
 "dr": "Paul Schrader",
@@ -2981,6 +3093,24 @@
 "tried": "2026-11-06",
 "v": 4
 },
+"dandy dust 1998": {
+"dr": "A. Hans Scheirl",
+"du": 94,
+"gn": [
+"Science Fiction",
+"Animation"
+],
+"lg": [
+"en"
+],
+"qr": 1,
+"sy": "Dust, a split-personality cyborg of fluid gender, zooms through time and space in search of their own memories and a sense of understanding. They travel from the Planet of White Dust where war is constant, to…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4,
+"yr": 1998
+},
 "dao": {
 "dr": "Alain Gomis",
 "du": 192,
@@ -3724,6 +3854,22 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"earth s greatest enemy film fridays krakenburg": {
+"dr": "Abby Martin, Mike Prysner",
+"du": 120,
+"gn": [
+"Documentary"
+],
+"lg": [
+"en"
+],
+"sy": "In Abby Martin's second feature documentary, Earth’s Greatest Enemy reveals a hidden truth behind the climate crisis: the role of the U.S. military as the world’s largest institutional polluter. Drawing on…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4,
+"yr": 2025
 },
 "eastern neighbours film festival goes on tour": {
 "tm4": true,
@@ -5831,6 +5977,12 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-10-28",
+"v": 4
+},
+"hoe lees ik een film save the date voor januari": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
 "v": 4
 },
 "hoe lees ik een film the beloved": {
@@ -9148,6 +9300,22 @@
 "v": 4,
 "yr": 2025
 },
+"love and revolution 2018": {
+"dr": "Serkan Acar",
+"du": 100,
+"gn": [
+"Drama"
+],
+"lg": [
+"tr"
+],
+"sy": "Love and Revolution is a story that puts the years of youth at its center. These are the years in which humankind feels the sense of belonging, the urge to take root in life in the strongest way. This is a…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4,
+"yr": 2011
+},
 "loves of a blonde 1965": {
 "dr": "Milos Forman",
 "du": 90,
@@ -9164,6 +9332,23 @@
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4,
+"yr": 1965
+},
+"luciano 2008": {
+"dr": "Claudio Guerín Hill",
+"du": 39,
+"gn": [
+"Drama",
+"Thriller"
+],
+"lg": [
+"es"
+],
+"sy": "A sensationalist television show unravels the sordid story of Luciano Fernández and analyzes the possible motives that led him to murder a child. (Inspired by a real event that occurred in the forest of…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
 "v": 4,
 "yr": 1965
 },
@@ -9445,6 +9630,25 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"max mon amour": {
+"dr": "Nagisa Ōshima",
+"du": 97,
+"gn": [
+"Comedy",
+"Romance"
+],
+"lg": [
+"fr",
+"en"
+],
+"rt": 5.8,
+"sy": "The wife of a British diplomat in Paris takes a chimpanzee as her lover.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4,
+"yr": 1986
 },
 "maya deren s sink the female closet": {
 "dr": "Barbara Hammer",
@@ -10900,6 +11104,24 @@
 "v": 4,
 "yr": 2024
 },
+"paper tiger": {
+"dr": "James Gray",
+"du": 115,
+"gn": [
+"Crime",
+"Drama",
+"Thriller"
+],
+"lg": [
+"en"
+],
+"sy": "Two brothers become entangled in a scheme that turns out to be too good to be true. As they try to navigate their way through the dangerous world of the Russian mafia, family bonds begin to fray with…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4,
+"yr": 2026
+},
 "paradies glaube": {
 "dr": "Ulrich Seidl",
 "du": 113,
@@ -11259,6 +11481,18 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-11-09",
+"v": 4
+},
+"preview minotaur": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
+"preview paper tiger": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
 "v": 4
 },
 "preview queen at sea": {
@@ -14599,6 +14833,25 @@
 "v": 4,
 "yr": 1993
 },
+"the ninth configuration": {
+"dr": "William Peter Blatty",
+"du": 118,
+"gn": [
+"Drama",
+"Comedy",
+"Horror"
+],
+"lg": [
+"en"
+],
+"rt": 6.4,
+"sy": "Army psychiatrist Colonel Kane is posted to a secluded gothic castle housing a military asylum. With a reserved calm, he indulges the inmates' delusions, allowing them free rein to express their fantasies.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4,
+"yr": 1980
+},
 "the odyssey": {
 "dr": "Christopher Nolan",
 "du": 173,
@@ -15592,6 +15845,19 @@
 "v": 4,
 "yr": 2026
 },
+"tonratun 2022": {
+"dr": "Inna Mkhitaryan",
+"du": 84,
+"gn": [
+"Documentary"
+],
+"sy": "In an Armenian village, five women - who are daughters, mothers and grandmothers - from several generations debate together about life and war while they prepare lavash the Armenian traditional bread.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4,
+"yr": 2022
+},
 "totally wired le guess who x antipode occii girls to the front zalzala": {
 "tm5": true,
 "tmdb": true,
@@ -16024,6 +16290,12 @@
 "v": 4,
 "yr": 2012
 },
+"unrest unrueh 2022": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
 "uomini anni vita": {
 "dr": "Yervant Gianikian, Angela Ricci Lucchi",
 "du": 70,
@@ -16039,6 +16311,12 @@
 "tried": "2026-10-30",
 "v": 4,
 "yr": 1990
+},
+"up against the wall motherfuckers 2013 breaking the spell 1999": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
 },
 "up in the air": {
 "dr": "Jason Reitman",
@@ -16436,6 +16714,12 @@
 "v": 4,
 "yr": 2014
 },
+"where russia ends 2024 a small digression 2025": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4
+},
 "where the sun is born": {
 "dr": "Laura Bermúdez, Jorge García",
 "du": 74,
@@ -16700,6 +16984,24 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1963
+},
+"xala 1975": {
+"dr": "Ousmane Sembène",
+"du": 121,
+"gn": [
+"Comedy"
+],
+"lg": [
+"fr",
+"wo"
+],
+"rt": 6.8,
+"sy": "A rich businessman in Senegal is cursed with crippling erectile dysfunction upon the day of his marriage to his third wife; the only cure is brutal public humiliation.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-10",
+"v": 4,
+"yr": 1975
 },
 "xiangzidian village the stage": {
 "tm5": true,

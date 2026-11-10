@@ -1329,6 +1329,12 @@
 "q": "name",
 "area": "Noord"
 },
+"Club Annie": {
+"lat": 52.40137,
+"lon": 4.7382,
+"q": "name",
+"area": "West"
+},
 "Club Baggerbeest": {
 "lat": 52.37315,
 "lon": 4.96046,
@@ -1496,6 +1502,12 @@
 "lon": 4.89484,
 "q": "name",
 "area": "Noord"
+},
+"Crowne Plaza Amsterdam South": {
+"lat": 52.33587,
+"lon": 4.87459,
+"q": "name",
+"area": "Zuid"
 },
 "Crowne Plaza Amsterdam Zuid": {
 "lat": 52.33587,
@@ -2924,6 +2936,12 @@
 "q": "name",
 "area": "Weesp"
 },
+"Krakenburg Laan van Kronenburg 12, Amstelveen": {
+"lat": 52.31776,
+"lon": 4.87849,
+"q": "name",
+"area": null
+},
 "Kriterion": {
 "lat": 52.36249,
 "lon": 4.91067,
@@ -2949,6 +2967,12 @@
 "Kunstuitleen Galerie Beeldend Gesproken": {
 "skip": true,
 "q": "not found"
+},
+"Kwartier": {
+"lat": 52.34608,
+"lon": 4.85477,
+"q": "name",
+"area": "Zuid"
 },
 "Kyas Art Salon": {
 "lat": 52.37021,
@@ -5262,6 +5286,10 @@
 "lon": 4.8796,
 "q": "name",
 "area": "Centrum"
+},
+"Triple C": {
+"skip": true,
+"q": "not found"
 },
 "Trippenhuis": {
 "lat": 52.37122,

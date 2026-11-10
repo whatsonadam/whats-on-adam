@@ -149,6 +149,11 @@
 "eh": "23:00",
 "chk": "2026-11-07"
 },
+"https://hipsy.nl/event/255394-ecstatic-journey-samaya": {
+"h": "18:00",
+"eh": "23:00",
+"chk": "2026-11-10"
+},
 "https://hipsy.nl/event/255395-morning-ecstatic-dance-potluck-yona": {
 "h": "10:00",
 "eh": "15:00",
@@ -2083,6 +2088,10 @@
 "https://www.cinetol.nl/events/camille-jansen": {
 "h": "20:00",
 "chk": "2026-10-11"
+},
+"https://www.cinetol.nl/events/charli-lucas": {
+"h": "20:30",
+"chk": "2026-11-10"
 },
 "https://www.cinetol.nl/events/corecore": {
 "h": "20:00",
