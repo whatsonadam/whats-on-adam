@@ -71,7 +71,7 @@
 "3x3 eyes 1991": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "5 broken cameras 2011": {
@@ -244,7 +244,7 @@
 "a night at the mortuary": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "a night of knowing nothing": {
@@ -1031,7 +1031,7 @@
 "tm4": true,
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "anomalisa 2015 strings of imagination": {
@@ -1156,7 +1156,7 @@
 "austrian night": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "avengers endgame": {
@@ -1285,7 +1285,7 @@
 "bardi": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "beach inna bondage the fight for jamaica s coastline": {
@@ -1765,7 +1765,7 @@
 "tm4": true,
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "bush mama": {
@@ -1954,7 +1954,7 @@
 "carmen": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "carnaval": {
@@ -3269,7 +3269,7 @@
 "tm4": true,
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "de manager": {
@@ -3307,7 +3307,7 @@
 "de notenkraker": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "de roode looper het nieuwe rijksmuseum de film": {
@@ -3488,6 +3488,22 @@
 "tmdb": true,
 "tried": "2026-11-05",
 "v": 4
+},
+"djeliya memory of mandingo": {
+"dr": "Boubacar Sangaré",
+"du": 117,
+"gn": [
+"Documentary"
+],
+"lg": [
+"bm"
+],
+"sy": "Happy are those who, like Sekou, have had a great journey. A storyteller like his parents, he perfects his apprenticeship on a pilmigrage through West Africa before returning home. The journey puts his…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-11",
+"v": 4,
+"yr": 2026
 },
 "do no harm": {
 "dr": "Eron Sheean",
@@ -3937,7 +3953,7 @@
 "edward said between worlds talk hosted by oneworld": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "een nieuwe vriend voor dikkie dik": {
@@ -4493,7 +4509,7 @@
 "eye art film prize": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "eyes wide shut": {
@@ -4883,7 +4899,7 @@
 "film food tampopo incl ramen": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "film funk 2026": {
@@ -4895,7 +4911,7 @@
 "film lecture the mysteries of donnie darko": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "film lecture time after time over herhaling in films en andere verhalen": {
@@ -4950,7 +4966,7 @@
 "filmvertoning het atelier": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "filmvertoning verlies niet de moed": {
@@ -5020,7 +5036,7 @@
 "flamenco sketches": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "flaming ears": {
@@ -5140,6 +5156,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1994
+},
+"framer framed noord trip to idfa the price of the sun": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-11",
+"v": 4
 },
 "franz": {
 "dr": "Agnieszka Holland",
@@ -5573,7 +5595,7 @@
 "goodbye lenin": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "goundafa the cursed song": {
@@ -5645,7 +5667,7 @@
 "götterdämmerung": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "hadoota": {
@@ -5891,7 +5913,7 @@
 "tm4": true,
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "het vergeten eiland": {
@@ -5994,7 +6016,7 @@
 "hoe lees ik film lidewijde paris": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "hoff animation a new look": {
@@ -6282,7 +6304,7 @@
 "humans of film festival": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "humans of film festival i built a rocket imagining your arrival 2026": {
@@ -6360,7 +6382,7 @@
 "hunger games sunrise on the reaping": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "hyena scream club kid": {
@@ -6475,6 +6497,12 @@
 "v": 4,
 "yr": 2013
 },
+"idfa 2026": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-11",
+"v": 4
+},
 "idfa baby jackfruit baby guava": {
 "tm5": true,
 "tmdb": true,
@@ -6490,13 +6518,13 @@
 "idfa international documentary film festival amsterdam": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "idfa junior kijk wijzer": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "idfa last movies": {
@@ -7622,7 +7650,7 @@
 "improvisatie theater de concurrent speelt": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "imroz da bahar": {
@@ -7634,13 +7662,19 @@
 "in person ulrich seidl": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
+"v": 4
+},
+"in search of the grey bird with green stripes the brush in your hand": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-11",
 "v": 4
 },
 "in the company of men the first world festival of negro arts": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "in the mood for love 4k restoration": {
@@ -8045,6 +8079,12 @@
 "v": 4,
 "yr": 1991
 },
+"juf braaksel en het meesterbrein": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-11",
+"v": 4
+},
 "just look up": {
 "dr": "Emma Wall, Betsy Hershey",
 "du": 94,
@@ -8113,7 +8153,7 @@
 "tm4": true,
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "kain nagesprek": {
@@ -8747,6 +8787,25 @@
 "v": 4,
 "yr": 2026
 },
+"labyrinth sing along": {
+"dr": "Jim Henson",
+"du": 101,
+"gn": [
+"Adventure",
+"Family",
+"Fantasy"
+],
+"lg": [
+"en"
+],
+"rt": 7.3,
+"sy": "Frustrated with babysitting on yet another weekend night, Sarah, a teenager with an active imagination, summons the Goblins to take her baby stepbrother away. When little Toby actually disappears, Sarah must…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-11",
+"v": 4,
+"yr": 1986
+},
 "ladri di saponette": {
 "dr": "Maurizio Nichetti",
 "du": 90,
@@ -9076,7 +9135,7 @@
 "life the seasons nature": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "light pillar": {
@@ -9372,10 +9431,14 @@
 "yr": 2026
 },
 "ma am tere": {
+"dr": "Paul Barreto",
+"du": 45,
+"lg": [],
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
-"v": 4
+"tried": "2026-11-11",
+"v": 4,
+"yr": 2024
 },
 "maak je eigen flipboek daar zit muziek in": {
 "tm5": true,
@@ -9386,7 +9449,7 @@
 "maak je eigen flipboek magische dromen": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "maak je eigen flipboek technische snufjes": {
@@ -10149,7 +10212,7 @@
 "mtm on tour molly vs the machines": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "mtm on tour sentient": {
@@ -10886,7 +10949,7 @@
 "tm4": true,
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "out of sight": {
@@ -11608,10 +11671,16 @@
 "yr": 2001
 },
 "punkie": {
+"dr": "Audrey Olsen",
+"du": 74,
+"lg": [
+"en"
+],
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
-"v": 4
+"tried": "2026-11-11",
+"v": 4,
+"yr": 2026
 },
 "purple rain sing along": {
 "dr": "Albert Magnoli",
@@ -12009,6 +12078,22 @@
 "v": 4,
 "yr": 2022
 },
+"rivers of memory": {
+"dr": "Shishir Jha",
+"du": 72,
+"gn": [
+"Documentary"
+],
+"lg": [
+"or"
+],
+"sy": "Along the coast of Odisha, India, the sea is slowly swallowing entire villages. Once-fertile land is turning into barren plains, and an older generation is being left behind, with the memories of the past.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-11",
+"v": 4,
+"yr": 2026
+},
 "rockers 1978": {
 "dr": "Ted Bafaloukos",
 "du": 100,
@@ -12228,7 +12313,7 @@
 "sawyer avenue sunday afternoon no man s air": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "scenes from departure": {
@@ -12353,7 +12438,7 @@
 "sense sensibility 1995": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "sentient": {
@@ -12506,14 +12591,14 @@
 "tm4": true,
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "shaun het schaap het beest van de boerderij": {
 "tm4": true,
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "she was not alone": {
@@ -12536,7 +12621,7 @@
 "tm4": true,
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "shorts a house of memories": {
@@ -12548,13 +12633,13 @@
 "shorts acts of counter erasure": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "shorts cosmologies": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "shorts fencing off": {
@@ -12572,7 +12657,7 @@
 "shorts mythic metamorphoses": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "shorts restless images": {
@@ -12602,7 +12687,7 @@
 "shorts shrouded in silence": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "shorts tatiana huezo retrospective": {
@@ -12614,7 +12699,7 @@
 "shorts to the end": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "si tu penses bien tapis rouge 2026": {
@@ -12770,6 +12855,23 @@
 "v": 4,
 "yr": 1999
 },
+"small expectations": {
+"dr": "Alexandru Solomon",
+"du": 118,
+"gn": [
+"Documentary"
+],
+"lg": [
+"ro",
+"en"
+],
+"sy": "This deep dive into Romania's chaotic 2025 elections echoes global patterns of democratic erosion and the growth of fascist movements—with social media fueling the frenzy.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-11",
+"v": 4,
+"yr": 2026
+},
 "small talk": {
 "dr": "Hui-Chen Huang",
 "du": 89,
@@ -12866,7 +12968,7 @@
 "spaces of exception post film discussion": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "sparta": {
@@ -13002,6 +13104,22 @@
 "tried": "2026-11-09",
 "v": 4,
 "yr": 2026
+},
+"straight to video presents white fire 1984": {
+"dr": "Corey Crumpacker",
+"du": 33,
+"gn": [
+"Drama"
+],
+"lg": [
+"en"
+],
+"sy": "The true story of a young man's battle with bone cancer and his family's fight to carry him through. Written and Directed by the older brother of the story's main character, this biographical account offers an…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-11",
+"v": 4,
+"yr": 2021
 },
 "strange days": {
 "dr": "Kathryn Bigelow",
@@ -13240,7 +13358,7 @@
 "tm4": true,
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "tempestad": {
@@ -13599,6 +13717,22 @@
 "v": 4,
 "yr": 1972
 },
+"the blood of the covenant": {
+"dr": "Fábio Silva",
+"du": 64,
+"gn": [
+"Documentary"
+],
+"lg": [
+"pt"
+],
+"sy": "A filmmaker with Cape Verdean roots films his mother in the home where, after more than 40 years of marriage, she will now live alone. As she sorts through her belongings, painful memories sometimes surface…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-11",
+"v": 4,
+"yr": 2026
+},
 "the borders of paradise": {
 "dr": "Nicolás Romero Silva",
 "du": 78,
@@ -13675,6 +13809,22 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-11-07",
+"v": 4,
+"yr": 2026
+},
+"the case against space": {
+"dr": "Graeme Arnfield",
+"du": 72,
+"gn": [
+"Documentary"
+],
+"lg": [
+"en"
+],
+"sy": "Shortly before Christmas 1973, the crew of Skylab, NASA’s first space station, went on strike.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-11",
 "v": 4,
 "yr": 2026
 },
@@ -14164,7 +14314,7 @@
 "the fight the william greaves director s cut": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "the final insult": {
@@ -14334,7 +14484,7 @@
 "the great ecstasy of woodcarver steiner belovy": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "the green knight 2021 mediaevalia": {
@@ -14454,6 +14604,25 @@
 "tried": "2026-11-10",
 "v": 4,
 "yr": 2014
+},
+"the hunger games mockingjay part 2": {
+"dr": "Francis Lawrence",
+"du": 137,
+"gn": [
+"Action",
+"Adventure",
+"Science Fiction"
+],
+"lg": [
+"en"
+],
+"rt": 6.9,
+"sy": "As the war between the Capitol and the districts reaches its peak, Katniss Everdeen embarks on a perilous mission to liberate Panem and confront President Snow. Joined by a team of trusted allies, she…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-11",
+"v": 4,
+"yr": 2015
 },
 "the hunger games sunrise on the reaping": {
 "dr": "Francis Lawrence",
@@ -14785,6 +14954,25 @@
 "tried": "2026-10-28",
 "v": 4,
 "yr": 2026
+},
+"the message": {
+"dr": "Moustapha Akkad",
+"du": 178,
+"gn": [
+"Adventure",
+"Drama",
+"Action"
+],
+"lg": [
+"en"
+],
+"rt": 7.1,
+"sy": "In sixth-century Mecca, Prophet Muhammad receives his first revelation from God as a messenger. Three years later, he's not alone in his quest and publicly declares his prophecy. Muhammad is fought by Abu…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-11",
+"v": 4,
+"yr": 1976
 },
 "the middle room": {
 "tm5": true,
@@ -15130,6 +15318,25 @@
 "tried": "2026-11-10",
 "v": 4,
 "yr": 2026
+},
+"the silence": {
+"dr": "John R. Leonetti",
+"du": 91,
+"gn": [
+"Horror",
+"Drama",
+"Thriller"
+],
+"lg": [
+"en"
+],
+"rt": 6.0,
+"sy": "With the world under attack by deadly creatures who hunt by sound, a teen and her family seek refuge outside the city and encounter a mysterious cult.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-11",
+"v": 4,
+"yr": 2019
 },
 "the social reckoning": {
 "dr": "Aaron Sorkin",
@@ -15687,6 +15894,24 @@
 "v": 4,
 "yr": 2017
 },
+"through a glass darkly": {
+"dr": "Ingmar Bergman",
+"du": 89,
+"gn": [
+"Drama"
+],
+"lg": [
+"la",
+"sv"
+],
+"rt": 7.8,
+"sy": "Karin hopes to recover from her recent stay at a mental hospital by spending the summer at her family's cottage on a tiny island. Her husband, Martin, cares for her but is frustrated by her physical…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-11",
+"v": 4,
+"yr": 1961
+},
 "tierische liebe": {
 "dr": "Ulrich Seidl",
 "du": 114,
@@ -16109,6 +16334,19 @@
 "v": 4,
 "yr": 2026
 },
+"tutu": {
+"dr": "Yuria Matsushita",
+"du": 61,
+"lg": [
+"ja"
+],
+"sy": "Independent film \"TUTU\" was selected for the \"Pia Film Festival\".",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-11",
+"v": 4,
+"yr": 2000
+},
 "twelve monkeys": {
 "dr": "Terry Gilliam",
 "du": 129,
@@ -16418,7 +16656,7 @@
 "tm4": true,
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "verity": {
@@ -16517,7 +16755,7 @@
 "vpro cinema live the siege of paradise talk": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-28",
+"tried": "2026-11-11",
 "v": 4
 },
 "wajda s legacy documentaries from the wajda school": {
@@ -16904,6 +17142,23 @@
 "tried": "2026-11-02",
 "v": 4
 },
+"winter light": {
+"dr": "Ingmar Bergman",
+"du": 80,
+"gn": [
+"Drama"
+],
+"lg": [
+"sv"
+],
+"rt": 7.9,
+"sy": "A Swedish pastor fails a loving woman, a suicidal fisherman and God.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-11",
+"v": 4,
+"yr": 1963
+},
 "with hasan in gaza 2025 palestine cinema days around the world": {
 "tm5": true,
 "tmdb": true,
@@ -16943,6 +17198,41 @@
 "tried": "2026-10-28",
 "v": 4,
 "yr": 1913
+},
+"wood street": {
+"dr": "Caron Creighton",
+"du": 100,
+"gn": [
+"Documentary"
+],
+"lg": [
+"en"
+],
+"sy": "Two unhoused men turned community leaders— John and LaMonté —organize their neighbors in the face of displacement, addiction, and a failing social system.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-11",
+"v": 4,
+"yr": 2026
+},
+"work in progress": {
+"dr": "José Luis Guerín",
+"du": 125,
+"gn": [
+"Documentary"
+],
+"lg": [
+"ar",
+"es",
+"ca"
+],
+"rt": 6.4,
+"sy": "An author spends a year and a half filming what happens as a new apartment building is built in a neighborhood of Barcelona.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-11",
+"v": 4,
+"yr": 2001
 },
 "working progress": {
 "tm5": true,

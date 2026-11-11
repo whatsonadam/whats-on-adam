@@ -2104,6 +2104,10 @@
 "q": "name",
 "area": "Centrum"
 },
+"Fifth Origins": {
+"skip": true,
+"q": "not found"
+},
 "Filmhallen": {
 "lat": 52.36682,
 "lon": 4.8686,
@@ -4370,6 +4374,12 @@
 "skip": true,
 "q": "not found"
 },
+"Scarpetta Pasta Lab": {
+"lat": 52.38344,
+"lon": 4.88564,
+"q": "name",
+"area": "Centrum"
+},
 "Schout-bij-nacht": {
 "lat": 52.37869,
 "lon": 4.88418,
@@ -4491,6 +4501,12 @@
 "area": "Zuid"
 },
 "Sociëteit De Kring": {
+"lat": 52.36362,
+"lon": 4.8835,
+"q": "name",
+"area": "Centrum"
+},
+"Sociëteit de Kring": {
 "lat": 52.36362,
 "lon": 4.8835,
 "q": "name",
@@ -5762,6 +5778,12 @@
 "lon": 4.93712,
 "q": "name",
 "area": "Zuidoost"
+},
+"Zojazz Stage": {
+"lat": 52.36898,
+"lon": 4.87158,
+"q": "name",
+"area": "West"
 },
 "Zoku": {
 "lat": 52.36394,
