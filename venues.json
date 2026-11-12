@@ -1493,6 +1493,12 @@
 "q": "name",
 "area": "Nieuw-West"
 },
+"Conservatorium van Amsterdam": {
+"lat": 52.37596,
+"lon": 4.9089,
+"q": "name",
+"area": "Centrum"
+},
 "Contra": {
 "skip": true,
 "q": "not found"
@@ -1632,6 +1638,12 @@
 "De Hallen Amsterdam": {
 "lat": 52.36695,
 "lon": 4.8682,
+"q": "name",
+"area": "West"
+},
+"De Hallen Studio's, Hannie Dankbaarpassage 24, Amsterdam": {
+"lat": 52.3669,
+"lon": 4.86889,
 "q": "name",
 "area": "West"
 },
@@ -3316,6 +3328,10 @@
 "q": "name",
 "area": "Oost"
 },
+"Museum Het Schip - De Amsterdamse School": {
+"skip": true,
+"q": "not found"
+},
 "Museum JAN": {
 "lat": 52.36009,
 "lon": 4.88209,
@@ -4040,6 +4056,10 @@
 "q": "name",
 "area": "Centrum"
 },
+"Pr. Irenestraat 19": {
+"skip": true,
+"q": "not found"
+},
 "Prik": {
 "lat": 52.37471,
 "lon": 4.89084,
@@ -4079,6 +4099,12 @@
 "QRU": {
 "skip": true,
 "q": "not found"
+},
+"Queer library": {
+"lat": 52.36325,
+"lon": 4.92768,
+"q": "name",
+"area": "Oost"
 },
 "QueerHub": {
 "skip": true,
@@ -5872,6 +5898,10 @@
 "lon": 4.89394,
 "q": "name",
 "area": "Centrum"
+},
+"de Brakke Grond: VR Gallery, Nes 43-45, Amsterdam": {
+"skip": true,
+"q": "not found"
 },
 "de Tanker in Noord": {
 "lat": 52.39415,

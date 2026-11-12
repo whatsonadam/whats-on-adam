@@ -239,6 +239,10 @@
 "eh": "23:00",
 "chk": "2026-10-18"
 },
+"https://parallel.am/programme/baile-trama-8": {
+"none": true,
+"chk": "2026-11-12"
+},
 "https://parallel.am/programme/bambii-ade": {
 "h": "19:00",
 "chk": "2026-10-18"
@@ -257,7 +261,7 @@
 },
 "https://parallel.am/programme/disco-arabesquo-presents-the-official-afterparty-headlined-by-saint-levant": {
 "none": true,
-"chk": "2026-11-05"
+"chk": "2026-11-12"
 },
 "https://parallel.am/programme/eastern-margins-natural-mind-ade": {
 "h": "20:00",
@@ -431,6 +435,11 @@
 "eh": "07:00",
 "chk": "2026-10-18"
 },
+"https://radion.amsterdam/program/radion-invites-vulged/": {
+"h": "21:30",
+"eh": "07:00",
+"chk": "2026-11-12"
+},
 "https://radion.amsterdam/program/radion-presents-dj-fuckoff/": {
 "h": "23:00",
 "eh": "07:00",
@@ -452,7 +461,7 @@
 },
 "https://radion.amsterdam/program/vault-sessions-x-bassiani-wkndr/": {
 "none": true,
-"chk": "2026-11-05"
+"chk": "2026-11-12"
 },
 "https://radion.amsterdam/program/void-by-orphic/": {
 "h": "20:00",
@@ -614,7 +623,7 @@
 },
 "https://tolhuistuin.nl/en/events/congerentie-stop-geweld-tegen-vrouwen": {
 "none": true,
-"chk": "2026-11-05"
+"chk": "2026-11-12"
 },
 "https://tolhuistuin.nl/en/events/congerentie-stop-geweld-tegen-vrouwen?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
 "none": true,
@@ -680,7 +689,7 @@
 },
 "https://tolhuistuin.nl/en/events/de-danskamer-25": {
 "none": true,
-"chk": "2026-11-05"
+"chk": "2026-11-12"
 },
 "https://tolhuistuin.nl/en/events/de-danskamer-25?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
 "none": true,
@@ -1166,6 +1175,11 @@
 "eh": null,
 "chk": "2026-10-26"
 },
+"https://tolhuistuin.nl/en/events/mamamonologen-3-2": {
+"h": "20:00",
+"eh": null,
+"chk": "2026-11-12"
+},
 "https://tolhuistuin.nl/en/events/mansur-brown-2": {
 "h": "20:30",
 "eh": null,
@@ -1312,11 +1326,15 @@
 },
 "https://tolhuistuin.nl/en/events/one-fine-mess-12": {
 "none": true,
-"chk": "2026-11-05"
+"chk": "2026-11-12"
 },
 "https://tolhuistuin.nl/en/events/one-fine-mess-12?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
 "none": true,
 "chk": "2026-10-26"
+},
+"https://tolhuistuin.nl/en/events/one-fine-mess-13": {
+"none": true,
+"chk": "2026-11-12"
 },
 "https://tolhuistuin.nl/en/events/one-fine-mess-8": {
 "none": true,
@@ -1943,7 +1961,7 @@
 },
 "https://tolhuistuin.nl/en/events/workshop-kunst-x-activisme-breitner-studenten": {
 "none": true,
-"chk": "2026-11-05"
+"chk": "2026-11-12"
 },
 "https://tolhuistuin.nl/en/events/workshop-kunst-x-activisme-breitner-studenten?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
 "none": true,
@@ -2026,6 +2044,11 @@
 "eh": "21:00",
 "chk": "2026-10-30"
 },
+"https://www.amsterdammuseum.nl/en/public-program/kunst-workshops/55486": {
+"h": "15:30",
+"eh": "17:30",
+"chk": "2026-11-12"
+},
 "https://www.amsterdammuseum.nl/en/public-program/museumnacht-bij-huis-willet-holthuysen/240561": {
 "none": true,
 "chk": "2026-11-01"
@@ -2068,6 +2091,10 @@
 "h": "14:00",
 "eh": "16:00",
 "chk": "2026-10-18"
+},
+"https://www.cinetol.nl/events/a-storytelling-night-on-neurodivergence": {
+"h": "19:00",
+"chk": "2026-11-12"
 },
 "https://www.cinetol.nl/events/abel-ghekiere": {
 "h": "20:00",
@@ -2461,6 +2488,11 @@
 "h": "19:00",
 "eh": "21:30",
 "chk": "2026-10-29"
+},
+"https://www.dehallen-amsterdam.nl/en/agenda/wondere-woensdagen-workshops-5---motherhood-amsterdam-7": {
+"h": "13:00",
+"eh": "15:30",
+"chk": "2026-11-12"
 },
 "https://www.iamsterdam.com/uit/agenda/attracties-en-bezienswaardigheden/tours/workshop-parfum-maken": {
 "dates": {
@@ -3209,6 +3241,14 @@
 },
 "chk": "2026-10-23"
 },
+"https://www.iamsterdam.com/uit/agenda/festivals/events/idfa-in-carre-2026": {
+"dates": {
+"2026-11-13": {
+"h": "11:30"
+}
+},
+"chk": "2026-11-12"
+},
 "https://www.iamsterdam.com/uit/agenda/festivals/events/oorzaken-festival-2026": {
 "dates": {
 "2026-12-11": {
@@ -3329,6 +3369,23 @@
 },
 "chk": "2026-10-11"
 },
+"https://www.iamsterdam.com/uit/agenda/tentoonstellingen/alle-tentoonstellingen/spatie-bis": {
+"dates": {
+"2026-11-20": {
+"h": "17:00",
+"eh": "19:00"
+},
+"2026-11-21": {
+"h": "13:00",
+"eh": "17:00"
+},
+"2026-11-22": {
+"h": "13:00",
+"eh": "17:00"
+}
+},
+"chk": "2026-11-12"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/a-fine-mess": {
 "dates": {
 "2026-10-23": {
@@ -3367,6 +3424,19 @@
 }
 },
 "chk": "2026-10-26"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/akira-4k-restoration": {
+"dates": {
+"2026-11-17": {
+"h": "11:05",
+"eh": "13:09"
+},
+"2026-11-20": {
+"h": "11:45",
+"eh": "13:49"
+}
+},
+"chk": "2026-11-12"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/alaa-shehada-the-bridge": {
 "dates": {
@@ -3450,6 +3520,15 @@
 },
 "chk": "2026-10-11"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/buurman-and-buurman": {
+"dates": {
+"2026-12-27": {
+"h": "13:30",
+"eh": "14:30"
+}
+},
+"chk": "2026-11-12"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/cap-farewell": {
 "dates": {
 "2026-10-13": {
@@ -3515,6 +3594,19 @@
 },
 "chk": "2026-10-26"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/cold-war": {
+"dates": {
+"2026-11-23": {
+"h": "10:30",
+"eh": "11:58"
+},
+"2026-11-24": {
+"h": "11:50",
+"eh": "13:18"
+}
+},
+"chk": "2026-11-12"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/dadodans-gaia-gonnelli-licht-2": {
 "dates": {
 "2026-12-13": {
@@ -3555,6 +3647,19 @@
 },
 "chk": "2026-10-24"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/de-kleine-prins": {
+"dates": {
+"2027-01-02": {
+"h": "14:30",
+"eh": "15:55"
+},
+"2027-01-03": {
+"h": "14:30",
+"eh": "15:55"
+}
+},
+"chk": "2026-11-12"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/de-manager": {
 "dates": {
 "2026-10-13": {
@@ -3567,6 +3672,15 @@
 }
 },
 "chk": "2026-10-11"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/de-musical-zonder-billen": {
+"dates": {
+"2027-01-16": {
+"h": "13:30",
+"eh": "14:40"
+}
+},
+"chk": "2026-11-12"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/de-proefkeuken-en-de-wc-van-tijd-in-delamar": {
 "dates": {
@@ -3602,6 +3716,15 @@
 }
 },
 "chk": "2026-10-11"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/efteling-vertelt-baron-1898": {
+"dates": {
+"2026-12-30": {
+"h": "13:30",
+"eh": "14:40"
+}
+},
+"chk": "2026-11-12"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/eigen-werk-theaterteam-mijn-moeder-is-een-mens": {
 "dates": {
@@ -3645,6 +3768,41 @@
 }
 },
 "chk": "2026-10-11"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/eternal-sunshine-of-the-spotless-mind": {
+"dates": {
+"2026-11-18": {
+"h": "12:00",
+"eh": "13:48"
+},
+"2026-11-19": {
+"h": "12:45",
+"eh": "14:33"
+}
+},
+"chk": "2026-11-12"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/fatherland": {
+"dates": {
+"2026-11-23": {
+"h": "12:00",
+"eh": "13:22"
+},
+"2026-11-25": {
+"h": "12:05",
+"eh": "13:27"
+}
+},
+"chk": "2026-11-12"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/fay-toxopeus-flash": {
+"dates": {
+"2026-11-12": {
+"h": "16:00",
+"eh": "18:30"
+}
+},
+"chk": "2026-11-12"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/fraukje-and-marijn-twee-benen": {
 "dates": {
@@ -3711,6 +3869,15 @@
 }
 },
 "chk": "2026-10-15"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/juf-braaksel-de-musical": {
+"dates": {
+"2027-01-30": {
+"h": "13:30",
+"eh": "14:45"
+}
+},
+"chk": "2026-11-12"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/kees-van-amstel-mogen-we-eerder-weg": {
 "dates": {
@@ -3811,6 +3978,19 @@
 }
 },
 "chk": "2026-10-27"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/mirror": {
+"dates": {
+"2026-11-17": {
+"h": "12:10",
+"eh": "13:57"
+},
+"2026-11-23": {
+"h": "10:05",
+"eh": "11:52"
+}
+},
+"chk": "2026-11-12"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/muziek-voor-babys-en-peuters": {
 "dates": {
@@ -3986,6 +4166,17 @@
 },
 "chk": "2026-10-20"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/rayen-panday-and-friends-wonderful-christmastime": {
+"dates": {
+"2026-12-18": {
+"h": "20:15"
+},
+"2026-12-19": {
+"h": "15:00"
+}
+},
+"chk": "2026-11-12"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/raymond-mens": {
 "dates": {
 "2026-11-29": {
@@ -3994,6 +4185,19 @@
 }
 },
 "chk": "2026-10-20"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/rob-kemps": {
+"dates": {
+"2027-01-23": {
+"h": "20:30",
+"eh": "22:00"
+},
+"2027-01-24": {
+"h": "14:30",
+"eh": "16:00"
+}
+},
+"chk": "2026-11-12"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/seizoenen-internationaal-dansensemble-paloina": {
 "dates": {
@@ -4118,6 +4322,19 @@
 },
 "chk": "2026-10-11"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/twelve-monkeys": {
+"dates": {
+"2026-11-13": {
+"h": "10:00",
+"eh": "12:09"
+},
+"2026-11-20": {
+"h": "12:25",
+"eh": "14:34"
+}
+},
+"chk": "2026-11-12"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/umi": {
 "dates": {
 "2026-11-15": {
@@ -4149,6 +4366,19 @@
 },
 "chk": "2026-10-24"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/we-zijn-toch-familie": {
+"dates": {
+"2027-01-09": {
+"h": "20:30",
+"eh": "22:00"
+},
+"2027-01-10": {
+"h": "14:30",
+"eh": "16:00"
+}
+},
+"chk": "2026-11-12"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/willemijn-verkaik-edwin-jonker-ea-next-to-normal": {
 "dates": {
 "2026-12-09": {
@@ -4165,6 +4395,15 @@
 }
 },
 "chk": "2026-10-23"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/woezel-and-pip-de-musical": {
+"dates": {
+"2026-12-19": {
+"h": "13:30",
+"eh": "14:25"
+}
+},
+"chk": "2026-11-12"
 },
 "https://www.iamsterdam.com/uit/agenda/winkelen/markten/speelgoedverkoop": {
 "dates": {
