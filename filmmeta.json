@@ -334,6 +334,24 @@
 "v": 4,
 "yr": 2026
 },
+"a talent for murder": {
+"dr": "Anton Corbijn",
+"du": 106,
+"gn": [
+"Drama",
+"Crime",
+"Thriller"
+],
+"lg": [
+"en"
+],
+"sy": "A young man travels from New York to Switzerland to try to persuade acclaimed thriller writer Patricia Highsmith to write one final installment of her Tom Ripley series, with his efforts gradually turning more…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-12",
+"v": 4,
+"yr": 2026
+},
 "a world not ours 2012": {
 "dr": "Mahdi Fleifel",
 "du": 93,
@@ -4009,6 +4027,22 @@
 "tmdb": true,
 "tried": "2026-10-14",
 "v": 4
+},
+"een ochtend van zes weken": {
+"dr": "Nikolai van der Heyde",
+"du": 81,
+"gn": [
+"Drama"
+],
+"lg": [
+"en"
+],
+"sy": "Racing driver Jimmy meets French model Annette at the racetrack, who is working in Amsterdam for a while. A romantic relationship develops between the two, but they are unable to continue their mutual feelings…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-12",
+"v": 4,
+"yr": 1966
 },
 "el extraño viaje": {
 "dr": "Fernando Fernán Gómez",
@@ -8522,6 +8556,12 @@
 "v": 4,
 "yr": 2025
 },
+"kostiantynivka life and death of a frontline city": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-12",
+"v": 4
+},
 "krieg in wien": {
 "dr": "Ulrich Seidl, Michael Glawogger",
 "du": 84,
@@ -9035,6 +9075,16 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"le départ": {
+"dr": "",
+"du": 90,
+"lg": [],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-12",
+"v": 4,
+"yr": 1967
 },
 "le fantôme de l opéra tapis rouge 2026": {
 "dr": "Alexandre Castagnetti",
@@ -10401,6 +10451,23 @@
 "v": 4,
 "yr": 2025
 },
+"mouse": {
+"dr": "Kelly O’Sullivan, Alex Thompson",
+"du": 120,
+"gn": [
+"Drama",
+"Comedy"
+],
+"lg": [
+"en"
+],
+"sy": "When her closest friendship is suddenly disrupted the summer before senior year, a teenager struggles to find her footing and develops an unexpected, complicated bond with her best friend’s mother.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-12",
+"v": 4,
+"yr": 2026
+},
 "mr dimitris and mrs dimitroula lesvia": {
 "tm5": true,
 "tmdb": true,
@@ -10430,6 +10497,12 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-11-11",
+"v": 4
+},
+"mtm on tour muganga": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-12",
 "v": 4
 },
 "mtm on tour sentient": {
@@ -11487,6 +11560,24 @@
 "v": 4,
 "yr": 1982
 },
+"paranoia": {
+"dr": "Riri Riza",
+"du": 101,
+"gn": [
+"Drama",
+"Thriller"
+],
+"lg": [
+"id"
+],
+"rt": 5.7,
+"sy": "An entry-level employee at a powerful corporation finds himself occupying a corner office, but at a dangerous price—he must spy on his boss's old mentor to secure for him a multi-billion dollar advantage.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-12",
+"v": 4,
+"yr": 2022
+},
 "paris texas": {
 "dr": "Wim Wenders",
 "du": 143,
@@ -11628,6 +11719,12 @@
 "tried": "2026-11-04",
 "v": 4,
 "yr": 1966
+},
+"pesta babi kolonialisme in onze tijd": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-12",
+"v": 4
 },
 "philadelphia": {
 "dr": "Jonathan Demme",
@@ -12238,6 +12335,12 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-10-15",
+"v": 4
+},
+"retromania the terror and the time": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-12",
 "v": 4
 },
 "reversal of fortune": {
@@ -13347,6 +13450,23 @@
 "tried": "2026-11-02",
 "v": 4,
 "yr": 2014
+},
+"stand up": {
+"dr": "Mari Sanders",
+"du": 96,
+"gn": [
+"Comedy",
+"Drama"
+],
+"lg": [
+"nl"
+],
+"sy": "Mišo has a lifelong dream - to become a successful stand-up comedian. He quits his job to finally start fulfilling this dream. However, he is surprised by his niece Júlia, who arrives unannounced from the USA.…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-12",
+"v": 4,
+"yr": 2026
 },
 "star trek first contact": {
 "dr": "Jonathan Frakes",
@@ -14492,6 +14612,27 @@
 "tried": "2026-11-09",
 "v": 4,
 "yr": 1971
+},
+"the diary of a chambermaid": {
+"dr": "Radu Jude",
+"du": 94,
+"gn": [
+"Drama",
+"Romance",
+"Comedy"
+],
+"lg": [
+"en",
+"fr",
+"ro"
+],
+"rt": 6.2,
+"sy": "Celestine, the chamber-maid, has a new job in the country, at the Lanlaires. She has decided to use her beauty to seduce a wealthy man, but Mr. Lanlaire is not a right choice: the house is firmly controlled by…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-12",
+"v": 4,
+"yr": 2026
 },
 "the discovery of heaven": {
 "dr": "Jeroen Krabbé",

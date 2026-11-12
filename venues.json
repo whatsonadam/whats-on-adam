@@ -2042,6 +2042,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Escape DeLux CLUB": {
+"lat": 52.35962,
+"lon": 4.8929,
+"q": "name",
+"area": "Centrum"
+},
 "Escape deLux": {
 "lat": 52.38385,
 "lon": 4.77964,
@@ -4643,6 +4649,10 @@
 "q": "not found"
 },
 "Stations Alkmaar (17.30 uur), Almere Centrum, Amersfoort, Amsterdam CS, Arnhem, Assen, Culemborg, Dordrecht, Ede/Wageningen, Enschede, Groningen (protestmars vanaf Grote Markt 17.30 uur, sit-in station 18.30 uur), Hengelo, Leiden, Tiel, Tilburg, Utrecht, Zaandam (17.00 uur), Zutphen": {
+"skip": true,
+"q": "not found"
+},
+"Stations Almere Centrum, Amersfoort, Amsterdam CS, Arnhem, Assen, Culemborg, Deventer, Dordrecht, Ede/Wageningen, Enschede, Groningen (protestmars vanaf Grote Markt 17.30 uur, sit-in station 18.30 uur), Hengelo, Leiden, Lelystad (17.30 uur), Nijmegen, Tiel, Tilburg, Utrecht, Zaandam (17.00 uur), Zutphen": {
 "skip": true,
 "q": "not found"
 },
