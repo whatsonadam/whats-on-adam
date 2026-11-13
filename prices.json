@@ -238,6 +238,10 @@
 "p": "from €26,80",
 "t": "2026-11-08"
 },
+"https://hipsy.nl/event/255398-ecstatic-journey-leela": {
+"p": "from €26,80",
+"t": "2026-11-13"
+},
 "https://hipsy.nl/event/257835-moving-dialogues-contact-improvisation-workshop-steven-campos": {
 "p": "from €26,80",
 "t": "2026-10-24"
@@ -275,6 +279,10 @@
 "t": "2026-10-31"
 },
 "https://marineterrein.nl/agenda/afrogrooves": {
+"p": null,
+"t": "2026-11-13"
+},
+"https://marineterrein.nl/agenda/amsterdamse-nieuwjaarsduik-2027": {
 "p": null,
 "t": "2026-11-13"
 },
@@ -1258,6 +1266,10 @@
 "p": null,
 "t": "2026-11-05"
 },
+"https://offbeat.amsterdam/event/alchemania-dutch-decompression-2026": {
+"p": null,
+"t": "2026-11-13"
+},
 "https://offbeat.amsterdam/event/aldonna-liquid-earth": {
 "p": null,
 "t": "2026-10-16"
@@ -1970,6 +1982,10 @@
 "p": null,
 "t": "2026-10-16"
 },
+"https://offbeat.amsterdam/event/dansdok-5": {
+"p": null,
+"t": "2026-11-13"
+},
 "https://offbeat.amsterdam/event/daphne-gakes-binnenstebuiten": {
 "p": null,
 "t": "2026-11-06"
@@ -2157,6 +2173,10 @@
 "https://offbeat.amsterdam/event/dine-and-dj-or-dj-marcelo-umana-13": {
 "p": null,
 "t": "2026-11-07"
+},
+"https://offbeat.amsterdam/event/dine-and-dj-or-dj-marcelo-umana-21": {
+"p": null,
+"t": "2026-11-13"
 },
 "https://offbeat.amsterdam/event/dine-and-dj-or-dj-marcelo-umana-22": {
 "p": null,
@@ -4014,6 +4034,10 @@
 "p": null,
 "t": "2026-11-12"
 },
+"https://offbeat.amsterdam/event/nfh-with-ogr-beastwalker-dromeda-dj-mynrgy": {
+"p": null,
+"t": "2026-11-13"
+},
 "https://offbeat.amsterdam/event/ngo-headliner-edition": {
 "p": null,
 "t": "2026-11-12"
@@ -4329,6 +4353,10 @@
 "https://offbeat.amsterdam/event/pass-the-hat-open-stage-night": {
 "p": null,
 "t": "2026-11-11"
+},
+"https://offbeat.amsterdam/event/passeridae-61-noise-party": {
+"p": null,
+"t": "2026-11-13"
 },
 "https://offbeat.amsterdam/event/paul-van-dyk-1": {
 "p": null,
@@ -5854,6 +5882,10 @@
 "p": null,
 "t": "2026-10-22"
 },
+"https://offbeat.amsterdam/event/yusu-selectors": {
+"p": null,
+"t": "2026-11-13"
+},
 "https://offbeat.amsterdam/event/zaya-sabrina": {
 "p": null,
 "t": "2026-11-02"
@@ -6073,6 +6105,10 @@
 "https://radar.squat.net/en/event/amsterdam/bpw-amsterdam/2027-01-04/bpw-woonspreekuur": {
 "p": "Free",
 "t": "2026-11-11"
+},
+"https://radar.squat.net/en/event/amsterdam/bpw-amsterdam/2027-01-11/bpw-woonspreekuur": {
+"p": "Free",
+"t": "2026-11-13"
 },
 "https://radar.squat.net/en/event/amsterdam/cafe-gilde/2026-11-06/astrology-club": {
 "p": "Donation",
@@ -7106,6 +7142,22 @@
 "p": "€5",
 "t": "2026-11-12"
 },
+"https://radar.squat.net/en/event/amsterdam/nieuwland/2027-01-11/yoga-all-levels-all-welcome": {
+"p": "€5",
+"t": "2026-11-13"
+},
+"https://radar.squat.net/en/event/amsterdam/nieuwland/2027-01-11/yoga-level-2-3-iyengar-yoga-practitioners": {
+"p": "€5",
+"t": "2026-11-13"
+},
+"https://radar.squat.net/en/event/amsterdam/nieuwland/2027-01-12/yoga-special-class-chronic-issues-injuries-etc": {
+"p": "€5",
+"t": "2026-11-13"
+},
+"https://radar.squat.net/en/event/amsterdam/nieuwland/2027-01-13/yoga-all-levels-all-welcome": {
+"p": "€5",
+"t": "2026-11-13"
+},
 "https://radar.squat.net/en/event/amsterdam/occii/2026-10-16/stepmother-lukas-simonis-jeroen-visser-bill-gilonis-dirk-bruinsma": {
 "p": null,
 "t": "2026-10-16"
@@ -7516,6 +7568,10 @@
 },
 "https://radar.squat.net/en/event/amsterdam/vlaggen-voor-palestina/2027-01-10/vlaggen-voor-palestina-oost": {
 "p": "Free",
+"t": "2026-11-13"
+},
+"https://radar.squat.net/en/event/amsterdam/vlaggen-voor-palestina/2027-01-13/vlaggen-voor-palestina-west": {
+"p": null,
 "t": "2026-11-13"
 },
 "https://radar.squat.net/en/event/amsterdam/vondelbunker/2026-10-16/genre-bending-evening": {
@@ -8229,6 +8285,11 @@
 "https://radion.amsterdam/program/radion-invites-fever-dream-x-patchwork-family/": {
 "p": "from €22,50",
 "t": "2026-10-17",
+"tk": "https://radionamsterdam.stager.co/shop/default"
+},
+"https://radion.amsterdam/program/radion-invites-spandau20/": {
+"p": "from €16,50",
+"t": "2026-11-13",
 "tk": "https://radionamsterdam.stager.co/shop/default"
 },
 "https://radion.amsterdam/program/radion-invites-tssrct/": {
@@ -11478,6 +11539,10 @@
 "p": null,
 "t": "2026-10-31"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/chinchilla": {
+"p": "from €24,70",
+"t": "2026-11-13"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/chloe-slater": {
 "p": "from €22,01",
 "t": "2026-11-07"
@@ -11665,6 +11730,10 @@
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/dayseeker": {
 "p": null,
 "t": "2026-11-07"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/de-hitbingo-band-interactieve-muziekquiz": {
+"p": "from €7,50",
+"t": "2026-11-13"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/de-italiaanse-cello-bruno-cocset-amarilis-duenas-holland-baroque": {
 "p": null,
@@ -11893,6 +11962,10 @@
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/ethan-regan": {
 "p": "from €23",
 "t": "2026-11-07"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/evan-bogerd-speelt-olivier-messiaens-la-nativite-du-seigneur": {
+"p": "from €19,50",
+"t": "2026-11-13"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/evelyn-dupuy": {
 "p": "from €13",
@@ -14353,6 +14426,10 @@
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/trytone-tone-series-1": {
 "p": null,
 "t": "2026-10-20"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/trytone-tone-series-2": {
+"p": "from €8",
+"t": "2026-11-13"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/tuimelaar-6-18-maanden-frisse-oren": {
 "p": "from €6",
@@ -17197,6 +17274,10 @@
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/binnenstebuiten": {
 "p": null,
 "t": "2026-11-07"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/biotopia-shifft": {
+"p": "from €21",
+"t": "2026-11-13"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/black-achievement-awards": {
 "p": "from €30",

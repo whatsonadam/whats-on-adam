@@ -1771,6 +1771,12 @@
 "q": "addr",
 "area": "Centrum"
 },
+"De Roos": {
+"lat": 52.35874,
+"lon": 4.87549,
+"q": "name",
+"area": "Zuid"
+},
 "De Roze Tanker": {
 "lat": 52.39415,
 "lon": 4.92298,
@@ -2740,6 +2746,12 @@
 "skip": true,
 "q": "not found"
 },
+"Indebt": {
+"lat": 52.35594,
+"lon": 4.89741,
+"q": "name",
+"area": "Zuid"
+},
 "Infokafee Bollox": {
 "lat": 52.35416,
 "lon": 4.85456,
@@ -3198,6 +3210,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Maison Champenoise": {
+"lat": 52.36076,
+"lon": 4.8695,
+"q": "name",
+"area": "West"
+},
 "Maloe Melo": {
 "lat": 52.37006,
 "lon": 4.87772,
@@ -3325,6 +3343,12 @@
 "lon": 4.92928,
 "q": "name",
 "area": "Noord"
+},
+"Mooie Boules Amsterdam West": {
+"lat": 52.39745,
+"lon": 4.87765,
+"q": "name",
+"area": "West"
 },
 "Move Amsterdam": {
 "lat": 52.34642,
@@ -4002,6 +4026,12 @@
 "lat": 52.36879,
 "lon": 4.9108,
 "q": "name",
+"area": "Centrum"
+},
+"Plantage Dok Plantage": {
+"lat": 52.3683,
+"lon": 4.91117,
+"q": "addr",
 "area": "Centrum"
 },
 "Plantage Dokzaal": {
@@ -4741,6 +4771,12 @@
 "lon": 4.87644,
 "q": "name",
 "area": "Zuid"
+},
+"Studio 80": {
+"lat": 52.3716,
+"lon": 4.8602,
+"q": "name",
+"area": "West"
 },
 "Studio K": {
 "lat": 52.31816,
@@ -5994,6 +6030,12 @@
 "pos (possibilities open studio)": {
 "skip": true,
 "q": "not found"
+},
+"post-office": {
+"lat": 52.32481,
+"lon": 4.92115,
+"q": "name",
+"area": null
 },
 "raam art space": {
 "skip": true,
