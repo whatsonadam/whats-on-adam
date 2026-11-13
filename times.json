@@ -1095,6 +1095,11 @@
 "eh": null,
 "chk": "2026-10-26"
 },
+"https://tolhuistuin.nl/en/events/kiva-her-inneren-van-de-original-principles": {
+"h": "19:30",
+"eh": null,
+"chk": "2026-11-13"
+},
 "https://tolhuistuin.nl/en/events/klimaat-tribunaal-de-toekomst-van-sudan": {
 "h": "17:00",
 "eh": null,
@@ -2855,6 +2860,15 @@
 },
 "chk": "2026-10-25"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/jakub-jozef-orlinski-in-de-dominicuskerk": {
+"dates": {
+"2026-11-28": {
+"h": "19:00",
+"eh": "20:30"
+}
+},
+"chk": "2026-11-13"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/john-craigie": {
 "dates": {
 "2026-10-20": {
@@ -4369,6 +4383,23 @@
 }
 },
 "chk": "2026-10-24"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/voor-haar-de-frans-halsema-musical": {
+"dates": {
+"2027-03-10": {
+"h": "20:30",
+"eh": "23:05"
+},
+"2027-03-11": {
+"h": "20:30",
+"eh": "23:05"
+},
+"2027-03-12": {
+"h": "20:30",
+"eh": "23:05"
+}
+},
+"chk": "2026-11-13"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/we-zijn-toch-familie": {
 "dates": {

@@ -518,6 +518,12 @@
 "tried": "2026-11-10",
 "v": 4
 },
+"affacts emotions and bodies in journalism and documentary work": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-13",
+"v": 4
+},
 "africadelic memory of princess mumbi special screening": {
 "tm5": true,
 "tmdb": true,
@@ -1441,6 +1447,26 @@
 "tmdb": true,
 "tried": "2026-10-14",
 "v": 4
+},
+"bergman a year in a life": {
+"dr": "Jane Magnusson",
+"du": 118,
+"gn": [
+"Documentary",
+"History"
+],
+"lg": [
+"en",
+"fr",
+"sv"
+],
+"rt": 7.4,
+"sy": "The year 1957 was one of the most prolific for the Swedish filmmaker Ingmar Bergman: he shot two films, released two of his most celebrated films and produced four plays and a TV movie while juggling with a…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-13",
+"v": 4,
+"yr": 2018
 },
 "best of kaboom animation festival": {
 "tm5": true,
@@ -4917,6 +4943,12 @@
 "tried": "2026-11-02",
 "v": 4
 },
+"fight the power chained for life 2018 incl panel talk": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-13",
+"v": 4
+},
 "fight the power earth s greatest enemy 2025 incl panel talk": {
 "tm4": true,
 "tm5": true,
@@ -5049,6 +5081,12 @@
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4
+},
+"filmscreening de domestication i am not your human": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-13",
 "v": 4
 },
 "filmvertoning about our journey": {
@@ -5531,6 +5569,22 @@
 "v": 4,
 "yr": 2024
 },
+"giant the play": {
+"dr": "George Stevens",
+"du": 201,
+"gn": [
+"Drama"
+],
+"lg": [
+"en"
+],
+"sy": "Set in the summer of 1983, just before the release of The Witches, Giant imagines a tense meeting between Roald Dahl and his American and British publishers as they scramble to contain the fallout from his…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-13",
+"v": 4,
+"yr": 1956
+},
 "girly pop presents jennifer s body 2009 incl introduction": {
 "dr": "Karyn Kusama",
 "du": 102,
@@ -5697,6 +5751,42 @@
 "tmdb": true,
 "tried": "2026-11-11",
 "v": 4
+},
+"gooische vrouwen": {
+"dr": "Will Koopman",
+"du": 105,
+"gn": [
+"Drama"
+],
+"lg": [
+"nl"
+],
+"rt": 5.9,
+"sy": "Gooische Vrouwen (Vipers Nest) is based on a very popular Dutch TV series and can be described as a Dutch variation of Sex and the City and Desperate Housewives. The film tells the story of four girlfriends…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-13",
+"v": 4,
+"yr": 2011
+},
+"gooische vrouwen 2": {
+"dr": "Will Koopman",
+"du": 106,
+"gn": [
+"Drama",
+"Comedy",
+"Romance"
+],
+"lg": [
+"nl"
+],
+"rt": 5.9,
+"sy": "When Claire returns from Burkina Faso, she is totally transformed and her girlfriends barely recognize her. Cheryl discovers Martin is cheating on her yet again and for her, this time it's the last straw: she…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-13",
+"v": 4,
+"yr": 2014
 },
 "goundafa the cursed song": {
 "dr": "Ali Benjelloun",
@@ -9402,6 +9492,20 @@
 "v": 4,
 "yr": 1986
 },
+"lo que en nosotros calla": {
+"dr": "Carmen Castillo",
+"du": 100,
+"lg": [
+"es",
+"fr"
+],
+"sy": "Carmen Castillo is internationally known for her literary and film work, in which her Chilean roots and the political and human tragedies of her native country play a central role. In this film, she breaks the…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-13",
+"v": 4,
+"yr": 2026
+},
 "logan": {
 "dr": "James Mangold",
 "du": 137,
@@ -10516,6 +10620,25 @@
 "tmdb": true,
 "tried": "2026-10-28",
 "v": 4
+},
+"musk": {
+"dr": "Alex Gibney",
+"du": 238,
+"gn": [
+"Documentary"
+],
+"lg": [
+"en",
+"pt",
+"es"
+],
+"rt": 6.4,
+"sy": "An incisive look behind the legend of Elon Musk, the world's most heralded \"inventor-entrepreneur\" who has enormous influence on the world in which we all live.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-13",
+"v": 4,
+"yr": 2026
 },
 "my brother s wedding": {
 "dr": "Charles Burnett",
@@ -12405,7 +12528,7 @@
 "right now wrong then 2015": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-30",
+"tried": "2026-11-13",
 "v": 4
 },
 "rimini": {
@@ -13079,6 +13202,12 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-11-11",
+"v": 4
+},
+"showgirls 1995 x sokol": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-13",
 "v": 4
 },
 "si tu penses bien tapis rouge 2026": {

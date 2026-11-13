@@ -1605,6 +1605,10 @@
 "q": "name",
 "area": "Noord"
 },
+"De Dam, Amsterdam (bij de Palestijnse vlag)": {
+"skip": true,
+"q": "not found"
+},
 "De Duif": {
 "lat": 52.36128,
 "lon": 4.89679,
@@ -2257,6 +2261,12 @@
 "Frict Amsterdam": {
 "skip": true,
 "q": "not found"
+},
+"Friekens Brouwerij": {
+"lat": 52.3667,
+"lon": 4.92635,
+"q": "name",
+"area": "Centrum"
 },
 "G-Star RAW C.V": {
 "lat": 52.36821,
@@ -4557,6 +4567,10 @@
 "lon": 4.88276,
 "q": "name",
 "area": "Centrum"
+},
+"Soulkitchen": {
+"skip": true,
+"q": "not found"
 },
 "Soulkitchen Amsterdam": {
 "skip": true,
