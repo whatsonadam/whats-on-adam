@@ -1,4 +1,10 @@
 {
+"'Skek": {
+"lat": 52.37606,
+"lon": 4.90018,
+"q": "name",
+"area": "Centrum"
+},
 "'t Zonnehuis": {
 "lat": 52.41345,
 "lon": 4.89133,
@@ -648,6 +654,10 @@
 "area": "Centrum"
 },
 "Bar22": {
+"skip": true,
+"q": "not found"
+},
+"Barbara Strozzilaan 101": {
 "skip": true,
 "q": "not found"
 },
@@ -2398,6 +2408,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Groot Melkhuis": {
+"lat": 52.35854,
+"lon": 4.86844,
+"q": "name",
+"area": "Zuid"
+},
 "Grote Kerk Naarden": {
 "lat": 52.36642,
 "lon": 4.91805,
@@ -2715,6 +2731,10 @@
 "lon": 4.90449,
 "q": "name",
 "area": "Zuid"
+},
+"ISO": {
+"skip": true,
+"q": "not found"
 },
 "ISOamsterdam": {
 "skip": true,
@@ -3139,6 +3159,10 @@
 "area": "Zuid"
 },
 "Lotti's Bar @ The Hoxton": {
+"skip": true,
+"q": "not found"
+},
+"Lova - All Day Brunch & Breakfast": {
 "skip": true,
 "q": "not found"
 },
