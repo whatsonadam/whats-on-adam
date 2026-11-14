@@ -32,6 +32,23 @@
 "v": 4,
 "yr": 1957
 },
+"14th": {
+"dr": "Ava DuVernay",
+"du": 108,
+"gn": [
+"Documentary",
+"History"
+],
+"lg": [
+"en"
+],
+"sy": "Revolves around the equal protection and citizenship-focused 14th amendment, which was ratified in 1868 in the turbulent era of Reconstruction and has been a contentious part of the American body politic ever…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-14",
+"v": 4,
+"yr": 2026
+},
 "2001 a space odyssey 4k restoration": {
 "dr": "Stanley Kubrick",
 "du": 149,
@@ -281,6 +298,18 @@
 "tried": "2026-10-25",
 "v": 4,
 "yr": 1984
+},
+"a picture to remember": {
+"dr": "Olga Chernykh",
+"du": 72,
+"lg": [
+"uk"
+],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-14",
+"v": 4,
+"yr": 2023
 },
 "a river runs through it": {
 "dr": "Robert Redford",
@@ -2299,7 +2328,7 @@
 "cinema mythologica her 2013": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-31",
+"tried": "2026-11-14",
 "v": 4
 },
 "cinema mythologica oedipus rex 1967": {
@@ -2311,13 +2340,13 @@
 "cinema mythologica synecdoche new york 2008": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-31",
+"tried": "2026-11-14",
 "v": 4
 },
 "cinema mythologica vertigo 1958": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-10-31",
+"tried": "2026-11-14",
 "v": 4
 },
 "cinemanita": {
@@ -4160,6 +4189,12 @@
 "tried": "2026-10-27",
 "v": 4,
 "yr": 1967
+},
+"end credits 2026 erasmusprijswinnaar steve mcqueen": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-14",
+"v": 4
 },
 "eng subs coward": {
 "dr": "Lukas Dhont",
@@ -6100,6 +6135,24 @@
 "tried": "2026-11-05",
 "v": 4
 },
+"het gangstermeisje": {
+"dr": "Frans Weisz",
+"du": 90,
+"gn": [
+"Drama",
+"Thriller"
+],
+"lg": [
+"nl"
+],
+"qr": 1,
+"sy": "A successful young writer is in search of his true destiny. Is it the life with his wife and typewriter in Amsterdam or the offers to go to the dreamworld of the Italian film city Cinecittà which is luring…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-14",
+"v": 4,
+"yr": 1966
+},
 "het geheim van de wondere wereldboom": {
 "dr": "Ben Gregor",
 "du": 109,
@@ -6770,6 +6823,12 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-11-09",
+"v": 4
+},
+"idfa x de balie collapse": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-14",
 "v": 4
 },
 "if luck will come": {
