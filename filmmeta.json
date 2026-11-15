@@ -1267,6 +1267,24 @@
 "v": 4,
 "yr": 2026
 },
+"azart come make art": {
+"dr": "Masha Novikova, Annike Kaljouw",
+"du": 83,
+"gn": [
+"Documentary"
+],
+"lg": [
+"en",
+"fr",
+"it"
+],
+"sy": "The documentary tells the colourful and cheerful history of Amsterdam's narrator ship Azart, or The Ship of Fools, which sailed around the world for over 30 years bringing music and theatre. At the helm the…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-15",
+"v": 4,
+"yr": 2026
+},
 "baby jackfruit baby guava": {
 "dr": "Nong Nhat Quang",
 "du": 103,
@@ -1500,7 +1518,7 @@
 "best of kaboom animation festival": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-01",
+"tried": "2026-11-15",
 "v": 4
 },
 "between revolutions": {
@@ -4511,7 +4529,7 @@
 "europa trilogy europa zentropa": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-01",
+"tried": "2026-11-15",
 "v": 4
 },
 "europa trilogy the element of crime": {
@@ -4889,6 +4907,12 @@
 "v": 4,
 "yr": 1999
 },
+"feestelijk plezier met peppa de bioscoopbelevenis": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-15",
+"v": 4
+},
 "felice felice": {
 "dr": "peter Delpeut",
 "du": 99,
@@ -5078,7 +5102,7 @@
 "film lecture time after time over herhaling in films en andere verhalen": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-01",
+"tried": "2026-11-15",
 "v": 4
 },
 "filmclub sunset boelelaan la haine": {
@@ -6614,7 +6638,7 @@
 "humans of film festival sixth edition": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-01",
+"tried": "2026-11-15",
 "v": 4
 },
 "humans of film festival workshop cinematic climate action": {
@@ -6825,10 +6849,22 @@
 "tried": "2026-11-09",
 "v": 4
 },
+"idfa x de balie a song without home": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-15",
+"v": 4
+},
 "idfa x de balie collapse": {
 "tm5": true,
 "tmdb": true,
 "tried": "2026-11-14",
+"v": 4
+},
+"idfa x de balie lonan tché": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-15",
 "v": 4
 },
 "if luck will come": {
@@ -8728,6 +8764,12 @@
 "v": 4,
 "yr": 1989
 },
+"kuhle wampe": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-15",
+"v": 4
+},
 "kusama in holland": {
 "dr": "Sherman de Jesus",
 "du": 53,
@@ -10149,6 +10191,12 @@
 "v": 4,
 "yr": 2011
 },
+"meet the parents focker in law": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-15",
+"v": 4
+},
 "memorias del subdesarrollo": {
 "dr": "Tomás Gutiérrez Alea",
 "du": 99,
@@ -10820,6 +10868,24 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1993
+},
+"nasza rewolucja": {
+"dr": "Piotr Domalewski",
+"du": 127,
+"gn": [
+"Drama",
+"History",
+"Romance"
+],
+"lg": [
+"pl"
+],
+"sy": "He is exuberant, loud, and charismatic. She is courageous, delicate, and warm. Jacek and Grażyna Kuroń are utterly in love and convinced that together they can change the world. They give up their privacy to…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-15",
+"v": 4,
+"yr": 2026
 },
 "national design debate 2026 shaping europe": {
 "tm5": true,
@@ -11599,7 +11665,7 @@
 "palestinian perspectives": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-01",
+"tried": "2026-11-15",
 "v": 4
 },
 "pan s labyrinth": {
@@ -12693,6 +12759,26 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1996
+},
+"roter himmel psychoanalyse film": {
+"dr": "Christian Petzold",
+"du": 103,
+"gn": [
+"Drama",
+"Romance",
+"Comedy"
+],
+"lg": [
+"de"
+],
+"qr": 1,
+"rt": 6.8,
+"sy": "Self-important author Leon joins his best friend on a summer holiday near the Baltic Sea to complete his novel. When they arrive, they find their house is already occupied by a carefree woman who challenges…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-15",
+"v": 4,
+"yr": 2023
 },
 "royal ballet and opera de notenkraker": {
 "dr": "",
@@ -17631,6 +17717,25 @@
 "tmdb": true,
 "tried": "2026-11-09",
 "v": 4
+},
+"we nous": {
+"dr": "Alice Diop",
+"du": 116,
+"gn": [
+"Crime",
+"Drama",
+"History"
+],
+"lg": [
+"nl"
+],
+"rt": 5.4,
+"sy": "During a scorching summer in a Belgian-Dutch border village, eight teenagers play games of discovery to break the listless monotony. They challenge each other and themselves and pretty soon, their sexual…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-15",
+"v": 4,
+"yr": 2021
 },
 "we refuse to be broken": {
 "tm5": true,

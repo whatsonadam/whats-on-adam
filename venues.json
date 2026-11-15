@@ -127,6 +127,10 @@
 "q": "name",
 "area": null
 },
+"ALO": {
+"skip": true,
+"q": "not found"
+},
 "ANNA Amstelveen": {
 "lat": 52.30466,
 "lon": 4.84703,
@@ -908,6 +912,12 @@
 "lon": 4.89707,
 "q": "name",
 "area": "Centrum"
+},
+"Brouwerij Troost": {
+"lat": 52.35053,
+"lon": 4.89105,
+"q": "name",
+"area": "Zuid"
 },
 "Brouwerij Troost (De Pijp)": {
 "lat": 52.35053,
