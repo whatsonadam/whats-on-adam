@@ -307,7 +307,7 @@
 },
 "https://parallel.am/programme/la-casa-del-perreo-13": {
 "none": true,
-"chk": "2026-11-09"
+"chk": "2026-11-16"
 },
 "https://parallel.am/programme/modus-ade-2": {
 "none": true,
@@ -2337,7 +2337,7 @@
 },
 "https://www.cinetol.nl/events/rightaboutnow-festival": {
 "none": true,
-"chk": "2026-11-09"
+"chk": "2026-11-16"
 },
 "https://www.cinetol.nl/events/ringlets": {
 "h": "20:30",
@@ -2532,6 +2532,15 @@
 "h": "13:00",
 "eh": "15:30",
 "chk": "2026-11-12"
+},
+"https://www.iamsterdam.com/uit/agenda/attracties-en-bezienswaardigheden/tours/proefles-programmeren-robots-en-lego-voor-kinderen": {
+"dates": {
+"2026-12-05": {
+"h": "09:00",
+"eh": "11:00"
+}
+},
+"chk": "2026-11-16"
 },
 "https://www.iamsterdam.com/uit/agenda/attracties-en-bezienswaardigheden/tours/workshop-parfum-maken": {
 "dates": {
@@ -3742,6 +3751,15 @@
 }
 },
 "chk": "2026-10-11"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/de-sint-nikolaasavond": {
+"dates": {
+"2026-12-01": {
+"h": "17:00",
+"eh": "18:00"
+}
+},
+"chk": "2026-11-16"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/dikkie-dik-and-dirk-scheele-zing-spring-miauw-2-t-m-7-jaar": {
 "dates": {

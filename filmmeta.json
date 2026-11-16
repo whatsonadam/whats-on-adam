@@ -138,7 +138,7 @@
 "98 12 28 otokotachi no wakare 2005": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-02",
+"tried": "2026-11-16",
 "v": 4
 },
 "a dip into australia": {
@@ -202,7 +202,7 @@
 "a knight s tale 2001 mediaevalia": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-02",
+"tried": "2026-11-16",
 "v": 4
 },
 "a little gray wolf will come": {
@@ -226,7 +226,7 @@
 "a little gray wolf will come q a": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-02",
+"tried": "2026-11-16",
 "v": 4
 },
 "a minute of silence": {
@@ -440,6 +440,23 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2013
+},
+"abschied von gestern": {
+"dr": "Alexander Kluge",
+"du": 88,
+"gn": [
+"Drama"
+],
+"lg": [
+"de"
+],
+"rt": 6.5,
+"sy": "A young German woman searches for happiness, liberation, and independence in the illusive wake of a transformative national recovery.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-16",
+"v": 4,
+"yr": 1967
 },
 "accattone 1961": {
 "dr": "Pier Paolo Pasolini",
@@ -2069,7 +2086,7 @@
 "caravaggio 1986 mediaevalia": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-02",
+"tried": "2026-11-16",
 "v": 4
 },
 "career talk kiyoshi kurosawa": {
@@ -2322,7 +2339,7 @@
 "cinema aperitivo about time incl drink and antipasti platter": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-02",
+"tried": "2026-11-16",
 "v": 4
 },
 "cinema aperitivo cold war incl drink and antipasti platter": {
@@ -2384,6 +2401,12 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-10-28",
+"v": 4
+},
+"cinemercator the cool lakes of death nouchka van brakel 1982": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-16",
 "v": 4
 },
 "cinemercator the fire within louis malle 1963": {
@@ -3616,6 +3639,24 @@
 "v": 4,
 "yr": 2026
 },
+"disney s hexed nl": {
+"dr": "Jason Hand, Fawn Veerasunthorn",
+"du": 109,
+"lg": [
+"nl"
+],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-16",
+"v": 4,
+"yr": 2026
+},
+"disney s hexed ov": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-16",
+"v": 4
+},
 "ditte s filmclub in soul station": {
 "tm5": true,
 "tmdb": true,
@@ -3951,6 +3992,18 @@
 "v": 3,
 "yr": 1994
 },
+"dune part one 2021": {
+"dr": "Denis Villeneuve",
+"du": 156,
+"lg": [
+"en"
+],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-16",
+"v": 4,
+"yr": 2020
+},
 "dune part one two double bill incl lunch": {
 "tm5": true,
 "tmdb": true,
@@ -3989,6 +4042,24 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-11-05",
+"v": 4,
+"yr": 2023
+},
+"dune part two 2024": {
+"dr": "Denis Villeneuve",
+"du": 166,
+"gn": [
+"Science Fiction",
+"Adventure"
+],
+"lg": [
+"en"
+],
+"rt": 8.1,
+"sy": "Follow the mythic journey of Paul Atreides as he unites with Chani and the Fremen while on a path of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-16",
 "v": 4,
 "yr": 2023
 },
@@ -4628,7 +4699,7 @@
 "excalibur 1981 mediaevalia": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-02",
+"tried": "2026-11-16",
 "v": 4
 },
 "exotica": {
@@ -5318,6 +5389,28 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1994
+},
+"forêt ivre": {
+"dr": "Manon Coubia",
+"du": 102,
+"gn": [
+"Drama"
+],
+"lg": [
+"fr"
+],
+"sy": "In the northern Alps, Anne, Hélène and Suzanne take turns looking after a mountain hut. Through the seasons, hikers come and go. Stories bloom and fade, leaving each of them facing the silence of their chosen…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-16",
+"v": 4,
+"yr": 2026
+},
+"forêt ivre met intro": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-16",
+"v": 4
 },
 "four journeys": {
 "dr": "Louis Hothothot",
@@ -6326,19 +6419,19 @@
 "hoff iluminada 2026": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-02",
+"tried": "2026-11-16",
 "v": 4
 },
 "hoff lovers in the blue night 2026": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-02",
+"tried": "2026-11-16",
 "v": 4
 },
 "hoff mergen мерген 2025": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-02",
+"tried": "2026-11-16",
 "v": 4
 },
 "hoff one woman one bra": {
@@ -6356,13 +6449,13 @@
 "hoff paradise 2026": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-02",
+"tried": "2026-11-16",
 "v": 4
 },
 "hoff poetic shorts in other words": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-02",
+"tried": "2026-11-16",
 "v": 4
 },
 "hoff roya 2026 nederlandse première": {
@@ -6614,7 +6707,7 @@
 "humans of film festival i built a rocket imagining your arrival 2026": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-02",
+"tried": "2026-11-16",
 "v": 4
 },
 "humans of film festival party with dj rasureitor": {
@@ -6626,13 +6719,13 @@
 "humans of film festival short film programme the art of being you followed by a panel": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-02",
+"tried": "2026-11-16",
 "v": 4
 },
 "humans of film festival simsim 2025": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-02",
+"tried": "2026-11-16",
 "v": 4
 },
 "humans of film festival sixth edition": {
@@ -6644,7 +6737,7 @@
 "humans of film festival workshop cinematic climate action": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-02",
+"tried": "2026-11-16",
 "v": 4
 },
 "hundreds of beavers": {
@@ -6859,6 +6952,12 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-11-14",
+"v": 4
+},
+"idfa x de balie letters from the silenced country": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-16",
 "v": 4
 },
 "idfa x de balie lonan tché": {
@@ -9952,34 +10051,54 @@
 "v": 4
 },
 "makandra ritme": {
+"dr": "Leon Hendrison, Rosita Leeflang",
+"du": 99,
+"lg": [],
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-02",
-"v": 4
+"tried": "2026-11-16",
+"v": 4,
+"yr": 2026
 },
 "makandra roots": {
+"dr": "Chinasa Moeridjan, Shellen Arga",
+"du": 137,
+"lg": [],
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-02",
-"v": 4
+"tried": "2026-11-16",
+"v": 4,
+"yr": 2026
 },
 "makandra spiritualiteit": {
+"dr": "Claudio Ghafoerkhan, Samuel Blankendal",
+"du": 102,
+"lg": [],
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-02",
-"v": 4
+"tried": "2026-11-16",
+"v": 4,
+"yr": 2025
 },
 "makandra toekomst": {
+"dr": "Monique Pool, Thanya Fonkel",
+"du": 91,
+"lg": [],
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-02",
-"v": 4
+"tried": "2026-11-16",
+"v": 4,
+"yr": 2026
 },
 "makandra verbinding": {
+"dr": "Marisa Pieplenbosch, Raoul Roeplal",
+"du": 105,
+"lg": [],
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-02",
-"v": 4
+"tried": "2026-11-16",
+"v": 4,
+"yr": 2025
 },
 "mamelles ancestrales": {
 "dr": "Tabita Rezaire",
@@ -12438,7 +12557,7 @@
 "ran 1985 mediaevalia": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-02",
+"tried": "2026-11-16",
 "v": 4
 },
 "ratcatcher": {
@@ -15757,7 +15876,7 @@
 "the name of the rose 1986 mediaevalia": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-02",
+"tried": "2026-11-16",
 "v": 4
 },
 "the nightmare before christmas": {
@@ -17589,6 +17708,22 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4,
+"yr": 2026
+},
+"violette": {
+"dr": "Jean-Pierre Jeunet",
+"du": 138,
+"gn": [
+"Drama"
+],
+"lg": [
+"fr"
+],
+"sy": "Violette Toussaint, a cemetery caretaker in a small town in Burgundy, is a unique observer and a compassionate listener. Her peaceful life is filled by conversations with quirky cemetery workers and the many…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-16",
 "v": 4,
 "yr": 2026
 },

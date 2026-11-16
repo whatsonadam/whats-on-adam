@@ -1333,6 +1333,12 @@
 "skip": true,
 "q": "not found"
 },
+"City of Wesopa": {
+"lat": 52.30886,
+"lon": 5.03982,
+"q": "name",
+"area": "Weesp"
+},
 "Clandestino": {
 "skip": true,
 "q": "not found"
@@ -2094,6 +2100,10 @@
 "q": "name",
 "area": "Centrum"
 },
+"Explore the north Festival Leeuwarden": {
+"skip": true,
+"q": "not found"
+},
 "Explore the north, leeuwarden": {
 "skip": true,
 "q": "not found"
@@ -2632,6 +2642,12 @@
 "skip": true,
 "q": "not found"
 },
+"Hofkerk": {
+"lat": 52.35304,
+"lon": 4.93364,
+"q": "name",
+"area": "Oost"
+},
 "Hotel Arena": {
 "lat": 52.36123,
 "lon": 4.9163,
@@ -2771,6 +2787,12 @@
 "lon": 4.89777,
 "q": "name",
 "area": "Zuid"
+},
+"Impact Academies Amsterdam": {
+"lat": 52.36238,
+"lon": 4.92206,
+"q": "name",
+"area": "Oost"
 },
 "InDeep'n'Dance Records": {
 "skip": true,
@@ -4158,6 +4180,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Proeflokaal Wispe & stadsbrouwerij": {
+"lat": 52.30911,
+"lon": 5.04111,
+"q": "name",
+"area": "Weesp"
+},
 "Protestantse Diaconie": {
 "lat": 52.37685,
 "lon": 4.85363,
@@ -4611,6 +4639,12 @@
 "lon": 4.8835,
 "q": "name",
 "area": "Centrum"
+},
+"Sociëteit Ramses Shaffy Huis": {
+"lat": 52.3754,
+"lon": 4.92853,
+"q": "name",
+"area": "Oost"
 },
 "Sociëteit de Kring": {
 "lat": 52.36362,
@@ -5525,6 +5559,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Venue Collective": {
+"lat": 52.37503,
+"lon": 4.8633,
+"q": "name",
+"area": "West"
+},
 "Vereniging De Trut": {
 "lat": 52.36775,
 "lon": 4.87213,
@@ -5813,6 +5853,10 @@
 "skip": true,
 "q": "not found"
 },
+"What you see Festival Utrecht": {
+"skip": true,
+"q": "not found"
+},
 "When Nature Calls Biohacking Center": {
 "skip": true,
 "q": "not found"
@@ -5840,6 +5884,10 @@
 "lon": 4.86293,
 "q": "name",
 "area": "Zuid"
+},
+"Winternights Maastricht": {
+"skip": true,
+"q": "not found"
 },
 "World Trade Center (Amsterdam)": {
 "lat": 52.33654,
