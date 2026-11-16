@@ -563,6 +563,12 @@
 "skip": true,
 "q": "not found"
 },
+"Bajesdorp - GROND": {
+"lat": 52.37105,
+"lon": 4.8939,
+"q": "name",
+"area": "Centrum"
+},
 "Bakkerswinkel Westerpark Amsterdam": {
 "lat": 52.39397,
 "lon": 4.87016,
@@ -1234,6 +1240,12 @@
 "Capital C Bloemenmarkt": {
 "lat": 52.36693,
 "lon": 4.89076,
+"q": "name",
+"area": "Centrum"
+},
+"Capital C Diamantbeurs": {
+"lat": 52.36197,
+"lon": 4.90658,
 "q": "name",
 "area": "Centrum"
 },
@@ -2663,6 +2675,12 @@
 "House of Noa": {
 "lat": 52.37343,
 "lon": 4.89545,
+"q": "name",
+"area": "Centrum"
+},
+"Huis Marseille": {
+"lat": 52.36764,
+"lon": 4.88484,
 "q": "name",
 "area": "Centrum"
 },
@@ -5414,6 +5432,10 @@
 "lon": 4.87552,
 "q": "name",
 "area": "West"
+},
+"Toko MC": {
+"skip": true,
+"q": "not found"
 },
 "Tolhuis": {
 "lat": 52.3832,

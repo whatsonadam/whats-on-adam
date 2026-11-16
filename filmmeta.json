@@ -3428,6 +3428,12 @@
 "tried": "2026-11-11",
 "v": 4
 },
+"de kerst van ernest célestine": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-16",
+"v": 4
+},
 "de manager": {
 "dr": "Maartje Bakers",
 "du": 71,
@@ -3991,6 +3997,12 @@
 "tried": "2026-10-13",
 "v": 3,
 "yr": 1994
+},
+"dune double bill part one two": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-16",
+"v": 4
 },
 "dune part one 2021": {
 "dr": "Denis Villeneuve",
@@ -4947,6 +4959,42 @@
 "v": 4,
 "yr": 2026
 },
+"fatherland eng subs": {
+"dr": "Pawel Pawlikowski",
+"du": 82,
+"gn": [
+"Drama",
+"History"
+],
+"lg": [
+"de",
+"en",
+"ru"
+],
+"rt": 7.2,
+"sy": "In 1949, German writer Thomas Mann and his daughter Erika embark on a road trip across a Germany in ruins, from US-dominated Frankfurt to Soviet-controlled Weimar.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-16",
+"v": 4,
+"yr": 2026
+},
+"fausse note": {
+"dr": "Alexandre Arcady",
+"du": 90,
+"gn": [
+"Drama"
+],
+"lg": [
+"fr"
+],
+"sy": "In Paris, in 1990, an internationally renowned conductor gives his farewell concert at the Opéra-Comique. After the performance, an admirer manages to approach him. What seemed to be a chance encounter…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-16",
+"v": 4,
+"yr": 2026
+},
 "faust 1994 strings of imagination": {
 "tm4": true,
 "tmdb": true,
@@ -5323,6 +5371,18 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1992
+},
+"flesh and fuel roze filmdagen monthly special": {
+"dr": "Pierre le Gall",
+"du": 90,
+"lg": [
+"fr"
+],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-16",
+"v": 4,
+"yr": 2026
 },
 "florian zenker santiago cimadevilla": {
 "tm4": true,
@@ -9850,6 +9910,12 @@
 "v": 4,
 "yr": 2012
 },
+"lord of the rings the fellowship of the ring": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-16",
+"v": 4
+},
 "los silencios": {
 "tm4": true,
 "tm5": true,
@@ -11197,6 +11263,27 @@
 "v": 4,
 "yr": 1998
 },
+"night at the museum": {
+"dr": "Shawn Levy",
+"du": 108,
+"gn": [
+"Fantasy",
+"Family",
+"Comedy"
+],
+"lg": [
+"en",
+"it",
+"he"
+],
+"rt": 6.6,
+"sy": "Chaos reigns at the natural history museum when night watchman Larry Daley accidentally stirs up an ancient curse, awakening Attila the Hun, an army of gladiators, a Tyrannosaurus rex and other exhibits.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-16",
+"v": 4,
+"yr": 2006
+},
 "night of the living dead": {
 "dr": "George A. Romero",
 "du": 96,
@@ -12227,10 +12314,22 @@
 "tried": "2026-10-19",
 "v": 4
 },
+"preview dune part three": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-16",
+"v": 4
+},
 "preview fatherland": {
 "tm5": true,
 "tmdb": true,
 "tried": "2026-11-09",
+"v": 4
+},
+"preview fjord": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-16",
 "v": 4
 },
 "preview minotaur": {
@@ -12494,6 +12593,22 @@
 "tried": "2026-11-09",
 "v": 4,
 "yr": 2026
+},
+"radioman": {
+"dr": "Frank van Passel",
+"du": 120,
+"gn": [
+"Documentary"
+],
+"lg": [
+"nl"
+],
+"sy": "The extraordinary story of 'Radioman', a New York film set mascot who overcame homelessness and alcoholism to become a fixture of the New York film industry, with over 100 small parts to his name.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-16",
+"v": 4,
+"yr": 2025
 },
 "ragazzi al fiume": {
 "dr": "Pablo Briones, Joakim Chardonnens",
@@ -14087,6 +14202,23 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2008
+},
+"sátántangó": {
+"dr": "Béla Tarr",
+"du": 439,
+"gn": [
+"Drama"
+],
+"lg": [
+"hu"
+],
+"rt": 8.1,
+"sy": "Inhabitants of a small village in Hungary deal with the effects of the fall of Communism. The town's source of revenue, a factory, has closed, and the locals, who include a doctor and three couples, await a…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-16",
+"v": 4,
+"yr": 1994
 },
 "taming the garden": {
 "dr": "Salomé Jashi",
