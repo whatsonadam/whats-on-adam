@@ -328,7 +328,7 @@
 },
 "https://parallel.am/programme/riria": {
 "none": true,
-"chk": "2026-11-10"
+"chk": "2026-11-17"
 },
 "https://parallel.am/programme/rooted-x-striptopia": {
 "none": true,
@@ -414,6 +414,11 @@
 "h": "23:00",
 "eh": "07:00",
 "chk": "2026-10-18"
+},
+"https://radion.amsterdam/program/frenzy/": {
+"h": "23:00",
+"eh": "07:00",
+"chk": "2026-11-17"
 },
 "https://radion.amsterdam/program/further-tribute-for-juan-atkins/": {
 "h": "15:30",
@@ -974,7 +979,7 @@
 },
 "https://tolhuistuin.nl/en/events/het-mannengesprek-echte-mannen-praten": {
 "none": true,
-"chk": "2026-11-10"
+"chk": "2026-11-17"
 },
 "https://tolhuistuin.nl/en/events/het-mannengesprek-echte-mannen-praten?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
 "none": true,
@@ -1954,7 +1959,7 @@
 },
 "https://tolhuistuin.nl/en/events/uitreiking-fip-2026": {
 "none": true,
-"chk": "2026-11-10"
+"chk": "2026-11-17"
 },
 "https://tolhuistuin.nl/en/events/westside-cowboy": {
 "h": "19:30",
@@ -3469,6 +3474,23 @@
 },
 "chk": "2026-10-13"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/african-diaspora-performing-arts-festival-2026-untold": {
+"dates": {
+"2026-11-20": {
+"h": "20:00",
+"eh": "22:00"
+},
+"2026-11-21": {
+"h": "20:00",
+"eh": "22:00"
+},
+"2026-11-22": {
+"h": "16:00",
+"eh": "18:00"
+}
+},
+"chk": "2026-11-17"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/aftersun": {
 "dates": {
 "2026-11-10": {
@@ -3923,6 +3945,19 @@
 },
 "chk": "2026-10-24"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/ida": {
+"dates": {
+"2026-11-23": {
+"h": "12:25",
+"eh": "13:47"
+},
+"2026-11-24": {
+"h": "10:05",
+"eh": "11:27"
+}
+},
+"chk": "2026-11-17"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/jimmy-nelson": {
 "dates": {
 "2026-11-12": {
@@ -4109,6 +4144,19 @@
 }
 },
 "chk": "2026-10-27"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/naza-1": {
+"dates": {
+"2026-11-19": {
+"h": "12:15",
+"eh": "13:45"
+},
+"2026-11-23": {
+"h": "12:00",
+"eh": "13:30"
+}
+},
+"chk": "2026-11-17"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/nick-van-keulen-horen-zeggen": {
 "dates": {

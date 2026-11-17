@@ -2360,6 +2360,12 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"cinema mythologica ex machina 2014": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-17",
+"v": 4
+},
 "cinema mythologica her 2013": {
 "tm5": true,
 "tmdb": true,
@@ -3186,7 +3192,7 @@
 "dag van de korte film": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-03",
+"tried": "2026-11-17",
 "v": 4
 },
 "dagen met blue i don t want to be just a memory": {
@@ -4606,7 +4612,7 @@
 "europa trilogy europa 1991": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-03",
+"tried": "2026-11-17",
 "v": 4
 },
 "europa trilogy europa zentropa": {
@@ -5252,7 +5258,7 @@
 "filmhuis gardens of fez": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-03",
+"tried": "2026-11-17",
 "v": 4
 },
 "filmhuis paradise circus": {
@@ -6311,6 +6317,24 @@
 "tmdb": true,
 "tried": "2026-11-05",
 "v": 4
+},
+"het compromis": {
+"dr": "Philo Bregstein",
+"du": 90,
+"gn": [
+"Drama",
+"Romance"
+],
+"lg": [
+"en",
+"nl"
+],
+"sy": "A group of expatriates living in Holland turn to sex, dope and music to augment their daily routines. One comes to resent a couple who becomes part of the exclusive social elite. An American actor muses over…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-17",
+"v": 4,
+"yr": 1968
 },
 "het gangstermeisje": {
 "dr": "Frans Weisz",
@@ -9590,13 +9614,13 @@
 "lesvia 2024 mr dimitris and mrs dimitroula 2019": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-03",
+"tried": "2026-11-17",
 "v": 4
 },
 "lesvia mr dimitris and mrs dimitroula": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-03",
+"tried": "2026-11-17",
 "v": 4
 },
 "let s scare jessica to death 1971 kadavers in k": {
@@ -13058,6 +13082,12 @@
 "v": 4,
 "yr": 2024
 },
+"roze filmdagen": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-17",
+"v": 4
+},
 "récréations tropic of cancer": {
 "tm5": true,
 "tmdb": true,
@@ -14095,6 +14125,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"student film club hunger games sotr": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-17",
+"v": 4
 },
 "sugar": {
 "dr": "Amira Duynhouwer",
@@ -16568,7 +16604,7 @@
 "the territory 2022": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-03",
+"tried": "2026-11-17",
 "v": 4
 },
 "the texas chain saw massacre": {
@@ -17263,7 +17299,7 @@
 "trendy tropics x slowblink": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-03",
+"tried": "2026-11-17",
 "v": 4
 },
 "treći svijet": {
@@ -18260,6 +18296,24 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-11-12",
+"v": 4,
+"yr": 1957
+},
+"wild strawberries 1957": {
+"dr": "Ingmar Bergman",
+"du": 91,
+"gn": [
+"Drama"
+],
+"lg": [
+"la",
+"sv"
+],
+"rt": 8.1,
+"sy": "Crotchety retired doctor Isak Borg travels from Stockholm to Lund, Sweden, with his unhappy daughter-in-law, Marianne, in order to receive an honorary degree from his alma mater. Along the way, they encounter…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-17",
 "v": 4,
 "yr": 1957
 },

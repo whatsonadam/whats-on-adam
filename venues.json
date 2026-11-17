@@ -321,6 +321,10 @@
 "skip": true,
 "q": "not found"
 },
+"Amsterdam House of Arts & Crafts": {
+"skip": true,
+"q": "not found"
+},
 "Amsterdam Museum": {
 "lat": 52.37043,
 "lon": 4.89043,
@@ -4267,6 +4271,10 @@
 "q": "not found"
 },
 "ROZENSTRAAT – a rose is a rose is a rose": {
+"skip": true,
+"q": "not found"
+},
+"RRC Music - Record Store": {
 "skip": true,
 "q": "not found"
 },
