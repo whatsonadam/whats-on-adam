@@ -1079,6 +1079,12 @@
 "v": 4,
 "yr": 2026
 },
+"anarchist film festival": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-17",
+"v": 4
+},
 "anarchist film festival day 1": {
 "tm5": true,
 "tmdb": true,
@@ -1755,8 +1761,9 @@
 },
 "brazil unfiltered piripkura": {
 "tm4": true,
+"tm5": true,
 "tmdb": true,
-"tried": "2026-10-14",
+"tried": "2026-11-17",
 "v": 4
 },
 "brazil unfiltered the territory": {
@@ -2151,6 +2158,12 @@
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4
+},
+"cedla film screening un día soleado": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-17",
 "v": 4
 },
 "central park": {
@@ -4080,6 +4093,12 @@
 "tried": "2026-11-16",
 "v": 4,
 "yr": 2023
+},
+"dyke march x filmhuis cavia reel dykes 1 the activist screening": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-17",
+"v": 4
 },
 "dykemarch x filmhuis cavia 1": {
 "tm5": true,
@@ -6438,6 +6457,24 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-11-05",
+"v": 4,
+"yr": 2026
+},
+"hexed nl": {
+"dr": "Jason Hand, Fawn Veerasunthorn",
+"du": 109,
+"gn": [
+"Adventure",
+"Animation",
+"Family"
+],
+"lg": [
+"nl"
+],
+"sy": "An impulsive and unconventional teenage girl named Billie discovers secret magical abilities which, once unleashed, hurtle her into a spectacle-filled journey out of suburbia and into a vast witch realm called…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-17",
 "v": 4,
 "yr": 2026
 },
@@ -8951,6 +8988,12 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-11-15",
+"v": 4
+},
+"kuhle wampe 1932 to whom does the world belong directed by slatan dudow": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-17",
 "v": 4
 },
 "kusama in holland": {
@@ -13212,6 +13255,24 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-11-12",
+"v": 4,
+"yr": 1974
+},
+"scenes from a marriage 1974": {
+"dr": "Ingmar Bergman",
+"du": 169,
+"gn": [
+"Drama",
+"Romance"
+],
+"lg": [
+"sv"
+],
+"rt": 8.0,
+"sy": "Johan and Marianne are married and seem to have it all. Their happiness, however, is a façade for a troubled relationship, which becomes even rockier when Johan admits that he's having an affair. Before long…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-17",
 "v": 4,
 "yr": 1974
 },

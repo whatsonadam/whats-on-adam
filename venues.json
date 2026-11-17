@@ -3236,6 +3236,12 @@
 "q": "name",
 "area": "Weesp"
 },
+"MAAP LaB Amsterdam": {
+"lat": 52.3118,
+"lon": 5.04966,
+"q": "name",
+"area": "Weesp"
+},
 "MARIONETTEN THEATRE Nieuwe": {
 "lat": 52.37341,
 "lon": 4.90235,
@@ -4407,6 +4413,12 @@
 "Royal Room": {
 "skip": true,
 "q": "not found"
+},
+"Rozenstraat": {
+"lat": 52.37242,
+"lon": 4.87965,
+"q": "name",
+"area": "Centrum"
 },
 "Ruby Emma Hotel & Bar": {
 "lat": 52.33825,
