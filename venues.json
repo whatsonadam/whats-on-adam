@@ -169,6 +169,12 @@
 "skip": true,
 "q": "not found"
 },
+"ARTIS-Park": {
+"lat": 52.36624,
+"lon": 4.91655,
+"q": "name",
+"area": "Centrum"
+},
 "Academie van Bouwkunst Amsterdam": {
 "lat": 52.36754,
 "lon": 4.9032,
@@ -1794,6 +1800,10 @@
 "lon": 4.88349,
 "q": "name",
 "area": "Centrum"
+},
+"De Rietwijker": {
+"skip": true,
+"q": "not found"
 },
 "De Rode Hoed": {
 "lat": 52.37734,

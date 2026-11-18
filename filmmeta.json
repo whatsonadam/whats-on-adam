@@ -4709,6 +4709,23 @@
 "v": 4,
 "yr": 2026
 },
+"everybody digs bill evans": {
+"dr": "Grant Lee",
+"du": 102,
+"gn": [
+"Drama",
+"Music"
+],
+"lg": [
+"en"
+],
+"sy": "June 1961, NYC: legendary jazz pianist Bill Evans has found his musical voice and created the perfect trio, including bass player Scott LaFaro, said to be his soulmate through music. A residency at New York’s…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-18",
+"v": 4,
+"yr": 2026
+},
 "everybody to kenmure street": {
 "dr": "Felipe Bustos Sierra",
 "du": 98,
@@ -6988,6 +7005,22 @@
 "v": 4,
 "yr": 2026
 },
+"i m perfectly fine film screening panel discussion": {
+"dr": "Dario van Vree",
+"du": 30,
+"gn": [
+"Animation"
+],
+"lg": [
+"en"
+],
+"sy": "As a freelance illustrator and perfectionist, Maya’s life is fun fun fun, but also busy busy busy. She perfectly pulls through her work assignments and social activities, thanks to a supportive ‘inner voice’…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-18",
+"v": 4,
+"yr": 2023
+},
 "i play rocky": {
 "dr": "Peter Farrelly",
 "du": 128,
@@ -7097,6 +7130,12 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-11-14",
+"v": 4
+},
+"idfa x de balie gabin": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-18",
 "v": 4
 },
 "idfa x de balie letters from the silenced country": {
@@ -13228,6 +13267,22 @@
 "v": 4,
 "yr": 2026
 },
+"samen film screening panel discussion": {
+"dr": "Carmen Cobos",
+"du": 78,
+"gn": [
+"Documentary"
+],
+"lg": [
+"nl"
+],
+"sy": "When producer Kees Rijninks, the husband of filmmaker Carmen Cobos, is diagnosed with Parkinson's disease, their world is falling apart. Yet after months of sadness, anger and denial, it appears that they have…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-18",
+"v": 4,
+"yr": 2019
+},
 "sans soleil": {
 "dr": "Chris Marker",
 "du": 128,
@@ -13902,6 +13957,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2013
+},
+"sneak preview 7 december": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-18",
+"v": 4
 },
 "soirée ciné amelie 20th anniversary": {
 "tm5": true,

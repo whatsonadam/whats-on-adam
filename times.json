@@ -3075,6 +3075,15 @@
 },
 "chk": "2026-11-09"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/nieuw-vocaal-amsterdam-angel-voices": {
+"dates": {
+"2026-12-11": {
+"h": "16:45",
+"eh": "17:45"
+}
+},
+"chk": "2026-11-18"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/nieuwjaarsconcert-2027-nederlands-blazers-ensemble": {
 "dates": {
 "2027-01-01": {
@@ -3823,6 +3832,15 @@
 }
 },
 "chk": "2026-11-16"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/de-wind-en-wij-in-theater-de-krakeling": {
+"dates": {
+"2026-11-22": {
+"h": "14:00",
+"eh": "14:40"
+}
+},
+"chk": "2026-11-18"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/dikkie-dik-and-dirk-scheele-zing-spring-miauw-2-t-m-7-jaar": {
 "dates": {
