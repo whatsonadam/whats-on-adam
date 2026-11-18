@@ -3382,6 +3382,12 @@
 "skip": true,
 "q": "not found"
 },
+"Mercatorplein": {
+"lat": 52.3697,
+"lon": 4.85107,
+"q": "name",
+"area": "West"
+},
 "Mezrab": {
 "lat": 52.376,
 "lon": 4.92759,
@@ -4570,6 +4576,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Schuilkerk de hoop": {
+"lat": 52.36546,
+"lon": 4.88649,
+"q": "name",
+"area": "Centrum"
+},
 "Secret Location": {
 "lat": 52.3632,
 "lon": 4.89998,
@@ -4798,6 +4810,10 @@
 "skip": true,
 "q": "not found"
 },
+"Stations Alkmaar (17.00), Almere Centrum, Amersfoort, Amsterdam CS, Arnhem, Assen, Culemborg, Dordrecht, Driebergen-Zeist, Ede/Wageningen, Enschede, Groningen (protestmars vanaf Grote Markt 17.30 uur, sit-in station 18.30 uur), Hengelo, Leiden, Tiel, Tilburg, Zaandam (17.00 uur), Zutphen": {
+"skip": true,
+"q": "not found"
+},
 "Stations Alkmaar (17.30 uur), Almere Centrum, Amersfoort, Amsterdam CS, Arnhem, Assen, Culemborg, Dordrecht, Ede/Wageningen, Enschede, Groningen (protestmars vanaf Grote Markt 17.30 uur, sit-in station 18.30 uur), Hengelo, Leiden, Tiel, Tilburg, Utrecht, Zaandam (17.00 uur), Zutphen": {
 "skip": true,
 "q": "not found"
@@ -4924,6 +4940,10 @@
 "skip": true,
 "q": "not found"
 },
+"Suki matcha club": {
+"skip": true,
+"q": "not found"
+},
 "Super Lyan Cocktailbar": {
 "lat": 52.37742,
 "lon": 4.89572,
@@ -4939,6 +4959,10 @@
 "lon": 4.89717,
 "q": "name",
 "area": "Centrum"
+},
+"Supper Cruise - Pier 14, De Ruyterkade": {
+"skip": true,
+"q": "not found"
 },
 "Supperclub": {
 "skip": true,
@@ -5182,6 +5206,10 @@
 "area": "Centrum"
 },
 "The Bas[s]ment": {
+"skip": true,
+"q": "not found"
+},
+"The Bassment": {
 "skip": true,
 "q": "not found"
 },

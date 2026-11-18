@@ -2060,6 +2060,11 @@
 "eh": "05:45",
 "chk": "2026-10-18"
 },
+"https://www.amsterdammuseum.nl/en/public-program/atlas-amsterdam-2026/309025": {
+"h": "20:00",
+"eh": "22:00",
+"chk": "2026-11-18"
+},
 "https://www.amsterdammuseum.nl/en/public-program/bitter-en-zoet-aan-de-gracht/305153": {
 "h": "13:30",
 "eh": "16:30",
@@ -3570,6 +3575,15 @@
 },
 "chk": "2026-10-15"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/andrea-voets-resonate-productions-nothing-bigger-than-humanity": {
+"dates": {
+"2026-11-21": {
+"h": "19:30",
+"eh": "20:30"
+}
+},
+"chk": "2026-11-18"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/bezoek-de-pakjesboot-in-weesp": {
 "dates": {
 "2026-12-03": {
@@ -4424,6 +4438,19 @@
 }
 },
 "chk": "2026-10-20"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/spinoza": {
+"dates": {
+"2026-11-20": {
+"h": "12:00",
+"eh": "13:28"
+},
+"2026-11-25": {
+"h": "12:15",
+"eh": "13:43"
+}
+},
+"chk": "2026-11-18"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/the-desert-of-the-real": {
 "dates": {

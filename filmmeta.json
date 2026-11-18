@@ -141,6 +141,12 @@
 "tried": "2026-11-16",
 "v": 4
 },
+"a day of connection for burnout prevention recovery": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-18",
+"v": 4
+},
 "a dip into australia": {
 "tm4": true,
 "tmdb": true,
@@ -3208,6 +3214,18 @@
 "tried": "2026-11-17",
 "v": 4
 },
+"dag van de korte film nederlands kinderprogramma 7": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-18",
+"v": 4
+},
+"dag van de korte film voor kinderen 7": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-18",
+"v": 4
+},
 "dagen met blue i don t want to be just a memory": {
 "tm5": true,
 "tmdb": true,
@@ -3632,6 +3650,12 @@
 "tried": "2026-11-02",
 "v": 4,
 "yr": 2024
+},
+"dffb deutsche film und fernsehakademie berlin screening": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-18",
+"v": 4
 },
 "diary for my father and mother": {
 "dr": "Márta Mészáros",
@@ -5180,7 +5204,7 @@
 "film drink fear and loathing in las vegas incl cocktail": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-04",
+"tried": "2026-11-18",
 "v": 4
 },
 "film drink jennifer s body incl cocktail": {
@@ -6522,7 +6546,7 @@
 "hoff animation a new look": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-04",
+"tried": "2026-11-18",
 "v": 4
 },
 "hoff animation short films": {
@@ -8846,7 +8870,7 @@
 "king boxer rumble in hong kong": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-04",
+"tried": "2026-11-18",
 "v": 4
 },
 "kinotalk sugar": {
@@ -12769,6 +12793,12 @@
 "v": 4,
 "yr": 2024
 },
+"recognising domestic violence beyond physical abuse": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-18",
+"v": 4
+},
 "red flag": {
 "dr": "Mahmoud Karim",
 "du": 100,
@@ -14945,6 +14975,24 @@
 "v": 4,
 "yr": 2004
 },
+"the color wheel": {
+"dr": "Alex Ross Perry",
+"du": 83,
+"gn": [
+"Comedy",
+"Romance"
+],
+"lg": [
+"en"
+],
+"rt": 6.3,
+"sy": "JR, an aspiring news-anchor, forces her younger brother Colin to embark on a road trip to move her belongings out of her professor-turned-lover’s place. Traveling through New England, they uncomfortably run…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-18",
+"v": 4,
+"yr": 2012
+},
 "the commitments 1991": {
 "dr": "Alan Parker",
 "du": 118,
@@ -15336,7 +15384,7 @@
 "the eight diagram pole fighter rumble in hong kong": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-04",
+"tried": "2026-11-18",
 "v": 4
 },
 "the end of times": {
@@ -15929,7 +15977,7 @@
 "the lord of the rings the complete extended journey": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-04",
+"tried": "2026-11-18",
 "v": 4
 },
 "the lord of the rings the fellowship of the ring": {
