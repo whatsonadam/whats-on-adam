@@ -184,6 +184,11 @@
 "eh": "22:00",
 "chk": "2026-11-14"
 },
+"https://hipsy.nl/event/255417-cacao-ecstatic-dance-indi-raeva": {
+"h": "18:00",
+"eh": "23:00",
+"chk": "2026-11-19"
+},
 "https://hipsy.nl/event/257835-moving-dialogues-contact-improvisation-workshop-steven-campos": {
 "h": "18:00",
 "eh": "23:00",
@@ -2240,6 +2245,10 @@
 "h": "20:30",
 "chk": "2026-10-13"
 },
+"https://www.cinetol.nl/events/halsband": {
+"h": "18:30",
+"chk": "2026-11-19"
+},
 "https://www.cinetol.nl/events/her-loving-aftertaste": {
 "h": "20:00",
 "chk": "2026-10-26"
@@ -2251,6 +2260,10 @@
 "https://www.cinetol.nl/events/horse-jumper-of-love": {
 "h": "20:00",
 "chk": "2026-10-11"
+},
+"https://www.cinetol.nl/events/hubris": {
+"h": "20:00",
+"chk": "2026-11-19"
 },
 "https://www.cinetol.nl/events/isha": {
 "h": "20:30",

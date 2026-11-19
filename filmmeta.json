@@ -2184,6 +2184,12 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"cavia in concert the cabinet of dr caligari with live score by bjørk semey carlos ayuso and marcus wärnheim at nassaukerk": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-19",
+"v": 4
+},
 "cedla film screening un día soleado": {
 "tm5": true,
 "tmdb": true,
@@ -3251,10 +3257,22 @@
 "tried": "2026-11-17",
 "v": 4
 },
+"dag van de korte film europees kinderprogramma 4 daar zit muziek in": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-19",
+"v": 4
+},
 "dag van de korte film nederlands kinderprogramma 7": {
 "tm5": true,
 "tmdb": true,
 "tried": "2026-11-18",
+"v": 4
+},
+"dag van de korte film nederlands programma met q a": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-19",
 "v": 4
 },
 "dag van de korte film voor kinderen 7": {
@@ -9495,6 +9513,25 @@
 "v": 4,
 "yr": 2027
 },
+"la vie d une femme": {
+"dr": "Charline Bourgeois-Tacquet",
+"du": 98,
+"gn": [
+"Drama",
+"Comedy"
+],
+"lg": [
+"fr",
+"it"
+],
+"rt": 6.4,
+"sy": "Gabrielle, a dedicated surgeon and head of a hospital department, is stretched thin by the weight of responsibility. There is little time left for her private life: a loving husband and a mother who depends on…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-19",
+"v": 4,
+"yr": 2026
+},
 "la vita va così": {
 "dr": "Riccardo Milani",
 "du": 118,
@@ -11322,6 +11359,22 @@
 "tmdb": true,
 "tried": "2026-10-22",
 "v": 4
+},
+"nature short films by berlin based artists": {
+"dr": "Artavazd Peleshian",
+"du": 62,
+"gn": [
+"Documentary"
+],
+"lg": [
+"xx"
+],
+"sy": "While it was long thought that his filmography had concluded with the film Life in 1993, Peleshian has now returned with a new film, simply titled La Nature, through which he once again observes the delicate…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-19",
+"v": 4,
+"yr": 2022
 },
 "nayyi navelli": {
 "tm5": true,
@@ -16686,6 +16739,12 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"the science of pleasure": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-19",
+"v": 4
 },
 "the seventh seal": {
 "dr": "Ingmar Bergman",

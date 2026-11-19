@@ -3350,6 +3350,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Markt Buikslotermeerplein": {
+"lat": 52.39914,
+"lon": 4.93755,
+"q": "name",
+"area": "Noord"
+},
 "Mastercard Hotelnacht": {
 "skip": true,
 "q": "not found"
@@ -5476,6 +5482,10 @@
 "lon": 4.90079,
 "q": "name",
 "area": "Centrum"
+},
+"Theater Perdu": {
+"skip": true,
+"q": "not found"
 },
 "Theater de Richel": {
 "lat": 52.37114,
