@@ -266,7 +266,7 @@
 },
 "https://parallel.am/programme/baile-trama-8": {
 "none": true,
-"chk": "2026-11-12"
+"chk": "2026-11-19"
 },
 "https://parallel.am/programme/bambii-ade": {
 "h": "19:00",
@@ -470,6 +470,11 @@
 "eh": "07:00",
 "chk": "2026-11-13"
 },
+"https://radion.amsterdam/program/radion-invites-transition/": {
+"h": "23:00",
+"eh": "07:00",
+"chk": "2026-11-19"
+},
 "https://radion.amsterdam/program/radion-invites-tssrct/": {
 "h": "23:00",
 "eh": "07:00",
@@ -506,7 +511,7 @@
 },
 "https://radion.amsterdam/program/vault-sessions-x-bassiani-wkndr/": {
 "none": true,
-"chk": "2026-11-12"
+"chk": "2026-11-19"
 },
 "https://radion.amsterdam/program/void-by-orphic/": {
 "h": "20:00",
@@ -668,7 +673,7 @@
 },
 "https://tolhuistuin.nl/en/events/congerentie-stop-geweld-tegen-vrouwen": {
 "none": true,
-"chk": "2026-11-12"
+"chk": "2026-11-19"
 },
 "https://tolhuistuin.nl/en/events/congerentie-stop-geweld-tegen-vrouwen?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
 "none": true,
@@ -734,7 +739,7 @@
 },
 "https://tolhuistuin.nl/en/events/de-danskamer-25": {
 "none": true,
-"chk": "2026-11-12"
+"chk": "2026-11-19"
 },
 "https://tolhuistuin.nl/en/events/de-danskamer-25?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
 "none": true,
@@ -1376,7 +1381,7 @@
 },
 "https://tolhuistuin.nl/en/events/one-fine-mess-12": {
 "none": true,
-"chk": "2026-11-12"
+"chk": "2026-11-19"
 },
 "https://tolhuistuin.nl/en/events/one-fine-mess-12?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
 "none": true,
@@ -1384,7 +1389,7 @@
 },
 "https://tolhuistuin.nl/en/events/one-fine-mess-13": {
 "none": true,
-"chk": "2026-11-12"
+"chk": "2026-11-19"
 },
 "https://tolhuistuin.nl/en/events/one-fine-mess-8": {
 "none": true,
@@ -2011,7 +2016,7 @@
 },
 "https://tolhuistuin.nl/en/events/workshop-kunst-x-activisme-breitner-studenten": {
 "none": true,
-"chk": "2026-11-12"
+"chk": "2026-11-19"
 },
 "https://tolhuistuin.nl/en/events/workshop-kunst-x-activisme-breitner-studenten?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
 "none": true,
@@ -2391,6 +2396,10 @@
 "h": "20:30",
 "chk": "2026-10-11"
 },
+"https://www.cinetol.nl/events/shaemless": {
+"h": "20:30",
+"chk": "2026-11-19"
+},
 "https://www.cinetol.nl/events/shaking-hand": {
 "h": "20:30",
 "chk": "2026-10-11"
@@ -2545,6 +2554,11 @@
 "eh": "21:45",
 "chk": "2026-10-29"
 },
+"https://www.dehallen-amsterdam.nl/en/agenda/sinterklaas-komt-langs": {
+"h": "11:00",
+"eh": "16:00",
+"chk": "2026-11-19"
+},
 "https://www.dehallen-amsterdam.nl/en/agenda/speel-deel-ruil-en-recycle-festival-2": {
 "h": "11:00",
 "eh": "15:00",
@@ -2642,6 +2656,19 @@
 },
 "chk": "2026-10-11"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/bachs-matthaus-passion-met-het-concertgebouworkest": {
+"dates": {
+"2027-03-19": {
+"h": "19:30",
+"eh": "21:50"
+},
+"2027-03-21": {
+"h": "12:00",
+"eh": "14:20"
+}
+},
+"chk": "2026-11-19"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/barok-dagen-weesp": {
 "dates": {
 "2026-11-13": {
@@ -2658,6 +2685,15 @@
 }
 },
 "chk": "2026-10-28"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/barok-op-zondagmiddag-shunske-sato-en-vrienden": {
+"dates": {
+"2026-12-27": {
+"h": "15:25",
+"eh": "17:15"
+}
+},
+"chk": "2026-11-19"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/blood-red-shoes": {
 "dates": {
@@ -2961,6 +2997,15 @@
 },
 "chk": "2026-10-11"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/kerstspel-nieuw-vocaal-amsterdam-holland-baroque": {
+"dates": {
+"2026-12-22": {
+"h": "10:30",
+"eh": "12:00"
+}
+},
+"chk": "2026-11-19"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/kiwi-jr": {
 "dates": {
 "2026-11-10": {
@@ -2985,6 +3030,15 @@
 }
 },
 "chk": "2026-10-11"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/lauras-swinging-christmas": {
+"dates": {
+"2026-11-21": {
+"h": "18:30",
+"eh": "19:00"
+}
+},
+"chk": "2026-11-19"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/lorenzo-viotti-dirigeert-wagners-der-ring-ohne-worte": {
 "dates": {
@@ -3593,6 +3647,19 @@
 },
 "chk": "2026-11-18"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/back-to-the-future": {
+"dates": {
+"2026-11-26": {
+"h": "12:10",
+"eh": "14:06"
+},
+"2026-12-02": {
+"h": "10:25",
+"eh": "12:21"
+}
+},
+"chk": "2026-11-19"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/bezoek-de-pakjesboot-in-weesp": {
 "dates": {
 "2026-12-03": {
@@ -3851,6 +3918,19 @@
 },
 "chk": "2026-10-24"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/documentaire-naza": {
+"dates": {
+"2026-11-19": {
+"h": "12:15",
+"eh": "13:45"
+},
+"2026-11-23": {
+"h": "12:00",
+"eh": "13:30"
+}
+},
+"chk": "2026-11-19"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/dolf-jansen-schaamteloos-oudejaars-2026": {
 "dates": {
 "2026-12-26": {
@@ -3995,6 +4075,15 @@
 },
 "chk": "2026-10-24"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/het-kleine-theater-roodkapje-3": {
+"dates": {
+"2027-01-03": {
+"h": "11:00",
+"eh": "11:45"
+}
+},
+"chk": "2026-11-19"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/het-kleine-theater-sneeuwwitje-3": {
 "dates": {
 "2026-12-30": {
@@ -4003,6 +4092,28 @@
 }
 },
 "chk": "2026-10-24"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/het-meisje-dat-de-wereld-schreef-cezanne-tegelberg-and-company-6": {
+"dates": {
+"2026-12-29": {
+"h": "18:50",
+"eh": "19:35"
+}
+},
+"chk": "2026-11-19"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/het-verhaal-van-sint-baba-3": {
+"dates": {
+"2026-11-28": {
+"h": "11:00",
+"eh": "12:00"
+},
+"2026-11-29": {
+"h": "11:00",
+"eh": "12:00"
+}
+},
+"chk": "2026-11-19"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/ida": {
 "dates": {
@@ -4591,6 +4702,23 @@
 },
 "chk": "2026-11-12"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/wild-horse-nine": {
+"dates": {
+"2026-11-26": {
+"h": "12:05",
+"eh": "14:01"
+},
+"2026-11-27": {
+"h": "12:05",
+"eh": "14:01"
+},
+"2026-12-02": {
+"h": "12:10",
+"eh": "14:06"
+}
+},
+"chk": "2026-11-19"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/willemijn-verkaik-edwin-jonker-ea-next-to-normal": {
 "dates": {
 "2026-12-09": {
@@ -4616,6 +4744,19 @@
 }
 },
 "chk": "2026-11-12"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/yi-yi-4k-restoration": {
+"dates": {
+"2026-11-27": {
+"h": "10:55",
+"eh": "13:48"
+},
+"2026-12-01": {
+"h": "10:15",
+"eh": "13:08"
+}
+},
+"chk": "2026-11-19"
 },
 "https://www.iamsterdam.com/uit/agenda/winkelen/markten/speelgoedverkoop": {
 "dates": {
@@ -4646,5 +4787,18 @@
 }
 },
 "chk": "2026-11-09"
+},
+"https://www.iamsterdam.com/uit/agenda/winkelen/markten/winter-sale-retort-ateliers": {
+"dates": {
+"2026-12-11": {
+"h": "17:00",
+"eh": "20:00"
+},
+"2026-12-12": {
+"h": "12:00",
+"eh": "17:00"
+}
+},
+"chk": "2026-11-19"
 }
 }

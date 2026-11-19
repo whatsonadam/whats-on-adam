@@ -1699,6 +1699,10 @@
 "q": "name",
 "area": "West"
 },
+"De Hortus: historische groene rustplek in Amsterdam": {
+"skip": true,
+"q": "not found"
+},
 "De Japanner": {
 "lat": 52.33579,
 "lon": 4.8743,
@@ -1884,6 +1888,12 @@
 "lon": 4.86971,
 "q": "addr",
 "area": "West"
+},
+"De Vioolkist": {
+"lat": 52.37421,
+"lon": 4.8761,
+"q": "name",
+"area": "Centrum"
 },
 "De Vlieger": {
 "lat": 52.35479,
@@ -3188,6 +3198,12 @@
 "skip": true,
 "q": "not found"
 },
+"Localie Hub": {
+"lat": 52.39858,
+"lon": 4.85103,
+"q": "name",
+"area": "West"
+},
 "Lofi": {
 "skip": true,
 "q": "not found"
@@ -4056,6 +4072,12 @@
 "q": "name",
 "area": "West"
 },
+"Pastilla Club": {
+"lat": 52.40137,
+"lon": 4.7382,
+"q": "name",
+"area": "West"
+},
 "Pathe Tuschinski Theater": {
 "skip": true,
 "q": "not found"
@@ -4353,6 +4375,12 @@
 "lon": 4.93821,
 "q": "name",
 "area": "Oost"
+},
+"Retort Ateliers": {
+"lat": 52.35768,
+"lon": 4.89465,
+"q": "name",
+"area": "Zuid"
 },
 "Rhone Ephesus Amsterdam": {
 "skip": true,
@@ -5519,6 +5547,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Tram House": {
+"lat": 52.37208,
+"lon": 4.88923,
+"q": "name",
+"area": "Centrum"
+},
 "Transit": {
 "lat": 52.38449,
 "lon": 4.92875,
@@ -5568,6 +5602,12 @@
 "Uber Amsterdam": {
 "skip": true,
 "q": "not found"
+},
+"Uilenburger Sjoel": {
+"lat": 52.37018,
+"lon": 4.90534,
+"q": "name",
+"area": "Centrum"
 },
 "Uilenburgersjoel": {
 "skip": true,
@@ -5968,6 +6008,12 @@
 "Winternights Maastricht": {
 "skip": true,
 "q": "not found"
+},
+"Wispe Brouwerij": {
+"lat": 52.30915,
+"lon": 5.0411,
+"q": "name",
+"area": "Weesp"
 },
 "World Trade Center (Amsterdam)": {
 "lat": 52.33654,

@@ -1116,6 +1116,18 @@
 "tried": "2026-11-11",
 "v": 4
 },
+"ando": {
+"dr": "Yoshiaki Arai",
+"du": 60,
+"lg": [
+"ja"
+],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-19",
+"v": 4,
+"yr": 2025
+},
 "anomalisa 2015 strings of imagination": {
 "tm4": true,
 "tmdb": true,
@@ -1543,6 +1555,12 @@
 "tried": "2026-11-13",
 "v": 4,
 "yr": 2018
+},
+"best of idfa on tour 2026": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-19",
+"v": 4
 },
 "best of kaboom animation festival": {
 "tm5": true,
@@ -3040,6 +3058,25 @@
 "v": 4,
 "yr": 2026
 },
+"cowboy bebop the movie": {
+"dr": "Shinichiro Watanabe",
+"du": 115,
+"gn": [
+"Action",
+"Animation",
+"Science Fiction"
+],
+"lg": [
+"ja"
+],
+"rt": 7.7,
+"sy": "The year is 2071. Following a terrorist bombing, a deadly virus is released on the populace of Mars and the government has issued the largest bounty in history, for the capture of whoever is behind it. The…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-19",
+"v": 4,
+"yr": 2001
+},
 "coyote vs acme nl": {
 "dr": "Dave Green",
 "du": 101,
@@ -3709,7 +3746,7 @@
 "ditte s filmclub in soul station": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-05",
+"tried": "2026-11-19",
 "v": 4
 },
 "djeliya memory of mandingo": {
@@ -3781,6 +3818,12 @@
 "tried": "2026-11-06",
 "v": 4,
 "yr": 2025
+},
+"documentaire naza": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-19",
+"v": 4
 },
 "donnie darko": {
 "dr": "Richard Kelly",
@@ -6375,7 +6418,7 @@
 "het beste van het slechtste": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-05",
+"tried": "2026-11-19",
 "v": 4
 },
 "het compromis": {
@@ -6663,6 +6706,22 @@
 "v": 4,
 "yr": 2024
 },
+"hold your breath like a lover": {
+"dr": "Igarashi Kohei",
+"du": 85,
+"gn": [
+"Drama"
+],
+"lg": [
+"ja"
+],
+"sy": "December 30th, 2017. Two years before the Tokyo Olympics, due to a revision of the Constitution, a National Defense Force is created in Japan and it starts military operations. In an incineration plant, a dog…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-19",
+"v": 4,
+"yr": 2014
+},
 "holy wood dust": {
 "dr": "Viktor Kossakovsky",
 "du": 100,
@@ -6823,6 +6882,12 @@
 "v": 4,
 "yr": 2026
 },
+"howling humongous interface": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-19",
+"v": 4
+},
 "human de publieke tribune": {
 "dr": "Yann Arthus-Bertrand",
 "du": 191,
@@ -6875,7 +6940,7 @@
 "humans of film festival party with dj rasureitor": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-05",
+"tried": "2026-11-19",
 "v": 4
 },
 "humans of film festival short film programme the art of being you followed by a panel": {
@@ -7271,6 +7336,22 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2014
+},
+"imaginary line": {
+"dr": "Kensho Sakamoto",
+"du": 90,
+"gn": [
+"Drama"
+],
+"lg": [
+"ja"
+],
+"sy": "Fumiko is a film director who hasn't been able to lay her mother's ashes to rest. At her friend Yume's suggestion, she decides to scatter the ashes into the ocean. They head off to her mother's hometown of…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-19",
+"v": 4,
+"yr": 2024
 },
 "imagine film festival": {
 "tm4": true,
@@ -8385,6 +8466,19 @@
 "v": 4,
 "yr": 2010
 },
+"inch forward": {
+"dr": "Su Yu-chun",
+"du": 83,
+"gn": [
+"Drama"
+],
+"sy": "A film about making films, we follow the exploits of Kiriko, an indie film director who is struggling to make a road movie that ends on a beach. Why do so many independent films have to have a beach scene?…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-19",
+"v": 4,
+"yr": 2023
+},
 "indigenous women keepers of knowledge": {
 "dr": "",
 "du": 125,
@@ -8415,13 +8509,13 @@
 "international art talent festival": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-05",
+"tried": "2026-11-19",
 "v": 4
 },
 "interstella 5555 2003": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-05",
+"tried": "2026-11-19",
 "v": 4
 },
 "interstellar": {
@@ -8915,7 +9009,7 @@
 "kinotalk sugar": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-05",
+"tried": "2026-11-19",
 "v": 4
 },
 "kissable screens looking back": {
@@ -9150,6 +9244,27 @@
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4,
+"yr": 2026
+},
+"la bola negra rfd monthly special": {
+"dr": "Javier Ambrossi, Javier Calvo",
+"du": 159,
+"gn": [
+"Drama",
+"War"
+],
+"lg": [
+"es",
+"en",
+"it"
+],
+"qr": 1,
+"rt": 8.0,
+"sy": "The intertwined lives of three men in three different eras, three lives intimately linked by sexuality and desire, pain, and legacy.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-19",
 "v": 4,
 "yr": 2026
 },
@@ -10786,7 +10901,7 @@
 "missie muizenjacht": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-05",
+"tried": "2026-11-19",
 "v": 4
 },
 "mit verlust ist zu rechnen": {
@@ -11606,6 +11721,12 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"nt live fleabag": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-19",
+"v": 4
+},
 "nuisance bear": {
 "dr": "Jack Weisman, Gabriela Osio Vanden",
 "du": 15,
@@ -11760,6 +11881,12 @@
 "v": 4,
 "yr": 2026
 },
+"ontwikkeling alles op zijn tijd": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-19",
+"v": 4
+},
 "openingsfilm congo boy with director rafiki fariala q a en tapis rouge 2026": {
 "tm4": true,
 "tm5": true,
@@ -11825,6 +11952,24 @@
 "tmdb": true,
 "tried": "2026-11-11",
 "v": 4
+},
+"our house": {
+"dr": "Anthony Scott Burns",
+"du": 90,
+"gn": [
+"Horror"
+],
+"lg": [
+"fr",
+"en"
+],
+"rt": 5.6,
+"sy": "Ethan is suffering enormous guilt after his parents are killed in a car accident. He quits a promising future at MIT and work on a revolutionary experiment in order to care for his younger siblings.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-19",
+"v": 4,
+"yr": 2018
 },
 "out of sight": {
 "dr": "Steven Soderbergh",
@@ -12179,6 +12324,26 @@
 "v": 4,
 "yr": 1984
 },
+"passion 2026": {
+"dr": "Brian De Palma",
+"du": 101,
+"gn": [
+"Thriller",
+"Drama",
+"Crime"
+],
+"lg": [
+"en",
+"de"
+],
+"rt": 5.2,
+"sy": "The rivalry between the manipulative boss of an advertising agency and her talented protégée escalates from stealing credit to public humiliation to murder.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-19",
+"v": 4,
+"yr": 2013
+},
 "pather panchali": {
 "dr": "Satyajit Ray",
 "du": 115,
@@ -12508,7 +12673,7 @@
 "preview you can see everything": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-05",
+"tried": "2026-11-19",
 "v": 4
 },
 "preview youri": {
@@ -13078,6 +13243,23 @@
 "tried": "2026-10-29",
 "v": 4,
 "yr": 1978
+},
+"rocky": {
+"dr": "John G. Avildsen",
+"du": 120,
+"gn": [
+"Drama"
+],
+"lg": [
+"en"
+],
+"rt": 7.8,
+"sy": "Rocky Balboa is a Philadelphia club fighter who seems to be going nowhere. But when a stroke of fate puts him in the ring with a world heavyweight champion, Rocky knows that it's his one shot at the big time —…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-19",
+"v": 4,
+"yr": 1976
 },
 "roma 1972": {
 "dr": "Federico Fellini",
@@ -14096,10 +14278,16 @@
 "yr": 2026
 },
 "spinoza": {
+"dr": "Rudolf van den Berg",
+"du": 78,
+"lg": [
+"nl"
+],
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-05",
-"v": 4
+"tried": "2026-11-19",
+"v": 4,
+"yr": 2026
 },
 "spirited away": {
 "dr": "Hayao Miyazaki",
@@ -14311,6 +14499,24 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-11-12",
+"v": 4,
+"yr": 1953
+},
+"summer with monika 1953": {
+"dr": "Ingmar Bergman",
+"du": 98,
+"gn": [
+"Drama",
+"Romance"
+],
+"lg": [
+"sv"
+],
+"rt": 7.3,
+"sy": "One summer day, two teens begin a reckless affair and abandon their families to be with one another.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-19",
 "v": 4,
 "yr": 1953
 },
@@ -15602,6 +15808,24 @@
 "v": 4,
 "yr": 1997
 },
+"the further mis adventures of cliff booth": {
+"dr": "David Fincher",
+"du": 141,
+"gn": [
+"Comedy",
+"Drama",
+"Thriller"
+],
+"lg": [
+"en"
+],
+"sy": "Eight years after the events of Once Upon a Time in... Hollywood, Cliff Booth returns to a changing Los Angeles. Now working as a fixer in the shadows of the Hollywood studio system, Cliff finds himself…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-19",
+"v": 4,
+"yr": 2026
+},
 "the garden of earthly delights": {
 "dr": "Morgan Knibbe",
 "du": 124,
@@ -16478,6 +16702,24 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-11-12",
+"v": 4,
+"yr": 1957
+},
+"the seventh seal 1957": {
+"dr": "Ingmar Bergman",
+"du": 96,
+"gn": [
+"Fantasy",
+"Drama"
+],
+"lg": [
+"sv"
+],
+"rt": 8.1,
+"sy": "When disillusioned Swedish knight Antonius Block returns home from the Crusades to find his country in the grips of the Black Death, he challenges Death to a chess match for his life. Tormented by the belief…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-19",
 "v": 4,
 "yr": 1957
 },
@@ -18628,7 +18870,7 @@
 "world s appreciated kitsch screening time jawbreaker a film about anti cimex": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-05",
+"tried": "2026-11-19",
 "v": 4
 },
 "x the man with the x ray eyes": {
@@ -18679,6 +18921,22 @@
 "tmdb": true,
 "tried": "2026-11-10",
 "v": 4
+},
+"yellow kid": {
+"dr": "Tetsuya Mariko",
+"du": 111,
+"gn": [
+"Drama"
+],
+"lg": [
+"ja"
+],
+"sy": "Fired from his part-time job in a restaurant kitchen for absenteeism, rookie boxer Tamura has a lot to be angry and frustrated about in his life. But things start to change when he’s approached at the gym by…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-19",
+"v": 4,
+"yr": 2010
 },
 "yellow letters": {
 "dr": "Ilker Çatak",
