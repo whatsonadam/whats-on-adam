@@ -790,6 +790,23 @@
 "v": 4,
 "yr": 2023
 },
+"all that jazz 1979": {
+"dr": "Bob Fosse",
+"du": 123,
+"gn": [
+"Drama"
+],
+"lg": [
+"en"
+],
+"rt": 7.5,
+"sy": "Joe Gideon is at the top of the heap, one of the most successful directors and choreographers in musical theater. But he can feel his world slowly collapsing around him - his obsession with work has almost…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-20",
+"v": 4,
+"yr": 1979
+},
 "all you need is kill 2025": {
 "dr": "Kenichiro Akimoto",
 "du": 86,
@@ -18575,6 +18592,26 @@
 "tm4": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4,
+"yr": 1983
+},
+"videodrome david cronenberg 1983": {
+"dr": "David Cronenberg",
+"du": 88,
+"gn": [
+"Horror",
+"Science Fiction",
+"Mystery"
+],
+"lg": [
+"en",
+"ja"
+],
+"rt": 7.2,
+"sy": "As the president of a trashy TV channel, Max Renn is desperate for new programming to attract viewers. When he happens upon \"Videodrome,\" a TV show dedicated to gratuitous torture and punishment, Max sees a…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-20",
 "v": 4,
 "yr": 1983
 },
