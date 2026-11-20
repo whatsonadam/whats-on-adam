@@ -2702,6 +2702,9 @@
 "q": "name",
 "area": "Centrum"
 },
+"Houtbaar Haarlem": {
+"skip": true
+},
 "Huis Marseille": {
 "lat": 52.36764,
 "lon": 4.88484,
@@ -3133,6 +3136,12 @@
 "LEIDSE Amsterdam": {
 "skip": true,
 "q": "not found"
+},
+"LILA": {
+"lat": 52.38085,
+"lon": 4.89025,
+"q": "name",
+"area": "Centrum"
 },
 "LIMA": {
 "lat": 52.34561,
@@ -3910,6 +3919,12 @@
 "skip": true,
 "q": "not found"
 },
+"Oosterkerk": {
+"lat": 52.36999,
+"lon": 4.91931,
+"q": "name",
+"area": "Centrum"
+},
 "Oosterkerk Concert Hall": {
 "skip": true,
 "q": "not found"
@@ -4209,6 +4224,12 @@
 "lon": 4.90401,
 "q": "name",
 "area": "Noord"
+},
+"Poppentheater Koos Kneus": {
+"lat": 52.35623,
+"lon": 4.9142,
+"q": "name",
+"area": "Oost"
 },
 "Poppodium P60": {
 "skip": true,

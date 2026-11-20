@@ -2177,6 +2177,10 @@
 "h": "20:00",
 "chk": "2026-10-20"
 },
+"https://www.cinetol.nl/events/bug-teeth": {
+"h": "21:00",
+"chk": "2026-11-20"
+},
 "https://www.cinetol.nl/events/camille-jansen": {
 "h": "20:00",
 "chk": "2026-10-11"
@@ -2644,6 +2648,24 @@
 },
 "chk": "2026-10-14"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/als-het-stil-is-hoor-je-alles": {
+"dates": {
+"2026-12-12": {
+"h": "15:30",
+"eh": "17:00"
+}
+},
+"chk": "2026-11-20"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/amsterdams-andalusisch-orkest-andalusian-currents": {
+"dates": {
+"2026-12-17": {
+"h": "20:15",
+"eh": "21:45"
+}
+},
+"chk": "2026-11-20"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/ares": {
 "dates": {
 "2026-11-18": {
@@ -2681,6 +2703,19 @@
 }
 },
 "chk": "2026-11-19"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/bachs-matthaus-passion-met-nederlands-kamerorkest": {
+"dates": {
+"2027-03-20": {
+"h": "19:30",
+"eh": "22:30"
+},
+"2027-03-22": {
+"h": "19:30",
+"eh": "21:50"
+}
+},
+"chk": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/barok-dagen-weesp": {
 "dates": {
@@ -2870,6 +2905,15 @@
 }
 },
 "chk": "2026-10-29"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/familieconcert-zing-mee-slodde-and-vos-4": {
+"dates": {
+"2027-03-20": {
+"h": "13:30",
+"eh": "14:30"
+}
+},
+"chk": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/familievoorstelling-rustig": {
 "dates": {

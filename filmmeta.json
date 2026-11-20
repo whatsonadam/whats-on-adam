@@ -746,6 +746,12 @@
 "tried": "2026-10-14",
 "v": 4
 },
+"alice pioneer of cinema": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-20",
+"v": 4
+},
 "all of a sudden": {
 "dr": "Ryusuke Hamaguchi",
 "du": 196,
@@ -2169,7 +2175,7 @@
 "cavia in concert at nassaukerk": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-06",
+"tried": "2026-11-20",
 "v": 4
 },
 "cavia in concert at nassaukerk le révélateur with live score by sasha sykes": {
@@ -2495,7 +2501,7 @@
 "cinemini mannetje tak": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-06",
+"tried": "2026-11-20",
 "v": 4
 },
 "cinemini zoek zoek zoek": {
@@ -2970,6 +2976,12 @@
 "tried": "2026-10-26",
 "v": 4,
 "yr": 2013
+},
+"country spy": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-20",
+"v": 4
 },
 "coward": {
 "dr": "Lukas Dhont",
@@ -3843,6 +3855,12 @@
 "tried": "2026-11-19",
 "v": 4
 },
+"dolores guapa noche de amor desesperada incl director talk": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-20",
+"v": 4
+},
 "donnie darko": {
 "dr": "Richard Kelly",
 "du": 114,
@@ -4188,7 +4206,7 @@
 "dykemarch x filmhuis cavia 1": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-06",
+"tried": "2026-11-20",
 "v": 4
 },
 "early seidl shorts": {
@@ -4309,6 +4327,25 @@
 "tried": "2026-11-12",
 "v": 4,
 "yr": 1966
+},
+"el desencanto 1976 50th anniversary incl director talk": {
+"dr": "Jaime Chavarri ",
+"du": 97,
+"gn": [
+"Drama",
+"Fantasy"
+],
+"lg": [
+"es",
+"ca",
+"an"
+],
+"sy": "In a remote village in the Pyrenees, Inés discovers that the relocation of an ancient church is only the beginning of an immersion into a magical and ancestral world that will change her perception of life and…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-20",
+"v": 4,
+"yr": 1976
 },
 "el extraño viaje": {
 "dr": "Fernando Fernán Gómez",
@@ -5217,6 +5254,21 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1996
+},
+"fertile": {
+"dr": "Shandy Bhanu Radityo",
+"du": 2,
+"gn": [
+"Horror",
+"Drama",
+"Thriller"
+],
+"sy": "Not all who are greedy end up prosperous, and not all who are honest end up broken. Sometimes, the soil fed with blood grows fertile for a moment.only to lose its soul forever.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-20",
+"v": 4,
+"yr": 2025
 },
 "fiber factory": {
 "tm5": true,
@@ -6219,10 +6271,16 @@
 "v": 4
 },
 "hadoota": {
+"dr": "Mazen Ashraf",
+"du": 120,
+"lg": [
+"ar"
+],
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-06",
-"v": 4
+"tried": "2026-11-20",
+"v": 4,
+"yr": 2026
 },
 "halloween": {
 "dr": "David Gordon Green",
@@ -6432,6 +6490,12 @@
 "tried": "2026-11-09",
 "v": 4,
 "yr": 2026
+},
+"herzsprung 35 fotos short": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-20",
+"v": 4
 },
 "het beste van het slechtste": {
 "tm5": true,
@@ -8364,10 +8428,14 @@
 "v": 4
 },
 "imroz da bahar": {
+"dr": "Özcan Alper",
+"du": 90,
+"lg": [],
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-06",
-"v": 4
+"tried": "2026-11-20",
+"v": 4,
+"yr": 2026
 },
 "in person ulrich seidl": {
 "tm5": true,
@@ -8694,6 +8762,12 @@
 "tried": "2026-11-10",
 "v": 4
 },
+"iqmfx 100 gado gado parts of heart tribute to john badalu": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-20",
+"v": 4
+},
 "it s a wonderful life": {
 "dr": "Frank Capra",
 "du": 130,
@@ -8730,6 +8804,23 @@
 "tmdb": true,
 "tried": "2026-10-25",
 "v": 4
+},
+"jeanne dielman 23 quai du commerce 1080 bruxelles": {
+"dr": "Chantal Akerman",
+"du": 201,
+"gn": [
+"Drama"
+],
+"lg": [
+"fr"
+],
+"rt": 7.4,
+"sy": "A lonely young widow lives with her son following an immutable order: while the boy is in school, she cares for their apartment, does chores, and receives clients in the afternoon.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-20",
+"v": 4,
+"yr": 1975
 },
 "jenin the nakba between us": {
 "dr": "Serene Husni",
@@ -9404,6 +9495,25 @@
 "tried": "2026-11-12",
 "v": 4
 },
+"la jetée": {
+"dr": "Chris Marker",
+"du": 29,
+"gn": [
+"Drama",
+"Romance",
+"Science Fiction"
+],
+"lg": [
+"fr"
+],
+"rt": 7.8,
+"sy": "A man confronts his past during an experiment that attempts to find a solution to the problems of a post-apocalyptic world caused by a world war.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-20",
+"v": 4,
+"yr": 1962
+},
 "la llorona": {
 "dr": "Jayro Bustamante",
 "du": 97,
@@ -9579,6 +9689,12 @@
 "tried": "2026-11-05",
 "v": 4,
 "yr": 2026
+},
+"lab111 10th anniversary party alone in the dark together": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-20",
+"v": 4
 },
 "labyrinth sing along": {
 "dr": "Jim Henson",
@@ -10880,6 +10996,25 @@
 "v": 4,
 "yr": 1951
 },
+"mirage": {
+"dr": "Oriol Paulo",
+"du": 129,
+"gn": [
+"Thriller",
+"Drama",
+"Mystery"
+],
+"lg": [
+"es"
+],
+"rt": 7.5,
+"sy": "During a mysterious thunderstorm, Vera, a young mother, manages to save a life in danger, but her good deed causes a disturbing chain of unexpected consequences.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-20",
+"v": 4,
+"yr": 2018
+},
 "mirror": {
 "dr": "Andrei Tarkovsky",
 "du": 107,
@@ -11269,6 +11404,24 @@
 "tmdb": true,
 "tried": "2026-10-14",
 "v": 4
+},
+"mysterious skin 4k restoration": {
+"dr": "Gregg Araki",
+"du": 105,
+"gn": [
+"Drama"
+],
+"lg": [
+"en"
+],
+"qr": 1,
+"rt": 7.7,
+"sy": "A teenage hustler and a young man obsessed with alien abductions cross paths, together discovering a horrible, liberating truth.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-20",
+"v": 4,
+"yr": 2004
 },
 "mãos à terra": {
 "dr": "Sérgio Guidoux",
@@ -11767,6 +11920,12 @@
 "tried": "2026-10-26",
 "v": 4,
 "yr": 1964
+},
+"nt live 2026 fleabag": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-20",
+"v": 4
 },
 "nt live 2026 the misanthrope": {
 "tm4": true,
@@ -12884,6 +13043,12 @@
 "v": 4,
 "yr": 2026
 },
+"queer filmweekend": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-20",
+"v": 4
+},
 "queer movie night": {
 "tm5": true,
 "tmdb": true,
@@ -12906,6 +13071,27 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 2026
+},
+"quién puede matar a un niño 1976 50th anniversary incl conversation": {
+"dr": "Chicho Ibáñez Serrador",
+"du": 112,
+"gn": [
+"Drama",
+"Horror",
+"Thriller"
+],
+"lg": [
+"de",
+"es",
+"en"
+],
+"rt": 7.0,
+"sy": "A couple of English tourists arrive at the island of Almanzora, off the Spanish Mediterranean coast, where they discover that there are no adults in a small fishing village, only some children who stare at…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-20",
+"v": 4,
+"yr": 1976
 },
 "r i p bits and pieces": {
 "dr": "Jan Doense",
@@ -14616,6 +14802,25 @@
 "v": 4,
 "yr": 1956
 },
+"swapped": {
+"dr": "Nathan Greno",
+"du": 102,
+"gn": [
+"Adventure",
+"Animation",
+"Family"
+],
+"lg": [
+"en"
+],
+"rt": 8.8,
+"sy": "A small woodland creature and a majestic bird, two natural sworn enemies of the Valley, magically trade places and set off on an adventure of a lifetime to switch back. Their journey soon uncovers a greater…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-20",
+"v": 4,
+"yr": 2026
+},
 "symbiopsychotaxiplasm take one": {
 "dr": "William Greaves",
 "du": 75,
@@ -15508,6 +15713,26 @@
 "v": 4,
 "yr": 2026
 },
+"the decameron 1971": {
+"dr": "Pier Paolo Pasolini",
+"du": 111,
+"gn": [
+"History",
+"Drama",
+"Comedy"
+],
+"lg": [
+"de",
+"it"
+],
+"rt": 6.8,
+"sy": "A young Sicilian is swindled twice, but ends up rich; a man poses as a deaf-mute in a convent of curious nuns; a woman must hide her lover when her husband comes home early; a scoundrel fools a priest on his…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-20",
+"v": 4,
+"yr": 1971
+},
 "the desert of the real": {
 "dr": "Luuk Bouwman",
 "du": 109,
@@ -16334,6 +16559,25 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-10-14",
+"v": 4,
+"yr": 2001
+},
+"the lord of the rings the fellowship of the ring 25th anniversary extended cut": {
+"dr": "Peter Jackson",
+"du": 179,
+"gn": [
+"Adventure",
+"Fantasy",
+"Action"
+],
+"lg": [
+"en"
+],
+"rt": 8.5,
+"sy": "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-20",
 "v": 4,
 "yr": 2001
 },
@@ -18421,6 +18665,25 @@
 "v": 4,
 "yr": 1976
 },
+"watership down": {
+"dr": "Marit Rosen",
+"du": 101,
+"gn": [
+"Adventure",
+"Animation",
+"Drama"
+],
+"lg": [
+"en"
+],
+"rt": 7.2,
+"sy": "When the warren belonging to a community of rabbits is threatened, a brave group led by Fiver, Bigwig, Blackberry and Hazel leave their homeland in a search of a safe new haven.",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-20",
+"v": 4,
+"yr": 1978
+},
 "wattstax": {
 "dr": "Mel Stuart",
 "du": 103,
@@ -18490,6 +18753,12 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-11-09",
+"v": 4
+},
+"we made this short film festival hello stranger": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-20",
 "v": 4
 },
 "we nous": {

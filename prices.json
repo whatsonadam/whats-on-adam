@@ -5,7 +5,7 @@
 },
 "https://assets-eur.mkt.dynamics.com/9380711e-5094-408f-ae16-dbe8a28e3047/digitalassets/standaloneforms/1f67c107-c7c0-f111-aaad-7c1e5285ab3f?readableEventId=HV_Avond_van_de_dood_20261715401882": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://desering.org/event/a-gathering-of-joy": {
 "p": null,
@@ -26,6 +26,11 @@
 "https://desering.org/event/ade-wednesday---raving-charlie": {
 "p": null,
 "t": "2026-10-17"
+},
+"https://desering.org/event/arcadia-un_tied": {
+"p": null,
+"t": "2026-11-20",
+"tk": "https://radio-arcadia.weticket.io/radio-arcadia-x-de-sering-untied/shop"
 },
 "https://desering.org/event/care-in-its-own-words": {
 "p": null,
@@ -76,6 +81,10 @@
 "https://desering.org/event/lino-for-prisoners-workshop-and-letter-writing": {
 "p": null,
 "t": "2026-10-17"
+},
+"https://desering.org/event/loose-ends-wired-jewellery-making": {
+"p": null,
+"t": "2026-11-20"
 },
 "https://desering.org/event/onda-forte": {
 "p": null,
@@ -296,7 +305,7 @@
 },
 "https://iisg.amsterdam/nl/events/palestine-focus-tatreez-through-generations-heritage-and-political-expression-palestinian": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://iisg.amsterdam/nl/events/publicatie-manifest-aan-het-werk": {
 "p": null,
@@ -312,7 +321,7 @@
 },
 "https://iisg.amsterdam/nl/events/tentoonstelling-united-anarchist-archives": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://jai.stager.co/shop/default/events/111676625": {
 "p": null,
@@ -320,7 +329,7 @@
 },
 "https://marineterrein.nl/agenda/afrogrooves": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://marineterrein.nl/agenda/amsterdamse-nieuwjaarsduik-2027": {
 "p": null,
@@ -352,7 +361,7 @@
 },
 "https://marineterrein.nl/agenda/klankconcerten-met-de-gongluider-van-amsterdam": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://marineterrein.nl/agenda/open-dag-codam-3": {
 "p": null,
@@ -376,7 +385,7 @@
 },
 "https://marineterrein.nl/agenda/wekelijkse-kledingruil-in-studio-de-kat-2": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/__trashed/": {
 "p": "Donation",
@@ -422,6 +431,10 @@
 "p": "€15",
 "t": "2026-11-14"
 },
+"https://mezrab.nl/events/el-buho-live/": {
+"p": null,
+"t": "2026-11-20"
+},
 "https://mezrab.nl/events/kerstspecial-in-de-mezrab-met-chardon-en-baftig-constellatiom/": {
 "p": null,
 "t": "2026-11-17"
@@ -456,19 +469,19 @@
 },
 "https://mezrab.nl/events/mezrab-comedy-open-mic-2-2026-11-23/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/mezrab-comedy-open-mic-2-2026-12-28/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/mezrab-comedy-open-mic-2-2027-01-25/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/mezrab-comedy-open-mic-2-2027-02-22/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/mezrab-friday-night-storytelling-2-2026-07-03-2026-07-10-2026-07-17-2026-07-24-2026-07-31-2026-08-07-2026-08-14-2026-08-21-2026-08-28-2026-09-04-2026-09-11-2026-09-18-2026-09-25-2026-10-01-2027-01-08/": {
 "p": "Donation",
@@ -564,63 +577,63 @@
 },
 "https://mezrab.nl/events/mezrab-friday-night-storytelling-2-2026-11-20/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/mezrab-friday-night-storytelling-2-2026-11-27/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/mezrab-friday-night-storytelling-2-2026-12-04/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/mezrab-friday-night-storytelling-2-2026-12-11/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/mezrab-friday-night-storytelling-2-2026-12-18/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/mezrab-friday-night-storytelling-2-2026-12-25/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/mezrab-friday-night-storytelling-2-2027-01-01/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/mezrab-friday-night-storytelling-2-2027-01-08/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/mezrab-friday-night-storytelling-2-2027-01-15/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/mezrab-friday-night-storytelling-2-2027-01-22/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/mezrab-friday-night-storytelling-2-2027-01-29/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/mezrab-friday-night-storytelling-2-2027-02-05/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/mezrab-friday-night-storytelling-2-2027-02-12/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/mezrab-friday-night-storytelling-2-2027-02-19/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/mezrab-friday-night-storytelling-2-2027-02-26/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/mezrab-friday-night-storytelling-2-2027-03-05/": {
 "p": "Donation",
@@ -656,15 +669,15 @@
 },
 "https://mezrab.nl/events/mythos-ancient-tales-from-all-around-the-world-2026-12-01/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/mythos-ancient-tales-from-all-around-the-world-2027-01-05/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/mythos-ancient-tales-from-all-around-the-world-2027-02-02/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/mythos-ancient-tales-from-all-around-the-world-2027-03-02/": {
 "p": "Donation",
@@ -672,7 +685,7 @@
 },
 "https://mezrab.nl/events/nye-mezquerade/": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/off-the-page-2-2026-11-10/": {
 "p": "Donation",
@@ -784,59 +797,59 @@
 },
 "https://mezrab.nl/events/open-stage-storytelling-night-2-2026-11-25/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/open-stage-storytelling-night-2-2026-12-02/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/open-stage-storytelling-night-2-2026-12-09/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/open-stage-storytelling-night-2-2026-12-16/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/open-stage-storytelling-night-2-2026-12-23/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/open-stage-storytelling-night-2-2026-12-30/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/open-stage-storytelling-night-2-2027-01-06/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/open-stage-storytelling-night-2-2027-01-13/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/open-stage-storytelling-night-2-2027-01-20/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/open-stage-storytelling-night-2-2027-01-27/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/open-stage-storytelling-night-2-2027-02-03/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/open-stage-storytelling-night-2-2027-02-10/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/open-stage-storytelling-night-2-2027-02-17/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/open-stage-storytelling-night-2-2027-02-24/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/open-stage-storytelling-night-2-2027-03-03/": {
 "p": "Donation",
@@ -884,19 +897,19 @@
 },
 "https://mezrab.nl/events/pearls-on-a-string-2026-11-24/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/pearls-on-a-string-2026-12-22/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/pearls-on-a-string-2027-01-26/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/pearls-on-a-string-2027-02-23/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/persian-language-storytelling-night-11/": {
 "p": null,
@@ -988,15 +1001,15 @@
 },
 "https://mezrab.nl/events/the-mezjam-2026-12-13/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/the-mezjam-2027-01-10/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/the-mezjam-2027-02-14/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://mezrab.nl/events/the-mezjam-2027-03-14/": {
 "p": "Donation",
@@ -1032,7 +1045,7 @@
 },
 "https://mezrab.nl/events/welcome-to-the-playground-2026-12-29/": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://offbeat.amsterdam/event/10de-editie-boekhistorisch-forum": {
 "p": null,
@@ -2974,6 +2987,10 @@
 "p": null,
 "t": "2026-11-15"
 },
+"https://offbeat.amsterdam/event/follow-the-money-de-schimmige-wereld-van-de-wereldwijde-voedselhandel": {
+"p": null,
+"t": "2026-11-20"
+},
 "https://offbeat.amsterdam/event/food-phreaks-biodiversity-of-the-kitchen": {
 "p": null,
 "t": "2026-11-07"
@@ -4162,6 +4179,10 @@
 "p": null,
 "t": "2026-11-08"
 },
+"https://offbeat.amsterdam/event/linksveld-1": {
+"p": null,
+"t": "2026-11-20"
+},
 "https://offbeat.amsterdam/event/lisa-graciano-cindy-peress": {
 "p": null,
 "t": "2026-10-16"
@@ -4301,6 +4322,10 @@
 "https://offbeat.amsterdam/event/lunch-at-cafe-gilde-94": {
 "p": null,
 "t": "2026-11-17"
+},
+"https://offbeat.amsterdam/event/lunch-at-cafe-gilde-95": {
+"p": null,
+"t": "2026-11-20"
 },
 "https://offbeat.amsterdam/event/lunch-at-cafe-gilde-birthday-edition": {
 "p": null,
@@ -4985,6 +5010,10 @@
 "https://offbeat.amsterdam/event/open-stage-storytelling-night-88": {
 "p": null,
 "t": "2026-11-16"
+},
+"https://offbeat.amsterdam/event/open-studio-day": {
+"p": null,
+"t": "2026-11-20"
 },
 "https://offbeat.amsterdam/event/opening-exhibition-new-energy": {
 "p": null,
@@ -5854,6 +5883,10 @@
 "p": null,
 "t": "2026-11-07"
 },
+"https://offbeat.amsterdam/event/spooky-j-ep-release": {
+"p": null,
+"t": "2026-11-20"
+},
 "https://offbeat.amsterdam/event/srene-ade": {
 "p": null,
 "t": "2026-10-18"
@@ -6422,6 +6455,10 @@
 "p": null,
 "t": "2026-10-25"
 },
+"https://offbeat.amsterdam/event/vandalized-10-years-with-zina-radio-and-skek": {
+"p": null,
+"t": "2026-11-20"
+},
 "https://offbeat.amsterdam/event/vault-sesions-x-key-vinyl-ade": {
 "p": null,
 "t": "2026-10-25"
@@ -6726,6 +6763,10 @@
 "p": null,
 "t": "2026-11-13"
 },
+"https://offbeat.amsterdam/event/writing-birds-1": {
+"p": null,
+"t": "2026-11-20"
+},
 "https://offbeat.amsterdam/event/wtf-queer-wednesday-58": {
 "p": null,
 "t": "2026-10-18"
@@ -6937,6 +6978,10 @@
 "https://offbeat.amsterdam/event/zine-nites-amsterdam-come-make-zines-2": {
 "p": null,
 "t": "2026-11-15"
+},
+"https://offbeat.amsterdam/event/zinekamp-1": {
+"p": null,
+"t": "2026-11-20"
 },
 "https://offbeat.amsterdam/event/zoop-art-project-presentation-jewelry-with-seeds-for-a-better-future": {
 "p": null,
@@ -7378,6 +7423,10 @@
 "p": "Free",
 "t": "2026-11-08"
 },
+"https://radar.squat.net/en/event/amsterdam/joes-garage/2026-12-02/arab-spring-class": {
+"p": "Donation",
+"t": "2026-11-20"
+},
 "https://radar.squat.net/en/event/amsterdam/joes-garage/2026-12-02/joes-salon": {
 "p": "Free",
 "t": "2026-11-08"
@@ -7385,6 +7434,10 @@
 "https://radar.squat.net/en/event/amsterdam/joes-garage/2026-12-09/joes-salon": {
 "p": "Free",
 "t": "2026-11-08"
+},
+"https://radar.squat.net/en/event/amsterdam/joes-garage/2026-12-16/arab-spring-class": {
+"p": "Donation",
+"t": "2026-11-20"
 },
 "https://radar.squat.net/en/event/amsterdam/joes-garage/2026-12-16/joes-salon": {
 "p": "Free",
@@ -7524,7 +7577,7 @@
 },
 "https://radar.squat.net/en/event/amsterdam/lag/2026-12-18/lag-social-evening": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://radar.squat.net/en/event/amsterdam/lag/2026-12-25/lag-social-evening": {
 "p": "Donation",
@@ -8024,7 +8077,7 @@
 },
 "https://radar.squat.net/en/event/amsterdam/nieuwland/2026-12-12/kabra-acupuncture-cupping": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://radar.squat.net/en/event/amsterdam/nieuwland/2026-12-13/brazilian-social-event": {
 "p": "Donation",
@@ -8072,11 +8125,11 @@
 },
 "https://radar.squat.net/en/event/amsterdam/nieuwland/2026-12-18/yoga": {
 "p": "Donation",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://radar.squat.net/en/event/amsterdam/nieuwland/2026-12-18/yoga-level-2-3-iyengar-yoga-practitioners": {
 "p": "€5",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://radar.squat.net/en/event/amsterdam/nieuwland/2026-12-19/kabra-acupuncture-cupping": {
 "p": null,
@@ -8120,7 +8173,7 @@
 },
 "https://radar.squat.net/en/event/amsterdam/nieuwland/2026-12-25/kabra-shiatsu-massage": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://radar.squat.net/en/event/amsterdam/nieuwland/2026-12-25/yoga-level-2-3-iyengar-yoga-practitioners": {
 "p": "€5",
@@ -8128,7 +8181,7 @@
 },
 "https://radar.squat.net/en/event/amsterdam/nieuwland/2026-12-26/kabra-acupuncture-cupping": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://radar.squat.net/en/event/amsterdam/nieuwland/2026-12-28/kabra-herbal-treatment-massage": {
 "p": null,
@@ -8364,7 +8417,7 @@
 },
 "https://radar.squat.net/en/event/amsterdam/occii/2026-11-25/community-event-draw-naked-people-9": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://radar.squat.net/en/event/amsterdam/occii/2026-11-26/12fu-w-apero-de-fr-flyssa-nl-dj-steve": {
 "p": null,
@@ -8696,7 +8749,7 @@
 },
 "https://radar.squat.net/en/event/amsterdam/vlaggen-voor-palestina/2027-01-13/vlaggen-voor-palestina-west": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://radar.squat.net/en/event/amsterdam/vlaggen-voor-palestina/2027-01-17/vlaggen-voor-palestina-oost": {
 "p": "Free",
@@ -8858,6 +8911,10 @@
 "p": null,
 "t": "2026-11-15"
 },
+"https://radar.squat.net/en/event/amsterdam/vrankrijk/2026-11-25/wtf-queer-wednesday-live-music-night": {
+"p": null,
+"t": "2026-11-20"
+},
 "https://radar.squat.net/en/event/amsterdam/vrankrijk/2026-11-26/aaah-anarchist-action-assistance-hour": {
 "p": null,
 "t": "2026-11-15"
@@ -8888,7 +8945,7 @@
 },
 "https://radar.squat.net/en/event/amsterdam/vrankrijk/2026-12-10/aaah-anarchist-action-assistance-hour": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://radar.squat.net/en/event/amsterdam/vrankrijk/2026-12-14/amsterdam-street-medics": {
 "p": null,
@@ -9172,7 +9229,7 @@
 },
 "https://radar.squat.net/en/node/587938": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://radar.squat.net/en/node/587939": {
 "p": null,
@@ -9188,7 +9245,7 @@
 },
 "https://radar.squat.net/en/node/587942": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://radar.squat.net/en/node/587943": {
 "p": null,
@@ -9356,7 +9413,7 @@
 },
 "https://radar.squat.net/en/node/602273": {
 "p": "€5",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://radar.squat.net/en/node/602482": {
 "p": "Free",
@@ -9947,11 +10004,11 @@
 },
 "https://tickets.dezwijger.nl/mtTicket/performance/10042510": {
 "p": "€11",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://tickets.dezwijger.nl/mtTicket/performance/10042511": {
 "p": "€11",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://tickets.dezwijger.nl/mtTicket/performance/10042524": {
 "p": "€11",
@@ -10036,6 +10093,10 @@
 "https://tickets.dezwijger.nl/mtTicket/performance/10043909": {
 "p": "€11",
 "t": "2026-11-18"
+},
+"https://tickets.dezwijger.nl/mtTicket/performance/10043921": {
+"p": "Free",
+"t": "2026-11-20"
 },
 "https://tolhuistuin.nl/en/events/30-jaar-excelsior-recordings": {
 "p": "€28,70",
@@ -10316,7 +10377,7 @@
 },
 "https://tolhuistuin.nl/en/events/dit-is-er-te-beleven-op-warming-up-festival": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://tolhuistuin.nl/en/events/doodseskader": {
 "p": "€21,20",
@@ -11518,7 +11579,7 @@
 },
 "https://www.amsterdammuseum.nl/en/exhibition/plantage-aan-de-gracht/268300": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://www.amsterdammuseum.nl/en/exhibition/verwacht-samangat/270544": {
 "p": null,
@@ -11526,11 +11587,11 @@
 },
 "https://www.amsterdammuseum.nl/en/public-program/100-jaar-tour-aim/274841": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://www.amsterdammuseum.nl/en/public-program/100-jaar-tour-hwh/274612": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://www.amsterdammuseum.nl/en/public-program/ade-wie-bewaart-de-nacht/290052": {
 "p": null,
@@ -11538,7 +11599,7 @@
 },
 "https://www.amsterdammuseum.nl/en/public-program/amsterdam-museum-trakteert/275740": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://www.amsterdammuseum.nl/en/public-program/amsterdam-museum-x-harpert-michielsen/290351": {
 "p": "€20",
@@ -11566,7 +11627,7 @@
 },
 "https://www.amsterdammuseum.nl/en/public-program/depot-tour/276835": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://www.amsterdammuseum.nl/en/public-program/in-conversation-robin-de-puy/298861": {
 "p": "€5",
@@ -11574,7 +11635,7 @@
 },
 "https://www.amsterdammuseum.nl/en/public-program/inheemsheid-onder-kolonialiteit/304776": {
 "p": "€5",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://www.amsterdammuseum.nl/en/public-program/kunst-workshops/55486": {
 "p": null,
@@ -11606,7 +11667,7 @@
 },
 "https://www.amsterdammuseum.nl/en/public-program/samen-jarig/275778": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://www.amsterdammuseum.nl/en/public-program/slot-symposium/292122": {
 "p": null,
@@ -11614,7 +11675,7 @@
 },
 "https://www.amsterdammuseum.nl/en/public-program/stadswandeling-museumstukken-in-de-stad/281754": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://www.amsterdammuseum.nl/en/public-program/the-art-cafe-workshops/275890": {
 "p": "€12,50",
@@ -11639,6 +11700,10 @@
 "https://www.cinetol.nl/events/beaks": {
 "p": "€18",
 "t": "2026-11-10"
+},
+"https://www.cinetol.nl/events/bug-teeth": {
+"p": "€18",
+"t": "2026-11-20"
 },
 "https://www.cinetol.nl/events/charli-lucas": {
 "p": "€17",
@@ -12111,6 +12176,10 @@
 "p": "from €5",
 "t": "2026-11-15"
 },
+"https://www.iamsterdam.com/uit/agenda/attracties-en-bezienswaardigheden/tours/lampenkap-workshop": {
+"p": "from €160",
+"t": "2026-11-20"
+},
 "https://www.iamsterdam.com/uit/agenda/attracties-en-bezienswaardigheden/tours/lego-robotics-workshop": {
 "p": "from €49,50",
 "t": "2026-10-16"
@@ -12137,7 +12206,7 @@
 },
 "https://www.iamsterdam.com/uit/agenda/attracties-en-bezienswaardigheden/tours/outspoken-connects-schrijfsessie": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/attracties-en-bezienswaardigheden/tours/prikkelarme-openstelling-muiderslot": {
 "p": null,
@@ -12189,7 +12258,7 @@
 },
 "https://www.iamsterdam.com/uit/agenda/attracties-en-bezienswaardigheden/tours/wopl-club": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/attracties-en-bezienswaardigheden/tours/workshop-bloemenkrans-maken-bij-oogsttuin-vers-aan-de-vecht": {
 "p": "from €7,50",
@@ -12328,8 +12397,8 @@
 "t": "2026-11-07"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/alex-sampson": {
-"p": "from €23",
-"t": "2026-10-30"
+"p": null,
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/alexander-beets-sextet-celebrate-the-music-of-cannonball-adderley": {
 "p": "from €12,50",
@@ -12362,6 +12431,10 @@
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/almost-monday": {
 "p": "from €31,05",
 "t": "2026-11-07"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/als-het-stil-is-hoor-je-alles": {
+"p": "from €15",
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/amani-echo-live-in-concert-srefidensi-edition-51-jaar-onafhankelijkheid-suriname": {
 "p": "from €15",
@@ -12571,6 +12644,10 @@
 "p": "from €29",
 "t": "2026-11-19"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/bachs-matthaus-passion-met-nederlands-kamerorkest": {
+"p": "from €21",
+"t": "2026-11-20"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/bachs-weihnachtsoratorium-door-nederlands-kamerkoor-en-cappella-mediterranea": {
 "p": "from €29",
 "t": "2026-11-07"
@@ -12685,7 +12762,7 @@
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/ben-van-gelder-quintet-ft-jeff-ballard": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/benjamin-herman-trio-tomoaki-baba": {
 "p": "from €21,20",
@@ -12854,6 +12931,10 @@
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/carnegie-hall-concert-from-spirituals-to-swing-1938-1939": {
 "p": null,
 "t": "2026-11-19"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/carol-of-the-bells": {
+"p": "from €5",
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/cassia": {
 "p": "from €25,90",
@@ -13317,7 +13398,7 @@
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/een-imaginaire-vespers-met-pygmalion": {
 "p": "from €33",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/een-indiase-muzikale-familie-ranajit-shirin-en-rajarshi-sengupta-and-kousik-banerjee": {
 "p": null,
@@ -13451,6 +13532,10 @@
 "p": null,
 "t": "2026-11-14"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/familieconcert-zing-mee-slodde-and-vos-4": {
+"p": "from €19",
+"t": "2026-11-20"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/familievoorstelling-rustig": {
 "p": null,
 "t": "2026-10-31"
@@ -13503,9 +13588,13 @@
 "p": "from €21",
 "t": "2026-11-07"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/fimiguerrero": {
+"p": "from €23",
+"t": "2026-11-20"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/finale-amsterdamse-popprijs-2026": {
 "p": "from €13",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/finale-nationaal-cello-concours": {
 "p": "from €12,50",
@@ -13769,7 +13858,7 @@
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/haiden-henderson": {
 "p": "from €31,05",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/halloween-classics-at-the-movies": {
 "p": "from €29",
@@ -13805,7 +13894,7 @@
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/hartmut-haenchen-en-nederlands-philharmonisch-met-bruckner-6": {
 "p": "from €21",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/haunt-me": {
 "p": "from €20,20",
@@ -14059,6 +14148,10 @@
 "p": null,
 "t": "2026-11-19"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/jazzfest-amsterdam": {
+"p": "from €22",
+"t": "2026-11-20"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/jazzy-jewels-and-classical-pearls": {
 "p": "from €10",
 "t": "2026-10-16"
@@ -14189,7 +14282,7 @@
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/kakkmaddafakka": {
 "p": "from €26,45",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/kalben-land-of-lost-poets-tour": {
 "p": "from €39",
@@ -14210,6 +14303,10 @@
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/karina-canellakis-and-barbara-hannigan-met-barber-ives-and-stravinsky": {
 "p": "from €29",
 "t": "2026-11-07"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/karina-canellakis-dirigeert-debussys-pelleas-et-melisande": {
+"p": "from €46",
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/karina-canellakis-dirigeert-ravel-de-raaff-en-janacek": {
 "p": "from €29",
@@ -14330,6 +14427,10 @@
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/klangforum-wien-viktoriia-vitrenko-lamb-en-kurtag": {
 "p": "from €42,50",
 "t": "2026-11-16"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/klanken-uit-armenie": {
+"p": "from €11",
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/klassiek-het-orkest-als-laboratorium-olv-johannes-leertouwer": {
 "p": null,
@@ -14755,9 +14856,13 @@
 "p": "from €25",
 "t": "2026-10-17"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/meesters-op-de-gitaar-petrit-ceku-speelt-barber-paganini-en-rodrigo": {
+"p": "from €25",
+"t": "2026-11-20"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/meesters-op-de-gitaar-rafael-aguirre-van-giuliani-tot-chopin": {
 "p": "from €25",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/meesterwerken-van-bach-mozart-suk-en-prokofiev": {
 "p": null,
@@ -14801,7 +14906,7 @@
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/mico": {
 "p": "from €28,75",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/mietze-conte": {
 "p": "from €20,70",
@@ -15065,7 +15170,7 @@
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/no-need-to-pretend-black-men-talk": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/noa-wildschut-soleert-in-beethovens-vioolconcert": {
 "p": "from €20",
@@ -15455,6 +15560,10 @@
 "p": "from €32,20",
 "t": "2026-11-14"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/roda-de-samba-sarava-samba-project-2e-editie": {
+"p": "from €12,50",
+"t": "2026-11-20"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/romantiek-ten-top-bob-kauffmann-and-remon-holsbergen": {
 "p": null,
 "t": "2026-10-16"
@@ -15801,7 +15910,7 @@
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/stella-lefty": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/stellae-ligconcert-einaudis-underwater": {
 "p": "from €39,95",
@@ -15917,7 +16026,7 @@
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/syml-and-metropole-orkest": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/takuya-nakamura": {
 "p": "from €27,60",
@@ -16481,7 +16590,7 @@
 },
 "https://www.iamsterdam.com/uit/agenda/festivals/events/amsterdam-museum-festival": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/festivals/events/amsterdam-wine-festival": {
 "p": "from €18,50",
@@ -16751,9 +16860,13 @@
 "p": null,
 "t": "2026-11-18"
 },
+"https://www.iamsterdam.com/uit/agenda/festivals/events/pietengym-bij-wopl": {
+"p": "from €10,95",
+"t": "2026-11-20"
+},
 "https://www.iamsterdam.com/uit/agenda/festivals/events/pink-dance-dansmiddag": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/festivals/events/popronde-amsterdam-het-eindfeest": {
 "p": "from €23",
@@ -17405,7 +17518,7 @@
 },
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/dusky": {
 "p": "from €20",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/eastenderz-x-loveland": {
 "p": null,
@@ -17561,7 +17674,7 @@
 },
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/gladde-paling-presenteert-vissa": {
 "p": "from €22",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/glitterbox-ade": {
 "p": "from €34,95",
@@ -18221,7 +18334,7 @@
 },
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/pyxls": {
 "p": "from €10",
-"t": "2026-10-30"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/q-factory-presents-techno-night-2026-ade": {
 "p": "from €21",
@@ -18411,13 +18524,17 @@
 "p": null,
 "t": "2026-10-23"
 },
+"https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/team-rush-hour-xl": {
+"p": "from €19,50",
+"t": "2026-11-20"
+},
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/techno-tuesday-dexon": {
 "p": null,
 "t": "2026-10-24"
 },
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/techno-tuesday-esther-dune": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/techno-tuesday-fiama-molina": {
 "p": null,
@@ -18425,7 +18542,7 @@
 },
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/techno-tuesday-inez-akker": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/techno-tuesday-jayzo": {
 "p": null,
@@ -18587,6 +18704,10 @@
 "p": null,
 "t": "2026-10-23"
 },
+"https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/vessbroz-presents-nowruz-a-new-beginning": {
+"p": "from €33,35",
+"t": "2026-11-20"
+},
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/vierviertel": {
 "p": null,
 "t": "2026-10-23"
@@ -18689,7 +18810,7 @@
 },
 "https://www.iamsterdam.com/uit/agenda/tentoonstellingen/alle-tentoonstellingen/abracadabra": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/tentoonstellingen/alle-tentoonstellingen/abracadabra-speurtocht": {
 "p": "from €6",
@@ -18723,9 +18844,13 @@
 "p": "from €29,50",
 "t": "2026-11-06"
 },
+"https://www.iamsterdam.com/uit/agenda/tentoonstellingen/alle-tentoonstellingen/class-of-fidelio": {
+"p": null,
+"t": "2026-11-20"
+},
 "https://www.iamsterdam.com/uit/agenda/tentoonstellingen/alle-tentoonstellingen/de-kunst-van-het-transformeren": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/tentoonstellingen/alle-tentoonstellingen/de-vindplaats": {
 "p": "from €15,50",
@@ -18765,7 +18890,7 @@
 },
 "https://www.iamsterdam.com/uit/agenda/tentoonstellingen/alle-tentoonstellingen/grensverlegger-van-houten": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/tentoonstellingen/alle-tentoonstellingen/hailun-ma-hometown": {
 "p": "from €16",
@@ -18781,7 +18906,7 @@
 },
 "https://www.iamsterdam.com/uit/agenda/tentoonstellingen/alle-tentoonstellingen/het-gerestaureerde-topstuk-de-kruisafneming-ca-1530": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/tentoonstellingen/alle-tentoonstellingen/het-land-van-hagelslag-catpc-tentoonstelling": {
 "p": "from €13,50",
@@ -18845,7 +18970,7 @@
 },
 "https://www.iamsterdam.com/uit/agenda/tentoonstellingen/alle-tentoonstellingen/nadav-kander-the-edge-of-things": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/tentoonstellingen/alle-tentoonstellingen/ontdek-banksy-bij-moco-museum-amsterdam": {
 "p": "from €21,95",
@@ -18854,6 +18979,10 @@
 "https://www.iamsterdam.com/uit/agenda/tentoonstellingen/alle-tentoonstellingen/ontdekkingstocht-in-de-oudheid-6-t-m-12-jaar": {
 "p": "from €3,50",
 "t": "2026-11-06"
+},
+"https://www.iamsterdam.com/uit/agenda/tentoonstellingen/alle-tentoonstellingen/opening-class-of-fidelio": {
+"p": null,
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/tentoonstellingen/alle-tentoonstellingen/opening-life-after-love": {
 "p": null,
@@ -18901,7 +19030,7 @@
 },
 "https://www.iamsterdam.com/uit/agenda/tentoonstellingen/alle-tentoonstellingen/solotentoonstelling-van-kaili-smith": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/tentoonstellingen/alle-tentoonstellingen/stephan-vanfleteren-transcripts-of-a-sea": {
 "p": "from €8,50",
@@ -18969,7 +19098,7 @@
 },
 "https://www.iamsterdam.com/uit/agenda/tentoonstellingen/alle-tentoonstellingen/whistler-dandy-en-dwarsdenker": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/tentoonstellingen/alle-tentoonstellingen/world-press-photo-2026": {
 "p": "from €20",
@@ -19155,6 +19284,10 @@
 "p": null,
 "t": "2026-11-16"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/baanbrekers-jeffrey-spalburg-in-gesprek-met-eric-van-sauers": {
+"p": "from €6,50",
+"t": "2026-11-20"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/back-to-base-circusavond": {
 "p": null,
 "t": "2026-11-07"
@@ -19174,6 +19307,10 @@
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/bart-ontsteking": {
 "p": "from €22,50",
 "t": "2026-11-12"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/baugrond": {
+"p": "from €5",
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/beperkt-houdbaar": {
 "p": "from €19,50",
@@ -19313,7 +19450,7 @@
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/cello-octet-sophie-van-winden-coda": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/cerita-kita": {
 "p": "from €12,50",
@@ -19409,7 +19546,7 @@
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/dadodans-gaia-gonnelli-licht-2": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/dalton-jansen-theater-rotterdam-fear-me-in-bijlmer-parktheater": {
 "p": "from €16,50",
@@ -20104,8 +20241,8 @@
 "t": "2026-11-10"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/jandino-asporaat-dee-grote-jubileumshow": {
-"p": "from €21",
-"t": "2026-10-30"
+"p": "from €3,50",
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/jawad-es-soufi-tnawies": {
 "p": null,
@@ -20185,7 +20322,7 @@
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/journalistiek-theater-een-gezin-zonder-thuis": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/judith-engelen-i-met-you-once-i-loved-you-twice": {
 "p": null,
@@ -20437,7 +20574,7 @@
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/marcos-valster-da-costa-ferreira-en-upnext-stilzitten-is-voor-stoelen-in-theater-de-krakeling": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/margriet-van-der-linden-annie-are-you-ok-premiere": {
 "p": null,
@@ -20697,7 +20834,7 @@
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/pan-8": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/papa-koenders-mi-tongo-tru-sergio-ijssel-in-theater-bellevue": {
 "p": null,
@@ -20837,7 +20974,7 @@
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/ragazze-quartet-kreutzersonate": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/ramon-chatrer-volk": {
 "p": null,
@@ -21067,6 +21204,10 @@
 "p": "from €23",
 "t": "2026-10-26"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/sinterklaasvoorstelling-bibi-en-het-verdwaalde-paard-2-6-jr-met-schminken": {
+"p": "from €8",
+"t": "2026-11-20"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/sjamadriaan-live": {
 "p": "from €14",
 "t": "2026-10-27"
@@ -21169,7 +21310,7 @@
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/tafel-van-vijf-muziektheater-and-museum-huis-doorn-mata-hari-returns-14": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/techdenkers-terug-naar-het-gezellige-internet": {
 "p": null,
@@ -21457,7 +21598,7 @@
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/we-love-shakespeare-ensemble-winters-tale": {
 "p": null,
-"t": "2026-11-13"
+"t": "2026-11-20"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/we-schrijven-srefidensi-slaa": {
 "p": "from €13,50",
