@@ -194,6 +194,16 @@
 "eh": "23:00",
 "chk": "2026-11-20"
 },
+"https://hipsy.nl/event/255419-queerstatic-lux-lucida": {
+"h": "18:00",
+"eh": "22:00",
+"chk": "2026-11-21"
+},
+"https://hipsy.nl/event/255420-morning-ecstatic-dance-potluck-leela": {
+"h": "10:00",
+"eh": "15:00",
+"chk": "2026-11-21"
+},
 "https://hipsy.nl/event/257835-moving-dialogues-contact-improvisation-workshop-steven-campos": {
 "h": "18:00",
 "eh": "23:00",
@@ -2213,6 +2223,10 @@
 "https://www.cinetol.nl/events/de-club-is-stuk-clubavond": {
 "h": "20:00",
 "chk": "2026-10-29"
+},
+"https://www.cinetol.nl/events/de-halsband": {
+"h": "18:30",
+"chk": "2026-11-21"
 },
 "https://www.cinetol.nl/events/discovery-zone": {
 "h": "20:00",
