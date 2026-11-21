@@ -4213,6 +4213,12 @@
 "q": "name",
 "area": "West"
 },
+"Podium deMess": {
+"lat": 52.3567,
+"lon": 4.83655,
+"q": "name",
+"area": "Nieuw-West"
+},
 "Pong: Pingpongbar": {
 "lat": 52.37175,
 "lon": 4.84565,
@@ -5697,6 +5703,12 @@
 "lon": 4.87504,
 "q": "name",
 "area": "West"
+},
+"Van Tuyll van": {
+"lat": 52.34488,
+"lon": 4.86289,
+"q": "addr",
+"area": "Zuid"
 },
 "Van de Werf": {
 "lat": 52.40136,
