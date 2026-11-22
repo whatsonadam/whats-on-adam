@@ -1682,7 +1682,7 @@
 "black narcissus 35mm": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-08",
+"tried": "2026-11-22",
 "v": 4
 },
 "bless their little hearts": {
@@ -6753,7 +6753,7 @@
 "hoff one woman one bra 2025": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-08",
+"tried": "2026-11-22",
 "v": 4
 },
 "hoff paradise 2026": {
@@ -14146,7 +14146,7 @@
 "shorts a house of memories": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-08",
+"tried": "2026-11-22",
 "v": 4
 },
 "shorts acts of counter erasure": {
@@ -14196,10 +14196,14 @@
 "v": 4
 },
 "shorts seismic shocks": {
+"dr": "",
+"du": 58,
+"lg": [],
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-08",
-"v": 4
+"tried": "2026-11-22",
+"v": 4,
+"yr": 2026
 },
 "shorts senses of belonging": {
 "tm5": true,
@@ -15563,6 +15567,12 @@
 "v": 4,
 "yr": 2012
 },
+"the color wheel 2011": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-22",
+"v": 4
+},
 "the commitments 1991": {
 "dr": "Alan Parker",
 "du": 118,
@@ -15915,7 +15925,7 @@
 "the disintegration loops 2001": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-08",
+"tried": "2026-11-22",
 "v": 4
 },
 "the dome sessions": {
@@ -16228,7 +16238,7 @@
 "the green knight 2021 mediaevalia": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-08",
+"tried": "2026-11-22",
 "v": 4
 },
 "the hawks and the sparrows 1966": {

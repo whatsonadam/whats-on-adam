@@ -2953,6 +2953,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Juicebrothers": {
+"lat": 52.3722,
+"lon": 4.88741,
+"q": "name",
+"area": "Centrum"
+},
 "Jungle Amsterdam": {
 "lat": 52.36179,
 "lon": 4.92652,
@@ -4970,6 +4976,12 @@
 "lon": 4.8602,
 "q": "name",
 "area": "West"
+},
+"Studio Eef Amsterdam": {
+"lat": 52.33138,
+"lon": 4.87644,
+"q": "name",
+"area": "Zuid"
 },
 "Studio K": {
 "lat": 52.31816,
