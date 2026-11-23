@@ -2209,6 +2209,10 @@
 "h": "20:30",
 "chk": "2026-11-10"
 },
+"https://www.cinetol.nl/events/chest": {
+"h": "20:00",
+"chk": "2026-11-23"
+},
 "https://www.cinetol.nl/events/corecore": {
 "h": "20:00",
 "chk": "2026-10-11"
@@ -2264,6 +2268,10 @@
 "https://www.cinetol.nl/events/free-finga-extra-show": {
 "h": "20:30",
 "chk": "2026-10-11"
+},
+"https://www.cinetol.nl/events/furya-3": {
+"h": "20:30",
+"chk": "2026-11-23"
 },
 "https://www.cinetol.nl/events/gloria-de-oliveira": {
 "h": "20:30",
@@ -2407,7 +2415,7 @@
 },
 "https://www.cinetol.nl/events/rightaboutnow-festival": {
 "none": true,
-"chk": "2026-11-16"
+"chk": "2026-11-23"
 },
 "https://www.cinetol.nl/events/rightaboutnow-festival-donderdag": {
 "h": "19:30",
@@ -3322,6 +3330,15 @@
 },
 "chk": "2026-10-11"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/soundshape": {
+"dates": {
+"2026-12-04": {
+"h": "18:00",
+"eh": "18:45"
+}
+},
+"chk": "2026-11-23"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/studentenkoor-amsterdam-een-ode-aan-het-pastorale-leven": {
 "dates": {
 "2026-11-13": {
@@ -3503,6 +3520,15 @@
 }
 },
 "chk": "2026-11-09"
+},
+"https://www.iamsterdam.com/uit/agenda/festivals/events/workshops-palestine-design-market": {
+"dates": {
+"2026-11-28": {
+"h": "13:00",
+"eh": "14:00"
+}
+},
+"chk": "2026-11-23"
 },
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/50-hertz-x-pan-pot-presents-human-club-train-saturday-daytime-trip": {
 "dates": {
@@ -4460,6 +4486,19 @@
 }
 },
 "chk": "2026-10-14"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/oersoep": {
+"dates": {
+"2026-11-28": {
+"h": "20:00",
+"eh": "22:00"
+},
+"2026-11-29": {
+"h": "15:00",
+"eh": "17:00"
+}
+},
+"chk": "2026-11-23"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/on-the-waterfront-4k-restoration": {
 "dates": {

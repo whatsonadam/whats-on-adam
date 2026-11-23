@@ -1,4 +1,8 @@
 {
+"&Samhoud": {
+"skip": true,
+"q": "not found"
+},
 "'Skek": {
 "lat": 52.37606,
 "lon": 4.90018,
@@ -969,6 +973,12 @@
 "q": "name",
 "area": "Noord"
 },
+"Buurman": {
+"lat": 52.39655,
+"lon": 4.9078,
+"q": "name",
+"area": "Noord"
+},
 "Buurtcultuurhuis De Rietwijker": {
 "skip": true,
 "q": "not found"
@@ -1653,6 +1663,10 @@
 "q": "name",
 "area": "Noord"
 },
+"De Dam, Amsterdam": {
+"skip": true,
+"q": "not found"
+},
 "De Dam, Amsterdam (bij de Palestijnse vlag)": {
 "skip": true,
 "q": "not found"
@@ -1954,6 +1968,10 @@
 "lon": 4.85363,
 "q": "name",
 "area": "West"
+},
+"Diaconie (De Kas)": {
+"skip": true,
+"q": "not found"
 },
 "Dick & Dick": {
 "lat": 52.34397,
@@ -4479,6 +4497,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Roest": {
+"lat": 52.37199,
+"lon": 4.92657,
+"q": "name",
+"area": "Centrum"
+},
 "Rokin 75": {
 "skip": true,
 "q": "not found"
@@ -4486,6 +4510,12 @@
 "Rokin 75 / The Amsterdam View": {
 "skip": true,
 "q": "not found"
+},
+"Ronde Lutherse Kerk": {
+"lat": 52.36835,
+"lon": 4.88919,
+"q": "name",
+"area": "Centrum"
 },
 "Rosti": {
 "lat": 52.36391,
@@ -6017,6 +6047,10 @@
 "area": "West"
 },
 "What Is Happening Here Gallery": {
+"skip": true,
+"q": "not found"
+},
+"What Is Happening Here Gallery (WIHH)": {
 "skip": true,
 "q": "not found"
 },
