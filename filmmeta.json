@@ -501,73 +501,73 @@
 "aff 2026 5 broken cameras": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "aff 2026 anarchist film festival amsterdam 2026": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "aff 2026 barber westchester": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "aff 2026 castration movie anthology ⅗ year of the hyaena": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "aff 2026 dandy dust": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "aff 2026 love and revolution l amour et la révolution": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "aff 2026 luciano": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "aff 2026 tonratun": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "aff 2026 unrest unrueh": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "aff 2026 up against the wall motherfuckers breaking the spell": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "aff 2026 where russia ends a small digression": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "aff 2026 xala": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "affacts emotions and bodies in journalism and documentary work": {
@@ -949,7 +949,7 @@
 "amelie film soep": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "american beauty": {
@@ -1671,6 +1671,23 @@
 "v": 4,
 "yr": 2023
 },
+"big fun in the big town 1986": {
+"dr": "Bram van Splunteren, DJ EZD",
+"du": 40,
+"gn": [
+"Documentary",
+"Music"
+],
+"lg": [
+"en"
+],
+"sy": "New York, 1986: a city of big dreams and equally big problems. Like New York itself, hip-hop music encompassed both of these human conditions. But hip-hop and its cultural birthplace shared other important…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-24",
+"v": 4,
+"yr": 1986
+},
 "bigi kaaiman songs tales from slavery times": {
 "dr": "Dunya Verwey",
 "du": 110,
@@ -1792,7 +1809,7 @@
 "boom chicago special the debut": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "boyhood": {
@@ -1947,7 +1964,7 @@
 "bsff blknws terms conditions": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "bsff my father s sadow": {
@@ -1965,13 +1982,13 @@
 "bsff peter tosh town origin of a rebel wailer beach inna bondage": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "bsff peven everett voice of a generation": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "bsff the great north": {
@@ -1983,7 +2000,7 @@
 "bsff the politics of belonging oema foe sranan strijd op 16mm": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "buddy": {
@@ -2111,6 +2128,33 @@
 "v": 4,
 "yr": 1982
 },
+"calendar": {
+"dr": "Atom Egoyan",
+"du": 74,
+"gn": [
+"Comedy",
+"Drama",
+"Romance"
+],
+"lg": [
+"de",
+"en",
+"hy"
+],
+"rt": 6.3,
+"sy": "A photographer and his wife travel across Armenia photographing churches for a calendar project. Travelling with them is a local man acting as their driver and guide. As the project nears completion, the…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-24",
+"v": 4,
+"yr": 1993
+},
+"calendar 1993": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-24",
+"v": 4
+},
 "calle malaga": {
 "dr": "Maryam Touzani",
 "du": 116,
@@ -2231,7 +2275,7 @@
 "castration movie anthology ⅗ year of the hyaena 2026": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "cat people": {
@@ -2683,6 +2727,12 @@
 "tried": "2026-10-16",
 "v": 4,
 "yr": 2026
+},
+"clearcut 1991 this is not your garden 2025": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-24",
+"v": 4
 },
 "clerks": {
 "dr": "Kevin Smith",
@@ -5462,7 +5512,7 @@
 "film food back to the future incl burger": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "film food back to the future incl hamburger": {
@@ -5480,7 +5530,7 @@
 "film food gremlins incl burger": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "film food gremlins incl hamburger": {
@@ -5542,6 +5592,12 @@
 "tm5": true,
 "tmdb": true,
 "tried": "2026-10-28",
+"v": 4
+},
+"filmhuis cavia x sprouts film festival clearcut this is not your garden": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-24",
 "v": 4
 },
 "filmhuis gardens of fez": {
@@ -6822,7 +6878,7 @@
 "hoe lees ik een film save the date voor januari": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "hoe lees ik een film the beloved": {
@@ -8844,10 +8900,16 @@
 "v": 4,
 "yr": 2026
 },
+"iqmf 100 gado gado parts of heart tribute to john badalu": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-24",
+"v": 4
+},
 "iqmf animol": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "iqmf dagen met blue i don t want to be just a memory": {
@@ -8859,25 +8921,25 @@
 "iqmf drunken noodles": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "iqmf movement song": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "iqmf my house is your house dance workshop by kim tawjoeram": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "iqmf prosecution": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "iqmf queer shorts": {
@@ -8917,7 +8979,7 @@
 "iqmf two mountains weighing down my chest": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "iqmfx 100 gado gado parts of heart tribute to john badalu": {
@@ -10715,6 +10777,12 @@
 "tried": "2026-11-23",
 "v": 4
 },
+"maite hontelé la novia la novia 2026": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-24",
+"v": 4
+},
 "makandra ritme": {
 "dr": "Leon Hendrison, Rosita Leeflang",
 "du": 99,
@@ -11140,6 +11208,25 @@
 "v": 4,
 "yr": 2026
 },
+"minotaur eng subs": {
+"dr": "Andrey Zvyagintsev",
+"du": 140,
+"gn": [
+"Drama",
+"Crime",
+"Thriller"
+],
+"lg": [
+"ru"
+],
+"rt": 7.4,
+"sy": "When Gleb, a successful company director, finds himself under siege from mounting corporate pressures, an increasingly unstable world, and the discovery of his wife's affair, the collapse of his carefully…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-24",
+"v": 4,
+"yr": 2026
+},
 "minotaur tapis rouge 2026": {
 "dr": "Andrey Zvyagintsev",
 "du": 135,
@@ -11327,6 +11414,22 @@
 "tried": "2026-10-14",
 "v": 4,
 "yr": 1999
+},
+"molly vs the machines": {
+"dr": "Marc Silver",
+"du": 83,
+"gn": [
+"Documentary"
+],
+"lg": [
+"en"
+],
+"sy": "From a teenager's suburban bedroom to the boardrooms of Silicon Valley, this is a story of a heartbroken father's quest to uncover the truth behind his daughter's death and his fightback against how the most…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-24",
+"v": 4,
+"yr": 2026
 },
 "mon oncle d amérique": {
 "dr": "Alain Resnais",
@@ -11737,6 +11840,22 @@
 "tmdb": true,
 "tried": "2026-10-22",
 "v": 4
+},
+"nature": {
+"dr": "Artavazd Peleshian",
+"du": 62,
+"gn": [
+"Documentary"
+],
+"lg": [
+"xx"
+],
+"sy": "While it was long thought that his filmography had concluded with the film Life in 1993, Peleshian has now returned with a new film, simply titled La Nature, through which he once again observes the delicate…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-24",
+"v": 4,
+"yr": 2022
 },
 "nature short films by berlin based artists": {
 "dr": "Artavazd Peleshian",
@@ -13652,7 +13771,7 @@
 "rialto for short seizoen 8 de finale": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "right now wrong then": {
@@ -14657,13 +14776,13 @@
 "soirée ciné amelie 20th anniversary": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "soirée ciné la vie d une femme": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "somos el futuro nowruz make a kid happy niños del futuro": {
@@ -18022,6 +18141,12 @@
 "v": 4,
 "yr": 2017
 },
+"three by atom egoyan calendar": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-24",
+"v": 4
+},
 "through a glass darkly": {
 "dr": "Ingmar Bergman",
 "du": 89,
@@ -18675,7 +18800,7 @@
 "unrest unrueh 2022": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "uomini anni vita": {
@@ -18697,7 +18822,7 @@
 "up against the wall motherfuckers 2013 breaking the spell 1999": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "up in the air": {
@@ -19197,7 +19322,7 @@
 "where russia ends 2024 a small digression 2025": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "where the sun is born": {
@@ -19580,7 +19705,7 @@
 "yellow fever with kiriko mechanicus": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-10",
+"tried": "2026-11-24",
 "v": 4
 },
 "yellow kid": {

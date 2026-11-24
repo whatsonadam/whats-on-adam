@@ -3011,6 +3011,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Karavaan": {
+"lat": 52.3691,
+"lon": 4.87051,
+"q": "name",
+"area": "West"
+},
 "Kashmir Lounge": {
 "lat": 52.36402,
 "lon": 4.863,
