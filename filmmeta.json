@@ -1412,6 +1412,18 @@
 "v": 4,
 "yr": 2026
 },
+"aşk tesadüfleri sever 3": {
+"dr": "Ömer Faruk Sorak",
+"du": 123,
+"lg": [
+"tr"
+],
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-24",
+"v": 4,
+"yr": 2026
+},
 "baby jackfruit baby guava": {
 "dr": "Nong Nhat Quang",
 "du": 103,
@@ -9410,6 +9422,23 @@
 "tried": "2026-11-18",
 "v": 4
 },
+"kings and extras digging for a palestinian image": {
+"dr": "Azza El-Hassan",
+"du": 62,
+"gn": [
+"Documentary"
+],
+"lg": [
+"ar",
+"en"
+],
+"sy": "The films in the PLO Media Unit were supposed to show a self-determined image of Palestinian reality – and they went missing during the Israeli invasion of Beirut in 1982. In a « road movie » from Palestine to…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-24",
+"v": 4,
+"yr": 2026
+},
 "kinotalk sugar": {
 "tm5": true,
 "tmdb": true,
@@ -13642,6 +13671,12 @@
 "v": 4,
 "yr": 2026
 },
+"radio isteria": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-24",
+"v": 4
+},
 "radioman": {
 "dr": "Frank van Passel",
 "du": 120,
@@ -15107,6 +15142,12 @@
 "tried": "2026-11-02",
 "v": 4,
 "yr": 2014
+},
+"sprouts film festival x filmhuis cavia clearcut this is not your garden": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-24",
+"v": 4
 },
 "stand up": {
 "dr": "Mari Sanders",
