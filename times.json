@@ -3892,6 +3892,19 @@
 },
 "chk": "2026-10-24"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/claudia-de-breij-oudejaarsconference": {
+"dates": {
+"2026-12-05": {
+"h": "20:00",
+"eh": "22:00"
+},
+"2026-12-06": {
+"h": "15:00",
+"eh": "17:00"
+}
+},
+"chk": "2026-11-24"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/cleo-de-5-a-7": {
 "dates": {
 "2026-11-09": {

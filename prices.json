@@ -1116,6 +1116,10 @@
 "p": null,
 "t": "2026-11-10"
 },
+"https://offbeat.amsterdam/event/6040-playspace-remix-collage": {
+"p": null,
+"t": "2026-11-24"
+},
 "https://offbeat.amsterdam/event/6040-playspace-repeat-it-repeat-it-repeat-it": {
 "p": null,
 "t": "2026-11-16"
@@ -3260,6 +3264,10 @@
 "p": null,
 "t": "2026-11-08"
 },
+"https://offbeat.amsterdam/event/for-anarchist-comrades-and-court-case-expenses-from-greece-1": {
+"p": null,
+"t": "2026-11-24"
+},
 "https://offbeat.amsterdam/event/foraging-in-a-city-that-is-warming-up": {
 "p": null,
 "t": "2026-11-19"
@@ -5068,6 +5076,10 @@
 "p": null,
 "t": "2026-11-21"
 },
+"https://offbeat.amsterdam/event/mkz-eetcafe-15": {
+"p": null,
+"t": "2026-11-24"
+},
 "https://offbeat.amsterdam/event/mkz-eetcafe-2": {
 "p": null,
 "t": "2026-10-24"
@@ -5231,6 +5243,10 @@
 "https://offbeat.amsterdam/event/music-theory-bootcamp": {
 "p": null,
 "t": "2026-11-10"
+},
+"https://offbeat.amsterdam/event/musical-encounters-serie-yoran-vroom-invites-remy-van-kesteren": {
+"p": null,
+"t": "2026-11-24"
 },
 "https://offbeat.amsterdam/event/musical-encounters-serie-yoran-vroom-invites-rory-ronde": {
 "p": null,
@@ -5787,6 +5803,10 @@
 "https://offbeat.amsterdam/event/performance-wynnie-mynerva": {
 "p": null,
 "t": "2026-10-23"
+},
+"https://offbeat.amsterdam/event/performing-thing-moments-for-living-with-three-objects-by-l-puska": {
+"p": null,
+"t": "2026-11-24"
 },
 "https://offbeat.amsterdam/event/persian-language-storytelling-night-10": {
 "p": null,
@@ -7499,6 +7519,10 @@
 "https://offbeat.amsterdam/event/weekly-zine-readings-in-the-anarchist-library-november-every-thursday-at-1900-2": {
 "p": null,
 "t": "2026-11-16"
+},
+"https://offbeat.amsterdam/event/weekly-zine-readings-in-the-anarchist-library-november-every-thursday-at-1900-3": {
+"p": null,
+"t": "2026-11-24"
 },
 "https://offbeat.amsterdam/event/weirdo-fest": {
 "p": null,
@@ -9574,7 +9598,7 @@
 },
 "https://radar.squat.net/en/event/amsterdam/plantage-dok/2026-12-10/dok-night": {
 "p": null,
-"t": "2026-11-17"
+"t": "2026-11-24"
 },
 "https://radar.squat.net/en/event/amsterdam/plantage-dok/2026-12-17/dok-night": {
 "p": null,
@@ -9595,6 +9619,18 @@
 "https://radar.squat.net/en/event/amsterdam/tkland-vrijstraat/2026-10-22/takkeherrie-ponk-xl": {
 "p": "Free",
 "t": "2026-10-16"
+},
+"https://radar.squat.net/en/event/amsterdam/tkland-vrijstraat/2026-12-10/takkeherrie-sonny-and-jets": {
+"p": "Free",
+"t": "2026-11-24"
+},
+"https://radar.squat.net/en/event/amsterdam/tkland-vrijstraat/2026-12-10/takkeherrie-sonny-and-jets-0": {
+"p": "Free",
+"t": "2026-11-24"
+},
+"https://radar.squat.net/en/event/amsterdam/tkland-vrijstraat/2027-01-07/takkeherrie-dario": {
+"p": "Free",
+"t": "2026-11-24"
 },
 "https://radar.squat.net/en/event/amsterdam/verdieping/2026-10-22/multilingual-anarchist-distro": {
 "p": null,
@@ -10491,6 +10527,10 @@
 "https://radar.squat.net/en/node/604583": {
 "p": null,
 "t": "2026-11-21"
+},
+"https://radar.squat.net/en/node/604893": {
+"p": "Free",
+"t": "2026-11-24"
 },
 "https://radar.squat.net/en/proxycafe-rise-against-big-tech": {
 "p": null,
@@ -13285,6 +13325,10 @@
 "p": null,
 "t": "2026-10-28"
 },
+"https://www.iamsterdam.com/uit/agenda/attracties-en-bezienswaardigheden/tours/rondleiding-ets-haim-1": {
+"p": "from €8,50",
+"t": "2026-11-24"
+},
 "https://www.iamsterdam.com/uit/agenda/attracties-en-bezienswaardigheden/tours/rondleiding-tentoonstelling-meesterwerk-amsterdam": {
 "p": null,
 "t": "2026-11-19"
@@ -15068,6 +15112,10 @@
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/het-lelikoor-zingt-now-may-we-singen": {
 "p": "from €15",
 "t": "2026-11-23"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/het-lelikoor-zingt-now-may-we-singen-van-houtenkerk": {
+"p": "from €15",
+"t": "2026-11-24"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/het-plantagekoor-zingt-dixit-dominus-van-gf-handel-in-de-dominicuskerk": {
 "p": "from €25",
@@ -18085,6 +18133,10 @@
 "p": "from €6",
 "t": "2026-11-16"
 },
+"https://www.iamsterdam.com/uit/agenda/festivals/events/pura-x-vida-feliz-navidance-latin-party": {
+"p": "from €5",
+"t": "2026-11-24"
+},
 "https://www.iamsterdam.com/uit/agenda/festivals/events/puraxvida-halloween-latin-fiesta": {
 "p": "from €12",
 "t": "2026-10-17"
@@ -18148,6 +18200,10 @@
 "https://www.iamsterdam.com/uit/agenda/festivals/events/workshops-palestine-design-market": {
 "p": null,
 "t": "2026-11-23"
+},
+"https://www.iamsterdam.com/uit/agenda/festivals/events/ye-bo-game-music-and-dance-game-night": {
+"p": "from €19",
+"t": "2026-11-24"
 },
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/10-years-of-stmpd-rcrds-ade": {
 "p": null,
@@ -18281,6 +18337,10 @@
 "p": "from €12",
 "t": "2026-11-06"
 },
+"https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/all-inclusive-oud-en-nieuw-2026": {
+"p": "from €169",
+"t": "2026-11-24"
+},
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/allie-x": {
 "p": "from €28,75",
 "t": "2026-10-16"
@@ -18324,6 +18384,10 @@
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/annie-presents-millenial-optimism": {
 "p": "from €12,50",
 "t": "2026-11-19"
+},
+"https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/annie-presents-millennial-optimism": {
+"p": "from €12,50",
+"t": "2026-11-24"
 },
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/annies-ade-weekender": {
 "p": "from €27,50",
@@ -19327,6 +19391,10 @@
 },
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/nachtburgemeester-verkiezing-2026": {
 "p": null,
+"t": "2026-11-24"
+},
+"https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/new-years-eve-at-pllek": {
+"p": "from €55",
 "t": "2026-11-24"
 },
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/niet-oktoberfest": {
@@ -20697,6 +20765,10 @@
 "p": "from €16,50",
 "t": "2026-11-13"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/claudia-de-breij-oudejaarsconference": {
+"p": null,
+"t": "2026-11-24"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/clous-van-mechelen-en-olga-de-meij-and-ronflonflon-met-een-ode-aan-wim-t-schippers": {
 "p": "from €15",
 "t": "2026-11-12"
@@ -21729,6 +21801,10 @@
 "p": null,
 "t": "2026-10-27"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/lezing-joodse-raad-cartotheek": {
+"p": "from €5",
+"t": "2026-11-24"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/liefdesbrieven-2026": {
 "p": "from €18,50",
 "t": "2026-11-12"
@@ -22156,6 +22232,10 @@
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/plastic-soup": {
 "p": "from €18,50",
 "t": "2026-11-07"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/plein-publiek-dana-nechushtan": {
+"p": null,
+"t": "2026-11-24"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/plein-publiek-michiel-van-erp": {
 "p": "from €10,50",
@@ -22964,6 +23044,10 @@
 "https://www.iamsterdam.com/uit/agenda/winkelen/markten/cabinet-curated-curiosa-and-design-weekendmarkt": {
 "p": "from €5",
 "t": "2026-11-07"
+},
+"https://www.iamsterdam.com/uit/agenda/winkelen/markten/green-sunday-x-the-gang-is-beautiful": {
+"p": "from €8,50",
+"t": "2026-11-24"
 },
 "https://www.iamsterdam.com/uit/agenda/winkelen/markten/kusum-creatieve-markt": {
 "p": null,

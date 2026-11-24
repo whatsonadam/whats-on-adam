@@ -1633,6 +1633,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"De Balie, Amsterdam": {
+"lat": 52.36304,
+"lon": 4.88286,
+"q": "name",
+"area": "Centrum"
+},
 "De Boomkerk": {
 "lat": 52.38325,
 "lon": 4.8508,
@@ -4321,6 +4327,12 @@
 "q": "name",
 "area": "West"
 },
+"Q Factory": {
+"lat": 52.35767,
+"lon": 4.9305,
+"q": "name",
+"area": "Oost"
+},
 "Q-Factory": {
 "lat": 52.35767,
 "lon": 4.9305,
@@ -6143,6 +6155,10 @@
 "lon": 4.88609,
 "q": "name",
 "area": "Centrum"
+},
+"ZID Theater": {
+"skip": true,
+"q": "not found"
 },
 "ZOJazz Stage": {
 "lat": 52.36898,
