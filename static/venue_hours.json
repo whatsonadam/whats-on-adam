@@ -84,13 +84,13 @@
   "note": "Opens 11:00 on the first Sunday of the month (Sep to Jun)"
  },
  "Joods Museum + junior": {
-  "mon": "10:00-17:00",
-  "tue": "10:00-17:00",
-  "wed": "10:00-17:00",
-  "thu": "10:00-17:00",
-  "fri": "10:00-17:00",
-  "sat": "10:00-17:00",
-  "sun": "10:00-17:00",
+  "mon": "11:00-17:00",
+  "tue": "11:00-17:00",
+  "wed": "11:00-17:00",
+  "thu": "11:00-17:00",
+  "fri": "11:00-17:00",
+  "sat": "11:00-17:00",
+  "sun": "11:00-17:00",
   "src": "https://jck.nl/en/plan-your-visit",
   "note": "Holidays and exceptions on the site"
  },
@@ -115,5 +115,56 @@
   "sun": "10:00-17:00",
   "src": "https://grachten.museum/en/visit/",
   "note": "Closed 25 Dec, 1 Jan, 27 April"
+ },
+ "Oude Kerk Amsterdam": {
+  "mon": "10:00-18:00",
+  "tue": "10:00-18:00",
+  "wed": "10:00-18:00",
+  "thu": "10:00-18:00",
+  "fri": "10:00-18:00",
+  "sat": "10:00-18:00",
+  "src": "https://www.oudekerk.nl/en/visitor-information"
+ },
+ "Museum Tot Zover": {
+  "mon": "closed",
+  "tue": "11:00-17:00",
+  "wed": "11:00-17:00",
+  "thu": "11:00-17:00",
+  "fri": "11:00-17:00",
+  "sat": "11:00-17:00",
+  "sun": "11:00-17:00",
+  "src": "https://www.totzover.nl/"
+ },
+ "Luther Museum Amsterdam: Ontdek de Geschiedenis": {
+  "mon": "closed",
+  "tue": "closed",
+  "wed": "closed",
+  "thu": "11:00-17:00",
+  "fri": "11:00-17:00",
+  "sat": "11:00-17:00",
+  "sun": "11:00-17:00",
+  "src": "https://luthermuseum.nl/en"
+ },
+ "Melkweg": {
+  "mon": "closed",
+  "tue": "11:00-19:00",
+  "wed": "11:00-19:00",
+  "thu": "11:00-19:00",
+  "fri": "11:00-19:00",
+  "sat": "11:00-19:00",
+  "sun": "11:00-19:00",
+  "src": "https://www.melkweg.nl/en/expo/",
+  "note": "Expo entrance Marnixstraat 409, free"
+ },
+ "Van Gogh Museum": {
+  "mon": "09:00-17:00",
+  "tue": "09:00-17:00",
+  "wed": "09:00-17:00",
+  "thu": "09:00-17:00",
+  "fri": "09:00-21:00",
+  "sat": "09:00-17:00",
+  "sun": "09:00-17:00",
+  "src": "https://www.vangoghmuseum.nl/en/visit/address-and-opening-hours",
+  "note": "Hours change by month, check the site"
  }
 }

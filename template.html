@@ -328,8 +328,6 @@ nav.tabs button[aria-selected="true"]{background:var(--ink);color:#fff;box-shado
 nav.tabs button.ade{background:var(--yel);color:#111;margin-left:6px}
 .row.allon .chip.on{opacity:1}
 .chip.on{background:color-mix(in srgb,var(--c) 84%,#BFB8AF)}
-.chip.xmas{--c:#2E6B4A;border-color:#2E6B4A;color:#fff;background:#2E6B4A}
-.row:not(.allon) .chip.xmas{background:transparent;color:#2E6B4A}
 #ring{box-shadow:0 0 0 3px #FFD500,0 0 0 9999px rgba(21,18,19,.2)!important}
 .ddp.vn{grid-template-columns:1fr;gap:0;width:min(100%,400px);max-height:360px;padding:10px}
 .ddp.vn .vq{grid-column:1/-1;width:100%;border:1.5px solid var(--ink);padding:7px 9px;font:inherit;background:#fff;margin-bottom:6px;border-radius:0}
@@ -349,10 +347,11 @@ body.shared #sharednote{display:flex}
 .wrap{max-width:1000px}
 .days .e{flex:0 0 calc((100% - 28px)/7)}
 .mon{width:28px}
-.chip.xmas{--c:#7E3040;border-color:#7E3040;background:#7E3040;color:#fff}
-.chip.xmas b{color:#F2D06B;font-weight:800;margin-right:4px}
-.row:not(.allon) .chip.xmas{background:transparent;color:#7E3040}
-.row:not(.allon) .chip.xmas b{color:#B8923A}
+.chip.xmas{--c:#7E3040;border-color:#7E3040;background:transparent;color:#7E3040;opacity:1}
+.chip.xmas b{color:#B8923A;font-weight:800;margin-right:4px}
+.chip.xmas.on,.row.allon .chip.xmas.on{background:#7E3040;color:#fff;opacity:1}
+.chip.xmas.on b{color:#F2D06B}
+.xmh{display:none!important}
 .vlink{text-decoration:none;cursor:pointer}
 .vlink:hover{text-decoration:underline}
 .clr:not([hidden]){animation:pop .9s ease 1}
@@ -1092,7 +1091,7 @@ function clrCount(tab){
     if(state.q) n++; if(!shown.every(c=>state.cats.has(c[0]))) n++; if(state.areas.size) n++; if(state.venues.size) n++;
     if(state.en) n++; if(state.price!==null) n++; if(state.tod!=="all") n++;
   } else if(tab==="cin"){
-    if(cinState.q) n++; if(cinState.kind!=="independent") n++; if(cinState.venues.size) n++; if(cinState.cv) n++; if(cinState.en) n++;
+    if(cinState.q) n++; if(cinState.kind!=="all") n++; if(cinState.venues.size) n++; if(cinState.cv) n++; if(cinState.en) n++;
     if(cinState.gn) n++; if(cinState.tfrom) n++;
   } else if(tab==="ex"){
     if(exState.q) n++; if(exState.status!=="any") n++; if(exState.sub) n++;
@@ -1109,7 +1108,7 @@ function updateClr(tab){
 }
 const CLR = {
   ag:()=>{ state.q=""; $("#q").value=""; state.cats=new Set(CATS.map(c=>c[0])); state.areas.clear(); state.venues.clear(); state.en=false; state.price=null; state.tod="all"; state.panel=""; egg=false; save(); render(); },
-  cin:()=>{ cinState.q=""; $("#cinq").value=""; cinState.kind="independent"; cinState.venues.clear(); cinState.cv=false; cinState.en=false; cinState.gn=null; cinState.tfrom=0; cinState.panel=""; renderCin(); },
+  cin:()=>{ cinState.q=""; $("#cinq").value=""; cinState.kind="all"; cinState.venues.clear(); cinState.cv=false; cinState.en=false; cinState.gn=null; cinState.tfrom=0; cinState.panel=""; renderCin(); },
   ex:()=>{ exState.q=""; $("#exq").value=""; exState.status="any"; exState.sub=null; renderExh(); },
   ade:()=>{ adeState.q=""; $("#adeq").value=""; adeState.venues.clear(); adeState.hideSold=false; adeState.tod="all"; adeState.kinds=null; adeState.genres=null; adeState.panel=""; renderAde(); }
 };
@@ -1267,10 +1266,10 @@ function calm(){
     // end time under the start: "to 18:30"
     document.querySelectorAll('.ev .t small').forEach(s=>{ if(/^[–-]\s/.test(s.textContent)) s.textContent=s.textContent.replace(/^[–-]\s*/,'to '); });
     const cEl=$('#agcount'), clr=$('#agclr');
-    const rows=list?list.querySelectorAll('.ev').length:0;
-    const filtered=clr&&!clr.hidden;
+    const rows=list?list.querySelectorAll('.ev:not(.xmh)').length:0;
+    const filtered=(clr&&!clr.hidden)||XM;
     if(list&&!list.querySelector('#map')){
-      if(!filtered) totals[title]=rows;
+      if(!filtered) totals[title]=rows; else if(XM&&totals[title]==null&&list) totals[title]=list.querySelectorAll('.ev').length;
       const tot=totals[title];
       const txt=filtered&&tot!=null?(rows+' of '+tot+' events'):(rows+' events');
       if(cEl.textContent!==txt) cEl.textContent=txt;
@@ -1319,11 +1318,12 @@ function xmas(){
     b.addEventListener('click',e=>{e.stopPropagation(); XM=!XM; try{localStorage.setItem('xm',XM?'1':'0')}catch(x){} b.setAttribute('aria-pressed',String(XM)); b.classList.toggle('on',XM); calm();}); }
   b.classList.toggle('on',XM);
   const list=$('#aglist');
-  if(list&&XM&&!list.querySelector('#map')){
-    list.querySelectorAll('.ev').forEach(r=>{ if(!XM_RX.test(r.textContent)) r.remove(); });
-    list.querySelectorAll('.evl').forEach(l=>{ if(!l.querySelector('.ev')){ const g=l.previousElementSibling; if(g&&g.classList.contains('grp')) g.remove(); l.remove(); }});
-    if(!list.querySelector('.ev')&&!list.querySelector('.xm0')){ const d=document.createElement('p'); d.className='xm0 sx-intro'; d.textContent='Nothing Christmassy on this day. Try another day, or switch the Christmas chip off.'; list.appendChild(d); }
-  }
+  if(!list||list.querySelector('#map')) return;
+  list.querySelectorAll('.ev').forEach(r=>r.classList.toggle('xmh',XM&&!XM_RX.test(r.textContent)));
+  list.querySelectorAll('.evl').forEach(l=>{ const empty=XM&&!l.querySelector('.ev:not(.xmh)'); l.classList.toggle('xmh',empty); const g=l.previousElementSibling; if(g&&g.classList.contains('grp')) g.classList.toggle('xmh',empty); });
+  let z=list.querySelector('.xm0'); const none=XM&&!list.querySelector('.ev:not(.xmh)');
+  if(none&&!z){ z=document.createElement('p'); z.className='xm0 sx-intro'; z.textContent='Nothing Christmassy on this day. Try another day, or switch the Christmas chip off.'; list.appendChild(z); }
+  if(!none&&z) z.remove();
 }
 function pickF(kind,name){
   const btn=af.querySelector('.ddb[data-v="'+kind+'"]'); if(!btn) return;

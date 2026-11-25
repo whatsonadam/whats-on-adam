@@ -108,7 +108,7 @@ SOURCES = {
     "socialisme": ("socialisme.nu agenda", "https://socialisme.nu/agenda/"),
 }
 NOTES = {"filmladder": "big chains, a week ahead; hidden in the Cinema tab until you tick the box","kriterion": "via Cineville, only a week or two ahead", "artis": "no dated events, daily programme",
-         "wethepeople": "check site for next event",         "vondelbunker": "included via radar.squat.net",
+         "wethepeople": "check site for next event", "aralez": "their site blocks our automatic reader, check their page", "schooloflife": "their site blocks automatic readers, check their page", "brecht": "only lists a few nights, often none",         "vondelbunker": "included via radar.squat.net",
          "weekly": "Jazz Café Alto, MKZ, De Trut, Robin Food Kollektief and The Queen's Head: standing nights from each venue's site, check before you go",
          "watkanikdoen": "national protest agenda, Amsterdam actions only, translated to English",
          "rightsforum": "national Palestine actions agenda, Amsterdam only, translated to English",
