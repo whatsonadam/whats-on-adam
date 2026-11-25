@@ -88,7 +88,7 @@
 "3x3 eyes 1991": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-11",
+"tried": "2026-11-25",
 "v": 4
 },
 "5 broken cameras 2011": {
@@ -267,7 +267,7 @@
 "a night at the mortuary": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-11",
+"tried": "2026-11-25",
 "v": 4
 },
 "a night of knowing nothing": {
@@ -1199,7 +1199,7 @@
 "tm4": true,
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-11",
+"tried": "2026-11-25",
 "v": 4
 },
 "ando": {
@@ -2600,6 +2600,12 @@
 "tried": "2026-11-14",
 "v": 4
 },
+"cinema royale": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-25",
+"v": 4
+},
 "cinemanita": {
 "tm5": true,
 "tmdb": true,
@@ -3589,6 +3595,25 @@
 "v": 4,
 "yr": 1989
 },
+"de blanke slavin": {
+"dr": "René Daalder",
+"du": 105,
+"gn": [
+"Drama",
+"Thriller"
+],
+"lg": [
+"de",
+"en",
+"nl"
+],
+"sy": "A man visits his girlfriend in Amsterdam after the war. He soon finds himself, for inexplicable reasons, in a country house where two women as 'white slaves' have to learn all kinds of erotic skills, and where…",
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-25",
+"v": 4,
+"yr": 1969
+},
 "de club van sinterklaas film paniek in het pietendorp": {
 "dr": "Martijn Koevoets",
 "du": 78,
@@ -3696,7 +3721,7 @@
 "tm4": true,
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-11",
+"tried": "2026-11-25",
 "v": 4
 },
 "de kerst van ernest célestine": {
@@ -3740,7 +3765,7 @@
 "de notenkraker": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-11",
+"tried": "2026-11-25",
 "v": 4
 },
 "de roode looper het nieuwe rijksmuseum de film": {
@@ -5598,7 +5623,7 @@
 "film food tampopo incl ramen": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-11",
+"tried": "2026-11-25",
 "v": 4
 },
 "film funk 2026": {
@@ -5683,7 +5708,7 @@
 "filmvertoning het atelier": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-11",
+"tried": "2026-11-25",
 "v": 4
 },
 "filmvertoning verlies niet de moed": {
@@ -6525,7 +6550,7 @@
 "götterdämmerung": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-11",
+"tried": "2026-11-25",
 "v": 4
 },
 "hadoota": {
@@ -6959,7 +6984,7 @@
 "hoe lees ik film lidewijde paris": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-11",
+"tried": "2026-11-25",
 "v": 4
 },
 "hoff animation a new look": {
@@ -7287,7 +7312,7 @@
 "humans of film festival": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-11",
+"tried": "2026-11-25",
 "v": 4
 },
 "humans of film festival i built a rocket imagining your arrival 2026": {
@@ -9268,7 +9293,7 @@
 "tm4": true,
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-11",
+"tried": "2026-11-25",
 "v": 4
 },
 "kain nagesprek": {
@@ -10824,7 +10849,7 @@
 "maak je eigen flipboek magische dromen": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-11",
+"tried": "2026-11-25",
 "v": 4
 },
 "maak je eigen flipboek technische snufjes": {
@@ -11767,7 +11792,7 @@
 "mtm on tour molly vs the machines": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-11",
+"tried": "2026-11-25",
 "v": 4
 },
 "mtm on tour muganga": {
@@ -14483,7 +14508,7 @@
 "sense sensibility 1995": {
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-11",
+"tried": "2026-11-25",
 "v": 4
 },
 "sentient": {
@@ -14643,7 +14668,7 @@
 "tm4": true,
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-11",
+"tried": "2026-11-25",
 "v": 4
 },
 "she was not alone": {
@@ -14666,7 +14691,7 @@
 "tm4": true,
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-11",
+"tried": "2026-11-25",
 "v": 4
 },
 "shorts a house of memories": {
@@ -15573,7 +15598,7 @@
 "tm4": true,
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-11",
+"tried": "2026-11-25",
 "v": 4
 },
 "tempestad": {
@@ -19211,7 +19236,7 @@
 "tm4": true,
 "tm5": true,
 "tmdb": true,
-"tried": "2026-11-11",
+"tried": "2026-11-25",
 "v": 4
 },
 "verity": {

@@ -2329,6 +2329,10 @@
 "h": "20:00",
 "chk": "2026-10-11"
 },
+"https://www.cinetol.nl/events/knives": {
+"h": "20:00",
+"chk": "2026-11-25"
+},
 "https://www.cinetol.nl/events/kyoyoko": {
 "h": "20:30",
 "chk": "2026-10-11"
@@ -3183,6 +3187,14 @@
 },
 "chk": "2026-10-11"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/mietze-conte": {
+"dates": {
+"2026-11-28": {
+"h": "20:00"
+}
+},
+"chk": "2026-11-25"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/minimal-collective-x-oude-kerk-post-space": {
 "dates": {
 "2026-10-22": {
@@ -3282,6 +3294,14 @@
 }
 },
 "chk": "2026-10-11"
+},
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/radio-z": {
+"dates": {
+"2026-12-02": {
+"h": "19:30"
+}
+},
+"chk": "2026-11-25"
 },
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/rijck": {
 "dates": {
