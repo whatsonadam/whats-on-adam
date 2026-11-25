@@ -14,7 +14,7 @@ sys.path.insert(0, os.path.join(HERE, "parsers"))
 
 CINEMA_KEYS = ["eye", "rialto", "uitkijk", "themovies", "studiok", "ketelhuis", "hyena", "filmhallen", "cinecenter",
                "melkwegcinema", "amstelveen", "devlugt", "thepulse", "omval", "docpaviljoen", "kriterion", "filmladder"]
-AGG = {"radar", "offbeat", "amsterdamalternative", "iamsterdam", "luma"}
+AGG = {"radar", "offbeat", "amsterdamalternative", "iamsterdam", "luma", "amsterdamcal", "activismeagenda"}
 # Page keys whose markdown feeds a parser of the same name
 MD_KEYS = ["mezrab", "vrankrijk", "aralez", "desering", "amsterdamalternative", "offbeat", "likeminds",
            "garagenoord", "skatecafe", "deceuvel", "nieuweanita", "verzetsmuseum", "wereldmuseum", "odessa",
@@ -72,6 +72,17 @@ SOURCES = {
     "schooloflife": ("The School of Life", "https://www.theschooloflife.com/amsterdam/agenda/"),
     "offlineclub": ("The Offline Club", "https://luma.com/theofflineclubamsterdam"),
     "luma": ("Luma Amsterdam", "https://luma.com/amsterdam"),
+    "debalie": ("De Balie", "https://debalie.nl/programma/"),
+    "felixmeritis": ("Felix Meritis", "https://felixmeritis.nl/programma/"),
+    "amsterdamcal": ("City of Amsterdam activities", "https://activiteiten.amsterdam.nl/"),
+    "activismeagenda": ("Activisme Agenda", "https://activismeagenda.nl/events/"),
+    "waag": ("Waag Futurelab", "https://waag.org/en/events/"),
+    "jck": ("Jewish Cultural Quarter", "https://jck.nl/en/agenda"),
+    "allardpierson": ("Allard Pierson", "https://www.allardpierson.nl/agenda/"),
+    "mediamatic": ("Mediamatic", "https://www.mediamatic.net/en/events"),
+    "bijlmerparktheater": ("Bijlmer Parktheater", "https://www.bijlmerparktheater.nl/agenda"),
+    "westergas": ("Westergasfabriek", "https://www.westergas.nl/agenda"),
+    "pinknieuwwest": ("QueerHub Amsterdam", "https://www.pinknieuwwest.org/activiteiten/"),
     "ra": ("Resident Advisor", "https://ra.co/events/nl/amsterdam"),
     "verbroederij": ("De VerbroederIJ", "https://deverbroederij.nl/"),
     "ruigoord": ("Ruigoord", "https://ruigoord.nl/programma/"),
@@ -102,7 +113,9 @@ NOTES = {"filmladder": "big chains, a week ahead; hidden in the Cinema tab until
          "watkanikdoen": "national protest agenda, Amsterdam actions only, translated to English",
          "rightsforum": "national Palestine actions agenda, Amsterdam only, translated to English",
          "xr": "national agenda, Amsterdam events only, translated to English",
-         "socialisme": "national agenda, Amsterdam entries only, translated to English"}
+         "socialisme": "national agenda, Amsterdam entries only, translated to English",
+         "activismeagenda": "national activist agenda, Amsterdam entries only, translated to English",
+         "amsterdamcal": "city sessions and meetings: council and district meetings show always, neighbourhood sessions only under Community or in search"}
 
 NL = set("de het een en van voor met over wat hoe waarom jouw je jij niet ook naar uit bij als wordt worden zijn onze ons wij we leer leren samen avond middag lezing gesprek voorstelling kinderen jeugd verhaal nieuwe zonder tegen door dan kan maar deze dit welkom spreekuur buurt".split())
 EN = set("the and of for with about what how why your you not to from at is are our we learn together evening night talk english".split())
@@ -188,6 +201,30 @@ def collect(today):
     per["delamar"] = run("delamar", importlib.import_module("delamar").parse_pages, dl, today)
     f = os.path.join(DATA, "offlineclub.html")
     per["offlineclub"] = run("offlineclub", importlib.import_module("offlineclub").parse, open(f, errors="ignore").read(), today) if os.path.exists(f) else []
+    f = os.path.join(DATA, "debalie.json")
+    per["debalie"] = run("debalie", importlib.import_module("debalie").parse, open(f, errors="ignore").read(), today) if os.path.exists(f) else []
+    fm_pages = [open(p, errors="ignore").read() for p in sorted(glob.glob(os.path.join(DATA, "felixmeritis", "p*.html")))]
+    fm_det = {os.path.basename(p)[:-5]: open(p, errors="ignore").read() for p in glob.glob(os.path.join(DATA, "felixmeritis", "detail", "*.html"))}
+    per["felixmeritis"] = run("felixmeritis", importlib.import_module("felixmeritis").parse_pages, fm_pages, fm_det, today) if fm_pages else []
+    def _dir_parse(key, mod_name):
+        d = os.path.join(DATA, key)
+        lp = os.path.join(d, "list.html")
+        if not os.path.exists(lp): return []
+        det = {os.path.basename(p)[:-5]: open(p, errors="ignore").read() for p in glob.glob(os.path.join(d, "detail", "*.html"))}
+        return run(key, importlib.import_module(mod_name).parse_pages, [open(lp, errors="ignore").read()], det, today)
+    per["jck"] = _dir_parse("jck", "jck")
+    per["allardpierson"] = _dir_parse("allardpierson", "allardpierson")
+    md = os.path.join(DATA, "mediamatic")
+    per["mediamatic"] = run("mediamatic", lambda t: (lambda m: m.parse_pages(*m.load(md), t))(importlib.import_module("mediamatic")), today) if os.path.isdir(md) else []
+    for key, fn in (("bijlmerparktheater", "bijlmerparktheater.json"), ("westergas", "westergas.json"), ("pinknieuwwest", "pinknieuwwest.ics")):
+        f = os.path.join(DATA, fn)
+        per[key] = run(key, importlib.import_module(key).parse, open(f, errors="ignore").read(), today) if os.path.exists(f) else []
+    f = os.path.join(DATA, "activismeagenda.json")
+    per["activismeagenda"] = run("activismeagenda", importlib.import_module("activismeagenda").parse, open(f, errors="ignore").read(), today) if os.path.exists(f) else []
+    f = os.path.join(DATA, "waag.html")
+    per["waag"] = run("waag", importlib.import_module("waag").parse, open(f, errors="ignore").read(), today) if os.path.exists(f) else []
+    f = os.path.join(DATA, "amsterdamcal.json")
+    per["amsterdamcal"] = run("amsterdamcal", importlib.import_module("amsterdamcal").parse, open(f, errors="ignore").read(), today) if os.path.exists(f) else []
     f = os.path.join(DATA, "luma.json")
     per["luma"] = run("luma", importlib.import_module("luma").parse, open(f, errors="ignore").read(), today) if os.path.exists(f) else []
     f = os.path.join(DATA, "socialisme.html")
@@ -388,6 +425,12 @@ def main():
     stamp = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
     json.dump({"updated": stamp, "events": events, "sources": src}, open(os.path.join(out, "events.json"), "w"),
               ensure_ascii=False, separators=(",", ":"))
+    import shutil
+    for d in ("fonts", "static"):                    # fonts are served from this site; static/ holds the About and venue pages
+        sdir = os.path.join(HERE, d)
+        if not os.path.isdir(sdir): continue
+        if d == "fonts": shutil.copytree(sdir, os.path.join(out, "fonts"), dirs_exist_ok=True)
+        else: shutil.copytree(sdir, out, dirs_exist_ok=True)
     open(os.path.join(out, "index.html"), "w").write(open(os.path.join(HERE, "template.html")).read().replace("__CONTACT__", os.environ.get("CONTACT_EMAIL", "")))
 
     final = {}

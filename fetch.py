@@ -272,6 +272,55 @@ def fetch_extras(status, today, want):
             status["offlineclub"] = f"error {code}"
             if os.path.exists(out): os.remove(out)
         else: status["offlineclub"] = "ok"
+    if not want or "debalie" in want:
+        import debalie
+        out = os.path.join(DATA, "debalie.json")
+        try: status["debalie"] = f"ok ({debalie.fetch(out)} items)"
+        except Exception as ex:
+            status["debalie"] = f"error {str(ex)[:60]}"
+            if os.path.exists(out): os.remove(out)   # build.py then keeps the previous events
+    if not want or "felixmeritis" in want:
+        import felixmeritis, shutil
+        try: status["felixmeritis"] = f"ok ({felixmeritis.fetch(os.path.join(DATA, 'felixmeritis'))} events)"
+        except Exception as ex:
+            status["felixmeritis"] = f"error {str(ex)[:60]}"
+            shutil.rmtree(os.path.join(DATA, "felixmeritis"), ignore_errors=True)   # build.py then keeps the previous events
+    import shutil
+    for key in ("jck", "allardpierson", "mediamatic"):      # directory sources: list page plus detail pages
+        if want and key not in want: continue
+        mod = __import__(key)
+        try: status[key] = f"ok ({mod.fetch(os.path.join(DATA, key))} items)"
+        except Exception as ex:
+            status[key] = f"error {str(ex)[:60]}"
+            shutil.rmtree(os.path.join(DATA, key), ignore_errors=True)   # build.py then keeps the previous events
+    for key, fn in (("bijlmerparktheater", "bijlmerparktheater.json"), ("westergas", "westergas.json"), ("pinknieuwwest", "pinknieuwwest.ics")):
+        if want and key not in want: continue
+        mod = __import__(key); out = os.path.join(DATA, fn)
+        try: status[key] = f"ok ({mod.fetch(out)} items)"
+        except Exception as ex:
+            status[key] = f"error {str(ex)[:60]}"
+            if os.path.exists(out): os.remove(out)
+    if not want or "activismeagenda" in want:
+        import activismeagenda
+        out = os.path.join(DATA, "activismeagenda.json")
+        try: status["activismeagenda"] = f"ok ({activismeagenda.fetch(out)} entries)"
+        except Exception as ex:
+            status["activismeagenda"] = f"error {str(ex)[:60]}"
+            if os.path.exists(out): os.remove(out)   # build.py then keeps the previous events
+    if not want or "waag" in want:
+        import waag
+        out = os.path.join(DATA, "waag.html")
+        try: status["waag"] = f"ok ({waag.fetch(out)} page)"
+        except Exception as ex:
+            status["waag"] = f"error {str(ex)[:60]}"
+            if os.path.exists(out): os.remove(out)
+    if not want or "amsterdamcal" in want:
+        import amsterdamcal
+        out = os.path.join(DATA, "amsterdamcal.json")
+        try: status["amsterdamcal"] = f"ok ({amsterdamcal.fetch(out)} pages)"
+        except Exception as ex:
+            status["amsterdamcal"] = f"error {str(ex)[:60]}"
+            if os.path.exists(out): os.remove(out)   # build.py then keeps the previous events
     if not want or "luma" in want:
         import luma
         out = os.path.join(DATA, "luma.json")

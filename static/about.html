@@ -1,0 +1,216 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>About What's on A'dam</title>
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+:root{color-scheme:light;--bg:#CEC9C2;--sheet:#DFDBD5;--card:#FDFCFA;--card2:#F6F2EB;--ink:#151213;--hred:#C23A35;--yel:#FFD500;--bw:1.5px;--display:Anton,Impact,sans-serif;--body:Archivo,system-ui,sans-serif}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:15px/1.55 var(--body);margin:0;padding:12px 16px 56px}
+.wrap{max-width:860px;margin:0 auto;background:var(--sheet);padding:18px 22px 30px;display:grid;gap:14px}
+.flag{background:#111;display:grid;grid-template-rows:8px auto 8px}.flag .rs{background:var(--hred)}
+.flag .bs{padding:12px 20px;display:flex;justify-content:space-between;align-items:center}
+.flag h1{margin:0;font:400 clamp(34px,6vw,54px)/.95 var(--display);text-transform:uppercase;color:#fff}.flag em{font-style:normal;color:var(--hred)}
+.flag a{color:inherit;text-decoration:none}
+a.back{font:800 13px var(--body);color:var(--ink)}
+h2{font:400 30px/1 var(--display);text-transform:uppercase;margin:10px 0 0}
+h3{font:800 16px var(--body);margin:0}
+p{margin:0;max-width:68ch}
+.sec{background:var(--card);border:var(--bw) solid var(--ink);padding:14px 16px;display:grid;gap:8px}
+.ph{background:#EFE9C7;border-left:4px solid var(--yel);padding:6px 10px;font-style:italic;max-width:68ch}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:8px}
+.steps div{border:var(--bw) solid var(--ink);background:#fff;padding:10px;display:grid;gap:4px}.steps b{font:400 26px var(--display);color:var(--hred)}
+ul{margin:0;padding-left:18px;display:grid;gap:4px}
+.dec{display:grid;grid-template-columns:1fr auto;gap:2px 12px;border-top:1px solid #bdb6ad;padding:6px 0}.dec b{font-weight:800}.dec span{font-size:12px;color:#555;text-align:right}.dec p{grid-column:1/-1;font-size:13px;color:#444}
+.open{background:#F2D7D4}
+.form{display:grid;gap:8px;max-width:520px}
+.form select,.form textarea,.form input{font:inherit;border:var(--bw) solid var(--ink);padding:8px 10px;background:#fff;border-radius:0}
+.form textarea{min-height:90px}
+.btn{justify-self:start;border:var(--bw) solid var(--ink);background:var(--yel);padding:9px 16px;font:800 14px var(--body);cursor:pointer;border-radius:0}
+.jm{display:flex;gap:6px;flex-wrap:wrap}.jm a{border:var(--bw) solid var(--ink);background:var(--card);padding:5px 10px;font:800 12px var(--body);text-decoration:none;color:var(--ink)}
+.evl{border:var(--bw) solid var(--ink);background:var(--card)}
+.ev{display:grid;grid-template-columns:70px 1fr;gap:12px;padding:10px 14px;border-top:var(--bw) solid var(--ink);align-items:center}.ev:first-child{border-top:0}.ev:nth-child(even){background:var(--card2)}
+.ev .t{font:400 24px/1.05 var(--display);color:var(--hred)}.ev .t small{display:block;font:800 10px var(--body);text-transform:uppercase;color:#555}
+.ev .tt{font-weight:800;font-size:16px;text-decoration:none;color:var(--ink)}.ev p{font-size:13px;color:#444}
+@media(max-width:700px){body{padding:8px 6px 40px}.wrap{padding:12px}}
+.wrap{max-width:1000px;gap:16px}
+.flag .bs{padding:14px 22px}
+.tabsrow{display:flex;gap:3px;margin-top:-16px}
+.tabsrow a{background:#2c2829;color:#cfc9c1;font:800 13px var(--body);padding:8px 18px 9px;text-decoration:none}
+.tabsrow a.me{margin-left:auto;background:var(--card);color:var(--ink);box-shadow:inset 0 0 0 1.5px var(--ink)}
+.col{max-width:720px;width:100%;margin:0 auto;display:grid;gap:10px}
+.hero{margin-bottom:8px}.hero h2{margin:0 0 8px;font:400 clamp(30px,5vw,44px)/1 var(--display)}.hero p{font-size:16px;color:#333}
+details.a{background:var(--card);border:var(--bw) solid var(--ink)}
+details.a>summary{list-style:none;cursor:pointer;padding:13px 16px;font:400 22px/1 var(--display);text-transform:uppercase;display:flex;justify-content:space-between;align-items:center;gap:10px}
+details.a>summary::-webkit-details-marker{display:none}
+details.a>summary small{font:700 12px var(--body);text-transform:none;color:#666;margin-left:auto}
+details.a>summary::after{content:"+";font:800 22px var(--body)}
+details.a[open]>summary::after{content:"\2212"}
+details.a[open]>summary{border-bottom:var(--bw) solid var(--ink)}
+details.a .in{padding:14px 16px 16px;display:grid;gap:10px}
+details.a .in p{max-width:none;margin:0;font-size:15px}
+details.a.pop{border-width:2px;box-shadow:5px 5px 0 var(--hred)}
+.how{display:grid;gap:12px}
+.how .r{display:grid;grid-template-columns:220px 1fr;gap:14px;align-items:center}.how .r p{margin:0}.how .r b{display:block;margin-bottom:2px}
+.tour{justify-self:start;display:inline-block;background:var(--ink);color:#fff;text-decoration:none;font:800 13px var(--body);padding:9px 14px}
+.mini{background:#F6F2EB;border:var(--bw) solid var(--ink);padding:8px;display:grid;gap:6px;font-size:10px;pointer-events:none}
+.mini .days{display:flex;border:1px solid var(--ink)}.mini .days i{flex:1;font-style:normal;text-align:center;padding:3px 0;font:800 9px var(--body);border-left:1px solid #bbb;background:#eee}.mini .days i:first-child{border:0}.mini .days i.t{background:#A8352F;color:#fff}.mini .days i.w{background:#EFD3CF}
+.mini .ch{display:flex;gap:3px;flex-wrap:wrap}.mini .ch span{color:#fff;font:800 8px var(--body);text-transform:uppercase;padding:3px 6px;letter-spacing:.05em}
+.mini .ev{display:grid;grid-template-columns:38px 1fr auto;gap:6px;align-items:center;border:1px solid var(--ink);padding:5px 6px;background:#fff}
+.mini .ev b{font:400 15px var(--display);color:var(--hred)}.mini .ev em{font-style:normal;font-weight:800;font-size:10px}.mini .ev small{display:block;color:#666;font-size:9px}
+.mini .ic{width:18px;height:18px;border:1px solid #999;display:grid;place-items:center;font-size:11px;color:#555}
+.mini .tag{background:#775A8E;color:#fff;font:800 8px var(--body);padding:2px 5px}
+.mini .ex{display:grid;grid-template-columns:1fr auto;gap:6px;border:1px solid var(--ink);padding:5px 6px;background:#fff;font-weight:800;font-size:10px}.mini .ex small{color:#666;font-weight:400}
+/* form */
+.kinds{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.kinds label{border:var(--bw) solid var(--ink);background:#fff;padding:10px 12px;cursor:pointer;display:grid;gap:2px}
+.kinds label b{font:800 14px var(--body)}.kinds label span{font-size:12px;color:#555}
+.kinds input{position:absolute;opacity:0}
+.kinds label:has(input:checked){background:var(--ink);color:#fff;box-shadow:inset 0 3px 0 var(--hred)}.kinds label:has(input:checked) span{color:#d8d2c8}
+.kinds label:has(input:focus-visible){outline:2px solid var(--hred);outline-offset:2px}
+.f{display:grid;gap:10px}
+.f label.l{display:grid;gap:4px;font:800 12px var(--body)}.f label.l small{font-weight:400;color:#666}
+.f input[type=text],.f input[type=email],.f textarea,.f select{font:15px var(--body);border:var(--bw) solid var(--ink);padding:9px 10px;background:#fff;border-radius:0;width:100%}
+.f textarea{min-height:90px}
+.f .btn{justify-self:start;background:var(--ink);color:#fff;border:0;padding:11px 18px;font:800 14px var(--body);cursor:pointer}
+.sent{display:none;border:var(--bw) solid var(--ink);padding:12px;font-weight:700;background:#F6F2EB}
+.hint{font-size:13px;color:#444;background:#F6F2EB;padding:8px 10px;border-left:3px solid var(--ink)}
+.ph{background:#EFEAD9;border-left:3px solid #BFB58A;padding:6px 10px;font-style:italic;font-size:13px}
+.lst{margin:0;padding-left:18px;display:grid;gap:6px;font-size:15px}
+@media(max-width:640px){.how .r{grid-template-columns:1fr}.kinds{grid-template-columns:1fr}}
+
+details.a{background:#E9E4DD;border:var(--bw) solid var(--ink)}
+details.a>summary{padding:14px 18px;font-size:21px}
+details.a[open]{background:#F2EEE8}
+details.a[open]>summary{background:var(--ink);color:#fff;border-bottom:0}
+details.a[open]>summary small{color:#cfc9c1}
+details.a .in{padding:18px 20px 22px;gap:14px;border-top:0}
+details.a .in p,.lst{font-size:16px;line-height:1.7;color:#1d1a1b;max-width:62ch}
+details.a .in h4{margin:6px 0 -6px;font:800 12px var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--hred)}
+.lst li{padding-left:2px}
+.mini{background:#fff}
+.kinds label{background:#F8F5F0}
+.hero p{font-size:17px;line-height:1.6}
+.cta{justify-self:start;display:inline-block;margin-top:12px;background:var(--ink);color:#fff;font:800 14px var(--body);padding:10px 16px;text-decoration:none;cursor:pointer;border:0}
+.cred{display:grid;grid-template-columns:150px 1fr;gap:8px 16px;font-size:15px;line-height:1.55}.cred b{font-weight:800}
+@media(max-width:640px){.cred{grid-template-columns:1fr;gap:0}.cred b{margin-top:8px}}
+
+/* round 7: calmer type, light open state */
+details.a>summary{font:800 17px/1.3 var(--body);text-transform:none;letter-spacing:0;padding:15px 18px}
+details.a[open]>summary{background:#E0DAD1;color:var(--ink);box-shadow:inset 5px 0 0 var(--hred)}
+details.a[open]>summary small{color:#555}
+details.a>summary::after{font-weight:400}
+details.a .in{padding:18px 22px 24px;gap:12px}
+details.a .in p,.lst{font:400 16px/1.7 var(--body);color:#1d1a1b;max-width:60ch}
+details.a .in h4{font:800 15px/1.3 var(--body);letter-spacing:0;text-transform:none;color:var(--ink);margin:10px 0 -4px}
+details.a .in h4:first-child{margin-top:0}
+.lst{padding-left:20px;gap:8px}
+.cred{display:block;border-top:1px solid #C8C1B7}
+.cred b,.cred span{display:inline}
+.crow{display:grid;grid-template-columns:140px 1fr;gap:4px 16px;padding:10px 0;border-bottom:1px solid #C8C1B7;font:400 15px/1.55 var(--body)}
+.crow b{font-weight:800}
+@media(max-width:640px){.crow{grid-template-columns:1fr}}
+
+/* round 8: form */
+.kinds{gap:10px}
+.kinds label{background:#fff;border:var(--bw) solid #B9B2A8;padding:12px 14px;gap:3px;position:relative;transition:background .12s}
+.kinds label b{font:800 15px var(--body)}.kinds label span{font-size:13px;color:#555;line-height:1.35}
+.kinds label:hover{border-color:var(--ink)}
+.kinds label:has(input:checked){background:#F6E4E1;color:var(--ink);border:2px solid var(--hred);box-shadow:none;padding:11.5px 13.5px}
+.kinds label:has(input:checked) span{color:#444}
+.kinds label:has(input:checked)::after{content:"";position:absolute;right:12px;top:12px;width:10px;height:10px;border-radius:50%;background:var(--hred)}
+.f{gap:14px;margin-top:4px}
+.f label.l{font:800 14px var(--body);gap:6px}.f label.l small{font-weight:400;color:#666;font-size:13px}
+.f input[type=text],.f input[type=email],.f textarea,.f select{background:#fff;border:var(--bw) solid #8f887e;font:16px var(--body);padding:11px 12px}
+.f input:focus,.f textarea:focus,.f select:focus{outline:2px solid var(--hred);outline-offset:1px;border-color:var(--ink)}
+.f textarea{min-height:110px}
+.hint{background:#EDE8DF;border-left:3px solid var(--hred);font-size:14px;padding:10px 12px}
+.f .btn{padding:12px 22px;font-size:15px}
+
+.kinds label{background:#ECE7DE;border:var(--bw) solid #A8A196}
+.kinds label:has(input:checked){background:#fff;border:2px solid var(--ink);padding:11.5px 13.5px}
+.kinds label:has(input:checked)::after{background:var(--ink)}
+.hint{border-left-color:var(--ink)}
+</style></head><body><div class="wrap">
+<div class="flag"><div class="rs"></div><div class="bs"><h1><a href="index.html">What's on <em>A'dam</em></a></h1><span style="display:flex;align-items:center;gap:18px"><b style="color:#fff;font:800 15px Archivo,sans-serif;border-bottom:2px solid #fff;padding-bottom:1px">About</b><svg width="86" height="26" viewBox="0 0 86 26" aria-hidden="true"><path d="M3 3L23 23M23 3L3 23M33 3L53 23M53 3L33 23M63 3L83 23M83 3L63 23" stroke="#fff" stroke-width="5" fill="none"/></svg></span></div><div class="rs"></div></div>
+<div class="tabsrow"><a href="index.html">Agenda</a><a href="index.html">Cinema</a><a href="index.html">Exhibitions</a></div>
+<div class="col">
+<section class="hero"><h2>Everything on in Amsterdam, in one place.</h2><p>Gigs, films, exhibitions, talks, protests and small weird things from <span class="nsrc">70</span> places. Updated twice a day. Free, no ads, no tracking.</p></section>
+
+<details class="a"><summary>How to use it</summary><div class="in">
+<a class="tour" href="index.html#tour">Take the interactive tour</a>
+<div class="how">
+<div class="r"><div class="mini"><div class="days"><i>TUE</i><i class="t">WED</i><i>THU</i><i class="w">FRI</i><i class="w">SAT</i><i class="w">SUN</i><i>MON</i></div></div><p><b>Pick a day</b>The strip shows the next week. The arrow goes further.</p></div>
+<div class="r"><div class="mini"><div class="ch"><span style="background:#7E3040">Christmas</span><span style="background:#A8504B">Music</span><span style="background:#A06A32">Club</span><span style="background:#775A8E">Talk</span><span style="background:#46698F">Theatre</span></div></div><p><b>Narrow it down</b>Tap a type, a time, a venue or an area. Clear filters resets it all.</p></div>
+<div class="r"><div class="mini"><div class="ev"><b>20:30</b><span><em>Concert title</em><small>Paradiso &middot; Centrum</small></span><span class="ic">+</span></div></div><p><b>Add to calendar</b>The calendar button on each event. Tap the title for the original listing.</p></div>
+<div class="r"><div class="mini"><div class="ev"><b>21:00</b><span><em>Film title</em><small>Eye &middot; Noord &middot; 2h 10m</small></span><span class="tag">FILM</span></div></div><p><b>Cinema</b>Every screening in the city, with film info.</p></div>
+<div class="r"><div class="mini"><div class="ex"><span>Exhibition title<br><small>Stedelijk &middot; until 14 Feb</small></span><span class="ic">+</span></div></div><p><b>Exhibitions</b>Visit any day before they close. Add one to your calendar and pick the day and time.</p></div>
+</div></div></details>
+
+<details class="a pop" id="contact"><summary>Get in touch</summary><div class="in">
+<p><b>What is it about?</b></p>
+<div class="kinds">
+<label><input type="radio" name="k" value="s" checked><b>Something is missing</b><span>An event, venue or website to add</span></label>
+<label><input type="radio" name="k" value="w"><b>Something is wrong</b><span>Wrong time, price or link, or a duplicate</span></label>
+<label><input type="radio" name="k" value="r"><b>Take something down</b><span>I run the page or venue and want it off</span></label>
+<label><input type="radio" name="k" value="i"><b>Idea or feedback</b><span>The site, accessibility, new features, AI use</span></label></div>
+<form class="f" id="ff" novalidate><input type="hidden" name="access_key" value="8b9ec27a-98d1-4dd5-a9d3-956972eb4dd4"><input type="hidden" name="from_name" value="What's on A'dam form"><input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" style="display:none">
+<label class="l"><span id="lm">What should I add?</span><textarea id="tm" name="message" required placeholder=""></textarea></label>
+<label class="l"><span>Link <small>optional</small></span><input type="text" name="link" placeholder="https://"></label>
+<label class="l" id="fc" style="display:none"><span>Your connection to it</span><select name="connection"><option>I run the venue or organisation</option><option>I am the event organiser</option><option>Someone else, with a concern</option></select></label>
+<label class="l"><span>Your email <small id="el">optional, only if you want a reply</small></span><input type="email" id="em" name="email"></label>
+<div class="hint" id="hh" style="display:none">I'll try to remove it as soon as possible.</div>
+<button class="btn" id="sendb">Send</button><div class="err" id="err" style="display:none;font-weight:800;color:#C23A35"></div></form>
+<div class="sent">Thanks. Your message reached me.</div></div></details>
+
+<details class="a"><summary>Who makes this</summary><div class="in">
+<p>I'm Gil. I kept struggling to find out what's on in Amsterdam. The big agendas are mostly paid placements, and the small independent and community stuff is scattered over dozens of sites, often only in Dutch.</p>
+<p>So I put it all in one place. It's for everyone, but mostly for people who live here or are here for a while, not tourists. English can be a struggle, so I mark what works in English.</p>
+<p>I have no financial interest in this. No ads, no tickets, nothing sold. I hope you find it useful, and you can always get in touch.</p>
+<p>Everything here belongs to the venues and organisers. I just collect it and link back, and I'm not affiliated with any of them. Details can be wrong, so check with the venue. If you run a page and want off, use the form and pick "Take something down".</p></div></details>
+
+<details class="a"><summary>How it works</summary><div class="in">
+<p>Twice a day the site checks the public pages of <span class="nsrc">70</span> venues and listing sites, like a person going through them one by one. It picks out the title, date, time, place and link, sorts events into types with a keyword list (say, "techno" means Club), and puts it all on one page.</p>
+<p>Nothing is made up. Every event links to where it came from.</p></div></details>
+
+<details class="a"><summary>AI statement</summary><div class="in">
+<p>The whole site was built with AI. I direct it, make every choice and check the results, but I didn't write the code. I'm not a programmer or a designer. The keyword lists and rules are mine, written with AI. Nothing you read here is generated, but the site is made with AI, and that matters.</p>
+<h4>Why AI is a problem</h4>
+<p>A lot is wrong with it. Among other things:</p>
+<ul class="lst"><li>It was trained on people's work without asking or paying them.</li><li>It uses a lot of energy and water.</li><li>A few huge companies control it.</li><li>And much more.</li></ul>
+<p>The one closest to home is designers and developers. A site like this is normally made by a designer and a developer, and I used neither, so that's paid work that didn't happen. But it's not only about jobs. These models learned from designers' and developers' work, mostly without their consent, and now they imitate it. They make design and code feel like something anyone can generate, and I can't judge the code or the design the way they could. What comes out also tends to look the same, so more of the web ends up looking alike. The more people do what I'm doing, the more of that there is.</p>
+<h4>Why I use it anyway</h4>
+<p>I couldn't build this otherwise. I can't code or design, and I can't pay anyone. I also couldn't find an independent, complete agenda for Amsterdam, and I think the city needs one. And I'm learning to use AI carefully, in the open. It's not a full answer, and I know.</p>
+<h4>What I do about it</h4>
+<ul class="lst"><li>AI builds the tool, never the content. Event texts come from the source.</li><li>I check every choice and result.</li><li>Light on energy: a simple page, updated twice a day, no servers running all day.</li><li>Every source is credited and linked.</li><li>Listed and want off? Tell me and it goes.</li><li>No profit, no ads.</li><li>The code is public.</li><li>I'm transparent and open to criticism.</li></ul>
+<p>Thoughts on AI or this site? Let's talk.</p></div></details>
+
+<details class="a"><summary>Credits</summary><div class="in">
+<p>Thank you to everyone this site is built on.</p>
+<div class="cred"><div class="crow"><b>Events</b><span>Public pages of venues, organisers and listing sites. All <span class="nsrc">70</span> are on the Sources page.</span></div><div class="crow"><b>Film info</b><span>Cineville and TMDB. This product uses the TMDB API but is not endorsed or certified by TMDB.</span></div><div class="crow"><b>Translations</b><span>DeepL, for some Dutch texts.</span></div><div class="crow"><b>Maps</b><span>&copy; OpenStreetMap contributors.</span></div><div class="crow"><b>Calendar files</b><span>ics.agical.io.</span></div><div class="crow"><b>Forms</b><span>Web3Forms carries the messages from the contact form.</span></div><div class="crow"><b>Fonts</b><span>Anton and Archivo.</span></div><div class="crow"><b>Hosting</b><span>GitHub Pages.</span></div><div class="crow"><b>Built with</b><span>Claude, by Anthropic.</span></div></div>
+<p><a href="index.html#sources" style="color:var(--ink);font-weight:800">See all <span class="nsrc">70</span> sources</a></p></div></details>
+
+<details class="a"><summary>Privacy and data</summary><div class="in">
+<p>No cookies, no accounts, no tracking. I don't count visitors and I don't want to know.</p>
+<p>Your filters, the English switch and your want-to-see list stay in your own browser. They never reach me.</p>
+<h4>Services your browser touches</h4>
+<ul class="lst"><li><b>GitHub</b> hosts the site, so it sees your IP address like any host.</li><li><b>OpenStreetMap</b> sends map tiles when you open a map.</li><li><b>Web3Forms</b> receives what you type in the contact form, only when you press Send.</li><li><b>ics.agical.io</b> builds the calendar file when you add an event. It gets the event name, venue, description and link, nothing else about you.</li></ul>
+<h4>The form</h4>
+<p>The form uses a small service called <b>Web3Forms</b>. It passes your message, and your email if you add one, to my inbox. I keep messages only as long as I need to reply. Web3Forms has its own <a href="https://web3forms.com/privacy" target="_blank" rel="noopener" style="color:var(--ink);font-weight:800">privacy policy</a>.</p></div></details>
+</div></div>
+<script>
+function openC(){document.getElementById('contact').open=true}
+document.querySelectorAll('details.a').forEach(d=>d.addEventListener('toggle',()=>{if(d.open)document.querySelectorAll('details.a').forEach(o=>{if(o!==d)o.open=false})}));
+if(location.hash==='#contact')openC();
+const T={s:['What should I add?',0],w:['What is wrong, and what should it say?',0],r:['Anything I should know?',1],i:['Your idea or feedback',0]};
+document.querySelectorAll('input[name=k]').forEach(r=>r.onchange=()=>{const t=T[r.value];document.getElementById('lm').textContent=t[0];document.getElementById('fc').style.display=t[1]?'':'none';document.getElementById('hh').style.display=t[1]?'':'none';document.getElementById('el').textContent=t[1]?'please add one so I can check it is you':'optional, only if you want a reply'});
+document.getElementById('ff').onsubmit=async e=>{e.preventDefault();const f=e.target,err=document.getElementById('err');err.style.display='none';
+ const kind=document.querySelector('input[name=k]:checked').value, names={s:'Something is missing',w:'Something is wrong',r:'Take something down',i:'Idea or feedback'};
+ if(!f.message.value.trim()){err.textContent='Please write a message first.';err.style.display='block';return}
+ if(kind==='r'&&!f.email.value.trim()){err.textContent='Please add your email so I can check it is you.';err.style.display='block';return}
+ const b=document.getElementById('sendb');b.disabled=true;b.textContent='Sending...';
+ const body={access_key:f.access_key.value,subject:names[kind]+" (What's on A'dam)",from_name:f.from_name.value,botcheck:f.botcheck.checked,kind:names[kind],message:f.message.value,link:f.link.value,connection:kind==='r'?f.connection.value:'',email:f.email.value};
+ try{const r=await fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify(body)});const j=await r.json();
+  if(j.success){f.style.display='none';document.querySelector('.kinds').style.display='none';document.querySelector('.sent').style.display='block'}
+  else throw new Error(j.message||'failed')}
+ catch(x){b.disabled=false;b.textContent='Send';err.textContent='That did not send. Please try again in a minute, or use the Suggest link on the site.';err.style.display='block'}};
+fetch('events.json').then(r=>r.json()).then(D=>{const n=Object.keys(D.sources||{}).length;if(n)document.querySelectorAll('.nsrc').forEach(s=>s.textContent=n)}).catch(()=>{});
+</script></body></html>

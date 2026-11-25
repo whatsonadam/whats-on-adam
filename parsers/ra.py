@@ -76,6 +76,12 @@ def parse_pages(pages, today):
             ev = {"t": title, "d": start.date().isoformat(), "v": (v.get("venue") or {}).get("name") or "",
                   "u": "https://ra.co" + (v.get("contentUrl") or ""), "c": "music" if LIVE.search(title) else "club", "s": "ra"}
             if v.get("startTime") and start.strftime("%H:%M") != "00:00": ev["h"] = start.strftime("%H:%M")
+            try:
+                end = datetime.datetime.fromisoformat(v["endTime"][:19]) if v.get("endTime") else None
+            except Exception:
+                end = None
+            if end and "h" in ev and end > start and end - start < datetime.timedelta(hours=24):
+                ev["eh"] = end.strftime("%H:%M")
             price = clean_price(v.get("cost"))
             if price: ev["p"] = price
             artists = [a["name"] for a in v.get("artists") or [] if a.get("name")]

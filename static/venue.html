@@ -1,0 +1,49 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Venue, What's on A'dam</title>
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+:root{color-scheme:light;--bg:#CEC9C2;--sheet:#DFDBD5;--card:#FDFCFA;--card2:#F6F2EB;--ink:#151213;--hred:#C23A35;--yel:#FFD500;--bw:1.5px;--display:Anton,Impact,sans-serif;--body:Archivo,system-ui,sans-serif}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:15px/1.55 var(--body);margin:0;padding:12px 16px 56px}
+.wrap{max-width:860px;margin:0 auto;background:var(--sheet);padding:18px 22px 30px;display:grid;gap:14px}
+.flag{background:#111;display:grid;grid-template-rows:8px auto 8px}.flag .rs{background:var(--hred)}
+.flag .bs{padding:12px 20px;display:flex;justify-content:space-between;align-items:center}
+.flag h1{margin:0;font:400 clamp(34px,6vw,54px)/.95 var(--display);text-transform:uppercase;color:#fff}.flag em{font-style:normal;color:var(--hred)}
+.flag a{color:inherit;text-decoration:none}
+a.back{font:800 13px var(--body);color:var(--ink)}
+h2{font:400 30px/1 var(--display);text-transform:uppercase;margin:10px 0 0}
+h3{font:800 16px var(--body);margin:0}
+p{margin:0;max-width:68ch}
+.sec{background:var(--card);border:var(--bw) solid var(--ink);padding:14px 16px;display:grid;gap:8px}
+.ph{background:#EFE9C7;border-left:4px solid var(--yel);padding:6px 10px;font-style:italic;max-width:68ch}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:8px}
+.steps div{border:var(--bw) solid var(--ink);background:#fff;padding:10px;display:grid;gap:4px}.steps b{font:400 26px var(--display);color:var(--hred)}
+ul{margin:0;padding-left:18px;display:grid;gap:4px}
+.dec{display:grid;grid-template-columns:1fr auto;gap:2px 12px;border-top:1px solid #bdb6ad;padding:6px 0}.dec b{font-weight:800}.dec span{font-size:12px;color:#555;text-align:right}.dec p{grid-column:1/-1;font-size:13px;color:#444}
+.open{background:#F2D7D4}
+.form{display:grid;gap:8px;max-width:520px}
+.form select,.form textarea,.form input{font:inherit;border:var(--bw) solid var(--ink);padding:8px 10px;background:#fff;border-radius:0}
+.form textarea{min-height:90px}
+.btn{justify-self:start;border:var(--bw) solid var(--ink);background:var(--ink);color:#fff;padding:9px 16px;font:800 14px var(--body);cursor:pointer;border-radius:0}
+.jm{display:flex;gap:6px;flex-wrap:wrap}.jm a{border:var(--bw) solid var(--ink);background:var(--card);padding:5px 10px;font:800 12px var(--body);text-decoration:none;color:var(--ink)}
+.evl{border:var(--bw) solid var(--ink);background:var(--card)}
+.ev{display:grid;grid-template-columns:70px 1fr;gap:12px;padding:10px 14px;border-top:var(--bw) solid var(--ink);align-items:center}.ev:first-child{border-top:0}.ev:nth-child(even){background:var(--card2)}
+.ev .t{font:400 24px/1.05 var(--display);color:var(--hred)}.ev .t small{display:block;font:800 10px var(--body);text-transform:uppercase;color:#555}
+.ev .tt{font-weight:800;font-size:16px;text-decoration:none;color:var(--ink)}.ev p{font-size:13px;color:#444}
+@media(max-width:700px){body{padding:8px 6px 40px}.wrap{padding:12px}}</style></head><body><div class="wrap">
+<header class="flag"><div class="rs"></div><div class="bs"><h1><a href="index.html">What's on <em>A'dam</em></a></h1></div><div class="rs"></div></header>
+<a class="back" href="index.html">&larr; Back to the agenda</a>
+<div class="sec" id="vh"><h2 id="vn" style="margin:0">Venue</h2><p id="vm"></p><p id="vd"></p></div>
+<button class="btn" id="showonly" onclick="try{sessionStorage.setItem('pickVenue',v)}catch(e){};location.href='index.html'">Show only this venue in the agenda</button>
+<h2>Coming up here</h2><div id="vl" class="evl"></div>
+<script>
+let v=decodeURIComponent((location.hash||'').slice(1))||'Paradiso';
+document.getElementById('vn').textContent=v; document.title=v+", What's on A'dam";
+fetch('events.json').then(r=>r.json()).then(D=>{
+ const ev=D.events||D; const t=new Date(Date.now()-new Date().getTimezoneOffset()*60000).toISOString().slice(0,10);
+ const mine=ev.filter(e=>e.c!=='film'&&e.v&&(e.v===v||e.v.split(' · ')[0]===v)&&(e.ed||e.d)>=t).sort((a,b)=>(a.d+(a.h||'')).localeCompare(b.d+(b.h||''))).slice(0,30);
+ const ar=(mine.find(e=>e.ar)||{}).ar; document.getElementById('vm').textContent=(ar?ar+' · ':'')+mine.length+' events coming up';
+ fetch('venues_info.json').then(r=>r.ok?r.json():{}).catch(()=>({})).then(I=>{const i=I[v]; const el=document.getElementById('vd'); if(i&&i.text){el.innerHTML=''; el.append(document.createTextNode(i.text+' ')); if(i.url){const a=document.createElement('a');a.href=i.url;a.target='_blank';a.rel='noopener';a.style.cssText='color:var(--ink);font-weight:800';a.textContent='From the venue\'s own website';el.append(a);}} else el.remove();});
+ document.getElementById('vl').innerHTML=mine.map(e=>{const dt=new Date(e.d+'T12:00');return '<div class="ev"><div class="t">'+(e.h||'TBC')+'<small>'+dt.toLocaleDateString('en-GB',{day:'numeric',month:'short'})+'</small></div><div><a class="tt" href="'+(e.u||'#')+'" target="_blank" rel="noopener">'+e.t.replace(/</g,'&lt;')+'</a>'+(e.p?'<p>'+e.p+'</p>':'')+'</div></div>';}).join('')||'<div class="ev"><div></div><p>Nothing coming up.</p></div>';
+});
+</script></div></body></html>
