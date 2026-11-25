@@ -540,6 +540,12 @@
 "tried": "2026-11-24",
 "v": 4
 },
+"aff 2026 lucio": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-25",
+"v": 4
+},
 "aff 2026 tonratun": {
 "tm5": true,
 "tmdb": true,
@@ -10810,6 +10816,12 @@
 "tried": "2026-11-10",
 "v": 4,
 "yr": 1965
+},
+"lucio 2007": {
+"tm5": true,
+"tmdb": true,
+"tried": "2026-11-25",
+"v": 4
 },
 "lyrical vengeance": {
 "dr": "Wendelien van Oldenborgh",
