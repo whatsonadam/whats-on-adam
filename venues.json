@@ -325,6 +325,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Amsterdam Centraal": {
+"lat": 52.3789,
+"lon": 4.90058,
+"q": "name",
+"area": "Centrum"
+},
 "Amsterdam Centraal Station": {
 "lat": 52.37904,
 "lon": 4.90087,
@@ -1128,6 +1134,10 @@
 "lon": 4.85077,
 "q": "name",
 "area": "Zuid"
+},
+"Buurtkracht en Imd": {
+"skip": true,
+"q": "not found"
 },
 "Buurtsalon Jeltje": {
 "lat": 52.36226,
