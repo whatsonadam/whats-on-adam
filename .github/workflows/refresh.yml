@@ -55,10 +55,13 @@ jobs:
 
       - name: Fetch listings
         if: steps.mode.outputs.fast != 'true'
+        env:
+          TZ: Europe/Amsterdam
         run: python fetch.py
 
       - name: Build site
         env:
+          TZ: Europe/Amsterdam
           CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
           DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}

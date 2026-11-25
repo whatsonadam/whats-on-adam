@@ -75,7 +75,7 @@ def to_md(html):
 
 async def render_one(browser, key, url, sem, status):
     async with sem:
-        ctx = await browser.new_context(user_agent=UA, locale="en-GB")
+        ctx = await browser.new_context(user_agent=UA, locale="en-GB", timezone_id="Europe/Amsterdam")   # sites that show times in the visitor's zone
         page = await ctx.new_page()
         try:
             r = await page.goto(url, timeout=45000, wait_until="domcontentloaded")
@@ -279,6 +279,18 @@ def fetch_extras(status, today, want):
         except Exception as ex:
             status["debalie"] = f"error {str(ex)[:60]}"
             if os.path.exists(out): os.remove(out)   # build.py then keeps the previous events
+    if not want or "paradiso" in want:
+        import paradiso, shutil
+        try: status["paradiso"] = f"ok ({paradiso.fetch(os.path.join(DATA, 'paradiso'))} events)"
+        except Exception as ex:
+            status["paradiso"] = f"error {str(ex)[:60]}"
+            shutil.rmtree(os.path.join(DATA, "paradiso"), ignore_errors=True)
+    if not want or "melkweg" in want:
+        import melkweg, shutil
+        try: status["melkweg"] = f"ok ({melkweg.fetch(os.path.join(DATA, 'melkweg'))} events)"
+        except Exception as ex:
+            status["melkweg"] = f"error {str(ex)[:60]}"
+            shutil.rmtree(os.path.join(DATA, "melkweg"), ignore_errors=True)
     if not want or "felixmeritis" in want:
         import felixmeritis, shutil
         try: status["felixmeritis"] = f"ok ({felixmeritis.fetch(os.path.join(DATA, 'felixmeritis'))} events)"
@@ -346,6 +358,28 @@ def fetch_extras(status, today, want):
             if os.path.exists(out): os.remove(out)
         else: status["socialisme"] = "ok"
 
+def fetch_details(status, today, want):
+    """Event pages for sources whose list leaves out times or prices (see parsers/_detail.py)."""
+    import _detail, importlib, shutil
+    for key in _detail.SOURCES:
+        if want and key not in want: continue
+        md = os.path.join(DATA, f"{key}.md")
+        if not os.path.exists(md): continue
+        try: evs = importlib.import_module(key).parse(open(md, errors="ignore").read(), today)
+        except Exception as ex: status[key + "_detail"] = f"error {str(ex)[:60]}"; continue
+        ddir = os.path.join(DATA, "detail", key)
+        shutil.rmtree(ddir, ignore_errors=True); os.makedirs(ddir, exist_ok=True)
+        todo = [e for e in evs if e.get("u") and (not e.get("eh") or not e.get("p") or not e.get("h"))
+                and e.get("d", "") <= (today + datetime.timedelta(days=45)).isoformat()]
+        urls = list(dict.fromkeys(e["u"] for e in todo))[:_detail.MAX]
+        got = 0
+        for u in urls:
+            r = subprocess.run(["curl", "-sS", "-L", "-m", "30", "-A", UA, "-o", os.path.join(ddir, _detail.fname(u)), "-w", "%{http_code}", u], capture_output=True, text=True)
+            if r.stdout.strip() == "200": got += 1
+            time.sleep(_detail.PAUSE.get(key, 1))
+        status[key + "_detail"] = f"ok ({got} pages)"
+
+
 def main():
     os.makedirs(DATA, exist_ok=True)
     today = datetime.date.today()
@@ -361,6 +395,7 @@ def main():
     if not want or "ade" in want: fetch_ade(status, today)
     if not want or "cinemas" in want: fetch_cinemas(status, today)
     fetch_extras(status, today, want)
+    fetch_details(status, today, want)
     json.dump({"fetched": today.isoformat(), "status": status}, open(os.path.join(DATA, "fetch_status.json"), "w"), indent=1)
     for k in sorted(status): print(f"{k:22} {status[k]}")
 

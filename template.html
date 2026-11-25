@@ -352,6 +352,9 @@ body.shared #sharednote{display:flex}
 .chip.xmas.on,.row.allon .chip.xmas.on{background:#7E3040;color:#fff;opacity:1}
 .chip.xmas.on b{color:#F2D06B}
 .xmh{display:none!important}
+.fnote{display:flex;align-items:center;gap:10px;flex-wrap:wrap;border:var(--bw,2px) solid var(--ink,#111);background:#F2D06B;padding:8px 10px;margin:8px 0 10px;font:600 13px var(--body,Archivo,sans-serif)}
+.fnote button{font:800 12px var(--body,Archivo,sans-serif);text-transform:uppercase;letter-spacing:.05em;border:var(--bw,2px) solid var(--ink,#111);background:#fff;padding:4px 8px;cursor:pointer}
+.fnote .x{margin-left:auto;border:0;background:transparent;font-size:18px;padding:0 4px}
 .vlink{text-decoration:none;cursor:pointer}
 .vlink:hover{text-decoration:underline}
 .clr:not([hidden]){animation:pop .9s ease 1}
@@ -1266,6 +1269,7 @@ function calm(){
     // end time under the start: "to 18:30"
     document.querySelectorAll('.ev .t small').forEach(s=>{ if(/^[–-]\s/.test(s.textContent)) s.textContent=s.textContent.replace(/^[–-]\s*/,'to '); });
     const cEl=$('#agcount'), clr=$('#agclr');
+    if(!window.__fnote && clr && list && list.querySelector('.ev')){ window.__fnote=1; if(!clr.hidden){ const n=document.createElement('div'); n.className='fnote'; n.innerHTML='<span>Filters from your last visit are still on.</span><button type="button">Show everything</button><button type="button" class="x" aria-label="Dismiss">&times;</button>'; n.querySelector('button').onclick=()=>{clr.click(); n.remove();}; n.querySelector('.x').onclick=()=>n.remove(); const dh=document.querySelector('#agenda .dayhead')||clr.closest('.dayhead'); if(dh) dh.after(n); } }
     const rows=list?list.querySelectorAll('.ev:not(.xmh)').length:0;
     const filtered=(clr&&!clr.hidden)||XM;
     if(list&&!list.querySelector('#map')){

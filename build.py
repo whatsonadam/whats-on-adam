@@ -74,6 +74,8 @@ SOURCES = {
     "luma": ("Luma Amsterdam", "https://luma.com/amsterdam"),
     "debalie": ("De Balie", "https://debalie.nl/programma/"),
     "felixmeritis": ("Felix Meritis", "https://felixmeritis.nl/programma/"),
+    "melkweg": ("Melkweg", "https://www.melkweg.nl/en/agenda/"),
+    "paradiso": ("Paradiso", "https://www.paradiso.nl/en/program"),
     "amsterdamcal": ("City of Amsterdam activities", "https://activiteiten.amsterdam.nl/"),
     "activismeagenda": ("Activisme Agenda", "https://activismeagenda.nl/events/"),
     "waag": ("Waag Futurelab", "https://waag.org/en/events/"),
@@ -115,7 +117,7 @@ NOTES = {"filmladder": "big chains, a week ahead; hidden in the Cinema tab until
          "xr": "national agenda, Amsterdam events only, translated to English",
          "socialisme": "national agenda, Amsterdam entries only, translated to English",
          "activismeagenda": "national activist agenda, Amsterdam entries only, translated to English",
-         "amsterdamcal": "city sessions and meetings: council and district meetings show always, neighbourhood sessions only under Community or in search"}
+         "paradiso": "only the next few days are on their page; later dates come from I amsterdam", "amsterdamcal": "city sessions and meetings: council and district meetings show always, neighbourhood sessions only under Community or in search"}
 
 NL = set("de het een en van voor met over wat hoe waarom jouw je jij niet ook naar uit bij als wordt worden zijn onze ons wij we leer leren samen avond middag lezing gesprek voorstelling kinderen jeugd verhaal nieuwe zonder tegen door dan kan maar deze dit welkom spreekuur buurt".split())
 EN = set("the and of for with about what how why your you not to from at is are our we learn together evening night talk english".split())
@@ -152,10 +154,12 @@ def clean(e):
         if e[k] in (None, "", []): del e[k]
     return e
 
+CANCELLED = re.compile(r"\((?:cancelled|canceled|geannuleerd|afgelast)\)|\b(?:cancelled|geannuleerd|afgelast)\s*[:!]", re.I)
+
 def run(key, fn, *args):
     try:
         cleaned = [clean(e) for e in fn(*args) if e.get("d") and e.get("t")]
-        return [e for e in cleaned if re.search(r"\w", e.get("t", ""))]   # no empty or dash-only titles
+        return [e for e in cleaned if re.search(r"\w", e.get("t", "")) and not CANCELLED.search(e.get("t", ""))]   # no empty or dash-only titles, no cancelled events
     except Exception as ex:
         print(f"  !! parser {key} crashed: {ex}")
         return []
@@ -170,6 +174,11 @@ def collect(today):
         f = os.path.join(DATA, f"{key}.md")
         if not os.path.exists(f): per[key] = []; continue
         per[key] = run(key, importlib.import_module(key).parse, open(f, errors="ignore").read(), today)
+    _det = importlib.import_module("_detail")
+    for key in _det.SOURCES:
+        if per.get(key):
+            n = _det.enrich(per[key], os.path.join(DATA, "detail", key))
+            if n: print(f"  {key}: filled times or prices from {n} event pages")
     f = os.path.join(DATA, "ruigoord.ics")
     per["ruigoord"] = run("ruigoord", importlib.import_module("ruigoord").parse, open(f, errors="ignore").read(), today) if os.path.exists(f) else []
     per["weekly"] = run("weekly", importlib.import_module("weekly").parse, "", today)   # standing nights entered by hand
@@ -203,6 +212,14 @@ def collect(today):
     per["offlineclub"] = run("offlineclub", importlib.import_module("offlineclub").parse, open(f, errors="ignore").read(), today) if os.path.exists(f) else []
     f = os.path.join(DATA, "debalie.json")
     per["debalie"] = run("debalie", importlib.import_module("debalie").parse, open(f, errors="ignore").read(), today) if os.path.exists(f) else []
+    pd_dir = os.path.join(DATA, "paradiso")
+    if os.path.exists(os.path.join(pd_dir, "list.html")):
+        pdm = importlib.import_module("paradiso")
+        per["paradiso"] = run("paradiso", pdm.parse_pages, *pdm.load(pd_dir), today)
+    mw_dir = os.path.join(DATA, "melkweg")
+    if os.path.exists(os.path.join(mw_dir, "list.html")):
+        mw = importlib.import_module("melkweg")
+        per["melkweg"] = run("melkweg", mw.parse_pages, *mw.load(mw_dir), today)
     fm_pages = [open(p, errors="ignore").read() for p in sorted(glob.glob(os.path.join(DATA, "felixmeritis", "p*.html")))]
     fm_det = {os.path.basename(p)[:-5]: open(p, errors="ignore").read() for p in glob.glob(os.path.join(DATA, "felixmeritis", "detail", "*.html"))}
     per["felixmeritis"] = run("felixmeritis", importlib.import_module("felixmeritis").parse_pages, fm_pages, fm_det, today) if fm_pages else []
