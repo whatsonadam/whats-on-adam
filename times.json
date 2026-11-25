@@ -4201,6 +4201,23 @@
 },
 "chk": "2026-11-14"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/hedda-gabler": {
+"dates": {
+"2027-03-19": {
+"h": "20:00",
+"eh": "21:30"
+},
+"2027-03-21": {
+"h": "14:00",
+"eh": "15:30"
+},
+"2027-03-23": {
+"h": "20:00",
+"eh": "21:30"
+}
+},
+"chk": "2026-11-25"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/herfstvakantie-umi-0-5-t-m-1-5-jaar-wonderland-collectief": {
 "dates": {
 "2026-10-12": {
@@ -4758,6 +4775,19 @@
 }
 },
 "chk": "2026-10-28"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/the-monster-trilogy": {
+"dates": {
+"2027-03-20": {
+"h": "20:30",
+"eh": "21:30"
+},
+"2027-03-21": {
+"h": "13:00",
+"eh": "14:30"
+}
+},
+"chk": "2026-11-25"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/then-now-next": {
 "dates": {
