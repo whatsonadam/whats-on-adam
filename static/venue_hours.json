@@ -19,5 +19,101 @@
   "sun": "10:00-18:00",
   "src": "https://www.stedelijk.nl/en/visit",
   "note": "No entry after 17:45"
+ },
+ "Het Scheepvaartmuseum Amsterdam": {
+  "mon": "10:00-17:00",
+  "tue": "10:00-17:00",
+  "wed": "10:00-17:00",
+  "thu": "10:00-17:00",
+  "fri": "10:00-17:00",
+  "sat": "10:00-17:00",
+  "sun": "10:00-17:00",
+  "src": "https://www.hetscheepvaartmuseum.com/plan-your-visit/opening-hours-admission"
+ },
+ "Allard Pierson": {
+  "mon": "closed",
+  "tue": "10:00-17:00",
+  "wed": "10:00-17:00",
+  "thu": "10:00-17:00",
+  "fri": "10:00-17:00",
+  "sat": "10:00-17:00",
+  "sun": "10:00-17:00",
+  "src": "https://www.allardpierson.nl/en/visit/",
+  "note": "Closed 25 Dec, 1 Jan and King's Day"
+ },
+ "De Nieuwe Kerk Amsterdam": {
+  "mon": "10:00-17:00",
+  "tue": "10:00-17:00",
+  "wed": "10:00-17:00",
+  "thu": "10:00-17:00",
+  "fri": "10:00-17:00",
+  "sat": "10:00-17:00",
+  "sun": "10:00-17:00",
+  "src": "https://nieuwekerk.nl/en/",
+  "note": "Last entry 16:30. A few closing days, see site"
+ },
+ "Arcam, het Architectuurcentrum van Amsterdam": {
+  "mon": "closed",
+  "tue": "13:00-17:00",
+  "wed": "13:00-17:00",
+  "thu": "13:00-17:00",
+  "fri": "13:00-17:00",
+  "sat": "13:00-17:00",
+  "sun": "13:00-17:00",
+  "src": "https://arcam.nl/"
+ },
+ "STRAAT Museum – Street art en graffiti in Amsterdam": {
+  "tue": "10:00-17:00",
+  "wed": "10:00-17:00",
+  "thu": "10:00-21:00",
+  "fri": "10:00-17:00",
+  "sat": "10:00-17:00",
+  "sun": "10:00-17:00",
+  "src": "https://straatmuseum.com/",
+  "note": "Different hours on some days"
+ },
+ "Museum Ons' Lieve Heer op Solder": {
+  "mon": "10:00-18:00",
+  "tue": "10:00-18:00",
+  "wed": "10:00-18:00",
+  "thu": "10:00-18:00",
+  "fri": "10:00-18:00",
+  "sat": "10:00-18:00",
+  "sun": "10:00-18:00",
+  "src": "https://opsolder.nl/en/opening-hours/",
+  "note": "Opens 11:00 on the first Sunday of the month (Sep to Jun)"
+ },
+ "Joods Museum + junior": {
+  "mon": "10:00-17:00",
+  "tue": "10:00-17:00",
+  "wed": "10:00-17:00",
+  "thu": "10:00-17:00",
+  "fri": "10:00-17:00",
+  "sat": "10:00-17:00",
+  "sun": "10:00-17:00",
+  "src": "https://jck.nl/en/plan-your-visit",
+  "note": "Holidays and exceptions on the site"
+ },
+ "Museum of the Canals": {
+  "mon": "12:00-17:00",
+  "tue": "10:00-17:00",
+  "wed": "10:00-17:00",
+  "thu": "10:00-17:00",
+  "fri": "10:00-17:00",
+  "sat": "10:00-17:00",
+  "sun": "10:00-17:00",
+  "src": "https://grachten.museum/en/visit/",
+  "note": "Closed 25 Dec, 1 Jan, 27 April"
+ },
+ "Grachtenmuseum Amsterdam": {
+  "mon": "12:00-17:00",
+  "tue": "10:00-17:00",
+  "wed": "10:00-17:00",
+  "thu": "10:00-17:00",
+  "fri": "10:00-17:00",
+  "sat": "10:00-17:00",
+  "sun": "10:00-17:00",
+  "src": "https://grachten.museum/en/visit/",
+  "note": "Closed 25 Dec, 1 Jan, 27 April"
  }
 }
