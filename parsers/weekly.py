@@ -36,7 +36,7 @@ RULES = [
      "b": "Three-course vegan meal, shared tables. Reservations: 020 679 0712"},
     # robinfoodkollektief.nl: community dinners
     {"title": "Community dinner", "venue": "Robin Food Kollektief", "days": [0, 1, 3], "h": "18:00", "eh": "21:00",
-     "c": "food", "u": "https://www.robinfoodkollektief.nl", "nth": None},
+     "c": "food", "u": "https://www.robinfoodkollektief.nl", "nth": None, "p": "€15", "b": "Three courses, menu changes daily"},
 ]
 
 

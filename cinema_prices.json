@@ -1,0 +1,7 @@
+{
+ "_about": "Regular adult ticket price per cinema, from each cinema's own price page (VAT included). Used only for screenings whose own listing gives no price. Discounts (Stadspas, students, Cineville) are not shown.",
+ "Cinecenter": {"p": "€14,25", "src": "https://www.cinecenter.nl/info/", "checked": "2026-11-25"},
+ "De Uitkijk": {"p": "€13,50", "src": "https://www.uitkijk.nl/info", "checked": "2026-11-25"},
+ "Het Ketelhuis": {"p": "€13,50", "src": "https://www.ketelhuis.nl/praktische-info/kaartverkoop/", "checked": "2026-11-25"},
+ "Cinema De Vlugt": {"p": "€13", "src": "https://www.cinemadevlugt.nl/ticketverkoop/", "checked": "2026-11-25"}
+}

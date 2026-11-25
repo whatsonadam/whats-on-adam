@@ -376,6 +376,11 @@ def merge(per):
     for e in out:                                   # films: English signals in the title when the cinema gives no language data
         if e.get("c") == "film" and not e.get("ef") and not e.get("nl") and re.search(r"eng(?:lish)?\.? ?subs?|english sub|\bOV\b|english spoken", e["t"], re.I): e["ef"] = 1
         if e.get("c") == "film" and not e.get("sb") and re.search(r"eng(?:lish)?\.? ?subs?|english sub", e["t"], re.I): e["sb"] = ["en"]
+    try:
+        cp = json.load(open(os.path.join(HERE, "cinema_prices.json")))
+        for e in out:
+            if e.get("c") == "film" and not e.get("p") and isinstance(cp.get(e.get("v")), dict): e["p"] = cp[e["v"]]["p"]
+    except (OSError, ValueError): pass
     for e in out:
         if e.get("c") in ("other", None, ""): e["c"] = classify_other(e)
     for e in out:
@@ -388,6 +393,7 @@ def merge(per):
                 if e.get("s") == "rightsforum" and not ACTION.search(e["t"]): e["c"] = "talk"   # its agenda mixes in events with no action word
     for e in out:
         if e.get("c") == "protest": e.pop("nl", None)    # protests are never hidden by the English-friendly filter
+        if not e.get("p") and (e.get("c") == "protest" or e.get("s") == "amsterdamcal"): e["p"] = "Free"   # public meetings and demonstrations cost nothing
     out = merge_protests(out)
     for e in out:
         if e.get("nl") or e.pop("en", None) or e.get("c") not in LANGCATS: continue
@@ -448,6 +454,19 @@ def main():
         if not os.path.isdir(sdir): continue
         if d == "fonts": shutil.copytree(sdir, os.path.join(out, "fonts"), dirs_exist_ok=True)
         else: shutil.copytree(sdir, out, dirs_exist_ok=True)
+    try:                                             # venue descriptions in Dutch get the same English translation as protests
+        vi_path = os.path.join(out, "venues_info.json")
+        vi = json.load(open(vi_path))
+        fake = []
+        for v, i in vi.items():
+            words = re.findall(r"[a-zà-ÿ]+", i.get("text", "").lower())
+            if words and sum(w in NL for w in words) / len(words) > 0.12: fake.append({"b": i["text"], "tl": 1, "_v": v})
+        import translate
+        translate.enrich(fake)
+        for f in fake:
+            if f["b"] != vi[f["_v"]]["text"]: vi[f["_v"]].update({"text": f["b"], "tr": 1})
+        json.dump(vi, open(vi_path, "w"), ensure_ascii=False, indent=0)
+    except Exception as ex: print(f"  !! venue text translation skipped ({ex})")
     open(os.path.join(out, "index.html"), "w").write(open(os.path.join(HERE, "template.html")).read().replace("__CONTACT__", os.environ.get("CONTACT_EMAIL", "")))
 
     final = {}
