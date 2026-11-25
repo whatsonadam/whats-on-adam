@@ -2285,6 +2285,10 @@
 "h": "20:30",
 "chk": "2026-10-13"
 },
+"https://www.cinetol.nl/events/gwendoline": {
+"h": "20:00",
+"chk": "2026-11-25"
+},
 "https://www.cinetol.nl/events/halsband": {
 "h": "18:30",
 "chk": "2026-11-19"
@@ -4771,6 +4775,23 @@
 }
 },
 "chk": "2026-10-13"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/time-and-water": {
+"dates": {
+"2026-11-25": {
+"h": "10:30",
+"eh": "12:07"
+},
+"2026-11-26": {
+"h": "10:30",
+"eh": "12:07"
+},
+"2026-11-30": {
+"h": "11:30",
+"eh": "13:07"
+}
+},
+"chk": "2026-11-25"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/tulip-town": {
 "dates": {

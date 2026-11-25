@@ -3144,6 +3144,10 @@
 "p": null,
 "t": "2026-11-02"
 },
+"https://offbeat.amsterdam/event/exert-with-derozan-ghenwa-nware-abou-fayad-zamity-mitelembe-winnie-conradi-adhi-seok-yun": {
+"p": null,
+"t": "2026-11-25"
+},
 "https://offbeat.amsterdam/event/exhibition-opening-night-of-what-comes-after-the-ashes-the-first-ten-by-rym-hayouni-with-koenfm-and-planet-jm": {
 "p": null,
 "t": "2026-11-19"
@@ -3652,6 +3656,10 @@
 "p": null,
 "t": "2026-10-31"
 },
+"https://offbeat.amsterdam/event/hellway-patrol-bra": {
+"p": null,
+"t": "2026-11-25"
+},
 "https://offbeat.amsterdam/event/herres-op-woensdag-10": {
 "p": null,
 "t": "2026-11-09"
@@ -3984,9 +3992,17 @@
 "p": null,
 "t": "2026-11-16"
 },
+"https://offbeat.amsterdam/event/jam-sessie": {
+"p": null,
+"t": "2026-11-25"
+},
 "https://offbeat.amsterdam/event/jamsession-75": {
 "p": null,
 "t": "2026-11-18"
+},
+"https://offbeat.amsterdam/event/jamsession-76": {
+"p": null,
+"t": "2026-11-25"
 },
 "https://offbeat.amsterdam/event/jamsession-77": {
 "p": null,
@@ -4027,6 +4043,10 @@
 "https://offbeat.amsterdam/event/jazz-underground-20": {
 "p": null,
 "t": "2026-11-11"
+},
+"https://offbeat.amsterdam/event/jazz-underground-21": {
+"p": null,
+"t": "2026-11-25"
 },
 "https://offbeat.amsterdam/event/jazzcafe-51": {
 "p": null,
@@ -5332,6 +5352,10 @@
 "p": null,
 "t": "2026-11-08"
 },
+"https://offbeat.amsterdam/event/muziektheater-clous-van-mechelen-olga-de-meij-hoe-bedoel-je": {
+"p": null,
+"t": "2026-11-25"
+},
 "https://offbeat.amsterdam/event/myles-sanko": {
 "p": null,
 "t": "2026-10-16"
@@ -6031,6 +6055,10 @@
 "https://offbeat.amsterdam/event/proxycafe-1": {
 "p": null,
 "t": "2026-11-23"
+},
+"https://offbeat.amsterdam/event/proxycafe-install-party": {
+"p": null,
+"t": "2026-11-25"
 },
 "https://offbeat.amsterdam/event/proxycafe-rise-against-big-tech": {
 "p": null,
@@ -8676,17 +8704,57 @@
 "p": "Free",
 "t": "2026-11-08"
 },
+"https://radar.squat.net/en/event/amsterdam/molli-chaoot/2026-12-01/mollis-mixed-media-mashup-ocean-nights": {
+"p": "Free",
+"t": "2026-11-25"
+},
 "https://radar.squat.net/en/event/amsterdam/molli-chaoot/2026-12-08/mollis-mixed-media-mashup": {
 "p": "Free",
 "t": "2026-11-08"
+},
+"https://radar.squat.net/en/event/amsterdam/molli-chaoot/2026-12-08/mollis-mixed-media-mashup-open-craft-space": {
+"p": "Free",
+"t": "2026-11-25"
 },
 "https://radar.squat.net/en/event/amsterdam/molli-chaoot/2026-12-15/mollis-mixed-media-mashup": {
 "p": "Free",
 "t": "2026-11-15"
 },
+"https://radar.squat.net/en/event/amsterdam/molli-chaoot/2026-12-15/mollis-mixed-media-mashup-ocean-nights": {
+"p": "Free",
+"t": "2026-11-25"
+},
 "https://radar.squat.net/en/event/amsterdam/molli-chaoot/2026-12-22/mollis-mixed-media-mashup": {
 "p": "Free",
 "t": "2026-11-22"
+},
+"https://radar.squat.net/en/event/amsterdam/molli-chaoot/2026-12-22/mollis-mixed-media-mashup-open-craft-space": {
+"p": "Free",
+"t": "2026-11-25"
+},
+"https://radar.squat.net/en/event/amsterdam/molli-chaoot/2026-12-29/mollis-mixed-media-mashup-ocean-nights": {
+"p": "Free",
+"t": "2026-11-25"
+},
+"https://radar.squat.net/en/event/amsterdam/molli-chaoot/2027-01-05/mollis-mixed-media-mashup-open-craft-space": {
+"p": "Free",
+"t": "2026-11-25"
+},
+"https://radar.squat.net/en/event/amsterdam/molli-chaoot/2027-01-12/mollis-mixed-media-mashup-ocean-nights": {
+"p": "Free",
+"t": "2026-11-25"
+},
+"https://radar.squat.net/en/event/amsterdam/molli-chaoot/2027-01-19/mollis-mixed-media-mashup-open-craft-space": {
+"p": "Free",
+"t": "2026-11-25"
+},
+"https://radar.squat.net/en/event/amsterdam/molli-chaoot/2027-01-26/mollis-mixed-media-mashup-ocean-nights": {
+"p": "Free",
+"t": "2026-11-25"
+},
+"https://radar.squat.net/en/event/amsterdam/molli-chaoot/2027-02-02/mollis-mixed-media-mashup-open-craft-space": {
+"p": "Free",
+"t": "2026-11-25"
 },
 "https://radar.squat.net/en/event/amsterdam/nieuwland/2026-10-16/yoga": {
 "p": "Donation",
@@ -9362,7 +9430,7 @@
 },
 "https://radar.squat.net/en/event/amsterdam/nieuwland/2027-01-20/verzet-couplet-strijdliederenkoor-protest-song-choir": {
 "p": null,
-"t": "2026-11-18"
+"t": "2026-11-25"
 },
 "https://radar.squat.net/en/event/amsterdam/nieuwland/2027-01-20/yoga-all-levels-all-welcome": {
 "p": "€5",
@@ -9716,6 +9784,10 @@
 "p": null,
 "t": "2026-11-24"
 },
+"https://radar.squat.net/en/event/amsterdam/proxycafe/2026-11-25/proxycafe-install-party": {
+"p": null,
+"t": "2026-11-25"
+},
 "https://radar.squat.net/en/event/amsterdam/rhythms-resistance-amsterdam/2026-11-04/open-practice-social-night-ror-amsterdam": {
 "p": "Free",
 "t": "2026-10-16"
@@ -9770,7 +9842,7 @@
 },
 "https://radar.squat.net/en/event/amsterdam/verdieping/2026-12-10/multilingual-anarchist-distro": {
 "p": null,
-"t": "2026-11-18"
+"t": "2026-11-25"
 },
 "https://radar.squat.net/en/event/amsterdam/verdieping/2026-12-17/multilingual-anarchist-distro": {
 "p": null,
@@ -9858,7 +9930,7 @@
 },
 "https://radar.squat.net/en/event/amsterdam/vlaggen-voor-palestina/2026-12-23/vlaggen-voor-palestina-west": {
 "p": null,
-"t": "2026-11-18"
+"t": "2026-11-25"
 },
 "https://radar.squat.net/en/event/amsterdam/vlaggen-voor-palestina/2026-12-27/vlaggen-voor-palestina-oost": {
 "p": "Free",
@@ -10126,7 +10198,7 @@
 },
 "https://radar.squat.net/en/event/amsterdam/vrankrijk/2026-12-23/wtf-queer-wednesday": {
 "p": null,
-"t": "2026-11-18"
+"t": "2026-11-25"
 },
 "https://radar.squat.net/en/event/amsterdam/vrankrijk/2026-12-24/aaah-anarchist-action-assistance-hour": {
 "p": null,
@@ -12971,6 +13043,10 @@
 "p": "€16",
 "t": "2026-11-07"
 },
+"https://www.cinetol.nl/events/gwendoline": {
+"p": "€18",
+"t": "2026-11-25"
+},
 "https://www.cinetol.nl/events/halsband": {
 "p": "€16,75",
 "t": "2026-11-19"
@@ -13245,6 +13321,11 @@
 "t": "2026-10-17",
 "tk": "https://garagenoord.weticket.io/tristan-arp-oceanic-isa-w/shop"
 },
+"https://www.garagenoord.com/club/co-curated-by-upsammy-w-atrice-third-space-upsammy": {
+"p": "from €15,50",
+"t": "2026-11-25",
+"tk": "https://garagenoord.weticket.io/co-curated-by-upsammy-watrice-third-space-upsammy/shop"
+},
 "https://www.garagenoord.com/club/dek-bass-shana-qru": {
 "p": "from €15,50",
 "t": "2026-11-11",
@@ -13259,6 +13340,11 @@
 "p": "€12,50",
 "t": "2026-11-07",
 "tk": "https://garagenoord.weticket.io/exert-w-derozan-ghenwa-nwar-abou-fayad-zamity-mitelembe-winnie-conradi-adhi-seok-yun/shop"
+},
+"https://www.garagenoord.com/club/femme-bass-mafia-w-silver-pearl-yushh-soa420-b2b-dangermami": {
+"p": "from €15,50",
+"t": "2026-11-25",
+"tk": "https://garagenoord.weticket.io/femme-bass-mafia-wsilver-pearl-yushh-soa420-b2b-dangermami/shop"
 },
 "https://www.garagenoord.com/club/firewire": {
 "p": "from €15,50",
@@ -13280,6 +13366,11 @@
 "t": "2026-11-07",
 "tk": "https://garagenoord.weticket.io/10-years-of-kynant/shop"
 },
+"https://www.garagenoord.com/club/los-angles": {
+"p": "from €15,50",
+"t": "2026-11-25",
+"tk": "https://garagenoord.weticket.io/los-angles-wjason-ambu-bambu-aidan-live-anti-logic-youngwoman-aorta-barroskini-divo/shop"
+},
 "https://www.garagenoord.com/club/loukeman": {
 "p": "from €15,50",
 "t": "2026-10-17",
@@ -13300,10 +13391,20 @@
 "t": "2026-10-17",
 "tk": "https://garagenoord.weticket.io/new-world-disorder-x-kumata/shop"
 },
+"https://www.garagenoord.com/club/night-visions-by-chinnamasta-bar40-hosted-by-vakabon-w-syj-kandy-crush-naphysa-soss": {
+"p": "from €15,50",
+"t": "2026-11-25",
+"tk": "https://garagenoord.weticket.io/co-curated-by-tba-bar40-hosted-by-vakabon-wsyj-kandy-crush-naphysasoss/shop"
+},
 "https://www.garagenoord.com/club/omen-wapta": {
 "p": "from €15,50",
 "t": "2026-11-07",
 "tk": "https://garagenoord.weticket.io/omen-wapta-weekender-3/shop"
+},
+"https://www.garagenoord.com/club/pacific-ondergronds-x-kruispunt": {
+"p": "from €15,50",
+"t": "2026-11-25",
+"tk": "https://garagenoord.weticket.io/pacific-ondergronds-x-kruispunt/shop"
 },
 "https://www.garagenoord.com/club/pacific-ondergronds-x-vhs": {
 "p": "from €15,50",
@@ -13315,6 +13416,16 @@
 "t": "2026-11-11",
 "tk": "https://garagenoord.weticket.io/pleasers-2/shop"
 },
+"https://www.garagenoord.com/club/slagwerk-w-otis-zora-jones-emeel-bar40-hosted-by-amz-pre-club-night-concert-by-klub-krai": {
+"p": "from €14,50",
+"t": "2026-11-25",
+"tk": "https://garagenoord.weticket.io/slagwerk/shop"
+},
+"https://www.garagenoord.com/club/south-of-north-w-pebblle-magic-pony-productions-vladimir-ivkovic-fry-ry-marathon-man-bar40-hosted-by-suburbia": {
+"p": "from €15,50",
+"t": "2026-11-25",
+"tk": "https://garagenoord.weticket.io/south-of-north-w-pebblle-magic-pony-productions-vladimir-ivkovic-fry-ry-marathon-man-bar40-hosted-by-suburbia/shop"
+},
 "https://www.garagenoord.com/club/spacebunker-w-upvampin-live-arapaima-live-lui-surreal-live-cvpid-hybrid": {
 "p": "from €15,50",
 "t": "2026-10-17",
@@ -13324,6 +13435,11 @@
 "p": "from €10,50",
 "t": "2026-10-21",
 "tk": "https://garagenoord.weticket.io/tempo-marauders-2-year-anniversary/shop"
+},
+"https://www.garagenoord.com/club/yalda-w-jooon": {
+"p": "from €15,50",
+"t": "2026-11-25",
+"tk": "https://garagenoord.weticket.io/yalda-w-jooon/shop"
 },
 "https://www.iamsterdam.com/uit/agenda/attracties-en-bezienswaardigheden/tours/borduurworkshop-steek-voor-steek-familieverhalen": {
 "p": "from €15",
@@ -13380,6 +13496,10 @@
 "https://www.iamsterdam.com/uit/agenda/attracties-en-bezienswaardigheden/tours/je-verhaal-klopt-maar-voor-wie-eigenlijk-workshop": {
 "p": "from €15",
 "t": "2026-11-18"
+},
+"https://www.iamsterdam.com/uit/agenda/attracties-en-bezienswaardigheden/tours/jump-winter-wonder-workshop-7-10-jaar": {
+"p": null,
+"t": "2026-11-25"
 },
 "https://www.iamsterdam.com/uit/agenda/attracties-en-bezienswaardigheden/tours/kleuterworkshop-dieren": {
 "p": null,
@@ -17245,6 +17365,10 @@
 "p": "from €25",
 "t": "2026-10-22"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/stand-atlantic": {
+"p": "from €28,75",
+"t": "2026-11-25"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/starklinnemann-trio-transcending-beethoven": {
 "p": "from €25",
 "t": "2026-10-17"
@@ -18705,9 +18829,21 @@
 "p": "from €22",
 "t": "2026-11-02"
 },
+"https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/cheeky-monday-badlokk": {
+"p": "from €8,50",
+"t": "2026-11-25"
+},
+"https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/cheeky-monday-cheeky-x-junglism": {
+"p": "from €8,50",
+"t": "2026-11-25"
+},
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/cheeky-monday-dj-hybrid": {
 "p": "from €8,50",
 "t": "2026-10-30"
+},
+"https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/cheeky-monday-jessee": {
+"p": "from €8,50",
+"t": "2026-11-25"
 },
 "https://www.iamsterdam.com/uit/agenda/nachtleven/clubbing/cheeky-monday-loco": {
 "p": "from €8,50",
@@ -21332,6 +21468,10 @@
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/fimme-bakker-zwaargewicht-premiere": {
 "p": "from €14",
 "t": "2026-10-31"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/fish-dance-when-they-are-not-sleeping": {
+"p": "from €12",
+"t": "2026-11-25"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/flautomania-5": {
 "p": "from €2,50",

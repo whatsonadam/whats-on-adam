@@ -541,6 +541,12 @@
 "q": "name",
 "area": "West"
 },
+"B Gebouw": {
+"lat": 52.35555,
+"lon": 4.88568,
+"q": "name",
+"area": "Zuid"
+},
 "B. Amsterdam": {
 "skip": true,
 "q": "not found"
@@ -6971,6 +6977,12 @@
 "lon": 4.85161,
 "q": "name",
 "area": "West"
+},
+"Wi Eegi Kerki": {
+"lat": 52.31427,
+"lon": 4.97246,
+"q": "name",
+"area": "Zuidoost"
 },
 "Wijkcentrum de Bolder": {
 "lat": 52.35643,
