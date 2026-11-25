@@ -307,6 +307,12 @@
 "skip": true,
 "q": "not found"
 },
+"Amstelveld": {
+"lat": 52.3623,
+"lon": 4.8973,
+"q": "name",
+"area": "Centrum"
+},
 "Amsterdam": {
 "skip": true
 },
@@ -350,6 +356,12 @@
 "lon": 4.93533,
 "q": "name",
 "area": "Noord"
+},
+"Amsterdam Zuid": {
+"lat": 52.33872,
+"lon": 4.87134,
+"q": "name",
+"area": "Zuid"
 },
 "Amsterdam in Motion": {
 "lat": 52.38613,
@@ -749,6 +761,12 @@
 "q": "name",
 "area": "Nieuw-West"
 },
+"Bellamy buurtmuseum": {
+"lat": 52.36821,
+"lon": 4.86698,
+"q": "name",
+"area": "West"
+},
 "Belushi's": {
 "lat": 52.37395,
 "lon": 4.89651,
@@ -782,6 +800,12 @@
 "Beurs van Berlage": {
 "lat": 52.37502,
 "lon": 4.89626,
+"q": "name",
+"area": "Centrum"
+},
+"Bezoekerscentrum": {
+"lat": 52.36019,
+"lon": 4.90131,
 "q": "name",
 "area": "Centrum"
 },
@@ -921,6 +945,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Boon Chance": {
+"lat": 52.38026,
+"lon": 4.89414,
+"q": "name",
+"area": "Centrum"
+},
 "Bordello Aperitivo": {
 "lat": 52.37586,
 "lon": 4.90084,
@@ -1045,6 +1075,12 @@
 "skip": true,
 "q": "not found"
 },
+"Buurthuis Bonte Kraai": {
+"lat": 52.3172,
+"lon": 4.97989,
+"q": "name",
+"area": "Zuidoost"
+},
 "Buurthuis Het Anker": {
 "lat": 52.3967,
 "lon": 4.91876,
@@ -1063,11 +1099,35 @@
 "q": "name",
 "area": "Oost"
 },
+"Buurtkamer Corantijn": {
+"lat": 52.36168,
+"lon": 4.85121,
+"q": "name",
+"area": "West"
+},
 "Buurtkamer De Zeeslag": {
 "lat": 52.35677,
 "lon": 4.88928,
 "q": "name",
 "area": "Zuid"
+},
+"Buurtkamer Ernst": {
+"lat": 52.34314,
+"lon": 4.85816,
+"q": "name",
+"area": "Zuid"
+},
+"Buurtkamer Hoofdkwartier": {
+"lat": 52.3509,
+"lon": 4.85077,
+"q": "name",
+"area": "Zuid"
+},
+"Buurtsalon Jeltje": {
+"lat": 52.36226,
+"lon": 4.86911,
+"q": "name",
+"area": "West"
 },
 "Buurtwerkplaats Noorderhof": {
 "skip": true,
@@ -1403,11 +1463,23 @@
 "skip": true,
 "q": "not found"
 },
+"Centraal Station Amsterdam": {
+"lat": 52.37904,
+"lon": 4.90087,
+"q": "name",
+"area": "Centrum"
+},
 "Centrale Markthal": {
 "lat": 52.37873,
 "lon": 4.86579,
 "q": "name",
 "area": "West"
+},
+"Centrum": {
+"lat": 52.36824,
+"lon": 4.90066,
+"q": "name",
+"area": "Centrum"
 },
 "Check Point Charlie": {
 "lat": 52.38224,
@@ -1713,6 +1785,10 @@
 "skip": true,
 "q": "not found"
 },
+"Cruyff Court Bennie Muller": {
+"skip": true,
+"q": "not found"
+},
 "Cut Throat": {
 "lat": 52.35661,
 "lon": 4.89199,
@@ -1836,6 +1912,12 @@
 "area": "Zuid"
 },
 "De Buurtkamer & Imd": {
+"lat": 52.35677,
+"lon": 4.88928,
+"q": "name",
+"area": "Zuid"
+},
+"De Buurtkamer &. IMD": {
 "lat": 52.35677,
 "lon": 4.88928,
 "q": "name",
@@ -1972,6 +2054,10 @@
 "area": "Centrum"
 },
 "De Meervaart, Amsterdam": {
+"skip": true,
+"q": "not found"
+},
+"De Mirandabad, buiten op het voorplein": {
 "skip": true,
 "q": "not found"
 },
@@ -2204,6 +2290,9 @@
 "area": "Centrum"
 },
 "Diverse Locaties / Various locations": {
+"skip": true
+},
+"Diverse locaties": {
 "skip": true
 },
 "Diverse locaties / Various locations": {
@@ -2972,6 +3061,10 @@
 "q": "name",
 "area": null
 },
+"Het Zonnehuis, blauwe zaal": {
+"skip": true,
+"q": "not found"
+},
 "Hima Icebaths": {
 "lat": 52.35326,
 "lon": 4.89339,
@@ -2991,6 +3084,12 @@
 "lon": 4.93364,
 "q": "name",
 "area": "Oost"
+},
+"Hogendorp Sportcentrum": {
+"lat": 52.38116,
+"lon": 4.86794,
+"q": "name",
+"area": "West"
 },
 "Hotel Arena": {
 "lat": 52.36123,
@@ -3049,6 +3148,12 @@
 "q": "name",
 "area": "Zuid"
 },
+"Huis van Sant'Egidio": {
+"lat": 52.36838,
+"lon": 4.90306,
+"q": "name",
+"area": "Centrum"
+},
 "Huis van de Tijd": {
 "lat": 52.35294,
 "lon": 4.88166,
@@ -3067,9 +3172,27 @@
 "q": "name",
 "area": "Zuid"
 },
+"Huis van de Wijk De Horizon": {
+"lat": 52.35294,
+"lon": 4.88166,
+"q": "name",
+"area": "Zuid"
+},
+"Huis van de Wijk De Koperen Knoop": {
+"lat": 52.35294,
+"lon": 4.88166,
+"q": "name",
+"area": "Zuid"
+},
 "Huis van de Wijk De Mansvelt": {
 "lat": 52.35294,
 "lon": 4.88166,
+"q": "name",
+"area": "Zuid"
+},
+"Huis van de Wijk Het Anker": {
+"lat": 52.3442,
+"lon": 4.90628,
 "q": "name",
 "area": "Zuid"
 },
@@ -3096,6 +3219,18 @@
 "lon": 4.88166,
 "q": "name",
 "area": "Zuid"
+},
+"Huis van de Wijk de Pijp": {
+"lat": 52.3442,
+"lon": 4.90628,
+"q": "name",
+"area": "Zuid"
+},
+"Huiskamer van Hebron": {
+"lat": 52.37382,
+"lon": 4.94926,
+"q": "name",
+"area": "Oost"
 },
 "HvdW Buitenveldert": {
 "lat": 52.32832,
@@ -3640,6 +3775,12 @@
 "q": "name",
 "area": "Zuid"
 },
+"Lopikhof": {
+"lat": 52.3084,
+"lon": 4.98598,
+"q": "name",
+"area": "Zuidoost"
+},
 "Lotti's Bar @ The Hoxton": {
 "skip": true,
 "q": "not found"
@@ -3752,6 +3893,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Marineterrein, Kattenburgerstraat 5 - Gebouw 027 S": {
+"lat": 52.37254,
+"lon": 4.91777,
+"q": "name",
+"area": "Centrum"
+},
 "Markt Buikslotermeerplein": {
 "lat": 52.39914,
 "lon": 4.93755,
@@ -3787,6 +3934,10 @@
 "lon": 4.91328,
 "q": "name",
 "area": "Centrum"
+},
+"Meerdere locaties": {
+"skip": true,
+"q": "not found"
 },
 "Meervaart": {
 "lat": 52.35895,
@@ -3885,6 +4036,10 @@
 "lon": 4.92928,
 "q": "name",
 "area": "Noord"
+},
+"Monument ‘de Fenix’ Kamperfoelieweg": {
+"skip": true,
+"q": "not found"
 },
 "Mooie Boules Amsterdam West": {
 "lat": 52.39745,
@@ -4102,6 +4257,12 @@
 "q": "name",
 "area": "Zuid"
 },
+"New Wave Hub": {
+"lat": 52.39858,
+"lon": 4.85103,
+"q": "name",
+"area": "West"
+},
 "Newion Investments B.V.": {
 "skip": true,
 "q": "not found"
@@ -4153,6 +4314,10 @@
 "area": "Oost"
 },
 "Nisa for Nisa": {
+"skip": true,
+"q": "not found"
+},
+"No LIMIT": {
 "skip": true,
 "q": "not found"
 },
@@ -4268,6 +4433,12 @@
 "q": "name",
 "area": "Nieuw-West"
 },
+"OBA Spaarndammerbuurt": {
+"lat": 52.38891,
+"lon": 4.88,
+"q": "name",
+"area": "West"
+},
 "OCCII": {
 "lat": 52.35434,
 "lon": 4.85534,
@@ -4355,6 +4526,9 @@
 "Online": {
 "skip": true
 },
+"Online (link volgt na aanmelding)": {
+"skip": true
+},
 "Oosterbar": {
 "skip": true,
 "q": "not found"
@@ -4368,6 +4542,12 @@
 "Oosterkerk Concert Hall": {
 "skip": true,
 "q": "not found"
+},
+"Oostpoort, Oranje-Vrijstaatplein": {
+"lat": 52.3566,
+"lon": 4.9306,
+"q": "name",
+"area": "Oost"
 },
 "Op de brug": {
 "lat": 52.35546,
@@ -4663,6 +4843,12 @@
 "q": "name",
 "area": "Noord"
 },
+"Podium Genieten": {
+"lat": 52.35663,
+"lon": 4.93104,
+"q": "name",
+"area": "Oost"
+},
 "Podium Mozaïek": {
 "lat": 52.38015,
 "lon": 4.85435,
@@ -4797,6 +4983,10 @@
 "skip": true,
 "q": "not found"
 },
+"QueerHub (meest rechterdeur)": {
+"skip": true,
+"q": "not found"
+},
 "QueerHub Nieuw-West": {
 "lat": 52.35843,
 "lon": 4.80619,
@@ -4896,6 +5086,10 @@
 "area": "Centrum"
 },
 "Reguliersbreestraat 31": {
+"skip": true,
+"q": "not found"
+},
+"Remijdenflat": {
 "skip": true,
 "q": "not found"
 },
@@ -5017,6 +5211,10 @@
 "q": "name",
 "area": "Nieuw-West"
 },
+"Ru Paré / SAAAM/ Da Vinci": {
+"skip": true,
+"q": "not found"
+},
 "Ruby Emma Hotel & Bar": {
 "lat": 52.33825,
 "lon": 4.92098,
@@ -5050,6 +5248,10 @@
 "q": "not found"
 },
 "S-Bahn": {
+"skip": true,
+"q": "not found"
+},
+"SAAAM": {
 "skip": true,
 "q": "not found"
 },
@@ -5425,6 +5627,12 @@
 "q": "name",
 "area": "Zuid"
 },
+"Stadhuis": {
+"lat": 52.36768,
+"lon": 4.90252,
+"q": "name",
+"area": "Centrum"
+},
 "Stadhuis - Willem Kraanzaal": {
 "skip": true,
 "q": "not found"
@@ -5446,6 +5654,12 @@
 "lon": 4.87134,
 "q": "name",
 "area": "Zuid"
+},
+"Stadsdeelkantoor Zuidoost": {
+"lat": 52.31482,
+"lon": 4.96023,
+"q": "name",
+"area": "Zuidoost"
 },
 "Stadsloket Oost": {
 "lat": 52.35675,
@@ -6090,6 +6304,10 @@
 "q": "name",
 "area": "Noord"
 },
+"The Village": {
+"skip": true,
+"q": "not found"
+},
 "The Workout Lab De Pijp": {
 "lat": 52.35523,
 "lon": 4.89233,
@@ -6179,6 +6397,10 @@
 "area": "West"
 },
 "Tilla Tec": {
+"skip": true,
+"q": "not found"
+},
+"Toekomsthuis WG": {
 "skip": true,
 "q": "not found"
 },
@@ -6322,6 +6544,10 @@
 "skip": true,
 "q": "not found"
 },
+"Valkenburgerstraat 24": {
+"skip": true,
+"q": "not found"
+},
 "Van Eesteren Museum": {
 "lat": 52.37301,
 "lon": 4.82625,
@@ -6376,6 +6602,12 @@
 "q": "addr",
 "area": "West"
 },
+"Vereniging de Noorderspeeltuin": {
+"lat": 52.33336,
+"lon": 4.85439,
+"q": "name",
+"area": "Zuid"
+},
 "Vermeers Wijnkamer": {
 "skip": true,
 "q": "not found"
@@ -6389,6 +6621,12 @@
 "Veronicaschip": {
 "skip": true,
 "q": "not found"
+},
+"Verpleeghuis Het Schouw": {
+"lat": 52.39906,
+"lon": 4.94496,
+"q": "name",
+"area": "Noord"
 },
 "Vers aan de Vecht": {
 "lat": 52.31618,
@@ -6411,6 +6649,12 @@
 "lon": 4.88724,
 "q": "name",
 "area": "Centrum"
+},
+"Verzamelpunt: Café Vertigo (Vondelpark)": {
+"lat": 52.36101,
+"lon": 4.87488,
+"q": "name",
+"area": "West"
 },
 "Verzetsmuseum Amsterdam": {
 "lat": 52.36781,
@@ -6482,6 +6726,10 @@
 "q": "name",
 "area": "Zuid"
 },
+"Vrachtwagenbioscoop + plaza Tuinstadhuis": {
+"skip": true,
+"q": "not found"
+},
 "Vrankrijk": {
 "lat": 52.37169,
 "lon": 4.88922,
@@ -6515,6 +6763,10 @@
 "lon": 4.92689,
 "q": "name",
 "area": "Noord"
+},
+"Vrouw aan het IJ (vrouwen- en meidencentrum)": {
+"skip": true,
+"q": "not found"
 },
 "Vrouw aan het IJ, vouwen- en meidencentrum": {
 "skip": true,
@@ -6616,6 +6868,18 @@
 "q": "name",
 "area": "Centrum"
 },
+"Waterlooplein Amstel 1 (voor het stadhuis)": {
+"lat": 52.36663,
+"lon": 4.90361,
+"q": "name",
+"area": "Centrum"
+},
+"Watertoren": {
+"lat": 52.33839,
+"lon": 4.91628,
+"q": "name",
+"area": "Oost"
+},
 "Weesperzijde 1046-A": {
 "skip": true,
 "q": "not found"
@@ -6637,6 +6901,12 @@
 "lon": 4.89173,
 "q": "name",
 "area": "Centrum"
+},
+"West Kleedt Aan": {
+"lat": 52.3728,
+"lon": 4.85938,
+"q": "name",
+"area": "West"
 },
 "WestWeelde": {
 "lat": 52.38713,
@@ -6932,6 +7202,12 @@
 "q": "name",
 "area": "Nieuw-West"
 },
+"in- Station Amsterdam CS": {
+"lat": 52.36093,
+"lon": 4.93324,
+"q": "name",
+"area": "Oost"
+},
 "ingang": {
 "lat": 52.37708,
 "lon": 4.90165,
@@ -6969,6 +7245,10 @@
 "lon": 4.89096,
 "q": "name",
 "area": "Zuid"
+},
+"op het Spuiplein (het Lieverdje)": {
+"skip": true,
+"q": "not found"
 },
 "pos (possibilities open studio)": {
 "skip": true,
@@ -7027,6 +7307,10 @@
 "area": "West"
 },
 "‘45 Amsterdam": {
+"skip": true,
+"q": "not found"
+},
+"“Mi na Mi” Herstel Centrum/Het Zandkasteel": {
 "skip": true,
 "q": "not found"
 }
