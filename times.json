@@ -4301,6 +4301,23 @@
 },
 "chk": "2026-11-17"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/imago": {
+"dates": {
+"2026-11-27": {
+"h": "10:15",
+"eh": "12:14"
+},
+"2026-12-01": {
+"h": "11:00",
+"eh": "12:59"
+},
+"2026-12-02": {
+"h": "10:45",
+"eh": "12:44"
+}
+},
+"chk": "2026-11-25"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/jimmy-nelson": {
 "dates": {
 "2026-11-12": {
@@ -4548,6 +4565,15 @@
 }
 },
 "chk": "2026-10-14"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/o-kom-er-eens-kijken": {
+"dates": {
+"2026-12-02": {
+"h": "14:00",
+"eh": "14:45"
+}
+},
+"chk": "2026-11-25"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/oersoep": {
 "dates": {

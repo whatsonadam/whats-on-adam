@@ -433,6 +433,12 @@
 "q": "name",
 "area": "Zuidoost"
 },
+"Appie Gallery": {
+"lat": 52.38237,
+"lon": 4.85528,
+"q": "name",
+"area": "West"
+},
 "Arcam, het Architectuurcentrum van Amsterdam": {
 "skip": true,
 "q": "not found"
@@ -761,6 +767,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Beeld & Geluid": {
+"lat": 52.35949,
+"lon": 4.8507,
+"q": "name",
+"area": "West"
+},
 "Beest Boulders Amsterdam": {
 "lat": 52.38167,
 "lon": 4.85938,
@@ -951,6 +963,10 @@
 "skip": true,
 "q": "not found"
 },
+"Bonbon theater": {
+"skip": true,
+"q": "not found"
+},
 "Boom Chicago": {
 "lat": 52.37281,
 "lon": 4.87901,
@@ -1002,6 +1018,12 @@
 "lon": 4.83676,
 "q": "name",
 "area": "Nieuw-West"
+},
+"Breugem Meeting Point": {
+"lat": 52.39366,
+"lon": 4.86744,
+"q": "name",
+"area": "West"
 },
 "Broedplaats Lutmaak": {
 "lat": 52.36043,
@@ -6347,6 +6369,10 @@
 "lon": 4.88049,
 "area": "Centrum",
 "q": "manual: Leidsekade 90-1, 1017PN Amsterdam"
+},
+"Theater Bellevue, CC Amstel, de Brakke Grond & Meervaart": {
+"skip": true,
+"q": "not found"
 },
 "Theater De Krakeling": {
 "lat": 52.38615,
