@@ -1415,7 +1415,7 @@ function srcView(D){
   draw();
 }
 
-const XICON='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square" aria-hidden="true"><rect x="3" y="5" width="18" height="16"/><path d="M3 10h18M8 3v4M16 3v4M12 13v5M9.5 15.5h5"/></svg>'; let XEV=null; fetch('events.json').then(r=>r.json()).then(D=>{XEV={};D.events.filter(e=>e.c==='exhibition').forEach(e=>XEV[e.t]=e)});
+const XICON='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square" aria-hidden="true"><rect x="3" y="5" width="18" height="16"/><path d="M3 10h18M8 3v4M16 3v4M12 13v5M9.5 15.5h5"/></svg>'; let VH={}; fetch('venue_hours.json').then(r=>r.ok?r.json():{}).then(j=>{VH=j}).catch(()=>{}); let XEV=null; fetch('events.json').then(r=>r.json()).then(D=>{XEV={};D.events.filter(e=>e.c==='exhibition').forEach(e=>XEV[e.t]=e)});
 function xcal(){
   document.querySelectorAll('#exlist .ev.xr').forEach(r=>{ if(r.dataset.xc) return; r.dataset.xc=1; const w=r.querySelector('.act.want'); if(!w) return;
     const b=document.createElement('button'); b.type='button'; b.className='ib cal xcal'; b.title='Add to calendar'; b.setAttribute('aria-label','Add to calendar'); b.innerHTML=XICON; const wr=document.createElement('span'); wr.className='xacts'; w.replaceWith(wr); wr.append(w,b);
@@ -1427,10 +1427,12 @@ function openX(r,b){
   let p=document.getElementById('xpop'); if(!p){p=document.createElement('div');p.id='xpop';document.body.appendChild(p);document.addEventListener('click',e=>{if(!e.target.closest('#xpop,.xcal'))p.style.display='none'});}
   const link=r.querySelector('.tt'), name=link.textContent, ev=(XEV&&XEV[name])||{};
   const days=[]; const base=new Date(); base.setHours(12,0,0,0); for(let i=0;i<7;i++){const d=new Date(base.getTime()+i*864e5);days.push('<option>'+(i===0?'Today':i===1?'Tomorrow':d.toLocaleDateString('en-GB',{weekday:'long',day:'numeric',month:'short'}))+'</option>')}
-  const known=ev.h&&ev.eh; const times=[];for(let h=9;h<=20;h++)['00','30'].forEach(m=>times.push((h<10?'0':'')+h+':'+m));
+  const WD=['sun','mon','tue','wed','thu','fri','sat'], vh=VH[ev.v]||null; const hrsFor=i=>{ if(!vh) return null; const d=new Date(base.getTime()+i*864e5), v=vh[WD[d.getDay()]]; return v?(v==='closed'?'Closed on '+d.toLocaleDateString('en-GB',{weekday:'long'})+'s':'Open <b>'+v.replace('-',' to ')+'</b>'):null; };
+  const known=(ev.h&&ev.eh)||hrsFor(0); const times=[];for(let h=9;h<=20;h++)['00','30'].forEach(m=>times.push((h<10?'0':'')+h+':'+m));
   const def=known?(ev.h.slice(0,5)):'14:00';
-  p.innerHTML='<b class="n">'+name+'</b>'+(known?'<div class="hrs">Open <b>'+ev.h+' to '+ev.eh+'</b></div>':'<div class="hrs no">Opening hours are not in our sources yet. <a href="'+link.href+'" target="_blank" rel="noopener">Check the listing</a></div>')+
+  p.innerHTML='<b class="n">'+name+'</b>'+(known?'<div class="hrs">'+((ev.h&&ev.eh)?'Open <b>'+ev.h+' to '+ev.eh+'</b>':hrsFor(0))+'</div>':'<div class="hrs no">Opening hours are not in our sources yet. <a href="'+link.href+'" target="_blank" rel="noopener">Check the listing</a></div>')+
    '<label>Day<select>'+days.join('')+'</select></label><label>Arrive<select>'+times.map(t=>'<option'+(t===def?' selected':'')+'>'+t+'</option>').join('')+'</select></label><button type="button" class="go">Add to calendar</button>';
+  if(!(ev.h&&ev.eh)&&vh){ const hr=p.querySelector('.hrs'), ds=p.querySelector('select'); ds.onchange=()=>{ const t=hrsFor(ds.selectedIndex); hr.className='hrs'+(t?'':' no'); hr.innerHTML=t||'Hours for this day are not listed. <a href="'+(vh.src||link.href)+'" target="_blank" rel="noopener">Check the venue</a>'+(vh.note?'':''); }; }
   p.querySelector('.go').onclick=()=>{ const sel=p.querySelectorAll('select'); const di=sel[0].selectedIndex, tm=sel[1].value; const d=new Date(base.getTime()+di*864e5); const iso=d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); const s=amsUtc(iso,tm); const dur=ev.eh&&ev.h?Math.max(1,(parseInt(ev.eh)-parseInt(ev.h))):2; const e2=new Date(s.getTime()+Math.min(dur,3)*3600e3); const zz=x=>x.toISOString().slice(0,19)+'Z'; const q=new URLSearchParams({subject:name,location:(ev.v?ev.v+', ':'')+'Amsterdam',description:'More info: '+(ev.u||link.href),reminder:'60',dtstart:zz(s),dtend:zz(e2)}); window.open('https://ics.agical.io/?'+q.toString(),'_blank','noopener'); p.style.display='none'; };
   p.style.display='grid'; const q=b.getBoundingClientRect(); let l=Math.min(innerWidth-264,Math.max(8,q.right-256)), t=q.bottom+6; if(t+240>innerHeight) t=Math.max(8,q.top-246); p.style.left=l+'px'; p.style.top=t+'px';
 }
