@@ -2117,6 +2117,12 @@
 "q": "name",
 "area": "West"
 },
+"De Nieuwe Anita (café)": {
+"lat": 52.37416,
+"lon": 4.87269,
+"q": "name",
+"area": "West"
+},
 "De Nieuwe Kerk Amsterdam": {
 "lat": 52.31902,
 "lon": 4.96841,
@@ -4499,6 +4505,12 @@
 "q": "name",
 "area": "Oost"
 },
+"OBA Bos en Lommer": {
+"lat": 52.37877,
+"lon": 4.85123,
+"q": "name",
+"area": "West"
+},
 "OBA Javaplein": {
 "lat": 52.36418,
 "lon": 4.93883,
@@ -4722,6 +4734,10 @@
 "lon": 4.88134,
 "q": "name",
 "area": "Centrum"
+},
+"PIATTINI": {
+"skip": true,
+"q": "not found"
 },
 "PRIK": {
 "lat": 52.37471,
