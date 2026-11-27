@@ -284,6 +284,11 @@
 "eh": "17:00",
 "chk": "2026-10-18"
 },
+"https://marineterrein.nl/agenda/workshop-fermenteren-met-edwin-flores": {
+"h": "11:00",
+"eh": "15:00",
+"chk": "2026-11-27"
+},
 "https://parallel.am/programme/antidoto-ade": {
 "h": "17:00",
 "eh": "23:00",
@@ -540,7 +545,7 @@
 },
 "https://radion.amsterdam/program/vault-sessions-x-bassiani-wkndr/": {
 "none": true,
-"chk": "2026-11-19"
+"chk": "2026-11-27"
 },
 "https://radion.amsterdam/program/void-by-orphic/": {
 "h": "20:00",
@@ -768,7 +773,7 @@
 },
 "https://tolhuistuin.nl/en/events/de-danskamer-25": {
 "none": true,
-"chk": "2026-11-19"
+"chk": "2026-11-27"
 },
 "https://tolhuistuin.nl/en/events/de-danskamer-25?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
 "none": true,
@@ -1414,7 +1419,7 @@
 },
 "https://tolhuistuin.nl/en/events/one-fine-mess-12": {
 "none": true,
-"chk": "2026-11-19"
+"chk": "2026-11-27"
 },
 "https://tolhuistuin.nl/en/events/one-fine-mess-12?x-craft-preview=dcdf9298ee604684e504738816aa46a4794260fd872340dae81f3cc5613f3aabwmplfhqzjw": {
 "none": true,
@@ -1422,7 +1427,7 @@
 },
 "https://tolhuistuin.nl/en/events/one-fine-mess-13": {
 "none": true,
-"chk": "2026-11-19"
+"chk": "2026-11-27"
 },
 "https://tolhuistuin.nl/en/events/one-fine-mess-8": {
 "none": true,
@@ -2166,6 +2171,11 @@
 "h": "03:00",
 "chk": "2026-10-18"
 },
+"https://www.amsterdammuseum.nl/en/public-program/sam-julias-winterweekend/309484": {
+"h": "10:00",
+"eh": "15:00",
+"chk": "2026-11-27"
+},
 "https://www.amsterdammuseum.nl/en/public-program/samen-jarig/275778": {
 "h": "13:30",
 "eh": "16:30",
@@ -2204,6 +2214,10 @@
 "https://www.cinetol.nl/events/beaks": {
 "h": "20:00",
 "chk": "2026-10-20"
+},
+"https://www.cinetol.nl/events/bianca-steck": {
+"h": "21:00",
+"chk": "2026-11-27"
 },
 "https://www.cinetol.nl/events/bug-teeth": {
 "h": "21:00",
@@ -2401,6 +2415,10 @@
 "h": "20:00",
 "chk": "2026-10-13"
 },
+"https://www.cinetol.nl/events/newbies3": {
+"h": "20:00",
+"chk": "2026-11-27"
+},
 "https://www.cinetol.nl/events/nick-kruit": {
 "h": "19:30",
 "chk": "2026-10-11"
@@ -2472,6 +2490,10 @@
 "https://www.cinetol.nl/events/shaking-hand": {
 "h": "20:30",
 "chk": "2026-10-11"
+},
+"https://www.cinetol.nl/events/sieps-cabaret-night": {
+"h": "21:00",
+"chk": "2026-11-27"
 },
 "https://www.cinetol.nl/events/sign-this-3": {
 "h": "20:30",
@@ -2564,6 +2586,11 @@
 "eh": "19:00",
 "chk": "2026-10-28"
 },
+"https://www.dehallen-amsterdam.nl/en/agenda/grid-noize---movement-study-on-mental-health": {
+"h": "20:00",
+"eh": "21:15",
+"chk": "2026-11-27"
+},
 "https://www.dehallen-amsterdam.nl/en/agenda/halloween": {
 "none": true,
 "chk": "2026-10-29"
@@ -2587,6 +2614,11 @@
 "h": "12:00",
 "eh": "16:00",
 "chk": "2026-10-18"
+},
+"https://www.dehallen-amsterdam.nl/en/agenda/palestine-design-market": {
+"h": "12:00",
+"eh": "17:00",
+"chk": "2026-11-27"
 },
 "https://www.dehallen-amsterdam.nl/en/agenda/palestinian-historic-funky-brunch": {
 "h": "11:00",
@@ -2633,6 +2665,11 @@
 "eh": "15:00",
 "chk": "2026-10-23"
 },
+"https://www.dehallen-amsterdam.nl/en/agenda/the-maker-market-nov-zat": {
+"h": "11:00",
+"eh": "17:00",
+"chk": "2026-11-27"
+},
 "https://www.dehallen-amsterdam.nl/en/agenda/vintage-markt-door-block-market": {
 "h": "11:00",
 "eh": "18:00",
@@ -2652,6 +2689,11 @@
 "h": "13:00",
 "eh": "15:30",
 "chk": "2026-11-12"
+},
+"https://www.dehallen-amsterdam.nl/en/agenda/wondere-woensdagen-workshops-5---motherhood-amsterdam-8": {
+"h": "13:00",
+"eh": "15:30",
+"chk": "2026-11-27"
 },
 "https://www.iamsterdam.com/uit/agenda/attracties-en-bezienswaardigheden/tours/proefles-programmeren-robots-en-lego-voor-kinderen": {
 "dates": {
@@ -3393,6 +3435,14 @@
 },
 "chk": "2026-10-15"
 },
+"https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/tank-and-the-bangas": {
+"dates": {
+"2026-11-30": {
+"h": "19:30"
+}
+},
+"chk": "2026-11-27"
+},
 "https://www.iamsterdam.com/uit/agenda/concerten-en-muziek/concerten/tay-oskee": {
 "dates": {
 "2026-10-17": {
@@ -3858,6 +3908,19 @@
 }
 },
 "chk": "2026-10-11"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/boyhood": {
+"dates": {
+"2026-12-02": {
+"h": "10:30",
+"eh": "13:13"
+},
+"2026-12-07": {
+"h": "10:45",
+"eh": "13:28"
+}
+},
+"chk": "2026-11-27"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/buurman-and-buurman": {
 "dates": {
@@ -4414,6 +4477,19 @@
 },
 "chk": "2026-10-20"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/maas-theater-en-dans-acteursgroep-wunderbaum-en-nou-gaan-we-even-helemaal-uit-onze-plaat-een-topshow-6": {
+"dates": {
+"2027-01-20": {
+"h": "16:00",
+"eh": "17:15"
+},
+"2027-01-21": {
+"h": "10:00",
+"eh": "11:15"
+}
+},
+"chk": "2026-11-27"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/maeva-dolle-francofilia": {
 "dates": {
 "2026-10-23": {
@@ -4618,6 +4694,17 @@
 },
 "chk": "2026-10-13"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/peter-heerschop-lieve-marianne": {
+"dates": {
+"2027-01-17": {
+"h": "15:30"
+},
+"2027-01-19": {
+"h": "20:00"
+}
+},
+"chk": "2026-11-27"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/plan-d-en-2turvenhoog-festival-vilt-2": {
 "dates": {
 "2026-12-21": {
@@ -4793,6 +4880,19 @@
 },
 "chk": "2026-11-18"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/stand-up": {
+"dates": {
+"2026-11-30": {
+"h": "10:15",
+"eh": "12:01"
+},
+"2026-12-01": {
+"h": "12:30",
+"eh": "14:16"
+}
+},
+"chk": "2026-11-27"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/the-desert-of-the-real": {
 "dates": {
 "2026-10-29": {
@@ -4806,6 +4906,19 @@
 },
 "chk": "2026-10-28"
 },
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/the-devils-4k-restoration": {
+"dates": {
+"2026-11-30": {
+"h": "12:00",
+"eh": "13:55"
+},
+"2026-12-03": {
+"h": "12:20",
+"eh": "14:15"
+}
+},
+"chk": "2026-11-27"
+},
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/the-monster-trilogy": {
 "dates": {
 "2027-03-20": {
@@ -4818,6 +4931,19 @@
 }
 },
 "chk": "2026-11-25"
+},
+"https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/the-terminator-4k-restoration": {
+"dates": {
+"2026-12-04": {
+"h": "12:05",
+"eh": "13:52"
+},
+"2026-12-08": {
+"h": "10:05",
+"eh": "11:52"
+}
+},
+"chk": "2026-11-27"
 },
 "https://www.iamsterdam.com/uit/agenda/voorstellingen/theater-en-podiumkunsten/then-now-next": {
 "dates": {

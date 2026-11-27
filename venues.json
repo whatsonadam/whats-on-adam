@@ -745,6 +745,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Basement-Amsterdam": {
+"lat": 52.36443,
+"lon": 4.89793,
+"q": "name",
+"area": "Centrum"
+},
 "Basic-Fit Stadhouderskade": {
 "lat": 52.35797,
 "lon": 4.89045,
@@ -1593,6 +1599,12 @@
 "skip": true,
 "q": "not found"
 },
+"Circus Odessa": {
+"lat": 52.37451,
+"lon": 4.93765,
+"q": "name",
+"area": "Oost"
+},
 "City of Wesopa": {
 "lat": 52.30886,
 "lon": 5.03982,
@@ -2321,6 +2333,10 @@
 "q": "name",
 "area": "Zuid"
 },
+"Ding Dong gallery": {
+"skip": true,
+"q": "not found"
+},
 "Disclaimer G-Star RAW C.V": {
 "lat": 52.36821,
 "lon": 4.89157,
@@ -2452,6 +2468,12 @@
 "lon": 4.89704,
 "q": "name",
 "area": "Centrum"
+},
+"Elthetokerk": {
+"lat": 52.36361,
+"lon": 4.93718,
+"q": "name",
+"area": "Oost"
 },
 "Embassy of the Free Mind": {
 "lat": 52.37634,
@@ -2767,6 +2789,12 @@
 "q": "name",
 "area": "Noord"
 },
+"Gallery MAI Amsterdam": {
+"lat": 52.37548,
+"lon": 4.90153,
+"q": "name",
+"area": "Centrum"
+},
 "Ganbei Karaoke": {
 "skip": true,
 "q": "not found"
@@ -2797,6 +2825,12 @@
 "q": "name",
 "area": "Centrum"
 },
+"Geldersekade 14H": {
+"lat": 52.37527,
+"lon": 4.90184,
+"q": "name",
+"area": "Centrum"
+},
 "Gemeentehuis": {
 "skip": true,
 "q": "not found"
@@ -2810,6 +2844,12 @@
 "Generator Hostel Amsterdam": {
 "lat": 52.36096,
 "lon": 4.9187,
+"q": "name",
+"area": "Oost"
+},
+"Genieten": {
+"lat": 52.35663,
+"lon": 4.93104,
 "q": "name",
 "area": "Oost"
 },
@@ -3530,6 +3570,10 @@
 "q": "name",
 "area": "Centrum"
 },
+"Kamer HG-14A33, hoofdgebouw VU, De Boelelaan 1105, Amsterdam": {
+"skip": true,
+"q": "not found"
+},
 "Karavaan": {
 "lat": 52.3691,
 "lon": 4.87051,
@@ -3595,6 +3639,10 @@
 "lon": 4.91209,
 "q": "name",
 "area": "Noord"
+},
+"Kloveniersburgwal 47": {
+"skip": true,
+"q": "not found"
 },
 "Koepelkerk": {
 "lat": 52.37794,
@@ -3766,6 +3814,10 @@
 "area": "Noord"
 },
 "Lineausstraat 112, vlakbij Jumbo supermarkt": {
+"skip": true,
+"q": "not found"
+},
+"Linnaeusstraat 237": {
 "skip": true,
 "q": "not found"
 },
@@ -4212,6 +4264,12 @@
 "area": "Noord"
 },
 "NDSM Warehouse": {
+"lat": 52.40037,
+"lon": 4.89295,
+"q": "name",
+"area": "Noord"
+},
+"NDSM-werf": {
 "lat": 52.40037,
 "lon": 4.89295,
 "q": "name",
@@ -5687,6 +5745,10 @@
 "q": "name",
 "area": "Centrum"
 },
+"Stadscafe": {
+"skip": true,
+"q": "not found"
+},
 "Stadsdeelkantoor Zuid": {
 "lat": 52.33872,
 "lon": 4.87134,
@@ -6092,6 +6154,12 @@
 "skip": true,
 "q": "not found"
 },
+"Taalhuis Amsterdam": {
+"lat": 52.35673,
+"lon": 4.89686,
+"q": "name",
+"area": "Zuid"
+},
 "Taets Art and Event Park": {
 "skip": true,
 "q": "not found"
@@ -6371,6 +6439,10 @@
 "q": "manual: Leidsekade 90-1, 1017PN Amsterdam"
 },
 "Theater Bellevue, CC Amstel, de Brakke Grond & Meervaart": {
+"skip": true,
+"q": "not found"
+},
+"Theater Bellevue, CC Amstel, de Brakke Grond & Meervaart,": {
 "skip": true,
 "q": "not found"
 },
@@ -7249,6 +7321,12 @@
 "lon": 4.77996,
 "q": "name",
 "area": "Nieuw-West"
+},
+"in- Station Amsterdam": {
+"lat": 52.36093,
+"lon": 4.93324,
+"q": "name",
+"area": "Oost"
 },
 "in- Station Amsterdam CS": {
 "lat": 52.36093,
